@@ -27,15 +27,8 @@ def to_elm(node):
     )
 
 
-contents = """module Heroicons.{} exposing (..)
-
-import Html exposing (Html)
-import Svg exposing (Attribute, svg)
-import Svg.Attributes exposing (..)
-
-""".format(
-    module_name
-)
+source_code = ""
+funcs = []
 
 for svg_file in sys.argv[2:]:
     with open(svg_file, "rb") as file_in:
@@ -57,9 +50,19 @@ for svg_file in sys.argv[2:]:
     {body}
 
 """
-    contents += template.format(
+    source_code += template.format(
         func=func_name, body=to_elm(tree.getroot()), name=icon_name, icon=b64
     )
+    funcs.append(func_name)
 
 with open("{}.elm".format(module_name), "w") as file_out:
-    file_out.write(contents)
+    top_of_file = """module Heroicons.{} exposing ({})
+
+import Html exposing (Html)
+import Svg exposing (Attribute, svg)
+import Svg.Attributes exposing (..)
+
+""".format(
+        module_name, ", ".join(funcs)
+    )
+    file_out.write(top_of_file + source_code)
