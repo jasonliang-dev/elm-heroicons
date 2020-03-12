@@ -56,13 +56,19 @@ for svg_file in sys.argv[2:]:
     funcs.append(func_name)
 
 with open("{}.elm".format(module_name), "w") as file_out:
-    top_of_file = """module Heroicons.{} exposing ({})
+    top_of_file = """module Heroicons.{} exposing ({funcs})
+
+{{-|
+# Heroicons
+
+@docs {funcs}
+-}}
 
 import Html exposing (Html)
 import Svg exposing (Attribute, svg)
 import Svg.Attributes exposing (..)
 
 """.format(
-        module_name, ", ".join(funcs)
+        module_name, funcs=", ".join(funcs)
     )
     file_out.write(top_of_file + source_code)
