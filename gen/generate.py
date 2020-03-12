@@ -1,6 +1,7 @@
 import base64
 import os.path
 import sys
+import copy
 import xml.etree.ElementTree as ET
 
 from attr_lookup import svg_attrs
@@ -31,9 +32,6 @@ source_code = ""
 funcs = []
 
 for svg_file in sys.argv[2:]:
-    with open(svg_file, "rb") as file_in:
-        b64 = base64.b64encode(file_in.read())
-
     tree = ET.parse(svg_file)
     icon_name = os.path.basename(svg_file).replace(".svg", "")
     first, *rest = icon_name.split("-")
@@ -50,8 +48,15 @@ for svg_file in sys.argv[2:]:
     {body}
 
 """
+
+    modded_tree = copy.deepcopy(tree).getroot()
+    modded_tree.attrib["xmlns"] = "http://www.w3.org/2000/svg"
+    modded_tree.attrib["width"] = "24"
+    modded_tree.attrib["height"] = "24"
+    as_b64 = base64.b64encode(ET.tostring(modded_tree)).decode('utf-8')
+
     source_code += template.format(
-        func=func_name, body=to_elm(tree.getroot()), name=icon_name, icon=b64
+        func=func_name, body=to_elm(tree.getroot()), name=icon_name, icon=as_b64
     )
     funcs.append(func_name)
 
