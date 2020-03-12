@@ -16,20 +16,20 @@ elm install elm/svg
 
 ```elm
 import Html exposing (Html, a, text)
-import Html.Attributes exposing (class, href)
-import Svg.Attributes as SvgAttrs
-import Heroicons.Solid as SolidIcon
+import Html.Attributes exposing (class, href, style)
+import Heroicons.Solid exposing (externalLink)
 
 
 externalLinkButton : String -> String -> Html msg
 externalLinkButton link content =
     a [ class "external-link-button", href link ]
         [ text content
-        , SolidIcon.externalLink [ SvgAttrs.class "width-sm" ]
+        , externalLink [ style "width" "2rem", style "color" "blue" ]
         ]
 ```
 
-Use `Svg.Attributes` for the icons. Do not use `Html.Attributes`:
+When styling with classes, use `Svg.Attributes.class` for the icons. Do not use
+`Html.Attributes.class`:
 
 ```elm
 import Html.Attributes exposing (class)
@@ -38,11 +38,11 @@ import Heroicons.Solid
 
 
 -- INCORRECT
-Heroicons.Solid.mail [ class "width-sm" ]
+Heroicons.Solid.mail [ class "icon" ]
 
 
 -- CORRECT
-Heroicons.Solid.mail [ Svg.Attributes.class "width-sm" ]
+Heroicons.Solid.mail [ Svg.Attributes.class "icon" ]
 ```
 
 If you don't want to import `Svg.Attributes`, you can leave the attribute list
@@ -53,5 +53,5 @@ import Html exposing (span)
 import Html.Attributes exposing (class)
 import Heroicons.Outline
 
-span [ class "inline-block width-sm" ] [ Heroicons.Outline.userAdd [] ]
+span [ class "inline-block icon" ] [ Heroicons.Outline.userAdd [] ]
 ```
