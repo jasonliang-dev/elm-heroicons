@@ -9,18 +9,17 @@ from attr_lookup import svg_attrs
 module_name = sys.argv[1]
 
 
+def to_attr(xml_attr):
+    name, value = xml_attr
+    return '{} "{}"'.format(svg_attrs.get(name, name), value)
+
+
 def to_elm(node):
     attr_sep, attr_format = (
         (" :: ", "({} :: attrs)") if node.tag == "svg" else (", ", "[{}]")
     )
 
-    attrs = attr_sep.join(
-        map(
-            lambda a: '{} "{}"'.format(svg_attrs.get(a[0], a[0]), a[1]),
-            node.attrib.items(),
-        )
-    )
-
+    attrs = attr_sep.join(map(to_attr, node.attrib.items(),))
     children = ", ".join(map(to_elm, node))
 
     return ("{} " + attr_format + " [{}]").format(
@@ -28,15 +27,18 @@ def to_elm(node):
     )
 
 
+def node_to_b64(tree):
+    tree_cpy = copy.deepcopy(tree).getroot()
+    tree_cpy.attrib["xmlns"] = "http://www.w3.org/2000/svg"
+    tree_cpy.attrib["width"] = "24"
+    tree_cpy.attrib["height"] = "24"
+    return base64.b64encode(ET.tostring(tree_cpy)).decode("utf-8")
+
+
 source_code = ""
 funcs = []
 
 for svg_file in sys.argv[2:]:
-    tree = ET.parse(svg_file)
-    icon_name = os.path.basename(svg_file).replace(".svg", "")
-    first, *rest = icon_name.split("-")
-    func_name = first + "".join(word.capitalize() for word in rest)
-
     template = """
 {{-| {name}
 
@@ -49,14 +51,16 @@ for svg_file in sys.argv[2:]:
 
 """
 
-    modded_tree = copy.deepcopy(tree).getroot()
-    modded_tree.attrib["xmlns"] = "http://www.w3.org/2000/svg"
-    modded_tree.attrib["width"] = "24"
-    modded_tree.attrib["height"] = "24"
-    as_b64 = base64.b64encode(ET.tostring(modded_tree)).decode('utf-8')
+    tree = ET.parse(svg_file)
+    icon_name = os.path.basename(svg_file).replace(".svg", "")
+    first, *rest = icon_name.split("-")
+    func_name = first + "".join(word.capitalize() for word in rest)
 
     source_code += template.format(
-        func=func_name, body=to_elm(tree.getroot()), name=icon_name, icon=as_b64
+        func=func_name,
+        body=to_elm(tree.getroot()),
+        name=icon_name,
+        icon=node_to_b64(tree),
     )
     funcs.append(func_name)
 
