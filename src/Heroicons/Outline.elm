@@ -1,11 +1,11 @@
-module Heroicons.Outline exposing (adjustments, annotation, archive, arrowCircleDown, arrowCircleLeft, arrowCircleRight, arrowCircleUp, arrowDown, arrowLeft, arrowNarrowDown, arrowNarrowLeft, arrowNarrowRight, arrowNarrowUp, arrowRight, arrowUp, atSymbol, bell, bookmark, bookOpen, briefcase, calendar, camera, cash, chartPie, chat, checkCircle, check, cheveronDown, cheveronLeft, cheveronRight, cheveronUp, clipboardCheck, clipboardCopy, clipboardList, clipboard, clock, cloudDownload, cloudUpload, code, cog, collection, colorSwatch, creditCard, currencyDollar, currencyEuro, currencyPound, currencyRupee, currencyYen, documentAdd, documentDownload, documentDuplicate, documentRemove, document, dotsCircleHorizontal, dotsHorizontal, dotsVertical, download, duplicate, emojiHappy, emojiSad, exclamationCircle, exclamation, externalLink, eye, filter, flag, folder, globeAlt, globe, hashtag, heart, home, inboxIn, inbox, informationCircle, lightBulb, lightningBolt, link, locationMarker, lockClosed, lockOpen, mailOpen, mail, menuAlt1, menuAlt2, menuAlt3, menuAlt4, menu, minusCircle, moon, officeBuilding, paperClip, pencilAlt, pencil, phoneIncoming, phoneOutgoing, phone, photograph, plusCircle, plus, printer, qrcode, questionMarkCircle, receiptRefund, refresh, reply, scale, search, selector, share, shieldCheck, shieldExclamation, sortAscending, sortDescending, sparkles, sun, switchHorizontal, switchVertical, tag, template, ticket, translate, trash, trendingDown, trendingUp, upload, userAdd, userCircle, userGroup, userRemove, users, user, viewBoards, viewList, volumeOff, volumeUp, xCircle, x, zoomIn, zoomOut)
+module Heroicons.Outline exposing (adjustments, annotation, archive, arrowCircleDown, arrowCircleLeft, arrowCircleRight, arrowCircleUp, arrowDown, arrowLeft, arrowNarrowDown, arrowNarrowLeft, arrowNarrowRight, arrowNarrowUp, arrowRight, arrowUp, atSymbol, badgeCheck, ban, bell, bookOpen, bookmark, briefcase, calendar, camera, cash, chartPie, chatAlt, chat, checkCircle, check, cheveronDown, cheveronLeft, cheveronRight, cheveronUp, clipboardCheck, clipboardCopy, clipboardList, clipboard, clock, cloudDownload, cloudUpload, code, cog, collection, colorSwatch, creditCard, currencyDollar, currencyEuro, currencyPound, currencyRupee, currencyYen, cursorClick, documentAdd, documentDownload, documentDuplicate, documentRemove, documentReport, document, dotsCircleHorizontal, dotsHorizontal, dotsVertical, download, duplicate, emojiHappy, emojiSad, exclamationCircle, exclamation, externalLink, eye, filter, flag, folder, globeAlt, globe, hashtag, heart, home, inboxIn, inbox, informationCircle, key, lightBulb, lightningBolt, link, locationMarker, lockClosed, lockOpen, logout, mailOpen, mail, menuAlt1, menuAlt2, menuAlt3, menuAlt4, menu, microphone, minusCircle, moon, officeBuilding, paperClip, pencilAlt, pencil, phoneIncoming, phoneOutgoing, phone, photograph, plusCircle, plus, printer, qrcode, questionMarkCircle, receiptRefund, refresh, reply, scale, search, selector, share, shieldCheck, shieldExclamation, shoppingCart, sortAscending, sortDescending, sparkles, speakerphone, sun, switchHorizontal, switchVertical, tag, template, ticket, translate, trash, trendingDown, trendingUp, upload, userAdd, userCircle, userGroup, userRemove, user, users, viewBoards, viewList, volumeOff, volumeUp, xCircle, x, zoomIn, zoomOut)
 
 {-|
 
 
 # Heroicons
 
-@docs adjustments, annotation, archive, arrowCircleDown, arrowCircleLeft, arrowCircleRight, arrowCircleUp, arrowDown, arrowLeft, arrowNarrowDown, arrowNarrowLeft, arrowNarrowRight, arrowNarrowUp, arrowRight, arrowUp, atSymbol, bell, bookmark, bookOpen, briefcase, calendar, camera, cash, chartPie, chat, checkCircle, check, cheveronDown, cheveronLeft, cheveronRight, cheveronUp, clipboardCheck, clipboardCopy, clipboardList, clipboard, clock, cloudDownload, cloudUpload, code, cog, collection, colorSwatch, creditCard, currencyDollar, currencyEuro, currencyPound, currencyRupee, currencyYen, documentAdd, documentDownload, documentDuplicate, documentRemove, document, dotsCircleHorizontal, dotsHorizontal, dotsVertical, download, duplicate, emojiHappy, emojiSad, exclamationCircle, exclamation, externalLink, eye, filter, flag, folder, globeAlt, globe, hashtag, heart, home, inboxIn, inbox, informationCircle, lightBulb, lightningBolt, link, locationMarker, lockClosed, lockOpen, mailOpen, mail, menuAlt1, menuAlt2, menuAlt3, menuAlt4, menu, minusCircle, moon, officeBuilding, paperClip, pencilAlt, pencil, phoneIncoming, phoneOutgoing, phone, photograph, plusCircle, plus, printer, qrcode, questionMarkCircle, receiptRefund, refresh, reply, scale, search, selector, share, shieldCheck, shieldExclamation, sortAscending, sortDescending, sparkles, sun, switchHorizontal, switchVertical, tag, template, ticket, translate, trash, trendingDown, trendingUp, upload, userAdd, userCircle, userGroup, userRemove, users, user, viewBoards, viewList, volumeOff, volumeUp, xCircle, x, zoomIn, zoomOut
+@docs adjustments, annotation, archive, arrowCircleDown, arrowCircleLeft, arrowCircleRight, arrowCircleUp, arrowDown, arrowLeft, arrowNarrowDown, arrowNarrowLeft, arrowNarrowRight, arrowNarrowUp, arrowRight, arrowUp, atSymbol, badgeCheck, ban, bell, bookOpen, bookmark, briefcase, calendar, camera, cash, chartPie, chatAlt, chat, checkCircle, check, cheveronDown, cheveronLeft, cheveronRight, cheveronUp, clipboardCheck, clipboardCopy, clipboardList, clipboard, clock, cloudDownload, cloudUpload, code, cog, collection, colorSwatch, creditCard, currencyDollar, currencyEuro, currencyPound, currencyRupee, currencyYen, cursorClick, documentAdd, documentDownload, documentDuplicate, documentRemove, documentReport, document, dotsCircleHorizontal, dotsHorizontal, dotsVertical, download, duplicate, emojiHappy, emojiSad, exclamationCircle, exclamation, externalLink, eye, filter, flag, folder, globeAlt, globe, hashtag, heart, home, inboxIn, inbox, informationCircle, key, lightBulb, lightningBolt, link, locationMarker, lockClosed, lockOpen, logout, mailOpen, mail, menuAlt1, menuAlt2, menuAlt3, menuAlt4, menu, microphone, minusCircle, moon, officeBuilding, paperClip, pencilAlt, pencil, phoneIncoming, phoneOutgoing, phone, photograph, plusCircle, plus, printer, qrcode, questionMarkCircle, receiptRefund, refresh, reply, scale, search, selector, share, shieldCheck, shieldExclamation, shoppingCart, sortAscending, sortDescending, sparkles, speakerphone, sun, switchHorizontal, switchVertical, tag, template, ticket, translate, trash, trendingDown, trendingUp, upload, userAdd, userCircle, userGroup, userRemove, user, users, viewBoards, viewList, volumeOff, volumeUp, xCircle, x, zoomIn, zoomOut
 
 -}
 
@@ -174,6 +174,26 @@ atSymbol attrs =
     svg (fill "none" :: viewBox "0 0 24 24" :: stroke "currentColor" :: attrs) [ Svg.path [ strokeLinecap "round", strokeLinejoin "round", strokeWidth "2", d "M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207" ] [] ]
 
 
+{-| badge-check
+
+![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJub25lIiBoZWlnaHQ9IjI0IiBzdHJva2U9ImN1cnJlbnRDb2xvciIgdmlld0JveD0iMCAwIDI0IDI0IiB3aWR0aD0iMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHBhdGggZD0iTTkgMTJsMiAyIDQtNE03LjgzNSA0LjY5N2EzLjQyIDMuNDIgMCAwMDEuOTQ2LS44MDYgMy40MiAzLjQyIDAgMDE0LjQzOCAwIDMuNDIgMy40MiAwIDAwMS45NDYuODA2IDMuNDIgMy40MiAwIDAxMy4xMzggMy4xMzggMy40MiAzLjQyIDAgMDAuODA2IDEuOTQ2IDMuNDIgMy40MiAwIDAxMCA0LjQzOCAzLjQyIDMuNDIgMCAwMC0uODA2IDEuOTQ2IDMuNDIgMy40MiAwIDAxLTMuMTM4IDMuMTM4IDMuNDIgMy40MiAwIDAwLTEuOTQ2LjgwNiAzLjQyIDMuNDIgMCAwMS00LjQzOCAwIDMuNDIgMy40MiAwIDAwLTEuOTQ2LS44MDYgMy40MiAzLjQyIDAgMDEtMy4xMzgtMy4xMzggMy40MiAzLjQyIDAgMDAtLjgwNi0xLjk0NiAzLjQyIDMuNDIgMCAwMTAtNC40MzggMy40MiAzLjQyIDAgMDAuODA2LTEuOTQ2IDMuNDIgMy40MiAwIDAxMy4xMzgtMy4xMzh6IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS13aWR0aD0iMiIgLz4KPC9zdmc+)
+
+-}
+badgeCheck : List (Attribute msg) -> Html msg
+badgeCheck attrs =
+    svg (fill "none" :: viewBox "0 0 24 24" :: stroke "currentColor" :: attrs) [ Svg.path [ strokeLinecap "round", strokeLinejoin "round", strokeWidth "2", d "M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" ] [] ]
+
+
+{-| ban
+
+![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJub25lIiBoZWlnaHQ9IjI0IiBzdHJva2U9ImN1cnJlbnRDb2xvciIgdmlld0JveD0iMCAwIDI0IDI0IiB3aWR0aD0iMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHBhdGggZD0iTTE4LjM2NCAxOC4zNjRBOSA5IDAgMDA1LjYzNiA1LjYzNm0xMi43MjggMTIuNzI4QTkgOSAwIDAxNS42MzYgNS42MzZtMTIuNzI4IDEyLjcyOEw1LjYzNiA1LjYzNiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBzdHJva2Utd2lkdGg9IjIiIC8+Cjwvc3ZnPg==)
+
+-}
+ban : List (Attribute msg) -> Html msg
+ban attrs =
+    svg (fill "none" :: viewBox "0 0 24 24" :: stroke "currentColor" :: attrs) [ Svg.path [ strokeLinecap "round", strokeLinejoin "round", strokeWidth "2", d "M18.364 18.364A9 9 0 005.636 5.636m12.728 12.728A9 9 0 015.636 5.636m12.728 12.728L5.636 5.636" ] [] ]
+
+
 {-| bell
 
 ![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJub25lIiBoZWlnaHQ9IjI0IiBzdHJva2U9ImN1cnJlbnRDb2xvciIgdmlld0JveD0iMCAwIDI0IDI0IiB3aWR0aD0iMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHBhdGggZD0iTTE1IDE3aDVsLTEuNDA1LTEuNDA1QTIuMDMyIDIuMDMyIDAgMDExOCAxNC4xNThWMTFhNi4wMDIgNi4wMDIgMCAwMC00LTUuNjU5VjVhMiAyIDAgMTAtNCAwdi4zNDFDNy42NyA2LjE2NSA2IDguMzg4IDYgMTF2My4xNTljMCAuNTM4LS4yMTQgMS4wNTUtLjU5NSAxLjQzNkw0IDE3aDVtNiAwdjFhMyAzIDAgMTEtNiAwdi0xbTYgMEg5IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS13aWR0aD0iMiIgLz4KPC9zdmc+)
@@ -184,16 +204,6 @@ bell attrs =
     svg (fill "none" :: viewBox "0 0 24 24" :: stroke "currentColor" :: attrs) [ Svg.path [ strokeLinecap "round", strokeLinejoin "round", strokeWidth "2", d "M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" ] [] ]
 
 
-{-| bookmark
-
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJub25lIiBoZWlnaHQ9IjI0IiBzdHJva2U9ImN1cnJlbnRDb2xvciIgdmlld0JveD0iMCAwIDI0IDI0IiB3aWR0aD0iMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHBhdGggZD0iTTUgNWEyIDIgMCAwMTItMmgxMGEyIDIgMCAwMTIgMnYxNmwtNy0zLjVMNSAyMVY1eiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBzdHJva2Utd2lkdGg9IjIiIC8+Cjwvc3ZnPg==)
-
--}
-bookmark : List (Attribute msg) -> Html msg
-bookmark attrs =
-    svg (fill "none" :: viewBox "0 0 24 24" :: stroke "currentColor" :: attrs) [ Svg.path [ strokeLinecap "round", strokeLinejoin "round", strokeWidth "2", d "M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" ] [] ]
-
-
 {-| book-open
 
 ![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJub25lIiBoZWlnaHQ9IjI0IiBzdHJva2U9ImN1cnJlbnRDb2xvciIgdmlld0JveD0iMCAwIDI0IDI0IiB3aWR0aD0iMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHBhdGggZD0iTTEyIDYuMjUzdjEzbTAtMTNDMTAuODMyIDUuNDc3IDkuMjQ2IDUgNy41IDVTNC4xNjggNS40NzcgMyA2LjI1M3YxM0M0LjE2OCAxOC40NzcgNS43NTQgMTggNy41IDE4czMuMzMyLjQ3NyA0LjUgMS4yNTNtMC0xM0MxMy4xNjggNS40NzcgMTQuNzU0IDUgMTYuNSA1YzEuNzQ3IDAgMy4zMzIuNDc3IDQuNSAxLjI1M3YxM0MxOS44MzIgMTguNDc3IDE4LjI0NyAxOCAxNi41IDE4Yy0xLjc0NiAwLTMuMzMyLjQ3Ny00LjUgMS4yNTMiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLXdpZHRoPSIyIiAvPgo8L3N2Zz4=)
@@ -202,6 +212,16 @@ bookmark attrs =
 bookOpen : List (Attribute msg) -> Html msg
 bookOpen attrs =
     svg (fill "none" :: viewBox "0 0 24 24" :: stroke "currentColor" :: attrs) [ Svg.path [ strokeLinecap "round", strokeLinejoin "round", strokeWidth "2", d "M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" ] [] ]
+
+
+{-| bookmark
+
+![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJub25lIiBoZWlnaHQ9IjI0IiBzdHJva2U9ImN1cnJlbnRDb2xvciIgdmlld0JveD0iMCAwIDI0IDI0IiB3aWR0aD0iMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHBhdGggZD0iTTUgNWEyIDIgMCAwMTItMmgxMGEyIDIgMCAwMTIgMnYxNmwtNy0zLjVMNSAyMVY1eiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBzdHJva2Utd2lkdGg9IjIiIC8+Cjwvc3ZnPg==)
+
+-}
+bookmark : List (Attribute msg) -> Html msg
+bookmark attrs =
+    svg (fill "none" :: viewBox "0 0 24 24" :: stroke "currentColor" :: attrs) [ Svg.path [ strokeLinecap "round", strokeLinejoin "round", strokeWidth "2", d "M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" ] [] ]
 
 
 {-| briefcase
@@ -252,6 +272,16 @@ cash attrs =
 chartPie : List (Attribute msg) -> Html msg
 chartPie attrs =
     svg (fill "none" :: viewBox "0 0 24 24" :: stroke "currentColor" :: attrs) [ Svg.path [ strokeLinecap "round", strokeLinejoin "round", strokeWidth "2", d "M11 3.055A9.001 9.001 0 1020.945 13H11V3.055z" ] [], Svg.path [ strokeLinecap "round", strokeLinejoin "round", strokeWidth "2", d "M20.488 9H15V3.512A9.025 9.025 0 0120.488 9z" ] [] ]
+
+
+{-| chat-alt
+
+![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJub25lIiBoZWlnaHQ9IjI0IiBzdHJva2U9ImN1cnJlbnRDb2xvciIgdmlld0JveD0iMCAwIDI0IDI0IiB3aWR0aD0iMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHBhdGggZD0iTTggMTBoLjAxTTEyIDEwaC4wMU0xNiAxMGguMDFNOSAxNkg1YTIgMiAwIDAxLTItMlY2YTIgMiAwIDAxMi0yaDE0YTIgMiAwIDAxMiAydjhhMiAyIDAgMDEtMiAyaC01bC01IDV2LTV6IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS13aWR0aD0iMiIgLz4KPC9zdmc+)
+
+-}
+chatAlt : List (Attribute msg) -> Html msg
+chatAlt attrs =
+    svg (fill "none" :: viewBox "0 0 24 24" :: stroke "currentColor" :: attrs) [ Svg.path [ strokeLinecap "round", strokeLinejoin "round", strokeWidth "2", d "M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" ] [] ]
 
 
 {-| chat
@@ -494,6 +524,16 @@ currencyYen attrs =
     svg (fill "none" :: viewBox "0 0 24 24" :: stroke "currentColor" :: attrs) [ Svg.path [ strokeLinecap "round", strokeLinejoin "round", strokeWidth "2", d "M9 8l3 5m0 0l3-5m-3 5v4m-3-5h6m-6 3h6m6-3a9 9 0 11-18 0 9 9 0 0118 0z" ] [] ]
 
 
+{-| cursor-click
+
+![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJub25lIiBoZWlnaHQ9IjI0IiBzdHJva2U9ImN1cnJlbnRDb2xvciIgdmlld0JveD0iMCAwIDI0IDI0IiB3aWR0aD0iMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHBhdGggZD0iTTE1IDE1bC0yIDVMOSA5bDExIDQtNSAyem0wIDBsNSA1TTcuMTg4IDIuMjM5bC43NzcgMi44OTdNNS4xMzYgNy45NjVsLTIuODk4LS43NzdNMTMuOTUgNC4wNWwtMi4xMjIgMi4xMjJtLTUuNjU3IDUuNjU2bC0yLjEyIDIuMTIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS13aWR0aD0iMiIgLz4KPC9zdmc+)
+
+-}
+cursorClick : List (Attribute msg) -> Html msg
+cursorClick attrs =
+    svg (fill "none" :: viewBox "0 0 24 24" :: stroke "currentColor" :: attrs) [ Svg.path [ strokeLinecap "round", strokeLinejoin "round", strokeWidth "2", d "M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122" ] [] ]
+
+
 {-| document-add
 
 ![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJub25lIiBoZWlnaHQ9IjI0IiBzdHJva2U9ImN1cnJlbnRDb2xvciIgdmlld0JveD0iMCAwIDI0IDI0IiB3aWR0aD0iMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHBhdGggZD0iTTkgMTNoNm0tMy0zdjZtNSA1SDdhMiAyIDAgMDEtMi0yVjVhMiAyIDAgMDEyLTJoNS41ODZhMSAxIDAgMDEuNzA3LjI5M2w1LjQxNCA1LjQxNGExIDEgMCAwMS4yOTMuNzA3VjE5YTIgMiAwIDAxLTIgMnoiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLXdpZHRoPSIyIiAvPgo8L3N2Zz4=)
@@ -532,6 +572,16 @@ documentDuplicate attrs =
 documentRemove : List (Attribute msg) -> Html msg
 documentRemove attrs =
     svg (fill "none" :: viewBox "0 0 24 24" :: stroke "currentColor" :: attrs) [ Svg.path [ strokeLinecap "round", strokeLinejoin "round", strokeWidth "2", d "M9 13h6m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" ] [] ]
+
+
+{-| document-report
+
+![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJub25lIiBoZWlnaHQ9IjI0IiBzdHJva2U9ImN1cnJlbnRDb2xvciIgdmlld0JveD0iMCAwIDI0IDI0IiB3aWR0aD0iMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHBhdGggZD0iTTkgMTd2LTJtMyAydi00bTMgNHYtNm0yIDEwSDdhMiAyIDAgMDEtMi0yVjVhMiAyIDAgMDEyLTJoNS41ODZhMSAxIDAgMDEuNzA3LjI5M2w1LjQxNCA1LjQxNGExIDEgMCAwMS4yOTMuNzA3VjE5YTIgMiAwIDAxLTIgMnoiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLXdpZHRoPSIyIiAvPgo8L3N2Zz4=)
+
+-}
+documentReport : List (Attribute msg) -> Html msg
+documentReport attrs =
+    svg (fill "none" :: viewBox "0 0 24 24" :: stroke "currentColor" :: attrs) [ Svg.path [ strokeLinecap "round", strokeLinejoin "round", strokeWidth "2", d "M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" ] [] ]
 
 
 {-| document
@@ -764,6 +814,16 @@ informationCircle attrs =
     svg (fill "none" :: viewBox "0 0 24 24" :: stroke "currentColor" :: attrs) [ Svg.path [ strokeLinecap "round", strokeLinejoin "round", strokeWidth "2", d "M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" ] [] ]
 
 
+{-| key
+
+![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJub25lIiBoZWlnaHQ9IjI0IiBzdHJva2U9ImN1cnJlbnRDb2xvciIgdmlld0JveD0iMCAwIDI0IDI0IiB3aWR0aD0iMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHBhdGggZD0iTTE1IDdhMiAyIDAgMDEyIDJtNCAwYTYgNiAwIDAxLTcuNzQzIDUuNzQzTDExIDE3SDl2Mkg3djJINGExIDEgMCAwMS0xLTF2LTIuNTg2YTEgMSAwIDAxLjI5My0uNzA3bDUuOTY0LTUuOTY0QTYgNiAwIDExMjEgOXoiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLXdpZHRoPSIyIiAvPgo8L3N2Zz4=)
+
+-}
+key : List (Attribute msg) -> Html msg
+key attrs =
+    svg (fill "none" :: viewBox "0 0 24 24" :: stroke "currentColor" :: attrs) [ Svg.path [ strokeLinecap "round", strokeLinejoin "round", strokeWidth "2", d "M15 7a2 2 0 012 2m4 0a6 6 0 01-7.743 5.743L11 17H9v2H7v2H4a1 1 0 01-1-1v-2.586a1 1 0 01.293-.707l5.964-5.964A6 6 0 1121 9z" ] [] ]
+
+
 {-| light-bulb
 
 ![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJub25lIiBoZWlnaHQ9IjI0IiBzdHJva2U9ImN1cnJlbnRDb2xvciIgdmlld0JveD0iMCAwIDI0IDI0IiB3aWR0aD0iMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHBhdGggZD0iTTkuNjYzIDE3aDQuNjczTTEyIDN2MW02LjM2NCAxLjYzNmwtLjcwNy43MDdNMjEgMTJoLTFNNCAxMkgzbTMuMzQzLTUuNjU3bC0uNzA3LS43MDdtMi44MjggOS45YTUgNSAwIDExNy4wNzIgMGwtLjU0OC41NDdBMy4zNzQgMy4zNzQgMCAwMDE0IDE4LjQ2OVYxOWEyIDIgMCAxMS00IDB2LS41MzFjMC0uODk1LS4zNTYtMS43NTQtLjk4OC0yLjM4NmwtLjU0OC0uNTQ3eiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBzdHJva2Utd2lkdGg9IjIiIC8+Cjwvc3ZnPg==)
@@ -822,6 +882,16 @@ lockClosed attrs =
 lockOpen : List (Attribute msg) -> Html msg
 lockOpen attrs =
     svg (fill "none" :: viewBox "0 0 24 24" :: stroke "currentColor" :: attrs) [ Svg.path [ strokeLinecap "round", strokeLinejoin "round", strokeWidth "2", d "M8 11V7a4 4 0 118 0m-4 8v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2z" ] [] ]
+
+
+{-| logout
+
+![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJub25lIiBoZWlnaHQ9IjI0IiBzdHJva2U9ImN1cnJlbnRDb2xvciIgdmlld0JveD0iMCAwIDI0IDI0IiB3aWR0aD0iMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHBhdGggZD0iTTExIDE2bC00LTRtMCAwbDQtNG0tNCA0aDE0bS01IDR2MWEzIDMgMCAwMS0zIDNINmEzIDMgMCAwMS0zLTNWN2EzIDMgMCAwMTMtM2g3YTMgMyAwIDAxMyAzdjEiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLXdpZHRoPSIyIiAvPgo8L3N2Zz4=)
+
+-}
+logout : List (Attribute msg) -> Html msg
+logout attrs =
+    svg (fill "none" :: viewBox "0 0 24 24" :: stroke "currentColor" :: attrs) [ Svg.path [ strokeLinecap "round", strokeLinejoin "round", strokeWidth "2", d "M11 16l-4-4m0 0l4-4m-4 4h14m-5 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h7a3 3 0 013 3v1" ] [] ]
 
 
 {-| mail-open
@@ -892,6 +962,16 @@ menuAlt4 attrs =
 menu : List (Attribute msg) -> Html msg
 menu attrs =
     svg (fill "none" :: viewBox "0 0 24 24" :: stroke "currentColor" :: attrs) [ Svg.path [ strokeLinecap "round", strokeLinejoin "round", strokeWidth "2", d "M4 6h16M4 12h16M4 18h16" ] [] ]
+
+
+{-| microphone
+
+![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJub25lIiBoZWlnaHQ9IjI0IiBzdHJva2U9ImN1cnJlbnRDb2xvciIgdmlld0JveD0iMCAwIDI0IDI0IiB3aWR0aD0iMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHBhdGggZD0iTTE5IDExYTcgNyAwIDAxLTcgN20wIDBhNyA3IDAgMDEtNy03bTcgN3Y0bTAgMEg4bTQgMGg0bS00LThhMyAzIDAgMDEtMy0zVjVhMyAzIDAgMTE2IDB2NmEzIDMgMCAwMS0zIDN6IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS13aWR0aD0iMiIgLz4KPC9zdmc+)
+
+-}
+microphone : List (Attribute msg) -> Html msg
+microphone attrs =
+    svg (fill "none" :: viewBox "0 0 24 24" :: stroke "currentColor" :: attrs) [ Svg.path [ strokeLinecap "round", strokeLinejoin "round", strokeWidth "2", d "M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z" ] [] ]
 
 
 {-| minus-circle
@@ -1134,6 +1214,16 @@ shieldExclamation attrs =
     svg (fill "none" :: viewBox "0 0 24 24" :: stroke "currentColor" :: attrs) [ Svg.path [ strokeLinecap "round", strokeLinejoin "round", strokeWidth "2", d "M20.618 5.984A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016zM12 9v2m0 4h.01" ] [] ]
 
 
+{-| shopping-cart
+
+![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJub25lIiBoZWlnaHQ9IjI0IiBzdHJva2U9ImN1cnJlbnRDb2xvciIgdmlld0JveD0iMCAwIDI0IDI0IiB3aWR0aD0iMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHBhdGggZD0iTTMgM2gybC40IDJNNyAxM2gxMGw0LThINS40TTcgMTNMNS40IDVNNyAxM2wtMi4yOTMgMi4yOTNjLS42My42My0uMTg0IDEuNzA3LjcwNyAxLjcwN0gxN20wIDBhMiAyIDAgMTAwIDQgMiAyIDAgMDAwLTR6bS04IDJhMiAyIDAgMTEtNCAwIDIgMiAwIDAxNCAweiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBzdHJva2Utd2lkdGg9IjIiIC8+Cjwvc3ZnPg==)
+
+-}
+shoppingCart : List (Attribute msg) -> Html msg
+shoppingCart attrs =
+    svg (fill "none" :: viewBox "0 0 24 24" :: stroke "currentColor" :: attrs) [ Svg.path [ strokeLinecap "round", strokeLinejoin "round", strokeWidth "2", d "M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" ] [] ]
+
+
 {-| sort-ascending
 
 ![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJub25lIiBoZWlnaHQ9IjI0IiBzdHJva2U9ImN1cnJlbnRDb2xvciIgdmlld0JveD0iMCAwIDI0IDI0IiB3aWR0aD0iMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHBhdGggZD0iTTMgNGgxM00zIDhoOW0tOSA0aDZtNCAwbDQtNG0wIDBsNCA0bS00LTR2MTIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLXdpZHRoPSIyIiAvPgo8L3N2Zz4=)
@@ -1162,6 +1252,16 @@ sortDescending attrs =
 sparkles : List (Attribute msg) -> Html msg
 sparkles attrs =
     svg (fill "none" :: viewBox "0 0 24 24" :: stroke "currentColor" :: attrs) [ Svg.path [ strokeLinecap "round", strokeLinejoin "round", strokeWidth "2", d "M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" ] [] ]
+
+
+{-| speakerphone
+
+![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJub25lIiBoZWlnaHQ9IjI0IiBzdHJva2U9ImN1cnJlbnRDb2xvciIgdmlld0JveD0iMCAwIDI0IDI0IiB3aWR0aD0iMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHBhdGggZD0iTTExIDUuODgyVjE5LjI0YTEuNzYgMS43NiAwIDAxLTMuNDE3LjU5MmwtMi4xNDctNi4xNU0xOCAxM2EzIDMgMCAxMDAtNk01LjQzNiAxMy42ODNBNC4wMDEgNC4wMDEgMCAwMTcgNmgxLjgzMmM0LjEgMCA3LjYyNS0xLjIzNCA5LjE2OC0zdjE0Yy0xLjU0My0xLjc2Ni01LjA2Ny0zLTkuMTY4LTNIN2EzLjk4OCAzLjk4OCAwIDAxLTEuNTY0LS4zMTd6IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS13aWR0aD0iMiIgLz4KPC9zdmc+)
+
+-}
+speakerphone : List (Attribute msg) -> Html msg
+speakerphone attrs =
+    svg (fill "none" :: viewBox "0 0 24 24" :: stroke "currentColor" :: attrs) [ Svg.path [ strokeLinecap "round", strokeLinejoin "round", strokeWidth "2", d "M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5.436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-1.234 9.168-3v14c-1.543-1.766-5.067-3-9.168-3H7a3.988 3.988 0 01-1.564-.317z" ] [] ]
 
 
 {-| sun
@@ -1314,16 +1414,6 @@ userRemove attrs =
     svg (fill "none" :: viewBox "0 0 24 24" :: stroke "currentColor" :: attrs) [ Svg.path [ strokeLinecap "round", strokeLinejoin "round", strokeWidth "2", d "M13 7a4 4 0 11-8 0 4 4 0 018 0zM9 14a6 6 0 00-6 6v1h12v-1a6 6 0 00-6-6zM21 12h-6" ] [] ]
 
 
-{-| users
-
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJub25lIiBoZWlnaHQ9IjI0IiBzdHJva2U9ImN1cnJlbnRDb2xvciIgdmlld0JveD0iMCAwIDI0IDI0IiB3aWR0aD0iMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHBhdGggZD0iTTEyIDQuMzU0YTQgNCAwIDExMCA1LjI5Mk0xNSAyMUgzdi0xYTYgNiAwIDAxMTIgMHYxem0wIDBoNnYtMWE2IDYgMCAwMC05LTUuMTk3TTEzIDdhNCA0IDAgMTEtOCAwIDQgNCAwIDAxOCAweiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBzdHJva2Utd2lkdGg9IjIiIC8+Cjwvc3ZnPg==)
-
--}
-users : List (Attribute msg) -> Html msg
-users attrs =
-    svg (fill "none" :: viewBox "0 0 24 24" :: stroke "currentColor" :: attrs) [ Svg.path [ strokeLinecap "round", strokeLinejoin "round", strokeWidth "2", d "M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" ] [] ]
-
-
 {-| user
 
 ![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJub25lIiBoZWlnaHQ9IjI0IiBzdHJva2U9ImN1cnJlbnRDb2xvciIgdmlld0JveD0iMCAwIDI0IDI0IiB3aWR0aD0iMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHBhdGggZD0iTTE2IDdhNCA0IDAgMTEtOCAwIDQgNCAwIDAxOCAwek0xMiAxNGE3IDcgMCAwMC03IDdoMTRhNyA3IDAgMDAtNy03eiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBzdHJva2Utd2lkdGg9IjIiIC8+Cjwvc3ZnPg==)
@@ -1332,6 +1422,16 @@ users attrs =
 user : List (Attribute msg) -> Html msg
 user attrs =
     svg (fill "none" :: viewBox "0 0 24 24" :: stroke "currentColor" :: attrs) [ Svg.path [ strokeLinecap "round", strokeLinejoin "round", strokeWidth "2", d "M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" ] [] ]
+
+
+{-| users
+
+![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJub25lIiBoZWlnaHQ9IjI0IiBzdHJva2U9ImN1cnJlbnRDb2xvciIgdmlld0JveD0iMCAwIDI0IDI0IiB3aWR0aD0iMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHBhdGggZD0iTTEyIDQuMzU0YTQgNCAwIDExMCA1LjI5Mk0xNSAyMUgzdi0xYTYgNiAwIDAxMTIgMHYxem0wIDBoNnYtMWE2IDYgMCAwMC05LTUuMTk3TTEzIDdhNCA0IDAgMTEtOCAwIDQgNCAwIDAxOCAweiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBzdHJva2Utd2lkdGg9IjIiIC8+Cjwvc3ZnPg==)
+
+-}
+users : List (Attribute msg) -> Html msg
+users attrs =
+    svg (fill "none" :: viewBox "0 0 24 24" :: stroke "currentColor" :: attrs) [ Svg.path [ strokeLinecap "round", strokeLinejoin "round", strokeWidth "2", d "M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" ] [] ]
 
 
 {-| view-boards

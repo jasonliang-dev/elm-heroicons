@@ -1,11 +1,11 @@
-module Heroicons.Solid exposing (adjustments, annotation, archive, arrowCircleDown, arrowCircleLeft, arrowCircleRight, arrowCircleUp, arrowDown, arrowLeft, arrowNarrowDown, arrowNarrowLeft, arrowNarrowRight, arrowNarrowUp, arrowRight, arrowUp, atSymbol, bell, bookmark, bookOpen, briefcase, calendar, camera, cash, chartPie, chat, checkCircle, check, cheveronDown, cheveronLeft, cheveronRight, cheveronUp, clipboardCheck, clipboardCopy, clipboardList, clipboard, clock, cloudDownload, cloudUpload, code, cog, collection, colorSwatch, creditCard, currencyDollar, currencyEuro, currencyPound, currencyRupee, currencyYen, documentAdd, documentDownload, documentDuplicate, documentRemove, document, dotsCircleHorizontal, dotsHorizontal, dotsVertical, download, duplicate, emojiHappy, emojiSad, exclamationCircle, exclamation, externalLink, eye, filter, flag, folder, globeAlt, globe, hashtag, heart, home, inboxIn, inbox, informationCircle, lightBulb, lightningBolt, link, locationMarker, lockClosed, lockOpen, mailOpen, mail, menuAlt1, menuAlt2, menuAlt3, menuAlt4, menu, minusCircle, moon, officeBuilding, paperClip, pencilAlt, pencil, phoneIncoming, phoneOutgoing, phone, photograph, plusCircle, plus, printer, qrcode, questionMarkCircle, receiptRefund, refresh, reply, scale, search, selector, share, shieldCheck, shieldExclamation, sortAscending, sortDescending, sparkles, sun, switchHorizontal, switchVertical, tag, template, ticket, translate, trash, trendingDown, trendingUp, upload, userAdd, userCircle, userGroup, userRemove, users, user, viewBoards, viewList, volumeOff, volumeUp, xCircle, x, zoomIn, zoomOut)
+module Heroicons.Solid exposing (adjustments, annotation, archive, arrowCircleDown, arrowCircleLeft, arrowCircleRight, arrowCircleUp, arrowDown, arrowLeft, arrowNarrowDown, arrowNarrowLeft, arrowNarrowRight, arrowNarrowUp, arrowRight, arrowUp, atSymbol, badgeCheck, ban, bell, bookOpen, bookmark, briefcase, calendar, camera, cash, chartPie, chatAlt, chat, checkCircle, check, cheveronDown, cheveronLeft, cheveronRight, cheveronUp, clipboardCheck, clipboardCopy, clipboardList, clipboard, clock, cloudDownload, cloudUpload, code, cog, collection, colorSwatch, creditCard, currencyDollar, currencyEuro, currencyPound, currencyRupee, currencyYen, cursorClick, documentAdd, documentDownload, documentDuplicate, documentRemove, documentReport, document, dotsCircleHorizontal, dotsHorizontal, dotsVertical, download, duplicate, emojiHappy, emojiSad, exclamationCircle, exclamation, externalLink, eye, filter, flag, folder, globeAlt, globe, hashtag, heart, home, inboxIn, inbox, informationCircle, key, lightBulb, lightningBolt, link, locationMarker, lockClosed, lockOpen, logout, mailOpen, mail, menuAlt1, menuAlt2, menuAlt3, menuAlt4, menu, microphone, minusCircle, moon, officeBuilding, paperClip, pencilAlt, pencil, phoneIncoming, phoneOutgoing, phone, photograph, plusCircle, plus, printer, qrcode, questionMarkCircle, receiptRefund, refresh, reply, scale, search, selector, share, shieldCheck, shieldExclamation, shoppingCart, sortAscending, sortDescending, sparkles, speakerphone, sun, switchHorizontal, switchVertical, tag, template, ticket, translate, trash, trendingDown, trendingUp, upload, userAdd, userCircle, userGroup, userRemove, user, users, viewBoards, viewList, volumeOff, volumeUp, xCircle, x, zoomIn, zoomOut)
 
 {-|
 
 
 # Heroicons
 
-@docs adjustments, annotation, archive, arrowCircleDown, arrowCircleLeft, arrowCircleRight, arrowCircleUp, arrowDown, arrowLeft, arrowNarrowDown, arrowNarrowLeft, arrowNarrowRight, arrowNarrowUp, arrowRight, arrowUp, atSymbol, bell, bookmark, bookOpen, briefcase, calendar, camera, cash, chartPie, chat, checkCircle, check, cheveronDown, cheveronLeft, cheveronRight, cheveronUp, clipboardCheck, clipboardCopy, clipboardList, clipboard, clock, cloudDownload, cloudUpload, code, cog, collection, colorSwatch, creditCard, currencyDollar, currencyEuro, currencyPound, currencyRupee, currencyYen, documentAdd, documentDownload, documentDuplicate, documentRemove, document, dotsCircleHorizontal, dotsHorizontal, dotsVertical, download, duplicate, emojiHappy, emojiSad, exclamationCircle, exclamation, externalLink, eye, filter, flag, folder, globeAlt, globe, hashtag, heart, home, inboxIn, inbox, informationCircle, lightBulb, lightningBolt, link, locationMarker, lockClosed, lockOpen, mailOpen, mail, menuAlt1, menuAlt2, menuAlt3, menuAlt4, menu, minusCircle, moon, officeBuilding, paperClip, pencilAlt, pencil, phoneIncoming, phoneOutgoing, phone, photograph, plusCircle, plus, printer, qrcode, questionMarkCircle, receiptRefund, refresh, reply, scale, search, selector, share, shieldCheck, shieldExclamation, sortAscending, sortDescending, sparkles, sun, switchHorizontal, switchVertical, tag, template, ticket, translate, trash, trendingDown, trendingUp, upload, userAdd, userCircle, userGroup, userRemove, users, user, viewBoards, viewList, volumeOff, volumeUp, xCircle, x, zoomIn, zoomOut
+@docs adjustments, annotation, archive, arrowCircleDown, arrowCircleLeft, arrowCircleRight, arrowCircleUp, arrowDown, arrowLeft, arrowNarrowDown, arrowNarrowLeft, arrowNarrowRight, arrowNarrowUp, arrowRight, arrowUp, atSymbol, badgeCheck, ban, bell, bookOpen, bookmark, briefcase, calendar, camera, cash, chartPie, chatAlt, chat, checkCircle, check, cheveronDown, cheveronLeft, cheveronRight, cheveronUp, clipboardCheck, clipboardCopy, clipboardList, clipboard, clock, cloudDownload, cloudUpload, code, cog, collection, colorSwatch, creditCard, currencyDollar, currencyEuro, currencyPound, currencyRupee, currencyYen, cursorClick, documentAdd, documentDownload, documentDuplicate, documentRemove, documentReport, document, dotsCircleHorizontal, dotsHorizontal, dotsVertical, download, duplicate, emojiHappy, emojiSad, exclamationCircle, exclamation, externalLink, eye, filter, flag, folder, globeAlt, globe, hashtag, heart, home, inboxIn, inbox, informationCircle, key, lightBulb, lightningBolt, link, locationMarker, lockClosed, lockOpen, logout, mailOpen, mail, menuAlt1, menuAlt2, menuAlt3, menuAlt4, menu, microphone, minusCircle, moon, officeBuilding, paperClip, pencilAlt, pencil, phoneIncoming, phoneOutgoing, phone, photograph, plusCircle, plus, printer, qrcode, questionMarkCircle, receiptRefund, refresh, reply, scale, search, selector, share, shieldCheck, shieldExclamation, shoppingCart, sortAscending, sortDescending, sparkles, speakerphone, sun, switchHorizontal, switchVertical, tag, template, ticket, translate, trash, trendingDown, trendingUp, upload, userAdd, userCircle, userGroup, userRemove, user, users, viewBoards, viewList, volumeOff, volumeUp, xCircle, x, zoomIn, zoomOut
 
 -}
 
@@ -174,6 +174,26 @@ atSymbol attrs =
     svg (viewBox "0 0 20 20" :: fill "currentColor" :: attrs) [ Svg.path [ fillRule "evenodd", d "M14.243 5.757a6 6 0 10-.986 9.284 1 1 0 111.087 1.678A8 8 0 1118 10a3 3 0 01-4.8 2.401A4 4 0 1114 10a1 1 0 102 0c0-1.537-.586-3.07-1.757-4.243zM12 10a2 2 0 10-4 0 2 2 0 004 0z", clipRule "evenodd" ] [] ]
 
 
+{-| badge-check
+
+![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTYuMjY3IDMuNDU1YTMuMDY2IDMuMDY2IDAgMDAxLjc0NS0uNzIzIDMuMDY2IDMuMDY2IDAgMDEzLjk3NiAwIDMuMDY2IDMuMDY2IDAgMDAxLjc0NS43MjMgMy4wNjYgMy4wNjYgMCAwMTIuODEyIDIuODEyYy4wNTEuNjQzLjMwNCAxLjI1NC43MjMgMS43NDVhMy4wNjYgMy4wNjYgMCAwMTAgMy45NzYgMy4wNjYgMy4wNjYgMCAwMC0uNzIzIDEuNzQ1IDMuMDY2IDMuMDY2IDAgMDEtMi44MTIgMi44MTIgMy4wNjYgMy4wNjYgMCAwMC0xLjc0NS43MjMgMy4wNjYgMy4wNjYgMCAwMS0zLjk3NiAwIDMuMDY2IDMuMDY2IDAgMDAtMS43NDUtLjcyMyAzLjA2NiAzLjA2NiAwIDAxLTIuODEyLTIuODEyIDMuMDY2IDMuMDY2IDAgMDAtLjcyMy0xLjc0NSAzLjA2NiAzLjA2NiAwIDAxMC0zLjk3NiAzLjA2NiAzLjA2NiAwIDAwLjcyMy0xLjc0NSAzLjA2NiAzLjA2NiAwIDAxMi44MTItMi44MTJ6bTcuNDQgNS4yNTJhMSAxIDAgMDAtMS40MTQtMS40MTRMOSAxMC41ODYgNy43MDcgOS4yOTNhMSAxIDAgMDAtMS40MTQgMS40MTRsMiAyYTEgMSAwIDAwMS40MTQgMGw0LTR6IiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIC8+Cjwvc3ZnPg==)
+
+-}
+badgeCheck : List (Attribute msg) -> Html msg
+badgeCheck attrs =
+    svg (viewBox "0 0 20 20" :: fill "currentColor" :: attrs) [ Svg.path [ fillRule "evenodd", d "M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z", clipRule "evenodd" ] [] ]
+
+
+{-| ban
+
+![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTEzLjQ3NyAxNC44OUE2IDYgMCAwMTUuMTEgNi41MjRsOC4zNjcgOC4zNjh6bTEuNDE0LTEuNDE0TDYuNTI0IDUuMTFhNiA2IDAgMDE4LjM2NyA4LjM2N3pNMTggMTBhOCA4IDAgMTEtMTYgMCA4IDggMCAwMTE2IDB6IiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIC8+Cjwvc3ZnPg==)
+
+-}
+ban : List (Attribute msg) -> Html msg
+ban attrs =
+    svg (viewBox "0 0 20 20" :: fill "currentColor" :: attrs) [ Svg.path [ fillRule "evenodd", d "M13.477 14.89A6 6 0 015.11 6.524l8.367 8.368zm1.414-1.414L6.524 5.11a6 6 0 018.367 8.367zM18 10a8 8 0 11-16 0 8 8 0 0116 0z", clipRule "evenodd" ] [] ]
+
+
 {-| bell
 
 ![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGQ9Ik0xMCAyYTYgNiAwIDAwLTYgNnYzLjU4NmwtLjcwNy43MDdBMSAxIDAgMDA0IDE0aDEyYTEgMSAwIDAwLjcwNy0xLjcwN0wxNiAxMS41ODZWOGE2IDYgMCAwMC02LTZ6TTEwIDE4YTMgMyAwIDAxLTMtM2g2YTMgMyAwIDAxLTMgM3oiIC8+Cjwvc3ZnPg==)
@@ -184,16 +204,6 @@ bell attrs =
     svg (viewBox "0 0 20 20" :: fill "currentColor" :: attrs) [ Svg.path [ d "M10 2a6 6 0 00-6 6v3.586l-.707.707A1 1 0 004 14h12a1 1 0 00.707-1.707L16 11.586V8a6 6 0 00-6-6zM10 18a3 3 0 01-3-3h6a3 3 0 01-3 3z" ] [] ]
 
 
-{-| bookmark
-
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGQ9Ik01IDRhMiAyIDAgMDEyLTJoNmEyIDIgMCAwMTIgMnYxNGwtNS0yLjVMNSAxOFY0eiIgLz4KPC9zdmc+)
-
--}
-bookmark : List (Attribute msg) -> Html msg
-bookmark attrs =
-    svg (viewBox "0 0 20 20" :: fill "currentColor" :: attrs) [ Svg.path [ d "M5 4a2 2 0 012-2h6a2 2 0 012 2v14l-5-2.5L5 18V4z" ] [] ]
-
-
 {-| book-open
 
 ![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGQ9Ik05IDQuODA0QTcuOTY4IDcuOTY4IDAgMDA1LjUgNGMtMS4yNTUgMC0yLjQ0My4yOS0zLjUuODA0djEwQTcuOTY5IDcuOTY5IDAgMDE1LjUgMTRjMS42NjkgMCAzLjIxOC41MSA0LjUgMS4zODVBNy45NjIgNy45NjIgMCAwMTE0LjUgMTRjMS4yNTUgMCAyLjQ0My4yOSAzLjUuODA0di0xMEE3Ljk2OCA3Ljk2OCAwIDAwMTQuNSA0Yy0xLjI1NSAwLTIuNDQzLjI5LTMuNS44MDRWMTJhMSAxIDAgMTEtMiAwVjQuODA0eiIgLz4KPC9zdmc+)
@@ -202,6 +212,16 @@ bookmark attrs =
 bookOpen : List (Attribute msg) -> Html msg
 bookOpen attrs =
     svg (viewBox "0 0 20 20" :: fill "currentColor" :: attrs) [ Svg.path [ d "M9 4.804A7.968 7.968 0 005.5 4c-1.255 0-2.443.29-3.5.804v10A7.969 7.969 0 015.5 14c1.669 0 3.218.51 4.5 1.385A7.962 7.962 0 0114.5 14c1.255 0 2.443.29 3.5.804v-10A7.968 7.968 0 0014.5 4c-1.255 0-2.443.29-3.5.804V12a1 1 0 11-2 0V4.804z" ] [] ]
+
+
+{-| bookmark
+
+![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGQ9Ik01IDRhMiAyIDAgMDEyLTJoNmEyIDIgMCAwMTIgMnYxNGwtNS0yLjVMNSAxOFY0eiIgLz4KPC9zdmc+)
+
+-}
+bookmark : List (Attribute msg) -> Html msg
+bookmark attrs =
+    svg (viewBox "0 0 20 20" :: fill "currentColor" :: attrs) [ Svg.path [ d "M5 4a2 2 0 012-2h6a2 2 0 012 2v14l-5-2.5L5 18V4z" ] [] ]
 
 
 {-| briefcase
@@ -252,6 +272,16 @@ cash attrs =
 chartPie : List (Attribute msg) -> Html msg
 chartPie attrs =
     svg (viewBox "0 0 20 20" :: fill "currentColor" :: attrs) [ Svg.path [ d "M2 10a8 8 0 018-8v8h8a8 8 0 11-16 0z" ] [], Svg.path [ d "M12 2.252A8.014 8.014 0 0117.748 8H12V2.252z" ] [] ]
+
+
+{-| chat-alt
+
+![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTE4IDV2OGEyIDIgMCAwMS0yIDJoLTVsLTUgNHYtNEg0YTIgMiAwIDAxLTItMlY1YTIgMiAwIDAxMi0yaDEyYTIgMiAwIDAxMiAyek03IDhINXYyaDJWOHptMiAwaDJ2Mkg5Vjh6bTYgMGgtMnYyaDJWOHoiIGZpbGwtcnVsZT0iZXZlbm9kZCIgLz4KPC9zdmc+)
+
+-}
+chatAlt : List (Attribute msg) -> Html msg
+chatAlt attrs =
+    svg (viewBox "0 0 20 20" :: fill "currentColor" :: attrs) [ Svg.path [ fillRule "evenodd", d "M18 5v8a2 2 0 01-2 2h-5l-5 4v-4H4a2 2 0 01-2-2V5a2 2 0 012-2h12a2 2 0 012 2zM7 8H5v2h2V8zm2 0h2v2H9V8zm6 0h-2v2h2V8z", clipRule "evenodd" ] [] ]
 
 
 {-| chat
@@ -494,6 +524,16 @@ currencyYen attrs =
     svg (viewBox "0 0 20 20" :: fill "currentColor" :: attrs) [ Svg.path [ fillRule "evenodd", d "M10 18a8 8 0 100-16 8 8 0 000 16zM7.858 5.485a1 1 0 00-1.715 1.03L7.633 9H7a1 1 0 100 2h1.834l.166.277V12H7a1 1 0 100 2h2v1a1 1 0 102 0v-1h2a1 1 0 100-2h-2v-.723l.166-.277H13a1 1 0 100-2h-.634l1.492-2.486a1 1 0 10-1.716-1.029L10.034 9h-.068L7.858 5.485z", clipRule "evenodd" ] [] ]
 
 
+{-| cursor-click
+
+![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTYuNjcyIDEuOTExYTEgMSAwIDEwLTEuOTMyLjUxOGwuMjU5Ljk2NmExIDEgMCAwMDEuOTMyLS41MThsLS4yNi0uOTY2ek0yLjQyOSA0Ljc0YTEgMSAwIDEwLS41MTcgMS45MzJsLjk2Ni4yNTlhMSAxIDAgMDAuNTE3LTEuOTMybC0uOTY2LS4yNnptOC44MTQtLjU2OWExIDEgMCAwMC0xLjQxNS0xLjQxNGwtLjcwNy43MDdhMSAxIDAgMTAxLjQxNSAxLjQxNWwuNzA3LS43MDh6bS03LjA3MSA3LjA3MmwuNzA3LS43MDdBMSAxIDAgMDAzLjQ2NSA5LjEybC0uNzA4LjcwN2ExIDEgMCAwMDEuNDE1IDEuNDE1em0zLjItNS4xNzFhMSAxIDAgMDAtMS4zIDEuM2w0IDEwYTEgMSAwIDAwMS44MjMuMDc1bDEuMzgtMi43NTkgMy4wMTggMy4wMmExIDEgMCAwMDEuNDE0LTEuNDE1bC0zLjAxOS0zLjAyIDIuNzYtMS4zNzlhMSAxIDAgMDAtLjA3Ni0xLjgyMmwtMTAtNHoiIGZpbGwtcnVsZT0iZXZlbm9kZCIgLz4KPC9zdmc+)
+
+-}
+cursorClick : List (Attribute msg) -> Html msg
+cursorClick attrs =
+    svg (viewBox "0 0 20 20" :: fill "currentColor" :: attrs) [ Svg.path [ fillRule "evenodd", d "M6.672 1.911a1 1 0 10-1.932.518l.259.966a1 1 0 001.932-.518l-.26-.966zM2.429 4.74a1 1 0 10-.517 1.932l.966.259a1 1 0 00.517-1.932l-.966-.26zm8.814-.569a1 1 0 00-1.415-1.414l-.707.707a1 1 0 101.415 1.415l.707-.708zm-7.071 7.072l.707-.707A1 1 0 003.465 9.12l-.708.707a1 1 0 001.415 1.415zm3.2-5.171a1 1 0 00-1.3 1.3l4 10a1 1 0 001.823.075l1.38-2.759 3.018 3.02a1 1 0 001.414-1.415l-3.019-3.02 2.76-1.379a1 1 0 00-.076-1.822l-10-4z", clipRule "evenodd" ] [] ]
+
+
 {-| document-add
 
 ![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTYgMmEyIDIgMCAwMC0yIDJ2MTJhMiAyIDAgMDAyIDJoOGEyIDIgMCAwMDItMlY3LjQxNEEyIDIgMCAwMDE1LjQxNCA2TDEyIDIuNTg2QTIgMiAwIDAwMTAuNTg2IDJINnptNSA2YTEgMSAwIDEwLTIgMHYySDdhMSAxIDAgMTAwIDJoMnYyYTEgMSAwIDEwMiAwdi0yaDJhMSAxIDAgMTAwLTJoLTJWOHoiIGZpbGwtcnVsZT0iZXZlbm9kZCIgLz4KPC9zdmc+)
@@ -532,6 +572,16 @@ documentDuplicate attrs =
 documentRemove : List (Attribute msg) -> Html msg
 documentRemove attrs =
     svg (viewBox "0 0 20 20" :: fill "currentColor" :: attrs) [ Svg.path [ fillRule "evenodd", d "M6 2a2 2 0 00-2 2v12a2 2 0 002 2h8a2 2 0 002-2V7.414A2 2 0 0015.414 6L12 2.586A2 2 0 0010.586 2H6zm1 8a1 1 0 100 2h6a1 1 0 100-2H7z", clipRule "evenodd" ] [] ]
+
+
+{-| document-report
+
+![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTYgMmEyIDIgMCAwMC0yIDJ2MTJhMiAyIDAgMDAyIDJoOGEyIDIgMCAwMDItMlY3LjQxNEEyIDIgMCAwMDE1LjQxNCA2TDEyIDIuNTg2QTIgMiAwIDAwMTAuNTg2IDJINnptMiAxMGExIDEgMCAxMC0yIDB2M2ExIDEgMCAxMDIgMHYtM3ptMi0zYTEgMSAwIDAxMSAxdjVhMSAxIDAgMTEtMiAwdi01YTEgMSAwIDAxMS0xem00LTFhMSAxIDAgMTAtMiAwdjdhMSAxIDAgMTAyIDBWOHoiIGZpbGwtcnVsZT0iZXZlbm9kZCIgLz4KPC9zdmc+)
+
+-}
+documentReport : List (Attribute msg) -> Html msg
+documentReport attrs =
+    svg (viewBox "0 0 20 20" :: fill "currentColor" :: attrs) [ Svg.path [ fillRule "evenodd", d "M6 2a2 2 0 00-2 2v12a2 2 0 002 2h8a2 2 0 002-2V7.414A2 2 0 0015.414 6L12 2.586A2 2 0 0010.586 2H6zm2 10a1 1 0 10-2 0v3a1 1 0 102 0v-3zm2-3a1 1 0 011 1v5a1 1 0 11-2 0v-5a1 1 0 011-1zm4-1a1 1 0 10-2 0v7a1 1 0 102 0V8z", clipRule "evenodd" ] [] ]
 
 
 {-| document
@@ -764,6 +814,16 @@ informationCircle attrs =
     svg (viewBox "0 0 20 20" :: fill "currentColor" :: attrs) [ Svg.path [ fillRule "evenodd", d "M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z", clipRule "evenodd" ] [] ]
 
 
+{-| key
+
+![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTE4IDhhNiA2IDAgMDEtNy43NDMgNS43NDNMMTAgMTRsLTEgMS0xIDFINnYySDJ2LTRsNC4yNTctNC4yNTdBNiA2IDAgMTExOCA4em0tNi00YTEgMSAwIDEwMCAyIDIgMiAwIDAxMiAyIDEgMSAwIDEwMiAwIDQgNCAwIDAwLTQtNHoiIGZpbGwtcnVsZT0iZXZlbm9kZCIgLz4KPC9zdmc+)
+
+-}
+key : List (Attribute msg) -> Html msg
+key attrs =
+    svg (viewBox "0 0 20 20" :: fill "currentColor" :: attrs) [ Svg.path [ fillRule "evenodd", d "M18 8a6 6 0 01-7.743 5.743L10 14l-1 1-1 1H6v2H2v-4l4.257-4.257A6 6 0 1118 8zm-6-4a1 1 0 100 2 2 2 0 012 2 1 1 0 102 0 4 4 0 00-4-4z", clipRule "evenodd" ] [] ]
+
+
 {-| light-bulb
 
 ![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGQ9Ik0xMSAzYTEgMSAwIDEwLTIgMHYxYTEgMSAwIDEwMiAwVjN6TTE1LjY1NyA1Ljc1N2ExIDEgMCAwMC0xLjQxNC0xLjQxNGwtLjcwNy43MDdhMSAxIDAgMDAxLjQxNCAxLjQxNGwuNzA3LS43MDd6TTE4IDEwYTEgMSAwIDAxLTEgMWgtMWExIDEgMCAxMTAtMmgxYTEgMSAwIDAxMSAxek01LjA1IDYuNDY0QTEgMSAwIDEwNi40NjQgNS4wNWwtLjcwNy0uNzA3YTEgMSAwIDAwLTEuNDE0IDEuNDE0bC43MDcuNzA3ek01IDEwYTEgMSAwIDAxLTEgMUgzYTEgMSAwIDExMC0yaDFhMSAxIDAgMDExIDF6TTggMTZ2LTFoNHYxYTIgMiAwIDExLTQgMHpNMTIgMTRjLjAxNS0uMzQuMjA4LS42NDYuNDc3LS44NTlhNCA0IDAgMTAtNC45NTQgMGMuMjcuMjEzLjQ2Mi41MTkuNDc2Ljg1OWg0LjAwMnoiIC8+Cjwvc3ZnPg==)
@@ -822,6 +882,16 @@ lockClosed attrs =
 lockOpen : List (Attribute msg) -> Html msg
 lockOpen attrs =
     svg (viewBox "0 0 20 20" :: fill "currentColor" :: attrs) [ Svg.path [ d "M10 2a5 5 0 00-5 5v2a2 2 0 00-2 2v5a2 2 0 002 2h10a2 2 0 002-2v-5a2 2 0 00-2-2H7V7a3 3 0 015.905-.75 1 1 0 001.937-.5A5.002 5.002 0 0010 2z" ] [] ]
+
+
+{-| logout
+
+![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTMgM2ExIDEgMCAwMTEgMXYxMmExIDEgMCAxMS0yIDBWNGExIDEgMCAwMTEtMXptNy43MDcgMy4yOTNhMSAxIDAgMDEwIDEuNDE0TDkuNDE0IDlIMTdhMSAxIDAgMTEwIDJIOS40MTRsMS4yOTMgMS4yOTNhMSAxIDAgMDEtMS40MTQgMS40MTRsLTMtM2ExIDEgMCAwMTAtMS40MTRsMy0zYTEgMSAwIDAxMS40MTQgMHoiIGZpbGwtcnVsZT0iZXZlbm9kZCIgLz4KPC9zdmc+)
+
+-}
+logout : List (Attribute msg) -> Html msg
+logout attrs =
+    svg (viewBox "0 0 20 20" :: fill "currentColor" :: attrs) [ Svg.path [ fillRule "evenodd", d "M3 3a1 1 0 011 1v12a1 1 0 11-2 0V4a1 1 0 011-1zm7.707 3.293a1 1 0 010 1.414L9.414 9H17a1 1 0 110 2H9.414l1.293 1.293a1 1 0 01-1.414 1.414l-3-3a1 1 0 010-1.414l3-3a1 1 0 011.414 0z", clipRule "evenodd" ] [] ]
 
 
 {-| mail-open
@@ -892,6 +962,16 @@ menuAlt4 attrs =
 menu : List (Attribute msg) -> Html msg
 menu attrs =
     svg (viewBox "0 0 20 20" :: fill "currentColor" :: attrs) [ Svg.path [ fillRule "evenodd", d "M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z", clipRule "evenodd" ] [] ]
+
+
+{-| microphone
+
+![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTcgNGEzIDMgMCAwMTYgMHY0YTMgMyAwIDExLTYgMFY0em00IDEwLjkzQTcuMDAxIDcuMDAxIDAgMDAxNyA4YTEgMSAwIDEwLTIgMEE1IDUgMCAwMTUgOGExIDEgMCAwMC0yIDAgNy4wMDEgNy4wMDEgMCAwMDYgNi45M1YxN0g2YTEgMSAwIDEwMCAyaDhhMSAxIDAgMTAwLTJoLTN2LTIuMDd6IiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIC8+Cjwvc3ZnPg==)
+
+-}
+microphone : List (Attribute msg) -> Html msg
+microphone attrs =
+    svg (viewBox "0 0 20 20" :: fill "currentColor" :: attrs) [ Svg.path [ fillRule "evenodd", d "M7 4a3 3 0 016 0v4a3 3 0 11-6 0V4zm4 10.93A7.001 7.001 0 0017 8a1 1 0 10-2 0A5 5 0 015 8a1 1 0 00-2 0 7.001 7.001 0 006 6.93V17H6a1 1 0 100 2h8a1 1 0 100-2h-3v-2.07z", clipRule "evenodd" ] [] ]
 
 
 {-| minus-circle
@@ -1134,6 +1214,16 @@ shieldExclamation attrs =
     svg (viewBox "0 0 20 20" :: fill "currentColor" :: attrs) [ Svg.path [ fillRule "evenodd", d "M10 1.944A11.954 11.954 0 012.166 5C2.056 5.649 2 6.319 2 7c0 5.225 3.34 9.67 8 11.317C14.66 16.67 18 12.225 18 7c0-.682-.057-1.35-.166-2.001A11.954 11.954 0 0110 1.944zM11 14a1 1 0 11-2 0 1 1 0 012 0zm0-7a1 1 0 10-2 0v3a1 1 0 102 0V7z", clipRule "evenodd" ] [] ]
 
 
+{-| shopping-cart
+
+![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGQ9Ik0zIDFhMSAxIDAgMDAwIDJoMS4yMmwuMzA1IDEuMjIyYS45OTcuOTk3IDAgMDAuMDEuMDQybDEuMzU4IDUuNDMtLjg5My44OTJDMy43NCAxMS44NDYgNC42MzIgMTQgNi40MTQgMTRIMTVhMSAxIDAgMDAwLTJINi40MTRsMS0xSDE0YTEgMSAwIDAwLjg5NC0uNTUzbDMtNkExIDEgMCAwMDE3IDNINi4yOGwtLjMxLTEuMjQzQTEgMSAwIDAwNSAxSDN6TTE2IDE2LjVhMS41IDEuNSAwIDExLTMgMCAxLjUgMS41IDAgMDEzIDB6TTYuNSAxOGExLjUgMS41IDAgMTAwLTMgMS41IDEuNSAwIDAwMCAzeiIgLz4KPC9zdmc+)
+
+-}
+shoppingCart : List (Attribute msg) -> Html msg
+shoppingCart attrs =
+    svg (viewBox "0 0 20 20" :: fill "currentColor" :: attrs) [ Svg.path [ d "M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" ] [] ]
+
+
 {-| sort-ascending
 
 ![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGQ9Ik0zIDNhMSAxIDAgMDAwIDJoMTFhMSAxIDAgMTAwLTJIM3pNMyA3YTEgMSAwIDAwMCAyaDVhMSAxIDAgMDAwLTJIM3pNMyAxMWExIDEgMCAxMDAgMmg0YTEgMSAwIDEwMC0ySDN6TTEzIDE2YTEgMSAwIDEwMiAwdi01LjU4NmwxLjI5MyAxLjI5M2ExIDEgMCAwMDEuNDE0LTEuNDE0bC0zLTNhMSAxIDAgMDAtMS40MTQgMGwtMyAzYTEgMSAwIDEwMS40MTQgMS40MTRMMTMgMTAuNDE0VjE2eiIgLz4KPC9zdmc+)
@@ -1162,6 +1252,16 @@ sortDescending attrs =
 sparkles : List (Attribute msg) -> Html msg
 sparkles attrs =
     svg (viewBox "0 0 20 20" :: fill "currentColor" :: attrs) [ Svg.path [ fillRule "evenodd", d "M5 2a1 1 0 011 1v1h1a1 1 0 010 2H6v1a1 1 0 01-2 0V6H3a1 1 0 010-2h1V3a1 1 0 011-1zm0 10a1 1 0 011 1v1h1a1 1 0 110 2H6v1a1 1 0 11-2 0v-1H3a1 1 0 110-2h1v-1a1 1 0 011-1zM12 2a1 1 0 01.967.744L14.146 7.2 17.5 9.134a1 1 0 010 1.732l-3.354 1.935-1.18 4.455a1 1 0 01-1.933 0L9.854 12.8 6.5 10.866a1 1 0 010-1.732l3.354-1.935 1.18-4.455A1 1 0 0112 2z", clipRule "evenodd" ] [] ]
+
+
+{-| speakerphone
+
+![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTE4IDNhMSAxIDAgMDAtMS40NDctLjg5NEw4Ljc2MyA2SDVhMyAzIDAgMDAwIDZoLjI4bDEuNzcxIDUuMzE2QTEgMSAwIDAwOCAxOGgxYTEgMSAwIDAwMS0xdi00LjM4Mmw2LjU1MyAzLjI3NkExIDEgMCAwMDE4IDE1VjN6IiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIC8+Cjwvc3ZnPg==)
+
+-}
+speakerphone : List (Attribute msg) -> Html msg
+speakerphone attrs =
+    svg (viewBox "0 0 20 20" :: fill "currentColor" :: attrs) [ Svg.path [ fillRule "evenodd", d "M18 3a1 1 0 00-1.447-.894L8.763 6H5a3 3 0 000 6h.28l1.771 5.316A1 1 0 008 18h1a1 1 0 001-1v-4.382l6.553 3.276A1 1 0 0018 15V3z", clipRule "evenodd" ] [] ]
 
 
 {-| sun
@@ -1314,16 +1414,6 @@ userRemove attrs =
     svg (viewBox "0 0 20 20" :: fill "currentColor" :: attrs) [ Svg.path [ d "M11 6a3 3 0 11-6 0 3 3 0 016 0zM14 17a6 6 0 00-12 0h12zM13 8a1 1 0 100 2h4a1 1 0 100-2h-4z" ] [] ]
 
 
-{-| users
-
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGQ9Ik05IDZhMyAzIDAgMTEtNiAwIDMgMyAwIDAxNiAwek0xNyA2YTMgMyAwIDExLTYgMCAzIDMgMCAwMTYgMHpNMTIuOTMgMTdjLjA0Ni0uMzI3LjA3LS42Ni4wNy0xYTYuOTcgNi45NyAwIDAwLTEuNS00LjMzQTUgNSAwIDAxMTkgMTZ2MWgtNi4wN3pNNiAxMWE1IDUgMCAwMTUgNXYxSDF2LTFhNSA1IDAgMDE1LTV6IiAvPgo8L3N2Zz4=)
-
--}
-users : List (Attribute msg) -> Html msg
-users attrs =
-    svg (viewBox "0 0 20 20" :: fill "currentColor" :: attrs) [ Svg.path [ d "M9 6a3 3 0 11-6 0 3 3 0 016 0zM17 6a3 3 0 11-6 0 3 3 0 016 0zM12.93 17c.046-.327.07-.66.07-1a6.97 6.97 0 00-1.5-4.33A5 5 0 0119 16v1h-6.07zM6 11a5 5 0 015 5v1H1v-1a5 5 0 015-5z" ] [] ]
-
-
 {-| user
 
 ![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTEwIDlhMyAzIDAgMTAwLTYgMyAzIDAgMDAwIDZ6bS03IDlhNyA3IDAgMTExNCAwSDN6IiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIC8+Cjwvc3ZnPg==)
@@ -1332,6 +1422,16 @@ users attrs =
 user : List (Attribute msg) -> Html msg
 user attrs =
     svg (viewBox "0 0 20 20" :: fill "currentColor" :: attrs) [ Svg.path [ fillRule "evenodd", d "M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z", clipRule "evenodd" ] [] ]
+
+
+{-| users
+
+![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGQ9Ik05IDZhMyAzIDAgMTEtNiAwIDMgMyAwIDAxNiAwek0xNyA2YTMgMyAwIDExLTYgMCAzIDMgMCAwMTYgMHpNMTIuOTMgMTdjLjA0Ni0uMzI3LjA3LS42Ni4wNy0xYTYuOTcgNi45NyAwIDAwLTEuNS00LjMzQTUgNSAwIDAxMTkgMTZ2MWgtNi4wN3pNNiAxMWE1IDUgMCAwMTUgNXYxSDF2LTFhNSA1IDAgMDE1LTV6IiAvPgo8L3N2Zz4=)
+
+-}
+users : List (Attribute msg) -> Html msg
+users attrs =
+    svg (viewBox "0 0 20 20" :: fill "currentColor" :: attrs) [ Svg.path [ d "M9 6a3 3 0 11-6 0 3 3 0 016 0zM17 6a3 3 0 11-6 0 3 3 0 016 0zM12.93 17c.046-.327.07-.66.07-1a6.97 6.97 0 00-1.5-4.33A5 5 0 0119 16v1h-6.07zM6 11a5 5 0 015 5v1H1v-1a5 5 0 015-5z" ] [] ]
 
 
 {-| view-boards
