@@ -1,11 +1,11 @@
-module Heroicons.Solid exposing (adjustments, annotation, archive, arrowCircleDown, arrowCircleLeft, arrowCircleRight, arrowCircleUp, arrowDown, arrowLeft, arrowNarrowDown, arrowNarrowLeft, arrowNarrowRight, arrowNarrowUp, arrowRight, arrowUp, atSymbol, badgeCheck, ban, bell, bookOpen, bookmark, briefcase, calendar, camera, cash, chartPie, chatAlt, chat, checkCircle, check, cheveronDown, cheveronLeft, cheveronRight, cheveronUp, clipboardCheck, clipboardCopy, clipboardList, clipboard, clock, cloudDownload, cloudUpload, code, cog, collection, colorSwatch, creditCard, currencyDollar, currencyEuro, currencyPound, currencyRupee, currencyYen, cursorClick, documentAdd, documentDownload, documentDuplicate, documentRemove, documentReport, document, dotsCircleHorizontal, dotsHorizontal, dotsVertical, download, duplicate, emojiHappy, emojiSad, exclamationCircle, exclamation, externalLink, eye, filter, flag, folder, globeAlt, globe, hashtag, heart, home, inboxIn, inbox, informationCircle, key, lightBulb, lightningBolt, link, locationMarker, lockClosed, lockOpen, logout, mailOpen, mail, menuAlt1, menuAlt2, menuAlt3, menuAlt4, menu, microphone, minusCircle, moon, officeBuilding, paperClip, pencilAlt, pencil, phoneIncoming, phoneOutgoing, phone, photograph, plusCircle, plus, printer, qrcode, questionMarkCircle, receiptRefund, refresh, reply, scale, search, selector, share, shieldCheck, shieldExclamation, shoppingCart, sortAscending, sortDescending, sparkles, speakerphone, sun, switchHorizontal, switchVertical, tag, template, ticket, translate, trash, trendingDown, trendingUp, upload, userAdd, userCircle, userGroup, userRemove, user, users, viewBoards, viewList, volumeOff, volumeUp, xCircle, x, zoomIn, zoomOut)
+module Heroicons.Solid exposing (adjustments, annotation, archive, arrowCircleDown, arrowCircleLeft, arrowCircleRight, arrowCircleUp, arrowDown, arrowLeft, arrowNarrowDown, arrowNarrowLeft, arrowNarrowRight, arrowNarrowUp, arrowRight, arrowUp, atSymbol, badgeCheck, ban, bell, bookmarkAlt, bookmark, bookOpen, briefcase, calendar, camera, cash, chartBar, chartPie, chartSquareBar, chatAlt2, chatAlt, chat, checkCircle, check, cheveronDown, cheveronLeft, cheveronRight, cheveronUp, clipboardCheck, clipboardCopy, clipboardList, clipboard, clock, cloudDownload, cloudUpload, code, cog, collection, colorSwatch, creditCard, currencyDollar, currencyEuro, currencyPound, currencyRupee, currencyYen, cursorClick, desktopComputer, documentAdd, documentDownload, documentDuplicate, documentRemove, documentReport, document, dotsCircleHorizontal, dotsHorizontal, dotsVertical, download, duplicate, emojiHappy, emojiSad, exclamationCircle, exclamation, externalLink, eyeOff, eye, filter, flag, folder, globeAlt, globe, hashtag, heart, home, inboxIn, inbox, informationCircle, key, library, lightBulb, lightningBolt, link, locationMarker, lockClosed, lockOpen, logout, mailOpen, mail, menuAlt1, menuAlt2, menuAlt3, menuAlt4, menu, microphone, minusCircle, moon, newspaper, officeBuilding, paperClip, pause, pencilAlt, pencil, phoneIncoming, phoneOutgoing, phone, photograph, play, plusCircle, plus, printer, qrcode, questionMarkCircle, receiptRefund, refresh, reply, scale, search, selector, share, shieldCheck, shieldExclamation, shoppingCart, sortAscending, sortDescending, sparkles, speakerphone, star, stop, sun, support, switchHorizontal, switchVertical, tag, template, terminal, ticket, translate, trash, trendingDown, trendingUp, upload, userAdd, userCircle, userGroup, userRemove, users, user, viewBoards, viewGridAdd, viewList, volumeOff, volumeUp, xCircle, x, zoomIn, zoomOut)
 
 {-|
 
 
 # Heroicons
 
-@docs adjustments, annotation, archive, arrowCircleDown, arrowCircleLeft, arrowCircleRight, arrowCircleUp, arrowDown, arrowLeft, arrowNarrowDown, arrowNarrowLeft, arrowNarrowRight, arrowNarrowUp, arrowRight, arrowUp, atSymbol, badgeCheck, ban, bell, bookOpen, bookmark, briefcase, calendar, camera, cash, chartPie, chatAlt, chat, checkCircle, check, cheveronDown, cheveronLeft, cheveronRight, cheveronUp, clipboardCheck, clipboardCopy, clipboardList, clipboard, clock, cloudDownload, cloudUpload, code, cog, collection, colorSwatch, creditCard, currencyDollar, currencyEuro, currencyPound, currencyRupee, currencyYen, cursorClick, documentAdd, documentDownload, documentDuplicate, documentRemove, documentReport, document, dotsCircleHorizontal, dotsHorizontal, dotsVertical, download, duplicate, emojiHappy, emojiSad, exclamationCircle, exclamation, externalLink, eye, filter, flag, folder, globeAlt, globe, hashtag, heart, home, inboxIn, inbox, informationCircle, key, lightBulb, lightningBolt, link, locationMarker, lockClosed, lockOpen, logout, mailOpen, mail, menuAlt1, menuAlt2, menuAlt3, menuAlt4, menu, microphone, minusCircle, moon, officeBuilding, paperClip, pencilAlt, pencil, phoneIncoming, phoneOutgoing, phone, photograph, plusCircle, plus, printer, qrcode, questionMarkCircle, receiptRefund, refresh, reply, scale, search, selector, share, shieldCheck, shieldExclamation, shoppingCart, sortAscending, sortDescending, sparkles, speakerphone, sun, switchHorizontal, switchVertical, tag, template, ticket, translate, trash, trendingDown, trendingUp, upload, userAdd, userCircle, userGroup, userRemove, user, users, viewBoards, viewList, volumeOff, volumeUp, xCircle, x, zoomIn, zoomOut
+@docs adjustments, annotation, archive, arrowCircleDown, arrowCircleLeft, arrowCircleRight, arrowCircleUp, arrowDown, arrowLeft, arrowNarrowDown, arrowNarrowLeft, arrowNarrowRight, arrowNarrowUp, arrowRight, arrowUp, atSymbol, badgeCheck, ban, bell, bookmarkAlt, bookmark, bookOpen, briefcase, calendar, camera, cash, chartBar, chartPie, chartSquareBar, chatAlt2, chatAlt, chat, checkCircle, check, cheveronDown, cheveronLeft, cheveronRight, cheveronUp, clipboardCheck, clipboardCopy, clipboardList, clipboard, clock, cloudDownload, cloudUpload, code, cog, collection, colorSwatch, creditCard, currencyDollar, currencyEuro, currencyPound, currencyRupee, currencyYen, cursorClick, desktopComputer, documentAdd, documentDownload, documentDuplicate, documentRemove, documentReport, document, dotsCircleHorizontal, dotsHorizontal, dotsVertical, download, duplicate, emojiHappy, emojiSad, exclamationCircle, exclamation, externalLink, eyeOff, eye, filter, flag, folder, globeAlt, globe, hashtag, heart, home, inboxIn, inbox, informationCircle, key, library, lightBulb, lightningBolt, link, locationMarker, lockClosed, lockOpen, logout, mailOpen, mail, menuAlt1, menuAlt2, menuAlt3, menuAlt4, menu, microphone, minusCircle, moon, newspaper, officeBuilding, paperClip, pause, pencilAlt, pencil, phoneIncoming, phoneOutgoing, phone, photograph, play, plusCircle, plus, printer, qrcode, questionMarkCircle, receiptRefund, refresh, reply, scale, search, selector, share, shieldCheck, shieldExclamation, shoppingCart, sortAscending, sortDescending, sparkles, speakerphone, star, stop, sun, support, switchHorizontal, switchVertical, tag, template, terminal, ticket, translate, trash, trendingDown, trendingUp, upload, userAdd, userCircle, userGroup, userRemove, users, user, viewBoards, viewGridAdd, viewList, volumeOff, volumeUp, xCircle, x, zoomIn, zoomOut
 
 -}
 
@@ -16,7 +16,7 @@ import Svg.Attributes exposing (..)
 
 {-| adjustments
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGQ9Ik01IDRhMSAxIDAgMDAtMiAwdjcuMjY4YTIgMiAwIDAwMCAzLjQ2NFYxNmExIDEgMCAxMDIgMHYtMS4yNjhhMiAyIDAgMDAwLTMuNDY0VjR6TTExIDRhMSAxIDAgMTAtMiAwdjEuMjY4YTIgMiAwIDAwMCAzLjQ2NFYxNmExIDEgMCAxMDIgMFY4LjczMmEyIDIgMCAwMDAtMy40NjRWNHpNMTYgM2ExIDEgMCAwMTEgMXY3LjI2OGEyIDIgMCAwMTAgMy40NjRWMTZhMSAxIDAgMTEtMiAwdi0xLjI2OGEyIDIgMCAwMTAtMy40NjRWNGExIDEgMCAwMTEtMXoiIC8+Cjwvc3ZnPg==)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGQ9Ik01IDRhMSAxIDAgMDAtMiAwdjcuMjY4YTIgMiAwIDAwMCAzLjQ2NFYxNmExIDEgMCAxMDIgMHYtMS4yNjhhMiAyIDAgMDAwLTMuNDY0VjR6TTExIDRhMSAxIDAgMTAtMiAwdjEuMjY4YTIgMiAwIDAwMCAzLjQ2NFYxNmExIDEgMCAxMDIgMFY4LjczMmEyIDIgMCAwMDAtMy40NjRWNHpNMTYgM2ExIDEgMCAwMTEgMXY3LjI2OGEyIDIgMCAwMTAgMy40NjRWMTZhMSAxIDAgMTEtMiAwdi0xLjI2OGEyIDIgMCAwMTAtMy40NjRWNGExIDEgMCAwMTEtMXoiIC8+Cjwvc3ZnPg==)
 
 -}
 adjustments : List (Attribute msg) -> Html msg
@@ -26,7 +26,7 @@ adjustments attrs =
 
 {-| annotation
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTE4IDEzVjVhMiAyIDAgMDAtMi0ySDRhMiAyIDAgMDAtMiAydjhhMiAyIDAgMDAyIDJoM2wzIDMgMy0zaDNhMiAyIDAgMDAyLTJ6TTUgN2ExIDEgMCAwMTEtMWg4YTEgMSAwIDExMCAySDZhMSAxIDAgMDEtMS0xem0xIDNhMSAxIDAgMTAwIDJoM2ExIDEgMCAxMDAtMkg2eiIgZmlsbC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTE4IDEzVjVhMiAyIDAgMDAtMi0ySDRhMiAyIDAgMDAtMiAydjhhMiAyIDAgMDAyIDJoM2wzIDMgMy0zaDNhMiAyIDAgMDAyLTJ6TTUgN2ExIDEgMCAwMTEtMWg4YTEgMSAwIDExMCAySDZhMSAxIDAgMDEtMS0xem0xIDNhMSAxIDAgMTAwIDJoM2ExIDEgMCAxMDAtMkg2eiIgY2xpcC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
 
 -}
 annotation : List (Attribute msg) -> Html msg
@@ -36,7 +36,7 @@ annotation attrs =
 
 {-| archive
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGQ9Ik00IDNhMiAyIDAgMTAwIDRoMTJhMiAyIDAgMTAwLTRINHoiIC8+CiAgPHBhdGggY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMyA4aDE0djdhMiAyIDAgMDEtMiAySDVhMiAyIDAgMDEtMi0yVjh6bTUgM2ExIDEgMCAwMTEtMWgyYTEgMSAwIDExMCAySDlhMSAxIDAgMDEtMS0xeiIgZmlsbC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGQ9Ik00IDNhMiAyIDAgMTAwIDRoMTJhMiAyIDAgMTAwLTRINHoiIC8+CiAgPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMyA4aDE0djdhMiAyIDAgMDEtMiAySDVhMiAyIDAgMDEtMi0yVjh6bTUgM2ExIDEgMCAwMTEtMWgyYTEgMSAwIDExMCAySDlhMSAxIDAgMDEtMS0xeiIgY2xpcC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
 
 -}
 archive : List (Attribute msg) -> Html msg
@@ -46,7 +46,7 @@ archive attrs =
 
 {-| arrow-circle-down
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTEwIDE4YTggOCAwIDEwMC0xNiA4IDggMCAwMDAgMTZ6bTEtMTFhMSAxIDAgMTAtMiAwdjMuNTg2TDcuNzA3IDkuMjkzYTEgMSAwIDAwLTEuNDE0IDEuNDE0bDMgM2ExIDEgMCAwMDEuNDE0IDBsMy0zYTEgMSAwIDAwLTEuNDE0LTEuNDE0TDExIDEwLjU4NlY3eiIgZmlsbC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEwIDE4YTggOCAwIDEwMC0xNiA4IDggMCAwMDAgMTZ6bTEtMTFhMSAxIDAgMTAtMiAwdjMuNTg2TDcuNzA3IDkuMjkzYTEgMSAwIDAwLTEuNDE0IDEuNDE0bDMgM2ExIDEgMCAwMDEuNDE0IDBsMy0zYTEgMSAwIDAwLTEuNDE0LTEuNDE0TDExIDEwLjU4NlY3eiIgY2xpcC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
 
 -}
 arrowCircleDown : List (Attribute msg) -> Html msg
@@ -56,7 +56,7 @@ arrowCircleDown attrs =
 
 {-| arrow-circle-left
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTEwIDE4YTggOCAwIDEwMC0xNiA4IDggMCAwMDAgMTZ6bS43MDctMTAuMjkzYTEgMSAwIDAwLTEuNDE0LTEuNDE0bC0zIDNhMSAxIDAgMDAwIDEuNDE0bDMgM2ExIDEgMCAwMDEuNDE0LTEuNDE0TDkuNDE0IDExSDEzYTEgMSAwIDEwMC0ySDkuNDE0bDEuMjkzLTEuMjkzeiIgZmlsbC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEwIDE4YTggOCAwIDEwMC0xNiA4IDggMCAwMDAgMTZ6bS43MDctMTAuMjkzYTEgMSAwIDAwLTEuNDE0LTEuNDE0bC0zIDNhMSAxIDAgMDAwIDEuNDE0bDMgM2ExIDEgMCAwMDEuNDE0LTEuNDE0TDkuNDE0IDExSDEzYTEgMSAwIDEwMC0ySDkuNDE0bDEuMjkzLTEuMjkzeiIgY2xpcC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
 
 -}
 arrowCircleLeft : List (Attribute msg) -> Html msg
@@ -66,7 +66,7 @@ arrowCircleLeft attrs =
 
 {-| arrow-circle-right
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTEwIDE4YTggOCAwIDEwMC0xNiA4IDggMCAwMDAgMTZ6bTMuNzA3LTguNzA3bC0zLTNhMSAxIDAgMDAtMS40MTQgMS40MTRMMTAuNTg2IDlIN2ExIDEgMCAxMDAgMmgzLjU4NmwtMS4yOTMgMS4yOTNhMSAxIDAgMTAxLjQxNCAxLjQxNGwzLTNhMSAxIDAgMDAwLTEuNDE0eiIgZmlsbC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEwIDE4YTggOCAwIDEwMC0xNiA4IDggMCAwMDAgMTZ6bTMuNzA3LTguNzA3bC0zLTNhMSAxIDAgMDAtMS40MTQgMS40MTRMMTAuNTg2IDlIN2ExIDEgMCAxMDAgMmgzLjU4NmwtMS4yOTMgMS4yOTNhMSAxIDAgMTAxLjQxNCAxLjQxNGwzLTNhMSAxIDAgMDAwLTEuNDE0eiIgY2xpcC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
 
 -}
 arrowCircleRight : List (Attribute msg) -> Html msg
@@ -76,7 +76,7 @@ arrowCircleRight attrs =
 
 {-| arrow-circle-up
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTEwIDE4YTggOCAwIDEwMC0xNiA4IDggMCAwMDAgMTZ6bTMuNzA3LTguNzA3bC0zLTNhMSAxIDAgMDAtMS40MTQgMGwtMyAzYTEgMSAwIDAwMS40MTQgMS40MTRMOSA5LjQxNFYxM2ExIDEgMCAxMDIgMFY5LjQxNGwxLjI5MyAxLjI5M2ExIDEgMCAwMDEuNDE0LTEuNDE0eiIgZmlsbC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEwIDE4YTggOCAwIDEwMC0xNiA4IDggMCAwMDAgMTZ6bTMuNzA3LTguNzA3bC0zLTNhMSAxIDAgMDAtMS40MTQgMGwtMyAzYTEgMSAwIDAwMS40MTQgMS40MTRMOSA5LjQxNFYxM2ExIDEgMCAxMDIgMFY5LjQxNGwxLjI5MyAxLjI5M2ExIDEgMCAwMDEuNDE0LTEuNDE0eiIgY2xpcC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
 
 -}
 arrowCircleUp : List (Attribute msg) -> Html msg
@@ -86,7 +86,7 @@ arrowCircleUp attrs =
 
 {-| arrow-down
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTE2LjcwNyAxMC4yOTNhMSAxIDAgMDEwIDEuNDE0bC02IDZhMSAxIDAgMDEtMS40MTQgMGwtNi02YTEgMSAwIDExMS40MTQtMS40MTRMOSAxNC41ODZWM2ExIDEgMCAwMTIgMHYxMS41ODZsNC4yOTMtNC4yOTNhMSAxIDAgMDExLjQxNCAweiIgZmlsbC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTE2LjcwNyAxMC4yOTNhMSAxIDAgMDEwIDEuNDE0bC02IDZhMSAxIDAgMDEtMS40MTQgMGwtNi02YTEgMSAwIDExMS40MTQtMS40MTRMOSAxNC41ODZWM2ExIDEgMCAwMTIgMHYxMS41ODZsNC4yOTMtNC4yOTNhMSAxIDAgMDExLjQxNCAweiIgY2xpcC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
 
 -}
 arrowDown : List (Attribute msg) -> Html msg
@@ -96,7 +96,7 @@ arrowDown attrs =
 
 {-| arrow-left
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTkuNzA3IDE2LjcwN2ExIDEgMCAwMS0xLjQxNCAwbC02LTZhMSAxIDAgMDEwLTEuNDE0bDYtNmExIDEgMCAwMTEuNDE0IDEuNDE0TDUuNDE0IDlIMTdhMSAxIDAgMTEwIDJINS40MTRsNC4yOTMgNC4yOTNhMSAxIDAgMDEwIDEuNDE0eiIgZmlsbC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTkuNzA3IDE2LjcwN2ExIDEgMCAwMS0xLjQxNCAwbC02LTZhMSAxIDAgMDEwLTEuNDE0bDYtNmExIDEgMCAwMTEuNDE0IDEuNDE0TDUuNDE0IDlIMTdhMSAxIDAgMTEwIDJINS40MTRsNC4yOTMgNC4yOTNhMSAxIDAgMDEwIDEuNDE0eiIgY2xpcC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
 
 -}
 arrowLeft : List (Attribute msg) -> Html msg
@@ -106,7 +106,7 @@ arrowLeft attrs =
 
 {-| arrow-narrow-down
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTE0LjcwNyAxMi4yOTNhMSAxIDAgMDEwIDEuNDE0bC00IDRhMSAxIDAgMDEtMS40MTQgMGwtNC00YTEgMSAwIDExMS40MTQtMS40MTRMOSAxNC41ODZWM2ExIDEgMCAwMTIgMHYxMS41ODZsMi4yOTMtMi4yOTNhMSAxIDAgMDExLjQxNCAweiIgZmlsbC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTE0LjcwNyAxMi4yOTNhMSAxIDAgMDEwIDEuNDE0bC00IDRhMSAxIDAgMDEtMS40MTQgMGwtNC00YTEgMSAwIDExMS40MTQtMS40MTRMOSAxNC41ODZWM2ExIDEgMCAwMTIgMHYxMS41ODZsMi4yOTMtMi4yOTNhMSAxIDAgMDExLjQxNCAweiIgY2xpcC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
 
 -}
 arrowNarrowDown : List (Attribute msg) -> Html msg
@@ -116,7 +116,7 @@ arrowNarrowDown attrs =
 
 {-| arrow-narrow-left
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTcuNzA3IDE0LjcwN2ExIDEgMCAwMS0xLjQxNCAwbC00LTRhMSAxIDAgMDEwLTEuNDE0bDQtNGExIDEgMCAwMTEuNDE0IDEuNDE0TDUuNDE0IDlIMTdhMSAxIDAgMTEwIDJINS40MTRsMi4yOTMgMi4yOTNhMSAxIDAgMDEwIDEuNDE0eiIgZmlsbC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTcuNzA3IDE0LjcwN2ExIDEgMCAwMS0xLjQxNCAwbC00LTRhMSAxIDAgMDEwLTEuNDE0bDQtNGExIDEgMCAwMTEuNDE0IDEuNDE0TDUuNDE0IDlIMTdhMSAxIDAgMTEwIDJINS40MTRsMi4yOTMgMi4yOTNhMSAxIDAgMDEwIDEuNDE0eiIgY2xpcC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
 
 -}
 arrowNarrowLeft : List (Attribute msg) -> Html msg
@@ -126,7 +126,7 @@ arrowNarrowLeft attrs =
 
 {-| arrow-narrow-right
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTEyLjI5MyA1LjI5M2ExIDEgMCAwMTEuNDE0IDBsNCA0YTEgMSAwIDAxMCAxLjQxNGwtNCA0YTEgMSAwIDAxLTEuNDE0LTEuNDE0TDE0LjU4NiAxMUgzYTEgMSAwIDExMC0yaDExLjU4NmwtMi4yOTMtMi4yOTNhMSAxIDAgMDEwLTEuNDE0eiIgZmlsbC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEyLjI5MyA1LjI5M2ExIDEgMCAwMTEuNDE0IDBsNCA0YTEgMSAwIDAxMCAxLjQxNGwtNCA0YTEgMSAwIDAxLTEuNDE0LTEuNDE0TDE0LjU4NiAxMUgzYTEgMSAwIDExMC0yaDExLjU4NmwtMi4yOTMtMi4yOTNhMSAxIDAgMDEwLTEuNDE0eiIgY2xpcC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
 
 -}
 arrowNarrowRight : List (Attribute msg) -> Html msg
@@ -136,7 +136,7 @@ arrowNarrowRight attrs =
 
 {-| arrow-narrow-up
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTUuMjkzIDcuNzA3YTEgMSAwIDAxMC0xLjQxNGw0LTRhMSAxIDAgMDExLjQxNCAwbDQgNGExIDEgMCAwMS0xLjQxNCAxLjQxNEwxMSA1LjQxNFYxN2ExIDEgMCAxMS0yIDBWNS40MTRMNi43MDcgNy43MDdhMSAxIDAgMDEtMS40MTQgMHoiIGZpbGwtcnVsZT0iZXZlbm9kZCIgLz4KPC9zdmc+)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTUuMjkzIDcuNzA3YTEgMSAwIDAxMC0xLjQxNGw0LTRhMSAxIDAgMDExLjQxNCAwbDQgNGExIDEgMCAwMS0xLjQxNCAxLjQxNEwxMSA1LjQxNFYxN2ExIDEgMCAxMS0yIDBWNS40MTRMNi43MDcgNy43MDdhMSAxIDAgMDEtMS40MTQgMHoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgLz4KPC9zdmc+)
 
 -}
 arrowNarrowUp : List (Attribute msg) -> Html msg
@@ -146,7 +146,7 @@ arrowNarrowUp attrs =
 
 {-| arrow-right
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTEwLjI5MyAzLjI5M2ExIDEgMCAwMTEuNDE0IDBsNiA2YTEgMSAwIDAxMCAxLjQxNGwtNiA2YTEgMSAwIDAxLTEuNDE0LTEuNDE0TDE0LjU4NiAxMUgzYTEgMSAwIDExMC0yaDExLjU4NmwtNC4yOTMtNC4yOTNhMSAxIDAgMDEwLTEuNDE0eiIgZmlsbC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEwLjI5MyAzLjI5M2ExIDEgMCAwMTEuNDE0IDBsNiA2YTEgMSAwIDAxMCAxLjQxNGwtNiA2YTEgMSAwIDAxLTEuNDE0LTEuNDE0TDE0LjU4NiAxMUgzYTEgMSAwIDExMC0yaDExLjU4NmwtNC4yOTMtNC4yOTNhMSAxIDAgMDEwLTEuNDE0eiIgY2xpcC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
 
 -}
 arrowRight : List (Attribute msg) -> Html msg
@@ -156,7 +156,7 @@ arrowRight attrs =
 
 {-| arrow-up
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTMuMjkzIDkuNzA3YTEgMSAwIDAxMC0xLjQxNGw2LTZhMSAxIDAgMDExLjQxNCAwbDYgNmExIDEgMCAwMS0xLjQxNCAxLjQxNEwxMSA1LjQxNFYxN2ExIDEgMCAxMS0yIDBWNS40MTRMNC43MDcgOS43MDdhMSAxIDAgMDEtMS40MTQgMHoiIGZpbGwtcnVsZT0iZXZlbm9kZCIgLz4KPC9zdmc+)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTMuMjkzIDkuNzA3YTEgMSAwIDAxMC0xLjQxNGw2LTZhMSAxIDAgMDExLjQxNCAwbDYgNmExIDEgMCAwMS0xLjQxNCAxLjQxNEwxMSA1LjQxNFYxN2ExIDEgMCAxMS0yIDBWNS40MTRMNC43MDcgOS43MDdhMSAxIDAgMDEtMS40MTQgMHoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgLz4KPC9zdmc+)
 
 -}
 arrowUp : List (Attribute msg) -> Html msg
@@ -166,7 +166,7 @@ arrowUp attrs =
 
 {-| at-symbol
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTE0LjI0MyA1Ljc1N2E2IDYgMCAxMC0uOTg2IDkuMjg0IDEgMSAwIDExMS4wODcgMS42NzhBOCA4IDAgMTExOCAxMGEzIDMgMCAwMS00LjggMi40MDFBNCA0IDAgMTExNCAxMGExIDEgMCAxMDIgMGMwLTEuNTM3LS41ODYtMy4wNy0xLjc1Ny00LjI0M3pNMTIgMTBhMiAyIDAgMTAtNCAwIDIgMiAwIDAwNCAweiIgZmlsbC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTE0LjI0MyA1Ljc1N2E2IDYgMCAxMC0uOTg2IDkuMjg0IDEgMSAwIDExMS4wODcgMS42NzhBOCA4IDAgMTExOCAxMGEzIDMgMCAwMS00LjggMi40MDFBNCA0IDAgMTExNCAxMGExIDEgMCAxMDIgMGMwLTEuNTM3LS41ODYtMy4wNy0xLjc1Ny00LjI0M3pNMTIgMTBhMiAyIDAgMTAtNCAwIDIgMiAwIDAwNCAweiIgY2xpcC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
 
 -}
 atSymbol : List (Attribute msg) -> Html msg
@@ -176,7 +176,7 @@ atSymbol attrs =
 
 {-| badge-check
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTYuMjY3IDMuNDU1YTMuMDY2IDMuMDY2IDAgMDAxLjc0NS0uNzIzIDMuMDY2IDMuMDY2IDAgMDEzLjk3NiAwIDMuMDY2IDMuMDY2IDAgMDAxLjc0NS43MjMgMy4wNjYgMy4wNjYgMCAwMTIuODEyIDIuODEyYy4wNTEuNjQzLjMwNCAxLjI1NC43MjMgMS43NDVhMy4wNjYgMy4wNjYgMCAwMTAgMy45NzYgMy4wNjYgMy4wNjYgMCAwMC0uNzIzIDEuNzQ1IDMuMDY2IDMuMDY2IDAgMDEtMi44MTIgMi44MTIgMy4wNjYgMy4wNjYgMCAwMC0xLjc0NS43MjMgMy4wNjYgMy4wNjYgMCAwMS0zLjk3NiAwIDMuMDY2IDMuMDY2IDAgMDAtMS43NDUtLjcyMyAzLjA2NiAzLjA2NiAwIDAxLTIuODEyLTIuODEyIDMuMDY2IDMuMDY2IDAgMDAtLjcyMy0xLjc0NSAzLjA2NiAzLjA2NiAwIDAxMC0zLjk3NiAzLjA2NiAzLjA2NiAwIDAwLjcyMy0xLjc0NSAzLjA2NiAzLjA2NiAwIDAxMi44MTItMi44MTJ6bTcuNDQgNS4yNTJhMSAxIDAgMDAtMS40MTQtMS40MTRMOSAxMC41ODYgNy43MDcgOS4yOTNhMSAxIDAgMDAtMS40MTQgMS40MTRsMiAyYTEgMSAwIDAwMS40MTQgMGw0LTR6IiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIC8+Cjwvc3ZnPg==)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTYuMjY3IDMuNDU1YTMuMDY2IDMuMDY2IDAgMDAxLjc0NS0uNzIzIDMuMDY2IDMuMDY2IDAgMDEzLjk3NiAwIDMuMDY2IDMuMDY2IDAgMDAxLjc0NS43MjMgMy4wNjYgMy4wNjYgMCAwMTIuODEyIDIuODEyYy4wNTEuNjQzLjMwNCAxLjI1NC43MjMgMS43NDVhMy4wNjYgMy4wNjYgMCAwMTAgMy45NzYgMy4wNjYgMy4wNjYgMCAwMC0uNzIzIDEuNzQ1IDMuMDY2IDMuMDY2IDAgMDEtMi44MTIgMi44MTIgMy4wNjYgMy4wNjYgMCAwMC0xLjc0NS43MjMgMy4wNjYgMy4wNjYgMCAwMS0zLjk3NiAwIDMuMDY2IDMuMDY2IDAgMDAtMS43NDUtLjcyMyAzLjA2NiAzLjA2NiAwIDAxLTIuODEyLTIuODEyIDMuMDY2IDMuMDY2IDAgMDAtLjcyMy0xLjc0NSAzLjA2NiAzLjA2NiAwIDAxMC0zLjk3NiAzLjA2NiAzLjA2NiAwIDAwLjcyMy0xLjc0NSAzLjA2NiAzLjA2NiAwIDAxMi44MTItMi44MTJ6bTcuNDQgNS4yNTJhMSAxIDAgMDAtMS40MTQtMS40MTRMOSAxMC41ODYgNy43MDcgOS4yOTNhMSAxIDAgMDAtMS40MTQgMS40MTRsMiAyYTEgMSAwIDAwMS40MTQgMGw0LTR6IiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIC8+Cjwvc3ZnPg==)
 
 -}
 badgeCheck : List (Attribute msg) -> Html msg
@@ -186,7 +186,7 @@ badgeCheck attrs =
 
 {-| ban
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTEzLjQ3NyAxNC44OUE2IDYgMCAwMTUuMTEgNi41MjRsOC4zNjcgOC4zNjh6bTEuNDE0LTEuNDE0TDYuNTI0IDUuMTFhNiA2IDAgMDE4LjM2NyA4LjM2N3pNMTggMTBhOCA4IDAgMTEtMTYgMCA4IDggMCAwMTE2IDB6IiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIC8+Cjwvc3ZnPg==)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEzLjQ3NyAxNC44OUE2IDYgMCAwMTUuMTEgNi41MjRsOC4zNjcgOC4zNjh6bTEuNDE0LTEuNDE0TDYuNTI0IDUuMTFhNiA2IDAgMDE4LjM2NyA4LjM2N3pNMTggMTBhOCA4IDAgMTEtMTYgMCA4IDggMCAwMTE2IDB6IiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIC8+Cjwvc3ZnPg==)
 
 -}
 ban : List (Attribute msg) -> Html msg
@@ -196,7 +196,7 @@ ban attrs =
 
 {-| bell
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGQ9Ik0xMCAyYTYgNiAwIDAwLTYgNnYzLjU4NmwtLjcwNy43MDdBMSAxIDAgMDA0IDE0aDEyYTEgMSAwIDAwLjcwNy0xLjcwN0wxNiAxMS41ODZWOGE2IDYgMCAwMC02LTZ6TTEwIDE4YTMgMyAwIDAxLTMtM2g2YTMgMyAwIDAxLTMgM3oiIC8+Cjwvc3ZnPg==)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGQ9Ik0xMCAyYTYgNiAwIDAwLTYgNnYzLjU4NmwtLjcwNy43MDdBMSAxIDAgMDA0IDE0aDEyYTEgMSAwIDAwLjcwNy0xLjcwN0wxNiAxMS41ODZWOGE2IDYgMCAwMC02LTZ6TTEwIDE4YTMgMyAwIDAxLTMtM2g2YTMgMyAwIDAxLTMgM3oiIC8+Cjwvc3ZnPg==)
 
 -}
 bell : List (Attribute msg) -> Html msg
@@ -204,19 +204,19 @@ bell attrs =
     svg (viewBox "0 0 20 20" :: fill "currentColor" :: attrs) [ Svg.path [ d "M10 2a6 6 0 00-6 6v3.586l-.707.707A1 1 0 004 14h12a1 1 0 00.707-1.707L16 11.586V8a6 6 0 00-6-6zM10 18a3 3 0 01-3-3h6a3 3 0 01-3 3z" ] [] ]
 
 
-{-| book-open
+{-| bookmark-alt
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGQ9Ik05IDQuODA0QTcuOTY4IDcuOTY4IDAgMDA1LjUgNGMtMS4yNTUgMC0yLjQ0My4yOS0zLjUuODA0djEwQTcuOTY5IDcuOTY5IDAgMDE1LjUgMTRjMS42NjkgMCAzLjIxOC41MSA0LjUgMS4zODVBNy45NjIgNy45NjIgMCAwMTE0LjUgMTRjMS4yNTUgMCAyLjQ0My4yOSAzLjUuODA0di0xMEE3Ljk2OCA3Ljk2OCAwIDAwMTQuNSA0Yy0xLjI1NSAwLTIuNDQzLjI5LTMuNS44MDRWMTJhMSAxIDAgMTEtMiAwVjQuODA0eiIgLz4KPC9zdmc+)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTMgNWEyIDIgMCAwMTItMmgxMGEyIDIgMCAwMTIgMnYxMGEyIDIgMCAwMS0yIDJINWEyIDIgMCAwMS0yLTJWNXptMTEgMUg2djhsNC0yIDQgMlY2eiIgY2xpcC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
 
 -}
-bookOpen : List (Attribute msg) -> Html msg
-bookOpen attrs =
-    svg (viewBox "0 0 20 20" :: fill "currentColor" :: attrs) [ Svg.path [ d "M9 4.804A7.968 7.968 0 005.5 4c-1.255 0-2.443.29-3.5.804v10A7.969 7.969 0 015.5 14c1.669 0 3.218.51 4.5 1.385A7.962 7.962 0 0114.5 14c1.255 0 2.443.29 3.5.804v-10A7.968 7.968 0 0014.5 4c-1.255 0-2.443.29-3.5.804V12a1 1 0 11-2 0V4.804z" ] [] ]
+bookmarkAlt : List (Attribute msg) -> Html msg
+bookmarkAlt attrs =
+    svg (viewBox "0 0 20 20" :: fill "currentColor" :: attrs) [ Svg.path [ fillRule "evenodd", d "M3 5a2 2 0 012-2h10a2 2 0 012 2v10a2 2 0 01-2 2H5a2 2 0 01-2-2V5zm11 1H6v8l4-2 4 2V6z", clipRule "evenodd" ] [] ]
 
 
 {-| bookmark
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGQ9Ik01IDRhMiAyIDAgMDEyLTJoNmEyIDIgMCAwMTIgMnYxNGwtNS0yLjVMNSAxOFY0eiIgLz4KPC9zdmc+)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGQ9Ik01IDRhMiAyIDAgMDEyLTJoNmEyIDIgMCAwMTIgMnYxNGwtNS0yLjVMNSAxOFY0eiIgLz4KPC9zdmc+)
 
 -}
 bookmark : List (Attribute msg) -> Html msg
@@ -224,9 +224,19 @@ bookmark attrs =
     svg (viewBox "0 0 20 20" :: fill "currentColor" :: attrs) [ Svg.path [ d "M5 4a2 2 0 012-2h6a2 2 0 012 2v14l-5-2.5L5 18V4z" ] [] ]
 
 
+{-| book-open
+
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGQ9Ik05IDQuODA0QTcuOTY4IDcuOTY4IDAgMDA1LjUgNGMtMS4yNTUgMC0yLjQ0My4yOS0zLjUuODA0djEwQTcuOTY5IDcuOTY5IDAgMDE1LjUgMTRjMS42NjkgMCAzLjIxOC41MSA0LjUgMS4zODVBNy45NjIgNy45NjIgMCAwMTE0LjUgMTRjMS4yNTUgMCAyLjQ0My4yOSAzLjUuODA0di0xMEE3Ljk2OCA3Ljk2OCAwIDAwMTQuNSA0Yy0xLjI1NSAwLTIuNDQzLjI5LTMuNS44MDRWMTJhMSAxIDAgMTEtMiAwVjQuODA0eiIgLz4KPC9zdmc+)
+
+-}
+bookOpen : List (Attribute msg) -> Html msg
+bookOpen attrs =
+    svg (viewBox "0 0 20 20" :: fill "currentColor" :: attrs) [ Svg.path [ d "M9 4.804A7.968 7.968 0 005.5 4c-1.255 0-2.443.29-3.5.804v10A7.969 7.969 0 015.5 14c1.669 0 3.218.51 4.5 1.385A7.962 7.962 0 0114.5 14c1.255 0 2.443.29 3.5.804v-10A7.968 7.968 0 0014.5 4c-1.255 0-2.443.29-3.5.804V12a1 1 0 11-2 0V4.804z" ] [] ]
+
+
 {-| briefcase
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTYgNlY1YTMgMyAwIDAxMy0zaDJhMyAzIDAgMDEzIDN2MWgyYTIgMiAwIDAxMiAydjMuNTdBMjIuOTUyIDIyLjk1MiAwIDAxMTAgMTNhMjIuOTUgMjIuOTUgMCAwMS04LTEuNDNWOGEyIDIgMCAwMTItMmgyem0yLTFhMSAxIDAgMDExLTFoMmExIDEgMCAwMTEgMXYxSDhWNXptMSA1YTEgMSAwIDAxMS0xaC4wMWExIDEgMCAxMTAgMkgxMGExIDEgMCAwMS0xLTF6IiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIC8+CiAgPHBhdGggZD0iTTIgMTMuNjkyVjE2YTIgMiAwIDAwMiAyaDEyYTIgMiAwIDAwMi0ydi0yLjMwOEEyNC45NzQgMjQuOTc0IDAgMDExMCAxNWMtMi43OTYgMC01LjQ4Ny0uNDYtOC0xLjMwOHoiIC8+Cjwvc3ZnPg==)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTYgNlY1YTMgMyAwIDAxMy0zaDJhMyAzIDAgMDEzIDN2MWgyYTIgMiAwIDAxMiAydjMuNTdBMjIuOTUyIDIyLjk1MiAwIDAxMTAgMTNhMjIuOTUgMjIuOTUgMCAwMS04LTEuNDNWOGEyIDIgMCAwMTItMmgyem0yLTFhMSAxIDAgMDExLTFoMmExIDEgMCAwMTEgMXYxSDhWNXptMSA1YTEgMSAwIDAxMS0xaC4wMWExIDEgMCAxMTAgMkgxMGExIDEgMCAwMS0xLTF6IiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIC8+CiAgPHBhdGggZD0iTTIgMTMuNjkyVjE2YTIgMiAwIDAwMiAyaDEyYTIgMiAwIDAwMi0ydi0yLjMwOEEyNC45NzQgMjQuOTc0IDAgMDExMCAxNWMtMi43OTYgMC01LjQ4Ny0uNDYtOC0xLjMwOHoiIC8+Cjwvc3ZnPg==)
 
 -}
 briefcase : List (Attribute msg) -> Html msg
@@ -236,7 +246,7 @@ briefcase attrs =
 
 {-| calendar
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTYgMmExIDEgMCAwMC0xIDF2MUg0YTIgMiAwIDAwLTIgMnYxMGEyIDIgMCAwMDIgMmgxMmEyIDIgMCAwMDItMlY2YTIgMiAwIDAwLTItMmgtMVYzYTEgMSAwIDEwLTIgMHYxSDdWM2ExIDEgMCAwMC0xLTF6bTAgNWExIDEgMCAwMDAgMmg4YTEgMSAwIDEwMC0ySDZ6IiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIC8+Cjwvc3ZnPg==)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTYgMmExIDEgMCAwMC0xIDF2MUg0YTIgMiAwIDAwLTIgMnYxMGEyIDIgMCAwMDIgMmgxMmEyIDIgMCAwMDItMlY2YTIgMiAwIDAwLTItMmgtMVYzYTEgMSAwIDEwLTIgMHYxSDdWM2ExIDEgMCAwMC0xLTF6bTAgNWExIDEgMCAwMDAgMmg4YTEgMSAwIDEwMC0ySDZ6IiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIC8+Cjwvc3ZnPg==)
 
 -}
 calendar : List (Attribute msg) -> Html msg
@@ -246,7 +256,7 @@ calendar attrs =
 
 {-| camera
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTQgNWEyIDIgMCAwMC0yIDJ2OGEyIDIgMCAwMDIgMmgxMmEyIDIgMCAwMDItMlY3YTIgMiAwIDAwLTItMmgtMS41ODZhMSAxIDAgMDEtLjcwNy0uMjkzbC0xLjEyMS0xLjEyMUEyIDIgMCAwMDExLjE3MiAzSDguODI4YTIgMiAwIDAwLTEuNDE0LjU4Nkw2LjI5MyA0LjcwN0ExIDEgMCAwMTUuNTg2IDVINHptNiA5YTMgMyAwIDEwMC02IDMgMyAwIDAwMCA2eiIgZmlsbC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTQgNWEyIDIgMCAwMC0yIDJ2OGEyIDIgMCAwMDIgMmgxMmEyIDIgMCAwMDItMlY3YTIgMiAwIDAwLTItMmgtMS41ODZhMSAxIDAgMDEtLjcwNy0uMjkzbC0xLjEyMS0xLjEyMUEyIDIgMCAwMDExLjE3MiAzSDguODI4YTIgMiAwIDAwLTEuNDE0LjU4Nkw2LjI5MyA0LjcwN0ExIDEgMCAwMTUuNTg2IDVINHptNiA5YTMgMyAwIDEwMC02IDMgMyAwIDAwMCA2eiIgY2xpcC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
 
 -}
 camera : List (Attribute msg) -> Html msg
@@ -256,7 +266,7 @@ camera attrs =
 
 {-| cash
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTQgNGEyIDIgMCAwMC0yIDJ2NGEyIDIgMCAwMDIgMlY2aDEwYTIgMiAwIDAwLTItMkg0em0yIDZhMiAyIDAgMDEyLTJoOGEyIDIgMCAwMTIgMnY0YTIgMiAwIDAxLTIgMkg4YTIgMiAwIDAxLTItMnYtNHptNiA0YTIgMiAwIDEwMC00IDIgMiAwIDAwMCA0eiIgZmlsbC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTQgNGEyIDIgMCAwMC0yIDJ2NGEyIDIgMCAwMDIgMlY2aDEwYTIgMiAwIDAwLTItMkg0em0yIDZhMiAyIDAgMDEyLTJoOGEyIDIgMCAwMTIgMnY0YTIgMiAwIDAxLTIgMkg4YTIgMiAwIDAxLTItMnYtNHptNiA0YTIgMiAwIDEwMC00IDIgMiAwIDAwMCA0eiIgY2xpcC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
 
 -}
 cash : List (Attribute msg) -> Html msg
@@ -264,9 +274,19 @@ cash attrs =
     svg (viewBox "0 0 20 20" :: fill "currentColor" :: attrs) [ Svg.path [ fillRule "evenodd", d "M4 4a2 2 0 00-2 2v4a2 2 0 002 2V6h10a2 2 0 00-2-2H4zm2 6a2 2 0 012-2h8a2 2 0 012 2v4a2 2 0 01-2 2H8a2 2 0 01-2-2v-4zm6 4a2 2 0 100-4 2 2 0 000 4z", clipRule "evenodd" ] [] ]
 
 
+{-| chart-bar
+
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGQ9Ik0yIDExYTEgMSAwIDAxMS0xaDJhMSAxIDAgMDExIDF2NWExIDEgMCAwMS0xIDFIM2ExIDEgMCAwMS0xLTF2LTV6TTggN2ExIDEgMCAwMTEtMWgyYTEgMSAwIDAxMSAxdjlhMSAxIDAgMDEtMSAxSDlhMSAxIDAgMDEtMS0xVjd6TTE0IDRhMSAxIDAgMDExLTFoMmExIDEgMCAwMTEgMXYxMmExIDEgMCAwMS0xIDFoLTJhMSAxIDAgMDEtMS0xVjR6IiAvPgo8L3N2Zz4=)
+
+-}
+chartBar : List (Attribute msg) -> Html msg
+chartBar attrs =
+    svg (viewBox "0 0 20 20" :: fill "currentColor" :: attrs) [ Svg.path [ d "M2 11a1 1 0 011-1h2a1 1 0 011 1v5a1 1 0 01-1 1H3a1 1 0 01-1-1v-5zM8 7a1 1 0 011-1h2a1 1 0 011 1v9a1 1 0 01-1 1H9a1 1 0 01-1-1V7zM14 4a1 1 0 011-1h2a1 1 0 011 1v12a1 1 0 01-1 1h-2a1 1 0 01-1-1V4z" ] [] ]
+
+
 {-| chart-pie
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGQ9Ik0yIDEwYTggOCAwIDAxOC04djhoOGE4IDggMCAxMS0xNiAweiIgLz4KICA8cGF0aCBkPSJNMTIgMi4yNTJBOC4wMTQgOC4wMTQgMCAwMTE3Ljc0OCA4SDEyVjIuMjUyeiIgLz4KPC9zdmc+)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGQ9Ik0yIDEwYTggOCAwIDAxOC04djhoOGE4IDggMCAxMS0xNiAweiIgLz4KICA8cGF0aCBkPSJNMTIgMi4yNTJBOC4wMTQgOC4wMTQgMCAwMTE3Ljc0OCA4SDEyVjIuMjUyeiIgLz4KPC9zdmc+)
 
 -}
 chartPie : List (Attribute msg) -> Html msg
@@ -274,9 +294,29 @@ chartPie attrs =
     svg (viewBox "0 0 20 20" :: fill "currentColor" :: attrs) [ Svg.path [ d "M2 10a8 8 0 018-8v8h8a8 8 0 11-16 0z" ] [], Svg.path [ d "M12 2.252A8.014 8.014 0 0117.748 8H12V2.252z" ] [] ]
 
 
+{-| chart-square-bar
+
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTUgM2EyIDIgMCAwMC0yIDJ2MTBhMiAyIDAgMDAyIDJoMTBhMiAyIDAgMDAyLTJWNWEyIDIgMCAwMC0yLTJINXptOSA0YTEgMSAwIDEwLTIgMHY2YTEgMSAwIDEwMiAwVjd6bS0zIDJhMSAxIDAgMTAtMiAwdjRhMSAxIDAgMTAyIDBWOXptLTMgM2ExIDEgMCAxMC0yIDB2MWExIDEgMCAxMDIgMHYtMXoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgLz4KPC9zdmc+)
+
+-}
+chartSquareBar : List (Attribute msg) -> Html msg
+chartSquareBar attrs =
+    svg (viewBox "0 0 20 20" :: fill "currentColor" :: attrs) [ Svg.path [ fillRule "evenodd", d "M5 3a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2V5a2 2 0 00-2-2H5zm9 4a1 1 0 10-2 0v6a1 1 0 102 0V7zm-3 2a1 1 0 10-2 0v4a1 1 0 102 0V9zm-3 3a1 1 0 10-2 0v1a1 1 0 102 0v-1z", clipRule "evenodd" ] [] ]
+
+
+{-| chat-alt-2
+
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGQ9Ik0yIDVhMiAyIDAgMDEyLTJoN2EyIDIgMCAwMTIgMnY0YTIgMiAwIDAxLTIgMkg5bC0zIDN2LTNINGEyIDIgMCAwMS0yLTJWNXoiIC8+CiAgPHBhdGggZD0iTTE1IDd2MmE0IDQgMCAwMS00IDRIOS44MjhsLTEuNzY2IDEuNzY3Yy4yOC4xNDkuNTk5LjIzMy45MzguMjMzaDJsMyAzdi0zaDJhMiAyIDAgMDAyLTJWOWEyIDIgMCAwMC0yLTJoLTF6IiAvPgo8L3N2Zz4=)
+
+-}
+chatAlt2 : List (Attribute msg) -> Html msg
+chatAlt2 attrs =
+    svg (viewBox "0 0 20 20" :: fill "currentColor" :: attrs) [ Svg.path [ d "M2 5a2 2 0 012-2h7a2 2 0 012 2v4a2 2 0 01-2 2H9l-3 3v-3H4a2 2 0 01-2-2V5z" ] [], Svg.path [ d "M15 7v2a4 4 0 01-4 4H9.828l-1.766 1.767c.28.149.599.233.938.233h2l3 3v-3h2a2 2 0 002-2V9a2 2 0 00-2-2h-1z" ] [] ]
+
+
 {-| chat-alt
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTE4IDV2OGEyIDIgMCAwMS0yIDJoLTVsLTUgNHYtNEg0YTIgMiAwIDAxLTItMlY1YTIgMiAwIDAxMi0yaDEyYTIgMiAwIDAxMiAyek03IDhINXYyaDJWOHptMiAwaDJ2Mkg5Vjh6bTYgMGgtMnYyaDJWOHoiIGZpbGwtcnVsZT0iZXZlbm9kZCIgLz4KPC9zdmc+)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTE4IDV2OGEyIDIgMCAwMS0yIDJoLTVsLTUgNHYtNEg0YTIgMiAwIDAxLTItMlY1YTIgMiAwIDAxMi0yaDEyYTIgMiAwIDAxMiAyek03IDhINXYyaDJWOHptMiAwaDJ2Mkg5Vjh6bTYgMGgtMnYyaDJWOHoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgLz4KPC9zdmc+)
 
 -}
 chatAlt : List (Attribute msg) -> Html msg
@@ -286,7 +326,7 @@ chatAlt attrs =
 
 {-| chat
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTE4IDEwYzAgMy44NjYtMy41ODIgNy04IDdhOC44NDEgOC44NDEgMCAwMS00LjA4My0uOThMMiAxN2wxLjMzOC0zLjEyM0MyLjQ5MyAxMi43NjcgMiAxMS40MzQgMiAxMGMwLTMuODY2IDMuNTgyLTcgOC03czggMy4xMzQgOCA3ek03IDlINXYyaDJWOXptOCAwaC0ydjJoMlY5ek05IDloMnYySDlWOXoiIGZpbGwtcnVsZT0iZXZlbm9kZCIgLz4KPC9zdmc+)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTE4IDEwYzAgMy44NjYtMy41ODIgNy04IDdhOC44NDEgOC44NDEgMCAwMS00LjA4My0uOThMMiAxN2wxLjMzOC0zLjEyM0MyLjQ5MyAxMi43NjcgMiAxMS40MzQgMiAxMGMwLTMuODY2IDMuNTgyLTcgOC03czggMy4xMzQgOCA3ek03IDlINXYyaDJWOXptOCAwaC0ydjJoMlY5ek05IDloMnYySDlWOXoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgLz4KPC9zdmc+)
 
 -}
 chat : List (Attribute msg) -> Html msg
@@ -296,7 +336,7 @@ chat attrs =
 
 {-| check-circle
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTEwIDE4YTggOCAwIDEwMC0xNiA4IDggMCAwMDAgMTZ6bTMuNzA3LTkuMjkzYTEgMSAwIDAwLTEuNDE0LTEuNDE0TDkgMTAuNTg2IDcuNzA3IDkuMjkzYTEgMSAwIDAwLTEuNDE0IDEuNDE0bDIgMmExIDEgMCAwMDEuNDE0IDBsNC00eiIgZmlsbC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEwIDE4YTggOCAwIDEwMC0xNiA4IDggMCAwMDAgMTZ6bTMuNzA3LTkuMjkzYTEgMSAwIDAwLTEuNDE0LTEuNDE0TDkgMTAuNTg2IDcuNzA3IDkuMjkzYTEgMSAwIDAwLTEuNDE0IDEuNDE0bDIgMmExIDEgMCAwMDEuNDE0IDBsNC00eiIgY2xpcC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
 
 -}
 checkCircle : List (Attribute msg) -> Html msg
@@ -306,7 +346,7 @@ checkCircle attrs =
 
 {-| check
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTE2LjcwNyA1LjI5M2ExIDEgMCAwMTAgMS40MTRsLTggOGExIDEgMCAwMS0xLjQxNCAwbC00LTRhMSAxIDAgMDExLjQxNC0xLjQxNEw4IDEyLjU4Nmw3LjI5My03LjI5M2ExIDEgMCAwMTEuNDE0IDB6IiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIC8+Cjwvc3ZnPg==)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTE2LjcwNyA1LjI5M2ExIDEgMCAwMTAgMS40MTRsLTggOGExIDEgMCAwMS0xLjQxNCAwbC00LTRhMSAxIDAgMDExLjQxNC0xLjQxNEw4IDEyLjU4Nmw3LjI5My03LjI5M2ExIDEgMCAwMTEuNDE0IDB6IiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIC8+Cjwvc3ZnPg==)
 
 -}
 check : List (Attribute msg) -> Html msg
@@ -316,7 +356,7 @@ check attrs =
 
 {-| cheveron-down
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTUuMjkzIDcuMjkzYTEgMSAwIDAxMS40MTQgMEwxMCAxMC41ODZsMy4yOTMtMy4yOTNhMSAxIDAgMTExLjQxNCAxLjQxNGwtNCA0YTEgMSAwIDAxLTEuNDE0IDBsLTQtNGExIDEgMCAwMTAtMS40MTR6IiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIC8+Cjwvc3ZnPg==)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTUuMjkzIDcuMjkzYTEgMSAwIDAxMS40MTQgMEwxMCAxMC41ODZsMy4yOTMtMy4yOTNhMSAxIDAgMTExLjQxNCAxLjQxNGwtNCA0YTEgMSAwIDAxLTEuNDE0IDBsLTQtNGExIDEgMCAwMTAtMS40MTR6IiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIC8+Cjwvc3ZnPg==)
 
 -}
 cheveronDown : List (Attribute msg) -> Html msg
@@ -326,7 +366,7 @@ cheveronDown attrs =
 
 {-| cheveron-left
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTEyLjcwNyA1LjI5M2ExIDEgMCAwMTAgMS40MTRMOS40MTQgMTBsMy4yOTMgMy4yOTNhMSAxIDAgMDEtMS40MTQgMS40MTRsLTQtNGExIDEgMCAwMTAtMS40MTRsNC00YTEgMSAwIDAxMS40MTQgMHoiIGZpbGwtcnVsZT0iZXZlbm9kZCIgLz4KPC9zdmc+)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEyLjcwNyA1LjI5M2ExIDEgMCAwMTAgMS40MTRMOS40MTQgMTBsMy4yOTMgMy4yOTNhMSAxIDAgMDEtMS40MTQgMS40MTRsLTQtNGExIDEgMCAwMTAtMS40MTRsNC00YTEgMSAwIDAxMS40MTQgMHoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgLz4KPC9zdmc+)
 
 -}
 cheveronLeft : List (Attribute msg) -> Html msg
@@ -336,7 +376,7 @@ cheveronLeft attrs =
 
 {-| cheveron-right
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTcuMjkzIDE0LjcwN2ExIDEgMCAwMTAtMS40MTRMMTAuNTg2IDEwIDcuMjkzIDYuNzA3YTEgMSAwIDAxMS40MTQtMS40MTRsNCA0YTEgMSAwIDAxMCAxLjQxNGwtNCA0YTEgMSAwIDAxLTEuNDE0IDB6IiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIC8+Cjwvc3ZnPg==)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTcuMjkzIDE0LjcwN2ExIDEgMCAwMTAtMS40MTRMMTAuNTg2IDEwIDcuMjkzIDYuNzA3YTEgMSAwIDAxMS40MTQtMS40MTRsNCA0YTEgMSAwIDAxMCAxLjQxNGwtNCA0YTEgMSAwIDAxLTEuNDE0IDB6IiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIC8+Cjwvc3ZnPg==)
 
 -}
 cheveronRight : List (Attribute msg) -> Html msg
@@ -346,7 +386,7 @@ cheveronRight attrs =
 
 {-| cheveron-up
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTE0LjcwNyAxMi43MDdhMSAxIDAgMDEtMS40MTQgMEwxMCA5LjQxNGwtMy4yOTMgMy4yOTNhMSAxIDAgMDEtMS40MTQtMS40MTRsNC00YTEgMSAwIDAxMS40MTQgMGw0IDRhMSAxIDAgMDEwIDEuNDE0eiIgZmlsbC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTE0LjcwNyAxMi43MDdhMSAxIDAgMDEtMS40MTQgMEwxMCA5LjQxNGwtMy4yOTMgMy4yOTNhMSAxIDAgMDEtMS40MTQtMS40MTRsNC00YTEgMSAwIDAxMS40MTQgMGw0IDRhMSAxIDAgMDEwIDEuNDE0eiIgY2xpcC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
 
 -}
 cheveronUp : List (Attribute msg) -> Html msg
@@ -356,7 +396,7 @@ cheveronUp attrs =
 
 {-| clipboard-check
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGQ9Ik05IDJhMSAxIDAgMDAwIDJoMmExIDEgMCAxMDAtMkg5eiIgLz4KICA8cGF0aCBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik00IDVhMiAyIDAgMDEyLTIgMyAzIDAgMDAzIDNoMmEzIDMgMCAwMDMtMyAyIDIgMCAwMTIgMnYxMWEyIDIgMCAwMS0yIDJINmEyIDIgMCAwMS0yLTJWNXptOS43MDcgNS43MDdhMSAxIDAgMDAtMS40MTQtMS40MTRMOSAxMi41ODZsLTEuMjkzLTEuMjkzYTEgMSAwIDAwLTEuNDE0IDEuNDE0bDIgMmExIDEgMCAwMDEuNDE0IDBsNC00eiIgZmlsbC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGQ9Ik05IDJhMSAxIDAgMDAwIDJoMmExIDEgMCAxMDAtMkg5eiIgLz4KICA8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik00IDVhMiAyIDAgMDEyLTIgMyAzIDAgMDAzIDNoMmEzIDMgMCAwMDMtMyAyIDIgMCAwMTIgMnYxMWEyIDIgMCAwMS0yIDJINmEyIDIgMCAwMS0yLTJWNXptOS43MDcgNS43MDdhMSAxIDAgMDAtMS40MTQtMS40MTRMOSAxMi41ODZsLTEuMjkzLTEuMjkzYTEgMSAwIDAwLTEuNDE0IDEuNDE0bDIgMmExIDEgMCAwMDEuNDE0IDBsNC00eiIgY2xpcC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
 
 -}
 clipboardCheck : List (Attribute msg) -> Html msg
@@ -366,7 +406,7 @@ clipboardCheck attrs =
 
 {-| clipboard-copy
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGQ9Ik04IDJhMSAxIDAgMDAwIDJoMmExIDEgMCAxMDAtMkg4eiIgLz4KICA8cGF0aCBkPSJNMyA1YTIgMiAwIDAxMi0yIDMgMyAwIDAwMyAzaDJhMyAzIDAgMDAzLTMgMiAyIDAgMDEyIDJ2NmgtNC41ODZsMS4yOTMtMS4yOTNhMSAxIDAgMDAtMS40MTQtMS40MTRsLTMgM2ExIDEgMCAwMDAgMS40MTRsMyAzYTEgMSAwIDAwMS40MTQtMS40MTRMMTAuNDE0IDEzSDE1djNhMiAyIDAgMDEtMiAySDVhMiAyIDAgMDEtMi0yVjV6TTE1IDExaDJhMSAxIDAgMTEwIDJoLTJ2LTJ6IiAvPgo8L3N2Zz4=)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGQ9Ik04IDJhMSAxIDAgMDAwIDJoMmExIDEgMCAxMDAtMkg4eiIgLz4KICA8cGF0aCBkPSJNMyA1YTIgMiAwIDAxMi0yIDMgMyAwIDAwMyAzaDJhMyAzIDAgMDAzLTMgMiAyIDAgMDEyIDJ2NmgtNC41ODZsMS4yOTMtMS4yOTNhMSAxIDAgMDAtMS40MTQtMS40MTRsLTMgM2ExIDEgMCAwMDAgMS40MTRsMyAzYTEgMSAwIDAwMS40MTQtMS40MTRMMTAuNDE0IDEzSDE1djNhMiAyIDAgMDEtMiAySDVhMiAyIDAgMDEtMi0yVjV6TTE1IDExaDJhMSAxIDAgMTEwIDJoLTJ2LTJ6IiAvPgo8L3N2Zz4=)
 
 -}
 clipboardCopy : List (Attribute msg) -> Html msg
@@ -376,7 +416,7 @@ clipboardCopy attrs =
 
 {-| clipboard-list
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGQ9Ik05IDJhMSAxIDAgMDAwIDJoMmExIDEgMCAxMDAtMkg5eiIgLz4KICA8cGF0aCBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik00IDVhMiAyIDAgMDEyLTIgMyAzIDAgMDAzIDNoMmEzIDMgMCAwMDMtMyAyIDIgMCAwMTIgMnYxMWEyIDIgMCAwMS0yIDJINmEyIDIgMCAwMS0yLTJWNXptMyA0YTEgMSAwIDAwMCAyaC4wMWExIDEgMCAxMDAtMkg3em0zIDBhMSAxIDAgMDAwIDJoM2ExIDEgMCAxMDAtMmgtM3ptLTMgNGExIDEgMCAxMDAgMmguMDFhMSAxIDAgMTAwLTJIN3ptMyAwYTEgMSAwIDEwMCAyaDNhMSAxIDAgMTAwLTJoLTN6IiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIC8+Cjwvc3ZnPg==)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGQ9Ik05IDJhMSAxIDAgMDAwIDJoMmExIDEgMCAxMDAtMkg5eiIgLz4KICA8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik00IDVhMiAyIDAgMDEyLTIgMyAzIDAgMDAzIDNoMmEzIDMgMCAwMDMtMyAyIDIgMCAwMTIgMnYxMWEyIDIgMCAwMS0yIDJINmEyIDIgMCAwMS0yLTJWNXptMyA0YTEgMSAwIDAwMCAyaC4wMWExIDEgMCAxMDAtMkg3em0zIDBhMSAxIDAgMDAwIDJoM2ExIDEgMCAxMDAtMmgtM3ptLTMgNGExIDEgMCAxMDAgMmguMDFhMSAxIDAgMTAwLTJIN3ptMyAwYTEgMSAwIDEwMCAyaDNhMSAxIDAgMTAwLTJoLTN6IiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIC8+Cjwvc3ZnPg==)
 
 -}
 clipboardList : List (Attribute msg) -> Html msg
@@ -386,7 +426,7 @@ clipboardList attrs =
 
 {-| clipboard
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGQ9Ik04IDNhMSAxIDAgMDExLTFoMmExIDEgMCAxMTAgMkg5YTEgMSAwIDAxLTEtMXoiIC8+CiAgPHBhdGggZD0iTTYgM2EyIDIgMCAwMC0yIDJ2MTFhMiAyIDAgMDAyIDJoOGEyIDIgMCAwMDItMlY1YTIgMiAwIDAwLTItMiAzIDMgMCAwMS0zIDNIOWEzIDMgMCAwMS0zLTN6IiAvPgo8L3N2Zz4=)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGQ9Ik04IDNhMSAxIDAgMDExLTFoMmExIDEgMCAxMTAgMkg5YTEgMSAwIDAxLTEtMXoiIC8+CiAgPHBhdGggZD0iTTYgM2EyIDIgMCAwMC0yIDJ2MTFhMiAyIDAgMDAyIDJoOGEyIDIgMCAwMDItMlY1YTIgMiAwIDAwLTItMiAzIDMgMCAwMS0zIDNIOWEzIDMgMCAwMS0zLTN6IiAvPgo8L3N2Zz4=)
 
 -}
 clipboard : List (Attribute msg) -> Html msg
@@ -396,7 +436,7 @@ clipboard attrs =
 
 {-| clock
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTEwIDE4YTggOCAwIDEwMC0xNiA4IDggMCAwMDAgMTZ6bTEtMTJhMSAxIDAgMTAtMiAwdjRhMSAxIDAgMDAuMjkzLjcwN2wyLjgyOCAyLjgyOWExIDEgMCAxMDEuNDE1LTEuNDE1TDExIDkuNTg2VjZ6IiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIC8+Cjwvc3ZnPg==)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEwIDE4YTggOCAwIDEwMC0xNiA4IDggMCAwMDAgMTZ6bTEtMTJhMSAxIDAgMTAtMiAwdjRhMSAxIDAgMDAuMjkzLjcwN2wyLjgyOCAyLjgyOWExIDEgMCAxMDEuNDE1LTEuNDE1TDExIDkuNTg2VjZ6IiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIC8+Cjwvc3ZnPg==)
 
 -}
 clock : List (Attribute msg) -> Html msg
@@ -406,7 +446,7 @@ clock attrs =
 
 {-| cloud-download
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGQ9Ik02IDEzYTQgNCAwIDAxMC04IDQgNCAwIDExOCAwIDQgNCAwIDAxMCA4aC0zVjhhMSAxIDAgMTAtMiAwdjVINnpNOSAxM2gydjIuNTg2bDEuMjkzLTEuMjkzYTEgMSAwIDAxMS40MTQgMS40MTRsLTMgM2ExIDEgMCAwMS0xLjQxNCAwbC0zLTNhMSAxIDAgMTExLjQxNC0xLjQxNEw5IDE1LjU4NlYxM3oiIC8+Cjwvc3ZnPg==)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGQ9Ik02IDEzYTQgNCAwIDAxMC04IDQgNCAwIDExOCAwIDQgNCAwIDAxMCA4aC0zVjhhMSAxIDAgMTAtMiAwdjVINnpNOSAxM2gydjIuNTg2bDEuMjkzLTEuMjkzYTEgMSAwIDAxMS40MTQgMS40MTRsLTMgM2ExIDEgMCAwMS0xLjQxNCAwbC0zLTNhMSAxIDAgMTExLjQxNC0xLjQxNEw5IDE1LjU4NlYxM3oiIC8+Cjwvc3ZnPg==)
 
 -}
 cloudDownload : List (Attribute msg) -> Html msg
@@ -416,7 +456,7 @@ cloudDownload attrs =
 
 {-| cloud-upload
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTIgMTBhNCA0IDAgMDA0IDRoM3YzYTEgMSAwIDEwMiAwdi0zaDNhNCA0IDAgMDAwLTggNCA0IDAgMDAtOCAwIDQgNCAwIDAwLTQgNHptOSA0SDlWOS40MTRsLTEuMjkzIDEuMjkzYTEgMSAwIDAxLTEuNDE0LTEuNDE0bDMtM2ExIDEgMCAwMTEuNDE0IDBsMyAzYTEgMSAwIDAxLTEuNDE0IDEuNDE0TDExIDkuNDE0VjE0eiIgZmlsbC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTIgMTBhNCA0IDAgMDA0IDRoM3YzYTEgMSAwIDEwMiAwdi0zaDNhNCA0IDAgMDAwLTggNCA0IDAgMDAtOCAwIDQgNCAwIDAwLTQgNHptOSA0SDlWOS40MTRsLTEuMjkzIDEuMjkzYTEgMSAwIDAxLTEuNDE0LTEuNDE0bDMtM2ExIDEgMCAwMTEuNDE0IDBsMyAzYTEgMSAwIDAxLTEuNDE0IDEuNDE0TDExIDkuNDE0VjE0eiIgY2xpcC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
 
 -}
 cloudUpload : List (Attribute msg) -> Html msg
@@ -426,7 +466,7 @@ cloudUpload attrs =
 
 {-| code
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTEyLjMxNiAzLjA1MWExIDEgMCAwMS42MzMgMS4yNjVsLTQgMTJhMSAxIDAgMTEtMS44OTgtLjYzMmw0LTEyYTEgMSAwIDAxMS4yNjUtLjYzM3pNNS43MDcgNi4yOTNhMSAxIDAgMDEwIDEuNDE0TDMuNDE0IDEwbDIuMjkzIDIuMjkzYTEgMSAwIDExLTEuNDE0IDEuNDE0bC0zLTNhMSAxIDAgMDEwLTEuNDE0bDMtM2ExIDEgMCAwMTEuNDE0IDB6bTguNTg2IDBhMSAxIDAgMDExLjQxNCAwbDMgM2ExIDEgMCAwMTAgMS40MTRsLTMgM2ExIDEgMCAxMS0xLjQxNC0xLjQxNEwxNi41ODYgMTBsLTIuMjkzLTIuMjkzYTEgMSAwIDAxMC0xLjQxNHoiIGZpbGwtcnVsZT0iZXZlbm9kZCIgLz4KPC9zdmc+)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEyLjMxNiAzLjA1MWExIDEgMCAwMS42MzMgMS4yNjVsLTQgMTJhMSAxIDAgMTEtMS44OTgtLjYzMmw0LTEyYTEgMSAwIDAxMS4yNjUtLjYzM3pNNS43MDcgNi4yOTNhMSAxIDAgMDEwIDEuNDE0TDMuNDE0IDEwbDIuMjkzIDIuMjkzYTEgMSAwIDExLTEuNDE0IDEuNDE0bC0zLTNhMSAxIDAgMDEwLTEuNDE0bDMtM2ExIDEgMCAwMTEuNDE0IDB6bTguNTg2IDBhMSAxIDAgMDExLjQxNCAwbDMgM2ExIDEgMCAwMTAgMS40MTRsLTMgM2ExIDEgMCAxMS0xLjQxNC0xLjQxNEwxNi41ODYgMTBsLTIuMjkzLTIuMjkzYTEgMSAwIDAxMC0xLjQxNHoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgLz4KPC9zdmc+)
 
 -}
 code : List (Attribute msg) -> Html msg
@@ -436,7 +476,7 @@ code attrs =
 
 {-| cog
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTExLjQ5IDMuMTdjLS4zOC0xLjU2LTIuNi0xLjU2LTIuOTggMGExLjUzMiAxLjUzMiAwIDAxLTIuMjg2Ljk0OGMtMS4zNzItLjgzNi0yLjk0Mi43MzQtMi4xMDYgMi4xMDYuNTQuODg2LjA2MSAyLjA0Mi0uOTQ3IDIuMjg3LTEuNTYxLjM3OS0xLjU2MSAyLjYgMCAyLjk3OGExLjUzMiAxLjUzMiAwIDAxLjk0NyAyLjI4N2MtLjgzNiAxLjM3Mi43MzQgMi45NDIgMi4xMDYgMi4xMDZhMS41MzIgMS41MzIgMCAwMTIuMjg3Ljk0N2MuMzc5IDEuNTYxIDIuNiAxLjU2MSAyLjk3OCAwYTEuNTMzIDEuNTMzIDAgMDEyLjI4Ny0uOTQ3YzEuMzcyLjgzNiAyLjk0Mi0uNzM0IDIuMTA2LTIuMTA2YTEuNTMzIDEuNTMzIDAgMDEuOTQ3LTIuMjg3YzEuNTYxLS4zNzkgMS41NjEtMi42IDAtMi45NzhhMS41MzIgMS41MzIgMCAwMS0uOTQ3LTIuMjg3Yy44MzYtMS4zNzItLjczNC0yLjk0Mi0yLjEwNi0yLjEwNmExLjUzMiAxLjUzMiAwIDAxLTIuMjg3LS45NDd6TTEwIDEzYTMgMyAwIDEwMC02IDMgMyAwIDAwMCA2eiIgZmlsbC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTExLjQ5IDMuMTdjLS4zOC0xLjU2LTIuNi0xLjU2LTIuOTggMGExLjUzMiAxLjUzMiAwIDAxLTIuMjg2Ljk0OGMtMS4zNzItLjgzNi0yLjk0Mi43MzQtMi4xMDYgMi4xMDYuNTQuODg2LjA2MSAyLjA0Mi0uOTQ3IDIuMjg3LTEuNTYxLjM3OS0xLjU2MSAyLjYgMCAyLjk3OGExLjUzMiAxLjUzMiAwIDAxLjk0NyAyLjI4N2MtLjgzNiAxLjM3Mi43MzQgMi45NDIgMi4xMDYgMi4xMDZhMS41MzIgMS41MzIgMCAwMTIuMjg3Ljk0N2MuMzc5IDEuNTYxIDIuNiAxLjU2MSAyLjk3OCAwYTEuNTMzIDEuNTMzIDAgMDEyLjI4Ny0uOTQ3YzEuMzcyLjgzNiAyLjk0Mi0uNzM0IDIuMTA2LTIuMTA2YTEuNTMzIDEuNTMzIDAgMDEuOTQ3LTIuMjg3YzEuNTYxLS4zNzkgMS41NjEtMi42IDAtMi45NzhhMS41MzIgMS41MzIgMCAwMS0uOTQ3LTIuMjg3Yy44MzYtMS4zNzItLjczNC0yLjk0Mi0yLjEwNi0yLjEwNmExLjUzMiAxLjUzMiAwIDAxLTIuMjg3LS45NDd6TTEwIDEzYTMgMyAwIDEwMC02IDMgMyAwIDAwMCA2eiIgY2xpcC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
 
 -}
 cog : List (Attribute msg) -> Html msg
@@ -446,7 +486,7 @@ cog attrs =
 
 {-| collection
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGQ9Ik03IDNhMSAxIDAgMDAwIDJoNmExIDEgMCAxMDAtMkg3ek00IDdhMSAxIDAgMDExLTFoMTBhMSAxIDAgMTEwIDJINWExIDEgMCAwMS0xLTF6TTIgMTFhMiAyIDAgMDEyLTJoMTJhMiAyIDAgMDEyIDJ2NGEyIDIgMCAwMS0yIDJINGEyIDIgMCAwMS0yLTJ2LTR6IiAvPgo8L3N2Zz4=)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGQ9Ik03IDNhMSAxIDAgMDAwIDJoNmExIDEgMCAxMDAtMkg3ek00IDdhMSAxIDAgMDExLTFoMTBhMSAxIDAgMTEwIDJINWExIDEgMCAwMS0xLTF6TTIgMTFhMiAyIDAgMDEyLTJoMTJhMiAyIDAgMDEyIDJ2NGEyIDIgMCAwMS0yIDJINGEyIDIgMCAwMS0yLTJ2LTR6IiAvPgo8L3N2Zz4=)
 
 -}
 collection : List (Attribute msg) -> Html msg
@@ -456,7 +496,7 @@ collection attrs =
 
 {-| color-swatch
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTQgMmEyIDIgMCAwMC0yIDJ2MTFhMyAzIDAgMTA2IDBWNGEyIDIgMCAwMC0yLTJINHptMSAxNGExIDEgMCAxMDAtMiAxIDEgMCAwMDAgMnptNS0xLjc1N2w0LjktNC45YTIgMiAwIDAwMC0yLjgyOEwxMy40ODUgNS4xYTIgMiAwIDAwLTIuODI4IDBMMTAgNS43NTd2OC40ODZ6TTE2IDE4SDkuMDcxbDYtNkgxNmEyIDIgMCAwMTIgMnYyYTIgMiAwIDAxLTIgMnoiIGZpbGwtcnVsZT0iZXZlbm9kZCIgLz4KPC9zdmc+)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTQgMmEyIDIgMCAwMC0yIDJ2MTFhMyAzIDAgMTA2IDBWNGEyIDIgMCAwMC0yLTJINHptMSAxNGExIDEgMCAxMDAtMiAxIDEgMCAwMDAgMnptNS0xLjc1N2w0LjktNC45YTIgMiAwIDAwMC0yLjgyOEwxMy40ODUgNS4xYTIgMiAwIDAwLTIuODI4IDBMMTAgNS43NTd2OC40ODZ6TTE2IDE4SDkuMDcxbDYtNkgxNmEyIDIgMCAwMTIgMnYyYTIgMiAwIDAxLTIgMnoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgLz4KPC9zdmc+)
 
 -}
 colorSwatch : List (Attribute msg) -> Html msg
@@ -466,7 +506,7 @@ colorSwatch attrs =
 
 {-| credit-card
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGQ9Ik00IDRhMiAyIDAgMDAtMiAydjFoMTZWNmEyIDIgMCAwMC0yLTJINHoiIC8+CiAgPHBhdGggY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMTggOUgydjVhMiAyIDAgMDAyIDJoMTJhMiAyIDAgMDAyLTJWOXpNNCAxM2ExIDEgMCAwMTEtMWgxYTEgMSAwIDExMCAySDVhMSAxIDAgMDEtMS0xem01LTFhMSAxIDAgMTAwIDJoMWExIDEgMCAxMDAtMkg5eiIgZmlsbC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGQ9Ik00IDRhMiAyIDAgMDAtMiAydjFoMTZWNmEyIDIgMCAwMC0yLTJINHoiIC8+CiAgPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTggOUgydjVhMiAyIDAgMDAyIDJoMTJhMiAyIDAgMDAyLTJWOXpNNCAxM2ExIDEgMCAwMTEtMWgxYTEgMSAwIDExMCAySDVhMSAxIDAgMDEtMS0xem01LTFhMSAxIDAgMTAwIDJoMWExIDEgMCAxMDAtMkg5eiIgY2xpcC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
 
 -}
 creditCard : List (Attribute msg) -> Html msg
@@ -476,7 +516,7 @@ creditCard attrs =
 
 {-| currency-dollar
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGQ9Ik04LjQzMyA3LjQxOGMuMTU1LS4xMDMuMzQ2LS4xOTYuNTY3LS4yNjd2MS42OThhMi4zMDUgMi4zMDUgMCAwMS0uNTY3LS4yNjdDOC4wNyA4LjM0IDggOC4xMTQgOCA4YzAtLjExNC4wNy0uMzQuNDMzLS41ODJ6TTExIDEyLjg0OXYtMS42OThjLjIyLjA3MS40MTIuMTY0LjU2Ny4yNjcuMzY0LjI0My40MzMuNDY4LjQzMy41ODIgMCAuMTE0LS4wNy4zNC0uNDMzLjU4MmEyLjMwNSAyLjMwNSAwIDAxLS41NjcuMjY3eiIgLz4KICA8cGF0aCBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMCAxOGE4IDggMCAxMDAtMTYgOCA4IDAgMDAwIDE2em0xLTEzYTEgMSAwIDEwLTIgMHYuMDkyYTQuNTM1IDQuNTM1IDAgMDAtMS42NzYuNjYyQzYuNjAyIDYuMjM0IDYgNy4wMDkgNiA4YzAgLjk5LjYwMiAxLjc2NSAxLjMyNCAyLjI0Ni40OC4zMiAxLjA1NC41NDUgMS42NzYuNjYydjEuOTQxYy0uMzkxLS4xMjctLjY4LS4zMTctLjg0My0uNTA0YTEgMSAwIDEwLTEuNTEgMS4zMWMuNTYyLjY0OSAxLjQxMyAxLjA3NiAyLjM1MyAxLjI1M1YxNWExIDEgMCAxMDIgMHYtLjA5MmE0LjUzNSA0LjUzNSAwIDAwMS42NzYtLjY2MkMxMy4zOTggMTMuNzY2IDE0IDEyLjk5MSAxNCAxMmMwLS45OS0uNjAyLTEuNzY1LTEuMzI0LTIuMjQ2QTQuNTM1IDQuNTM1IDAgMDAxMSA5LjA5MlY3LjE1MWMuMzkxLjEyNy42OC4zMTcuODQzLjUwNGExIDEgMCAxMDEuNTExLTEuMzFjLS41NjMtLjY0OS0xLjQxMy0xLjA3Ni0yLjM1NC0xLjI1M1Y1eiIgZmlsbC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGQ9Ik04LjQzMyA3LjQxOGMuMTU1LS4xMDMuMzQ2LS4xOTYuNTY3LS4yNjd2MS42OThhMi4zMDUgMi4zMDUgMCAwMS0uNTY3LS4yNjdDOC4wNyA4LjM0IDggOC4xMTQgOCA4YzAtLjExNC4wNy0uMzQuNDMzLS41ODJ6TTExIDEyLjg0OXYtMS42OThjLjIyLjA3MS40MTIuMTY0LjU2Ny4yNjcuMzY0LjI0My40MzMuNDY4LjQzMy41ODIgMCAuMTE0LS4wNy4zNC0uNDMzLjU4MmEyLjMwNSAyLjMwNSAwIDAxLS41NjcuMjY3eiIgLz4KICA8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMCAxOGE4IDggMCAxMDAtMTYgOCA4IDAgMDAwIDE2em0xLTEzYTEgMSAwIDEwLTIgMHYuMDkyYTQuNTM1IDQuNTM1IDAgMDAtMS42NzYuNjYyQzYuNjAyIDYuMjM0IDYgNy4wMDkgNiA4YzAgLjk5LjYwMiAxLjc2NSAxLjMyNCAyLjI0Ni40OC4zMiAxLjA1NC41NDUgMS42NzYuNjYydjEuOTQxYy0uMzkxLS4xMjctLjY4LS4zMTctLjg0My0uNTA0YTEgMSAwIDEwLTEuNTEgMS4zMWMuNTYyLjY0OSAxLjQxMyAxLjA3NiAyLjM1MyAxLjI1M1YxNWExIDEgMCAxMDIgMHYtLjA5MmE0LjUzNSA0LjUzNSAwIDAwMS42NzYtLjY2MkMxMy4zOTggMTMuNzY2IDE0IDEyLjk5MSAxNCAxMmMwLS45OS0uNjAyLTEuNzY1LTEuMzI0LTIuMjQ2QTQuNTM1IDQuNTM1IDAgMDAxMSA5LjA5MlY3LjE1MWMuMzkxLjEyNy42OC4zMTcuODQzLjUwNGExIDEgMCAxMDEuNTExLTEuMzFjLS41NjMtLjY0OS0xLjQxMy0xLjA3Ni0yLjM1NC0xLjI1M1Y1eiIgY2xpcC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
 
 -}
 currencyDollar : List (Attribute msg) -> Html msg
@@ -486,7 +526,7 @@ currencyDollar attrs =
 
 {-| currency-euro
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTEwIDE4YTggOCAwIDEwMC0xNiA4IDggMCAwMDAgMTZ6TTguNzM2IDYuOTc5QzkuMjA4IDYuMTkzIDkuNjk2IDYgMTAgNmMuMzA0IDAgLjc5Mi4xOTMgMS4yNjQuOTc5YTEgMSAwIDAwMS43MTUtMS4wMjlDMTIuMjc5IDQuNzg0IDExLjIzMiA0IDEwIDRzLTIuMjc5Ljc4NC0yLjk3OSAxLjk1Yy0uMjg1LjQ3NS0uNTA3IDEtLjY3IDEuNTVINmExIDEgMCAwMDAgMmguMDEzYTkuMzU4IDkuMzU4IDAgMDAwIDFINmExIDEgMCAxMDAgMmguMzUxYy4xNjMuNTUuMzg1IDEuMDc1LjY3IDEuNTVDNy43MjEgMTUuMjE2IDguNzY4IDE2IDEwIDE2czIuMjc5LS43ODQgMi45NzktMS45NWExIDEgMCAxMC0xLjcxNS0xLjAyOWMtLjQ3Mi43ODYtLjk2Ljk3OS0xLjI2NC45NzktLjMwNCAwLS43OTItLjE5My0xLjI2NC0uOTc5YTQuMjY1IDQuMjY1IDAgMDEtLjI2NC0uNTIxSDEwYTEgMSAwIDEwMC0ySDguMDE3YTcuMzYgNy4zNiAwIDAxMC0xSDEwYTEgMSAwIDEwMC0ySDguNDcyYy4wOC0uMTg1LjE2Ny0uMzYuMjY0LS41MjF6IiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIC8+Cjwvc3ZnPg==)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEwIDE4YTggOCAwIDEwMC0xNiA4IDggMCAwMDAgMTZ6TTguNzM2IDYuOTc5QzkuMjA4IDYuMTkzIDkuNjk2IDYgMTAgNmMuMzA0IDAgLjc5Mi4xOTMgMS4yNjQuOTc5YTEgMSAwIDAwMS43MTUtMS4wMjlDMTIuMjc5IDQuNzg0IDExLjIzMiA0IDEwIDRzLTIuMjc5Ljc4NC0yLjk3OSAxLjk1Yy0uMjg1LjQ3NS0uNTA3IDEtLjY3IDEuNTVINmExIDEgMCAwMDAgMmguMDEzYTkuMzU4IDkuMzU4IDAgMDAwIDFINmExIDEgMCAxMDAgMmguMzUxYy4xNjMuNTUuMzg1IDEuMDc1LjY3IDEuNTVDNy43MjEgMTUuMjE2IDguNzY4IDE2IDEwIDE2czIuMjc5LS43ODQgMi45NzktMS45NWExIDEgMCAxMC0xLjcxNS0xLjAyOWMtLjQ3Mi43ODYtLjk2Ljk3OS0xLjI2NC45NzktLjMwNCAwLS43OTItLjE5My0xLjI2NC0uOTc5YTQuMjY1IDQuMjY1IDAgMDEtLjI2NC0uNTIxSDEwYTEgMSAwIDEwMC0ySDguMDE3YTcuMzYgNy4zNiAwIDAxMC0xSDEwYTEgMSAwIDEwMC0ySDguNDcyYy4wOC0uMTg1LjE2Ny0uMzYuMjY0LS41MjF6IiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIC8+Cjwvc3ZnPg==)
 
 -}
 currencyEuro : List (Attribute msg) -> Html msg
@@ -496,7 +536,7 @@ currencyEuro attrs =
 
 {-| currency-pound
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTEwIDE4YTggOCAwIDEwMC0xNiA4IDggMCAwMDAgMTZ6bTEtMTRhMyAzIDAgMDAtMyAzdjJIN2ExIDEgMCAwMDAgMmgxdjFhMSAxIDAgMDEtMSAxIDEgMSAwIDEwMCAyaDZhMSAxIDAgMTAwLTJIOS44M2MuMTEtLjMxMy4xNy0uNjUuMTctMXYtMWgxYTEgMSAwIDEwMC0yaC0xVjdhMSAxIDAgMTEyIDAgMSAxIDAgMTAyIDAgMyAzIDAgMDAtMy0zeiIgZmlsbC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEwIDE4YTggOCAwIDEwMC0xNiA4IDggMCAwMDAgMTZ6bTEtMTRhMyAzIDAgMDAtMyAzdjJIN2ExIDEgMCAwMDAgMmgxdjFhMSAxIDAgMDEtMSAxIDEgMSAwIDEwMCAyaDZhMSAxIDAgMTAwLTJIOS44M2MuMTEtLjMxMy4xNy0uNjUuMTctMXYtMWgxYTEgMSAwIDEwMC0yaC0xVjdhMSAxIDAgMTEyIDAgMSAxIDAgMTAyIDAgMyAzIDAgMDAtMy0zeiIgY2xpcC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
 
 -}
 currencyPound : List (Attribute msg) -> Html msg
@@ -506,7 +546,7 @@ currencyPound attrs =
 
 {-| currency-rupee
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTEwIDE4YTggOCAwIDEwMC0xNiA4IDggMCAwMDAgMTZ6TTcgNWExIDEgMCAxMDAgMmgxYTIgMiAwIDAxMS43MzIgMUg3YTEgMSAwIDEwMCAyaDIuNzMyQTIgMiAwIDAxOCAxMUg3YTEgMSAwIDAwLS43MDcgMS43MDdsMyAzYTEgMSAwIDAwMS40MTQtMS40MTRsLTEuNDgzLTEuNDg0QTQuMDA4IDQuMDA4IDAgMDAxMS44NzQgMTBIMTNhMSAxIDAgMTAwLTJoLTEuMTI2YTMuOTc2IDMuOTc2IDAgMDAtLjQxLTFIMTNhMSAxIDAgMTAwLTJIN3oiIGZpbGwtcnVsZT0iZXZlbm9kZCIgLz4KPC9zdmc+)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEwIDE4YTggOCAwIDEwMC0xNiA4IDggMCAwMDAgMTZ6TTcgNWExIDEgMCAxMDAgMmgxYTIgMiAwIDAxMS43MzIgMUg3YTEgMSAwIDEwMCAyaDIuNzMyQTIgMiAwIDAxOCAxMUg3YTEgMSAwIDAwLS43MDcgMS43MDdsMyAzYTEgMSAwIDAwMS40MTQtMS40MTRsLTEuNDgzLTEuNDg0QTQuMDA4IDQuMDA4IDAgMDAxMS44NzQgMTBIMTNhMSAxIDAgMTAwLTJoLTEuMTI2YTMuOTc2IDMuOTc2IDAgMDAtLjQxLTFIMTNhMSAxIDAgMTAwLTJIN3oiIGNsaXAtcnVsZT0iZXZlbm9kZCIgLz4KPC9zdmc+)
 
 -}
 currencyRupee : List (Attribute msg) -> Html msg
@@ -516,7 +556,7 @@ currencyRupee attrs =
 
 {-| currency-yen
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTEwIDE4YTggOCAwIDEwMC0xNiA4IDggMCAwMDAgMTZ6TTcuODU4IDUuNDg1YTEgMSAwIDAwLTEuNzE1IDEuMDNMNy42MzMgOUg3YTEgMSAwIDEwMCAyaDEuODM0bC4xNjYuMjc3VjEySDdhMSAxIDAgMTAwIDJoMnYxYTEgMSAwIDEwMiAwdi0xaDJhMSAxIDAgMTAwLTJoLTJ2LS43MjNsLjE2Ni0uMjc3SDEzYTEgMSAwIDEwMC0yaC0uNjM0bDEuNDkyLTIuNDg2YTEgMSAwIDEwLTEuNzE2LTEuMDI5TDEwLjAzNCA5aC0uMDY4TDcuODU4IDUuNDg1eiIgZmlsbC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEwIDE4YTggOCAwIDEwMC0xNiA4IDggMCAwMDAgMTZ6TTcuODU4IDUuNDg1YTEgMSAwIDAwLTEuNzE1IDEuMDNMNy42MzMgOUg3YTEgMSAwIDEwMCAyaDEuODM0bC4xNjYuMjc3VjEySDdhMSAxIDAgMTAwIDJoMnYxYTEgMSAwIDEwMiAwdi0xaDJhMSAxIDAgMTAwLTJoLTJ2LS43MjNsLjE2Ni0uMjc3SDEzYTEgMSAwIDEwMC0yaC0uNjM0bDEuNDkyLTIuNDg2YTEgMSAwIDEwLTEuNzE2LTEuMDI5TDEwLjAzNCA5aC0uMDY4TDcuODU4IDUuNDg1eiIgY2xpcC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
 
 -}
 currencyYen : List (Attribute msg) -> Html msg
@@ -526,7 +566,7 @@ currencyYen attrs =
 
 {-| cursor-click
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTYuNjcyIDEuOTExYTEgMSAwIDEwLTEuOTMyLjUxOGwuMjU5Ljk2NmExIDEgMCAwMDEuOTMyLS41MThsLS4yNi0uOTY2ek0yLjQyOSA0Ljc0YTEgMSAwIDEwLS41MTcgMS45MzJsLjk2Ni4yNTlhMSAxIDAgMDAuNTE3LTEuOTMybC0uOTY2LS4yNnptOC44MTQtLjU2OWExIDEgMCAwMC0xLjQxNS0xLjQxNGwtLjcwNy43MDdhMSAxIDAgMTAxLjQxNSAxLjQxNWwuNzA3LS43MDh6bS03LjA3MSA3LjA3MmwuNzA3LS43MDdBMSAxIDAgMDAzLjQ2NSA5LjEybC0uNzA4LjcwN2ExIDEgMCAwMDEuNDE1IDEuNDE1em0zLjItNS4xNzFhMSAxIDAgMDAtMS4zIDEuM2w0IDEwYTEgMSAwIDAwMS44MjMuMDc1bDEuMzgtMi43NTkgMy4wMTggMy4wMmExIDEgMCAwMDEuNDE0LTEuNDE1bC0zLjAxOS0zLjAyIDIuNzYtMS4zNzlhMSAxIDAgMDAtLjA3Ni0xLjgyMmwtMTAtNHoiIGZpbGwtcnVsZT0iZXZlbm9kZCIgLz4KPC9zdmc+)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTYuNjcyIDEuOTExYTEgMSAwIDEwLTEuOTMyLjUxOGwuMjU5Ljk2NmExIDEgMCAwMDEuOTMyLS41MThsLS4yNi0uOTY2ek0yLjQyOSA0Ljc0YTEgMSAwIDEwLS41MTcgMS45MzJsLjk2Ni4yNTlhMSAxIDAgMDAuNTE3LTEuOTMybC0uOTY2LS4yNnptOC44MTQtLjU2OWExIDEgMCAwMC0xLjQxNS0xLjQxNGwtLjcwNy43MDdhMSAxIDAgMTAxLjQxNSAxLjQxNWwuNzA3LS43MDh6bS03LjA3MSA3LjA3MmwuNzA3LS43MDdBMSAxIDAgMDAzLjQ2NSA5LjEybC0uNzA4LjcwN2ExIDEgMCAwMDEuNDE1IDEuNDE1em0zLjItNS4xNzFhMSAxIDAgMDAtMS4zIDEuM2w0IDEwYTEgMSAwIDAwMS44MjMuMDc1bDEuMzgtMi43NTkgMy4wMTggMy4wMmExIDEgMCAwMDEuNDE0LTEuNDE1bC0zLjAxOS0zLjAyIDIuNzYtMS4zNzlhMSAxIDAgMDAtLjA3Ni0xLjgyMmwtMTAtNHoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgLz4KPC9zdmc+)
 
 -}
 cursorClick : List (Attribute msg) -> Html msg
@@ -534,9 +574,19 @@ cursorClick attrs =
     svg (viewBox "0 0 20 20" :: fill "currentColor" :: attrs) [ Svg.path [ fillRule "evenodd", d "M6.672 1.911a1 1 0 10-1.932.518l.259.966a1 1 0 001.932-.518l-.26-.966zM2.429 4.74a1 1 0 10-.517 1.932l.966.259a1 1 0 00.517-1.932l-.966-.26zm8.814-.569a1 1 0 00-1.415-1.414l-.707.707a1 1 0 101.415 1.415l.707-.708zm-7.071 7.072l.707-.707A1 1 0 003.465 9.12l-.708.707a1 1 0 001.415 1.415zm3.2-5.171a1 1 0 00-1.3 1.3l4 10a1 1 0 001.823.075l1.38-2.759 3.018 3.02a1 1 0 001.414-1.415l-3.019-3.02 2.76-1.379a1 1 0 00-.076-1.822l-10-4z", clipRule "evenodd" ] [] ]
 
 
+{-| desktop-computer
+
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTMgNWEyIDIgMCAwMTItMmgxMGEyIDIgMCAwMTIgMnY4YTIgMiAwIDAxLTIgMmgtMi4yMmwuMTIzLjQ4OS44MDQuODA0QTEgMSAwIDAxMTMgMThIN2ExIDEgMCAwMS0uNzA3LTEuNzA3bC44MDQtLjgwNEw3LjIyIDE1SDVhMiAyIDAgMDEtMi0yVjV6bTUuNzcxIDdINVY1aDEwdjdIOC43NzF6IiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIC8+Cjwvc3ZnPg==)
+
+-}
+desktopComputer : List (Attribute msg) -> Html msg
+desktopComputer attrs =
+    svg (viewBox "0 0 20 20" :: fill "currentColor" :: attrs) [ Svg.path [ fillRule "evenodd", d "M3 5a2 2 0 012-2h10a2 2 0 012 2v8a2 2 0 01-2 2h-2.22l.123.489.804.804A1 1 0 0113 18H7a1 1 0 01-.707-1.707l.804-.804L7.22 15H5a2 2 0 01-2-2V5zm5.771 7H5V5h10v7H8.771z", clipRule "evenodd" ] [] ]
+
+
 {-| document-add
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTYgMmEyIDIgMCAwMC0yIDJ2MTJhMiAyIDAgMDAyIDJoOGEyIDIgMCAwMDItMlY3LjQxNEEyIDIgMCAwMDE1LjQxNCA2TDEyIDIuNTg2QTIgMiAwIDAwMTAuNTg2IDJINnptNSA2YTEgMSAwIDEwLTIgMHYySDdhMSAxIDAgMTAwIDJoMnYyYTEgMSAwIDEwMiAwdi0yaDJhMSAxIDAgMTAwLTJoLTJWOHoiIGZpbGwtcnVsZT0iZXZlbm9kZCIgLz4KPC9zdmc+)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTYgMmEyIDIgMCAwMC0yIDJ2MTJhMiAyIDAgMDAyIDJoOGEyIDIgMCAwMDItMlY3LjQxNEEyIDIgMCAwMDE1LjQxNCA2TDEyIDIuNTg2QTIgMiAwIDAwMTAuNTg2IDJINnptNSA2YTEgMSAwIDEwLTIgMHYySDdhMSAxIDAgMTAwIDJoMnYyYTEgMSAwIDEwMiAwdi0yaDJhMSAxIDAgMTAwLTJoLTJWOHoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgLz4KPC9zdmc+)
 
 -}
 documentAdd : List (Attribute msg) -> Html msg
@@ -546,7 +596,7 @@ documentAdd attrs =
 
 {-| document-download
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTYgMmEyIDIgMCAwMC0yIDJ2MTJhMiAyIDAgMDAyIDJoOGEyIDIgMCAwMDItMlY3LjQxNEEyIDIgMCAwMDE1LjQxNCA2TDEyIDIuNTg2QTIgMiAwIDAwMTAuNTg2IDJINnptNSA2YTEgMSAwIDEwLTIgMHYzLjU4NmwtMS4yOTMtMS4yOTNhMSAxIDAgMTAtMS40MTQgMS40MTRsMyAzYTEgMSAwIDAwMS40MTQgMGwzLTNhMSAxIDAgMDAtMS40MTQtMS40MTRMMTEgMTEuNTg2Vjh6IiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIC8+Cjwvc3ZnPg==)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTYgMmEyIDIgMCAwMC0yIDJ2MTJhMiAyIDAgMDAyIDJoOGEyIDIgMCAwMDItMlY3LjQxNEEyIDIgMCAwMDE1LjQxNCA2TDEyIDIuNTg2QTIgMiAwIDAwMTAuNTg2IDJINnptNSA2YTEgMSAwIDEwLTIgMHYzLjU4NmwtMS4yOTMtMS4yOTNhMSAxIDAgMTAtMS40MTQgMS40MTRsMyAzYTEgMSAwIDAwMS40MTQgMGwzLTNhMSAxIDAgMDAtMS40MTQtMS40MTRMMTEgMTEuNTg2Vjh6IiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIC8+Cjwvc3ZnPg==)
 
 -}
 documentDownload : List (Attribute msg) -> Html msg
@@ -556,7 +606,7 @@ documentDownload attrs =
 
 {-| document-duplicate
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGQ9Ik05IDJhMiAyIDAgMDAtMiAydjhhMiAyIDAgMDAyIDJoNmEyIDIgMCAwMDItMlY2LjQxNEEyIDIgMCAwMDE2LjQxNCA1TDE0IDIuNTg2QTIgMiAwIDAwMTIuNTg2IDJIOXoiIC8+CiAgPHBhdGggZD0iTTMgOGEyIDIgMCAwMTItMnYxMGg4YTIgMiAwIDAxLTIgMkg1YTIgMiAwIDAxLTItMlY4eiIgLz4KPC9zdmc+)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGQ9Ik05IDJhMiAyIDAgMDAtMiAydjhhMiAyIDAgMDAyIDJoNmEyIDIgMCAwMDItMlY2LjQxNEEyIDIgMCAwMDE2LjQxNCA1TDE0IDIuNTg2QTIgMiAwIDAwMTIuNTg2IDJIOXoiIC8+CiAgPHBhdGggZD0iTTMgOGEyIDIgMCAwMTItMnYxMGg4YTIgMiAwIDAxLTIgMkg1YTIgMiAwIDAxLTItMlY4eiIgLz4KPC9zdmc+)
 
 -}
 documentDuplicate : List (Attribute msg) -> Html msg
@@ -566,7 +616,7 @@ documentDuplicate attrs =
 
 {-| document-remove
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTYgMmEyIDIgMCAwMC0yIDJ2MTJhMiAyIDAgMDAyIDJoOGEyIDIgMCAwMDItMlY3LjQxNEEyIDIgMCAwMDE1LjQxNCA2TDEyIDIuNTg2QTIgMiAwIDAwMTAuNTg2IDJINnptMSA4YTEgMSAwIDEwMCAyaDZhMSAxIDAgMTAwLTJIN3oiIGZpbGwtcnVsZT0iZXZlbm9kZCIgLz4KPC9zdmc+)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTYgMmEyIDIgMCAwMC0yIDJ2MTJhMiAyIDAgMDAyIDJoOGEyIDIgMCAwMDItMlY3LjQxNEEyIDIgMCAwMDE1LjQxNCA2TDEyIDIuNTg2QTIgMiAwIDAwMTAuNTg2IDJINnptMSA4YTEgMSAwIDEwMCAyaDZhMSAxIDAgMTAwLTJIN3oiIGNsaXAtcnVsZT0iZXZlbm9kZCIgLz4KPC9zdmc+)
 
 -}
 documentRemove : List (Attribute msg) -> Html msg
@@ -576,7 +626,7 @@ documentRemove attrs =
 
 {-| document-report
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTYgMmEyIDIgMCAwMC0yIDJ2MTJhMiAyIDAgMDAyIDJoOGEyIDIgMCAwMDItMlY3LjQxNEEyIDIgMCAwMDE1LjQxNCA2TDEyIDIuNTg2QTIgMiAwIDAwMTAuNTg2IDJINnptMiAxMGExIDEgMCAxMC0yIDB2M2ExIDEgMCAxMDIgMHYtM3ptMi0zYTEgMSAwIDAxMSAxdjVhMSAxIDAgMTEtMiAwdi01YTEgMSAwIDAxMS0xem00LTFhMSAxIDAgMTAtMiAwdjdhMSAxIDAgMTAyIDBWOHoiIGZpbGwtcnVsZT0iZXZlbm9kZCIgLz4KPC9zdmc+)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTYgMmEyIDIgMCAwMC0yIDJ2MTJhMiAyIDAgMDAyIDJoOGEyIDIgMCAwMDItMlY3LjQxNEEyIDIgMCAwMDE1LjQxNCA2TDEyIDIuNTg2QTIgMiAwIDAwMTAuNTg2IDJINnptMiAxMGExIDEgMCAxMC0yIDB2M2ExIDEgMCAxMDIgMHYtM3ptMi0zYTEgMSAwIDAxMSAxdjVhMSAxIDAgMTEtMiAwdi01YTEgMSAwIDAxMS0xem00LTFhMSAxIDAgMTAtMiAwdjdhMSAxIDAgMTAyIDBWOHoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgLz4KPC9zdmc+)
 
 -}
 documentReport : List (Attribute msg) -> Html msg
@@ -586,7 +636,7 @@ documentReport attrs =
 
 {-| document
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTQgNGEyIDIgMCAwMTItMmg0LjU4NkEyIDIgMCAwMTEyIDIuNTg2TDE1LjQxNCA2QTIgMiAwIDAxMTYgNy40MTRWMTZhMiAyIDAgMDEtMiAySDZhMiAyIDAgMDEtMi0yVjR6IiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIC8+Cjwvc3ZnPg==)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTQgNGEyIDIgMCAwMTItMmg0LjU4NkEyIDIgMCAwMTEyIDIuNTg2TDE1LjQxNCA2QTIgMiAwIDAxMTYgNy40MTRWMTZhMiAyIDAgMDEtMiAySDZhMiAyIDAgMDEtMi0yVjR6IiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIC8+Cjwvc3ZnPg==)
 
 -}
 document : List (Attribute msg) -> Html msg
@@ -596,7 +646,7 @@ document attrs =
 
 {-| dots-circle-horizontal
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTEwIDE4YTggOCAwIDEwMC0xNiA4IDggMCAwMDAgMTZ6TTcgOUg1djJoMlY5em04IDBoLTJ2MmgyVjl6TTkgOWgydjJIOVY5eiIgZmlsbC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEwIDE4YTggOCAwIDEwMC0xNiA4IDggMCAwMDAgMTZ6TTcgOUg1djJoMlY5em04IDBoLTJ2MmgyVjl6TTkgOWgydjJIOVY5eiIgY2xpcC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
 
 -}
 dotsCircleHorizontal : List (Attribute msg) -> Html msg
@@ -606,7 +656,7 @@ dotsCircleHorizontal attrs =
 
 {-| dots-horizontal
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGQ9Ik02IDEwYTIgMiAwIDExLTQgMCAyIDIgMCAwMTQgMHpNMTIgMTBhMiAyIDAgMTEtNCAwIDIgMiAwIDAxNCAwek0xNiAxMmEyIDIgMCAxMDAtNCAyIDIgMCAwMDAgNHoiIC8+Cjwvc3ZnPg==)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGQ9Ik02IDEwYTIgMiAwIDExLTQgMCAyIDIgMCAwMTQgMHpNMTIgMTBhMiAyIDAgMTEtNCAwIDIgMiAwIDAxNCAwek0xNiAxMmEyIDIgMCAxMDAtNCAyIDIgMCAwMDAgNHoiIC8+Cjwvc3ZnPg==)
 
 -}
 dotsHorizontal : List (Attribute msg) -> Html msg
@@ -616,7 +666,7 @@ dotsHorizontal attrs =
 
 {-| dots-vertical
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGQ9Ik0xMCA2YTIgMiAwIDExMC00IDIgMiAwIDAxMCA0ek0xMCAxMmEyIDIgMCAxMTAtNCAyIDIgMCAwMTAgNHpNMTAgMThhMiAyIDAgMTEwLTQgMiAyIDAgMDEwIDR6IiAvPgo8L3N2Zz4=)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGQ9Ik0xMCA2YTIgMiAwIDExMC00IDIgMiAwIDAxMCA0ek0xMCAxMmEyIDIgMCAxMTAtNCAyIDIgMCAwMTAgNHpNMTAgMThhMiAyIDAgMTEwLTQgMiAyIDAgMDEwIDR6IiAvPgo8L3N2Zz4=)
 
 -}
 dotsVertical : List (Attribute msg) -> Html msg
@@ -626,7 +676,7 @@ dotsVertical attrs =
 
 {-| download
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTMgMTdhMSAxIDAgMDExLTFoMTJhMSAxIDAgMTEwIDJINGExIDEgMCAwMS0xLTF6bTMuMjkzLTcuNzA3YTEgMSAwIDAxMS40MTQgMEw5IDEwLjU4NlYzYTEgMSAwIDExMiAwdjcuNTg2bDEuMjkzLTEuMjkzYTEgMSAwIDExMS40MTQgMS40MTRsLTMgM2ExIDEgMCAwMS0xLjQxNCAwbC0zLTNhMSAxIDAgMDEwLTEuNDE0eiIgZmlsbC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTMgMTdhMSAxIDAgMDExLTFoMTJhMSAxIDAgMTEwIDJINGExIDEgMCAwMS0xLTF6bTMuMjkzLTcuNzA3YTEgMSAwIDAxMS40MTQgMEw5IDEwLjU4NlYzYTEgMSAwIDExMiAwdjcuNTg2bDEuMjkzLTEuMjkzYTEgMSAwIDExMS40MTQgMS40MTRsLTMgM2ExIDEgMCAwMS0xLjQxNCAwbC0zLTNhMSAxIDAgMDEwLTEuNDE0eiIgY2xpcC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
 
 -}
 download : List (Attribute msg) -> Html msg
@@ -636,7 +686,7 @@ download attrs =
 
 {-| duplicate
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGQ9Ik03IDlhMiAyIDAgMDEyLTJoNmEyIDIgMCAwMTIgMnY2YTIgMiAwIDAxLTIgMkg5YTIgMiAwIDAxLTItMlY5eiIgLz4KICA8cGF0aCBkPSJNNSAzYTIgMiAwIDAwLTIgMnY2YTIgMiAwIDAwMiAyVjVoOGEyIDIgMCAwMC0yLTJINXoiIC8+Cjwvc3ZnPg==)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGQ9Ik03IDlhMiAyIDAgMDEyLTJoNmEyIDIgMCAwMTIgMnY2YTIgMiAwIDAxLTIgMkg5YTIgMiAwIDAxLTItMlY5eiIgLz4KICA8cGF0aCBkPSJNNSAzYTIgMiAwIDAwLTIgMnY2YTIgMiAwIDAwMiAyVjVoOGEyIDIgMCAwMC0yLTJINXoiIC8+Cjwvc3ZnPg==)
 
 -}
 duplicate : List (Attribute msg) -> Html msg
@@ -646,7 +696,7 @@ duplicate attrs =
 
 {-| emoji-happy
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTEwIDE4YTggOCAwIDEwMC0xNiA4IDggMCAwMDAgMTZ6TTcgOWExIDEgMCAxMDAtMiAxIDEgMCAwMDAgMnptNy0xYTEgMSAwIDExLTIgMCAxIDEgMCAwMTIgMHptLS40NjQgNS41MzVhMSAxIDAgMTAtMS40MTUtMS40MTQgMyAzIDAgMDEtNC4yNDIgMCAxIDEgMCAwMC0xLjQxNSAxLjQxNCA1IDUgMCAwMDcuMDcyIDB6IiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIC8+Cjwvc3ZnPg==)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEwIDE4YTggOCAwIDEwMC0xNiA4IDggMCAwMDAgMTZ6TTcgOWExIDEgMCAxMDAtMiAxIDEgMCAwMDAgMnptNy0xYTEgMSAwIDExLTIgMCAxIDEgMCAwMTIgMHptLS40NjQgNS41MzVhMSAxIDAgMTAtMS40MTUtMS40MTQgMyAzIDAgMDEtNC4yNDIgMCAxIDEgMCAwMC0xLjQxNSAxLjQxNCA1IDUgMCAwMDcuMDcyIDB6IiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIC8+Cjwvc3ZnPg==)
 
 -}
 emojiHappy : List (Attribute msg) -> Html msg
@@ -656,7 +706,7 @@ emojiHappy attrs =
 
 {-| emoji-sad
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTEwIDE4YTggOCAwIDEwMC0xNiA4IDggMCAwMDAgMTZ6TTcgOWExIDEgMCAxMDAtMiAxIDEgMCAwMDAgMnptNy0xYTEgMSAwIDExLTIgMCAxIDEgMCAwMTIgMHptLTcuNTM2IDUuODc5YTEgMSAwIDAwMS40MTUgMCAzIDMgMCAwMTQuMjQyIDAgMSAxIDAgMDAxLjQxNS0xLjQxNSA1IDUgMCAwMC03LjA3MiAwIDEgMSAwIDAwMCAxLjQxNXoiIGZpbGwtcnVsZT0iZXZlbm9kZCIgLz4KPC9zdmc+)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEwIDE4YTggOCAwIDEwMC0xNiA4IDggMCAwMDAgMTZ6TTcgOWExIDEgMCAxMDAtMiAxIDEgMCAwMDAgMnptNy0xYTEgMSAwIDExLTIgMCAxIDEgMCAwMTIgMHptLTcuNTM2IDUuODc5YTEgMSAwIDAwMS40MTUgMCAzIDMgMCAwMTQuMjQyIDAgMSAxIDAgMDAxLjQxNS0xLjQxNSA1IDUgMCAwMC03LjA3MiAwIDEgMSAwIDAwMCAxLjQxNXoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgLz4KPC9zdmc+)
 
 -}
 emojiSad : List (Attribute msg) -> Html msg
@@ -666,7 +716,7 @@ emojiSad attrs =
 
 {-| exclamation-circle
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTE4IDEwYTggOCAwIDExLTE2IDAgOCA4IDAgMDExNiAwem0tNyA0YTEgMSAwIDExLTIgMCAxIDEgMCAwMTIgMHptLTEtOWExIDEgMCAwMC0xIDF2NGExIDEgMCAxMDIgMFY2YTEgMSAwIDAwLTEtMXoiIGZpbGwtcnVsZT0iZXZlbm9kZCIgLz4KPC9zdmc+)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTE4IDEwYTggOCAwIDExLTE2IDAgOCA4IDAgMDExNiAwem0tNyA0YTEgMSAwIDExLTIgMCAxIDEgMCAwMTIgMHptLTEtOWExIDEgMCAwMC0xIDF2NGExIDEgMCAxMDIgMFY2YTEgMSAwIDAwLTEtMXoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgLz4KPC9zdmc+)
 
 -}
 exclamationCircle : List (Attribute msg) -> Html msg
@@ -676,7 +726,7 @@ exclamationCircle attrs =
 
 {-| exclamation
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTguMjU3IDMuMDk5Yy43NjUtMS4zNiAyLjcyMi0xLjM2IDMuNDg2IDBsNS41OCA5LjkyYy43NSAxLjMzNC0uMjEzIDIuOTgtMS43NDIgMi45OEg0LjQyYy0xLjUzIDAtMi40OTMtMS42NDYtMS43NDMtMi45OGw1LjU4LTkuOTJ6TTExIDEzYTEgMSAwIDExLTIgMCAxIDEgMCAwMTIgMHptLTEtOGExIDEgMCAwMC0xIDF2M2ExIDEgMCAwMDIgMFY2YTEgMSAwIDAwLTEtMXoiIGZpbGwtcnVsZT0iZXZlbm9kZCIgLz4KPC9zdmc+)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTguMjU3IDMuMDk5Yy43NjUtMS4zNiAyLjcyMi0xLjM2IDMuNDg2IDBsNS41OCA5LjkyYy43NSAxLjMzNC0uMjEzIDIuOTgtMS43NDIgMi45OEg0LjQyYy0xLjUzIDAtMi40OTMtMS42NDYtMS43NDMtMi45OGw1LjU4LTkuOTJ6TTExIDEzYTEgMSAwIDExLTIgMCAxIDEgMCAwMTIgMHptLTEtOGExIDEgMCAwMC0xIDF2M2ExIDEgMCAwMDIgMFY2YTEgMSAwIDAwLTEtMXoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgLz4KPC9zdmc+)
 
 -}
 exclamation : List (Attribute msg) -> Html msg
@@ -686,7 +736,7 @@ exclamation attrs =
 
 {-| external-link
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGQ9Ik0xMSAzYTEgMSAwIDEwMCAyaDIuNTg2bC02LjI5MyA2LjI5M2ExIDEgMCAxMDEuNDE0IDEuNDE0TDE1IDYuNDE0VjlhMSAxIDAgMTAyIDBWNGExIDEgMCAwMC0xLTFoLTV6IiAvPgogIDxwYXRoIGQ9Ik01IDVhMiAyIDAgMDAtMiAydjhhMiAyIDAgMDAyIDJoOGEyIDIgMCAwMDItMnYtM2ExIDEgMCAxMC0yIDB2M0g1VjdoM2ExIDEgMCAwMDAtMkg1eiIgLz4KPC9zdmc+)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGQ9Ik0xMSAzYTEgMSAwIDEwMCAyaDIuNTg2bC02LjI5MyA2LjI5M2ExIDEgMCAxMDEuNDE0IDEuNDE0TDE1IDYuNDE0VjlhMSAxIDAgMTAyIDBWNGExIDEgMCAwMC0xLTFoLTV6IiAvPgogIDxwYXRoIGQ9Ik01IDVhMiAyIDAgMDAtMiAydjhhMiAyIDAgMDAyIDJoOGEyIDIgMCAwMDItMnYtM2ExIDEgMCAxMC0yIDB2M0g1VjdoM2ExIDEgMCAwMDAtMkg1eiIgLz4KPC9zdmc+)
 
 -}
 externalLink : List (Attribute msg) -> Html msg
@@ -694,9 +744,19 @@ externalLink attrs =
     svg (viewBox "0 0 20 20" :: fill "currentColor" :: attrs) [ Svg.path [ d "M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" ] [], Svg.path [ d "M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" ] [] ]
 
 
+{-| eye-off
+
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTMuNzA3IDIuMjkzYTEgMSAwIDAwLTEuNDE0IDEuNDE0bDE0IDE0YTEgMSAwIDAwMS40MTQtMS40MTRsLTEuNDczLTEuNDczQTEwLjAxNCAxMC4wMTQgMCAwMDE5LjU0MiAxMEMxOC4yNjggNS45NDMgMTQuNDc4IDMgMTAgM2E5Ljk1OCA5Ljk1OCAwIDAwLTQuNTEyIDEuMDc0bC0xLjc4LTEuNzgxem00LjI2MSA0LjI2bDEuNTE0IDEuNTE1YTIuMDAzIDIuMDAzIDAgMDEyLjQ1IDIuNDVsMS41MTQgMS41MTRhNCA0IDAgMDAtNS40NzgtNS40Nzh6IiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIC8+CiAgPHBhdGggZD0iTTEyLjQ1NCAxNi42OTdMOS43NSAxMy45OTJhNCA0IDAgMDEtMy43NDItMy43NDFMMi4zMzUgNi41NzhBOS45OCA5Ljk4IDAgMDAuNDU4IDEwYzEuMjc0IDQuMDU3IDUuMDY1IDcgOS41NDIgNyAuODQ3IDAgMS42NjktLjEwNSAyLjQ1NC0uMzAzeiIgLz4KPC9zdmc+)
+
+-}
+eyeOff : List (Attribute msg) -> Html msg
+eyeOff attrs =
+    svg (viewBox "0 0 20 20" :: fill "currentColor" :: attrs) [ Svg.path [ fillRule "evenodd", d "M3.707 2.293a1 1 0 00-1.414 1.414l14 14a1 1 0 001.414-1.414l-1.473-1.473A10.014 10.014 0 0019.542 10C18.268 5.943 14.478 3 10 3a9.958 9.958 0 00-4.512 1.074l-1.78-1.781zm4.261 4.26l1.514 1.515a2.003 2.003 0 012.45 2.45l1.514 1.514a4 4 0 00-5.478-5.478z", clipRule "evenodd" ] [], Svg.path [ d "M12.454 16.697L9.75 13.992a4 4 0 01-3.742-3.741L2.335 6.578A9.98 9.98 0 00.458 10c1.274 4.057 5.065 7 9.542 7 .847 0 1.669-.105 2.454-.303z" ] [] ]
+
+
 {-| eye
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGQ9Ik0xMCAxMmEyIDIgMCAxMDAtNCAyIDIgMCAwMDAgNHoiIC8+CiAgPHBhdGggY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNLjQ1OCAxMEMxLjczMiA1Ljk0MyA1LjUyMiAzIDEwIDNzOC4yNjggMi45NDMgOS41NDIgN2MtMS4yNzQgNC4wNTctNS4wNjQgNy05LjU0MiA3UzEuNzMyIDE0LjA1Ny40NTggMTB6TTE0IDEwYTQgNCAwIDExLTggMCA0IDQgMCAwMTggMHoiIGZpbGwtcnVsZT0iZXZlbm9kZCIgLz4KPC9zdmc+)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGQ9Ik0xMCAxMmEyIDIgMCAxMDAtNCAyIDIgMCAwMDAgNHoiIC8+CiAgPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNLjQ1OCAxMEMxLjczMiA1Ljk0MyA1LjUyMiAzIDEwIDNzOC4yNjggMi45NDMgOS41NDIgN2MtMS4yNzQgNC4wNTctNS4wNjQgNy05LjU0MiA3UzEuNzMyIDE0LjA1Ny40NTggMTB6TTE0IDEwYTQgNCAwIDExLTggMCA0IDQgMCAwMTggMHoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgLz4KPC9zdmc+)
 
 -}
 eye : List (Attribute msg) -> Html msg
@@ -706,7 +766,7 @@ eye attrs =
 
 {-| filter
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTMgM2ExIDEgMCAwMTEtMWgxMmExIDEgMCAwMTEgMXYzYTEgMSAwIDAxLS4yOTMuNzA3TDEyIDExLjQxNFYxNWExIDEgMCAwMS0uMjkzLjcwN2wtMiAyQTEgMSAwIDAxOCAxN3YtNS41ODZMMy4yOTMgNi43MDdBMSAxIDAgMDEzIDZWM3oiIGZpbGwtcnVsZT0iZXZlbm9kZCIgLz4KPC9zdmc+)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTMgM2ExIDEgMCAwMTEtMWgxMmExIDEgMCAwMTEgMXYzYTEgMSAwIDAxLS4yOTMuNzA3TDEyIDExLjQxNFYxNWExIDEgMCAwMS0uMjkzLjcwN2wtMiAyQTEgMSAwIDAxOCAxN3YtNS41ODZMMy4yOTMgNi43MDdBMSAxIDAgMDEzIDZWM3oiIGNsaXAtcnVsZT0iZXZlbm9kZCIgLz4KPC9zdmc+)
 
 -}
 filter : List (Attribute msg) -> Html msg
@@ -716,7 +776,7 @@ filter attrs =
 
 {-| flag
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTMgNmEzIDMgMCAwMTMtM2gxMGExIDEgMCAwMS44IDEuNkwxNC4yNSA4bDIuNTUgMy40QTEgMSAwIDAxMTYgMTNINmExIDEgMCAwMC0xIDF2M2ExIDEgMCAxMS0yIDBWNnoiIGZpbGwtcnVsZT0iZXZlbm9kZCIgLz4KPC9zdmc+)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTMgNmEzIDMgMCAwMTMtM2gxMGExIDEgMCAwMS44IDEuNkwxNC4yNSA4bDIuNTUgMy40QTEgMSAwIDAxMTYgMTNINmExIDEgMCAwMC0xIDF2M2ExIDEgMCAxMS0yIDBWNnoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgLz4KPC9zdmc+)
 
 -}
 flag : List (Attribute msg) -> Html msg
@@ -726,7 +786,7 @@ flag attrs =
 
 {-| folder
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGQ9Ik0yIDZhMiAyIDAgMDEyLTJoNWwyIDJoNWEyIDIgMCAwMTIgMnY2YTIgMiAwIDAxLTIgMkg0YTIgMiAwIDAxLTItMlY2eiIgLz4KPC9zdmc+)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGQ9Ik0yIDZhMiAyIDAgMDEyLTJoNWwyIDJoNWEyIDIgMCAwMTIgMnY2YTIgMiAwIDAxLTIgMkg0YTIgMiAwIDAxLTItMlY2eiIgLz4KPC9zdmc+)
 
 -}
 folder : List (Attribute msg) -> Html msg
@@ -736,7 +796,7 @@ folder attrs =
 
 {-| globe-alt
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTQuMDgzIDloMS45NDZjLjA4OS0xLjU0Ni4zODMtMi45Ny44MzctNC4xMThBNi4wMDQgNi4wMDQgMCAwMDQuMDgzIDl6TTEwIDJhOCA4IDAgMTAwIDE2IDggOCAwIDAwMC0xNnptMCAyYy0uMDc2IDAtLjIzMi4wMzItLjQ2NS4yNjItLjIzOC4yMzQtLjQ5Ny42MjMtLjczNyAxLjE4Mi0uMzg5LjkwNy0uNjczIDIuMTQyLS43NjYgMy41NTZoMy45MzZjLS4wOTMtMS40MTQtLjM3Ny0yLjY0OS0uNzY2LTMuNTU2LS4yNC0uNTYtLjUtLjk0OC0uNzM3LTEuMTgyQzEwLjIzMiA0LjAzMiAxMC4wNzYgNCAxMCA0em0zLjk3MSA1Yy0uMDg5LTEuNTQ2LS4zODMtMi45Ny0uODM3LTQuMTE4QTYuMDA0IDYuMDA0IDAgMDExNS45MTcgOWgtMS45NDZ6bS0yLjAwMyAySDguMDMyYy4wOTMgMS40MTQuMzc3IDIuNjQ5Ljc2NiAzLjU1Ni4yNC41Ni41Ljk0OC43MzcgMS4xODIuMjMzLjIzLjM4OS4yNjIuNDY1LjI2Mi4wNzYgMCAuMjMyLS4wMzIuNDY1LS4yNjIuMjM4LS4yMzQuNDk4LS42MjMuNzM3LTEuMTgyLjM4OS0uOTA3LjY3My0yLjE0Mi43NjYtMy41NTZ6bTEuMTY2IDQuMTE4Yy40NTQtMS4xNDcuNzQ4LTIuNTcyLjgzNy00LjExOGgxLjk0NmE2LjAwNCA2LjAwNCAwIDAxLTIuNzgzIDQuMTE4em0tNi4yNjggMEM2LjQxMiAxMy45NyA2LjExOCAxMi41NDYgNi4wMyAxMUg0LjA4M2E2LjAwNCA2LjAwNCAwIDAwMi43ODMgNC4xMTh6IiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIC8+Cjwvc3ZnPg==)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTQuMDgzIDloMS45NDZjLjA4OS0xLjU0Ni4zODMtMi45Ny44MzctNC4xMThBNi4wMDQgNi4wMDQgMCAwMDQuMDgzIDl6TTEwIDJhOCA4IDAgMTAwIDE2IDggOCAwIDAwMC0xNnptMCAyYy0uMDc2IDAtLjIzMi4wMzItLjQ2NS4yNjItLjIzOC4yMzQtLjQ5Ny42MjMtLjczNyAxLjE4Mi0uMzg5LjkwNy0uNjczIDIuMTQyLS43NjYgMy41NTZoMy45MzZjLS4wOTMtMS40MTQtLjM3Ny0yLjY0OS0uNzY2LTMuNTU2LS4yNC0uNTYtLjUtLjk0OC0uNzM3LTEuMTgyQzEwLjIzMiA0LjAzMiAxMC4wNzYgNCAxMCA0em0zLjk3MSA1Yy0uMDg5LTEuNTQ2LS4zODMtMi45Ny0uODM3LTQuMTE4QTYuMDA0IDYuMDA0IDAgMDExNS45MTcgOWgtMS45NDZ6bS0yLjAwMyAySDguMDMyYy4wOTMgMS40MTQuMzc3IDIuNjQ5Ljc2NiAzLjU1Ni4yNC41Ni41Ljk0OC43MzcgMS4xODIuMjMzLjIzLjM4OS4yNjIuNDY1LjI2Mi4wNzYgMCAuMjMyLS4wMzIuNDY1LS4yNjIuMjM4LS4yMzQuNDk4LS42MjMuNzM3LTEuMTgyLjM4OS0uOTA3LjY3My0yLjE0Mi43NjYtMy41NTZ6bTEuMTY2IDQuMTE4Yy40NTQtMS4xNDcuNzQ4LTIuNTcyLjgzNy00LjExOGgxLjk0NmE2LjAwNCA2LjAwNCAwIDAxLTIuNzgzIDQuMTE4em0tNi4yNjggMEM2LjQxMiAxMy45NyA2LjExOCAxMi41NDYgNi4wMyAxMUg0LjA4M2E2LjAwNCA2LjAwNCAwIDAwMi43ODMgNC4xMTh6IiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIC8+Cjwvc3ZnPg==)
 
 -}
 globeAlt : List (Attribute msg) -> Html msg
@@ -746,7 +806,7 @@ globeAlt attrs =
 
 {-| globe
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTEwIDE4YTggOCAwIDEwMC0xNiA4IDggMCAwMDAgMTZ6TTQuMzMyIDguMDI3YTYuMDEyIDYuMDEyIDAgMDExLjkxMi0yLjcwNkM2LjUxMiA1LjczIDYuOTc0IDYgNy41IDZBMS41IDEuNSAwIDAxOSA3LjVWOGEyIDIgMCAwMDQgMCAyIDIgMCAwMTEuNTIzLTEuOTQzQTUuOTc3IDUuOTc3IDAgMDExNiAxMGMwIC4zNC0uMDI4LjY3NS0uMDgzIDFIMTVhMiAyIDAgMDAtMiAydjIuMTk3QTUuOTczIDUuOTczIDAgMDExMCAxNnYtMmEyIDIgMCAwMC0yLTIgMiAyIDAgMDEtMi0yIDIgMiAwIDAwLTEuNjY4LTEuOTczeiIgZmlsbC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEwIDE4YTggOCAwIDEwMC0xNiA4IDggMCAwMDAgMTZ6TTQuMzMyIDguMDI3YTYuMDEyIDYuMDEyIDAgMDExLjkxMi0yLjcwNkM2LjUxMiA1LjczIDYuOTc0IDYgNy41IDZBMS41IDEuNSAwIDAxOSA3LjVWOGEyIDIgMCAwMDQgMCAyIDIgMCAwMTEuNTIzLTEuOTQzQTUuOTc3IDUuOTc3IDAgMDExNiAxMGMwIC4zNC0uMDI4LjY3NS0uMDgzIDFIMTVhMiAyIDAgMDAtMiAydjIuMTk3QTUuOTczIDUuOTczIDAgMDExMCAxNnYtMmEyIDIgMCAwMC0yLTIgMiAyIDAgMDEtMi0yIDIgMiAwIDAwLTEuNjY4LTEuOTczeiIgY2xpcC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
 
 -}
 globe : List (Attribute msg) -> Html msg
@@ -756,7 +816,7 @@ globe attrs =
 
 {-| hashtag
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTkuMjQzIDMuMDNhMSAxIDAgMDEuNzI3IDEuMjEzTDkuNTMgNmgyLjk0bC41Ni0yLjI0M2ExIDEgMCAxMTEuOTQuNDg2TDE0LjUzIDZIMTdhMSAxIDAgMTEwIDJoLTIuOTdsLTEgNEgxNWExIDEgMCAxMTAgMmgtMi40N2wtLjU2IDIuMjQyYTEgMSAwIDExLTEuOTQtLjQ4NUwxMC40NyAxNEg3LjUzbC0uNTYgMi4yNDJhMSAxIDAgMTEtMS45NC0uNDg1TDUuNDcgMTRIM2ExIDEgMCAxMTAtMmgyLjk3bDEtNEg1YTEgMSAwIDExMC0yaDIuNDdsLjU2LTIuMjQzYTEgMSAwIDAxMS4yMTMtLjcyN3pNOS4wMyA4bC0xIDRoMi45MzhsMS00SDkuMDMxeiIgZmlsbC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTkuMjQzIDMuMDNhMSAxIDAgMDEuNzI3IDEuMjEzTDkuNTMgNmgyLjk0bC41Ni0yLjI0M2ExIDEgMCAxMTEuOTQuNDg2TDE0LjUzIDZIMTdhMSAxIDAgMTEwIDJoLTIuOTdsLTEgNEgxNWExIDEgMCAxMTAgMmgtMi40N2wtLjU2IDIuMjQyYTEgMSAwIDExLTEuOTQtLjQ4NUwxMC40NyAxNEg3LjUzbC0uNTYgMi4yNDJhMSAxIDAgMTEtMS45NC0uNDg1TDUuNDcgMTRIM2ExIDEgMCAxMTAtMmgyLjk3bDEtNEg1YTEgMSAwIDExMC0yaDIuNDdsLjU2LTIuMjQzYTEgMSAwIDAxMS4yMTMtLjcyN3pNOS4wMyA4bC0xIDRoMi45MzhsMS00SDkuMDMxeiIgY2xpcC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
 
 -}
 hashtag : List (Attribute msg) -> Html msg
@@ -766,7 +826,7 @@ hashtag attrs =
 
 {-| heart
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTMuMTcyIDUuMTcyYTQgNCAwIDAxNS42NTYgMEwxMCA2LjM0M2wxLjE3Mi0xLjE3MWE0IDQgMCAxMTUuNjU2IDUuNjU2TDEwIDE3LjY1N2wtNi44MjgtNi44MjlhNCA0IDAgMDEwLTUuNjU2eiIgZmlsbC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTMuMTcyIDUuMTcyYTQgNCAwIDAxNS42NTYgMEwxMCA2LjM0M2wxLjE3Mi0xLjE3MWE0IDQgMCAxMTUuNjU2IDUuNjU2TDEwIDE3LjY1N2wtNi44MjgtNi44MjlhNCA0IDAgMDEwLTUuNjU2eiIgY2xpcC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
 
 -}
 heart : List (Attribute msg) -> Html msg
@@ -776,7 +836,7 @@ heart attrs =
 
 {-| home
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGQ9Ik0xMC43MDcgMi4yOTNhMSAxIDAgMDAtMS40MTQgMGwtNyA3YTEgMSAwIDAwMS40MTQgMS40MTRMNCAxMC40MTRWMTdhMSAxIDAgMDAxIDFoMmExIDEgMCAwMDEtMXYtMmExIDEgMCAwMTEtMWgyYTEgMSAwIDAxMSAxdjJhMSAxIDAgMDAxIDFoMmExIDEgMCAwMDEtMXYtNi41ODZsLjI5My4yOTNhMSAxIDAgMDAxLjQxNC0xLjQxNGwtNy03eiIgLz4KPC9zdmc+)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGQ9Ik0xMC43MDcgMi4yOTNhMSAxIDAgMDAtMS40MTQgMGwtNyA3YTEgMSAwIDAwMS40MTQgMS40MTRMNCAxMC40MTRWMTdhMSAxIDAgMDAxIDFoMmExIDEgMCAwMDEtMXYtMmExIDEgMCAwMTEtMWgyYTEgMSAwIDAxMSAxdjJhMSAxIDAgMDAxIDFoMmExIDEgMCAwMDEtMXYtNi41ODZsLjI5My4yOTNhMSAxIDAgMDAxLjQxNC0xLjQxNGwtNy03eiIgLz4KPC9zdmc+)
 
 -}
 home : List (Attribute msg) -> Html msg
@@ -786,7 +846,7 @@ home attrs =
 
 {-| inbox-in
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGQ9Ik04LjcwNyA3LjI5M2ExIDEgMCAwMC0xLjQxNCAxLjQxNGwyIDJhMSAxIDAgMDAxLjQxNCAwbDItMmExIDEgMCAwMC0xLjQxNC0xLjQxNEwxMSA3LjU4NlYzYTEgMSAwIDEwLTIgMHY0LjU4NmwtLjI5My0uMjkzeiIgLz4KICA8cGF0aCBkPSJNMyA1YTIgMiAwIDAxMi0yaDFhMSAxIDAgMDEwIDJINXY3aDJsMSAyaDRsMS0yaDJWNWgtMWExIDEgMCAxMTAtMmgxYTIgMiAwIDAxMiAydjEwYTIgMiAwIDAxLTIgMkg1YTIgMiAwIDAxLTItMlY1eiIgLz4KPC9zdmc+)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGQ9Ik04LjcwNyA3LjI5M2ExIDEgMCAwMC0xLjQxNCAxLjQxNGwyIDJhMSAxIDAgMDAxLjQxNCAwbDItMmExIDEgMCAwMC0xLjQxNC0xLjQxNEwxMSA3LjU4NlYzYTEgMSAwIDEwLTIgMHY0LjU4NmwtLjI5My0uMjkzeiIgLz4KICA8cGF0aCBkPSJNMyA1YTIgMiAwIDAxMi0yaDFhMSAxIDAgMDEwIDJINXY3aDJsMSAyaDRsMS0yaDJWNWgtMWExIDEgMCAxMTAtMmgxYTIgMiAwIDAxMiAydjEwYTIgMiAwIDAxLTIgMkg1YTIgMiAwIDAxLTItMlY1eiIgLz4KPC9zdmc+)
 
 -}
 inboxIn : List (Attribute msg) -> Html msg
@@ -796,7 +856,7 @@ inboxIn attrs =
 
 {-| inbox
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTUgM2EyIDIgMCAwMC0yIDJ2MTBhMiAyIDAgMDAyIDJoMTBhMiAyIDAgMDAyLTJWNWEyIDIgMCAwMC0yLTJINXptMCAyaDEwdjdoLTJsLTEgMkg4bC0xLTJINVY1eiIgZmlsbC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTUgM2EyIDIgMCAwMC0yIDJ2MTBhMiAyIDAgMDAyIDJoMTBhMiAyIDAgMDAyLTJWNWEyIDIgMCAwMC0yLTJINXptMCAyaDEwdjdoLTJsLTEgMkg4bC0xLTJINVY1eiIgY2xpcC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
 
 -}
 inbox : List (Attribute msg) -> Html msg
@@ -806,7 +866,7 @@ inbox attrs =
 
 {-| information-circle
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTE4IDEwYTggOCAwIDExLTE2IDAgOCA4IDAgMDExNiAwem0tNy00YTEgMSAwIDExLTIgMCAxIDEgMCAwMTIgMHpNOSA5YTEgMSAwIDAwMCAydjNhMSAxIDAgMDAxIDFoMWExIDEgMCAxMDAtMnYtM2ExIDEgMCAwMC0xLTFIOXoiIGZpbGwtcnVsZT0iZXZlbm9kZCIgLz4KPC9zdmc+)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTE4IDEwYTggOCAwIDExLTE2IDAgOCA4IDAgMDExNiAwem0tNy00YTEgMSAwIDExLTIgMCAxIDEgMCAwMTIgMHpNOSA5YTEgMSAwIDAwMCAydjNhMSAxIDAgMDAxIDFoMWExIDEgMCAxMDAtMnYtM2ExIDEgMCAwMC0xLTFIOXoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgLz4KPC9zdmc+)
 
 -}
 informationCircle : List (Attribute msg) -> Html msg
@@ -816,7 +876,7 @@ informationCircle attrs =
 
 {-| key
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTE4IDhhNiA2IDAgMDEtNy43NDMgNS43NDNMMTAgMTRsLTEgMS0xIDFINnYySDJ2LTRsNC4yNTctNC4yNTdBNiA2IDAgMTExOCA4em0tNi00YTEgMSAwIDEwMCAyIDIgMiAwIDAxMiAyIDEgMSAwIDEwMiAwIDQgNCAwIDAwLTQtNHoiIGZpbGwtcnVsZT0iZXZlbm9kZCIgLz4KPC9zdmc+)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTE4IDhhNiA2IDAgMDEtNy43NDMgNS43NDNMMTAgMTRsLTEgMS0xIDFINnYySDJ2LTRsNC4yNTctNC4yNTdBNiA2IDAgMTExOCA4em0tNi00YTEgMSAwIDEwMCAyIDIgMiAwIDAxMiAyIDEgMSAwIDEwMiAwIDQgNCAwIDAwLTQtNHoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgLz4KPC9zdmc+)
 
 -}
 key : List (Attribute msg) -> Html msg
@@ -824,9 +884,19 @@ key attrs =
     svg (viewBox "0 0 20 20" :: fill "currentColor" :: attrs) [ Svg.path [ fillRule "evenodd", d "M18 8a6 6 0 01-7.743 5.743L10 14l-1 1-1 1H6v2H2v-4l4.257-4.257A6 6 0 1118 8zm-6-4a1 1 0 100 2 2 2 0 012 2 1 1 0 102 0 4 4 0 00-4-4z", clipRule "evenodd" ] [] ]
 
 
+{-| library
+
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEwLjQ5NiAyLjEzMmExIDEgMCAwMC0uOTkyIDBsLTcgNEExIDEgMCAwMDMgOHY3YTEgMSAwIDEwMCAyaDE0YTEgMSAwIDEwMC0yVjhhMSAxIDAgMDAuNDk2LTEuODY4bC03LTR6TTYgOWExIDEgMCAwMC0xIDF2M2ExIDEgMCAxMDIgMHYtM2ExIDEgMCAwMC0xLTF6bTMgMWExIDEgMCAwMTIgMHYzYTEgMSAwIDExLTIgMHYtM3ptNS0xYTEgMSAwIDAwLTEgMXYzYTEgMSAwIDEwMiAwdi0zYTEgMSAwIDAwLTEtMXoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgLz4KPC9zdmc+)
+
+-}
+library : List (Attribute msg) -> Html msg
+library attrs =
+    svg (viewBox "0 0 20 20" :: fill "currentColor" :: attrs) [ Svg.path [ fillRule "evenodd", d "M10.496 2.132a1 1 0 00-.992 0l-7 4A1 1 0 003 8v7a1 1 0 100 2h14a1 1 0 100-2V8a1 1 0 00.496-1.868l-7-4zM6 9a1 1 0 00-1 1v3a1 1 0 102 0v-3a1 1 0 00-1-1zm3 1a1 1 0 012 0v3a1 1 0 11-2 0v-3zm5-1a1 1 0 00-1 1v3a1 1 0 102 0v-3a1 1 0 00-1-1z", clipRule "evenodd" ] [] ]
+
+
 {-| light-bulb
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGQ9Ik0xMSAzYTEgMSAwIDEwLTIgMHYxYTEgMSAwIDEwMiAwVjN6TTE1LjY1NyA1Ljc1N2ExIDEgMCAwMC0xLjQxNC0xLjQxNGwtLjcwNy43MDdhMSAxIDAgMDAxLjQxNCAxLjQxNGwuNzA3LS43MDd6TTE4IDEwYTEgMSAwIDAxLTEgMWgtMWExIDEgMCAxMTAtMmgxYTEgMSAwIDAxMSAxek01LjA1IDYuNDY0QTEgMSAwIDEwNi40NjQgNS4wNWwtLjcwNy0uNzA3YTEgMSAwIDAwLTEuNDE0IDEuNDE0bC43MDcuNzA3ek01IDEwYTEgMSAwIDAxLTEgMUgzYTEgMSAwIDExMC0yaDFhMSAxIDAgMDExIDF6TTggMTZ2LTFoNHYxYTIgMiAwIDExLTQgMHpNMTIgMTRjLjAxNS0uMzQuMjA4LS42NDYuNDc3LS44NTlhNCA0IDAgMTAtNC45NTQgMGMuMjcuMjEzLjQ2Mi41MTkuNDc2Ljg1OWg0LjAwMnoiIC8+Cjwvc3ZnPg==)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGQ9Ik0xMSAzYTEgMSAwIDEwLTIgMHYxYTEgMSAwIDEwMiAwVjN6TTE1LjY1NyA1Ljc1N2ExIDEgMCAwMC0xLjQxNC0xLjQxNGwtLjcwNy43MDdhMSAxIDAgMDAxLjQxNCAxLjQxNGwuNzA3LS43MDd6TTE4IDEwYTEgMSAwIDAxLTEgMWgtMWExIDEgMCAxMTAtMmgxYTEgMSAwIDAxMSAxek01LjA1IDYuNDY0QTEgMSAwIDEwNi40NjQgNS4wNWwtLjcwNy0uNzA3YTEgMSAwIDAwLTEuNDE0IDEuNDE0bC43MDcuNzA3ek01IDEwYTEgMSAwIDAxLTEgMUgzYTEgMSAwIDExMC0yaDFhMSAxIDAgMDExIDF6TTggMTZ2LTFoNHYxYTIgMiAwIDExLTQgMHpNMTIgMTRjLjAxNS0uMzQuMjA4LS42NDYuNDc3LS44NTlhNCA0IDAgMTAtNC45NTQgMGMuMjcuMjEzLjQ2Mi41MTkuNDc2Ljg1OWg0LjAwMnoiIC8+Cjwvc3ZnPg==)
 
 -}
 lightBulb : List (Attribute msg) -> Html msg
@@ -836,7 +906,7 @@ lightBulb attrs =
 
 {-| lightning-bolt
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTExLjMgMS4wNDZBMSAxIDAgMDExMiAydjVoNGExIDEgMCAwMS44MiAxLjU3M2wtNyAxMEExIDEgMCAwMTggMTh2LTVINGExIDEgMCAwMS0uODItMS41NzNsNy0xMGExIDEgMCAwMTEuMTItLjM4eiIgZmlsbC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTExLjMgMS4wNDZBMSAxIDAgMDExMiAydjVoNGExIDEgMCAwMS44MiAxLjU3M2wtNyAxMEExIDEgMCAwMTggMTh2LTVINGExIDEgMCAwMS0uODItMS41NzNsNy0xMGExIDEgMCAwMTEuMTItLjM4eiIgY2xpcC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
 
 -}
 lightningBolt : List (Attribute msg) -> Html msg
@@ -846,7 +916,7 @@ lightningBolt attrs =
 
 {-| link
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTEyLjU4NiA0LjU4NmEyIDIgMCAxMTIuODI4IDIuODI4bC0zIDNhMiAyIDAgMDEtMi44MjggMCAxIDEgMCAwMC0xLjQxNCAxLjQxNCA0IDQgMCAwMDUuNjU2IDBsMy0zYTQgNCAwIDAwLTUuNjU2LTUuNjU2bC0xLjUgMS41YTEgMSAwIDEwMS40MTQgMS40MTRsMS41LTEuNXptLTUgNWEyIDIgMCAwMTIuODI4IDAgMSAxIDAgMTAxLjQxNC0xLjQxNCA0IDQgMCAwMC01LjY1NiAwbC0zIDNhNCA0IDAgMTA1LjY1NiA1LjY1NmwxLjUtMS41YTEgMSAwIDEwLTEuNDE0LTEuNDE0bC0xLjUgMS41YTIgMiAwIDExLTIuODI4LTIuODI4bDMtM3oiIGZpbGwtcnVsZT0iZXZlbm9kZCIgLz4KPC9zdmc+)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEyLjU4NiA0LjU4NmEyIDIgMCAxMTIuODI4IDIuODI4bC0zIDNhMiAyIDAgMDEtMi44MjggMCAxIDEgMCAwMC0xLjQxNCAxLjQxNCA0IDQgMCAwMDUuNjU2IDBsMy0zYTQgNCAwIDAwLTUuNjU2LTUuNjU2bC0xLjUgMS41YTEgMSAwIDEwMS40MTQgMS40MTRsMS41LTEuNXptLTUgNWEyIDIgMCAwMTIuODI4IDAgMSAxIDAgMTAxLjQxNC0xLjQxNCA0IDQgMCAwMC01LjY1NiAwbC0zIDNhNCA0IDAgMTA1LjY1NiA1LjY1NmwxLjUtMS41YTEgMSAwIDEwLTEuNDE0LTEuNDE0bC0xLjUgMS41YTIgMiAwIDExLTIuODI4LTIuODI4bDMtM3oiIGNsaXAtcnVsZT0iZXZlbm9kZCIgLz4KPC9zdmc+)
 
 -}
 link : List (Attribute msg) -> Html msg
@@ -856,7 +926,7 @@ link attrs =
 
 {-| location-marker
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTUuMDUgNC4wNWE3IDcgMCAxMTkuOSA5LjlMMTAgMTguOWwtNC45NS00Ljk1YTcgNyAwIDAxMC05Ljl6TTEwIDExYTIgMiAwIDEwMC00IDIgMiAwIDAwMCA0eiIgZmlsbC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTUuMDUgNC4wNWE3IDcgMCAxMTkuOSA5LjlMMTAgMTguOWwtNC45NS00Ljk1YTcgNyAwIDAxMC05Ljl6TTEwIDExYTIgMiAwIDEwMC00IDIgMiAwIDAwMCA0eiIgY2xpcC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
 
 -}
 locationMarker : List (Attribute msg) -> Html msg
@@ -866,7 +936,7 @@ locationMarker attrs =
 
 {-| lock-closed
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTUgOVY3YTUgNSAwIDAxMTAgMHYyYTIgMiAwIDAxMiAydjVhMiAyIDAgMDEtMiAySDVhMiAyIDAgMDEtMi0ydi01YTIgMiAwIDAxMi0yem04LTJ2Mkg3VjdhMyAzIDAgMDE2IDB6IiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIC8+Cjwvc3ZnPg==)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTUgOVY3YTUgNSAwIDAxMTAgMHYyYTIgMiAwIDAxMiAydjVhMiAyIDAgMDEtMiAySDVhMiAyIDAgMDEtMi0ydi01YTIgMiAwIDAxMi0yem04LTJ2Mkg3VjdhMyAzIDAgMDE2IDB6IiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIC8+Cjwvc3ZnPg==)
 
 -}
 lockClosed : List (Attribute msg) -> Html msg
@@ -876,7 +946,7 @@ lockClosed attrs =
 
 {-| lock-open
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGQ9Ik0xMCAyYTUgNSAwIDAwLTUgNXYyYTIgMiAwIDAwLTIgMnY1YTIgMiAwIDAwMiAyaDEwYTIgMiAwIDAwMi0ydi01YTIgMiAwIDAwLTItMkg3VjdhMyAzIDAgMDE1LjkwNS0uNzUgMSAxIDAgMDAxLjkzNy0uNUE1LjAwMiA1LjAwMiAwIDAwMTAgMnoiIC8+Cjwvc3ZnPg==)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGQ9Ik0xMCAyYTUgNSAwIDAwLTUgNXYyYTIgMiAwIDAwLTIgMnY1YTIgMiAwIDAwMiAyaDEwYTIgMiAwIDAwMi0ydi01YTIgMiAwIDAwLTItMkg3VjdhMyAzIDAgMDE1LjkwNS0uNzUgMSAxIDAgMDAxLjkzNy0uNUE1LjAwMiA1LjAwMiAwIDAwMTAgMnoiIC8+Cjwvc3ZnPg==)
 
 -}
 lockOpen : List (Attribute msg) -> Html msg
@@ -886,7 +956,7 @@ lockOpen attrs =
 
 {-| logout
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTMgM2ExIDEgMCAwMTEgMXYxMmExIDEgMCAxMS0yIDBWNGExIDEgMCAwMTEtMXptNy43MDcgMy4yOTNhMSAxIDAgMDEwIDEuNDE0TDkuNDE0IDlIMTdhMSAxIDAgMTEwIDJIOS40MTRsMS4yOTMgMS4yOTNhMSAxIDAgMDEtMS40MTQgMS40MTRsLTMtM2ExIDEgMCAwMTAtMS40MTRsMy0zYTEgMSAwIDAxMS40MTQgMHoiIGZpbGwtcnVsZT0iZXZlbm9kZCIgLz4KPC9zdmc+)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTMgM2ExIDEgMCAwMTEgMXYxMmExIDEgMCAxMS0yIDBWNGExIDEgMCAwMTEtMXptNy43MDcgMy4yOTNhMSAxIDAgMDEwIDEuNDE0TDkuNDE0IDlIMTdhMSAxIDAgMTEwIDJIOS40MTRsMS4yOTMgMS4yOTNhMSAxIDAgMDEtMS40MTQgMS40MTRsLTMtM2ExIDEgMCAwMTAtMS40MTRsMy0zYTEgMSAwIDAxMS40MTQgMHoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgLz4KPC9zdmc+)
 
 -}
 logout : List (Attribute msg) -> Html msg
@@ -896,7 +966,7 @@ logout attrs =
 
 {-| mail-open
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTIuOTQgNi40MTJBMiAyIDAgMDAyIDguMTA4VjE2YTIgMiAwIDAwMiAyaDEyYTIgMiAwIDAwMi0yVjguMTA4YTIgMiAwIDAwLS45NC0xLjY5NmwtNi0zLjc1YTIgMiAwIDAwLTIuMTIgMGwtNiAzLjc1em0yLjYxNSAyLjQyM2ExIDEgMCAxMC0xLjExIDEuNjY0bDUgMy4zMzNhMSAxIDAgMDAxLjExIDBsNS0zLjMzM2ExIDEgMCAwMC0xLjExLTEuNjY0TDEwIDExLjc5OCA1LjU1NSA4LjgzNXoiIGZpbGwtcnVsZT0iZXZlbm9kZCIgLz4KPC9zdmc+)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTIuOTQgNi40MTJBMiAyIDAgMDAyIDguMTA4VjE2YTIgMiAwIDAwMiAyaDEyYTIgMiAwIDAwMi0yVjguMTA4YTIgMiAwIDAwLS45NC0xLjY5NmwtNi0zLjc1YTIgMiAwIDAwLTIuMTIgMGwtNiAzLjc1em0yLjYxNSAyLjQyM2ExIDEgMCAxMC0xLjExIDEuNjY0bDUgMy4zMzNhMSAxIDAgMDAxLjExIDBsNS0zLjMzM2ExIDEgMCAwMC0xLjExLTEuNjY0TDEwIDExLjc5OCA1LjU1NSA4LjgzNXoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgLz4KPC9zdmc+)
 
 -}
 mailOpen : List (Attribute msg) -> Html msg
@@ -906,7 +976,7 @@ mailOpen attrs =
 
 {-| mail
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGQ9Ik0yLjAwMyA1Ljg4NEwxMCA5Ljg4Mmw3Ljk5Ny0zLjk5OEEyIDIgMCAwMDE2IDRINGEyIDIgMCAwMC0xLjk5NyAxLjg4NHoiIC8+CiAgPHBhdGggZD0iTTE4IDguMTE4bC04IDQtOC00VjE0YTIgMiAwIDAwMiAyaDEyYTIgMiAwIDAwMi0yVjguMTE4eiIgLz4KPC9zdmc+)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGQ9Ik0yLjAwMyA1Ljg4NEwxMCA5Ljg4Mmw3Ljk5Ny0zLjk5OEEyIDIgMCAwMDE2IDRINGEyIDIgMCAwMC0xLjk5NyAxLjg4NHoiIC8+CiAgPHBhdGggZD0iTTE4IDguMTE4bC04IDQtOC00VjE0YTIgMiAwIDAwMiAyaDEyYTIgMiAwIDAwMi0yVjguMTE4eiIgLz4KPC9zdmc+)
 
 -}
 mail : List (Attribute msg) -> Html msg
@@ -916,7 +986,7 @@ mail attrs =
 
 {-| menu-alt-1
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTMgNWExIDEgMCAwMTEtMWgxMmExIDEgMCAxMTAgMkg0YTEgMSAwIDAxLTEtMXpNMyAxMGExIDEgMCAwMTEtMWg2YTEgMSAwIDExMCAySDRhMSAxIDAgMDEtMS0xek0zIDE1YTEgMSAwIDAxMS0xaDEyYTEgMSAwIDExMCAySDRhMSAxIDAgMDEtMS0xeiIgZmlsbC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTMgNWExIDEgMCAwMTEtMWgxMmExIDEgMCAxMTAgMkg0YTEgMSAwIDAxLTEtMXpNMyAxMGExIDEgMCAwMTEtMWg2YTEgMSAwIDExMCAySDRhMSAxIDAgMDEtMS0xek0zIDE1YTEgMSAwIDAxMS0xaDEyYTEgMSAwIDExMCAySDRhMSAxIDAgMDEtMS0xeiIgY2xpcC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
 
 -}
 menuAlt1 : List (Attribute msg) -> Html msg
@@ -926,7 +996,7 @@ menuAlt1 attrs =
 
 {-| menu-alt-2
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTMgNWExIDEgMCAwMTEtMWgxMmExIDEgMCAxMTAgMkg0YTEgMSAwIDAxLTEtMXpNMyAxMGExIDEgMCAwMTEtMWgxMmExIDEgMCAxMTAgMkg0YTEgMSAwIDAxLTEtMXpNMyAxNWExIDEgMCAwMTEtMWg2YTEgMSAwIDExMCAySDRhMSAxIDAgMDEtMS0xeiIgZmlsbC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTMgNWExIDEgMCAwMTEtMWgxMmExIDEgMCAxMTAgMkg0YTEgMSAwIDAxLTEtMXpNMyAxMGExIDEgMCAwMTEtMWgxMmExIDEgMCAxMTAgMkg0YTEgMSAwIDAxLTEtMXpNMyAxNWExIDEgMCAwMTEtMWg2YTEgMSAwIDExMCAySDRhMSAxIDAgMDEtMS0xeiIgY2xpcC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
 
 -}
 menuAlt2 : List (Attribute msg) -> Html msg
@@ -936,7 +1006,7 @@ menuAlt2 attrs =
 
 {-| menu-alt-3
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTMgNWExIDEgMCAwMTEtMWgxMmExIDEgMCAxMTAgMkg0YTEgMSAwIDAxLTEtMXpNMyAxMGExIDEgMCAwMTEtMWgxMmExIDEgMCAxMTAgMkg0YTEgMSAwIDAxLTEtMXpNOSAxNWExIDEgMCAwMTEtMWg2YTEgMSAwIDExMCAyaC02YTEgMSAwIDAxLTEtMXoiIGZpbGwtcnVsZT0iZXZlbm9kZCIgLz4KPC9zdmc+)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTMgNWExIDEgMCAwMTEtMWgxMmExIDEgMCAxMTAgMkg0YTEgMSAwIDAxLTEtMXpNMyAxMGExIDEgMCAwMTEtMWgxMmExIDEgMCAxMTAgMkg0YTEgMSAwIDAxLTEtMXpNOSAxNWExIDEgMCAwMTEtMWg2YTEgMSAwIDExMCAyaC02YTEgMSAwIDAxLTEtMXoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgLz4KPC9zdmc+)
 
 -}
 menuAlt3 : List (Attribute msg) -> Html msg
@@ -946,7 +1016,7 @@ menuAlt3 attrs =
 
 {-| menu-alt-4
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTMgN2ExIDEgMCAwMTEtMWgxMmExIDEgMCAxMTAgMkg0YTEgMSAwIDAxLTEtMXpNMyAxM2ExIDEgMCAwMTEtMWgxMmExIDEgMCAxMTAgMkg0YTEgMSAwIDAxLTEtMXoiIGZpbGwtcnVsZT0iZXZlbm9kZCIgLz4KPC9zdmc+)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTMgN2ExIDEgMCAwMTEtMWgxMmExIDEgMCAxMTAgMkg0YTEgMSAwIDAxLTEtMXpNMyAxM2ExIDEgMCAwMTEtMWgxMmExIDEgMCAxMTAgMkg0YTEgMSAwIDAxLTEtMXoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgLz4KPC9zdmc+)
 
 -}
 menuAlt4 : List (Attribute msg) -> Html msg
@@ -956,7 +1026,7 @@ menuAlt4 attrs =
 
 {-| menu
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTMgNWExIDEgMCAwMTEtMWgxMmExIDEgMCAxMTAgMkg0YTEgMSAwIDAxLTEtMXpNMyAxMGExIDEgMCAwMTEtMWgxMmExIDEgMCAxMTAgMkg0YTEgMSAwIDAxLTEtMXpNMyAxNWExIDEgMCAwMTEtMWgxMmExIDEgMCAxMTAgMkg0YTEgMSAwIDAxLTEtMXoiIGZpbGwtcnVsZT0iZXZlbm9kZCIgLz4KPC9zdmc+)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTMgNWExIDEgMCAwMTEtMWgxMmExIDEgMCAxMTAgMkg0YTEgMSAwIDAxLTEtMXpNMyAxMGExIDEgMCAwMTEtMWgxMmExIDEgMCAxMTAgMkg0YTEgMSAwIDAxLTEtMXpNMyAxNWExIDEgMCAwMTEtMWgxMmExIDEgMCAxMTAgMkg0YTEgMSAwIDAxLTEtMXoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgLz4KPC9zdmc+)
 
 -}
 menu : List (Attribute msg) -> Html msg
@@ -966,7 +1036,7 @@ menu attrs =
 
 {-| microphone
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTcgNGEzIDMgMCAwMTYgMHY0YTMgMyAwIDExLTYgMFY0em00IDEwLjkzQTcuMDAxIDcuMDAxIDAgMDAxNyA4YTEgMSAwIDEwLTIgMEE1IDUgMCAwMTUgOGExIDEgMCAwMC0yIDAgNy4wMDEgNy4wMDEgMCAwMDYgNi45M1YxN0g2YTEgMSAwIDEwMCAyaDhhMSAxIDAgMTAwLTJoLTN2LTIuMDd6IiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIC8+Cjwvc3ZnPg==)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTcgNGEzIDMgMCAwMTYgMHY0YTMgMyAwIDExLTYgMFY0em00IDEwLjkzQTcuMDAxIDcuMDAxIDAgMDAxNyA4YTEgMSAwIDEwLTIgMEE1IDUgMCAwMTUgOGExIDEgMCAwMC0yIDAgNy4wMDEgNy4wMDEgMCAwMDYgNi45M1YxN0g2YTEgMSAwIDEwMCAyaDhhMSAxIDAgMTAwLTJoLTN2LTIuMDd6IiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIC8+Cjwvc3ZnPg==)
 
 -}
 microphone : List (Attribute msg) -> Html msg
@@ -976,7 +1046,7 @@ microphone attrs =
 
 {-| minus-circle
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTEwIDE4YTggOCAwIDEwMC0xNiA4IDggMCAwMDAgMTZ6TTcgOWExIDEgMCAwMDAgMmg2YTEgMSAwIDEwMC0ySDd6IiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIC8+Cjwvc3ZnPg==)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEwIDE4YTggOCAwIDEwMC0xNiA4IDggMCAwMDAgMTZ6TTcgOWExIDEgMCAwMDAgMmg2YTEgMSAwIDEwMC0ySDd6IiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIC8+Cjwvc3ZnPg==)
 
 -}
 minusCircle : List (Attribute msg) -> Html msg
@@ -986,7 +1056,7 @@ minusCircle attrs =
 
 {-| moon
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGQ9Ik0xNy4yOTMgMTMuMjkzQTggOCAwIDAxNi43MDcgMi43MDdhOC4wMDEgOC4wMDEgMCAxMDEwLjU4NiAxMC41ODZ6IiAvPgo8L3N2Zz4=)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGQ9Ik0xNy4yOTMgMTMuMjkzQTggOCAwIDAxNi43MDcgMi43MDdhOC4wMDEgOC4wMDEgMCAxMDEwLjU4NiAxMC41ODZ6IiAvPgo8L3N2Zz4=)
 
 -}
 moon : List (Attribute msg) -> Html msg
@@ -994,9 +1064,19 @@ moon attrs =
     svg (viewBox "0 0 20 20" :: fill "currentColor" :: attrs) [ Svg.path [ d "M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z" ] [] ]
 
 
+{-| newspaper
+
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTIgNWEyIDIgMCAwMTItMmg4YTIgMiAwIDAxMiAydjEwYTIgMiAwIDAwMiAySDRhMiAyIDAgMDEtMi0yVjV6bTMgMWg2djRINVY2em02IDZINXYyaDZ2LTJ6IiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIC8+CiAgPHBhdGggZD0iTTE1IDdoMWEyIDIgMCAwMTIgMnY1LjVhMS41IDEuNSAwIDAxLTMgMFY3eiIgLz4KPC9zdmc+)
+
+-}
+newspaper : List (Attribute msg) -> Html msg
+newspaper attrs =
+    svg (viewBox "0 0 20 20" :: fill "currentColor" :: attrs) [ Svg.path [ fillRule "evenodd", d "M2 5a2 2 0 012-2h8a2 2 0 012 2v10a2 2 0 002 2H4a2 2 0 01-2-2V5zm3 1h6v4H5V6zm6 6H5v2h6v-2z", clipRule "evenodd" ] [], Svg.path [ d "M15 7h1a2 2 0 012 2v5.5a1.5 1.5 0 01-3 0V7z" ] [] ]
+
+
 {-| office-building
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTQgNGEyIDIgMCAwMTItMmg4YTIgMiAwIDAxMiAydjEyYTEgMSAwIDExMCAyaC0zYTEgMSAwIDAxLTEtMXYtMmExIDEgMCAwMC0xLTFIOWExIDEgMCAwMC0xIDF2MmExIDEgMCAwMS0xIDFINGExIDEgMCAxMTAtMlY0em0zIDFoMnYySDdWNXptMiA0SDd2MmgyVjl6bTItNGgydjJoLTJWNXptMiA0aC0ydjJoMlY5eiIgZmlsbC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTQgNGEyIDIgMCAwMTItMmg4YTIgMiAwIDAxMiAydjEyYTEgMSAwIDExMCAyaC0zYTEgMSAwIDAxLTEtMXYtMmExIDEgMCAwMC0xLTFIOWExIDEgMCAwMC0xIDF2MmExIDEgMCAwMS0xIDFINGExIDEgMCAxMTAtMlY0em0zIDFoMnYySDdWNXptMiA0SDd2MmgyVjl6bTItNGgydjJoLTJWNXptMiA0aC0ydjJoMlY5eiIgY2xpcC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
 
 -}
 officeBuilding : List (Attribute msg) -> Html msg
@@ -1006,7 +1086,7 @@ officeBuilding attrs =
 
 {-| paper-clip
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTggNGEzIDMgMCAwMC0zIDN2NGE1IDUgMCAwMDEwIDBWN2ExIDEgMCAxMTIgMHY0YTcgNyAwIDExLTE0IDBWN2E1IDUgMCAwMTEwIDB2NGEzIDMgMCAxMS02IDBWN2ExIDEgMCAwMTIgMHY0YTEgMSAwIDEwMiAwVjdhMyAzIDAgMDAtMy0zeiIgZmlsbC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTggNGEzIDMgMCAwMC0zIDN2NGE1IDUgMCAwMDEwIDBWN2ExIDEgMCAxMTIgMHY0YTcgNyAwIDExLTE0IDBWN2E1IDUgMCAwMTEwIDB2NGEzIDMgMCAxMS02IDBWN2ExIDEgMCAwMTIgMHY0YTEgMSAwIDEwMiAwVjdhMyAzIDAgMDAtMy0zeiIgY2xpcC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
 
 -}
 paperClip : List (Attribute msg) -> Html msg
@@ -1014,9 +1094,19 @@ paperClip attrs =
     svg (viewBox "0 0 20 20" :: fill "currentColor" :: attrs) [ Svg.path [ fillRule "evenodd", d "M8 4a3 3 0 00-3 3v4a5 5 0 0010 0V7a1 1 0 112 0v4a7 7 0 11-14 0V7a5 5 0 0110 0v4a3 3 0 11-6 0V7a1 1 0 012 0v4a1 1 0 102 0V7a3 3 0 00-3-3z", clipRule "evenodd" ] [] ]
 
 
+{-| pause
+
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTE4IDEwYTggOCAwIDExLTE2IDAgOCA4IDAgMDExNiAwek03IDhhMSAxIDAgMDEyIDB2NGExIDEgMCAxMS0yIDBWOHptNS0xYTEgMSAwIDAwLTEgMXY0YTEgMSAwIDEwMiAwVjhhMSAxIDAgMDAtMS0xeiIgY2xpcC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
+
+-}
+pause : List (Attribute msg) -> Html msg
+pause attrs =
+    svg (viewBox "0 0 20 20" :: fill "currentColor" :: attrs) [ Svg.path [ fillRule "evenodd", d "M18 10a8 8 0 11-16 0 8 8 0 0116 0zM7 8a1 1 0 012 0v4a1 1 0 11-2 0V8zm5-1a1 1 0 00-1 1v4a1 1 0 102 0V8a1 1 0 00-1-1z", clipRule "evenodd" ] [] ]
+
+
 {-| pencil-alt
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGQ9Ik0xNy40MTQgMi41ODZhMiAyIDAgMDAtMi44MjggMEw3IDEwLjE3MlYxM2gyLjgyOGw3LjU4Ni03LjU4NmEyIDIgMCAwMDAtMi44Mjh6IiAvPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTIgNmEyIDIgMCAwMTItMmg0YTEgMSAwIDAxMCAySDR2MTBoMTB2LTRhMSAxIDAgMTEyIDB2NGEyIDIgMCAwMS0yIDJINGEyIDIgMCAwMS0yLTJWNnoiIGZpbGwtcnVsZT0iZXZlbm9kZCIgLz4KPC9zdmc+)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGQ9Ik0xNy40MTQgMi41ODZhMiAyIDAgMDAtMi44MjggMEw3IDEwLjE3MlYxM2gyLjgyOGw3LjU4Ni03LjU4NmEyIDIgMCAwMDAtMi44Mjh6IiAvPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTIgNmEyIDIgMCAwMTItMmg0YTEgMSAwIDAxMCAySDR2MTBoMTB2LTRhMSAxIDAgMTEyIDB2NGEyIDIgMCAwMS0yIDJINGEyIDIgMCAwMS0yLTJWNnoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgLz4KPC9zdmc+)
 
 -}
 pencilAlt : List (Attribute msg) -> Html msg
@@ -1026,7 +1116,7 @@ pencilAlt attrs =
 
 {-| pencil
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGQ9Ik0xMy41ODYgMy41ODZhMiAyIDAgMTEyLjgyOCAyLjgyOGwtLjc5My43OTMtMi44MjgtMi44MjguNzkzLS43OTN6TTExLjM3OSA1Ljc5M0wzIDE0LjE3MlYxN2gyLjgyOGw4LjM4LTguMzc5LTIuODMtMi44Mjh6IiAvPgo8L3N2Zz4=)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGQ9Ik0xMy41ODYgMy41ODZhMiAyIDAgMTEyLjgyOCAyLjgyOGwtLjc5My43OTMtMi44MjgtMi44MjguNzkzLS43OTN6TTExLjM3OSA1Ljc5M0wzIDE0LjE3MlYxN2gyLjgyOGw4LjM4LTguMzc5LTIuODMtMi44Mjh6IiAvPgo8L3N2Zz4=)
 
 -}
 pencil : List (Attribute msg) -> Html msg
@@ -1036,7 +1126,7 @@ pencil attrs =
 
 {-| phone-incoming
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGQ9Ik0xNC40MTQgN2wzLjI5My0zLjI5M2ExIDEgMCAwMC0xLjQxNC0xLjQxNEwxMyA1LjU4NlY0YTEgMSAwIDEwLTIgMHY0LjAwM2EuOTk2Ljk5NiAwIDAwLjYxNy45MjFBLjk5Ny45OTcgMCAwMDEyIDloNGExIDEgMCAxMDAtMmgtMS41ODZ6IiAvPgogIDxwYXRoIGQ9Ik0yIDNhMSAxIDAgMDExLTFoMi4xNTNhMSAxIDAgMDEuOTg2LjgzNmwuNzQgNC40MzVhMSAxIDAgMDEtLjU0IDEuMDZsLTEuNTQ4Ljc3M2ExMS4wMzcgMTEuMDM3IDAgMDA2LjEwNSA2LjEwNWwuNzc0LTEuNTQ4YTEgMSAwIDAxMS4wNTktLjU0bDQuNDM1Ljc0YTEgMSAwIDAxLjgzNi45ODZWMTdhMSAxIDAgMDEtMSAxaC0yQzcuODIgMTggMiAxMi4xOCAyIDVWM3oiIC8+Cjwvc3ZnPg==)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGQ9Ik0xNC40MTQgN2wzLjI5My0zLjI5M2ExIDEgMCAwMC0xLjQxNC0xLjQxNEwxMyA1LjU4NlY0YTEgMSAwIDEwLTIgMHY0LjAwM2EuOTk2Ljk5NiAwIDAwLjYxNy45MjFBLjk5Ny45OTcgMCAwMDEyIDloNGExIDEgMCAxMDAtMmgtMS41ODZ6IiAvPgogIDxwYXRoIGQ9Ik0yIDNhMSAxIDAgMDExLTFoMi4xNTNhMSAxIDAgMDEuOTg2LjgzNmwuNzQgNC40MzVhMSAxIDAgMDEtLjU0IDEuMDZsLTEuNTQ4Ljc3M2ExMS4wMzcgMTEuMDM3IDAgMDA2LjEwNSA2LjEwNWwuNzc0LTEuNTQ4YTEgMSAwIDAxMS4wNTktLjU0bDQuNDM1Ljc0YTEgMSAwIDAxLjgzNi45ODZWMTdhMSAxIDAgMDEtMSAxaC0yQzcuODIgMTggMiAxMi4xOCAyIDVWM3oiIC8+Cjwvc3ZnPg==)
 
 -}
 phoneIncoming : List (Attribute msg) -> Html msg
@@ -1046,7 +1136,7 @@ phoneIncoming attrs =
 
 {-| phone-outgoing
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGQ9Ik0xNy45MjQgMi42MTdhLjk5Ny45OTcgMCAwMC0uMjE1LS4zMjJsLS4wMDQtLjAwNEEuOTk3Ljk5NyAwIDAwMTcgMmgtNGExIDEgMCAxMDAgMmgxLjU4NmwtMy4yOTMgMy4yOTNhMSAxIDAgMDAxLjQxNCAxLjQxNEwxNiA1LjQxNFY3YTEgMSAwIDEwMiAwVjNhLjk5Ny45OTcgMCAwMC0uMDc2LS4zODN6IiAvPgogIDxwYXRoIGQ9Ik0yIDNhMSAxIDAgMDExLTFoMi4xNTNhMSAxIDAgMDEuOTg2LjgzNmwuNzQgNC40MzVhMSAxIDAgMDEtLjU0IDEuMDZsLTEuNTQ4Ljc3M2ExMS4wMzcgMTEuMDM3IDAgMDA2LjEwNSA2LjEwNWwuNzc0LTEuNTQ4YTEgMSAwIDAxMS4wNTktLjU0bDQuNDM1Ljc0YTEgMSAwIDAxLjgzNi45ODZWMTdhMSAxIDAgMDEtMSAxaC0yQzcuODIgMTggMiAxMi4xOCAyIDVWM3oiIC8+Cjwvc3ZnPg==)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGQ9Ik0xNy45MjQgMi42MTdhLjk5Ny45OTcgMCAwMC0uMjE1LS4zMjJsLS4wMDQtLjAwNEEuOTk3Ljk5NyAwIDAwMTcgMmgtNGExIDEgMCAxMDAgMmgxLjU4NmwtMy4yOTMgMy4yOTNhMSAxIDAgMDAxLjQxNCAxLjQxNEwxNiA1LjQxNFY3YTEgMSAwIDEwMiAwVjNhLjk5Ny45OTcgMCAwMC0uMDc2LS4zODN6IiAvPgogIDxwYXRoIGQ9Ik0yIDNhMSAxIDAgMDExLTFoMi4xNTNhMSAxIDAgMDEuOTg2LjgzNmwuNzQgNC40MzVhMSAxIDAgMDEtLjU0IDEuMDZsLTEuNTQ4Ljc3M2ExMS4wMzcgMTEuMDM3IDAgMDA2LjEwNSA2LjEwNWwuNzc0LTEuNTQ4YTEgMSAwIDAxMS4wNTktLjU0bDQuNDM1Ljc0YTEgMSAwIDAxLjgzNi45ODZWMTdhMSAxIDAgMDEtMSAxaC0yQzcuODIgMTggMiAxMi4xOCAyIDVWM3oiIC8+Cjwvc3ZnPg==)
 
 -}
 phoneOutgoing : List (Attribute msg) -> Html msg
@@ -1056,7 +1146,7 @@ phoneOutgoing attrs =
 
 {-| phone
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGQ9Ik0yIDNhMSAxIDAgMDExLTFoMi4xNTNhMSAxIDAgMDEuOTg2LjgzNmwuNzQgNC40MzVhMSAxIDAgMDEtLjU0IDEuMDZsLTEuNTQ4Ljc3M2ExMS4wMzcgMTEuMDM3IDAgMDA2LjEwNSA2LjEwNWwuNzc0LTEuNTQ4YTEgMSAwIDAxMS4wNTktLjU0bDQuNDM1Ljc0YTEgMSAwIDAxLjgzNi45ODZWMTdhMSAxIDAgMDEtMSAxaC0yQzcuODIgMTggMiAxMi4xOCAyIDVWM3oiIC8+Cjwvc3ZnPg==)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGQ9Ik0yIDNhMSAxIDAgMDExLTFoMi4xNTNhMSAxIDAgMDEuOTg2LjgzNmwuNzQgNC40MzVhMSAxIDAgMDEtLjU0IDEuMDZsLTEuNTQ4Ljc3M2ExMS4wMzcgMTEuMDM3IDAgMDA2LjEwNSA2LjEwNWwuNzc0LTEuNTQ4YTEgMSAwIDAxMS4wNTktLjU0bDQuNDM1Ljc0YTEgMSAwIDAxLjgzNi45ODZWMTdhMSAxIDAgMDEtMSAxaC0yQzcuODIgMTggMiAxMi4xOCAyIDVWM3oiIC8+Cjwvc3ZnPg==)
 
 -}
 phone : List (Attribute msg) -> Html msg
@@ -1066,7 +1156,7 @@ phone attrs =
 
 {-| photograph
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTQgM2EyIDIgMCAwMC0yIDJ2MTBhMiAyIDAgMDAyIDJoMTJhMiAyIDAgMDAyLTJWNWEyIDIgMCAwMC0yLTJINHptMTIgMTJINGw0LTggMyA2IDItNCAzIDZ6IiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIC8+Cjwvc3ZnPg==)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTQgM2EyIDIgMCAwMC0yIDJ2MTBhMiAyIDAgMDAyIDJoMTJhMiAyIDAgMDAyLTJWNWEyIDIgMCAwMC0yLTJINHptMTIgMTJINGw0LTggMyA2IDItNCAzIDZ6IiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIC8+Cjwvc3ZnPg==)
 
 -}
 photograph : List (Attribute msg) -> Html msg
@@ -1074,9 +1164,19 @@ photograph attrs =
     svg (viewBox "0 0 20 20" :: fill "currentColor" :: attrs) [ Svg.path [ fillRule "evenodd", d "M4 3a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V5a2 2 0 00-2-2H4zm12 12H4l4-8 3 6 2-4 3 6z", clipRule "evenodd" ] [] ]
 
 
+{-| play
+
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEwIDE4YTggOCAwIDEwMC0xNiA4IDggMCAwMDAgMTZ6TTkuNTU1IDcuMTY4QTEgMSAwIDAwOCA4djRhMSAxIDAgMDAxLjU1NS44MzJsMy0yYTEgMSAwIDAwMC0xLjY2NGwtMy0yeiIgY2xpcC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
+
+-}
+play : List (Attribute msg) -> Html msg
+play attrs =
+    svg (viewBox "0 0 20 20" :: fill "currentColor" :: attrs) [ Svg.path [ fillRule "evenodd", d "M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z", clipRule "evenodd" ] [] ]
+
+
 {-| plus-circle
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTEwIDE4YTggOCAwIDEwMC0xNiA4IDggMCAwMDAgMTZ6bTEtMTFhMSAxIDAgMTAtMiAwdjJIN2ExIDEgMCAxMDAgMmgydjJhMSAxIDAgMTAyIDB2LTJoMmExIDEgMCAxMDAtMmgtMlY3eiIgZmlsbC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEwIDE4YTggOCAwIDEwMC0xNiA4IDggMCAwMDAgMTZ6bTEtMTFhMSAxIDAgMTAtMiAwdjJIN2ExIDEgMCAxMDAgMmgydjJhMSAxIDAgMTAyIDB2LTJoMmExIDEgMCAxMDAtMmgtMlY3eiIgY2xpcC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
 
 -}
 plusCircle : List (Attribute msg) -> Html msg
@@ -1086,7 +1186,7 @@ plusCircle attrs =
 
 {-| plus
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTEwIDNhMSAxIDAgMDExIDF2NWg1YTEgMSAwIDExMCAyaC01djVhMSAxIDAgMTEtMiAwdi01SDRhMSAxIDAgMTEwLTJoNVY0YTEgMSAwIDAxMS0xeiIgZmlsbC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEwIDNhMSAxIDAgMDExIDF2NWg1YTEgMSAwIDExMCAyaC01djVhMSAxIDAgMTEtMiAwdi01SDRhMSAxIDAgMTEwLTJoNVY0YTEgMSAwIDAxMS0xeiIgY2xpcC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
 
 -}
 plus : List (Attribute msg) -> Html msg
@@ -1096,7 +1196,7 @@ plus attrs =
 
 {-| printer
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTUgNHYzSDRhMiAyIDAgMDAtMiAydjNhMiAyIDAgMDAyIDJoMXYyYTIgMiAwIDAwMiAyaDZhMiAyIDAgMDAyLTJ2LTJoMWEyIDIgMCAwMDItMlY5YTIgMiAwIDAwLTItMmgtMVY0YTIgMiAwIDAwLTItMkg3YTIgMiAwIDAwLTIgMnptOCAwSDd2M2g2VjR6bTAgOEg3djRoNnYtNHoiIGZpbGwtcnVsZT0iZXZlbm9kZCIgLz4KPC9zdmc+)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTUgNHYzSDRhMiAyIDAgMDAtMiAydjNhMiAyIDAgMDAyIDJoMXYyYTIgMiAwIDAwMiAyaDZhMiAyIDAgMDAyLTJ2LTJoMWEyIDIgMCAwMDItMlY5YTIgMiAwIDAwLTItMmgtMVY0YTIgMiAwIDAwLTItMkg3YTIgMiAwIDAwLTIgMnptOCAwSDd2M2g2VjR6bTAgOEg3djRoNnYtNHoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgLz4KPC9zdmc+)
 
 -}
 printer : List (Attribute msg) -> Html msg
@@ -1106,7 +1206,7 @@ printer attrs =
 
 {-| qrcode
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTMgNGExIDEgMCAwMTEtMWgzYTEgMSAwIDAxMSAxdjNhMSAxIDAgMDEtMSAxSDRhMSAxIDAgMDEtMS0xVjR6bTIgMlY1aDF2MUg1ek0zIDEzYTEgMSAwIDAxMS0xaDNhMSAxIDAgMDExIDF2M2ExIDEgMCAwMS0xIDFINGExIDEgMCAwMS0xLTF2LTN6bTIgMnYtMWgxdjFINXpNMTMgM2ExIDEgMCAwMC0xIDF2M2ExIDEgMCAwMDEgMWgzYTEgMSAwIDAwMS0xVjRhMSAxIDAgMDAtMS0xaC0zem0xIDJ2MWgxVjVoLTF6IiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIC8+CiAgPHBhdGggZD0iTTExIDRhMSAxIDAgMTAtMiAwdjFhMSAxIDAgMDAyIDBWNHpNMTAgN2ExIDEgMCAwMTEgMXYxaDJhMSAxIDAgMTEwIDJoLTNhMSAxIDAgMDEtMS0xVjhhMSAxIDAgMDExLTF6TTE2IDlhMSAxIDAgMTAwIDIgMSAxIDAgMDAwLTJ6TTkgMTNhMSAxIDAgMDExLTFoMWExIDEgMCAxMTAgMnYyYTEgMSAwIDExLTIgMHYtM3pNNyAxMWExIDEgMCAxMDAtMkg0YTEgMSAwIDEwMCAyaDN6TTE3IDEzYTEgMSAwIDAxLTEgMWgtMmExIDEgMCAxMTAtMmgyYTEgMSAwIDAxMSAxek0xNiAxN2ExIDEgMCAxMDAtMmgtM2ExIDEgMCAxMDAgMmgzeiIgLz4KPC9zdmc+)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTMgNGExIDEgMCAwMTEtMWgzYTEgMSAwIDAxMSAxdjNhMSAxIDAgMDEtMSAxSDRhMSAxIDAgMDEtMS0xVjR6bTIgMlY1aDF2MUg1ek0zIDEzYTEgMSAwIDAxMS0xaDNhMSAxIDAgMDExIDF2M2ExIDEgMCAwMS0xIDFINGExIDEgMCAwMS0xLTF2LTN6bTIgMnYtMWgxdjFINXpNMTMgM2ExIDEgMCAwMC0xIDF2M2ExIDEgMCAwMDEgMWgzYTEgMSAwIDAwMS0xVjRhMSAxIDAgMDAtMS0xaC0zem0xIDJ2MWgxVjVoLTF6IiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIC8+CiAgPHBhdGggZD0iTTExIDRhMSAxIDAgMTAtMiAwdjFhMSAxIDAgMDAyIDBWNHpNMTAgN2ExIDEgMCAwMTEgMXYxaDJhMSAxIDAgMTEwIDJoLTNhMSAxIDAgMDEtMS0xVjhhMSAxIDAgMDExLTF6TTE2IDlhMSAxIDAgMTAwIDIgMSAxIDAgMDAwLTJ6TTkgMTNhMSAxIDAgMDExLTFoMWExIDEgMCAxMTAgMnYyYTEgMSAwIDExLTIgMHYtM3pNNyAxMWExIDEgMCAxMDAtMkg0YTEgMSAwIDEwMCAyaDN6TTE3IDEzYTEgMSAwIDAxLTEgMWgtMmExIDEgMCAxMTAtMmgyYTEgMSAwIDAxMSAxek0xNiAxN2ExIDEgMCAxMDAtMmgtM2ExIDEgMCAxMDAgMmgzeiIgLz4KPC9zdmc+)
 
 -}
 qrcode : List (Attribute msg) -> Html msg
@@ -1116,7 +1216,7 @@ qrcode attrs =
 
 {-| question-mark-circle
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTE4IDEwYTggOCAwIDExLTE2IDAgOCA4IDAgMDExNiAwem0tOC0zYTEgMSAwIDAwLS44NjcuNSAxIDEgMCAxMS0xLjczMS0xQTMgMyAwIDAxMTMgOGEzLjAwMSAzLjAwMSAwIDAxLTIgMi44M1YxMWExIDEgMCAxMS0yIDB2LTFhMSAxIDAgMDExLTEgMSAxIDAgMTAwLTJ6bTAgOGExIDEgMCAxMDAtMiAxIDEgMCAwMDAgMnoiIGZpbGwtcnVsZT0iZXZlbm9kZCIgLz4KPC9zdmc+)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTE4IDEwYTggOCAwIDExLTE2IDAgOCA4IDAgMDExNiAwem0tOC0zYTEgMSAwIDAwLS44NjcuNSAxIDEgMCAxMS0xLjczMS0xQTMgMyAwIDAxMTMgOGEzLjAwMSAzLjAwMSAwIDAxLTIgMi44M1YxMWExIDEgMCAxMS0yIDB2LTFhMSAxIDAgMDExLTEgMSAxIDAgMTAwLTJ6bTAgOGExIDEgMCAxMDAtMiAxIDEgMCAwMDAgMnoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgLz4KPC9zdmc+)
 
 -}
 questionMarkCircle : List (Attribute msg) -> Html msg
@@ -1126,7 +1226,7 @@ questionMarkCircle attrs =
 
 {-| receipt-refund
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTUgMmEyIDIgMCAwMC0yIDJ2MTRsMy41LTIgMy41IDIgMy41LTIgMy41IDJWNGEyIDIgMCAwMC0yLTJINXptNC43MDcgMy43MDdhMSAxIDAgMDAtMS40MTQtMS40MTRsLTMgM2ExIDEgMCAwMDAgMS40MTRsMyAzYTEgMSAwIDAwMS40MTQtMS40MTRMOC40MTQgOUgxMGEzIDMgMCAwMTMgM3YxYTEgMSAwIDEwMiAwdi0xYTUgNSAwIDAwLTUtNUg4LjQxNGwxLjI5My0xLjI5M3oiIGZpbGwtcnVsZT0iZXZlbm9kZCIgLz4KPC9zdmc+)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTUgMmEyIDIgMCAwMC0yIDJ2MTRsMy41LTIgMy41IDIgMy41LTIgMy41IDJWNGEyIDIgMCAwMC0yLTJINXptNC43MDcgMy43MDdhMSAxIDAgMDAtMS40MTQtMS40MTRsLTMgM2ExIDEgMCAwMDAgMS40MTRsMyAzYTEgMSAwIDAwMS40MTQtMS40MTRMOC40MTQgOUgxMGEzIDMgMCAwMTMgM3YxYTEgMSAwIDEwMiAwdi0xYTUgNSAwIDAwLTUtNUg4LjQxNGwxLjI5My0xLjI5M3oiIGNsaXAtcnVsZT0iZXZlbm9kZCIgLz4KPC9zdmc+)
 
 -}
 receiptRefund : List (Attribute msg) -> Html msg
@@ -1136,7 +1236,7 @@ receiptRefund attrs =
 
 {-| refresh
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTQgMmExIDEgMCAwMTEgMXYyLjEwMWE3LjAwMiA3LjAwMiAwIDAxMTEuNjAxIDIuNTY2IDEgMSAwIDExLTEuODg1LjY2NkE1LjAwMiA1LjAwMiAwIDAwNS45OTkgN0g5YTEgMSAwIDAxMCAySDRhMSAxIDAgMDEtMS0xVjNhMSAxIDAgMDExLTF6bS4wMDggOS4wNTdhMSAxIDAgMDExLjI3Ni42MUE1LjAwMiA1LjAwMiAwIDAwMTQuMDAxIDEzSDExYTEgMSAwIDExMC0yaDVhMSAxIDAgMDExIDF2NWExIDEgMCAxMS0yIDB2LTIuMTAxYTcuMDAyIDcuMDAyIDAgMDEtMTEuNjAxLTIuNTY2IDEgMSAwIDAxLjYxLTEuMjc2eiIgZmlsbC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTQgMmExIDEgMCAwMTEgMXYyLjEwMWE3LjAwMiA3LjAwMiAwIDAxMTEuNjAxIDIuNTY2IDEgMSAwIDExLTEuODg1LjY2NkE1LjAwMiA1LjAwMiAwIDAwNS45OTkgN0g5YTEgMSAwIDAxMCAySDRhMSAxIDAgMDEtMS0xVjNhMSAxIDAgMDExLTF6bS4wMDggOS4wNTdhMSAxIDAgMDExLjI3Ni42MUE1LjAwMiA1LjAwMiAwIDAwMTQuMDAxIDEzSDExYTEgMSAwIDExMC0yaDVhMSAxIDAgMDExIDF2NWExIDEgMCAxMS0yIDB2LTIuMTAxYTcuMDAyIDcuMDAyIDAgMDEtMTEuNjAxLTIuNTY2IDEgMSAwIDAxLjYxLTEuMjc2eiIgY2xpcC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
 
 -}
 refresh : List (Attribute msg) -> Html msg
@@ -1146,7 +1246,7 @@ refresh attrs =
 
 {-| reply
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTcuNzA3IDMuMjkzYTEgMSAwIDAxMCAxLjQxNEw1LjQxNCA3SDExYTcgNyAwIDAxNyA3djJhMSAxIDAgMTEtMiAwdi0yYTUgNSAwIDAwLTUtNUg1LjQxNGwyLjI5MyAyLjI5M2ExIDEgMCAxMS0xLjQxNCAxLjQxNGwtNC00YTEgMSAwIDAxMC0xLjQxNGw0LTRhMSAxIDAgMDExLjQxNCAweiIgZmlsbC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTcuNzA3IDMuMjkzYTEgMSAwIDAxMCAxLjQxNEw1LjQxNCA3SDExYTcgNyAwIDAxNyA3djJhMSAxIDAgMTEtMiAwdi0yYTUgNSAwIDAwLTUtNUg1LjQxNGwyLjI5MyAyLjI5M2ExIDEgMCAxMS0xLjQxNCAxLjQxNGwtNC00YTEgMSAwIDAxMC0xLjQxNGw0LTRhMSAxIDAgMDExLjQxNCAweiIgY2xpcC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
 
 -}
 reply : List (Attribute msg) -> Html msg
@@ -1156,7 +1256,7 @@ reply attrs =
 
 {-| scale
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTEwIDJhMSAxIDAgMDExIDF2MS4zMjNsMy45NTQgMS41ODIgMS41OTktLjhhMSAxIDAgMDEuODk0IDEuNzlsLTEuMjMzLjYxNiAxLjczOCA1LjQyYTEgMSAwIDAxLS4yODUgMS4wNUEzLjk4OSAzLjk4OSAwIDAxMTUgMTVhMy45ODkgMy45ODkgMCAwMS0yLjY2Ny0xLjAxOSAxIDEgMCAwMS0uMjg1LTEuMDVsMS43MTUtNS4zNDlMMTEgNi40NzdWMTZoMmExIDEgMCAxMTAgMkg3YTEgMSAwIDExMC0yaDJWNi40NzdMNi4yMzcgNy41ODJsMS43MTUgNS4zNDlhMSAxIDAgMDEtLjI4NSAxLjA1QTMuOTg5IDMuOTg5IDAgMDE1IDE1YTMuOTg5IDMuOTg5IDAgMDEtMi42NjctMS4wMTkgMSAxIDAgMDEtLjI4NS0xLjA1bDEuNzM4LTUuNDItMS4yMzMtLjYxN2ExIDEgMCAwMS44OTQtMS43ODhsMS41OTkuNzk5TDkgNC4zMjNWM2ExIDEgMCAwMTEtMXptLTUgOC4yNzRsLS44MTggMi41NTJjLjI1LjExMi41MjYuMTc0LjgxOC4xNzQuMjkyIDAgLjU2OS0uMDYyLjgxOC0uMTc0TDUgMTAuMjc0em0xMCAwbC0uODE4IDIuNTUyYy4yNS4xMTIuNTI2LjE3NC44MTguMTc0LjI5MiAwIC41NjktLjA2Mi44MTgtLjE3NEwxNSAxMC4yNzR6IiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIC8+Cjwvc3ZnPg==)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEwIDJhMSAxIDAgMDExIDF2MS4zMjNsMy45NTQgMS41ODIgMS41OTktLjhhMSAxIDAgMDEuODk0IDEuNzlsLTEuMjMzLjYxNiAxLjczOCA1LjQyYTEgMSAwIDAxLS4yODUgMS4wNUEzLjk4OSAzLjk4OSAwIDAxMTUgMTVhMy45ODkgMy45ODkgMCAwMS0yLjY2Ny0xLjAxOSAxIDEgMCAwMS0uMjg1LTEuMDVsMS43MTUtNS4zNDlMMTEgNi40NzdWMTZoMmExIDEgMCAxMTAgMkg3YTEgMSAwIDExMC0yaDJWNi40NzdMNi4yMzcgNy41ODJsMS43MTUgNS4zNDlhMSAxIDAgMDEtLjI4NSAxLjA1QTMuOTg5IDMuOTg5IDAgMDE1IDE1YTMuOTg5IDMuOTg5IDAgMDEtMi42NjctMS4wMTkgMSAxIDAgMDEtLjI4NS0xLjA1bDEuNzM4LTUuNDItMS4yMzMtLjYxN2ExIDEgMCAwMS44OTQtMS43ODhsMS41OTkuNzk5TDkgNC4zMjNWM2ExIDEgMCAwMTEtMXptLTUgOC4yNzRsLS44MTggMi41NTJjLjI1LjExMi41MjYuMTc0LjgxOC4xNzQuMjkyIDAgLjU2OS0uMDYyLjgxOC0uMTc0TDUgMTAuMjc0em0xMCAwbC0uODE4IDIuNTUyYy4yNS4xMTIuNTI2LjE3NC44MTguMTc0LjI5MiAwIC41NjktLjA2Mi44MTgtLjE3NEwxNSAxMC4yNzR6IiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIC8+Cjwvc3ZnPg==)
 
 -}
 scale : List (Attribute msg) -> Html msg
@@ -1166,7 +1266,7 @@ scale attrs =
 
 {-| search
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTggNGE0IDQgMCAxMDAgOCA0IDQgMCAwMDAtOHpNMiA4YTYgNiAwIDExMTAuODkgMy40NzZsNC44MTcgNC44MTdhMSAxIDAgMDEtMS40MTQgMS40MTRsLTQuODE2LTQuODE2QTYgNiAwIDAxMiA4eiIgZmlsbC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTggNGE0IDQgMCAxMDAgOCA0IDQgMCAwMDAtOHpNMiA4YTYgNiAwIDExMTAuODkgMy40NzZsNC44MTcgNC44MTdhMSAxIDAgMDEtMS40MTQgMS40MTRsLTQuODE2LTQuODE2QTYgNiAwIDAxMiA4eiIgY2xpcC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
 
 -}
 search : List (Attribute msg) -> Html msg
@@ -1176,7 +1276,7 @@ search attrs =
 
 {-| selector
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTEwIDNhMSAxIDAgMDEuNzA3LjI5M2wzIDNhMSAxIDAgMDEtMS40MTQgMS40MTRMMTAgNS40MTQgNy43MDcgNy43MDdhMSAxIDAgMDEtMS40MTQtMS40MTRsMy0zQTEgMSAwIDAxMTAgM3ptLTMuNzA3IDkuMjkzYTEgMSAwIDAxMS40MTQgMEwxMCAxNC41ODZsMi4yOTMtMi4yOTNhMSAxIDAgMDExLjQxNCAxLjQxNGwtMyAzYTEgMSAwIDAxLTEuNDE0IDBsLTMtM2ExIDEgMCAwMTAtMS40MTR6IiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIC8+Cjwvc3ZnPg==)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEwIDNhMSAxIDAgMDEuNzA3LjI5M2wzIDNhMSAxIDAgMDEtMS40MTQgMS40MTRMMTAgNS40MTQgNy43MDcgNy43MDdhMSAxIDAgMDEtMS40MTQtMS40MTRsMy0zQTEgMSAwIDAxMTAgM3ptLTMuNzA3IDkuMjkzYTEgMSAwIDAxMS40MTQgMEwxMCAxNC41ODZsMi4yOTMtMi4yOTNhMSAxIDAgMDExLjQxNCAxLjQxNGwtMyAzYTEgMSAwIDAxLTEuNDE0IDBsLTMtM2ExIDEgMCAwMTAtMS40MTR6IiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIC8+Cjwvc3ZnPg==)
 
 -}
 selector : List (Attribute msg) -> Html msg
@@ -1186,7 +1286,7 @@ selector attrs =
 
 {-| share
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGQ9Ik0xNSA4YTMgMyAwIDEwLTIuOTc3LTIuNjNsLTQuOTQgMi40N2EzIDMgMCAxMDAgNC4zMTlsNC45NCAyLjQ3YTMgMyAwIDEwLjg5NS0xLjc4OWwtNC45NC0yLjQ3YTMuMDI3IDMuMDI3IDAgMDAwLS43NGw0Ljk0LTIuNDdDMTMuNDU2IDcuNjggMTQuMTkgOCAxNSA4eiIgLz4KPC9zdmc+)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGQ9Ik0xNSA4YTMgMyAwIDEwLTIuOTc3LTIuNjNsLTQuOTQgMi40N2EzIDMgMCAxMDAgNC4zMTlsNC45NCAyLjQ3YTMgMyAwIDEwLjg5NS0xLjc4OWwtNC45NC0yLjQ3YTMuMDI3IDMuMDI3IDAgMDAwLS43NGw0Ljk0LTIuNDdDMTMuNDU2IDcuNjggMTQuMTkgOCAxNSA4eiIgLz4KPC9zdmc+)
 
 -}
 share : List (Attribute msg) -> Html msg
@@ -1196,7 +1296,7 @@ share attrs =
 
 {-| shield-check
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTIuMTY2IDQuOTk5QTExLjk1NCAxMS45NTQgMCAwMDEwIDEuOTQ0IDExLjk1NCAxMS45NTQgMCAwMDE3LjgzNCA1Yy4xMS42NS4xNjYgMS4zMi4xNjYgMi4wMDEgMCA1LjIyNS0zLjM0IDkuNjctOCAxMS4zMTdDNS4zNCAxNi42NyAyIDEyLjIyNSAyIDdjMC0uNjgyLjA1Ny0xLjM1LjE2Ni0yLjAwMXptMTEuNTQxIDMuNzA4YTEgMSAwIDAwLTEuNDE0LTEuNDE0TDkgMTAuNTg2IDcuNzA3IDkuMjkzYTEgMSAwIDAwLTEuNDE0IDEuNDE0bDIgMmExIDEgMCAwMDEuNDE0IDBsNC00eiIgZmlsbC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTIuMTY2IDQuOTk5QTExLjk1NCAxMS45NTQgMCAwMDEwIDEuOTQ0IDExLjk1NCAxMS45NTQgMCAwMDE3LjgzNCA1Yy4xMS42NS4xNjYgMS4zMi4xNjYgMi4wMDEgMCA1LjIyNS0zLjM0IDkuNjctOCAxMS4zMTdDNS4zNCAxNi42NyAyIDEyLjIyNSAyIDdjMC0uNjgyLjA1Ny0xLjM1LjE2Ni0yLjAwMXptMTEuNTQxIDMuNzA4YTEgMSAwIDAwLTEuNDE0LTEuNDE0TDkgMTAuNTg2IDcuNzA3IDkuMjkzYTEgMSAwIDAwLTEuNDE0IDEuNDE0bDIgMmExIDEgMCAwMDEuNDE0IDBsNC00eiIgY2xpcC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
 
 -}
 shieldCheck : List (Attribute msg) -> Html msg
@@ -1206,7 +1306,7 @@ shieldCheck attrs =
 
 {-| shield-exclamation
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTEwIDEuOTQ0QTExLjk1NCAxMS45NTQgMCAwMTIuMTY2IDVDMi4wNTYgNS42NDkgMiA2LjMxOSAyIDdjMCA1LjIyNSAzLjM0IDkuNjcgOCAxMS4zMTdDMTQuNjYgMTYuNjcgMTggMTIuMjI1IDE4IDdjMC0uNjgyLS4wNTctMS4zNS0uMTY2LTIuMDAxQTExLjk1NCAxMS45NTQgMCAwMTEwIDEuOTQ0ek0xMSAxNGExIDEgMCAxMS0yIDAgMSAxIDAgMDEyIDB6bTAtN2ExIDEgMCAxMC0yIDB2M2ExIDEgMCAxMDIgMFY3eiIgZmlsbC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEwIDEuOTQ0QTExLjk1NCAxMS45NTQgMCAwMTIuMTY2IDVDMi4wNTYgNS42NDkgMiA2LjMxOSAyIDdjMCA1LjIyNSAzLjM0IDkuNjcgOCAxMS4zMTdDMTQuNjYgMTYuNjcgMTggMTIuMjI1IDE4IDdjMC0uNjgyLS4wNTctMS4zNS0uMTY2LTIuMDAxQTExLjk1NCAxMS45NTQgMCAwMTEwIDEuOTQ0ek0xMSAxNGExIDEgMCAxMS0yIDAgMSAxIDAgMDEyIDB6bTAtN2ExIDEgMCAxMC0yIDB2M2ExIDEgMCAxMDIgMFY3eiIgY2xpcC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
 
 -}
 shieldExclamation : List (Attribute msg) -> Html msg
@@ -1216,7 +1316,7 @@ shieldExclamation attrs =
 
 {-| shopping-cart
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGQ9Ik0zIDFhMSAxIDAgMDAwIDJoMS4yMmwuMzA1IDEuMjIyYS45OTcuOTk3IDAgMDAuMDEuMDQybDEuMzU4IDUuNDMtLjg5My44OTJDMy43NCAxMS44NDYgNC42MzIgMTQgNi40MTQgMTRIMTVhMSAxIDAgMDAwLTJINi40MTRsMS0xSDE0YTEgMSAwIDAwLjg5NC0uNTUzbDMtNkExIDEgMCAwMDE3IDNINi4yOGwtLjMxLTEuMjQzQTEgMSAwIDAwNSAxSDN6TTE2IDE2LjVhMS41IDEuNSAwIDExLTMgMCAxLjUgMS41IDAgMDEzIDB6TTYuNSAxOGExLjUgMS41IDAgMTAwLTMgMS41IDEuNSAwIDAwMCAzeiIgLz4KPC9zdmc+)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGQ9Ik0zIDFhMSAxIDAgMDAwIDJoMS4yMmwuMzA1IDEuMjIyYS45OTcuOTk3IDAgMDAuMDEuMDQybDEuMzU4IDUuNDMtLjg5My44OTJDMy43NCAxMS44NDYgNC42MzIgMTQgNi40MTQgMTRIMTVhMSAxIDAgMDAwLTJINi40MTRsMS0xSDE0YTEgMSAwIDAwLjg5NC0uNTUzbDMtNkExIDEgMCAwMDE3IDNINi4yOGwtLjMxLTEuMjQzQTEgMSAwIDAwNSAxSDN6TTE2IDE2LjVhMS41IDEuNSAwIDExLTMgMCAxLjUgMS41IDAgMDEzIDB6TTYuNSAxOGExLjUgMS41IDAgMTAwLTMgMS41IDEuNSAwIDAwMCAzeiIgLz4KPC9zdmc+)
 
 -}
 shoppingCart : List (Attribute msg) -> Html msg
@@ -1226,7 +1326,7 @@ shoppingCart attrs =
 
 {-| sort-ascending
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGQ9Ik0zIDNhMSAxIDAgMDAwIDJoMTFhMSAxIDAgMTAwLTJIM3pNMyA3YTEgMSAwIDAwMCAyaDVhMSAxIDAgMDAwLTJIM3pNMyAxMWExIDEgMCAxMDAgMmg0YTEgMSAwIDEwMC0ySDN6TTEzIDE2YTEgMSAwIDEwMiAwdi01LjU4NmwxLjI5MyAxLjI5M2ExIDEgMCAwMDEuNDE0LTEuNDE0bC0zLTNhMSAxIDAgMDAtMS40MTQgMGwtMyAzYTEgMSAwIDEwMS40MTQgMS40MTRMMTMgMTAuNDE0VjE2eiIgLz4KPC9zdmc+)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGQ9Ik0zIDNhMSAxIDAgMDAwIDJoMTFhMSAxIDAgMTAwLTJIM3pNMyA3YTEgMSAwIDAwMCAyaDVhMSAxIDAgMDAwLTJIM3pNMyAxMWExIDEgMCAxMDAgMmg0YTEgMSAwIDEwMC0ySDN6TTEzIDE2YTEgMSAwIDEwMiAwdi01LjU4NmwxLjI5MyAxLjI5M2ExIDEgMCAwMDEuNDE0LTEuNDE0bC0zLTNhMSAxIDAgMDAtMS40MTQgMGwtMyAzYTEgMSAwIDEwMS40MTQgMS40MTRMMTMgMTAuNDE0VjE2eiIgLz4KPC9zdmc+)
 
 -}
 sortAscending : List (Attribute msg) -> Html msg
@@ -1236,7 +1336,7 @@ sortAscending attrs =
 
 {-| sort-descending
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGQ9Ik0zIDNhMSAxIDAgMDAwIDJoMTFhMSAxIDAgMTAwLTJIM3pNMyA3YTEgMSAwIDAwMCAyaDdhMSAxIDAgMTAwLTJIM3pNMyAxMWExIDEgMCAxMDAgMmg0YTEgMSAwIDEwMC0ySDN6TTE1IDhhMSAxIDAgMTAtMiAwdjUuNTg2bC0xLjI5My0xLjI5M2ExIDEgMCAwMC0xLjQxNCAxLjQxNGwzIDNhMSAxIDAgMDAxLjQxNCAwbDMtM2ExIDEgMCAwMC0xLjQxNC0xLjQxNEwxNSAxMy41ODZWOHoiIC8+Cjwvc3ZnPg==)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGQ9Ik0zIDNhMSAxIDAgMDAwIDJoMTFhMSAxIDAgMTAwLTJIM3pNMyA3YTEgMSAwIDAwMCAyaDdhMSAxIDAgMTAwLTJIM3pNMyAxMWExIDEgMCAxMDAgMmg0YTEgMSAwIDEwMC0ySDN6TTE1IDhhMSAxIDAgMTAtMiAwdjUuNTg2bC0xLjI5My0xLjI5M2ExIDEgMCAwMC0xLjQxNCAxLjQxNGwzIDNhMSAxIDAgMDAxLjQxNCAwbDMtM2ExIDEgMCAwMC0xLjQxNC0xLjQxNEwxNSAxMy41ODZWOHoiIC8+Cjwvc3ZnPg==)
 
 -}
 sortDescending : List (Attribute msg) -> Html msg
@@ -1246,7 +1346,7 @@ sortDescending attrs =
 
 {-| sparkles
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTUgMmExIDEgMCAwMTEgMXYxaDFhMSAxIDAgMDEwIDJINnYxYTEgMSAwIDAxLTIgMFY2SDNhMSAxIDAgMDEwLTJoMVYzYTEgMSAwIDAxMS0xem0wIDEwYTEgMSAwIDAxMSAxdjFoMWExIDEgMCAxMTAgMkg2djFhMSAxIDAgMTEtMiAwdi0xSDNhMSAxIDAgMTEwLTJoMXYtMWExIDEgMCAwMTEtMXpNMTIgMmExIDEgMCAwMS45NjcuNzQ0TDE0LjE0NiA3LjIgMTcuNSA5LjEzNGExIDEgMCAwMTAgMS43MzJsLTMuMzU0IDEuOTM1LTEuMTggNC40NTVhMSAxIDAgMDEtMS45MzMgMEw5Ljg1NCAxMi44IDYuNSAxMC44NjZhMSAxIDAgMDEwLTEuNzMybDMuMzU0LTEuOTM1IDEuMTgtNC40NTVBMSAxIDAgMDExMiAyeiIgZmlsbC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTUgMmExIDEgMCAwMTEgMXYxaDFhMSAxIDAgMDEwIDJINnYxYTEgMSAwIDAxLTIgMFY2SDNhMSAxIDAgMDEwLTJoMVYzYTEgMSAwIDAxMS0xem0wIDEwYTEgMSAwIDAxMSAxdjFoMWExIDEgMCAxMTAgMkg2djFhMSAxIDAgMTEtMiAwdi0xSDNhMSAxIDAgMTEwLTJoMXYtMWExIDEgMCAwMTEtMXpNMTIgMmExIDEgMCAwMS45NjcuNzQ0TDE0LjE0NiA3LjIgMTcuNSA5LjEzNGExIDEgMCAwMTAgMS43MzJsLTMuMzU0IDEuOTM1LTEuMTggNC40NTVhMSAxIDAgMDEtMS45MzMgMEw5Ljg1NCAxMi44IDYuNSAxMC44NjZhMSAxIDAgMDEwLTEuNzMybDMuMzU0LTEuOTM1IDEuMTgtNC40NTVBMSAxIDAgMDExMiAyeiIgY2xpcC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
 
 -}
 sparkles : List (Attribute msg) -> Html msg
@@ -1256,7 +1356,7 @@ sparkles attrs =
 
 {-| speakerphone
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTE4IDNhMSAxIDAgMDAtMS40NDctLjg5NEw4Ljc2MyA2SDVhMyAzIDAgMDAwIDZoLjI4bDEuNzcxIDUuMzE2QTEgMSAwIDAwOCAxOGgxYTEgMSAwIDAwMS0xdi00LjM4Mmw2LjU1MyAzLjI3NkExIDEgMCAwMDE4IDE1VjN6IiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIC8+Cjwvc3ZnPg==)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTE4IDNhMSAxIDAgMDAtMS40NDctLjg5NEw4Ljc2MyA2SDVhMyAzIDAgMDAwIDZoLjI4bDEuNzcxIDUuMzE2QTEgMSAwIDAwOCAxOGgxYTEgMSAwIDAwMS0xdi00LjM4Mmw2LjU1MyAzLjI3NkExIDEgMCAwMDE4IDE1VjN6IiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIC8+Cjwvc3ZnPg==)
 
 -}
 speakerphone : List (Attribute msg) -> Html msg
@@ -1264,9 +1364,29 @@ speakerphone attrs =
     svg (viewBox "0 0 20 20" :: fill "currentColor" :: attrs) [ Svg.path [ fillRule "evenodd", d "M18 3a1 1 0 00-1.447-.894L8.763 6H5a3 3 0 000 6h.28l1.771 5.316A1 1 0 008 18h1a1 1 0 001-1v-4.382l6.553 3.276A1 1 0 0018 15V3z", clipRule "evenodd" ] [] ]
 
 
+{-| star
+
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGQ9Ik05LjA0OSAyLjkyN2MuMy0uOTIxIDEuNjAzLS45MjEgMS45MDIgMGwxLjA3IDMuMjkyYTEgMSAwIDAwLjk1LjY5aDMuNDYyYy45NjkgMCAxLjM3MSAxLjI0LjU4OCAxLjgxbC0yLjggMi4wMzRhMSAxIDAgMDAtLjM2NCAxLjExOGwxLjA3IDMuMjkyYy4zLjkyMS0uNzU1IDEuNjg4LTEuNTQgMS4xMThsLTIuOC0yLjAzNGExIDEgMCAwMC0xLjE3NSAwbC0yLjggMi4wMzRjLS43ODQuNTctMS44MzgtLjE5Ny0xLjUzOS0xLjExOGwxLjA3LTMuMjkyYTEgMSAwIDAwLS4zNjQtMS4xMThMMi45OCA4LjcyYy0uNzgzLS41Ny0uMzgtMS44MS41ODgtMS44MWgzLjQ2MWExIDEgMCAwMC45NTEtLjY5bDEuMDctMy4yOTJ6IiAvPgo8L3N2Zz4=)
+
+-}
+star : List (Attribute msg) -> Html msg
+star attrs =
+    svg (viewBox "0 0 20 20" :: fill "currentColor" :: attrs) [ Svg.path [ d "M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" ] [] ]
+
+
+{-| stop
+
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEwIDE4YTggOCAwIDEwMC0xNiA4IDggMCAwMDAgMTZ6TTggN2ExIDEgMCAwMC0xIDF2NGExIDEgMCAwMDEgMWg0YTEgMSAwIDAwMS0xVjhhMSAxIDAgMDAtMS0xSDh6IiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIC8+Cjwvc3ZnPg==)
+
+-}
+stop : List (Attribute msg) -> Html msg
+stop attrs =
+    svg (viewBox "0 0 20 20" :: fill "currentColor" :: attrs) [ Svg.path [ fillRule "evenodd", d "M10 18a8 8 0 100-16 8 8 0 000 16zM8 7a1 1 0 00-1 1v4a1 1 0 001 1h4a1 1 0 001-1V8a1 1 0 00-1-1H8z", clipRule "evenodd" ] [] ]
+
+
 {-| sun
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTEwIDJhMSAxIDAgMDExIDF2MWExIDEgMCAxMS0yIDBWM2ExIDEgMCAwMTEtMXptNCA4YTQgNCAwIDExLTggMCA0IDQgMCAwMTggMHptLS40NjQgNC45NWwuNzA3LjcwN2ExIDEgMCAwMDEuNDE0LTEuNDE0bC0uNzA3LS43MDdhMSAxIDAgMDAtMS40MTQgMS40MTR6bTIuMTItMTAuNjA3YTEgMSAwIDAxMCAxLjQxNGwtLjcwNi43MDdhMSAxIDAgMTEtMS40MTQtMS40MTRsLjcwNy0uNzA3YTEgMSAwIDAxMS40MTQgMHpNMTcgMTFhMSAxIDAgMTAwLTJoLTFhMSAxIDAgMTAwIDJoMXptLTcgNGExIDEgMCAwMTEgMXYxYTEgMSAwIDExLTIgMHYtMWExIDEgMCAwMTEtMXpNNS4wNSA2LjQ2NEExIDEgMCAxMDYuNDY1IDUuMDVsLS43MDgtLjcwN2ExIDEgMCAwMC0xLjQxNCAxLjQxNGwuNzA3LjcwN3ptMS40MTQgOC40ODZsLS43MDcuNzA3YTEgMSAwIDAxLTEuNDE0LTEuNDE0bC43MDctLjcwN2ExIDEgMCAwMTEuNDE0IDEuNDE0ek00IDExYTEgMSAwIDEwMC0ySDNhMSAxIDAgMDAwIDJoMXoiIGZpbGwtcnVsZT0iZXZlbm9kZCIgLz4KPC9zdmc+)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEwIDJhMSAxIDAgMDExIDF2MWExIDEgMCAxMS0yIDBWM2ExIDEgMCAwMTEtMXptNCA4YTQgNCAwIDExLTggMCA0IDQgMCAwMTggMHptLS40NjQgNC45NWwuNzA3LjcwN2ExIDEgMCAwMDEuNDE0LTEuNDE0bC0uNzA3LS43MDdhMSAxIDAgMDAtMS40MTQgMS40MTR6bTIuMTItMTAuNjA3YTEgMSAwIDAxMCAxLjQxNGwtLjcwNi43MDdhMSAxIDAgMTEtMS40MTQtMS40MTRsLjcwNy0uNzA3YTEgMSAwIDAxMS40MTQgMHpNMTcgMTFhMSAxIDAgMTAwLTJoLTFhMSAxIDAgMTAwIDJoMXptLTcgNGExIDEgMCAwMTEgMXYxYTEgMSAwIDExLTIgMHYtMWExIDEgMCAwMTEtMXpNNS4wNSA2LjQ2NEExIDEgMCAxMDYuNDY1IDUuMDVsLS43MDgtLjcwN2ExIDEgMCAwMC0xLjQxNCAxLjQxNGwuNzA3LjcwN3ptMS40MTQgOC40ODZsLS43MDcuNzA3YTEgMSAwIDAxLTEuNDE0LTEuNDE0bC43MDctLjcwN2ExIDEgMCAwMTEuNDE0IDEuNDE0ek00IDExYTEgMSAwIDEwMC0ySDNhMSAxIDAgMDAwIDJoMXoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgLz4KPC9zdmc+)
 
 -}
 sun : List (Attribute msg) -> Html msg
@@ -1274,9 +1394,19 @@ sun attrs =
     svg (viewBox "0 0 20 20" :: fill "currentColor" :: attrs) [ Svg.path [ fillRule "evenodd", d "M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z", clipRule "evenodd" ] [] ]
 
 
+{-| support
+
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTE4IDEwYTggOCAwIDExLTE2IDAgOCA4IDAgMDExNiAwem0tMiAwYzAgLjk5My0uMjQxIDEuOTI5LS42NjggMi43NTRsLTEuNTI0LTEuNTI1YTMuOTk3IDMuOTk3IDAgMDAuMDc4LTIuMTgzbDEuNTYyLTEuNTYyQzE1LjgwMiA4LjI0OSAxNiA5LjEgMTYgMTB6bS01LjE2NSAzLjkxM2wxLjU4IDEuNThBNS45OCA1Ljk4IDAgMDExMCAxNmE1Ljk3NiA1Ljk3NiAwIDAxLTIuNTE2LS41NTJsMS41NjItMS41NjJhNC4wMDYgNC4wMDYgMCAwMDEuNzg5LjAyN3ptLTQuNjc3LTIuNzk2YTQuMDAyIDQuMDAyIDAgMDEtLjA0MS0yLjA4bC0uMDguMDgtMS41My0xLjUzM0E1Ljk4IDUuOTggMCAwMDQgMTBjMCAuOTU0LjIyMyAxLjg1Ni42MTkgMi42NTdsMS41NC0xLjU0em0xLjA4OC02LjQ1QTUuOTc0IDUuOTc0IDAgMDExMCA0Yy45NTQgMCAxLjg1Ni4yMjMgMi42NTcuNjE5bC0xLjU0IDEuNTRhNC4wMDIgNC4wMDIgMCAwMC0yLjM0Ni4wMzNMNy4yNDYgNC42Njh6TTEyIDEwYTIgMiAwIDExLTQgMCAyIDIgMCAwMTQgMHoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgLz4KPC9zdmc+)
+
+-}
+support : List (Attribute msg) -> Html msg
+support attrs =
+    svg (viewBox "0 0 20 20" :: fill "currentColor" :: attrs) [ Svg.path [ fillRule "evenodd", d "M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-2 0c0 .993-.241 1.929-.668 2.754l-1.524-1.525a3.997 3.997 0 00.078-2.183l1.562-1.562C15.802 8.249 16 9.1 16 10zm-5.165 3.913l1.58 1.58A5.98 5.98 0 0110 16a5.976 5.976 0 01-2.516-.552l1.562-1.562a4.006 4.006 0 001.789.027zm-4.677-2.796a4.002 4.002 0 01-.041-2.08l-.08.08-1.53-1.533A5.98 5.98 0 004 10c0 .954.223 1.856.619 2.657l1.54-1.54zm1.088-6.45A5.974 5.974 0 0110 4c.954 0 1.856.223 2.657.619l-1.54 1.54a4.002 4.002 0 00-2.346.033L7.246 4.668zM12 10a2 2 0 11-4 0 2 2 0 014 0z", clipRule "evenodd" ] [] ]
+
+
 {-| switch-horizontal
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGQ9Ik04IDVhMSAxIDAgMTAwIDJoNS41ODZsLTEuMjkzIDEuMjkzYTEgMSAwIDAwMS40MTQgMS40MTRsMy0zYTEgMSAwIDAwMC0xLjQxNGwtMy0zYTEgMSAwIDEwLTEuNDE0IDEuNDE0TDEzLjU4NiA1SDh6TTEyIDE1YTEgMSAwIDEwMC0ySDYuNDE0bDEuMjkzLTEuMjkzYTEgMSAwIDEwLTEuNDE0LTEuNDE0bC0zIDNhMSAxIDAgMDAwIDEuNDE0bDMgM2ExIDEgMCAwMDEuNDE0LTEuNDE0TDYuNDE0IDE1SDEyeiIgLz4KPC9zdmc+)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGQ9Ik04IDVhMSAxIDAgMTAwIDJoNS41ODZsLTEuMjkzIDEuMjkzYTEgMSAwIDAwMS40MTQgMS40MTRsMy0zYTEgMSAwIDAwMC0xLjQxNGwtMy0zYTEgMSAwIDEwLTEuNDE0IDEuNDE0TDEzLjU4NiA1SDh6TTEyIDE1YTEgMSAwIDEwMC0ySDYuNDE0bDEuMjkzLTEuMjkzYTEgMSAwIDEwLTEuNDE0LTEuNDE0bC0zIDNhMSAxIDAgMDAwIDEuNDE0bDMgM2ExIDEgMCAwMDEuNDE0LTEuNDE0TDYuNDE0IDE1SDEyeiIgLz4KPC9zdmc+)
 
 -}
 switchHorizontal : List (Attribute msg) -> Html msg
@@ -1286,7 +1416,7 @@ switchHorizontal attrs =
 
 {-| switch-vertical
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGQ9Ik01IDEyYTEgMSAwIDEwMiAwVjYuNDE0bDEuMjkzIDEuMjkzYTEgMSAwIDAwMS40MTQtMS40MTRsLTMtM2ExIDEgMCAwMC0xLjQxNCAwbC0zIDNhMSAxIDAgMDAxLjQxNCAxLjQxNEw1IDYuNDE0VjEyek0xNSA4YTEgMSAwIDEwLTIgMHY1LjU4NmwtMS4yOTMtMS4yOTNhMSAxIDAgMDAtMS40MTQgMS40MTRsMyAzYTEgMSAwIDAwMS40MTQgMGwzLTNhMSAxIDAgMDAtMS40MTQtMS40MTRMMTUgMTMuNTg2Vjh6IiAvPgo8L3N2Zz4=)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGQ9Ik01IDEyYTEgMSAwIDEwMiAwVjYuNDE0bDEuMjkzIDEuMjkzYTEgMSAwIDAwMS40MTQtMS40MTRsLTMtM2ExIDEgMCAwMC0xLjQxNCAwbC0zIDNhMSAxIDAgMDAxLjQxNCAxLjQxNEw1IDYuNDE0VjEyek0xNSA4YTEgMSAwIDEwLTIgMHY1LjU4NmwtMS4yOTMtMS4yOTNhMSAxIDAgMDAtMS40MTQgMS40MTRsMyAzYTEgMSAwIDAwMS40MTQgMGwzLTNhMSAxIDAgMDAtMS40MTQtMS40MTRMMTUgMTMuNTg2Vjh6IiAvPgo8L3N2Zz4=)
 
 -}
 switchVertical : List (Attribute msg) -> Html msg
@@ -1296,7 +1426,7 @@ switchVertical attrs =
 
 {-| tag
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTE3LjcwNyA5LjI5M2ExIDEgMCAwMTAgMS40MTRsLTcgN2ExIDEgMCAwMS0xLjQxNCAwbC03LTdBLjk5Ny45OTcgMCAwMTIgMTBWNWEzIDMgMCAwMTMtM2g1Yy4yNTYgMCAuNTEyLjA5OC43MDcuMjkzbDcgN3pNNSA2YTEgMSAwIDEwMC0yIDEgMSAwIDAwMCAyeiIgZmlsbC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTE3LjcwNyA5LjI5M2ExIDEgMCAwMTAgMS40MTRsLTcgN2ExIDEgMCAwMS0xLjQxNCAwbC03LTdBLjk5Ny45OTcgMCAwMTIgMTBWNWEzIDMgMCAwMTMtM2g1Yy4yNTYgMCAuNTEyLjA5OC43MDcuMjkzbDcgN3pNNSA2YTEgMSAwIDEwMC0yIDEgMSAwIDAwMCAyeiIgY2xpcC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
 
 -}
 tag : List (Attribute msg) -> Html msg
@@ -1306,7 +1436,7 @@ tag attrs =
 
 {-| template
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGQ9Ik0zIDRhMSAxIDAgMDExLTFoMTJhMSAxIDAgMDExIDF2MmExIDEgMCAwMS0xIDFINGExIDEgMCAwMS0xLTFWNHpNMyAxMGExIDEgMCAwMTEtMWg2YTEgMSAwIDAxMSAxdjZhMSAxIDAgMDEtMSAxSDRhMSAxIDAgMDEtMS0xdi02ek0xNCA5YTEgMSAwIDAwLTEgMXY2YTEgMSAwIDAwMSAxaDJhMSAxIDAgMDAxLTF2LTZhMSAxIDAgMDAtMS0xaC0yeiIgLz4KPC9zdmc+)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGQ9Ik0zIDRhMSAxIDAgMDExLTFoMTJhMSAxIDAgMDExIDF2MmExIDEgMCAwMS0xIDFINGExIDEgMCAwMS0xLTFWNHpNMyAxMGExIDEgMCAwMTEtMWg2YTEgMSAwIDAxMSAxdjZhMSAxIDAgMDEtMSAxSDRhMSAxIDAgMDEtMS0xdi02ek0xNCA5YTEgMSAwIDAwLTEgMXY2YTEgMSAwIDAwMSAxaDJhMSAxIDAgMDAxLTF2LTZhMSAxIDAgMDAtMS0xaC0yeiIgLz4KPC9zdmc+)
 
 -}
 template : List (Attribute msg) -> Html msg
@@ -1314,9 +1444,19 @@ template attrs =
     svg (viewBox "0 0 20 20" :: fill "currentColor" :: attrs) [ Svg.path [ d "M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z" ] [] ]
 
 
+{-| terminal
+
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTIgNWEyIDIgMCAwMTItMmgxMmEyIDIgMCAwMTIgMnYxMGEyIDIgMCAwMS0yIDJINGEyIDIgMCAwMS0yLTJWNXptMy4yOTMgMS4yOTNhMSAxIDAgMDExLjQxNCAwbDMgM2ExIDEgMCAwMTAgMS40MTRsLTMgM2ExIDEgMCAwMS0xLjQxNC0xLjQxNEw3LjU4NiAxMCA1LjI5MyA3LjcwN2ExIDEgMCAwMTAtMS40MTR6TTExIDEyYTEgMSAwIDEwMCAyaDNhMSAxIDAgMTAwLTJoLTN6IiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIC8+Cjwvc3ZnPg==)
+
+-}
+terminal : List (Attribute msg) -> Html msg
+terminal attrs =
+    svg (viewBox "0 0 20 20" :: fill "currentColor" :: attrs) [ Svg.path [ fillRule "evenodd", d "M2 5a2 2 0 012-2h12a2 2 0 012 2v10a2 2 0 01-2 2H4a2 2 0 01-2-2V5zm3.293 1.293a1 1 0 011.414 0l3 3a1 1 0 010 1.414l-3 3a1 1 0 01-1.414-1.414L7.586 10 5.293 7.707a1 1 0 010-1.414zM11 12a1 1 0 100 2h3a1 1 0 100-2h-3z", clipRule "evenodd" ] [] ]
+
+
 {-| ticket
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGQ9Ik0yIDZhMiAyIDAgMDEyLTJoMTJhMiAyIDAgMDEyIDJ2MmEyIDIgMCAxMDAgNHYyYTIgMiAwIDAxLTIgMkg0YTIgMiAwIDAxLTItMnYtMmEyIDIgMCAxMDAtNFY2eiIgLz4KPC9zdmc+)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGQ9Ik0yIDZhMiAyIDAgMDEyLTJoMTJhMiAyIDAgMDEyIDJ2MmEyIDIgMCAxMDAgNHYyYTIgMiAwIDAxLTIgMkg0YTIgMiAwIDAxLTItMnYtMmEyIDIgMCAxMDAtNFY2eiIgLz4KPC9zdmc+)
 
 -}
 ticket : List (Attribute msg) -> Html msg
@@ -1326,7 +1466,7 @@ ticket attrs =
 
 {-| translate
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTcgMmExIDEgMCAwMTEgMXYxaDNhMSAxIDAgMTEwIDJIOS41NzhhMTguODcgMTguODcgMCAwMS0xLjcyNCA0Ljc4Yy4yOS4zNTQuNTk2LjY5Ni45MTQgMS4wMjZhMSAxIDAgMTEtMS40NCAxLjM4OWMtLjE4OC0uMTk2LS4zNzMtLjM5Ni0uNTU0LS42YTE5LjA5OCAxOS4wOTggMCAwMS0zLjEwNyAzLjU2NyAxIDEgMCAwMS0xLjMzNC0xLjQ5IDE3LjA4NyAxNy4wODcgMCAwMDMuMTMtMy43MzMgMTguOTkyIDE4Ljk5MiAwIDAxLTEuNDg3LTIuNDk0IDEgMSAwIDExMS43OS0uODljLjIzNC40Ny40ODkuOTI4Ljc2NCAxLjM3Mi40MTctLjkzNC43NTItMS45MTMuOTk3LTIuOTI3SDNhMSAxIDAgMTEwLTJoM1YzYTEgMSAwIDAxMS0xem02IDZhMSAxIDAgMDEuODk0LjU1M2wyLjk5MSA1Ljk4MmEuODY5Ljg2OSAwIDAxLjAyLjAzN2wuOTkgMS45OGExIDEgMCAxMS0xLjc5Ljg5NUwxNS4zODMgMTZoLTQuNzY0bC0uNzI0IDEuNDQ3YTEgMSAwIDExLTEuNzg4LS44OTRsLjk5LTEuOTguMDE5LS4wMzggMi45OS01Ljk4MkExIDEgMCAwMTEzIDh6bS0xLjM4MiA2aDIuNzY0TDEzIDExLjIzNiAxMS42MTggMTR6IiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIC8+Cjwvc3ZnPg==)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTcgMmExIDEgMCAwMTEgMXYxaDNhMSAxIDAgMTEwIDJIOS41NzhhMTguODcgMTguODcgMCAwMS0xLjcyNCA0Ljc4Yy4yOS4zNTQuNTk2LjY5Ni45MTQgMS4wMjZhMSAxIDAgMTEtMS40NCAxLjM4OWMtLjE4OC0uMTk2LS4zNzMtLjM5Ni0uNTU0LS42YTE5LjA5OCAxOS4wOTggMCAwMS0zLjEwNyAzLjU2NyAxIDEgMCAwMS0xLjMzNC0xLjQ5IDE3LjA4NyAxNy4wODcgMCAwMDMuMTMtMy43MzMgMTguOTkyIDE4Ljk5MiAwIDAxLTEuNDg3LTIuNDk0IDEgMSAwIDExMS43OS0uODljLjIzNC40Ny40ODkuOTI4Ljc2NCAxLjM3Mi40MTctLjkzNC43NTItMS45MTMuOTk3LTIuOTI3SDNhMSAxIDAgMTEwLTJoM1YzYTEgMSAwIDAxMS0xem02IDZhMSAxIDAgMDEuODk0LjU1M2wyLjk5MSA1Ljk4MmEuODY5Ljg2OSAwIDAxLjAyLjAzN2wuOTkgMS45OGExIDEgMCAxMS0xLjc5Ljg5NUwxNS4zODMgMTZoLTQuNzY0bC0uNzI0IDEuNDQ3YTEgMSAwIDExLTEuNzg4LS44OTRsLjk5LTEuOTguMDE5LS4wMzggMi45OS01Ljk4MkExIDEgMCAwMTEzIDh6bS0xLjM4MiA2aDIuNzY0TDEzIDExLjIzNiAxMS42MTggMTR6IiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIC8+Cjwvc3ZnPg==)
 
 -}
 translate : List (Attribute msg) -> Html msg
@@ -1336,7 +1476,7 @@ translate attrs =
 
 {-| trash
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTkgMmExIDEgMCAwMC0uODk0LjU1M0w3LjM4MiA0SDRhMSAxIDAgMDAwIDJ2MTBhMiAyIDAgMDAyIDJoOGEyIDIgMCAwMDItMlY2YTEgMSAwIDEwMC0yaC0zLjM4MmwtLjcyNC0xLjQ0N0ExIDEgMCAwMDExIDJIOXpNNyA4YTEgMSAwIDAxMiAwdjZhMSAxIDAgMTEtMiAwVjh6bTUtMWExIDEgMCAwMC0xIDF2NmExIDEgMCAxMDIgMFY4YTEgMSAwIDAwLTEtMXoiIGZpbGwtcnVsZT0iZXZlbm9kZCIgLz4KPC9zdmc+)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTkgMmExIDEgMCAwMC0uODk0LjU1M0w3LjM4MiA0SDRhMSAxIDAgMDAwIDJ2MTBhMiAyIDAgMDAyIDJoOGEyIDIgMCAwMDItMlY2YTEgMSAwIDEwMC0yaC0zLjM4MmwtLjcyNC0xLjQ0N0ExIDEgMCAwMDExIDJIOXpNNyA4YTEgMSAwIDAxMiAwdjZhMSAxIDAgMTEtMiAwVjh6bTUtMWExIDEgMCAwMC0xIDF2NmExIDEgMCAxMDIgMFY4YTEgMSAwIDAwLTEtMXoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgLz4KPC9zdmc+)
 
 -}
 trash : List (Attribute msg) -> Html msg
@@ -1346,7 +1486,7 @@ trash attrs =
 
 {-| trending-down
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTEyIDEzYTEgMSAwIDEwMCAyaDVhMSAxIDAgMDAxLTFWOWExIDEgMCAxMC0yIDB2Mi41ODZsLTQuMjkzLTQuMjkzYTEgMSAwIDAwLTEuNDE0IDBMOCA5LjU4NiAzLjcwNyA1LjI5M2ExIDEgMCAwMC0xLjQxNCAxLjQxNGw1IDVhMSAxIDAgMDAxLjQxNCAwTDExIDkuNDE0IDE0LjU4NiAxM0gxMnoiIGZpbGwtcnVsZT0iZXZlbm9kZCIgLz4KPC9zdmc+)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEyIDEzYTEgMSAwIDEwMCAyaDVhMSAxIDAgMDAxLTFWOWExIDEgMCAxMC0yIDB2Mi41ODZsLTQuMjkzLTQuMjkzYTEgMSAwIDAwLTEuNDE0IDBMOCA5LjU4NiAzLjcwNyA1LjI5M2ExIDEgMCAwMC0xLjQxNCAxLjQxNGw1IDVhMSAxIDAgMDAxLjQxNCAwTDExIDkuNDE0IDE0LjU4NiAxM0gxMnoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgLz4KPC9zdmc+)
 
 -}
 trendingDown : List (Attribute msg) -> Html msg
@@ -1356,7 +1496,7 @@ trendingDown attrs =
 
 {-| trending-up
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTEyIDdhMSAxIDAgMTEwLTJoNWExIDEgMCAwMTEgMXY1YTEgMSAwIDExLTIgMFY4LjQxNGwtNC4yOTMgNC4yOTNhMSAxIDAgMDEtMS40MTQgMEw4IDEwLjQxNGwtNC4yOTMgNC4yOTNhMSAxIDAgMDEtMS40MTQtMS40MTRsNS01YTEgMSAwIDAxMS40MTQgMEwxMSAxMC41ODYgMTQuNTg2IDdIMTJ6IiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIC8+Cjwvc3ZnPg==)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEyIDdhMSAxIDAgMTEwLTJoNWExIDEgMCAwMTEgMXY1YTEgMSAwIDExLTIgMFY4LjQxNGwtNC4yOTMgNC4yOTNhMSAxIDAgMDEtMS40MTQgMEw4IDEwLjQxNGwtNC4yOTMgNC4yOTNhMSAxIDAgMDEtMS40MTQtMS40MTRsNS01YTEgMSAwIDAxMS40MTQgMEwxMSAxMC41ODYgMTQuNTg2IDdIMTJ6IiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIC8+Cjwvc3ZnPg==)
 
 -}
 trendingUp : List (Attribute msg) -> Html msg
@@ -1366,7 +1506,7 @@ trendingUp attrs =
 
 {-| upload
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTMgMTdhMSAxIDAgMDExLTFoMTJhMSAxIDAgMTEwIDJINGExIDEgMCAwMS0xLTF6TTYuMjkzIDYuNzA3YTEgMSAwIDAxMC0xLjQxNGwzLTNhMSAxIDAgMDExLjQxNCAwbDMgM2ExIDEgMCAwMS0xLjQxNCAxLjQxNEwxMSA1LjQxNFYxM2ExIDEgMCAxMS0yIDBWNS40MTRMNy43MDcgNi43MDdhMSAxIDAgMDEtMS40MTQgMHoiIGZpbGwtcnVsZT0iZXZlbm9kZCIgLz4KPC9zdmc+)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTMgMTdhMSAxIDAgMDExLTFoMTJhMSAxIDAgMTEwIDJINGExIDEgMCAwMS0xLTF6TTYuMjkzIDYuNzA3YTEgMSAwIDAxMC0xLjQxNGwzLTNhMSAxIDAgMDExLjQxNCAwbDMgM2ExIDEgMCAwMS0xLjQxNCAxLjQxNEwxMSA1LjQxNFYxM2ExIDEgMCAxMS0yIDBWNS40MTRMNy43MDcgNi43MDdhMSAxIDAgMDEtMS40MTQgMHoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgLz4KPC9zdmc+)
 
 -}
 upload : List (Attribute msg) -> Html msg
@@ -1376,7 +1516,7 @@ upload attrs =
 
 {-| user-add
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGQ9Ik04IDlhMyAzIDAgMTAwLTYgMyAzIDAgMDAwIDZ6TTggMTFhNiA2IDAgMDE2IDZIMmE2IDYgMCAwMTYtNnpNMTYgN2ExIDEgMCAxMC0yIDB2MWgtMWExIDEgMCAxMDAgMmgxdjFhMSAxIDAgMTAyIDB2LTFoMWExIDEgMCAxMDAtMmgtMVY3eiIgLz4KPC9zdmc+)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGQ9Ik04IDlhMyAzIDAgMTAwLTYgMyAzIDAgMDAwIDZ6TTggMTFhNiA2IDAgMDE2IDZIMmE2IDYgMCAwMTYtNnpNMTYgN2ExIDEgMCAxMC0yIDB2MWgtMWExIDEgMCAxMDAgMmgxdjFhMSAxIDAgMTAyIDB2LTFoMWExIDEgMCAxMDAtMmgtMVY3eiIgLz4KPC9zdmc+)
 
 -}
 userAdd : List (Attribute msg) -> Html msg
@@ -1386,7 +1526,7 @@ userAdd attrs =
 
 {-| user-circle
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTE4IDEwYTggOCAwIDExLTE2IDAgOCA4IDAgMDExNiAwem0tNi0zYTIgMiAwIDExLTQgMCAyIDIgMCAwMTQgMHptLTIgNGE1IDUgMCAwMC00LjU0NiAyLjkxNkE1Ljk4NiA1Ljk4NiAwIDAwMTAgMTZhNS45ODYgNS45ODYgMCAwMDQuNTQ2LTIuMDg0QTUgNSAwIDAwMTAgMTF6IiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIC8+Cjwvc3ZnPg==)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTE4IDEwYTggOCAwIDExLTE2IDAgOCA4IDAgMDExNiAwem0tNi0zYTIgMiAwIDExLTQgMCAyIDIgMCAwMTQgMHptLTIgNGE1IDUgMCAwMC00LjU0NiAyLjkxNkE1Ljk4NiA1Ljk4NiAwIDAwMTAgMTZhNS45ODYgNS45ODYgMCAwMDQuNTQ2LTIuMDg0QTUgNSAwIDAwMTAgMTF6IiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIC8+Cjwvc3ZnPg==)
 
 -}
 userCircle : List (Attribute msg) -> Html msg
@@ -1396,7 +1536,7 @@ userCircle attrs =
 
 {-| user-group
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGQ9Ik0xMyA2YTMgMyAwIDExLTYgMCAzIDMgMCAwMTYgMHpNMTggOGEyIDIgMCAxMS00IDAgMiAyIDAgMDE0IDB6TTE0IDE1YTQgNCAwIDAwLTggMHYzaDh2LTN6TTYgOGEyIDIgMCAxMS00IDAgMiAyIDAgMDE0IDB6TTE2IDE4di0zYTUuOTcyIDUuOTcyIDAgMDAtLjc1LTIuOTA2QTMuMDA1IDMuMDA1IDAgMDExOSAxNXYzaC0zek00Ljc1IDEyLjA5NEE1Ljk3MyA1Ljk3MyAwIDAwNCAxNXYzSDF2LTNhMyAzIDAgMDEzLjc1LTIuOTA2eiIgLz4KPC9zdmc+)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGQ9Ik0xMyA2YTMgMyAwIDExLTYgMCAzIDMgMCAwMTYgMHpNMTggOGEyIDIgMCAxMS00IDAgMiAyIDAgMDE0IDB6TTE0IDE1YTQgNCAwIDAwLTggMHYzaDh2LTN6TTYgOGEyIDIgMCAxMS00IDAgMiAyIDAgMDE0IDB6TTE2IDE4di0zYTUuOTcyIDUuOTcyIDAgMDAtLjc1LTIuOTA2QTMuMDA1IDMuMDA1IDAgMDExOSAxNXYzaC0zek00Ljc1IDEyLjA5NEE1Ljk3MyA1Ljk3MyAwIDAwNCAxNXYzSDF2LTNhMyAzIDAgMDEzLjc1LTIuOTA2eiIgLz4KPC9zdmc+)
 
 -}
 userGroup : List (Attribute msg) -> Html msg
@@ -1406,7 +1546,7 @@ userGroup attrs =
 
 {-| user-remove
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGQ9Ik0xMSA2YTMgMyAwIDExLTYgMCAzIDMgMCAwMTYgMHpNMTQgMTdhNiA2IDAgMDAtMTIgMGgxMnpNMTMgOGExIDEgMCAxMDAgMmg0YTEgMSAwIDEwMC0yaC00eiIgLz4KPC9zdmc+)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGQ9Ik0xMSA2YTMgMyAwIDExLTYgMCAzIDMgMCAwMTYgMHpNMTQgMTdhNiA2IDAgMDAtMTIgMGgxMnpNMTMgOGExIDEgMCAxMDAgMmg0YTEgMSAwIDEwMC0yaC00eiIgLz4KPC9zdmc+)
 
 -}
 userRemove : List (Attribute msg) -> Html msg
@@ -1414,19 +1554,9 @@ userRemove attrs =
     svg (viewBox "0 0 20 20" :: fill "currentColor" :: attrs) [ Svg.path [ d "M11 6a3 3 0 11-6 0 3 3 0 016 0zM14 17a6 6 0 00-12 0h12zM13 8a1 1 0 100 2h4a1 1 0 100-2h-4z" ] [] ]
 
 
-{-| user
-
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTEwIDlhMyAzIDAgMTAwLTYgMyAzIDAgMDAwIDZ6bS03IDlhNyA3IDAgMTExNCAwSDN6IiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIC8+Cjwvc3ZnPg==)
-
--}
-user : List (Attribute msg) -> Html msg
-user attrs =
-    svg (viewBox "0 0 20 20" :: fill "currentColor" :: attrs) [ Svg.path [ fillRule "evenodd", d "M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z", clipRule "evenodd" ] [] ]
-
-
 {-| users
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGQ9Ik05IDZhMyAzIDAgMTEtNiAwIDMgMyAwIDAxNiAwek0xNyA2YTMgMyAwIDExLTYgMCAzIDMgMCAwMTYgMHpNMTIuOTMgMTdjLjA0Ni0uMzI3LjA3LS42Ni4wNy0xYTYuOTcgNi45NyAwIDAwLTEuNS00LjMzQTUgNSAwIDAxMTkgMTZ2MWgtNi4wN3pNNiAxMWE1IDUgMCAwMTUgNXYxSDF2LTFhNSA1IDAgMDE1LTV6IiAvPgo8L3N2Zz4=)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGQ9Ik05IDZhMyAzIDAgMTEtNiAwIDMgMyAwIDAxNiAwek0xNyA2YTMgMyAwIDExLTYgMCAzIDMgMCAwMTYgMHpNMTIuOTMgMTdjLjA0Ni0uMzI3LjA3LS42Ni4wNy0xYTYuOTcgNi45NyAwIDAwLTEuNS00LjMzQTUgNSAwIDAxMTkgMTZ2MWgtNi4wN3pNNiAxMWE1IDUgMCAwMTUgNXYxSDF2LTFhNSA1IDAgMDE1LTV6IiAvPgo8L3N2Zz4=)
 
 -}
 users : List (Attribute msg) -> Html msg
@@ -1434,9 +1564,19 @@ users attrs =
     svg (viewBox "0 0 20 20" :: fill "currentColor" :: attrs) [ Svg.path [ d "M9 6a3 3 0 11-6 0 3 3 0 016 0zM17 6a3 3 0 11-6 0 3 3 0 016 0zM12.93 17c.046-.327.07-.66.07-1a6.97 6.97 0 00-1.5-4.33A5 5 0 0119 16v1h-6.07zM6 11a5 5 0 015 5v1H1v-1a5 5 0 015-5z" ] [] ]
 
 
+{-| user
+
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEwIDlhMyAzIDAgMTAwLTYgMyAzIDAgMDAwIDZ6bS03IDlhNyA3IDAgMTExNCAwSDN6IiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIC8+Cjwvc3ZnPg==)
+
+-}
+user : List (Attribute msg) -> Html msg
+user attrs =
+    svg (viewBox "0 0 20 20" :: fill "currentColor" :: attrs) [ Svg.path [ fillRule "evenodd", d "M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z", clipRule "evenodd" ] [] ]
+
+
 {-| view-boards
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGQ9Ik0yIDRhMSAxIDAgMDExLTFoMmExIDEgMCAwMTEgMXYxMmExIDEgMCAwMS0xIDFIM2ExIDEgMCAwMS0xLTFWNHpNOCA0YTEgMSAwIDAxMS0xaDJhMSAxIDAgMDExIDF2MTJhMSAxIDAgMDEtMSAxSDlhMSAxIDAgMDEtMS0xVjR6TTE1IDNhMSAxIDAgMDAtMSAxdjEyYTEgMSAwIDAwMSAxaDJhMSAxIDAgMDAxLTFWNGExIDEgMCAwMC0xLTFoLTJ6IiAvPgo8L3N2Zz4=)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGQ9Ik0yIDRhMSAxIDAgMDExLTFoMmExIDEgMCAwMTEgMXYxMmExIDEgMCAwMS0xIDFIM2ExIDEgMCAwMS0xLTFWNHpNOCA0YTEgMSAwIDAxMS0xaDJhMSAxIDAgMDExIDF2MTJhMSAxIDAgMDEtMSAxSDlhMSAxIDAgMDEtMS0xVjR6TTE1IDNhMSAxIDAgMDAtMSAxdjEyYTEgMSAwIDAwMSAxaDJhMSAxIDAgMDAxLTFWNGExIDEgMCAwMC0xLTFoLTJ6IiAvPgo8L3N2Zz4=)
 
 -}
 viewBoards : List (Attribute msg) -> Html msg
@@ -1444,9 +1584,19 @@ viewBoards attrs =
     svg (viewBox "0 0 20 20" :: fill "currentColor" :: attrs) [ Svg.path [ d "M2 4a1 1 0 011-1h2a1 1 0 011 1v12a1 1 0 01-1 1H3a1 1 0 01-1-1V4zM8 4a1 1 0 011-1h2a1 1 0 011 1v12a1 1 0 01-1 1H9a1 1 0 01-1-1V4zM15 3a1 1 0 00-1 1v12a1 1 0 001 1h2a1 1 0 001-1V4a1 1 0 00-1-1h-2z" ] [] ]
 
 
+{-| view-grid-add
+
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGQ9Ik01IDNhMiAyIDAgMDAtMiAydjJhMiAyIDAgMDAyIDJoMmEyIDIgMCAwMDItMlY1YTIgMiAwIDAwLTItMkg1ek01IDExYTIgMiAwIDAwLTIgMnYyYTIgMiAwIDAwMiAyaDJhMiAyIDAgMDAyLTJ2LTJhMiAyIDAgMDAtMi0ySDV6TTExIDVhMiAyIDAgMDEyLTJoMmEyIDIgMCAwMTIgMnYyYTIgMiAwIDAxLTIgMmgtMmEyIDIgMCAwMS0yLTJWNXpNMTQgMTFhMSAxIDAgMDExIDF2MWgxYTEgMSAwIDExMCAyaC0xdjFhMSAxIDAgMTEtMiAwdi0xaC0xYTEgMSAwIDExMC0yaDF2LTFhMSAxIDAgMDExLTF6IiAvPgo8L3N2Zz4=)
+
+-}
+viewGridAdd : List (Attribute msg) -> Html msg
+viewGridAdd attrs =
+    svg (viewBox "0 0 20 20" :: fill "currentColor" :: attrs) [ Svg.path [ d "M5 3a2 2 0 00-2 2v2a2 2 0 002 2h2a2 2 0 002-2V5a2 2 0 00-2-2H5zM5 11a2 2 0 00-2 2v2a2 2 0 002 2h2a2 2 0 002-2v-2a2 2 0 00-2-2H5zM11 5a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V5zM14 11a1 1 0 011 1v1h1a1 1 0 110 2h-1v1a1 1 0 11-2 0v-1h-1a1 1 0 110-2h1v-1a1 1 0 011-1z" ] [] ]
+
+
 {-| view-list
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTMgNGExIDEgMCAwMTEtMWgxMmExIDEgMCAxMTAgMkg0YTEgMSAwIDAxLTEtMXptMCA0YTEgMSAwIDAxMS0xaDEyYTEgMSAwIDExMCAySDRhMSAxIDAgMDEtMS0xem0wIDRhMSAxIDAgMDExLTFoMTJhMSAxIDAgMTEwIDJINGExIDEgMCAwMS0xLTF6bTAgNGExIDEgMCAwMTEtMWgxMmExIDEgMCAxMTAgMkg0YTEgMSAwIDAxLTEtMXoiIGZpbGwtcnVsZT0iZXZlbm9kZCIgLz4KPC9zdmc+)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTMgNGExIDEgMCAwMTEtMWgxMmExIDEgMCAxMTAgMkg0YTEgMSAwIDAxLTEtMXptMCA0YTEgMSAwIDAxMS0xaDEyYTEgMSAwIDExMCAySDRhMSAxIDAgMDEtMS0xem0wIDRhMSAxIDAgMDExLTFoMTJhMSAxIDAgMTEwIDJINGExIDEgMCAwMS0xLTF6bTAgNGExIDEgMCAwMTEtMWgxMmExIDEgMCAxMTAgMkg0YTEgMSAwIDAxLTEtMXoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgLz4KPC9zdmc+)
 
 -}
 viewList : List (Attribute msg) -> Html msg
@@ -1456,7 +1606,7 @@ viewList attrs =
 
 {-| volume-off
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTkuMzgzIDMuMDc2QTEgMSAwIDAxMTAgNHYxMmExIDEgMCAwMS0xLjcwNy43MDdMNC41ODYgMTNIMmExIDEgMCAwMS0xLTFWOGExIDEgMCAwMTEtMWgyLjU4NmwzLjcwNy0zLjcwN2ExIDEgMCAwMTEuMDktLjIxN3pNMTIuMjkzIDcuMjkzYTEgMSAwIDAxMS40MTQgMEwxNSA4LjU4NmwxLjI5My0xLjI5M2ExIDEgMCAxMTEuNDE0IDEuNDE0TDE2LjQxNCAxMGwxLjI5MyAxLjI5M2ExIDEgMCAwMS0xLjQxNCAxLjQxNEwxNSAxMS40MTRsLTEuMjkzIDEuMjkzYTEgMSAwIDAxLTEuNDE0LTEuNDE0TDEzLjU4NiAxMGwtMS4yOTMtMS4yOTNhMSAxIDAgMDEwLTEuNDE0eiIgZmlsbC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTkuMzgzIDMuMDc2QTEgMSAwIDAxMTAgNHYxMmExIDEgMCAwMS0xLjcwNy43MDdMNC41ODYgMTNIMmExIDEgMCAwMS0xLTFWOGExIDEgMCAwMTEtMWgyLjU4NmwzLjcwNy0zLjcwN2ExIDEgMCAwMTEuMDktLjIxN3pNMTIuMjkzIDcuMjkzYTEgMSAwIDAxMS40MTQgMEwxNSA4LjU4NmwxLjI5My0xLjI5M2ExIDEgMCAxMTEuNDE0IDEuNDE0TDE2LjQxNCAxMGwxLjI5MyAxLjI5M2ExIDEgMCAwMS0xLjQxNCAxLjQxNEwxNSAxMS40MTRsLTEuMjkzIDEuMjkzYTEgMSAwIDAxLTEuNDE0LTEuNDE0TDEzLjU4NiAxMGwtMS4yOTMtMS4yOTNhMSAxIDAgMDEwLTEuNDE0eiIgY2xpcC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
 
 -}
 volumeOff : List (Attribute msg) -> Html msg
@@ -1466,7 +1616,7 @@ volumeOff attrs =
 
 {-| volume-up
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTkuMzgzIDMuMDc2QTEgMSAwIDAxMTAgNHYxMmExIDEgMCAwMS0xLjcwNy43MDdMNC41ODYgMTNIMmExIDEgMCAwMS0xLTFWOGExIDEgMCAwMTEtMWgyLjU4NmwzLjcwNy0zLjcwN2ExIDEgMCAwMTEuMDktLjIxN3pNMTQuNjU3IDIuOTI5YTEgMSAwIDAxMS40MTQgMEE5Ljk3MiA5Ljk3MiAwIDAxMTkgMTBhOS45NzIgOS45NzIgMCAwMS0yLjkyOSA3LjA3MSAxIDEgMCAwMS0xLjQxNC0xLjQxNEE3Ljk3MSA3Ljk3MSAwIDAwMTcgMTBjMC0yLjIxLS44OTQtNC4yMDgtMi4zNDMtNS42NTdhMSAxIDAgMDEwLTEuNDE0em0tMi44MjkgMi44MjhhMSAxIDAgMDExLjQxNSAwQTUuOTgzIDUuOTgzIDAgMDExNSAxMGE1Ljk4NCA1Ljk4NCAwIDAxLTEuNzU3IDQuMjQzIDEgMSAwIDAxLTEuNDE1LTEuNDE1QTMuOTg0IDMuOTg0IDAgMDAxMyAxMGEzLjk4MyAzLjk4MyAwIDAwLTEuMTcyLTIuODI4IDEgMSAwIDAxMC0xLjQxNXoiIGZpbGwtcnVsZT0iZXZlbm9kZCIgLz4KPC9zdmc+)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTkuMzgzIDMuMDc2QTEgMSAwIDAxMTAgNHYxMmExIDEgMCAwMS0xLjcwNy43MDdMNC41ODYgMTNIMmExIDEgMCAwMS0xLTFWOGExIDEgMCAwMTEtMWgyLjU4NmwzLjcwNy0zLjcwN2ExIDEgMCAwMTEuMDktLjIxN3pNMTQuNjU3IDIuOTI5YTEgMSAwIDAxMS40MTQgMEE5Ljk3MiA5Ljk3MiAwIDAxMTkgMTBhOS45NzIgOS45NzIgMCAwMS0yLjkyOSA3LjA3MSAxIDEgMCAwMS0xLjQxNC0xLjQxNEE3Ljk3MSA3Ljk3MSAwIDAwMTcgMTBjMC0yLjIxLS44OTQtNC4yMDgtMi4zNDMtNS42NTdhMSAxIDAgMDEwLTEuNDE0em0tMi44MjkgMi44MjhhMSAxIDAgMDExLjQxNSAwQTUuOTgzIDUuOTgzIDAgMDExNSAxMGE1Ljk4NCA1Ljk4NCAwIDAxLTEuNzU3IDQuMjQzIDEgMSAwIDAxLTEuNDE1LTEuNDE1QTMuOTg0IDMuOTg0IDAgMDAxMyAxMGEzLjk4MyAzLjk4MyAwIDAwLTEuMTcyLTIuODI4IDEgMSAwIDAxMC0xLjQxNXoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgLz4KPC9zdmc+)
 
 -}
 volumeUp : List (Attribute msg) -> Html msg
@@ -1476,7 +1626,7 @@ volumeUp attrs =
 
 {-| x-circle
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTEwIDE4YTggOCAwIDEwMC0xNiA4IDggMCAwMDAgMTZ6TTguNzA3IDcuMjkzYTEgMSAwIDAwLTEuNDE0IDEuNDE0TDguNTg2IDEwbC0xLjI5MyAxLjI5M2ExIDEgMCAxMDEuNDE0IDEuNDE0TDEwIDExLjQxNGwxLjI5MyAxLjI5M2ExIDEgMCAwMDEuNDE0LTEuNDE0TDExLjQxNCAxMGwxLjI5My0xLjI5M2ExIDEgMCAwMC0xLjQxNC0xLjQxNEwxMCA4LjU4NiA4LjcwNyA3LjI5M3oiIGZpbGwtcnVsZT0iZXZlbm9kZCIgLz4KPC9zdmc+)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEwIDE4YTggOCAwIDEwMC0xNiA4IDggMCAwMDAgMTZ6TTguNzA3IDcuMjkzYTEgMSAwIDAwLTEuNDE0IDEuNDE0TDguNTg2IDEwbC0xLjI5MyAxLjI5M2ExIDEgMCAxMDEuNDE0IDEuNDE0TDEwIDExLjQxNGwxLjI5MyAxLjI5M2ExIDEgMCAwMDEuNDE0LTEuNDE0TDExLjQxNCAxMGwxLjI5My0xLjI5M2ExIDEgMCAwMC0xLjQxNC0xLjQxNEwxMCA4LjU4NiA4LjcwNyA3LjI5M3oiIGNsaXAtcnVsZT0iZXZlbm9kZCIgLz4KPC9zdmc+)
 
 -}
 xCircle : List (Attribute msg) -> Html msg
@@ -1486,7 +1636,7 @@ xCircle attrs =
 
 {-| x
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTQuMjkzIDQuMjkzYTEgMSAwIDAxMS40MTQgMEwxMCA4LjU4Nmw0LjI5My00LjI5M2ExIDEgMCAxMTEuNDE0IDEuNDE0TDExLjQxNCAxMGw0LjI5MyA0LjI5M2ExIDEgMCAwMS0xLjQxNCAxLjQxNEwxMCAxMS40MTRsLTQuMjkzIDQuMjkzYTEgMSAwIDAxLTEuNDE0LTEuNDE0TDguNTg2IDEwIDQuMjkzIDUuNzA3YTEgMSAwIDAxMC0xLjQxNHoiIGZpbGwtcnVsZT0iZXZlbm9kZCIgLz4KPC9zdmc+)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTQuMjkzIDQuMjkzYTEgMSAwIDAxMS40MTQgMEwxMCA4LjU4Nmw0LjI5My00LjI5M2ExIDEgMCAxMTEuNDE0IDEuNDE0TDExLjQxNCAxMGw0LjI5MyA0LjI5M2ExIDEgMCAwMS0xLjQxNCAxLjQxNEwxMCAxMS40MTRsLTQuMjkzIDQuMjkzYTEgMSAwIDAxLTEuNDE0LTEuNDE0TDguNTg2IDEwIDQuMjkzIDUuNzA3YTEgMSAwIDAxMC0xLjQxNHoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgLz4KPC9zdmc+)
 
 -}
 x : List (Attribute msg) -> Html msg
@@ -1496,7 +1646,7 @@ x attrs =
 
 {-| zoom-in
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGQ9Ik01IDhhMSAxIDAgMDExLTFoMVY2YTEgMSAwIDAxMiAwdjFoMWExIDEgMCAxMTAgMkg5djFhMSAxIDAgMTEtMiAwVjlINmExIDEgMCAwMS0xLTF6IiAvPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTIgOGE2IDYgMCAxMTEwLjg5IDMuNDc2bDQuODE3IDQuODE3YTEgMSAwIDAxLTEuNDE0IDEuNDE0bC00LjgxNi00LjgxNkE2IDYgMCAwMTIgOHptNi00YTQgNCAwIDEwMCA4IDQgNCAwIDAwMC04eiIgZmlsbC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGQ9Ik01IDhhMSAxIDAgMDExLTFoMVY2YTEgMSAwIDAxMiAwdjFoMWExIDEgMCAxMTAgMkg5djFhMSAxIDAgMTEtMiAwVjlINmExIDEgMCAwMS0xLTF6IiAvPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTIgOGE2IDYgMCAxMTEwLjg5IDMuNDc2bDQuODE3IDQuODE3YTEgMSAwIDAxLTEuNDE0IDEuNDE0bC00LjgxNi00LjgxNkE2IDYgMCAwMTIgOHptNi00YTQgNCAwIDEwMCA4IDQgNCAwIDAwMC04eiIgY2xpcC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
 
 -}
 zoomIn : List (Attribute msg) -> Html msg
@@ -1506,7 +1656,7 @@ zoomIn attrs =
 
 {-| zoom-out
 
-![image](data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTggNGE0IDQgMCAxMDAgOCA0IDQgMCAwMDAtOHpNMiA4YTYgNiAwIDExMTAuODkgMy40NzZsNC44MTcgNC44MTdhMSAxIDAgMDEtMS40MTQgMS40MTRsLTQuODE2LTQuODE2QTYgNiAwIDAxMiA4eiIgZmlsbC1ydWxlPSJldmVub2RkIiAvPgogIDxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTUgOGExIDEgMCAwMTEtMWg0YTEgMSAwIDExMCAySDZhMSAxIDAgMDEtMS0xeiIgZmlsbC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
+![image](data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTggNGE0IDQgMCAxMDAgOCA0IDQgMCAwMDAtOHpNMiA4YTYgNiAwIDExMTAuODkgMy40NzZsNC44MTcgNC44MTdhMSAxIDAgMDEtMS40MTQgMS40MTRsLTQuODE2LTQuODE2QTYgNiAwIDAxMiA4eiIgY2xpcC1ydWxlPSJldmVub2RkIiAvPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTUgOGExIDEgMCAwMTEtMWg0YTEgMSAwIDExMCAySDZhMSAxIDAgMDEtMS0xeiIgY2xpcC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4=)
 
 -}
 zoomOut : List (Attribute msg) -> Html msg
