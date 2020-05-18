@@ -12,18 +12,8 @@ else
     git clone https://github.com/refactoringui/heroicons.git
 fi
 
-for f in heroicons/dist/outline-md/*.svg
-do
-    mv "$f" "${f//md-/}"
-done
-
-for f in heroicons/dist/solid-sm/*.svg
-do
-    mv "$f" "${f//sm-/}"
-done
-
-python3 generate.py Outline heroicons/dist/outline-md/*.svg
-python3 generate.py Solid heroicons/dist/solid-sm/*.svg
+python3 generate.py Outline heroicons/outline/*.svg
+python3 generate.py Solid heroicons/solid/*.svg
 
 elm-format ./ --yes
 
