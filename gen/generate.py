@@ -11,7 +11,12 @@ module_name = sys.argv[1]
 
 def to_attr(xml_attr):
     name, value = xml_attr
-    return '{} "{}"'.format(svg_attrs.get(name, name), value)
+    attr = svg_attrs.get(name, name)
+
+    if attr == "x":
+        attr = "Svg.Attributes." + attr
+
+    return '{} "{}"'.format(attr, value)
 
 
 def to_elm(node):
@@ -19,11 +24,12 @@ def to_elm(node):
         (" :: ", "({} :: attrs)") if node.tag == "svg" else (", ", "[{}]")
     )
 
-    attrs = attr_sep.join(map(to_attr, node.attrib.items(),))
+    attrs = attr_sep.join(map(to_attr, node.attrib.items()))
     children = ", ".join(map(to_elm, node))
+    bad_tags = ["path", "clipPath"]
 
     return ("{} " + attr_format + " [{}]").format(
-        "Svg.path" if node.tag == "path" else node.tag, attrs, children
+        "Svg." + node.tag if node.tag in bad_tags else node.tag, attrs, children
     )
 
 
@@ -74,7 +80,7 @@ with open("{}.elm".format(module_name), "w") as file_out:
 -}}
 
 import Html exposing (Html)
-import Svg exposing (Attribute, svg)
+import Svg exposing (Attribute, svg, defs, g, rect)
 import Svg.Attributes exposing (..)
 
 """.format(
