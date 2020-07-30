@@ -2,14 +2,9 @@
 
 if [ -d heroicons ]
 then
-    (
-        cd heroicons
-        git checkout -f 1> /dev/null
-        git clean -fd 1> /dev/null
-        git pull
-    )
+    git submodule update
 else
-    git clone https://github.com/refactoringui/heroicons.git
+    git submodule init
 fi
 
 python3 generate.py Outline heroicons/outline/*.svg
