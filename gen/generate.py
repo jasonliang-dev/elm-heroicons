@@ -6,84 +6,96 @@ import xml.etree.ElementTree as ET
 
 from attr_lookup import svg_attrs
 
-module_name = sys.argv[1]
+
+def strip_namespace(xml_tag):
+    uri, tag = xml_tag[1:].split("}")
+    return tag
 
 
 def to_attr(xml_attr):
     name, value = xml_attr
     attr = svg_attrs.get(name, name)
 
+    # function name collision with `x` icon
     if attr == "x":
         attr = "Svg.Attributes." + attr
 
-    return '{} "{}"'.format(attr, value)
+    return f'{attr} "{value}"'
 
 
 def to_elm(node):
-    attr_sep, attr_format = (
-        (" :: ", "({} :: attrs)") if node.tag == "svg" else (", ", "[{}]")
-    )
+    tag_collisions = ["path"]
+    tag = strip_namespace(node.tag)
+
+    if tag == "svg":
+        attr_sep = " :: "
+        attr_format = "({} :: attrs)"
+    else:
+        attr_sep = ", "
+        attr_format = "[{}]"
+
+    if tag in tag_collisions:
+        tag = "Svg." + tag
 
     attrs = attr_sep.join(map(to_attr, node.attrib.items()))
     children = ", ".join(map(to_elm, node))
-    bad_tags = ["path", "clipPath"]
 
-    return ("{} " + attr_format + " [{}]").format(
-        "Svg." + node.tag if node.tag in bad_tags else node.tag, attrs, children
-    )
+    return f"{tag} " + attr_format.format(attrs) + f" [{children}]"
 
 
 def node_to_b64(tree):
     tree_cpy = copy.deepcopy(tree).getroot()
-    tree_cpy.attrib["xmlns"] = "http://www.w3.org/2000/svg"
-    tree_cpy.attrib["width"] = "24"
-    tree_cpy.attrib["height"] = "24"
+    tree_cpy.attrib["width"] = "32"
+    tree_cpy.attrib["height"] = "32"
     return base64.b64encode(ET.tostring(tree_cpy)).decode("utf-8")
 
 
-source_code = ""
-funcs = []
+func_template = """
+{{-| {icon_name}
 
-for svg_file in sys.argv[2:]:
-    template = """
-{{-| {name}
-
-![image](data:image/svg+xml;base64,{icon})
+![image](data:image/svg+xml;base64,{b64_icon})
 
 -}}
 {func} : List (Attribute msg) -> Html msg
 {func} attrs =
-    {body}
+    {func_body}
 
 """
 
+source_code = ""
+funcs_list = []
+
+for svg_file in sys.argv[2:]:
     tree = ET.parse(svg_file)
+
     icon_name = os.path.basename(svg_file).replace(".svg", "")
-    first, *rest = icon_name.split("-")
-    func_name = first + "".join(word.capitalize() for word in rest)
+    firstWord, *rest = icon_name.split("-")
+    func_name = firstWord + "".join(word.capitalize() for word in rest)
 
-    source_code += template.format(
+    source_code += func_template.format(
         func=func_name,
-        body=to_elm(tree.getroot()),
-        name=icon_name,
-        icon=node_to_b64(tree),
+        func_body=to_elm(tree.getroot()),
+        icon_name=icon_name,
+        b64_icon=node_to_b64(tree),
     )
-    funcs.append(func_name)
+    funcs_list.append(func_name)
 
-with open("{}.elm".format(module_name), "w") as file_out:
-    top_of_file = """module Heroicons.{} exposing ({funcs})
+module_name = sys.argv[1]
+
+exposing_funcs = ", ".join(funcs_list)
+top_of_file = f"""module Heroicons.{module_name} exposing ({exposing_funcs})
 
 {{-|
 # Heroicons
 
-@docs {funcs}
+@docs {exposing_funcs}
 -}}
 
 import Html exposing (Html)
 import Svg exposing (Attribute, svg, defs, g, rect)
 import Svg.Attributes exposing (..)
 
-""".format(
-        module_name, funcs=", ".join(funcs)
-    )
+"""
+
+with open("{}.elm".format(module_name), "w") as file_out:
     file_out.write(top_of_file + source_code)
