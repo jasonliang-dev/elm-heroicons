@@ -2,7 +2,7 @@
 
 if [ -d heroicons ]
 then
-    git submodule update
+    git submodule update --remote
 else
     git submodule init
 fi
