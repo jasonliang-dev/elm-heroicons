@@ -65,6 +65,8 @@ func_template = """
 source_code = ""
 funcs_list = []
 
+ET.register_namespace("", "http://www.w3.org/2000/svg")
+
 for svg_file in sys.argv[2:]:
     tree = ET.parse(svg_file)
 
