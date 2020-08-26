@@ -3,6 +3,7 @@
 if [ -d heroicons ]
 then
     git submodule update --remote
+    (cd $PWD/heroicons; npm install)
 else
     git submodule init
 fi
@@ -10,6 +11,6 @@ fi
 python3 generate.py Outline heroicons/outline/*.svg
 python3 generate.py Solid heroicons/solid/*.svg
 
-elm-format ./ --yes
+elm-format $PWD/ --yes
 
-mv *.elm ../src/Heroicons/
+mv *.elm $PWD/../src/Heroicons/
