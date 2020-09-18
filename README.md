@@ -6,9 +6,9 @@ elm/svg elements.
 ## Install
 
 ```
-elm install jasonliang512/elm-heroicons
+elm install jasonliang-dev/elm-heroicons
 
-# optional
+# optional (move from indirect to direct dependency)
 elm install elm/svg
 ```
 
@@ -32,13 +32,13 @@ When styling with classes, use `Svg.Attributes.class` for the icons. Do not use
 `Html.Attributes.class`:
 
 ```elm
-import Html.Attributes exposing (class)
+import Html.Attributes
 import Svg.Attributes
 import Heroicons.Solid
 
 
 -- INCORRECT
-Heroicons.Solid.mail [ class "icon" ]
+Heroicons.Solid.mail [ Html.Attributes.class "icon" ]
 
 
 -- CORRECT
