@@ -1,9 +1,9 @@
 {
     "type": "package",
-    "name": "jasonliang512/elm-heroicons",
+    "name": "jasonliang-dev/elm-heroicons",
     "summary": "Heroicons for elm",
     "license": "MIT",
-    "version": "2.4.0",
+    "version": "1.0.0",
     "exposed-modules": [
         "Heroicons.Solid",
         "Heroicons.Outline"
