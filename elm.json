@@ -3,7 +3,7 @@
     "name": "jasonliang-dev/elm-heroicons",
     "summary": "Heroicons for elm",
     "license": "MIT",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "exposed-modules": [
         "Heroicons.Solid",
         "Heroicons.Outline"
