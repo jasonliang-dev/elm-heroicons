@@ -8,8 +8,8 @@ else
     git submodule init
 fi
 
-python3 generate.py Outline heroicons/src/outline/*.svg
-python3 generate.py Solid heroicons/src/solid/*.svg
+python3 generate.py Outline heroicons/optimized/outline/*.svg
+python3 generate.py Solid heroicons/optimized/solid/*.svg
 
 elm-format $PWD/ --yes
 

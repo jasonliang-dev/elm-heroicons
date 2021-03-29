@@ -24,7 +24,6 @@ def to_attr(xml_attr):
 
 
 def to_elm(node):
-    tag_collisions = ["path", "clipPath"]
     tag = strip_namespace(node.tag)
 
     if tag == "svg":
@@ -34,6 +33,7 @@ def to_elm(node):
         attr_sep = ", "
         attr_format = "[{}]"
 
+    tag_collisions = ["path", "clipPath"]
     if tag in tag_collisions:
         tag = "Svg." + tag
 
