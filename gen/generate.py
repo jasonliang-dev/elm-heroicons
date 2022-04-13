@@ -19,6 +19,10 @@ def to_attr(xml_attr):
     # function name collision with `x` icon
     if attr == "x":
         attr = "Svg.Attributes." + attr
+    # does mixing html and svg attrs work?
+    # apparently it does lol.
+    elif attr == "aria-hidden":
+        attr = 'Html.Attributes.attribute "aria-hidden"'
 
     return f'{attr} "{value}"'
 
@@ -94,6 +98,7 @@ top_of_file = f"""module Heroicons.{module_name} exposing ({exposing_funcs})
 -}}
 
 import Html exposing (Html)
+import Html.Attributes
 import Svg exposing (Attribute, svg, defs, g, rect)
 import Svg.Attributes exposing (..)
 
