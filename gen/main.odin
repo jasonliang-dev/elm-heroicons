@@ -81,27 +81,38 @@ write_xml :: proc(buf: ^strings.Builder, doc: ^xml.Document, id: xml.Element_ID,
 
 generate :: proc(builder: ^strings.Builder, size: int, path: string, module: string, outfile: string) {
 	fmt.printf("generating %v...", outfile)
+	defer fmt.println(" done.")
 
 	dir, err := os.open(path)
 	defer os.close(dir)
 	if err != 0 {
-		fmt.eprintf("cannot open directory (errno %v)\n", err)
+		fmt.eprintf("cannot open directory %v, (errno %v)\n", path, err)
 		os.exit(1)
 	}
 
 	infos: []os.File_Info
 	infos, err = os.read_dir(dir, 0)
+	defer delete(infos)
 	if err != 0 {
 		fmt.eprintf("cannot read directory (errno %v)\n", err)
 		os.exit(1)
 	}
 
 	fn_list: [dynamic]string
+	defer {
+		for fn in fn_list {
+			delete(fn)
+		}
+
+		delete(fn_list)
+	}
+
 	for info in infos {
 		file_name := strings.trim_suffix(info.name, ".svg")
 		append(&fn_list, strings.to_camel_case(file_name))
 	}
 	fn_list_str := strings.join(fn_list[:], ", ")
+	defer delete(fn_list_str)
 
 	fmt.sbprintf(builder, `module Heroicons.%[1]v exposing (%[2]v)
 
@@ -115,10 +126,10 @@ generate :: proc(builder: ^strings.Builder, size: int, path: string, module: str
 -}}
 
 import Html exposing (Html)
-import VirtualDom
+import Json.Encode
 import Svg exposing (Attribute)
 import Svg.Attributes exposing (..)
-import Json.Encode
+import VirtualDom
 
 
 xmlns : String -> Attribute a
@@ -131,27 +142,29 @@ xmlns =
 
 	for info, i in infos {
 		doc, err := xml.load_from_file(info.fullpath)
+		defer xml.destroy(doc)
 		if err != .None {
 			fmt.eprintf("cannot load file: %v\n", err)
 			os.exit(1)
 		}
 
 		write_xml(&tmp_builder, doc, 0, size)
+		defer strings.builder_reset(&tmp_builder)
 
-		name := fn_list[i]
-		fmt.sbprintf(builder, `
+		as_b64 := base64.encode(tmp_builder.buf[:])
+		defer delete(as_b64)
 
-{{-| 
+		strings.write_string(builder, `
 
-![image](data:image/svg+xml;base64,%[1]v)
+{-| ![image](data:image/svg+xml;base64,`)
 
--}}
-%[2]v : List (Attribute msg) -> Html msg
-%[2]v attrs = `, base64.encode(tmp_builder.buf[:]), name)
+		strings.write_string(builder, as_b64)
+
+		fmt.sbprintf(builder, `) -}}
+%[1]v : List (Attribute msg) -> Html msg
+%[1]v attrs = `, fn_list[i])
 
 		to_elm(builder, doc, 0)
-
-		strings.builder_reset(&tmp_builder)
 	}
 
 	ok := os.write_entire_file(outfile, builder.buf[:])
@@ -161,11 +174,11 @@ xmlns =
 	}
 
 	strings.builder_reset(builder)
-	fmt.println(" done.")
 }
 
 main :: proc() {
 	file_builder := strings.builder_make()
+	defer strings.builder_destroy(&file_builder)
 
 	generate(&file_builder, 24, "heroicons/optimized/24/solid", "Solid", "../src/Heroicons/Solid.elm")
 	generate(&file_builder, 24, "heroicons/optimized/24/outline", "Outline", "../src/Heroicons/Outline.elm")
