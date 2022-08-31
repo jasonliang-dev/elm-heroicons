@@ -1,20 +1,5 @@
-# Usage:
+Usage:
 
-To create attr_lookup.py:
-
-```
-create_lookup_script.py
-```
-
-To generate an Elm module:
-
-```
-generate.py <elm module name> <svg files...>
-generate.py Outline outline-md/*.svg
-```
-
-To generate this package from the heroicons repo:
-
-```
-from_repo.sh
-```
+1. Download [Odin](https://odin-lang.org/docs/install/) and [elm-format](https://github.com/avh4/elm-format)
+2. `git submodule update --init`
+3. `odin run .`
