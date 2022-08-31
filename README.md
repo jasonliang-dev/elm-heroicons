@@ -1,7 +1,10 @@
 # Heroicons for elm
 
-This package provides [Heroicons](https://github.com/refactoringui/heroicons) as
-elm/svg elements.
+This package provides [Heroicons](https://github.com/refactoringui/heroicons)
+as elm/svg elements.
+
+If you only need a few icons and/or don't want to download an entire package, visit
+[jasonliang.js.org/heroicons-for-elm/](https://jasonliang.js.org/heroicons-for-elm/).
 
 ## Install
 
