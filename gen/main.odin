@@ -17,8 +17,7 @@ to_elm :: proc(buf: ^strings.Builder, doc: ^xml.Document, id: xml.Element_ID) {
 		fmt.sbprintf(buf, "Svg.%v [ ", el.ident)
 	}
 
-	i := 0
-	for attr in el.attribs {
+	for attr, i in el.attribs {
 		if i > 0 {
 			strings.write_string(buf, id == 0 ? " :: " : ", ")
 		}
@@ -33,8 +32,6 @@ to_elm :: proc(buf: ^strings.Builder, doc: ^xml.Document, id: xml.Element_ID) {
 		}
 
 		fmt.sbprintf(buf, `%v "%v"`, key, attr.val)
-
-		i += 1
 	}
 
 	if id == 0 {
