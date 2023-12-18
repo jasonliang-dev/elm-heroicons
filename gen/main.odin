@@ -8,18 +8,18 @@ import "core:io"
 import "core:os"
 import "core:strings"
 
-to_elm :: proc(buf: ^strings.Builder, doc: ^xml.Document, id: xml.Element_ID) {
+to_elm :: proc(builder: ^strings.Builder, doc: ^xml.Document, id: xml.Element_ID) {
 	el := doc.elements[id]
 
 	if id == 0 {
-		fmt.sbprintf(buf, "Svg.%v (", el.ident)
+		fmt.sbprintf(builder, "Svg.%v (", el.ident)
 	} else {
-		fmt.sbprintf(buf, "Svg.%v [ ", el.ident)
+		fmt.sbprintf(builder, "Svg.%v [ ", el.ident)
 	}
 
 	for attr, i in el.attribs {
 		if i > 0 {
-			strings.write_string(buf, id == 0 ? " :: " : ", ")
+			strings.write_string(builder, id == 0 ? " :: " : ", ")
 		}
 
 		key : string
@@ -31,54 +31,53 @@ to_elm :: proc(buf: ^strings.Builder, doc: ^xml.Document, id: xml.Element_ID) {
 			key = attrs[attr.key]
 		}
 
-		fmt.sbprintf(buf, `%v "%v"`, key, attr.val)
+		fmt.sbprintf(builder, `%v "%v"`, key, attr.val)
 	}
 
 	if id == 0 {
-		strings.write_string(buf, " :: attrs) [ ")
+		strings.write_string(builder, " :: attrs) [ ")
 	} else {
-		strings.write_string(buf, " ] [ ")
+		strings.write_string(builder, " ] [ ")
 	}
 
-	for child_id, i in el.children {
+	for child, i in el.value {
 		if i > 0 {
-			strings.write_string(buf, ", ")
+			strings.write_string(builder, ", ")
 		}
 
-		to_elm(buf, doc, child_id)
+		to_elm(builder, doc, child.(xml.Element_ID))
 	}
 
-	strings.write_string(buf, " ]")
+	strings.write_string(builder, " ]")
 }
 
 // no xml writer?
-write_xml :: proc(buf: ^strings.Builder, doc: ^xml.Document, id: xml.Element_ID, size: int) {
+write_xml :: proc(builder: ^strings.Builder, doc: ^xml.Document, id: xml.Element_ID, size: int) {
 	el := doc.elements[id]
 
-	fmt.sbprintf(buf, "<%v", el.ident)
+	fmt.sbprintf(builder, "<%v", el.ident)
 
 	for attr, i in el.attribs {
-		fmt.sbprintf(buf, ` %v="%v"`, attr.key, attr.val)
+		fmt.sbprintf(builder, ` %v="%v"`, attr.key, attr.val)
 	}
 
-	fmt.sbprintf(buf, ` width="%[1]v" height="%[1]v"`, size)
+	fmt.sbprintf(builder, ` width="%[1]v" height="%[1]v"`, size)
 
-	if len(el.children) > 0 {
-		strings.write_rune(buf, '>')
+	if len(el.value) > 0 {
+		strings.write_rune(builder, '>')
 
-		for child_id in el.children {
-			write_xml(buf, doc, child_id, size)
+		for child in el.value {
+			write_xml(builder, doc, child.(xml.Element_ID), size)
 		}
 
-		fmt.sbprintf(buf, "</%v>", el.ident)
+		fmt.sbprintf(builder, "</%v>", el.ident)
 	} else {
-		strings.write_string(buf, "/>")
+		strings.write_string(builder, "/>")
 	}
 }
 
 generate :: proc(builder: ^strings.Builder, size: int, path: string, module: string, outfile: string) {
 	fmt.printf("generating %v...", outfile)
-	defer fmt.println(" done.")
 
 	dir, err := os.open(path)
 	defer os.close(dir)
@@ -89,27 +88,18 @@ generate :: proc(builder: ^strings.Builder, size: int, path: string, module: str
 
 	infos: []os.File_Info
 	infos, err = os.read_dir(dir, 0)
-	defer delete(infos)
 	if err != 0 {
 		fmt.eprintf("cannot read directory (errno %v)\n", err)
 		os.exit(1)
 	}
 
 	fn_list: [dynamic]string
-	defer {
-		for fn in fn_list {
-			delete(fn)
-		}
-
-		delete(fn_list)
-	}
 
 	for info in infos {
 		file_name := strings.trim_suffix(info.name, ".svg")
 		append(&fn_list, strings.to_camel_case(file_name))
 	}
 	fn_list_str := strings.join(fn_list[:], ", ")
-	defer delete(fn_list_str)
 
 	fmt.sbprintf(builder, `module Heroicons.%[1]v exposing (%[2]v)
 
@@ -134,22 +124,20 @@ xmlns =
     VirtualDom.property "xmlns" << Json.Encode.string
 `, module, fn_list_str)
 
-	tmp_builder := strings.builder_make()
-	defer strings.builder_destroy(&tmp_builder)
+	tmp := strings.builder_make()
 
 	for info, i in infos {
+		strings.builder_reset(&tmp)
+
 		doc, err := xml.load_from_file(info.fullpath)
-		defer xml.destroy(doc)
 		if err != .None {
 			fmt.eprintf("cannot load file: %v\n", err)
 			os.exit(1)
 		}
 
-		write_xml(&tmp_builder, doc, 0, size)
-		defer strings.builder_reset(&tmp_builder)
+		write_xml(&tmp, doc, 0, size)
 
-		as_b64 := base64.encode(tmp_builder.buf[:])
-		defer delete(as_b64)
+		as_b64 := base64.encode(tmp.buf[:])
 
 		strings.write_string(builder, `
 
@@ -171,15 +159,16 @@ xmlns =
 	}
 
 	strings.builder_reset(builder)
+	fmt.println(" done.")
 }
 
 main :: proc() {
 	file_builder := strings.builder_make()
-	defer strings.builder_destroy(&file_builder)
 
 	generate(&file_builder, 24, "heroicons/optimized/24/solid", "Solid", "../src/Heroicons/Solid.elm")
 	generate(&file_builder, 24, "heroicons/optimized/24/outline", "Outline", "../src/Heroicons/Outline.elm")
 	generate(&file_builder, 20, "heroicons/optimized/20/solid", "Mini", "../src/Heroicons/Mini.elm")
+	generate(&file_builder, 16, "heroicons/optimized/16/solid", "Micro", "../src/Heroicons/Micro.elm")
 
 	libc.system("elm-format ../src/Heroicons --yes")
 }
