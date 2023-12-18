@@ -21,2072 +21,2072 @@ xmlns =
     VirtualDom.property "xmlns" << Json.Encode.string
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTkuNjY0IDEuMzE5YS43NS43NSAwIDAgMSAuNjcyIDAgNDEuMDU5IDQxLjA1OSAwIDAgMSA4LjE5OCA1LjQyNC43NS43NSAwIDAgMS0uMjU0IDEuMjg1IDMxLjM3MiAzMS4zNzIgMCAwIDAtNy44NiAzLjgzLjc1Ljc1IDAgMCAxLS44NCAwIDMxLjUwOCAzMS41MDggMCAwIDAtMi4wOC0xLjI4N1Y5LjM5NGMwLS4yNDQuMTE2LS40NjMuMzAyLS41OTJhMzUuNTA0IDM1LjUwNCAwIDAgMSAzLjMwNS0yLjAzMy43NS43NSAwIDAgMC0uNzE0LTEuMzE5IDM3IDM3IDAgMCAwLTMuNDQ2IDIuMTJBMi4yMTYgMi4yMTYgMCAwIDAgNiA5LjM5M3YuMzhhMzEuMjkzIDMxLjI5MyAwIDAgMC00LjI4LTEuNzQ2Ljc1Ljc1IDAgMCAxLS4yNTQtMS4yODUgNDEuMDU5IDQxLjA1OSAwIDAgMSA4LjE5OC01LjQyNFpNNiAxMS40NTlhMjkuODQ4IDI5Ljg0OCAwIDAgMC0yLjQ1NS0xLjE1OCA0MS4wMjkgNDEuMDI5IDAgMCAwLS4zOSAzLjExNC43NS43NSAwIDAgMCAuNDE5Ljc0Yy41MjguMjU2IDEuMDQ2LjUzIDEuNTU0LjgyLS4yMS4zMjQtLjQ1NS42My0uNzM5LjkxNGEuNzUuNzUgMCAxIDAgMS4wNiAxLjA2Yy4zNy0uMzY5LjY5LS43Ny45Ni0xLjE5M2EyNi42MSAyNi42MSAwIDAgMSAzLjA5NSAyLjM0OC43NS43NSAwIDAgMCAuOTkyIDAgMjYuNTQ3IDI2LjU0NyAwIDAgMSA1LjkzLTMuOTUuNzUuNzUgMCAwIDAgLjQyLS43MzkgNDEuMDUzIDQxLjA1MyAwIDAgMC0uMzktMy4xMTQgMjkuOTI1IDI5LjkyNSAwIDAgMC01LjE5OSAyLjgwMSAyLjI1IDIuMjUgMCAwIDEtMi41MTQgMGMtLjQxLS4yNzUtLjgyNi0uNTQxLTEuMjUtLjc5N2E2Ljk4NSA2Ljk4NSAwIDAgMS0xLjA4NCAzLjQ1IDI2LjUwMyAyNi41MDMgMCAwIDAtMS4yODEtLjc4QTUuNDg3IDUuNDg3IDAgMCAwIDYgMTJ2LS41NFoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| academicCap
 -}
 academicCap : List (Attribute msg) -> Html msg
 academicCap attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M9.664 1.319a.75.75 0 0 1 .672 0 41.059 41.059 0 0 1 8.198 5.424.75.75 0 0 1-.254 1.285 31.372 31.372 0 0 0-7.86 3.83.75.75 0 0 1-.84 0 31.508 31.508 0 0 0-2.08-1.287V9.394c0-.244.116-.463.302-.592a35.504 35.504 0 0 1 3.305-2.033.75.75 0 0 0-.714-1.319 37 37 0 0 0-3.446 2.12A2.216 2.216 0 0 0 6 9.393v.38a31.293 31.293 0 0 0-4.28-1.746.75.75 0 0 1-.254-1.285 41.059 41.059 0 0 1 8.198-5.424ZM6 11.459a29.848 29.848 0 0 0-2.455-1.158 41.029 41.029 0 0 0-.39 3.114.75.75 0 0 0 .419.74c.528.256 1.046.53 1.554.82-.21.324-.455.63-.739.914a.75.75 0 1 0 1.06 1.06c.37-.369.69-.77.96-1.193a26.61 26.61 0 0 1 3.095 2.348.75.75 0 0 0 .992 0 26.547 26.547 0 0 1 5.93-3.95.75.75 0 0 0 .42-.739 41.053 41.053 0 0 0-.39-3.114 29.925 29.925 0 0 0-5.199 2.801 2.25 2.25 0 0 1-2.514 0c-.41-.275-.826-.541-1.25-.797a6.985 6.985 0 0 1-1.084 3.45 26.503 26.503 0 0 0-1.281-.78A5.487 5.487 0 0 0 6 12v-.54Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik0xMCAzLjc1YTIgMiAwIDEgMC00IDAgMiAyIDAgMCAwIDQgMFpNMTcuMjUgNC41YS43NS43NSAwIDAgMCAwLTEuNWgtNS41YS43NS43NSAwIDAgMCAwIDEuNWg1LjVaTTUgMy43NWEuNzUuNzUgMCAwIDEtLjc1Ljc1aC0xLjVhLjc1Ljc1IDAgMCAxIDAtMS41aDEuNWEuNzUuNzUgMCAwIDEgLjc1Ljc1Wk00LjI1IDE3YS43NS43NSAwIDAgMCAwLTEuNWgtMS41YS43NS43NSAwIDAgMCAwIDEuNWgxLjVaTTE3LjI1IDE3YS43NS43NSAwIDAgMCAwLTEuNWgtNS41YS43NS43NSAwIDAgMCAwIDEuNWg1LjVaTTkgMTBhLjc1Ljc1IDAgMCAxLS43NS43NWgtNS41YS43NS43NSAwIDAgMSAwLTEuNWg1LjVBLjc1Ljc1IDAgMCAxIDkgMTBaTTE3LjI1IDEwLjc1YS43NS43NSAwIDAgMCAwLTEuNWgtMS41YS43NS43NSAwIDAgMCAwIDEuNWgxLjVaTTE0IDEwYTIgMiAwIDEgMC00IDAgMiAyIDAgMCAwIDQgMFpNMTAgMTYuMjVhMiAyIDAgMSAwLTQgMCAyIDIgMCAwIDAgNCAwWiIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| adjustmentsHorizontal
 -}
 adjustmentsHorizontal : List (Attribute msg) -> Html msg
 adjustmentsHorizontal attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M10 3.75a2 2 0 1 0-4 0 2 2 0 0 0 4 0ZM17.25 4.5a.75.75 0 0 0 0-1.5h-5.5a.75.75 0 0 0 0 1.5h5.5ZM5 3.75a.75.75 0 0 1-.75.75h-1.5a.75.75 0 0 1 0-1.5h1.5a.75.75 0 0 1 .75.75ZM4.25 17a.75.75 0 0 0 0-1.5h-1.5a.75.75 0 0 0 0 1.5h1.5ZM17.25 17a.75.75 0 0 0 0-1.5h-5.5a.75.75 0 0 0 0 1.5h5.5ZM9 10a.75.75 0 0 1-.75.75h-5.5a.75.75 0 0 1 0-1.5h5.5A.75.75 0 0 1 9 10ZM17.25 10.75a.75.75 0 0 0 0-1.5h-1.5a.75.75 0 0 0 0 1.5h1.5ZM14 10a2 2 0 1 0-4 0 2 2 0 0 0 4 0ZM10 16.25a2 2 0 1 0-4 0 2 2 0 0 0 4 0Z" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik0xNyAyLjc1YS43NS43NSAwIDAgMC0xLjUgMHY1LjVhLjc1Ljc1IDAgMCAwIDEuNSAwdi01LjVaTTE3IDE1Ljc1YS43NS43NSAwIDAgMC0xLjUgMHYxLjVhLjc1Ljc1IDAgMCAwIDEuNSAwdi0xLjVaTTMuNzUgMTVhLjc1Ljc1IDAgMCAxIC43NS43NXYxLjVhLjc1Ljc1IDAgMCAxLTEuNSAwdi0xLjVhLjc1Ljc1IDAgMCAxIC43NS0uNzVaTTQuNSAyLjc1YS43NS43NSAwIDAgMC0xLjUgMHY1LjVhLjc1Ljc1IDAgMCAwIDEuNSAwdi01LjVaTTEwIDExYS43NS43NSAwIDAgMSAuNzUuNzV2NS41YS43NS43NSAwIDAgMS0xLjUgMHYtNS41QS43NS43NSAwIDAgMSAxMCAxMVpNMTAuNzUgMi43NWEuNzUuNzUgMCAwIDAtMS41IDB2MS41YS43NS43NSAwIDAgMCAxLjUgMHYtMS41Wk0xMCA2YTIgMiAwIDEgMCAwIDQgMiAyIDAgMCAwIDAtNFpNMy43NSAxMGEyIDIgMCAxIDAgMCA0IDIgMiAwIDAgMCAwLTRaTTE2LjI1IDEwYTIgMiAwIDEgMCAwIDQgMiAyIDAgMCAwIDAtNFoiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| adjustmentsVertical
 -}
 adjustmentsVertical : List (Attribute msg) -> Html msg
 adjustmentsVertical attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M17 2.75a.75.75 0 0 0-1.5 0v5.5a.75.75 0 0 0 1.5 0v-5.5ZM17 15.75a.75.75 0 0 0-1.5 0v1.5a.75.75 0 0 0 1.5 0v-1.5ZM3.75 15a.75.75 0 0 1 .75.75v1.5a.75.75 0 0 1-1.5 0v-1.5a.75.75 0 0 1 .75-.75ZM4.5 2.75a.75.75 0 0 0-1.5 0v5.5a.75.75 0 0 0 1.5 0v-5.5ZM10 11a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0v-5.5A.75.75 0 0 1 10 11ZM10.75 2.75a.75.75 0 0 0-1.5 0v1.5a.75.75 0 0 0 1.5 0v-1.5ZM10 6a2 2 0 1 0 0 4 2 2 0 0 0 0-4ZM3.75 10a2 2 0 1 0 0 4 2 2 0 0 0 0-4ZM16.25 10a2 2 0 1 0 0 4 2 2 0 0 0 0-4Z" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTIgM2ExIDEgMCAwIDAtMSAxdjFhMSAxIDAgMCAwIDEgMWgxNmExIDEgMCAwIDAgMS0xVjRhMSAxIDAgMCAwLTEtMUgyWm0wIDQuNWgxNmwtLjgxMSA3LjcxYTIgMiAwIDAgMS0xLjk5IDEuNzlINC44MDJhMiAyIDAgMCAxLTEuOTktMS43OUwyIDcuNVpNMTAgOWEuNzUuNzUgMCAwIDEgLjc1Ljc1djIuNTQ2bC45NDMtMS4wNDhhLjc1Ljc1IDAgMSAxIDEuMTE0IDEuMDA0bC0yLjI1IDIuNWEuNzUuNzUgMCAwIDEtMS4xMTQgMGwtMi4yNS0yLjVhLjc1Ljc1IDAgMSAxIDEuMTE0LTEuMDA0bC45NDMgMS4wNDhWOS43NUEuNzUuNzUgMCAwIDEgMTAgOVoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| archiveBoxArrowDown
 -}
 archiveBoxArrowDown : List (Attribute msg) -> Html msg
 archiveBoxArrowDown attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M2 3a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1H2Zm0 4.5h16l-.811 7.71a2 2 0 0 1-1.99 1.79H4.802a2 2 0 0 1-1.99-1.79L2 7.5ZM10 9a.75.75 0 0 1 .75.75v2.546l.943-1.048a.75.75 0 1 1 1.114 1.004l-2.25 2.5a.75.75 0 0 1-1.114 0l-2.25-2.5a.75.75 0 1 1 1.114-1.004l.943 1.048V9.75A.75.75 0 0 1 10 9Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik0yIDNhMSAxIDAgMCAwLTEgMXYxYTEgMSAwIDAgMCAxIDFoMTZhMSAxIDAgMCAwIDEtMVY0YTEgMSAwIDAgMC0xLTFIMloiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTIgNy41aDE2bC0uODExIDcuNzFhMiAyIDAgMCAxLTEuOTkgMS43OUg0LjgwMmEyIDIgMCAwIDEtMS45OS0xLjc5TDIgNy41Wm01LjIyIDEuNzJhLjc1Ljc1IDAgMCAxIDEuMDYgMEwxMCAxMC45NGwxLjcyLTEuNzJhLjc1Ljc1IDAgMSAxIDEuMDYgMS4wNkwxMS4wNiAxMmwxLjcyIDEuNzJhLjc1Ljc1IDAgMSAxLTEuMDYgMS4wNkwxMCAxMy4wNmwtMS43MiAxLjcyYS43NS43NSAwIDAgMS0xLjA2LTEuMDZMOC45NCAxMmwtMS43Mi0xLjcyYS43NS43NSAwIDAgMSAwLTEuMDZaIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| archiveBoxXMark
 -}
 archiveBoxXMark : List (Attribute msg) -> Html msg
 archiveBoxXMark attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M2 3a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1H2Z" ] [], Svg.path [ fillRule "evenodd", d "M2 7.5h16l-.811 7.71a2 2 0 0 1-1.99 1.79H4.802a2 2 0 0 1-1.99-1.79L2 7.5Zm5.22 1.72a.75.75 0 0 1 1.06 0L10 10.94l1.72-1.72a.75.75 0 1 1 1.06 1.06L11.06 12l1.72 1.72a.75.75 0 1 1-1.06 1.06L10 13.06l-1.72 1.72a.75.75 0 0 1-1.06-1.06L8.94 12l-1.72-1.72a.75.75 0 0 1 0-1.06Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik0yIDNhMSAxIDAgMCAwLTEgMXYxYTEgMSAwIDAgMCAxIDFoMTZhMSAxIDAgMCAwIDEtMVY0YTEgMSAwIDAgMC0xLTFIMloiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTIgNy41aDE2bC0uODExIDcuNzFhMiAyIDAgMCAxLTEuOTkgMS43OUg0LjgwMmEyIDIgMCAwIDEtMS45OS0xLjc5TDIgNy41Wk03IDExYTEgMSAwIDAgMSAxLTFoNGExIDEgMCAxIDEgMCAySDhhMSAxIDAgMCAxLTEtMVoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| archiveBox
 -}
 archiveBox : List (Attribute msg) -> Html msg
 archiveBox attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M2 3a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1H2Z" ] [], Svg.path [ fillRule "evenodd", d "M2 7.5h16l-.811 7.71a2 2 0 0 1-1.99 1.79H4.802a2 2 0 0 1-1.99-1.79L2 7.5ZM7 11a1 1 0 0 1 1-1h4a1 1 0 1 1 0 2H8a1 1 0 0 1-1-1Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEwIDE4YTggOCAwIDEgMCAwLTE2IDggOCAwIDAgMCAwIDE2Wm0uNzUtMTEuMjVhLjc1Ljc1IDAgMCAwLTEuNSAwdjQuNTlMNy4zIDkuMjRhLjc1Ljc1IDAgMCAwLTEuMSAxLjAybDMuMjUgMy41YS43NS43NSAwIDAgMCAxLjEgMGwzLjI1LTMuNWEuNzUuNzUgMCAxIDAtMS4xLTEuMDJsLTEuOTUgMi4xVjYuNzVaIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| arrowDownCircle
 -}
 arrowDownCircle : List (Attribute msg) -> Html msg
 arrowDownCircle attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm.75-11.25a.75.75 0 0 0-1.5 0v4.59L7.3 9.24a.75.75 0 0 0-1.1 1.02l3.25 3.5a.75.75 0 0 0 1.1 0l3.25-3.5a.75.75 0 1 0-1.1-1.02l-1.95 2.1V6.75Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTE0Ljc4IDUuMjJhLjc1Ljc1IDAgMCAwLTEuMDYgMEw2LjUgMTIuNDRWNi43NWEuNzUuNzUgMCAwIDAtMS41IDB2Ny41YzAgLjQxNC4zMzYuNzUuNzUuNzVoNy41YS43NS43NSAwIDAgMCAwLTEuNUg3LjU2bDcuMjItNy4yMmEuNzUuNzUgMCAwIDAgMC0xLjA2WiIgY2xpcC1ydWxlPSJldmVub2RkIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| arrowDownLeft
 -}
 arrowDownLeft : List (Attribute msg) -> Html msg
 arrowDownLeft attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M14.78 5.22a.75.75 0 0 0-1.06 0L6.5 12.44V6.75a.75.75 0 0 0-1.5 0v7.5c0 .414.336.75.75.75h7.5a.75.75 0 0 0 0-1.5H7.56l7.22-7.22a.75.75 0 0 0 0-1.06Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTggMWEuNzUuNzUgMCAwIDEgLjc1Ljc1VjZoLTEuNVYxLjc1QS43NS43NSAwIDAgMSA4IDFabS0uNzUgNXYzLjI5NmwtLjk0My0xLjA0OGEuNzUuNzUgMCAxIDAtMS4xMTQgMS4wMDRsMi4yNSAyLjVhLjc1Ljc1IDAgMCAwIDEuMTE0IDBsMi4yNS0yLjVhLjc1Ljc1IDAgMCAwLTEuMTE0LTEuMDA0TDguNzUgOS4yOTZWNmgyQTIuMjUgMi4yNSAwIDAgMSAxMyA4LjI1djQuNUEyLjI1IDIuMjUgMCAwIDEgMTAuNzUgMTVoLTUuNUEyLjI1IDIuMjUgMCAwIDEgMyAxMi43NXYtNC41QTIuMjUgMi4yNSAwIDAgMSA1LjI1IDZoMlpNNyAxNi43NXYtLjI1aDMuNzVhMy43NSAzLjc1IDAgMCAwIDMuNzUtMy43NVYxMGguMjVBMi4yNSAyLjI1IDAgMCAxIDE3IDEyLjI1djQuNUEyLjI1IDIuMjUgMCAwIDEgMTQuNzUgMTloLTUuNUEyLjI1IDIuMjUgMCAwIDEgNyAxNi43NVoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| arrowDownOnSquareStack
 -}
 arrowDownOnSquareStack : List (Attribute msg) -> Html msg
 arrowDownOnSquareStack attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M8 1a.75.75 0 0 1 .75.75V6h-1.5V1.75A.75.75 0 0 1 8 1Zm-.75 5v3.296l-.943-1.048a.75.75 0 1 0-1.114 1.004l2.25 2.5a.75.75 0 0 0 1.114 0l2.25-2.5a.75.75 0 0 0-1.114-1.004L8.75 9.296V6h2A2.25 2.25 0 0 1 13 8.25v4.5A2.25 2.25 0 0 1 10.75 15h-5.5A2.25 2.25 0 0 1 3 12.75v-4.5A2.25 2.25 0 0 1 5.25 6h2ZM7 16.75v-.25h3.75a3.75 3.75 0 0 0 3.75-3.75V10h.25A2.25 2.25 0 0 1 17 12.25v4.5A2.25 2.25 0 0 1 14.75 19h-5.5A2.25 2.25 0 0 1 7 16.75Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik0xMy43NSA3aC0zdjUuMjk2bDEuOTQzLTIuMDQ4YS43NS43NSAwIDAgMSAxLjExNCAxLjAwNGwtMy4yNSAzLjVhLjc1Ljc1IDAgMCAxLTEuMTE0IDBsLTMuMjUtMy41YS43NS43NSAwIDEgMSAxLjExNC0xLjAwNGwxLjk0MyAyLjA0OFY3aDEuNVYxLjc1YS43NS43NSAwIDAgMC0xLjUgMFY3aC0zQTIuMjUgMi4yNSAwIDAgMCA0IDkuMjV2Ny41QTIuMjUgMi4yNSAwIDAgMCA2LjI1IDE5aDcuNUEyLjI1IDIuMjUgMCAwIDAgMTYgMTYuNzV2LTcuNUEyLjI1IDIuMjUgMCAwIDAgMTMuNzUgN1oiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| arrowDownOnSquare
 -}
 arrowDownOnSquare : List (Attribute msg) -> Html msg
 arrowDownOnSquare attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M13.75 7h-3v5.296l1.943-2.048a.75.75 0 0 1 1.114 1.004l-3.25 3.5a.75.75 0 0 1-1.114 0l-3.25-3.5a.75.75 0 1 1 1.114-1.004l1.943 2.048V7h1.5V1.75a.75.75 0 0 0-1.5 0V7h-3A2.25 2.25 0 0 0 4 9.25v7.5A2.25 2.25 0 0 0 6.25 19h7.5A2.25 2.25 0 0 0 16 16.75v-7.5A2.25 2.25 0 0 0 13.75 7Z" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik02LjI4IDUuMjJhLjc1Ljc1IDAgMCAwLTEuMDYgMS4wNmw3LjIyIDcuMjJINi43NWEuNzUuNzUgMCAwIDAgMCAxLjVoNy41YS43NDcuNzQ3IDAgMCAwIC43NS0uNzV2LTcuNWEuNzUuNzUgMCAwIDAtMS41IDB2NS42OUw2LjI4IDUuMjJaIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| arrowDownRight
 -}
 arrowDownRight : List (Attribute msg) -> Html msg
 arrowDownRight attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M6.28 5.22a.75.75 0 0 0-1.06 1.06l7.22 7.22H6.75a.75.75 0 0 0 0 1.5h7.5a.747.747 0 0 0 .75-.75v-7.5a.75.75 0 0 0-1.5 0v5.69L6.28 5.22Z" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik0xMC43NSAyLjc1YS43NS43NSAwIDAgMC0xLjUgMHY4LjYxNEw2LjI5NSA4LjIzNWEuNzUuNzUgMCAxIDAtMS4wOSAxLjAzbDQuMjUgNC41YS43NS43NSAwIDAgMCAxLjA5IDBsNC4yNS00LjVhLjc1Ljc1IDAgMCAwLTEuMDktMS4wM2wtMi45NTUgMy4xMjlWMi43NVoiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjxwYXRoIGQ9Ik0zLjUgMTIuNzVhLjc1Ljc1IDAgMCAwLTEuNSAwdjIuNUEyLjc1IDIuNzUgMCAwIDAgNC43NSAxOGgxMC41QTIuNzUgMi43NSAwIDAgMCAxOCAxNS4yNXYtMi41YS43NS43NSAwIDAgMC0xLjUgMHYyLjVjMCAuNjktLjU2IDEuMjUtMS4yNSAxLjI1SDQuNzVjLS42OSAwLTEuMjUtLjU2LTEuMjUtMS4yNXYtMi41WiIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| arrowDownTray
 -}
 arrowDownTray : List (Attribute msg) -> Html msg
 arrowDownTray attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M10.75 2.75a.75.75 0 0 0-1.5 0v8.614L6.295 8.235a.75.75 0 1 0-1.09 1.03l4.25 4.5a.75.75 0 0 0 1.09 0l4.25-4.5a.75.75 0 0 0-1.09-1.03l-2.955 3.129V2.75Z" ] [], Svg.path [ d "M3.5 12.75a.75.75 0 0 0-1.5 0v2.5A2.75 2.75 0 0 0 4.75 18h10.5A2.75 2.75 0 0 0 18 15.25v-2.5a.75.75 0 0 0-1.5 0v2.5c0 .69-.56 1.25-1.25 1.25H4.75c-.69 0-1.25-.56-1.25-1.25v-2.5Z" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEwIDNhLjc1Ljc1IDAgMCAxIC43NS43NXYxMC42MzhsMy45Ni00LjE1OGEuNzUuNzUgMCAxIDEgMS4wOCAxLjA0bC01LjI1IDUuNWEuNzUuNzUgMCAwIDEtMS4wOCAwbC01LjI1LTUuNWEuNzUuNzUgMCAxIDEgMS4wOC0xLjA0bDMuOTYgNC4xNThWMy43NUEuNzUuNzUgMCAwIDEgMTAgM1oiIGNsaXAtcnVsZT0iZXZlbm9kZCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| arrowDown
 -}
 arrowDown : List (Attribute msg) -> Html msg
 arrowDown attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M10 3a.75.75 0 0 1 .75.75v10.638l3.96-4.158a.75.75 0 1 1 1.08 1.04l-5.25 5.5a.75.75 0 0 1-1.08 0l-5.25-5.5a.75.75 0 1 1 1.08-1.04l3.96 4.158V3.75A.75.75 0 0 1 10 3Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxnIGNsaXAtcGF0aD0idXJsKCNhKSIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMCAxOGE4IDggMCAxIDAgMC0xNiA4IDggMCAwIDAgMCAxNlptMy4yNS03LjI1YS43NS43NSAwIDAgMCAwLTEuNUg4LjY2bDIuMS0xLjk1YS43NS43NSAwIDEgMC0xLjAyLTEuMWwtMy41IDMuMjVhLjc1Ljc1IDAgMCAwIDAgMS4xbDMuNSAzLjI1YS43NS43NSAwIDAgMCAxLjAyLTEuMWwtMi4xLTEuOTVoNC41OVoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9nPjxkZWZzIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCI+PGNsaXBQYXRoIGlkPSJhIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik0wIDBoMjB2MjBIMHoiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvY2xpcFBhdGg+PC9kZWZzPjwvc3ZnPg==)
+{-| arrowLeftCircle
 -}
 arrowLeftCircle : List (Attribute msg) -> Html msg
 arrowLeftCircle attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.g [ clipPath "url(#a)" ] [ Svg.path [ fillRule "evenodd", d "M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.25-7.25a.75.75 0 0 0 0-1.5H8.66l2.1-1.95a.75.75 0 1 0-1.02-1.1l-3.5 3.25a.75.75 0 0 0 0 1.1l3.5 3.25a.75.75 0 0 0 1.02-1.1l-2.1-1.95h4.59Z", clipRule "evenodd" ] [] ], Svg.defs [] [ Svg.clipPath [ id "a" ] [ Svg.path [ d "M0 0h20v20H0z" ] [] ] ] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTMgNC4yNUEyLjI1IDIuMjUgMCAwIDEgNS4yNSAyaDUuNUEyLjI1IDIuMjUgMCAwIDEgMTMgNC4yNXYyYS43NS43NSAwIDAgMS0xLjUgMHYtMmEuNzUuNzUgMCAwIDAtLjc1LS43NWgtNS41YS43NS43NSAwIDAgMC0uNzUuNzV2MTEuNWMwIC40MTQuMzM2Ljc1Ljc1Ljc1aDUuNWEuNzUuNzUgMCAwIDAgLjc1LS43NXYtMmEuNzUuNzUgMCAwIDEgMS41IDB2MkEyLjI1IDIuMjUgMCAwIDEgMTAuNzUgMThoLTUuNUEyLjI1IDIuMjUgMCAwIDEgMyAxNS43NVY0LjI1WiIgY2xpcC1ydWxlPSJldmVub2RkIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xOSAxMGEuNzUuNzUgMCAwIDAtLjc1LS43NUg4LjcwNGwxLjA0OC0uOTQzYS43NS43NSAwIDEgMC0xLjAwNC0xLjExNGwtMi41IDIuMjVhLjc1Ljc1IDAgMCAwIDAgMS4xMTRsMi41IDIuMjVhLjc1Ljc1IDAgMSAwIDEuMDA0LTEuMTE0bC0xLjA0OC0uOTQzaDkuNTQ2QS43NS43NSAwIDAgMCAxOSAxMFoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| arrowLeftEndOnRectangle
 -}
 arrowLeftEndOnRectangle : List (Attribute msg) -> Html msg
 arrowLeftEndOnRectangle attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M3 4.25A2.25 2.25 0 0 1 5.25 2h5.5A2.25 2.25 0 0 1 13 4.25v2a.75.75 0 0 1-1.5 0v-2a.75.75 0 0 0-.75-.75h-5.5a.75.75 0 0 0-.75.75v11.5c0 .414.336.75.75.75h5.5a.75.75 0 0 0 .75-.75v-2a.75.75 0 0 1 1.5 0v2A2.25 2.25 0 0 1 10.75 18h-5.5A2.25 2.25 0 0 1 3 15.75V4.25Z", clipRule "evenodd" ] [], Svg.path [ fillRule "evenodd", d "M19 10a.75.75 0 0 0-.75-.75H8.704l1.048-.943a.75.75 0 1 0-1.004-1.114l-2.5 2.25a.75.75 0 0 0 0 1.114l2.5 2.25a.75.75 0 1 0 1.004-1.114l-1.048-.943h9.546A.75.75 0 0 0 19 10Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTMgNC4yNUEyLjI1IDIuMjUgMCAwIDEgNS4yNSAyaDUuNUEyLjI1IDIuMjUgMCAwIDEgMTMgNC4yNXYyYS43NS43NSAwIDAgMS0xLjUgMHYtMmEuNzUuNzUgMCAwIDAtLjc1LS43NWgtNS41YS43NS43NSAwIDAgMC0uNzUuNzV2MTEuNWMwIC40MTQuMzM2Ljc1Ljc1Ljc1aDUuNWEuNzUuNzUgMCAwIDAgLjc1LS43NXYtMmEuNzUuNzUgMCAwIDEgMS41IDB2MkEyLjI1IDIuMjUgMCAwIDEgMTAuNzUgMThoLTUuNUEyLjI1IDIuMjUgMCAwIDEgMyAxNS43NVY0LjI1WiIgY2xpcC1ydWxlPSJldmVub2RkIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xOSAxMGEuNzUuNzUgMCAwIDAtLjc1LS43NUg4LjcwNGwxLjA0OC0uOTQzYS43NS43NSAwIDEgMC0xLjAwNC0xLjExNGwtMi41IDIuMjVhLjc1Ljc1IDAgMCAwIDAgMS4xMTRsMi41IDIuMjVhLjc1Ljc1IDAgMSAwIDEuMDA0LTEuMTE0bC0xLjA0OC0uOTQzaDkuNTQ2QS43NS43NSAwIDAgMCAxOSAxMFoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| arrowLeftOnRectangle
 -}
 arrowLeftOnRectangle : List (Attribute msg) -> Html msg
 arrowLeftOnRectangle attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M3 4.25A2.25 2.25 0 0 1 5.25 2h5.5A2.25 2.25 0 0 1 13 4.25v2a.75.75 0 0 1-1.5 0v-2a.75.75 0 0 0-.75-.75h-5.5a.75.75 0 0 0-.75.75v11.5c0 .414.336.75.75.75h5.5a.75.75 0 0 0 .75-.75v-2a.75.75 0 0 1 1.5 0v2A2.25 2.25 0 0 1 10.75 18h-5.5A2.25 2.25 0 0 1 3 15.75V4.25Z", clipRule "evenodd" ] [], Svg.path [ fillRule "evenodd", d "M19 10a.75.75 0 0 0-.75-.75H8.704l1.048-.943a.75.75 0 1 0-1.004-1.114l-2.5 2.25a.75.75 0 0 0 0 1.114l2.5 2.25a.75.75 0 1 0 1.004-1.114l-1.048-.943h9.546A.75.75 0 0 0 19 10Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTE3IDQuMjVBMi4yNSAyLjI1IDAgMCAwIDE0Ljc1IDJoLTUuNUEyLjI1IDIuMjUgMCAwIDAgNyA0LjI1djJhLjc1Ljc1IDAgMCAwIDEuNSAwdi0yYS43NS43NSAwIDAgMSAuNzUtLjc1aDUuNWEuNzUuNzUgMCAwIDEgLjc1Ljc1djExLjVhLjc1Ljc1IDAgMCAxLS43NS43NWgtNS41YS43NS43NSAwIDAgMS0uNzUtLjc1di0yYS43NS43NSAwIDAgMC0xLjUgMHYyQTIuMjUgMi4yNSAwIDAgMCA5LjI1IDE4aDUuNUEyLjI1IDIuMjUgMCAwIDAgMTcgMTUuNzVWNC4yNVoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTQgMTBhLjc1Ljc1IDAgMCAwLS43NS0uNzVIMy43MDRsMS4wNDgtLjk0M2EuNzUuNzUgMCAxIDAtMS4wMDQtMS4xMTRsLTIuNSAyLjI1YS43NS43NSAwIDAgMCAwIDEuMTE0bDIuNSAyLjI1YS43NS43NSAwIDEgMCAxLjAwNC0xLjExNGwtMS4wNDgtLjk0M2g5LjU0NkEuNzUuNzUgMCAwIDAgMTQgMTBaIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| arrowLeftStartOnRectangle
 -}
 arrowLeftStartOnRectangle : List (Attribute msg) -> Html msg
 arrowLeftStartOnRectangle attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M17 4.25A2.25 2.25 0 0 0 14.75 2h-5.5A2.25 2.25 0 0 0 7 4.25v2a.75.75 0 0 0 1.5 0v-2a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v11.5a.75.75 0 0 1-.75.75h-5.5a.75.75 0 0 1-.75-.75v-2a.75.75 0 0 0-1.5 0v2A2.25 2.25 0 0 0 9.25 18h5.5A2.25 2.25 0 0 0 17 15.75V4.25Z", clipRule "evenodd" ] [], Svg.path [ fillRule "evenodd", d "M14 10a.75.75 0 0 0-.75-.75H3.704l1.048-.943a.75.75 0 1 0-1.004-1.114l-2.5 2.25a.75.75 0 0 0 0 1.114l2.5 2.25a.75.75 0 1 0 1.004-1.114l-1.048-.943h9.546A.75.75 0 0 0 14 10Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTE3IDEwYS43NS43NSAwIDAgMS0uNzUuNzVINS42MTJsNC4xNTggMy45NmEuNzUuNzUgMCAxIDEtMS4wNCAxLjA4bC01LjUtNS4yNWEuNzUuNzUgMCAwIDEgMC0xLjA4bDUuNS01LjI1YS43NS43NSAwIDEgMSAxLjA0IDEuMDhMNS42MTIgOS4yNUgxNi4yNUEuNzUuNzUgMCAwIDEgMTcgMTBaIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| arrowLeft
 -}
 arrowLeft : List (Attribute msg) -> Html msg
 arrowLeft attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M17 10a.75.75 0 0 1-.75.75H5.612l4.158 3.96a.75.75 0 1 1-1.04 1.08l-5.5-5.25a.75.75 0 0 1 0-1.08l5.5-5.25a.75.75 0 1 1 1.04 1.08L5.612 9.25H16.25A.75.75 0 0 1 17 10Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEwIDJhLjc1Ljc1IDAgMCAxIC43NS43NXYxMi41OWwxLjk1LTIuMWEuNzUuNzUgMCAxIDEgMS4xIDEuMDJsLTMuMjUgMy41YS43NS43NSAwIDAgMS0xLjEgMGwtMy4yNS0zLjVhLjc1Ljc1IDAgMSAxIDEuMS0xLjAybDEuOTUgMi4xVjIuNzVBLjc1Ljc1IDAgMCAxIDEwIDJaIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| arrowLongDown
 -}
 arrowLongDown : List (Attribute msg) -> Html msg
 arrowLongDown attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M10 2a.75.75 0 0 1 .75.75v12.59l1.95-2.1a.75.75 0 1 1 1.1 1.02l-3.25 3.5a.75.75 0 0 1-1.1 0l-3.25-3.5a.75.75 0 1 1 1.1-1.02l1.95 2.1V2.75A.75.75 0 0 1 10 2Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTE4IDEwYS43NS43NSAwIDAgMS0uNzUuNzVINC42NmwyLjEgMS45NWEuNzUuNzUgMCAxIDEtMS4wMiAxLjFsLTMuNS0zLjI1YS43NS43NSAwIDAgMSAwLTEuMWwzLjUtMy4yNWEuNzUuNzUgMCAxIDEgMS4wMiAxLjFsLTIuMSAxLjk1aDEyLjU5QS43NS43NSAwIDAgMSAxOCAxMFoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| arrowLongLeft
 -}
 arrowLongLeft : List (Attribute msg) -> Html msg
 arrowLongLeft attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M18 10a.75.75 0 0 1-.75.75H4.66l2.1 1.95a.75.75 0 1 1-1.02 1.1l-3.5-3.25a.75.75 0 0 1 0-1.1l3.5-3.25a.75.75 0 1 1 1.02 1.1l-2.1 1.95h12.59A.75.75 0 0 1 18 10Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTIgMTBhLjc1Ljc1IDAgMCAxIC43NS0uNzVoMTIuNTlsLTIuMS0xLjk1YS43NS43NSAwIDEgMSAxLjAyLTEuMWwzLjUgMy4yNWEuNzUuNzUgMCAwIDEgMCAxLjFsLTMuNSAzLjI1YS43NS43NSAwIDEgMS0xLjAyLTEuMWwyLjEtMS45NUgyLjc1QS43NS43NSAwIDAgMSAyIDEwWiIgY2xpcC1ydWxlPSJldmVub2RkIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| arrowLongRight
 -}
 arrowLongRight : List (Attribute msg) -> Html msg
 arrowLongRight attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M2 10a.75.75 0 0 1 .75-.75h12.59l-2.1-1.95a.75.75 0 1 1 1.02-1.1l3.5 3.25a.75.75 0 0 1 0 1.1l-3.5 3.25a.75.75 0 1 1-1.02-1.1l2.1-1.95H2.75A.75.75 0 0 1 2 10Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEwIDE4YS43NS43NSAwIDAgMS0uNzUtLjc1VjQuNjZMNy4zIDYuNzZhLjc1Ljc1IDAgMCAxLTEuMS0xLjAybDMuMjUtMy41YS43NS43NSAwIDAgMSAxLjEgMGwzLjI1IDMuNWEuNzUuNzUgMCAxIDEtMS4xIDEuMDJsLTEuOTUtMi4xdjEyLjU5QS43NS43NSAwIDAgMSAxMCAxOFoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| arrowLongUp
 -}
 arrowLongUp : List (Attribute msg) -> Html msg
 arrowLongUp attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M10 18a.75.75 0 0 1-.75-.75V4.66L7.3 6.76a.75.75 0 0 1-1.1-1.02l3.25-3.5a.75.75 0 0 1 1.1 0l3.25 3.5a.75.75 0 1 1-1.1 1.02l-1.95-2.1v12.59A.75.75 0 0 1 10 18Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEwIDQuNWMxLjIxNSAwIDIuNDE3LjA1NSAzLjYwNC4xNjJhLjY4LjY4IDAgMCAxIC42MTUuNTk3Yy4xMjQgMS4wMzguMjA4IDIuMDg4LjI1IDMuMTVsLTEuNjg5LTEuNjlhLjc1Ljc1IDAgMCAwLTEuMDYgMS4wNjFsMi45OTkgM2EuNzUuNzUgMCAwIDAgMS4wNiAwbDMuMDAxLTNhLjc1Ljc1IDAgMSAwLTEuMDYtMS4wNmwtMS43NDggMS43NDdhNDEuMzEgNDEuMzEgMCAwIDAtLjI2NC0zLjM4NiAyLjE4IDIuMTggMCAwIDAtMS45Ny0xLjkxMyA0MS41MTIgNDEuNTEyIDAgMCAwLTcuNDc3IDAgMi4xOCAyLjE4IDAgMCAwLTEuOTY5IDEuOTEzIDQxLjE2IDQxLjE2IDAgMCAwLS4xNiAxLjYxLjc1Ljc1IDAgMSAwIDEuNDk1LjEyYy4wNDEtLjUyLjA5My0xLjAzOC4xNTQtMS41NTJhLjY4LjY4IDAgMCAxIC42MTUtLjU5N0E0MC4wMTIgNDAuMDEyIDAgMCAxIDEwIDQuNVpNNS4yODEgOS4yMmEuNzUuNzUgMCAwIDAtMS4wNiAwbC0zLjAwMSAzYS43NS43NSAwIDEgMCAxLjA2IDEuMDZsMS43NDgtMS43NDdjLjA0MiAxLjE0MS4xMyAyLjI3LjI2NCAzLjM4NmEyLjE4IDIuMTggMCAwIDAgMS45NyAxLjkxMyA0MS41MzMgNDEuNTMzIDAgMCAwIDcuNDc3IDAgMi4xOCAyLjE4IDAgMCAwIDEuOTY5LTEuOTEzYy4wNjQtLjUzNC4xMTctMS4wNzEuMTYtMS42MWEuNzUuNzUgMCAxIDAtMS40OTUtLjEyYy0uMDQxLjUyLS4wOTMgMS4wMzctLjE1NCAxLjU1MmEuNjguNjggMCAwIDEtLjYxNS41OTcgNDAuMDEzIDQwLjAxMyAwIDAgMS03LjIwOCAwIC42OC42OCAwIDAgMS0uNjE1LS41OTcgMzkuNzg1IDM5Ljc4NSAwIDAgMS0uMjUtMy4xNWwxLjY4OSAxLjY5YS43NS43NSAwIDAgMCAxLjA2LTEuMDYxbC0yLjk5OS0zWiIgY2xpcC1ydWxlPSJldmVub2RkIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| arrowPathRoundedSquare
 -}
 arrowPathRoundedSquare : List (Attribute msg) -> Html msg
 arrowPathRoundedSquare attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M10 4.5c1.215 0 2.417.055 3.604.162a.68.68 0 0 1 .615.597c.124 1.038.208 2.088.25 3.15l-1.689-1.69a.75.75 0 0 0-1.06 1.061l2.999 3a.75.75 0 0 0 1.06 0l3.001-3a.75.75 0 1 0-1.06-1.06l-1.748 1.747a41.31 41.31 0 0 0-.264-3.386 2.18 2.18 0 0 0-1.97-1.913 41.512 41.512 0 0 0-7.477 0 2.18 2.18 0 0 0-1.969 1.913 41.16 41.16 0 0 0-.16 1.61.75.75 0 1 0 1.495.12c.041-.52.093-1.038.154-1.552a.68.68 0 0 1 .615-.597A40.012 40.012 0 0 1 10 4.5ZM5.281 9.22a.75.75 0 0 0-1.06 0l-3.001 3a.75.75 0 1 0 1.06 1.06l1.748-1.747c.042 1.141.13 2.27.264 3.386a2.18 2.18 0 0 0 1.97 1.913 41.533 41.533 0 0 0 7.477 0 2.18 2.18 0 0 0 1.969-1.913c.064-.534.117-1.071.16-1.61a.75.75 0 1 0-1.495-.12c-.041.52-.093 1.037-.154 1.552a.68.68 0 0 1-.615.597 40.013 40.013 0 0 1-7.208 0 .68.68 0 0 1-.615-.597 39.785 39.785 0 0 1-.25-3.15l1.689 1.69a.75.75 0 0 0 1.06-1.061l-2.999-3Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTE1LjMxMiAxMS40MjRhNS41IDUuNSAwIDAgMS05LjIwMSAyLjQ2NmwtLjMxMi0uMzExaDIuNDMzYS43NS43NSAwIDAgMCAwLTEuNUgzLjk4OWEuNzUuNzUgMCAwIDAtLjc1Ljc1djQuMjQyYS43NS43NSAwIDAgMCAxLjUgMHYtMi40M2wuMzEuMzFhNyA3IDAgMCAwIDExLjcxMi0zLjEzOC43NS43NSAwIDAgMC0xLjQ0OS0uMzlabTEuMjMtMy43MjNhLjc1Ljc1IDAgMCAwIC4yMTktLjUzVjIuOTI5YS43NS43NSAwIDAgMC0xLjUgMFY1LjM2bC0uMzEtLjMxQTcgNyAwIDAgMCAzLjIzOSA4LjE4OGEuNzUuNzUgMCAxIDAgMS40NDguMzg5QTUuNSA1LjUgMCAwIDEgMTMuODkgNi4xMWwuMzExLjMxaC0yLjQzMmEuNzUuNzUgMCAwIDAgMCAxLjVoNC4yNDNhLjc1Ljc1IDAgMCAwIC41My0uMjE5WiIgY2xpcC1ydWxlPSJldmVub2RkIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| arrowPath
 -}
 arrowPath : List (Attribute msg) -> Html msg
 arrowPath attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M15.312 11.424a5.5 5.5 0 0 1-9.201 2.466l-.312-.311h2.433a.75.75 0 0 0 0-1.5H3.989a.75.75 0 0 0-.75.75v4.242a.75.75 0 0 0 1.5 0v-2.43l.31.31a7 7 0 0 0 11.712-3.138.75.75 0 0 0-1.449-.39Zm1.23-3.723a.75.75 0 0 0 .219-.53V2.929a.75.75 0 0 0-1.5 0V5.36l-.31-.31A7 7 0 0 0 3.239 8.188a.75.75 0 1 0 1.448.389A5.5 5.5 0 0 1 13.89 6.11l.311.31h-2.432a.75.75 0 0 0 0 1.5h4.243a.75.75 0 0 0 .53-.219Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEwIDE4YTggOCAwIDEgMCAwLTE2IDggOCAwIDAgMCAwIDE2Wk02Ljc1IDkuMjVhLjc1Ljc1IDAgMCAwIDAgMS41aDQuNTlsLTIuMSAxLjk1YS43NS43NSAwIDAgMCAxLjAyIDEuMWwzLjUtMy4yNWEuNzUuNzUgMCAwIDAgMC0xLjFsLTMuNS0zLjI1YS43NS43NSAwIDEgMC0xLjAyIDEuMWwyLjEgMS45NUg2Ljc1WiIgY2xpcC1ydWxlPSJldmVub2RkIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| arrowRightCircle
 -}
 arrowRightCircle : List (Attribute msg) -> Html msg
 arrowRightCircle attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16ZM6.75 9.25a.75.75 0 0 0 0 1.5h4.59l-2.1 1.95a.75.75 0 0 0 1.02 1.1l3.5-3.25a.75.75 0 0 0 0-1.1l-3.5-3.25a.75.75 0 1 0-1.02 1.1l2.1 1.95H6.75Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTE3IDQuMjVBMi4yNSAyLjI1IDAgMCAwIDE0Ljc1IDJoLTUuNUEyLjI1IDIuMjUgMCAwIDAgNyA0LjI1djJhLjc1Ljc1IDAgMCAwIDEuNSAwdi0yYS43NS43NSAwIDAgMSAuNzUtLjc1aDUuNWEuNzUuNzUgMCAwIDEgLjc1Ljc1djExLjVhLjc1Ljc1IDAgMCAxLS43NS43NWgtNS41YS43NS43NSAwIDAgMS0uNzUtLjc1di0yYS43NS43NSAwIDAgMC0xLjUgMHYyQTIuMjUgMi4yNSAwIDAgMCA5LjI1IDE4aDUuNUEyLjI1IDIuMjUgMCAwIDAgMTcgMTUuNzVWNC4yNVoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMSAxMGEuNzUuNzUgMCAwIDEgLjc1LS43NWg5LjU0NmwtMS4wNDgtLjk0M2EuNzUuNzUgMCAxIDEgMS4wMDQtMS4xMTRsMi41IDIuMjVhLjc1Ljc1IDAgMCAxIDAgMS4xMTRsLTIuNSAyLjI1YS43NS43NSAwIDEgMS0xLjAwNC0xLjExNGwxLjA0OC0uOTQzSDEuNzVBLjc1Ljc1IDAgMCAxIDEgMTBaIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| arrowRightEndOnRectangle
 -}
 arrowRightEndOnRectangle : List (Attribute msg) -> Html msg
 arrowRightEndOnRectangle attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M17 4.25A2.25 2.25 0 0 0 14.75 2h-5.5A2.25 2.25 0 0 0 7 4.25v2a.75.75 0 0 0 1.5 0v-2a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v11.5a.75.75 0 0 1-.75.75h-5.5a.75.75 0 0 1-.75-.75v-2a.75.75 0 0 0-1.5 0v2A2.25 2.25 0 0 0 9.25 18h5.5A2.25 2.25 0 0 0 17 15.75V4.25Z", clipRule "evenodd" ] [], Svg.path [ fillRule "evenodd", d "M1 10a.75.75 0 0 1 .75-.75h9.546l-1.048-.943a.75.75 0 1 1 1.004-1.114l2.5 2.25a.75.75 0 0 1 0 1.114l-2.5 2.25a.75.75 0 1 1-1.004-1.114l1.048-.943H1.75A.75.75 0 0 1 1 10Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTMgNC4yNUEyLjI1IDIuMjUgMCAwIDEgNS4yNSAyaDUuNUEyLjI1IDIuMjUgMCAwIDEgMTMgNC4yNXYyYS43NS43NSAwIDAgMS0xLjUgMHYtMmEuNzUuNzUgMCAwIDAtLjc1LS43NWgtNS41YS43NS43NSAwIDAgMC0uNzUuNzV2MTEuNWMwIC40MTQuMzM2Ljc1Ljc1Ljc1aDUuNWEuNzUuNzUgMCAwIDAgLjc1LS43NXYtMmEuNzUuNzUgMCAwIDEgMS41IDB2MkEyLjI1IDIuMjUgMCAwIDEgMTAuNzUgMThoLTUuNUEyLjI1IDIuMjUgMCAwIDEgMyAxNS43NVY0LjI1WiIgY2xpcC1ydWxlPSJldmVub2RkIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik02IDEwYS43NS43NSAwIDAgMSAuNzUtLjc1aDkuNTQ2bC0xLjA0OC0uOTQzYS43NS43NSAwIDEgMSAxLjAwNC0xLjExNGwyLjUgMi4yNWEuNzUuNzUgMCAwIDEgMCAxLjExNGwtMi41IDIuMjVhLjc1Ljc1IDAgMSAxLTEuMDA0LTEuMTE0bDEuMDQ4LS45NDNINi43NUEuNzUuNzUgMCAwIDEgNiAxMFoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| arrowRightOnRectangle
 -}
 arrowRightOnRectangle : List (Attribute msg) -> Html msg
 arrowRightOnRectangle attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M3 4.25A2.25 2.25 0 0 1 5.25 2h5.5A2.25 2.25 0 0 1 13 4.25v2a.75.75 0 0 1-1.5 0v-2a.75.75 0 0 0-.75-.75h-5.5a.75.75 0 0 0-.75.75v11.5c0 .414.336.75.75.75h5.5a.75.75 0 0 0 .75-.75v-2a.75.75 0 0 1 1.5 0v2A2.25 2.25 0 0 1 10.75 18h-5.5A2.25 2.25 0 0 1 3 15.75V4.25Z", clipRule "evenodd" ] [], Svg.path [ fillRule "evenodd", d "M6 10a.75.75 0 0 1 .75-.75h9.546l-1.048-.943a.75.75 0 1 1 1.004-1.114l2.5 2.25a.75.75 0 0 1 0 1.114l-2.5 2.25a.75.75 0 1 1-1.004-1.114l1.048-.943H6.75A.75.75 0 0 1 6 10Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTMgNC4yNUEyLjI1IDIuMjUgMCAwIDEgNS4yNSAyaDUuNUEyLjI1IDIuMjUgMCAwIDEgMTMgNC4yNXYyYS43NS43NSAwIDAgMS0xLjUgMHYtMmEuNzUuNzUgMCAwIDAtLjc1LS43NWgtNS41YS43NS43NSAwIDAgMC0uNzUuNzV2MTEuNWMwIC40MTQuMzM2Ljc1Ljc1Ljc1aDUuNWEuNzUuNzUgMCAwIDAgLjc1LS43NXYtMmEuNzUuNzUgMCAwIDEgMS41IDB2MkEyLjI1IDIuMjUgMCAwIDEgMTAuNzUgMThoLTUuNUEyLjI1IDIuMjUgMCAwIDEgMyAxNS43NVY0LjI1WiIgY2xpcC1ydWxlPSJldmVub2RkIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik02IDEwYS43NS43NSAwIDAgMSAuNzUtLjc1aDkuNTQ2bC0xLjA0OC0uOTQzYS43NS43NSAwIDEgMSAxLjAwNC0xLjExNGwyLjUgMi4yNWEuNzUuNzUgMCAwIDEgMCAxLjExNGwtMi41IDIuMjVhLjc1Ljc1IDAgMSAxLTEuMDA0LTEuMTE0bDEuMDQ4LS45NDNINi43NUEuNzUuNzUgMCAwIDEgNiAxMFoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| arrowRightStartOnRectangle
 -}
 arrowRightStartOnRectangle : List (Attribute msg) -> Html msg
 arrowRightStartOnRectangle attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M3 4.25A2.25 2.25 0 0 1 5.25 2h5.5A2.25 2.25 0 0 1 13 4.25v2a.75.75 0 0 1-1.5 0v-2a.75.75 0 0 0-.75-.75h-5.5a.75.75 0 0 0-.75.75v11.5c0 .414.336.75.75.75h5.5a.75.75 0 0 0 .75-.75v-2a.75.75 0 0 1 1.5 0v2A2.25 2.25 0 0 1 10.75 18h-5.5A2.25 2.25 0 0 1 3 15.75V4.25Z", clipRule "evenodd" ] [], Svg.path [ fillRule "evenodd", d "M6 10a.75.75 0 0 1 .75-.75h9.546l-1.048-.943a.75.75 0 1 1 1.004-1.114l2.5 2.25a.75.75 0 0 1 0 1.114l-2.5 2.25a.75.75 0 1 1-1.004-1.114l1.048-.943H6.75A.75.75 0 0 1 6 10Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTMgMTBhLjc1Ljc1IDAgMCAxIC43NS0uNzVoMTAuNjM4TDEwLjIzIDUuMjlhLjc1Ljc1IDAgMSAxIDEuMDQtMS4wOGw1LjUgNS4yNWEuNzUuNzUgMCAwIDEgMCAxLjA4bC01LjUgNS4yNWEuNzUuNzUgMCAxIDEtMS4wNC0xLjA4bDQuMTU4LTMuOTZIMy43NUEuNzUuNzUgMCAwIDEgMyAxMFoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| arrowRight
 -}
 arrowRight : List (Attribute msg) -> Html msg
 arrowRight attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M3 10a.75.75 0 0 1 .75-.75h10.638L10.23 5.29a.75.75 0 1 1 1.04-1.08l5.5 5.25a.75.75 0 0 1 0 1.08l-5.5 5.25a.75.75 0 1 1-1.04-1.08l4.158-3.96H3.75A.75.75 0 0 1 3 10Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEwIDVhLjc1Ljc1IDAgMCAxIC43NS43NXY2LjYzOGwxLjk2LTIuMTU4YS43NS43NSAwIDEgMSAxLjA4IDEuMDRsLTMuMjUgMy41YS43NS43NSAwIDAgMS0xLjA4IDBsLTMuMjUtMy41YS43NS43NSAwIDEgMSAxLjA4LTEuMDRsMS45NiAyLjE1OFY1Ljc1QS43NS43NSAwIDAgMSAxMCA1WiIgY2xpcC1ydWxlPSJldmVub2RkIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| arrowSmallDown
 -}
 arrowSmallDown : List (Attribute msg) -> Html msg
 arrowSmallDown attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M10 5a.75.75 0 0 1 .75.75v6.638l1.96-2.158a.75.75 0 1 1 1.08 1.04l-3.25 3.5a.75.75 0 0 1-1.08 0l-3.25-3.5a.75.75 0 1 1 1.08-1.04l1.96 2.158V5.75A.75.75 0 0 1 10 5Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTE1IDEwYS43NS43NSAwIDAgMS0uNzUuNzVINy42MTJsMi4xNTggMS45NmEuNzUuNzUgMCAxIDEtMS4wNCAxLjA4bC0zLjUtMy4yNWEuNzUuNzUgMCAwIDEgMC0xLjA4bDMuNS0zLjI1YS43NS43NSAwIDEgMSAxLjA0IDEuMDhMNy42MTIgOS4yNWg2LjYzOEEuNzUuNzUgMCAwIDEgMTUgMTBaIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| arrowSmallLeft
 -}
 arrowSmallLeft : List (Attribute msg) -> Html msg
 arrowSmallLeft attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M15 10a.75.75 0 0 1-.75.75H7.612l2.158 1.96a.75.75 0 1 1-1.04 1.08l-3.5-3.25a.75.75 0 0 1 0-1.08l3.5-3.25a.75.75 0 1 1 1.04 1.08L7.612 9.25h6.638A.75.75 0 0 1 15 10Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTUgMTBhLjc1Ljc1IDAgMCAxIC43NS0uNzVoNi42MzhMMTAuMjMgNy4yOWEuNzUuNzUgMCAxIDEgMS4wNC0xLjA4bDMuNSAzLjI1YS43NS43NSAwIDAgMSAwIDEuMDhsLTMuNSAzLjI1YS43NS43NSAwIDEgMS0xLjA0LTEuMDhsMi4xNTgtMS45Nkg1Ljc1QS43NS43NSAwIDAgMSA1IDEwWiIgY2xpcC1ydWxlPSJldmVub2RkIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| arrowSmallRight
 -}
 arrowSmallRight : List (Attribute msg) -> Html msg
 arrowSmallRight attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M5 10a.75.75 0 0 1 .75-.75h6.638L10.23 7.29a.75.75 0 1 1 1.04-1.08l3.5 3.25a.75.75 0 0 1 0 1.08l-3.5 3.25a.75.75 0 1 1-1.04-1.08l2.158-1.96H5.75A.75.75 0 0 1 5 10Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEwIDE1YS43NS43NSAwIDAgMS0uNzUtLjc1VjcuNjEyTDcuMjkgOS43N2EuNzUuNzUgMCAwIDEtMS4wOC0xLjA0bDMuMjUtMy41YS43NS43NSAwIDAgMSAxLjA4IDBsMy4yNSAzLjVhLjc1Ljc1IDAgMSAxLTEuMDggMS4wNGwtMS45Ni0yLjE1OHY2LjYzOEEuNzUuNzUgMCAwIDEgMTAgMTVaIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| arrowSmallUp
 -}
 arrowSmallUp : List (Attribute msg) -> Html msg
 arrowSmallUp attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M10 15a.75.75 0 0 1-.75-.75V7.612L7.29 9.77a.75.75 0 0 1-1.08-1.04l3.25-3.5a.75.75 0 0 1 1.08 0l3.25 3.5a.75.75 0 1 1-1.08 1.04l-1.96-2.158v6.638A.75.75 0 0 1 10 15Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTQuMjUgNS41YS43NS43NSAwIDAgMC0uNzUuNzV2OC41YzAgLjQxNC4zMzYuNzUuNzUuNzVoOC41YS43NS43NSAwIDAgMCAuNzUtLjc1di00YS43NS43NSAwIDAgMSAxLjUgMHY0QTIuMjUgMi4yNSAwIDAgMSAxMi43NSAxN2gtOC41QTIuMjUgMi4yNSAwIDAgMSAyIDE0Ljc1di04LjVBMi4yNSAyLjI1IDAgMCAxIDQuMjUgNGg1YS43NS43NSAwIDAgMSAwIDEuNWgtNVoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNi4xOTQgMTIuNzUzYS43NS43NSAwIDAgMCAxLjA2LjA1M0wxNi41IDQuNDR2Mi44MWEuNzUuNzUgMCAwIDAgMS41IDB2LTQuNWEuNzUuNzUgMCAwIDAtLjc1LS43NWgtNC41YS43NS43NSAwIDAgMCAwIDEuNWgyLjU1M2wtOS4wNTYgOC4xOTRhLjc1Ljc1IDAgMCAwLS4wNTMgMS4wNloiIGNsaXAtcnVsZT0iZXZlbm9kZCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| arrowTopRightOnSquare
 -}
 arrowTopRightOnSquare : List (Attribute msg) -> Html msg
 arrowTopRightOnSquare attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M4.25 5.5a.75.75 0 0 0-.75.75v8.5c0 .414.336.75.75.75h8.5a.75.75 0 0 0 .75-.75v-4a.75.75 0 0 1 1.5 0v4A2.25 2.25 0 0 1 12.75 17h-8.5A2.25 2.25 0 0 1 2 14.75v-8.5A2.25 2.25 0 0 1 4.25 4h5a.75.75 0 0 1 0 1.5h-5Z", clipRule "evenodd" ] [], Svg.path [ fillRule "evenodd", d "M6.194 12.753a.75.75 0 0 0 1.06.053L16.5 4.44v2.81a.75.75 0 0 0 1.5 0v-4.5a.75.75 0 0 0-.75-.75h-4.5a.75.75 0 0 0 0 1.5h2.553l-9.056 8.194a.75.75 0 0 0-.053 1.06Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEuMjIgNS4yMjJhLjc1Ljc1IDAgMCAxIDEuMDYgMEw3IDkuOTQybDMuNzY4LTMuNzY5YS43NS43NSAwIDAgMSAxLjExMy4wNTggMjAuOTA4IDIwLjkwOCAwIDAgMSAzLjgxMyA3LjI1NGwxLjU3NC0yLjcyN2EuNzUuNzUgMCAwIDEgMS4zLjc1bC0yLjQ3NSA0LjI4NmEuNzUuNzUgMCAwIDEtMS4wMjUuMjc1bC00LjI4Ny0yLjQ3NWEuNzUuNzUgMCAwIDEgLjc1LTEuM2wyLjcxIDEuNTY1YTE5LjQyMiAxOS40MjIgMCAwIDAtMy4wMTMtNi4wMjRMNy41MyAxMS41MzNhLjc1Ljc1IDAgMCAxLTEuMDYgMGwtNS4yNS01LjI1YS43NS43NSAwIDAgMSAwLTEuMDZaIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| arrowTrendingDown
 -}
 arrowTrendingDown : List (Attribute msg) -> Html msg
 arrowTrendingDown attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M1.22 5.222a.75.75 0 0 1 1.06 0L7 9.942l3.768-3.769a.75.75 0 0 1 1.113.058 20.908 20.908 0 0 1 3.813 7.254l1.574-2.727a.75.75 0 0 1 1.3.75l-2.475 4.286a.75.75 0 0 1-1.025.275l-4.287-2.475a.75.75 0 0 1 .75-1.3l2.71 1.565a19.422 19.422 0 0 0-3.013-6.024L7.53 11.533a.75.75 0 0 1-1.06 0l-5.25-5.25a.75.75 0 0 1 0-1.06Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEyLjU3NyA0Ljg3OGEuNzUuNzUgMCAwIDEgLjkxOS0uNTNsNC43OCAxLjI4MWEuNzUuNzUgMCAwIDEgLjUzMS45MTlsLTEuMjgxIDQuNzhhLjc1Ljc1IDAgMCAxLTEuNDQ5LS4zODdsLjgxLTMuMDIyYTE5LjQwNyAxOS40MDcgMCAwIDAtNS41OTQgNS4yMDMuNzUuNzUgMCAwIDEtMS4xMzkuMDkzTDcgMTAuMDZsLTQuNzIgNC43MmEuNzUuNzUgMCAwIDEtMS4wNi0xLjA2MWw1LjI1LTUuMjVhLjc1Ljc1IDAgMCAxIDEuMDYgMGwzLjA3NCAzLjA3M2EyMC45MjMgMjAuOTIzIDAgMCAxIDUuNTQ1LTQuOTMxbC0zLjA0Mi0uODE1YS43NS43NSAwIDAgMS0uNTMtLjkxOVoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| arrowTrendingUp
 -}
 arrowTrendingUp : List (Attribute msg) -> Html msg
 arrowTrendingUp attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M12.577 4.878a.75.75 0 0 1 .919-.53l4.78 1.281a.75.75 0 0 1 .531.919l-1.281 4.78a.75.75 0 0 1-1.449-.387l.81-3.022a19.407 19.407 0 0 0-5.594 5.203.75.75 0 0 1-1.139.093L7 10.06l-4.72 4.72a.75.75 0 0 1-1.06-1.061l5.25-5.25a.75.75 0 0 1 1.06 0l3.074 3.073a20.923 20.923 0 0 1 5.545-4.931l-3.042-.815a.75.75 0 0 1-.53-.919Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEwIDE4YTggOCAwIDEgMCAwLTE2IDggOCAwIDAgMCAwIDE2Wm0tLjc1LTQuNzVhLjc1Ljc1IDAgMCAwIDEuNSAwVjguNjZsMS45NSAyLjFhLjc1Ljc1IDAgMSAwIDEuMS0xLjAybC0zLjI1LTMuNWEuNzUuNzUgMCAwIDAtMS4xIDBMNi4yIDkuNzRhLjc1Ljc1IDAgMSAwIDEuMSAxLjAybDEuOTUtMi4xdjQuNTlaIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| arrowUpCircle
 -}
 arrowUpCircle : List (Attribute msg) -> Html msg
 arrowUpCircle attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm-.75-4.75a.75.75 0 0 0 1.5 0V8.66l1.95 2.1a.75.75 0 1 0 1.1-1.02l-3.25-3.5a.75.75 0 0 0-1.1 0L6.2 9.74a.75.75 0 1 0 1.1 1.02l1.95-2.1v4.59Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTE0Ljc4IDE0Ljc4YS43NS43NSAwIDAgMS0xLjA2IDBMNi41IDcuNTZ2NS42OWEuNzUuNzUgMCAwIDEtMS41IDB2LTcuNUEuNzUuNzUgMCAwIDEgNS43NSA1aDcuNWEuNzUuNzUgMCAwIDEgMCAxLjVINy41Nmw3LjIyIDcuMjJhLjc1Ljc1IDAgMCAxIDAgMS4wNloiIGNsaXAtcnVsZT0iZXZlbm9kZCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| arrowUpLeft
 -}
 arrowUpLeft : List (Attribute msg) -> Html msg
 arrowUpLeft attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M14.78 14.78a.75.75 0 0 1-1.06 0L6.5 7.56v5.69a.75.75 0 0 1-1.5 0v-7.5A.75.75 0 0 1 5.75 5h7.5a.75.75 0 0 1 0 1.5H7.56l7.22 7.22a.75.75 0 0 1 0 1.06Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEwLjc1IDZoLTJ2NC4yNWEuNzUuNzUgMCAwIDEtMS41IDBWNmgxLjVWMy43MDRsLjk0MyAxLjA0OGEuNzUuNzUgMCAwIDAgMS4xMTQtMS4wMDRsLTIuMjUtMi41YS43NS43NSAwIDAgMC0xLjExNCAwbC0yLjI1IDIuNWEuNzUuNzUgMCAwIDAgMS4xMTQgMS4wMDRsLjk0My0xLjA0OFY2aC0yQTIuMjUgMi4yNSAwIDAgMCAzIDguMjV2NC41QTIuMjUgMi4yNSAwIDAgMCA1LjI1IDE1aDUuNUEyLjI1IDIuMjUgMCAwIDAgMTMgMTIuNzV2LTQuNUEyLjI1IDIuMjUgMCAwIDAgMTAuNzUgNlpNNyAxNi43NXYtLjI1aDMuNzVhMy43NSAzLjc1IDAgMCAwIDMuNzUtMy43NVYxMGguMjVBMi4yNSAyLjI1IDAgMCAxIDE3IDEyLjI1djQuNUEyLjI1IDIuMjUgMCAwIDEgMTQuNzUgMTloLTUuNUEyLjI1IDIuMjUgMCAwIDEgNyAxNi43NVoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| arrowUpOnSquareStack
 -}
 arrowUpOnSquareStack : List (Attribute msg) -> Html msg
 arrowUpOnSquareStack attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M10.75 6h-2v4.25a.75.75 0 0 1-1.5 0V6h1.5V3.704l.943 1.048a.75.75 0 0 0 1.114-1.004l-2.25-2.5a.75.75 0 0 0-1.114 0l-2.25 2.5a.75.75 0 0 0 1.114 1.004l.943-1.048V6h-2A2.25 2.25 0 0 0 3 8.25v4.5A2.25 2.25 0 0 0 5.25 15h5.5A2.25 2.25 0 0 0 13 12.75v-4.5A2.25 2.25 0 0 0 10.75 6ZM7 16.75v-.25h3.75a3.75 3.75 0 0 0 3.75-3.75V10h.25A2.25 2.25 0 0 1 17 12.25v4.5A2.25 2.25 0 0 1 14.75 19h-5.5A2.25 2.25 0 0 1 7 16.75Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEzLjc1IDdoLTNWMy42NmwxLjk1IDIuMWEuNzUuNzUgMCAxIDAgMS4xLTEuMDJsLTMuMjUtMy41YS43NS43NSAwIDAgMC0xLjEgMEw2LjIgNC43NGEuNzUuNzUgMCAwIDAgMS4xIDEuMDJsMS45NS0yLjFWN2gtM0EyLjI1IDIuMjUgMCAwIDAgNCA5LjI1djcuNUEyLjI1IDIuMjUgMCAwIDAgNi4yNSAxOWg3LjVBMi4yNSAyLjI1IDAgMCAwIDE2IDE2Ljc1di03LjVBMi4yNSAyLjI1IDAgMCAwIDEzLjc1IDdabS0zIDBoLTEuNXY1LjI1YS43NS43NSAwIDAgMCAxLjUgMFY3WiIgY2xpcC1ydWxlPSJldmVub2RkIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| arrowUpOnSquare
 -}
 arrowUpOnSquare : List (Attribute msg) -> Html msg
 arrowUpOnSquare attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M13.75 7h-3V3.66l1.95 2.1a.75.75 0 1 0 1.1-1.02l-3.25-3.5a.75.75 0 0 0-1.1 0L6.2 4.74a.75.75 0 0 0 1.1 1.02l1.95-2.1V7h-3A2.25 2.25 0 0 0 4 9.25v7.5A2.25 2.25 0 0 0 6.25 19h7.5A2.25 2.25 0 0 0 16 16.75v-7.5A2.25 2.25 0 0 0 13.75 7Zm-3 0h-1.5v5.25a.75.75 0 0 0 1.5 0V7Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTUuMjIgMTQuNzhhLjc1Ljc1IDAgMCAwIDEuMDYgMGw3LjIyLTcuMjJ2NS42OWEuNzUuNzUgMCAwIDAgMS41IDB2LTcuNWEuNzUuNzUgMCAwIDAtLjc1LS43NWgtNy41YS43NS43NSAwIDAgMCAwIDEuNWg1LjY5bC03LjIyIDcuMjJhLjc1Ljc1IDAgMCAwIDAgMS4wNloiIGNsaXAtcnVsZT0iZXZlbm9kZCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| arrowUpRight
 -}
 arrowUpRight : List (Attribute msg) -> Html msg
 arrowUpRight attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M5.22 14.78a.75.75 0 0 0 1.06 0l7.22-7.22v5.69a.75.75 0 0 0 1.5 0v-7.5a.75.75 0 0 0-.75-.75h-7.5a.75.75 0 0 0 0 1.5h5.69l-7.22 7.22a.75.75 0 0 0 0 1.06Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik05LjI1IDEzLjI1YS43NS43NSAwIDAgMCAxLjUgMFY0LjYzNmwyLjk1NSAzLjEyOWEuNzUuNzUgMCAwIDAgMS4wOS0xLjAzbC00LjI1LTQuNWEuNzUuNzUgMCAwIDAtMS4wOSAwbC00LjI1IDQuNWEuNzUuNzUgMCAxIDAgMS4wOSAxLjAzTDkuMjUgNC42MzZ2OC42MTRaIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48cGF0aCBkPSJNMy41IDEyLjc1YS43NS43NSAwIDAgMC0xLjUgMHYyLjVBMi43NSAyLjc1IDAgMCAwIDQuNzUgMThoMTAuNUEyLjc1IDIuNzUgMCAwIDAgMTggMTUuMjV2LTIuNWEuNzUuNzUgMCAwIDAtMS41IDB2Mi41YzAgLjY5LS41NiAxLjI1LTEuMjUgMS4yNUg0Ljc1Yy0uNjkgMC0xLjI1LS41Ni0xLjI1LTEuMjV2LTIuNVoiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| arrowUpTray
 -}
 arrowUpTray : List (Attribute msg) -> Html msg
 arrowUpTray attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M9.25 13.25a.75.75 0 0 0 1.5 0V4.636l2.955 3.129a.75.75 0 0 0 1.09-1.03l-4.25-4.5a.75.75 0 0 0-1.09 0l-4.25 4.5a.75.75 0 1 0 1.09 1.03L9.25 4.636v8.614Z" ] [], Svg.path [ d "M3.5 12.75a.75.75 0 0 0-1.5 0v2.5A2.75 2.75 0 0 0 4.75 18h10.5A2.75 2.75 0 0 0 18 15.25v-2.5a.75.75 0 0 0-1.5 0v2.5c0 .69-.56 1.25-1.25 1.25H4.75c-.69 0-1.25-.56-1.25-1.25v-2.5Z" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEwIDE3YS43NS43NSAwIDAgMS0uNzUtLjc1VjUuNjEyTDUuMjkgOS43N2EuNzUuNzUgMCAwIDEtMS4wOC0xLjA0bDUuMjUtNS41YS43NS43NSAwIDAgMSAxLjA4IDBsNS4yNSA1LjVhLjc1Ljc1IDAgMSAxLTEuMDggMS4wNGwtMy45Ni00LjE1OFYxNi4yNUEuNzUuNzUgMCAwIDEgMTAgMTdaIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| arrowUp
 -}
 arrowUp : List (Attribute msg) -> Html msg
 arrowUp attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M10 17a.75.75 0 0 1-.75-.75V5.612L5.29 9.77a.75.75 0 0 1-1.08-1.04l5.25-5.5a.75.75 0 0 1 1.08 0l5.25 5.5a.75.75 0 1 1-1.08 1.04l-3.96-4.158V16.25A.75.75 0 0 1 10 17Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTIuMjMyIDEyLjIwN2EuNzUuNzUgMCAwIDEgMS4wNi4wMjVsMy45NTggNC4xNDZWNi4zNzVhNS4zNzUgNS4zNzUgMCAwIDEgMTAuNzUgMFY5LjI1YS43NS43NSAwIDAgMS0xLjUgMFY2LjM3NWEzLjg3NSAzLjg3NSAwIDAgMC03Ljc1IDB2MTAuMDAzbDMuOTU3LTQuMTQ2YS43NS43NSAwIDAgMSAxLjA4NSAxLjAzNmwtNS4yNSA1LjVhLjc1Ljc1IDAgMCAxLTEuMDg1IDBsLTUuMjUtNS41YS43NS43NSAwIDAgMSAuMDI1LTEuMDZaIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| arrowUturnDown
 -}
 arrowUturnDown : List (Attribute msg) -> Html msg
 arrowUturnDown attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M2.232 12.207a.75.75 0 0 1 1.06.025l3.958 4.146V6.375a5.375 5.375 0 0 1 10.75 0V9.25a.75.75 0 0 1-1.5 0V6.375a3.875 3.875 0 0 0-7.75 0v10.003l3.957-4.146a.75.75 0 0 1 1.085 1.036l-5.25 5.5a.75.75 0 0 1-1.085 0l-5.25-5.5a.75.75 0 0 1 .025-1.06Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTcuNzkzIDIuMjMyYS43NS43NSAwIDAgMS0uMDI1IDEuMDZMMy42MjIgNy4yNWgxMC4wMDNhNS4zNzUgNS4zNzUgMCAwIDEgMCAxMC43NUgxMC43NWEuNzUuNzUgMCAwIDEgMC0xLjVoMi44NzVhMy44NzUgMy44NzUgMCAwIDAgMC03Ljc1SDMuNjIybDQuMTQ2IDMuOTU3YS43NS43NSAwIDAgMS0xLjAzNiAxLjA4NWwtNS41LTUuMjVhLjc1Ljc1IDAgMCAxIDAtMS4wODVsNS41LTUuMjVhLjc1Ljc1IDAgMCAxIDEuMDYuMDI1WiIgY2xpcC1ydWxlPSJldmVub2RkIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| arrowUturnLeft
 -}
 arrowUturnLeft : List (Attribute msg) -> Html msg
 arrowUturnLeft attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M7.793 2.232a.75.75 0 0 1-.025 1.06L3.622 7.25h10.003a5.375 5.375 0 0 1 0 10.75H10.75a.75.75 0 0 1 0-1.5h2.875a3.875 3.875 0 0 0 0-7.75H3.622l4.146 3.957a.75.75 0 0 1-1.036 1.085l-5.5-5.25a.75.75 0 0 1 0-1.085l5.5-5.25a.75.75 0 0 1 1.06.025Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEyLjIwNyAyLjIzMmEuNzUuNzUgMCAwIDAgLjAyNSAxLjA2bDQuMTQ2IDMuOTU4SDYuMzc1YTUuMzc1IDUuMzc1IDAgMCAwIDAgMTAuNzVIOS4yNWEuNzUuNzUgMCAwIDAgMC0xLjVINi4zNzVhMy44NzUgMy44NzUgMCAwIDEgMC03Ljc1aDEwLjAwM2wtNC4xNDYgMy45NTdhLjc1Ljc1IDAgMCAwIDEuMDM2IDEuMDg1bDUuNS01LjI1YS43NS43NSAwIDAgMCAwLTEuMDg1bC01LjUtNS4yNWEuNzUuNzUgMCAwIDAtMS4wNi4wMjVaIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| arrowUturnRight
 -}
 arrowUturnRight : List (Attribute msg) -> Html msg
 arrowUturnRight attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M12.207 2.232a.75.75 0 0 0 .025 1.06l4.146 3.958H6.375a5.375 5.375 0 0 0 0 10.75H9.25a.75.75 0 0 0 0-1.5H6.375a3.875 3.875 0 0 1 0-7.75h10.003l-4.146 3.957a.75.75 0 0 0 1.036 1.085l5.5-5.25a.75.75 0 0 0 0-1.085l-5.5-5.25a.75.75 0 0 0-1.06.025Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTE3Ljc2OCA3Ljc5M2EuNzUuNzUgMCAwIDEtMS4wNi0uMDI1TDEyLjc1IDMuNjIydjEwLjAwM2E1LjM3NSA1LjM3NSAwIDAgMS0xMC43NSAwVjEwLjc1YS43NS43NSAwIDAgMSAxLjUgMHYyLjg3NWEzLjg3NSAzLjg3NSAwIDAgMCA3Ljc1IDBWMy42MjJMNy4yOTMgNy43NjhhLjc1Ljc1IDAgMCAxLTEuMDg2LTEuMDM2bDUuMjUtNS41YS43NS43NSAwIDAgMSAxLjA4NSAwbDUuMjUgNS41YS43NS43NSAwIDAgMS0uMDI0IDEuMDZaIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| arrowUturnUp
 -}
 arrowUturnUp : List (Attribute msg) -> Html msg
 arrowUturnUp attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M17.768 7.793a.75.75 0 0 1-1.06-.025L12.75 3.622v10.003a5.375 5.375 0 0 1-10.75 0V10.75a.75.75 0 0 1 1.5 0v2.875a3.875 3.875 0 0 0 7.75 0V3.622L7.293 7.768a.75.75 0 0 1-1.086-1.036l5.25-5.5a.75.75 0 0 1 1.085 0l5.25 5.5a.75.75 0 0 1-.024 1.06Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik0zLjI4IDIuMjJhLjc1Ljc1IDAgMCAwLTEuMDYgMS4wNkw1LjQ0IDYuNUgyLjc1YS43NS43NSAwIDAgMCAwIDEuNWg0LjVBLjc1Ljc1IDAgMCAwIDggNy4yNXYtNC41YS43NS43NSAwIDAgMC0xLjUgMHYyLjY5TDMuMjggMi4yMlpNMTMuNSAyLjc1YS43NS43NSAwIDAgMC0xLjUgMHY0LjVjMCAuNDE0LjMzNi43NS43NS43NWg0LjVhLjc1Ljc1IDAgMCAwIDAtMS41aC0yLjY5bDMuMjItMy4yMmEuNzUuNzUgMCAwIDAtMS4wNi0xLjA2TDEzLjUgNS40NFYyLjc1Wk0zLjI4IDE3Ljc4bDMuMjItMy4yMnYyLjY5YS43NS43NSAwIDAgMCAxLjUgMHYtNC41YS43NS43NSAwIDAgMC0uNzUtLjc1aC00LjVhLjc1Ljc1IDAgMCAwIDAgMS41aDIuNjlsLTMuMjIgMy4yMmEuNzUuNzUgMCAxIDAgMS4wNiAxLjA2Wk0xMy41IDE0LjU2bDMuMjIgMy4yMmEuNzUuNzUgMCAxIDAgMS4wNi0xLjA2bC0zLjIyLTMuMjJoMi42OWEuNzUuNzUgMCAwIDAgMC0xLjVoLTQuNWEuNzUuNzUgMCAwIDAtLjc1Ljc1djQuNWEuNzUuNzUgMCAwIDAgMS41IDB2LTIuNjlaIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| arrowsPointingIn
 -}
 arrowsPointingIn : List (Attribute msg) -> Html msg
 arrowsPointingIn attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M3.28 2.22a.75.75 0 0 0-1.06 1.06L5.44 6.5H2.75a.75.75 0 0 0 0 1.5h4.5A.75.75 0 0 0 8 7.25v-4.5a.75.75 0 0 0-1.5 0v2.69L3.28 2.22ZM13.5 2.75a.75.75 0 0 0-1.5 0v4.5c0 .414.336.75.75.75h4.5a.75.75 0 0 0 0-1.5h-2.69l3.22-3.22a.75.75 0 0 0-1.06-1.06L13.5 5.44V2.75ZM3.28 17.78l3.22-3.22v2.69a.75.75 0 0 0 1.5 0v-4.5a.75.75 0 0 0-.75-.75h-4.5a.75.75 0 0 0 0 1.5h2.69l-3.22 3.22a.75.75 0 1 0 1.06 1.06ZM13.5 14.56l3.22 3.22a.75.75 0 1 0 1.06-1.06l-3.22-3.22h2.69a.75.75 0 0 0 0-1.5h-4.5a.75.75 0 0 0-.75.75v4.5a.75.75 0 0 0 1.5 0v-2.69Z" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Im0xMy4yOCA3Ljc4IDMuMjItMy4yMnYyLjY5YS43NS43NSAwIDAgMCAxLjUgMHYtNC41YS43NS43NSAwIDAgMC0uNzUtLjc1aC00LjVhLjc1Ljc1IDAgMCAwIDAgMS41aDIuNjlsLTMuMjIgMy4yMmEuNzUuNzUgMCAwIDAgMS4wNiAxLjA2Wk0yIDE3LjI1di00LjVhLjc1Ljc1IDAgMCAxIDEuNSAwdjIuNjlsMy4yMi0zLjIyYS43NS43NSAwIDAgMSAxLjA2IDEuMDZMNC41NiAxNi41aDIuNjlhLjc1Ljc1IDAgMCAxIDAgMS41aC00LjVhLjc0Ny43NDcgMCAwIDEtLjc1LS43NVpNMTIuMjIgMTMuMjhsMy4yMiAzLjIyaC0yLjY5YS43NS43NSAwIDAgMCAwIDEuNWg0LjVhLjc0Ny43NDcgMCAwIDAgLjc1LS43NXYtNC41YS43NS43NSAwIDAgMC0xLjUgMHYyLjY5bC0zLjIyLTMuMjJhLjc1Ljc1IDAgMSAwLTEuMDYgMS4wNlpNMy41IDQuNTZsMy4yMiAzLjIyYS43NS43NSAwIDAgMCAxLjA2LTEuMDZMNC41NiAzLjVoMi42OWEuNzUuNzUgMCAwIDAgMC0xLjVoLTQuNWEuNzUuNzUgMCAwIDAtLjc1Ljc1djQuNWEuNzUuNzUgMCAwIDAgMS41IDBWNC41NloiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| arrowsPointingOut
 -}
 arrowsPointingOut : List (Attribute msg) -> Html msg
 arrowsPointingOut attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "m13.28 7.78 3.22-3.22v2.69a.75.75 0 0 0 1.5 0v-4.5a.75.75 0 0 0-.75-.75h-4.5a.75.75 0 0 0 0 1.5h2.69l-3.22 3.22a.75.75 0 0 0 1.06 1.06ZM2 17.25v-4.5a.75.75 0 0 1 1.5 0v2.69l3.22-3.22a.75.75 0 0 1 1.06 1.06L4.56 16.5h2.69a.75.75 0 0 1 0 1.5h-4.5a.747.747 0 0 1-.75-.75ZM12.22 13.28l3.22 3.22h-2.69a.75.75 0 0 0 0 1.5h4.5a.747.747 0 0 0 .75-.75v-4.5a.75.75 0 0 0-1.5 0v2.69l-3.22-3.22a.75.75 0 1 0-1.06 1.06ZM3.5 4.56l3.22 3.22a.75.75 0 0 0 1.06-1.06L4.56 3.5h2.69a.75.75 0 0 0 0-1.5h-4.5a.75.75 0 0 0-.75.75v4.5a.75.75 0 0 0 1.5 0V4.56Z" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEzLjIgMi4yNGEuNzUuNzUgMCAwIDAgLjA0IDEuMDZsMi4xIDEuOTVINi43NWEuNzUuNzUgMCAwIDAgMCAxLjVoOC41OWwtMi4xIDEuOTVhLjc1Ljc1IDAgMSAwIDEuMDIgMS4xbDMuNS0zLjI1YS43NS43NSAwIDAgMCAwLTEuMWwtMy41LTMuMjVhLjc1Ljc1IDAgMCAwLTEuMDYuMDRabS02LjQgOGEuNzUuNzUgMCAwIDAtMS4wNi0uMDRsLTMuNSAzLjI1YS43NS43NSAwIDAgMCAwIDEuMWwzLjUgMy4yNWEuNzUuNzUgMCAxIDAgMS4wMi0xLjFsLTIuMS0xLjk1aDguNTlhLjc1Ljc1IDAgMCAwIDAtMS41SDQuNjZsMi4xLTEuOTVhLjc1Ljc1IDAgMCAwIC4wNC0xLjA2WiIgY2xpcC1ydWxlPSJldmVub2RkIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| arrowsRightLeft
 -}
 arrowsRightLeft : List (Attribute msg) -> Html msg
 arrowsRightLeft attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M13.2 2.24a.75.75 0 0 0 .04 1.06l2.1 1.95H6.75a.75.75 0 0 0 0 1.5h8.59l-2.1 1.95a.75.75 0 1 0 1.02 1.1l3.5-3.25a.75.75 0 0 0 0-1.1l-3.5-3.25a.75.75 0 0 0-1.06.04Zm-6.4 8a.75.75 0 0 0-1.06-.04l-3.5 3.25a.75.75 0 0 0 0 1.1l3.5 3.25a.75.75 0 1 0 1.02-1.1l-2.1-1.95h8.59a.75.75 0 0 0 0-1.5H4.66l2.1-1.95a.75.75 0 0 0 .04-1.06Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTIuMjQgNi44YS43NS43NSAwIDAgMCAxLjA2LS4wNGwxLjk1LTIuMXY4LjU5YS43NS43NSAwIDAgMCAxLjUgMFY0LjY2bDEuOTUgMi4xYS43NS43NSAwIDEgMCAxLjEtMS4wMmwtMy4yNS0zLjVhLjc1Ljc1IDAgMCAwLTEuMSAwTDIuMiA1Ljc0YS43NS43NSAwIDAgMCAuMDQgMS4wNlptOCA2LjRhLjc1Ljc1IDAgMCAwLS4wNCAxLjA2bDMuMjUgMy41YS43NS43NSAwIDAgMCAxLjEgMGwzLjI1LTMuNWEuNzUuNzUgMCAxIDAtMS4xLTEuMDJsLTEuOTUgMi4xVjYuNzVhLjc1Ljc1IDAgMCAwLTEuNSAwdjguNTlsLTEuOTUtMi4xYS43NS43NSAwIDAgMC0xLjA2LS4wNFoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| arrowsUpDown
 -}
 arrowsUpDown : List (Attribute msg) -> Html msg
 arrowsUpDown attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M2.24 6.8a.75.75 0 0 0 1.06-.04l1.95-2.1v8.59a.75.75 0 0 0 1.5 0V4.66l1.95 2.1a.75.75 0 1 0 1.1-1.02l-3.25-3.5a.75.75 0 0 0-1.1 0L2.2 5.74a.75.75 0 0 0 .04 1.06Zm8 6.4a.75.75 0 0 0-.04 1.06l3.25 3.5a.75.75 0 0 0 1.1 0l3.25-3.5a.75.75 0 1 0-1.1-1.02l-1.95 2.1V6.75a.75.75 0 0 0-1.5 0v8.59l-1.95-2.1a.75.75 0 0 0-1.06-.04Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTUuNDA0IDE0LjU5NkE2LjUgNi41IDAgMSAxIDE2LjUgMTBhMS4yNSAxLjI1IDAgMCAxLTIuNSAwIDQgNCAwIDEgMC0uNTcxIDIuMDZBMi43NSAyLjc1IDAgMCAwIDE4IDEwYTggOCAwIDEgMC0yLjM0MyA1LjY1Ny43NS43NSAwIDAgMC0xLjA2LTEuMDYgNi41IDYuNSAwIDAgMS05LjE5MyAwWk0xMCA3LjVhMi41IDIuNSAwIDEgMCAwIDUgMi41IDIuNSAwIDAgMCAwLTVaIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| atSymbol
 -}
 atSymbol : List (Attribute msg) -> Html msg
 atSymbol attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M5.404 14.596A6.5 6.5 0 1 1 16.5 10a1.25 1.25 0 0 1-2.5 0 4 4 0 1 0-.571 2.06A2.75 2.75 0 0 0 18 10a8 8 0 1 0-2.343 5.657.75.75 0 0 0-1.06-1.06 6.5 6.5 0 0 1-9.193 0ZM10 7.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTcuMjIgMy4yMkEuNzUuNzUgMCAwIDEgNy43NSAzaDlBMi4yNSAyLjI1IDAgMCAxIDE5IDUuMjV2OS41QTIuMjUgMi4yNSAwIDAgMSAxNi43NSAxN2gtOWEuNzUuNzUgMCAwIDEtLjUzLS4yMkwuOTcgMTAuNTNhLjc1Ljc1IDAgMCAxIDAtMS4wNmw2LjI1LTYuMjVabTMuMDYgNGEuNzUuNzUgMCAxIDAtMS4wNiAxLjA2TDEwLjk0IDEwbC0xLjcyIDEuNzJhLjc1Ljc1IDAgMSAwIDEuMDYgMS4wNkwxMiAxMS4wNmwxLjcyIDEuNzJhLjc1Ljc1IDAgMSAwIDEuMDYtMS4wNkwxMy4wNiAxMGwxLjcyLTEuNzJhLjc1Ljc1IDAgMCAwLTEuMDYtMS4wNkwxMiA4Ljk0bC0xLjcyLTEuNzJaIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| backspace
 -}
 backspace : List (Attribute msg) -> Html msg
 backspace attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M7.22 3.22A.75.75 0 0 1 7.75 3h9A2.25 2.25 0 0 1 19 5.25v9.5A2.25 2.25 0 0 1 16.75 17h-9a.75.75 0 0 1-.53-.22L.97 10.53a.75.75 0 0 1 0-1.06l6.25-6.25Zm3.06 4a.75.75 0 1 0-1.06 1.06L10.94 10l-1.72 1.72a.75.75 0 1 0 1.06 1.06L12 11.06l1.72 1.72a.75.75 0 1 0 1.06-1.06L13.06 10l1.72-1.72a.75.75 0 0 0-1.06-1.06L12 8.94l-1.72-1.72Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik03LjcxMiA0LjgxOEExLjUgMS41IDAgMCAxIDEwIDYuMDk1djIuOTcyYy4xMDQtLjEzLjIzNC0uMjQ4LjM4OS0uMzQzbDYuMzIzLTMuOTA2QTEuNSAxLjUgMCAwIDEgMTkgNi4wOTV2Ny44MWExLjUgMS41IDAgMCAxLTIuMjg4IDEuMjc2bC02LjMyMy0zLjkwNWExLjUwNSAxLjUwNSAwIDAgMS0uMzg5LS4zNDR2Mi45NzNhMS41IDEuNSAwIDAgMS0yLjI4OCAxLjI3NmwtNi4zMjMtMy45MDVhMS41IDEuNSAwIDAgMSAwLTIuNTUybDYuMzIzLTMuOTA2WiIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| backward
 -}
 backward : List (Attribute msg) -> Html msg
 backward attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M7.712 4.818A1.5 1.5 0 0 1 10 6.095v2.972c.104-.13.234-.248.389-.343l6.323-3.906A1.5 1.5 0 0 1 19 6.095v7.81a1.5 1.5 0 0 1-2.288 1.276l-6.323-3.905a1.505 1.505 0 0 1-.389-.344v2.973a1.5 1.5 0 0 1-2.288 1.276l-6.323-3.905a1.5 1.5 0 0 1 0-2.552l6.323-3.906Z" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEgNGExIDEgMCAwIDEgMS0xaDE2YTEgMSAwIDAgMSAxIDF2OGExIDEgMCAwIDEtMSAxSDJhMSAxIDAgMCAxLTEtMVY0Wm0xMiA0YTMgMyAwIDEgMS02IDAgMyAzIDAgMCAxIDYgMFpNNCA5YTEgMSAwIDEgMCAwLTIgMSAxIDAgMCAwIDAgMlptMTMtMWExIDEgMCAxIDEtMiAwIDEgMSAwIDAgMSAyIDBaTTEuNzUgMTQuNWEuNzUuNzUgMCAwIDAgMCAxLjVjNC40MTcgMCA4LjY5My42MDMgMTIuNzQ5IDEuNzMgMS4xMTEuMzA5IDIuMjUxLS41MTIgMi4yNTEtMS42OTZ2LS43ODRhLjc1Ljc1IDAgMCAwLTEuNSAwdi43ODRhLjI3Mi4yNzIgMCAwIDEtLjM1LjI1QTQ5LjA0MyA0OS4wNDMgMCAwIDAgMS43NSAxNC41WiIgY2xpcC1ydWxlPSJldmVub2RkIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| banknotes
 -}
 banknotes : List (Attribute msg) -> Html msg
 banknotes attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M1 4a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V4Zm12 4a3 3 0 1 1-6 0 3 3 0 0 1 6 0ZM4 9a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm13-1a1 1 0 1 1-2 0 1 1 0 0 1 2 0ZM1.75 14.5a.75.75 0 0 0 0 1.5c4.417 0 8.693.603 12.749 1.73 1.111.309 2.251-.512 2.251-1.696v-.784a.75.75 0 0 0-1.5 0v.784a.272.272 0 0 1-.35.25A49.043 49.043 0 0 0 1.75 14.5Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTIgNi43NUEuNzUuNzUgMCAwIDEgMi43NSA2aDE0LjVhLjc1Ljc1IDAgMCAxIDAgMS41SDIuNzVBLjc1Ljc1IDAgMCAxIDIgNi43NVptMCA2LjVhLjc1Ljc1IDAgMCAxIC43NS0uNzVoMTQuNWEuNzUuNzUgMCAwIDEgMCAxLjVIMi43NWEuNzUuNzUgMCAwIDEtLjc1LS43NVoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| bars2
 -}
 bars2 : List (Attribute msg) -> Html msg
 bars2 attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M2 6.75A.75.75 0 0 1 2.75 6h14.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 6.75Zm0 6.5a.75.75 0 0 1 .75-.75h14.5a.75.75 0 0 1 0 1.5H2.75a.75.75 0 0 1-.75-.75Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTIgNC43NUEuNzUuNzUgMCAwIDEgMi43NSA0aDE0LjVhLjc1Ljc1IDAgMCAxIDAgMS41SDIuNzVBLjc1Ljc1IDAgMCAxIDIgNC43NVptMCAxMC41YS43NS43NSAwIDAgMSAuNzUtLjc1aDcuNWEuNzUuNzUgMCAwIDEgMCAxLjVoLTcuNWEuNzUuNzUgMCAwIDEtLjc1LS43NVpNMiAxMGEuNzUuNzUgMCAwIDEgLjc1LS43NWgxNC41YS43NS43NSAwIDAgMSAwIDEuNUgyLjc1QS43NS43NSAwIDAgMSAyIDEwWiIgY2xpcC1ydWxlPSJldmVub2RkIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| bars3BottomLeft
 -}
 bars3BottomLeft : List (Attribute msg) -> Html msg
 bars3BottomLeft attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M2 4.75A.75.75 0 0 1 2.75 4h14.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 4.75Zm0 10.5a.75.75 0 0 1 .75-.75h7.5a.75.75 0 0 1 0 1.5h-7.5a.75.75 0 0 1-.75-.75ZM2 10a.75.75 0 0 1 .75-.75h14.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 10Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTIgNC43NUEuNzUuNzUgMCAwIDEgMi43NSA0aDE0LjVhLjc1Ljc1IDAgMCAxIDAgMS41SDIuNzVBLjc1Ljc1IDAgMCAxIDIgNC43NVptNyAxMC41YS43NS43NSAwIDAgMSAuNzUtLjc1aDcuNWEuNzUuNzUgMCAwIDEgMCAxLjVoLTcuNWEuNzUuNzUgMCAwIDEtLjc1LS43NVpNMiAxMGEuNzUuNzUgMCAwIDEgLjc1LS43NWgxNC41YS43NS43NSAwIDAgMSAwIDEuNUgyLjc1QS43NS43NSAwIDAgMSAyIDEwWiIgY2xpcC1ydWxlPSJldmVub2RkIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| bars3BottomRight
 -}
 bars3BottomRight : List (Attribute msg) -> Html msg
 bars3BottomRight attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M2 4.75A.75.75 0 0 1 2.75 4h14.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 4.75Zm7 10.5a.75.75 0 0 1 .75-.75h7.5a.75.75 0 0 1 0 1.5h-7.5a.75.75 0 0 1-.75-.75ZM2 10a.75.75 0 0 1 .75-.75h14.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 10Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTIgNC43NUEuNzUuNzUgMCAwIDEgMi43NSA0aDE0LjVhLjc1Ljc1IDAgMCAxIDAgMS41SDIuNzVBLjc1Ljc1IDAgMCAxIDIgNC43NVptMCAxMC41YS43NS43NSAwIDAgMSAuNzUtLjc1aDE0LjVhLjc1Ljc1IDAgMCAxIDAgMS41SDIuNzVhLjc1Ljc1IDAgMCAxLS43NS0uNzVaTTIgMTBhLjc1Ljc1IDAgMCAxIC43NS0uNzVoNy41YS43NS43NSAwIDAgMSAwIDEuNWgtNy41QS43NS43NSAwIDAgMSAyIDEwWiIgY2xpcC1ydWxlPSJldmVub2RkIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| bars3CenterLeft
 -}
 bars3CenterLeft : List (Attribute msg) -> Html msg
 bars3CenterLeft attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M2 4.75A.75.75 0 0 1 2.75 4h14.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 4.75Zm0 10.5a.75.75 0 0 1 .75-.75h14.5a.75.75 0 0 1 0 1.5H2.75a.75.75 0 0 1-.75-.75ZM2 10a.75.75 0 0 1 .75-.75h7.5a.75.75 0 0 1 0 1.5h-7.5A.75.75 0 0 1 2 10Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTIgNC43NUEuNzUuNzUgMCAwIDEgMi43NSA0aDE0LjVhLjc1Ljc1IDAgMCAxIDAgMS41SDIuNzVBLjc1Ljc1IDAgMCAxIDIgNC43NVpNMiAxMGEuNzUuNzUgMCAwIDEgLjc1LS43NWgxNC41YS43NS43NSAwIDAgMSAwIDEuNUgyLjc1QS43NS43NSAwIDAgMSAyIDEwWm0wIDUuMjVhLjc1Ljc1IDAgMCAxIC43NS0uNzVoMTQuNWEuNzUuNzUgMCAwIDEgMCAxLjVIMi43NWEuNzUuNzUgMCAwIDEtLjc1LS43NVoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| bars3
 -}
 bars3 : List (Attribute msg) -> Html msg
 bars3 attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M2 4.75A.75.75 0 0 1 2.75 4h14.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 4.75ZM2 10a.75.75 0 0 1 .75-.75h14.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 10Zm0 5.25a.75.75 0 0 1 .75-.75h14.5a.75.75 0 0 1 0 1.5H2.75a.75.75 0 0 1-.75-.75Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTIgMy43NUEuNzUuNzUgMCAwIDEgMi43NSAzaDE0LjVhLjc1Ljc1IDAgMCAxIDAgMS41SDIuNzVBLjc1Ljc1IDAgMCAxIDIgMy43NVptMCA0LjE2N2EuNzUuNzUgMCAwIDEgLjc1LS43NWgxNC41YS43NS43NSAwIDAgMSAwIDEuNUgyLjc1YS43NS43NSAwIDAgMS0uNzUtLjc1Wm0wIDQuMTY2YS43NS43NSAwIDAgMSAuNzUtLjc1aDE0LjVhLjc1Ljc1IDAgMCAxIDAgMS41SDIuNzVhLjc1Ljc1IDAgMCAxLS43NS0uNzVabTAgNC4xNjdhLjc1Ljc1IDAgMCAxIC43NS0uNzVoMTQuNWEuNzUuNzUgMCAwIDEgMCAxLjVIMi43NWEuNzUuNzUgMCAwIDEtLjc1LS43NVoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| bars4
 -}
 bars4 : List (Attribute msg) -> Html msg
 bars4 attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M2 3.75A.75.75 0 0 1 2.75 3h14.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 3.75Zm0 4.167a.75.75 0 0 1 .75-.75h14.5a.75.75 0 0 1 0 1.5H2.75a.75.75 0 0 1-.75-.75Zm0 4.166a.75.75 0 0 1 .75-.75h14.5a.75.75 0 0 1 0 1.5H2.75a.75.75 0 0 1-.75-.75Zm0 4.167a.75.75 0 0 1 .75-.75h14.5a.75.75 0 0 1 0 1.5H2.75a.75.75 0 0 1-.75-.75Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTIgMy43NUEuNzUuNzUgMCAwIDEgMi43NSAzaDExLjVhLjc1Ljc1IDAgMCAxIDAgMS41SDIuNzVBLjc1Ljc1IDAgMCAxIDIgMy43NVpNMiA3LjVhLjc1Ljc1IDAgMCAxIC43NS0uNzVoNy41MDhhLjc1Ljc1IDAgMCAxIDAgMS41SDIuNzVBLjc1Ljc1IDAgMCAxIDIgNy41Wk0xNCA3YS43NS43NSAwIDAgMSAuNzUuNzV2Ni41OWwxLjk1LTIuMWEuNzUuNzUgMCAxIDEgMS4xIDEuMDJsLTMuMjUgMy41YS43NS43NSAwIDAgMS0xLjEgMGwtMy4yNS0zLjVhLjc1Ljc1IDAgMSAxIDEuMS0xLjAybDEuOTUgMi4xVjcuNzVBLjc1Ljc1IDAgMCAxIDE0IDdaTTIgMTEuMjVhLjc1Ljc1IDAgMCAxIC43NS0uNzVoNC41NjJhLjc1Ljc1IDAgMCAxIDAgMS41SDIuNzVhLjc1Ljc1IDAgMCAxLS43NS0uNzVaIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| barsArrowDown
 -}
 barsArrowDown : List (Attribute msg) -> Html msg
 barsArrowDown attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M2 3.75A.75.75 0 0 1 2.75 3h11.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 3.75ZM2 7.5a.75.75 0 0 1 .75-.75h7.508a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 7.5ZM14 7a.75.75 0 0 1 .75.75v6.59l1.95-2.1a.75.75 0 1 1 1.1 1.02l-3.25 3.5a.75.75 0 0 1-1.1 0l-3.25-3.5a.75.75 0 1 1 1.1-1.02l1.95 2.1V7.75A.75.75 0 0 1 14 7ZM2 11.25a.75.75 0 0 1 .75-.75h4.562a.75.75 0 0 1 0 1.5H2.75a.75.75 0 0 1-.75-.75Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTIgMy43NUEuNzUuNzUgMCAwIDEgMi43NSAzaDExLjVhLjc1Ljc1IDAgMCAxIDAgMS41SDIuNzVBLjc1Ljc1IDAgMCAxIDIgMy43NVpNMiA3LjVhLjc1Ljc1IDAgMCAxIC43NS0uNzVoNi4zNjVhLjc1Ljc1IDAgMCAxIDAgMS41SDIuNzVBLjc1Ljc1IDAgMCAxIDIgNy41Wk0xNCA3YS43NS43NSAwIDAgMSAuNTUuMjRsMy4yNSAzLjVhLjc1Ljc1IDAgMSAxLTEuMSAxLjAybC0xLjk1LTIuMXY2LjU5YS43NS43NSAwIDAgMS0xLjUgMFY5LjY2bC0xLjk1IDIuMWEuNzUuNzUgMCAxIDEtMS4xLTEuMDJsMy4yNS0zLjVBLjc1Ljc1IDAgMCAxIDE0IDdaTTIgMTEuMjVhLjc1Ljc1IDAgMCAxIC43NS0uNzVIN0EuNzUuNzUgMCAwIDEgNyAxMkgyLjc1YS43NS43NSAwIDAgMS0uNzUtLjc1WiIgY2xpcC1ydWxlPSJldmVub2RkIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| barsArrowUp
 -}
 barsArrowUp : List (Attribute msg) -> Html msg
 barsArrowUp attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M2 3.75A.75.75 0 0 1 2.75 3h11.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 3.75ZM2 7.5a.75.75 0 0 1 .75-.75h6.365a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 7.5ZM14 7a.75.75 0 0 1 .55.24l3.25 3.5a.75.75 0 1 1-1.1 1.02l-1.95-2.1v6.59a.75.75 0 0 1-1.5 0V9.66l-1.95 2.1a.75.75 0 1 1-1.1-1.02l3.25-3.5A.75.75 0 0 1 14 7ZM2 11.25a.75.75 0 0 1 .75-.75H7A.75.75 0 0 1 7 12H2.75a.75.75 0 0 1-.75-.75Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEgNy4yNUEyLjI1IDIuMjUgMCAwIDEgMy4yNSA1aDEyLjVBMi4yNSAyLjI1IDAgMCAxIDE4IDcuMjV2MS4wODVhMS41IDEuNSAwIDAgMSAxIDEuNDE1di41YTEuNSAxLjUgMCAwIDEtMSAxLjQxNXYxLjA4NUEyLjI1IDIuMjUgMCAwIDEgMTUuNzUgMTVIMy4yNUEyLjI1IDIuMjUgMCAwIDEgMSAxMi43NXYtNS41Wm0yLjI1LS43NWEuNzUuNzUgMCAwIDAtLjc1Ljc1djUuNWMwIC40MTQuMzM2Ljc1Ljc1Ljc1aDEyLjVhLjc1Ljc1IDAgMCAwIC43NS0uNzV2LTUuNWEuNzUuNzUgMCAwIDAtLjc1LS43NUgzLjI1WiIgY2xpcC1ydWxlPSJldmVub2RkIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| battery0
 -}
 battery0 : List (Attribute msg) -> Html msg
 battery0 attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M1 7.25A2.25 2.25 0 0 1 3.25 5h12.5A2.25 2.25 0 0 1 18 7.25v1.085a1.5 1.5 0 0 1 1 1.415v.5a1.5 1.5 0 0 1-1 1.415v1.085A2.25 2.25 0 0 1 15.75 15H3.25A2.25 2.25 0 0 1 1 12.75v-5.5Zm2.25-.75a.75.75 0 0 0-.75.75v5.5c0 .414.336.75.75.75h12.5a.75.75 0 0 0 .75-.75v-5.5a.75.75 0 0 0-.75-.75H3.25Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik00Ljc1IDhhLjc1Ljc1IDAgMCAwLS43NS43NXYyLjVjMCAuNDE0LjMzNi43NS43NS43NWg5LjVhLjc1Ljc1IDAgMCAwIC43NS0uNzV2LTIuNWEuNzUuNzUgMCAwIDAtLjc1LS43NWgtOS41WiIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMSA3LjI1QTIuMjUgMi4yNSAwIDAgMSAzLjI1IDVoMTIuNUEyLjI1IDIuMjUgMCAwIDEgMTggNy4yNXYxLjA4NWExLjUgMS41IDAgMCAxIDEgMS40MTV2LjVhMS41IDEuNSAwIDAgMS0xIDEuNDE1djEuMDg1QTIuMjUgMi4yNSAwIDAgMSAxNS43NSAxNUgzLjI1QTIuMjUgMi4yNSAwIDAgMSAxIDEyLjc1di01LjVabTIuMjUtLjc1YS43NS43NSAwIDAgMC0uNzUuNzV2NS41YzAgLjQxNC4zMzYuNzUuNzUuNzVoMTIuNWEuNzUuNzUgMCAwIDAgLjc1LS43NXYtNS41YS43NS43NSAwIDAgMC0uNzUtLjc1SDMuMjVaIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| battery100
 -}
 battery100 : List (Attribute msg) -> Html msg
 battery100 attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M4.75 8a.75.75 0 0 0-.75.75v2.5c0 .414.336.75.75.75h9.5a.75.75 0 0 0 .75-.75v-2.5a.75.75 0 0 0-.75-.75h-9.5Z" ] [], Svg.path [ fillRule "evenodd", d "M1 7.25A2.25 2.25 0 0 1 3.25 5h12.5A2.25 2.25 0 0 1 18 7.25v1.085a1.5 1.5 0 0 1 1 1.415v.5a1.5 1.5 0 0 1-1 1.415v1.085A2.25 2.25 0 0 1 15.75 15H3.25A2.25 2.25 0 0 1 1 12.75v-5.5Zm2.25-.75a.75.75 0 0 0-.75.75v5.5c0 .414.336.75.75.75h12.5a.75.75 0 0 0 .75-.75v-5.5a.75.75 0 0 0-.75-.75H3.25Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik00Ljc1IDhhLjc1Ljc1IDAgMCAwLS43NS43NXYyLjVjMCAuNDE0LjMzNi43NS43NS43NUg5LjVhLjc1Ljc1IDAgMCAwIC43NS0uNzV2LTIuNUEuNzUuNzUgMCAwIDAgOS41IDhINC43NVoiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTMuMjUgNUEyLjI1IDIuMjUgMCAwIDAgMSA3LjI1djUuNUEyLjI1IDIuMjUgMCAwIDAgMy4yNSAxNWgxMi41QTIuMjUgMi4yNSAwIDAgMCAxOCAxMi43NXYtMS4wODVhMS41IDEuNSAwIDAgMCAxLTEuNDE1di0uNWExLjUgMS41IDAgMCAwLTEtMS40MTVWNy4yNUEyLjI1IDIuMjUgMCAwIDAgMTUuNzUgNUgzLjI1Wk0yLjUgNy4yNWEuNzUuNzUgMCAwIDEgLjc1LS43NWgxMi41YS43NS43NSAwIDAgMSAuNzUuNzV2NS41YS43NS43NSAwIDAgMS0uNzUuNzVIMy4yNWEuNzUuNzUgMCAwIDEtLjc1LS43NXYtNS41WiIgY2xpcC1ydWxlPSJldmVub2RkIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| battery50
 -}
 battery50 : List (Attribute msg) -> Html msg
 battery50 attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M4.75 8a.75.75 0 0 0-.75.75v2.5c0 .414.336.75.75.75H9.5a.75.75 0 0 0 .75-.75v-2.5A.75.75 0 0 0 9.5 8H4.75Z" ] [], Svg.path [ fillRule "evenodd", d "M3.25 5A2.25 2.25 0 0 0 1 7.25v5.5A2.25 2.25 0 0 0 3.25 15h12.5A2.25 2.25 0 0 0 18 12.75v-1.085a1.5 1.5 0 0 0 1-1.415v-.5a1.5 1.5 0 0 0-1-1.415V7.25A2.25 2.25 0 0 0 15.75 5H3.25ZM2.5 7.25a.75.75 0 0 1 .75-.75h12.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-.75.75H3.25a.75.75 0 0 1-.75-.75v-5.5Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTguNSAzLjUyOHY0LjY0NGMwIC43MjktLjI5IDEuNDI4LS44MDUgMS45NDRsLTEuMjE3IDEuMjE2YTguNzUgOC43NSAwIDAgMSAzLjU1LjYyMWwuNTAyLjIwMWE3LjI1IDcuMjUgMCAwIDAgNC4xNzguMzY1bC0yLjQwMy0yLjQwM2EyLjc1IDIuNzUgMCAwIDEtLjgwNS0xLjk0NFYzLjUyOGE0MC4yMDUgNDAuMjA1IDAgMCAwLTMgMFptNC41LjA4NC4xOS4wMTVhLjc1Ljc1IDAgMSAwIC4xMi0xLjQ5NSA0MS4zNjQgNDEuMzY0IDAgMCAwLTYuNjIgMCAuNzUuNzUgMCAwIDAgLjEyIDEuNDk1TDcgMy42MTJ2NC41NmMwIC4zMzEtLjEzMi42NDktLjM2Ni44ODNMMi42IDEzLjA5Yy0xLjQ5NiAxLjQ5Ni0uODE3IDQuMTUgMS40MDMgNC40NzVDNS45NjEgMTcuODUyIDcuOTYzIDE4IDEwIDE4czQuMDM5LS4xNDggNS45OTctLjQzNmMyLjIyLS4zMjUgMi45LTIuOTc5IDEuNDAzLTQuNDc1bC00LjAzNC00LjAzNEExLjI1IDEuMjUgMCAwIDEgMTMgOC4xNzJ2LTQuNTZaIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| beaker
 -}
 beaker : List (Attribute msg) -> Html msg
 beaker attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M8.5 3.528v4.644c0 .729-.29 1.428-.805 1.944l-1.217 1.216a8.75 8.75 0 0 1 3.55.621l.502.201a7.25 7.25 0 0 0 4.178.365l-2.403-2.403a2.75 2.75 0 0 1-.805-1.944V3.528a40.205 40.205 0 0 0-3 0Zm4.5.084.19.015a.75.75 0 1 0 .12-1.495 41.364 41.364 0 0 0-6.62 0 .75.75 0 0 0 .12 1.495L7 3.612v4.56c0 .331-.132.649-.366.883L2.6 13.09c-1.496 1.496-.817 4.15 1.403 4.475C5.961 17.852 7.963 18 10 18s4.039-.148 5.997-.436c2.22-.325 2.9-2.979 1.403-4.475l-4.034-4.034A1.25 1.25 0 0 1 13 8.172v-4.56Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik00LjIxNCAzLjIyN2EuNzUuNzUgMCAwIDAtMS4xNTYtLjk1NSA4Ljk3IDguOTcgMCAwIDAtMS44NTYgMy44MjUuNzUuNzUgMCAwIDAgMS40NjYuMzE2IDcuNDcgNy40NyAwIDAgMSAxLjU0Ni0zLjE4NlpNMTYuOTQyIDIuMjcyYS43NS43NSAwIDAgMC0xLjE1Ny45NTUgNy40NyA3LjQ3IDAgMCAxIDEuNTQ3IDMuMTg2Ljc1Ljc1IDAgMCAwIDEuNDY2LS4zMTYgOC45NzEgOC45NzEgMCAwIDAtMS44NTYtMy44MjVaIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMCAyYTYgNiAwIDAgMC02IDZjMCAxLjg4Ny0uNDU0IDMuNjY1LTEuMjU3IDUuMjM0YS43NS43NSAwIDAgMCAuNTE1IDEuMDc2IDMyLjkxIDMyLjkxIDAgMCAwIDMuMjU2LjUwOCAzLjUgMy41IDAgMCAwIDYuOTcyIDAgMzIuOTAzIDMyLjkwMyAwIDAgMCAzLjI1Ni0uNTA4Ljc1Ljc1IDAgMCAwIC41MTUtMS4wNzZBMTEuNDQ4IDExLjQ0OCAwIDAgMSAxNiA4YTYgNiAwIDAgMC02LTZabTAgMTQuNWEyIDIgMCAwIDEtMS45NS0xLjU1NyAzMy41NCAzMy41NCAwIDAgMCAzLjkgMEEyIDIgMCAwIDEgMTAgMTYuNVoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| bellAlert
 -}
 bellAlert : List (Attribute msg) -> Html msg
 bellAlert attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M4.214 3.227a.75.75 0 0 0-1.156-.955 8.97 8.97 0 0 0-1.856 3.825.75.75 0 0 0 1.466.316 7.47 7.47 0 0 1 1.546-3.186ZM16.942 2.272a.75.75 0 0 0-1.157.955 7.47 7.47 0 0 1 1.547 3.186.75.75 0 0 0 1.466-.316 8.971 8.971 0 0 0-1.856-3.825Z" ] [], Svg.path [ fillRule "evenodd", d "M10 2a6 6 0 0 0-6 6c0 1.887-.454 3.665-1.257 5.234a.75.75 0 0 0 .515 1.076 32.91 32.91 0 0 0 3.256.508 3.5 3.5 0 0 0 6.972 0 32.903 32.903 0 0 0 3.256-.508.75.75 0 0 0 .515-1.076A11.448 11.448 0 0 1 16 8a6 6 0 0 0-6-6Zm0 14.5a2 2 0 0 1-1.95-1.557 33.54 33.54 0 0 0 3.9 0A2 2 0 0 1 10 16.5Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik00IDhjMC0uMjYuMDE3LS41MTcuMDQ5LS43N2w3LjcyMiA3LjcyM2EzMy41NiAzMy41NiAwIDAgMS0zLjcyMi0uMDEgMiAyIDAgMCAwIDMuODYyLjE1bDEuMTM0IDEuMTM0YTMuNSAzLjUgMCAwIDEtNi41My0xLjQwOSAzMi45MSAzMi45MSAwIDAgMS0zLjI1Ny0uNTA4Ljc1Ljc1IDAgMCAxLS41MTUtMS4wNzZBMTEuNDQ4IDExLjQ0OCAwIDAgMCA0IDhaTTE3LjI2NiAxMy45YS43NTYuNzU2IDAgMCAxLS4wNjguMTE2TDYuMzg5IDMuMjA3QTYgNiAwIDAgMSAxNiA4Yy4wMDEgMS44ODcuNDU1IDMuNjY1IDEuMjU4IDUuMjM0YS43NS43NSAwIDAgMSAuMDEuNjY2Wk0zLjI4IDIuMjJhLjc1Ljc1IDAgMCAwLTEuMDYgMS4wNmwxNC41IDE0LjVhLjc1Ljc1IDAgMSAwIDEuMDYtMS4wNkwzLjI4IDIuMjJaIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| bellSlash
 -}
 bellSlash : List (Attribute msg) -> Html msg
 bellSlash attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M4 8c0-.26.017-.517.049-.77l7.722 7.723a33.56 33.56 0 0 1-3.722-.01 2 2 0 0 0 3.862.15l1.134 1.134a3.5 3.5 0 0 1-6.53-1.409 32.91 32.91 0 0 1-3.257-.508.75.75 0 0 1-.515-1.076A11.448 11.448 0 0 0 4 8ZM17.266 13.9a.756.756 0 0 1-.068.116L6.389 3.207A6 6 0 0 1 16 8c.001 1.887.455 3.665 1.258 5.234a.75.75 0 0 1 .01.666ZM3.28 2.22a.75.75 0 0 0-1.06 1.06l14.5 14.5a.75.75 0 1 0 1.06-1.06L3.28 2.22Z" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTQgOGE2IDYgMCAxIDEgMTIgMGMwIDEuODg3LjQ1NCAzLjY2NSAxLjI1NyA1LjIzNGEuNzUuNzUgMCAwIDEtLjUxNSAxLjA3NiAzMi45MDMgMzIuOTAzIDAgMCAxLTMuMjU2LjUwOCAzLjUgMy41IDAgMCAxLTYuOTcyIDAgMzIuOTEgMzIuOTEgMCAwIDEtMy4yNTYtLjUwOC43NS43NSAwIDAgMS0uNTE1LTEuMDc2QTExLjQ0OCAxMS40NDggMCAwIDAgNCA4Wm02IDdjLS42NTUgMC0xLjMwNS0uMDItMS45NS0uMDU3YTIgMiAwIDAgMCAzLjkgMGMtLjY0NS4wMzgtMS4yOTUuMDU3LTEuOTUuMDU3Wk04Ljc1IDZhLjc1Ljc1IDAgMCAwIDAgMS41aDEuMDQzTDguMTQgOS44MTRBLjc1Ljc1IDAgMCAwIDguNzUgMTFoMi41YS43NS43NSAwIDAgMCAwLTEuNWgtMS4wNDNsMS42NTMtMi4zMTRBLjc1Ljc1IDAgMCAwIDExLjI1IDZoLTIuNVoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| bellSnooze
 -}
 bellSnooze : List (Attribute msg) -> Html msg
 bellSnooze attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M4 8a6 6 0 1 1 12 0c0 1.887.454 3.665 1.257 5.234a.75.75 0 0 1-.515 1.076 32.903 32.903 0 0 1-3.256.508 3.5 3.5 0 0 1-6.972 0 32.91 32.91 0 0 1-3.256-.508.75.75 0 0 1-.515-1.076A11.448 11.448 0 0 0 4 8Zm6 7c-.655 0-1.305-.02-1.95-.057a2 2 0 0 0 3.9 0c-.645.038-1.295.057-1.95.057ZM8.75 6a.75.75 0 0 0 0 1.5h1.043L8.14 9.814A.75.75 0 0 0 8.75 11h2.5a.75.75 0 0 0 0-1.5h-1.043l1.653-2.314A.75.75 0 0 0 11.25 6h-2.5Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEwIDJhNiA2IDAgMCAwLTYgNmMwIDEuODg3LS40NTQgMy42NjUtMS4yNTcgNS4yMzRhLjc1Ljc1IDAgMCAwIC41MTUgMS4wNzYgMzIuOTEgMzIuOTEgMCAwIDAgMy4yNTYuNTA4IDMuNSAzLjUgMCAwIDAgNi45NzIgMCAzMi45MDMgMzIuOTAzIDAgMCAwIDMuMjU2LS41MDguNzUuNzUgMCAwIDAgLjUxNS0xLjA3NkExMS40NDggMTEuNDQ4IDAgMCAxIDE2IDhhNiA2IDAgMCAwLTYtNlpNOC4wNSAxNC45NDNhMzMuNTQgMzMuNTQgMCAwIDAgMy45IDAgMiAyIDAgMCAxLTMuOSAwWiIgY2xpcC1ydWxlPSJldmVub2RkIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| bell
 -}
 bell : List (Attribute msg) -> Html msg
 bell attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M10 2a6 6 0 0 0-6 6c0 1.887-.454 3.665-1.257 5.234a.75.75 0 0 0 .515 1.076 32.91 32.91 0 0 0 3.256.508 3.5 3.5 0 0 0 6.972 0 32.903 32.903 0 0 0 3.256-.508.75.75 0 0 0 .515-1.076A11.448 11.448 0 0 1 16 8a6 6 0 0 0-6-6ZM8.05 14.943a33.54 33.54 0 0 0 3.9 0 2 2 0 0 1-3.9 0Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTIuMjIgMi4yMmEuNzUuNzUgMCAwIDEgMS4wNiAwbDE0LjUgMTQuNWEuNzUuNzUgMCAxIDEtMS4wNiAxLjA2TDIuMjIgMy4yOGEuNzUuNzUgMCAwIDEgMC0xLjA2WiIgY2xpcC1ydWxlPSJldmVub2RkIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48cGF0aCBkPSJNNC43MyA3LjkxMiAyLjE5MSAxMC43NUEuNzUuNzUgMCAwIDAgMi43NSAxMmg2LjA2OEw0LjczIDcuOTEyWk05LjIzMyAxMi40MTVsLTEuMjE2IDUuNjc4YS43NS43NSAwIDAgMCAxLjI5Mi42NTdsMi45NTYtMy4zMDMtMy4wMzItMy4wMzJaTTE1LjI3IDEyLjA4OGwyLjUzOS0yLjgzOEEuNzUuNzUgMCAwIDAgMTcuMjUgOGgtNi4wNjhsNC4wODggNC4wODhaTTEwLjc2NyA3LjU4NWwxLjIxNi01LjY3OGEuNzUuNzUgMCAwIDAtMS4yOTItLjY1N0w3LjczNSA0LjU1M2wzLjAzMiAzLjAzMloiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| boltSlash
 -}
 boltSlash : List (Attribute msg) -> Html msg
 boltSlash attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M2.22 2.22a.75.75 0 0 1 1.06 0l14.5 14.5a.75.75 0 1 1-1.06 1.06L2.22 3.28a.75.75 0 0 1 0-1.06Z", clipRule "evenodd" ] [], Svg.path [ d "M4.73 7.912 2.191 10.75A.75.75 0 0 0 2.75 12h6.068L4.73 7.912ZM9.233 12.415l-1.216 5.678a.75.75 0 0 0 1.292.657l2.956-3.303-3.032-3.032ZM15.27 12.088l2.539-2.838A.75.75 0 0 0 17.25 8h-6.068l4.088 4.088ZM10.767 7.585l1.216-5.678a.75.75 0 0 0-1.292-.657L7.735 4.553l3.032 3.032Z" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik0xMS45ODMgMS45MDdhLjc1Ljc1IDAgMCAwLTEuMjkyLS42NTdsLTguNSA5LjVBLjc1Ljc1IDAgMCAwIDIuNzUgMTJoNi41NzJsLTEuMzA1IDYuMDkzYS43NS43NSAwIDAgMCAxLjI5Mi42NTdsOC41LTkuNUEuNzUuNzUgMCAwIDAgMTcuMjUgOGgtNi41NzJsMS4zMDUtNi4wOTNaIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| bolt
 -}
 bolt : List (Attribute msg) -> Html msg
 bolt attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M11.983 1.907a.75.75 0 0 0-1.292-.657l-8.5 9.5A.75.75 0 0 0 2.75 12h6.572l-1.305 6.093a.75.75 0 0 0 1.292.657l8.5-9.5A.75.75 0 0 0 17.25 8h-6.572l1.305-6.093Z" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik0xMC43NSAxNi44MkE3LjQ2MiA3LjQ2MiAwIDAgMSAxNSAxNS41Yy43MSAwIDEuMzk2LjA5OCAyLjA0Ni4yODJBLjc1Ljc1IDAgMCAwIDE4IDE1LjA2di0xMWEuNzUuNzUgMCAwIDAtLjU0Ni0uNzIxQTkuMDA2IDkuMDA2IDAgMCAwIDE1IDNhOC45NjMgOC45NjMgMCAwIDAtNC4yNSAxLjA2NVYxNi44MlpNOS4yNSA0LjA2NUE4Ljk2MyA4Ljk2MyAwIDAgMCA1IDNjLS44NSAwLTEuNjczLjExOC0yLjQ1NC4zMzlBLjc1Ljc1IDAgMCAwIDIgNC4wNnYxMWEuNzUuNzUgMCAwIDAgLjk1NC43MjFBNy41MDYgNy41MDYgMCAwIDEgNSAxNS41YzEuNTc5IDAgMy4wNDIuNDg3IDQuMjUgMS4zMlY0LjA2NVoiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| bookOpen
 -}
 bookOpen : List (Attribute msg) -> Html msg
 bookOpen attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M10.75 16.82A7.462 7.462 0 0 1 15 15.5c.71 0 1.396.098 2.046.282A.75.75 0 0 0 18 15.06v-11a.75.75 0 0 0-.546-.721A9.006 9.006 0 0 0 15 3a8.963 8.963 0 0 0-4.25 1.065V16.82ZM9.25 4.065A8.963 8.963 0 0 0 5 3c-.85 0-1.673.118-2.454.339A.75.75 0 0 0 2 4.06v11a.75.75 0 0 0 .954.721A7.506 7.506 0 0 1 5 15.5c1.579 0 3.042.487 4.25 1.32V4.065Z" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik0xNyA0LjUxN3Y5LjMwMUw1LjQzMyAyLjI1MmE0MS40NCA0MS40NCAwIDAgMSA5LjYzNy4wNThDMTYuMTk0IDIuNDUgMTcgMy40MTQgMTcgNC41MTdaTTMgMTcuMjVWNi4xODJsMTAuNjU0IDEwLjY1NEwxMCAxNS4wODJsLTUuOTI1IDIuODQ0QS43NS43NSAwIDAgMSAzIDE3LjI1Wk0zLjI4IDIuMjJhLjc1Ljc1IDAgMCAwLTEuMDYgMS4wNmwxNC41IDE0LjVhLjc1Ljc1IDAgMSAwIDEuMDYtMS4wNkwzLjI4IDIuMjJaIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| bookmarkSlash
 -}
 bookmarkSlash : List (Attribute msg) -> Html msg
 bookmarkSlash attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M17 4.517v9.301L5.433 2.252a41.44 41.44 0 0 1 9.637.058C16.194 2.45 17 3.414 17 4.517ZM3 17.25V6.182l10.654 10.654L10 15.082l-5.925 2.844A.75.75 0 0 1 3 17.25ZM3.28 2.22a.75.75 0 0 0-1.06 1.06l14.5 14.5a.75.75 0 1 0 1.06-1.06L3.28 2.22Z" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTQuMjUgMkEyLjI1IDIuMjUgMCAwIDAgMiA0LjI1djExLjVBMi4yNSAyLjI1IDAgMCAwIDQuMjUgMThoMTEuNUEyLjI1IDIuMjUgMCAwIDAgMTggMTUuNzVWNC4yNUEyLjI1IDIuMjUgMCAwIDAgMTUuNzUgMkg0LjI1Wk02IDEzLjI1VjMuNWg4djkuNzVhLjc1Ljc1IDAgMCAxLTEuMDY0LjY4MUwxMCAxMi41NzZsLTIuOTM2IDEuMzU1QS43NS43NSAwIDAgMSA2IDEzLjI1WiIgY2xpcC1ydWxlPSJldmVub2RkIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| bookmarkSquare
 -}
 bookmarkSquare : List (Attribute msg) -> Html msg
 bookmarkSquare attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M4.25 2A2.25 2.25 0 0 0 2 4.25v11.5A2.25 2.25 0 0 0 4.25 18h11.5A2.25 2.25 0 0 0 18 15.75V4.25A2.25 2.25 0 0 0 15.75 2H4.25ZM6 13.25V3.5h8v9.75a.75.75 0 0 1-1.064.681L10 12.576l-2.936 1.355A.75.75 0 0 1 6 13.25Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEwIDJjLTEuNzE2IDAtMy40MDguMTA2LTUuMDcuMzFDMy44MDYgMi40NSAzIDMuNDE0IDMgNC41MTdWMTcuMjVhLjc1Ljc1IDAgMCAwIDEuMDc1LjY3NkwxMCAxNS4wODJsNS45MjUgMi44NDRBLjc1Ljc1IDAgMCAwIDE3IDE3LjI1VjQuNTE3YzAtMS4xMDMtLjgwNi0yLjA2OC0xLjkzLTIuMjA3QTQxLjQwMyA0MS40MDMgMCAwIDAgMTAgMloiIGNsaXAtcnVsZT0iZXZlbm9kZCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| bookmark
 -}
 bookmark : List (Attribute msg) -> Html msg
 bookmark attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M10 2c-1.716 0-3.408.106-5.07.31C3.806 2.45 3 3.414 3 4.517V17.25a.75.75 0 0 0 1.075.676L10 15.082l5.925 2.844A.75.75 0 0 0 17 17.25V4.517c0-1.103-.806-2.068-1.93-2.207A41.403 41.403 0 0 0 10 2Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTYgMy43NUEyLjc1IDIuNzUgMCAwIDEgOC43NSAxaDIuNUEyLjc1IDIuNzUgMCAwIDEgMTQgMy43NXYuNDQzYy41NzIuMDU1IDEuMTQuMTIyIDEuNzA2LjJDMTcuMDUzIDQuNTgyIDE4IDUuNzUgMTggNy4wN3YzLjQ2OWMwIDEuMTI2LS42OTQgMi4xOTEtMS44MyAyLjU0LTEuOTUyLjU5OS00LjAyNC45MjEtNi4xNy45MjFzLTQuMjE5LS4zMjItNi4xNy0uOTIxQzIuNjk0IDEyLjczIDIgMTEuNjY1IDIgMTAuNTM5VjcuMDdjMC0xLjMyMS45NDctMi40ODkgMi4yOTQtMi42NzZBNDEuMDQ3IDQxLjA0NyAwIDAgMSA2IDQuMTkzVjMuNzVabTYuNSAwdi4zMjVhNDEuNjIyIDQxLjYyMiAwIDAgMC01IDBWMy43NWMwLS42OS41Ni0xLjI1IDEuMjUtMS4yNWgyLjVjLjY5IDAgMS4yNS41NiAxLjI1IDEuMjVaTTEwIDEwYTEgMSAwIDAgMC0xIDF2LjAxYTEgMSAwIDAgMCAxIDFoLjAxYTEgMSAwIDAgMCAxLTFWMTFhMSAxIDAgMCAwLTEtMUgxMFoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PHBhdGggZD0iTTMgMTUuMDU1di0uNjg0Yy4xMjYuMDUzLjI1NS4xLjM5LjE0MiAyLjA5Mi42NDIgNC4zMTMuOTg3IDYuNjEuOTg3IDIuMjk3IDAgNC41MTgtLjM0NSA2LjYxLS45ODcuMTM1LS4wNDEuMjY0LS4wODkuMzktLjE0MnYuNjg0YzAgMS4zNDctLjk4NSAyLjUzLTIuMzYzIDIuNjg2YTQxLjQ1NCA0MS40NTQgMCAwIDEtOS4yNzQgMEMzLjk4NSAxNy41ODUgMyAxNi40MDIgMyAxNS4wNTVaIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| briefcase
 -}
 briefcase : List (Attribute msg) -> Html msg
 briefcase attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M6 3.75A2.75 2.75 0 0 1 8.75 1h2.5A2.75 2.75 0 0 1 14 3.75v.443c.572.055 1.14.122 1.706.2C17.053 4.582 18 5.75 18 7.07v3.469c0 1.126-.694 2.191-1.83 2.54-1.952.599-4.024.921-6.17.921s-4.219-.322-6.17-.921C2.694 12.73 2 11.665 2 10.539V7.07c0-1.321.947-2.489 2.294-2.676A41.047 41.047 0 0 1 6 4.193V3.75Zm6.5 0v.325a41.622 41.622 0 0 0-5 0V3.75c0-.69.56-1.25 1.25-1.25h2.5c.69 0 1.25.56 1.25 1.25ZM10 10a1 1 0 0 0-1 1v.01a1 1 0 0 0 1 1h.01a1 1 0 0 0 1-1V11a1 1 0 0 0-1-1H10Z", clipRule "evenodd" ] [], Svg.path [ d "M3 15.055v-.684c.126.053.255.1.39.142 2.092.642 4.313.987 6.61.987 2.297 0 4.518-.345 6.61-.987.135-.041.264-.089.39-.142v.684c0 1.347-.985 2.53-2.363 2.686a41.454 41.454 0 0 1-9.274 0C3.985 17.585 3 16.402 3 15.055Z" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTYuNTYgMS4xNGEuNzUuNzUgMCAwIDEgLjE3NyAxLjA0NSAzLjk4OSAzLjk4OSAwIDAgMC0uNDY0Ljg2Yy4xODUuMTcuMzgyLjMyOS41OS40NzNBMy45OTMgMy45OTMgMCAwIDEgMTAgMmMxLjI3MiAwIDIuNDA1LjU5NCAzLjEzNyAxLjUxOC4yMDgtLjE0NC40MDUtLjMwMi41OS0uNDczYTMuOTg5IDMuOTg5IDAgMCAwLS40NjQtLjg2Ljc1Ljc1IDAgMCAxIDEuMjIyLS44NjljLjM2OS41MTkuNjUgMS4xMDUuODIyIDEuNzM2YS43NS43NSAwIDAgMS0uMTc0LjcwNyA3LjAzIDcuMDMgMCAwIDEtMS4yOTkgMS4wOThBNCA0IDAgMCAxIDE0IDZjMCAuNTItLjMwMS45NjMtLjcyMyAxLjE4N2E2Ljk2MSA2Ljk2MSAwIDAgMS0xLjE1OC40ODZjLjEzLjIwOC4yMzEuNDM2LjI5Ni42NzkgMS40MTMtLjE3NCAyLjc3OS0uNSA0LjA4MS0uOTZhMTkuNjU1IDE5LjY1NSAwIDAgMC0uMDktMi4zMTkuNzUuNzUgMCAxIDEgMS40OTMtLjE0NiAyMS4yMzkgMjEuMjM5IDAgMCAxIC4wOCAzLjAyOC43NS43NSAwIDAgMS0uNDgyLjY2NyAyMC44NzMgMjAuODczIDAgMCAxLTUuMTUzIDEuMjQ5IDIuNTIxIDIuNTIxIDAgMCAxLS4xMDcuMjQ3IDIwLjk0NSAyMC45NDUgMCAwIDEgNS4yNTIgMS4yNTcuNzUuNzUgMCAwIDEgLjQ4Mi43NCAyMC45NDUgMjAuOTQ1IDAgMCAxLS45MDggNS4xMDcuNzUuNzUgMCAwIDEtMS40MzMtLjQ0NGMuNDE1LTEuMzQuNjktMi43NDMuODA2LTQuMTkxLS40OTUtLjE3My0xLS4zMjctMS41MTItLjQ2LjA1LjI4NC4wNzYuNTc1LjA3Ni44NzMgMCAxLjgxNC0uNTE3IDMuMzEyLTEuNDI2IDQuMzdBNC42MzkgNC42MzkgMCAwIDEgMTAgMTlhNC42MzkgNC42MzkgMCAwIDEtMy41NzQtMS42M0M1LjUxNiAxNi4zMTEgNSAxNC44MTMgNSAxM2MwLS4yOTguMDI2LS41OS4wNzYtLjg3My0uNTEzLjEzMy0xLjAxNy4yODctMS41MTIuNDYuMTE2IDEuNDQ4LjM5IDIuODUuODA2IDQuMTkxYS43NS43NSAwIDEgMS0xLjQzMy40NDQgMjAuOTQgMjAuOTQgMCAwIDEtLjkwOC01LjEwNy43NS43NSAwIDAgMSAuNDgyLS43NCAyMC44MzggMjAuODM4IDAgMCAxIDUuMjUyLTEuMjU3IDIuNDkzIDIuNDkzIDAgMCAxLS4xMDctLjI0NyAyMC44NzQgMjAuODc0IDAgMCAxLTUuMTUzLTEuMjQ5Ljc1Ljc1IDAgMCAxLS40ODItLjY2NyAyMS4zNDIgMjEuMzQyIDAgMCAxIC4wOC0zLjAyOC43NS43NSAwIDEgMSAxLjQ5My4xNDYgMTkuNzQ1IDE5Ljc0NSAwIDAgMC0uMDkgMi4zMTljMS4zMDIuNDYgMi42NjguNzg2IDQuMDguOTYuMDY2LS4yNDMuMTY2LS40NzEuMjk3LS42NzlhNi45NjIgNi45NjIgMCAwIDEtMS4xNTgtLjQ4NkExLjM0OCAxLjM0OCAwIDAgMSA2IDZhNCA0IDAgMCAxIC4xNjYtMS4xNDMgNy4wMzIgNy4wMzIgMCAwIDEtMS4zLTEuMDk4Ljc1Ljc1IDAgMCAxLS4xNzMtLjcwNyA1LjQ4IDUuNDggMCAwIDEgLjgyMi0xLjczNi43NS43NSAwIDAgMSAxLjA0Ni0uMTc3WiIgY2xpcC1ydWxlPSJldmVub2RkIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| bugAnt
 -}
 bugAnt : List (Attribute msg) -> Html msg
 bugAnt attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M6.56 1.14a.75.75 0 0 1 .177 1.045 3.989 3.989 0 0 0-.464.86c.185.17.382.329.59.473A3.993 3.993 0 0 1 10 2c1.272 0 2.405.594 3.137 1.518.208-.144.405-.302.59-.473a3.989 3.989 0 0 0-.464-.86.75.75 0 0 1 1.222-.869c.369.519.65 1.105.822 1.736a.75.75 0 0 1-.174.707 7.03 7.03 0 0 1-1.299 1.098A4 4 0 0 1 14 6c0 .52-.301.963-.723 1.187a6.961 6.961 0 0 1-1.158.486c.13.208.231.436.296.679 1.413-.174 2.779-.5 4.081-.96a19.655 19.655 0 0 0-.09-2.319.75.75 0 1 1 1.493-.146 21.239 21.239 0 0 1 .08 3.028.75.75 0 0 1-.482.667 20.873 20.873 0 0 1-5.153 1.249 2.521 2.521 0 0 1-.107.247 20.945 20.945 0 0 1 5.252 1.257.75.75 0 0 1 .482.74 20.945 20.945 0 0 1-.908 5.107.75.75 0 0 1-1.433-.444c.415-1.34.69-2.743.806-4.191-.495-.173-1-.327-1.512-.46.05.284.076.575.076.873 0 1.814-.517 3.312-1.426 4.37A4.639 4.639 0 0 1 10 19a4.639 4.639 0 0 1-3.574-1.63C5.516 16.311 5 14.813 5 13c0-.298.026-.59.076-.873-.513.133-1.017.287-1.512.46.116 1.448.39 2.85.806 4.191a.75.75 0 1 1-1.433.444 20.94 20.94 0 0 1-.908-5.107.75.75 0 0 1 .482-.74 20.838 20.838 0 0 1 5.252-1.257 2.493 2.493 0 0 1-.107-.247 20.874 20.874 0 0 1-5.153-1.249.75.75 0 0 1-.482-.667 21.342 21.342 0 0 1 .08-3.028.75.75 0 1 1 1.493.146 19.745 19.745 0 0 0-.09 2.319c1.302.46 2.668.786 4.08.96.066-.243.166-.471.297-.679a6.962 6.962 0 0 1-1.158-.486A1.348 1.348 0 0 1 6 6a4 4 0 0 1 .166-1.143 7.032 7.032 0 0 1-1.3-1.098.75.75 0 0 1-.173-.707 5.48 5.48 0 0 1 .822-1.736.75.75 0 0 1 1.046-.177Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTkuNjc0IDIuMDc1YS43NS43NSAwIDAgMSAuNjUyIDBsNy4yNSAzLjVBLjc1Ljc1IDAgMCAxIDE3IDYuOTU3VjE2LjVoLjI1YS43NS43NSAwIDAgMSAwIDEuNUgyLjc1YS43NS43NSAwIDAgMSAwLTEuNUgzVjYuOTU3YS43NS43NSAwIDAgMS0uNTc2LTEuMzgybDcuMjUtMy41Wk0xMSA2YTEgMSAwIDEgMS0yIDAgMSAxIDAgMCAxIDIgMFpNNy41IDkuNzVhLjc1Ljc1IDAgMCAwLTEuNSAwdjUuNWEuNzUuNzUgMCAwIDAgMS41IDB2LTUuNVptMy4yNSAwYS43NS43NSAwIDAgMC0xLjUgMHY1LjVhLjc1Ljc1IDAgMCAwIDEuNSAwdi01LjVabTMuMjUgMGEuNzUuNzUgMCAwIDAtMS41IDB2NS41YS43NS43NSAwIDAgMCAxLjUgMHYtNS41WiIgY2xpcC1ydWxlPSJldmVub2RkIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| buildingLibrary
 -}
 buildingLibrary : List (Attribute msg) -> Html msg
 buildingLibrary attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M9.674 2.075a.75.75 0 0 1 .652 0l7.25 3.5A.75.75 0 0 1 17 6.957V16.5h.25a.75.75 0 0 1 0 1.5H2.75a.75.75 0 0 1 0-1.5H3V6.957a.75.75 0 0 1-.576-1.382l7.25-3.5ZM11 6a1 1 0 1 1-2 0 1 1 0 0 1 2 0ZM7.5 9.75a.75.75 0 0 0-1.5 0v5.5a.75.75 0 0 0 1.5 0v-5.5Zm3.25 0a.75.75 0 0 0-1.5 0v5.5a.75.75 0 0 0 1.5 0v-5.5Zm3.25 0a.75.75 0 0 0-1.5 0v5.5a.75.75 0 0 0 1.5 0v-5.5Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEgMi43NUEuNzUuNzUgMCAwIDEgMS43NSAyaDEwLjVhLjc1Ljc1IDAgMCAxIDAgMS41SDEydjEzLjc1YS43NS43NSAwIDAgMS0uNzUuNzVoLTEuNWEuNzUuNzUgMCAwIDEtLjc1LS43NXYtMi41YS43NS43NSAwIDAgMC0uNzUtLjc1aC0yLjVhLjc1Ljc1IDAgMCAwLS43NS43NXYyLjVhLjc1Ljc1IDAgMCAxLS43NS43NWgtMi41YS43NS43NSAwIDAgMSAwLTEuNUgydi0xM2gtLjI1QS43NS43NSAwIDAgMSAxIDIuNzVaTTQgNS41YS41LjUgMCAwIDEgLjUtLjVoMWEuNS41IDAgMCAxIC41LjV2MWEuNS41IDAgMCAxLS41LjVoLTFhLjUuNSAwIDAgMS0uNS0uNXYtMVpNNC41IDlhLjUuNSAwIDAgMC0uNS41djFhLjUuNSAwIDAgMCAuNS41aDFhLjUuNSAwIDAgMCAuNS0uNXYtMWEuNS41IDAgMCAwLS41LS41aC0xWk04IDUuNWEuNS41IDAgMCAxIC41LS41aDFhLjUuNSAwIDAgMSAuNS41djFhLjUuNSAwIDAgMS0uNS41aC0xYS41LjUgMCAwIDEtLjUtLjV2LTFaTTguNSA5YS41LjUgMCAwIDAtLjUuNXYxYS41LjUgMCAwIDAgLjUuNWgxYS41LjUgMCAwIDAgLjUtLjV2LTFhLjUuNSAwIDAgMC0uNS0uNWgtMVpNMTQuMjUgNmEuNzUuNzUgMCAwIDAtLjc1Ljc1VjE3YTEgMSAwIDAgMCAxIDFoMy43NWEuNzUuNzUgMCAwIDAgMC0xLjVIMTh2LTloLjI1YS43NS43NSAwIDAgMCAwLTEuNWgtNFptLjUgMy41YS41LjUgMCAwIDEgLjUtLjVoMWEuNS41IDAgMCAxIC41LjV2MWEuNS41IDAgMCAxLS41LjVoLTFhLjUuNSAwIDAgMS0uNS0uNXYtMVptLjUgMy41YS41LjUgMCAwIDAtLjUuNXYxYS41LjUgMCAwIDAgLjUuNWgxYS41LjUgMCAwIDAgLjUtLjV2LTFhLjUuNSAwIDAgMC0uNS0uNWgtMVoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| buildingOffice2
 -}
 buildingOffice2 : List (Attribute msg) -> Html msg
 buildingOffice2 attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M1 2.75A.75.75 0 0 1 1.75 2h10.5a.75.75 0 0 1 0 1.5H12v13.75a.75.75 0 0 1-.75.75h-1.5a.75.75 0 0 1-.75-.75v-2.5a.75.75 0 0 0-.75-.75h-2.5a.75.75 0 0 0-.75.75v2.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5H2v-13h-.25A.75.75 0 0 1 1 2.75ZM4 5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1ZM4.5 9a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1ZM8 5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1ZM8.5 9a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1ZM14.25 6a.75.75 0 0 0-.75.75V17a1 1 0 0 0 1 1h3.75a.75.75 0 0 0 0-1.5H18v-9h.25a.75.75 0 0 0 0-1.5h-4Zm.5 3.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1Zm.5 3.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTQgMTYuNXYtMTNoLS4yNWEuNzUuNzUgMCAwIDEgMC0xLjVoMTIuNWEuNzUuNzUgMCAwIDEgMCAxLjVIMTZ2MTNoLjI1YS43NS43NSAwIDAgMSAwIDEuNWgtMy41YS43NS43NSAwIDAgMS0uNzUtLjc1di0yLjVhLjc1Ljc1IDAgMCAwLS43NS0uNzVoLTIuNWEuNzUuNzUgMCAwIDAtLjc1Ljc1djIuNWEuNzUuNzUgMCAwIDEtLjc1Ljc1aC0zLjVhLjc1Ljc1IDAgMCAxIDAtMS41SDRabTMtMTFhLjUuNSAwIDAgMSAuNS0uNWgxYS41LjUgMCAwIDEgLjUuNXYxYS41LjUgMCAwIDEtLjUuNWgtMWEuNS41IDAgMCAxLS41LS41di0xWk03LjUgOWEuNS41IDAgMCAwLS41LjV2MWEuNS41IDAgMCAwIC41LjVoMWEuNS41IDAgMCAwIC41LS41di0xYS41LjUgMCAwIDAtLjUtLjVoLTFaTTExIDUuNWEuNS41IDAgMCAxIC41LS41aDFhLjUuNSAwIDAgMSAuNS41djFhLjUuNSAwIDAgMS0uNS41aC0xYS41LjUgMCAwIDEtLjUtLjV2LTFabS41IDMuNWEuNS41IDAgMCAwLS41LjV2MWEuNS41IDAgMCAwIC41LjVoMWEuNS41IDAgMCAwIC41LS41di0xYS41LjUgMCAwIDAtLjUtLjVoLTFaIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| buildingOffice
 -}
 buildingOffice : List (Attribute msg) -> Html msg
 buildingOffice attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M4 16.5v-13h-.25a.75.75 0 0 1 0-1.5h12.5a.75.75 0 0 1 0 1.5H16v13h.25a.75.75 0 0 1 0 1.5h-3.5a.75.75 0 0 1-.75-.75v-2.5a.75.75 0 0 0-.75-.75h-2.5a.75.75 0 0 0-.75.75v2.5a.75.75 0 0 1-.75.75h-3.5a.75.75 0 0 1 0-1.5H4Zm3-11a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1ZM7.5 9a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1ZM11 5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1Zm.5 3.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik0yLjg3OSA3LjEyMUEzIDMgMCAwIDAgNy41IDYuNjZhMi45OTcgMi45OTcgMCAwIDAgMi41IDEuMzQgMi45OTcgMi45OTcgMCAwIDAgMi41LTEuMzQgMyAzIDAgMSAwIDQuNjIyLTMuNzhsLS4yOTMtLjI5M0EyIDIgMCAwIDAgMTUuNDE1IDJINC41ODVhMiAyIDAgMCAwLTEuNDE0LjU4NmwtLjI5Mi4yOTJhMyAzIDAgMCAwIDAgNC4yNDNaTTMgOS4wMzJhNC41MDcgNC41MDcgMCAwIDAgNC41LS4yOUE0LjQ4IDQuNDggMCAwIDAgMTAgOS41YTQuNDggNC40OCAwIDAgMCAyLjUtLjc1OCA0LjUwNyA0LjUwNyAwIDAgMCA0LjUuMjlWMTYuNWguMjVhLjc1Ljc1IDAgMCAxIDAgMS41aC00LjVhLjc1Ljc1IDAgMCAxLS43NS0uNzV2LTMuNWEuNzUuNzUgMCAwIDAtLjc1LS43NWgtMi41YS43NS43NSAwIDAgMC0uNzUuNzV2My41YS43NS43NSAwIDAgMS0uNzUuNzVoLTQuNWEuNzUuNzUgMCAwIDEgMC0xLjVIM1Y5LjAzMloiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| buildingStorefront
 -}
 buildingStorefront : List (Attribute msg) -> Html msg
 buildingStorefront attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M2.879 7.121A3 3 0 0 0 7.5 6.66a2.997 2.997 0 0 0 2.5 1.34 2.997 2.997 0 0 0 2.5-1.34 3 3 0 1 0 4.622-3.78l-.293-.293A2 2 0 0 0 15.415 2H4.585a2 2 0 0 0-1.414.586l-.292.292a3 3 0 0 0 0 4.243ZM3 9.032a4.507 4.507 0 0 0 4.5-.29A4.48 4.48 0 0 0 10 9.5a4.48 4.48 0 0 0 2.5-.758 4.507 4.507 0 0 0 4.5.29V16.5h.25a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1-.75-.75v-3.5a.75.75 0 0 0-.75-.75h-2.5a.75.75 0 0 0-.75.75v3.5a.75.75 0 0 1-.75.75h-4.5a.75.75 0 0 1 0-1.5H3V9.032Z" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Im02Ljc1Ljk4LS44ODQuODgzYTEuMjUgMS4yNSAwIDEgMCAxLjc2OCAwTDYuNzUuOThaTTEzLjI1Ljk4bC0uODg0Ljg4M2ExLjI1IDEuMjUgMCAxIDAgMS43NjggMEwxMy4yNS45OFpNMTAgLjk4bC44ODQuODgzYTEuMjUgMS4yNSAwIDEgMS0xLjc2OCAwTDEwIC45OFpNNy41IDUuNzVhLjc1Ljc1IDAgMCAwLTEuNSAwdi40NjRjLTEuMTc5LjMwNC0yIDEuMzktMiAyLjYyMnYuMDk0Yy4xLS4wMi4yMDItLjAzOC4zMDYtLjA1MkE0Mi44NjcgNDIuODY3IDAgMCAxIDEwIDguNWMxLjkzIDAgMy44My4xMjkgNS42OTQuMzc4LjEwNC4wMTQuMjA2LjAzMi4zMDYuMDUydi0uMDk0YzAtMS4yMzItLjgyMS0yLjMxNy0yLTIuNjIyVjUuNzVhLjc1Ljc1IDAgMCAwLTEuNSAwdi4zMThhNDUuNjQ1IDQ1LjY0NSAwIDAgMC0xLjc1LS4wNjJWNS43NWEuNzUuNzUgMCAwIDAtMS41IDB2LjI1NmMtLjU4Ni4wMS0xLjE3LjAzLTEuNzUuMDYyVjUuNzVaTTQuNTA1IDEwLjM2NUE0MS4zNiA0MS4zNiAwIDAgMSAxMCAxMGMxLjg2MyAwIDMuNjk3LjEyNCA1LjQ5NS4zNjVDMTYuOTY3IDEwLjU2MiAxOCAxMS44MzggMTggMTMuMjh2LjY5M2EzLjcyIDMuNzIgMCAwIDEtMS42NjUtLjM5MyA1LjIyMiA1LjIyMiAwIDAgMC00LjY3IDAgMy43MjIgMy43MjIgMCAwIDEtMy4zMyAwIDUuMjIyIDUuMjIyIDAgMCAwLTQuNjcgMEEzLjcyIDMuNzIgMCAwIDEgMiAxMy45NzJ2LS42OTNjMC0xLjQ0MSAxLjAzMy0yLjcxNyAyLjUwNS0yLjkxNFpNMTUuNjY1IDE0LjkyYTUuMjIgNS4yMiAwIDAgMCAyLjMzNS41NTJWMTYuNWExLjUgMS41IDAgMCAxLTEuNSAxLjVoLTEzQTEuNSAxLjUgMCAwIDEgMiAxNi41di0xLjAyOGMuOCAwIDEuNi0uMTg0IDIuMzM1LS41NTFhMy43MjIgMy43MjIgMCAwIDEgMy4zMyAwYzEuNDcuNzM1IDMuMi43MzUgNC42NyAwYTMuNzIyIDMuNzIyIDAgMCAxIDMuMzMgMFoiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| cake
 -}
 cake : List (Attribute msg) -> Html msg
 cake attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "m6.75.98-.884.883a1.25 1.25 0 1 0 1.768 0L6.75.98ZM13.25.98l-.884.883a1.25 1.25 0 1 0 1.768 0L13.25.98ZM10 .98l.884.883a1.25 1.25 0 1 1-1.768 0L10 .98ZM7.5 5.75a.75.75 0 0 0-1.5 0v.464c-1.179.304-2 1.39-2 2.622v.094c.1-.02.202-.038.306-.052A42.867 42.867 0 0 1 10 8.5c1.93 0 3.83.129 5.694.378.104.014.206.032.306.052v-.094c0-1.232-.821-2.317-2-2.622V5.75a.75.75 0 0 0-1.5 0v.318a45.645 45.645 0 0 0-1.75-.062V5.75a.75.75 0 0 0-1.5 0v.256c-.586.01-1.17.03-1.75.062V5.75ZM4.505 10.365A41.36 41.36 0 0 1 10 10c1.863 0 3.697.124 5.495.365C16.967 10.562 18 11.838 18 13.28v.693a3.72 3.72 0 0 1-1.665-.393 5.222 5.222 0 0 0-4.67 0 3.722 3.722 0 0 1-3.33 0 5.222 5.222 0 0 0-4.67 0A3.72 3.72 0 0 1 2 13.972v-.693c0-1.441 1.033-2.717 2.505-2.914ZM15.665 14.92a5.22 5.22 0 0 0 2.335.552V16.5a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 2 16.5v-1.028c.8 0 1.6-.184 2.335-.551a3.722 3.722 0 0 1 3.33 0c1.47.735 3.2.735 4.67 0a3.722 3.722 0 0 1 3.33 0Z" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEwIDFjLTEuNzE2IDAtMy40MDguMTA2LTUuMDcuMzFDMy44MDYgMS40NSAzIDIuNDE0IDMgMy41MTdWMTYuNzVBMi4yNSAyLjI1IDAgMCAwIDUuMjUgMTloOS41QTIuMjUgMi4yNSAwIDAgMCAxNyAxNi43NVYzLjUxN2MwLTEuMTAzLS44MDYtMi4wNjgtMS45My0yLjIwN0E0MS40MDMgNDEuNDAzIDAgMCAwIDEwIDFaTTUuOTkgOC43NUEuNzUuNzUgMCAwIDEgNi43NCA4aC4wMWEuNzUuNzUgMCAwIDEgLjc1Ljc1di4wMWEuNzUuNzUgMCAwIDEtLjc1Ljc1aC0uMDFhLjc1Ljc1IDAgMCAxLS43NS0uNzV2LS4wMVptLjc1IDEuNDE3YS43NS43NSAwIDAgMC0uNzUuNzV2LjAxYzAgLjQxNC4zMzYuNzUuNzUuNzVoLjAxYS43NS43NSAwIDAgMCAuNzUtLjc1di0uMDFhLjc1Ljc1IDAgMCAwLS43NS0uNzVoLS4wMVptLS43NSAyLjkxNmEuNzUuNzUgMCAwIDEgLjc1LS43NWguMDFhLjc1Ljc1IDAgMCAxIC43NS43NXYuMDFhLjc1Ljc1IDAgMCAxLS43NS43NWgtLjAxYS43NS43NSAwIDAgMS0uNzUtLjc1di0uMDFabS43NSAxLjQxN2EuNzUuNzUgMCAwIDAtLjc1Ljc1di4wMWMwIC40MTQuMzM2Ljc1Ljc1Ljc1aC4wMWEuNzUuNzUgMCAwIDAgLjc1LS43NXYtLjAxYS43NS43NSAwIDAgMC0uNzUtLjc1aC0uMDFabTEuNDE3LTUuNzVhLjc1Ljc1IDAgMCAxIC43NS0uNzVoLjAxYS43NS43NSAwIDAgMSAuNzUuNzV2LjAxYS43NS43NSAwIDAgMS0uNzUuNzVoLS4wMWEuNzUuNzUgMCAwIDEtLjc1LS43NXYtLjAxWm0uNzUgMS40MTdhLjc1Ljc1IDAgMCAwLS43NS43NXYuMDFjMCAuNDE0LjMzNi43NS43NS43NWguMDFhLjc1Ljc1IDAgMCAwIC43NS0uNzV2LS4wMWEuNzUuNzUgMCAwIDAtLjc1LS43NWgtLjAxWm0tLjc1IDIuOTE2YS43NS43NSAwIDAgMSAuNzUtLjc1aC4wMWEuNzUuNzUgMCAwIDEgLjc1Ljc1di4wMWEuNzUuNzUgMCAwIDEtLjc1Ljc1aC0uMDFhLjc1Ljc1IDAgMCAxLS43NS0uNzV2LS4wMVptLjc1IDEuNDE3YS43NS43NSAwIDAgMC0uNzUuNzV2LjAxYzAgLjQxNC4zMzYuNzUuNzUuNzVoLjAxYS43NS43NSAwIDAgMCAuNzUtLjc1di0uMDFhLjc1Ljc1IDAgMCAwLS43NS0uNzVoLS4wMVptMS40Mi01Ljc1YS43NS43NSAwIDAgMSAuNzUtLjc1aC4wMWEuNzUuNzUgMCAwIDEgLjc1Ljc1di4wMWEuNzUuNzUgMCAwIDEtLjc1Ljc1aC0uMDFhLjc1Ljc1IDAgMCAxLS43NS0uNzV2LS4wMVptLjc1IDEuNDE3YS43NS43NSAwIDAgMC0uNzUuNzV2LjAxYzAgLjQxNC4zMzYuNzUuNzUuNzVoLjAxYS43NS43NSAwIDAgMCAuNzUtLjc1di0uMDFhLjc1Ljc1IDAgMCAwLS43NS0uNzVoLS4wMVptLS43NSAyLjkxNmEuNzUuNzUgMCAwIDEgLjc1LS43NWguMDFhLjc1Ljc1IDAgMCAxIC43NS43NXYuMDFhLjc1Ljc1IDAgMCAxLS43NS43NWgtLjAxYS43NS43NSAwIDAgMS0uNzUtLjc1di0uMDFabS43NSAxLjQxN2EuNzUuNzUgMCAwIDAtLjc1Ljc1di4wMWMwIC40MTQuMzM2Ljc1Ljc1Ljc1aC4wMWEuNzUuNzUgMCAwIDAgLjc1LS43NXYtLjAxYS43NS43NSAwIDAgMC0uNzUtLjc1aC0uMDFaTTEyLjUgOC43NWEuNzUuNzUgMCAwIDEgLjc1LS43NWguMDFhLjc1Ljc1IDAgMCAxIC43NS43NXYuMDFhLjc1Ljc1IDAgMCAxLS43NS43NWgtLjAxYS43NS43NSAwIDAgMS0uNzUtLjc1di0uMDFabS43NSAxLjQxN2EuNzUuNzUgMCAwIDAtLjc1Ljc1di4wMWMwIC40MTQuMzM2Ljc1Ljc1Ljc1aC4wMWEuNzUuNzUgMCAwIDAgLjc1LS43NXYtLjAxYS43NS43NSAwIDAgMC0uNzUtLjc1aC0uMDFabTAgMi4xNjZhLjc1Ljc1IDAgMCAxIC43NS43NXYyLjE2N2EuNzUuNzUgMCAxIDEtMS41IDB2LTIuMTY3YS43NS43NSAwIDAgMSAuNzUtLjc1Wk02Ljc1IDRhLjc1Ljc1IDAgMCAwLS43NS43NXYuNWMwIC40MTQuMzM2Ljc1Ljc1Ljc1aDYuNWEuNzUuNzUgMCAwIDAgLjc1LS43NXYtLjVhLjc1Ljc1IDAgMCAwLS43NS0uNzVoLTYuNVoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| calculator
 -}
 calculator : List (Attribute msg) -> Html msg
 calculator attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M10 1c-1.716 0-3.408.106-5.07.31C3.806 1.45 3 2.414 3 3.517V16.75A2.25 2.25 0 0 0 5.25 19h9.5A2.25 2.25 0 0 0 17 16.75V3.517c0-1.103-.806-2.068-1.93-2.207A41.403 41.403 0 0 0 10 1ZM5.99 8.75A.75.75 0 0 1 6.74 8h.01a.75.75 0 0 1 .75.75v.01a.75.75 0 0 1-.75.75h-.01a.75.75 0 0 1-.75-.75v-.01Zm.75 1.417a.75.75 0 0 0-.75.75v.01c0 .414.336.75.75.75h.01a.75.75 0 0 0 .75-.75v-.01a.75.75 0 0 0-.75-.75h-.01Zm-.75 2.916a.75.75 0 0 1 .75-.75h.01a.75.75 0 0 1 .75.75v.01a.75.75 0 0 1-.75.75h-.01a.75.75 0 0 1-.75-.75v-.01Zm.75 1.417a.75.75 0 0 0-.75.75v.01c0 .414.336.75.75.75h.01a.75.75 0 0 0 .75-.75v-.01a.75.75 0 0 0-.75-.75h-.01Zm1.417-5.75a.75.75 0 0 1 .75-.75h.01a.75.75 0 0 1 .75.75v.01a.75.75 0 0 1-.75.75h-.01a.75.75 0 0 1-.75-.75v-.01Zm.75 1.417a.75.75 0 0 0-.75.75v.01c0 .414.336.75.75.75h.01a.75.75 0 0 0 .75-.75v-.01a.75.75 0 0 0-.75-.75h-.01Zm-.75 2.916a.75.75 0 0 1 .75-.75h.01a.75.75 0 0 1 .75.75v.01a.75.75 0 0 1-.75.75h-.01a.75.75 0 0 1-.75-.75v-.01Zm.75 1.417a.75.75 0 0 0-.75.75v.01c0 .414.336.75.75.75h.01a.75.75 0 0 0 .75-.75v-.01a.75.75 0 0 0-.75-.75h-.01Zm1.42-5.75a.75.75 0 0 1 .75-.75h.01a.75.75 0 0 1 .75.75v.01a.75.75 0 0 1-.75.75h-.01a.75.75 0 0 1-.75-.75v-.01Zm.75 1.417a.75.75 0 0 0-.75.75v.01c0 .414.336.75.75.75h.01a.75.75 0 0 0 .75-.75v-.01a.75.75 0 0 0-.75-.75h-.01Zm-.75 2.916a.75.75 0 0 1 .75-.75h.01a.75.75 0 0 1 .75.75v.01a.75.75 0 0 1-.75.75h-.01a.75.75 0 0 1-.75-.75v-.01Zm.75 1.417a.75.75 0 0 0-.75.75v.01c0 .414.336.75.75.75h.01a.75.75 0 0 0 .75-.75v-.01a.75.75 0 0 0-.75-.75h-.01ZM12.5 8.75a.75.75 0 0 1 .75-.75h.01a.75.75 0 0 1 .75.75v.01a.75.75 0 0 1-.75.75h-.01a.75.75 0 0 1-.75-.75v-.01Zm.75 1.417a.75.75 0 0 0-.75.75v.01c0 .414.336.75.75.75h.01a.75.75 0 0 0 .75-.75v-.01a.75.75 0 0 0-.75-.75h-.01Zm0 2.166a.75.75 0 0 1 .75.75v2.167a.75.75 0 1 1-1.5 0v-2.167a.75.75 0 0 1 .75-.75ZM6.75 4a.75.75 0 0 0-.75.75v.5c0 .414.336.75.75.75h6.5a.75.75 0 0 0 .75-.75v-.5a.75.75 0 0 0-.75-.75h-6.5Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik01LjI1IDEyYS43NS43NSAwIDAgMSAuNzUtLjc1aC4wMWEuNzUuNzUgMCAwIDEgLjc1Ljc1di4wMWEuNzUuNzUgMCAwIDEtLjc1Ljc1SDZhLjc1Ljc1IDAgMCAxLS43NS0uNzVWMTJaTTYgMTMuMjVhLjc1Ljc1IDAgMCAwLS43NS43NXYuMDFjMCAuNDE0LjMzNi43NS43NS43NWguMDFhLjc1Ljc1IDAgMCAwIC43NS0uNzVWMTRhLjc1Ljc1IDAgMCAwLS43NS0uNzVINlpNNy4yNSAxMmEuNzUuNzUgMCAwIDEgLjc1LS43NWguMDFhLjc1Ljc1IDAgMCAxIC43NS43NXYuMDFhLjc1Ljc1IDAgMCAxLS43NS43NUg4YS43NS43NSAwIDAgMS0uNzUtLjc1VjEyWk04IDEzLjI1YS43NS43NSAwIDAgMC0uNzUuNzV2LjAxYzAgLjQxNC4zMzYuNzUuNzUuNzVoLjAxYS43NS43NSAwIDAgMCAuNzUtLjc1VjE0YS43NS43NSAwIDAgMC0uNzUtLjc1SDhaTTkuMjUgMTBhLjc1Ljc1IDAgMCAxIC43NS0uNzVoLjAxYS43NS43NSAwIDAgMSAuNzUuNzV2LjAxYS43NS43NSAwIDAgMS0uNzUuNzVIMTBhLjc1Ljc1IDAgMCAxLS43NS0uNzVWMTBaTTEwIDExLjI1YS43NS43NSAwIDAgMC0uNzUuNzV2LjAxYzAgLjQxNC4zMzYuNzUuNzUuNzVoLjAxYS43NS43NSAwIDAgMCAuNzUtLjc1VjEyYS43NS43NSAwIDAgMC0uNzUtLjc1SDEwWk05LjI1IDE0YS43NS43NSAwIDAgMSAuNzUtLjc1aC4wMWEuNzUuNzUgMCAwIDEgLjc1Ljc1di4wMWEuNzUuNzUgMCAwIDEtLjc1Ljc1SDEwYS43NS43NSAwIDAgMS0uNzUtLjc1VjE0Wk0xMiA5LjI1YS43NS43NSAwIDAgMC0uNzUuNzV2LjAxYzAgLjQxNC4zMzYuNzUuNzUuNzVoLjAxYS43NS43NSAwIDAgMCAuNzUtLjc1VjEwYS43NS43NSAwIDAgMC0uNzUtLjc1SDEyWk0xMS4yNSAxMmEuNzUuNzUgMCAwIDEgLjc1LS43NWguMDFhLjc1Ljc1IDAgMCAxIC43NS43NXYuMDFhLjc1Ljc1IDAgMCAxLS43NS43NUgxMmEuNzUuNzUgMCAwIDEtLjc1LS43NVYxMlpNMTIgMTMuMjVhLjc1Ljc1IDAgMCAwLS43NS43NXYuMDFjMCAuNDE0LjMzNi43NS43NS43NWguMDFhLjc1Ljc1IDAgMCAwIC43NS0uNzVWMTRhLjc1Ljc1IDAgMCAwLS43NS0uNzVIMTJaTTEzLjI1IDEwYS43NS43NSAwIDAgMSAuNzUtLjc1aC4wMWEuNzUuNzUgMCAwIDEgLjc1Ljc1di4wMWEuNzUuNzUgMCAwIDEtLjc1Ljc1SDE0YS43NS43NSAwIDAgMS0uNzUtLjc1VjEwWk0xNCAxMS4yNWEuNzUuNzUgMCAwIDAtLjc1Ljc1di4wMWMwIC40MTQuMzM2Ljc1Ljc1Ljc1aC4wMWEuNzUuNzUgMCAwIDAgLjc1LS43NVYxMmEuNzUuNzUgMCAwIDAtLjc1LS43NUgxNFoiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTUuNzUgMmEuNzUuNzUgMCAwIDEgLjc1Ljc1VjRoN1YyLjc1YS43NS43NSAwIDAgMSAxLjUgMFY0aC4yNUEyLjc1IDIuNzUgMCAwIDEgMTggNi43NXY4LjVBMi43NSAyLjc1IDAgMCAxIDE1LjI1IDE4SDQuNzVBMi43NSAyLjc1IDAgMCAxIDIgMTUuMjV2LTguNUEyLjc1IDIuNzUgMCAwIDEgNC43NSA0SDVWMi43NUEuNzUuNzUgMCAwIDEgNS43NSAyWm0tMSA1LjVjLS42OSAwLTEuMjUuNTYtMS4yNSAxLjI1djYuNWMwIC42OS41NiAxLjI1IDEuMjUgMS4yNWgxMC41Yy42OSAwIDEuMjUtLjU2IDEuMjUtMS4yNXYtNi41YzAtLjY5LS41Ni0xLjI1LTEuMjUtMS4yNUg0Ljc1WiIgY2xpcC1ydWxlPSJldmVub2RkIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| calendarDays
 -}
 calendarDays : List (Attribute msg) -> Html msg
 calendarDays attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M5.25 12a.75.75 0 0 1 .75-.75h.01a.75.75 0 0 1 .75.75v.01a.75.75 0 0 1-.75.75H6a.75.75 0 0 1-.75-.75V12ZM6 13.25a.75.75 0 0 0-.75.75v.01c0 .414.336.75.75.75h.01a.75.75 0 0 0 .75-.75V14a.75.75 0 0 0-.75-.75H6ZM7.25 12a.75.75 0 0 1 .75-.75h.01a.75.75 0 0 1 .75.75v.01a.75.75 0 0 1-.75.75H8a.75.75 0 0 1-.75-.75V12ZM8 13.25a.75.75 0 0 0-.75.75v.01c0 .414.336.75.75.75h.01a.75.75 0 0 0 .75-.75V14a.75.75 0 0 0-.75-.75H8ZM9.25 10a.75.75 0 0 1 .75-.75h.01a.75.75 0 0 1 .75.75v.01a.75.75 0 0 1-.75.75H10a.75.75 0 0 1-.75-.75V10ZM10 11.25a.75.75 0 0 0-.75.75v.01c0 .414.336.75.75.75h.01a.75.75 0 0 0 .75-.75V12a.75.75 0 0 0-.75-.75H10ZM9.25 14a.75.75 0 0 1 .75-.75h.01a.75.75 0 0 1 .75.75v.01a.75.75 0 0 1-.75.75H10a.75.75 0 0 1-.75-.75V14ZM12 9.25a.75.75 0 0 0-.75.75v.01c0 .414.336.75.75.75h.01a.75.75 0 0 0 .75-.75V10a.75.75 0 0 0-.75-.75H12ZM11.25 12a.75.75 0 0 1 .75-.75h.01a.75.75 0 0 1 .75.75v.01a.75.75 0 0 1-.75.75H12a.75.75 0 0 1-.75-.75V12ZM12 13.25a.75.75 0 0 0-.75.75v.01c0 .414.336.75.75.75h.01a.75.75 0 0 0 .75-.75V14a.75.75 0 0 0-.75-.75H12ZM13.25 10a.75.75 0 0 1 .75-.75h.01a.75.75 0 0 1 .75.75v.01a.75.75 0 0 1-.75.75H14a.75.75 0 0 1-.75-.75V10ZM14 11.25a.75.75 0 0 0-.75.75v.01c0 .414.336.75.75.75h.01a.75.75 0 0 0 .75-.75V12a.75.75 0 0 0-.75-.75H14Z" ] [], Svg.path [ fillRule "evenodd", d "M5.75 2a.75.75 0 0 1 .75.75V4h7V2.75a.75.75 0 0 1 1.5 0V4h.25A2.75 2.75 0 0 1 18 6.75v8.5A2.75 2.75 0 0 1 15.25 18H4.75A2.75 2.75 0 0 1 2 15.25v-8.5A2.75 2.75 0 0 1 4.75 4H5V2.75A.75.75 0 0 1 5.75 2Zm-1 5.5c-.69 0-1.25.56-1.25 1.25v6.5c0 .69.56 1.25 1.25 1.25h10.5c.69 0 1.25-.56 1.25-1.25v-6.5c0-.69-.56-1.25-1.25-1.25H4.75Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTUuNzUgMmEuNzUuNzUgMCAwIDEgLjc1Ljc1VjRoN1YyLjc1YS43NS43NSAwIDAgMSAxLjUgMFY0aC4yNUEyLjc1IDIuNzUgMCAwIDEgMTggNi43NXY4LjVBMi43NSAyLjc1IDAgMCAxIDE1LjI1IDE4SDQuNzVBMi43NSAyLjc1IDAgMCAxIDIgMTUuMjV2LTguNUEyLjc1IDIuNzUgMCAwIDEgNC43NSA0SDVWMi43NUEuNzUuNzUgMCAwIDEgNS43NSAyWm0tMSA1LjVjLS42OSAwLTEuMjUuNTYtMS4yNSAxLjI1djYuNWMwIC42OS41NiAxLjI1IDEuMjUgMS4yNWgxMC41Yy42OSAwIDEuMjUtLjU2IDEuMjUtMS4yNXYtNi41YzAtLjY5LS41Ni0xLjI1LTEuMjUtMS4yNUg0Ljc1WiIgY2xpcC1ydWxlPSJldmVub2RkIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| calendar
 -}
 calendar : List (Attribute msg) -> Html msg
 calendar attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M5.75 2a.75.75 0 0 1 .75.75V4h7V2.75a.75.75 0 0 1 1.5 0V4h.25A2.75 2.75 0 0 1 18 6.75v8.5A2.75 2.75 0 0 1 15.25 18H4.75A2.75 2.75 0 0 1 2 15.25v-8.5A2.75 2.75 0 0 1 4.75 4H5V2.75A.75.75 0 0 1 5.75 2Zm-1 5.5c-.69 0-1.25.56-1.25 1.25v6.5c0 .69.56 1.25 1.25 1.25h10.5c.69 0 1.25-.56 1.25-1.25v-6.5c0-.69-.56-1.25-1.25-1.25H4.75Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEgOGEyIDIgMCAwIDEgMi0yaC45M2EyIDIgMCAwIDAgMS42NjQtLjg5bC44MTItMS4yMkEyIDIgMCAwIDEgOC4wNyAzaDMuODZhMiAyIDAgMCAxIDEuNjY0Ljg5bC44MTIgMS4yMkEyIDIgMCAwIDAgMTYuMDcgNkgxN2EyIDIgMCAwIDEgMiAydjdhMiAyIDAgMCAxLTIgMkgzYTIgMiAwIDAgMS0yLTJWOFptMTMuNSAzYTQuNSA0LjUgMCAxIDEtOSAwIDQuNSA0LjUgMCAwIDEgOSAwWk0xMCAxNGEzIDMgMCAxIDAgMC02IDMgMyAwIDAgMCAwIDZaIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| camera
 -}
 camera : List (Attribute msg) -> Html msg
 camera attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M1 8a2 2 0 0 1 2-2h.93a2 2 0 0 0 1.664-.89l.812-1.22A2 2 0 0 1 8.07 3h3.86a2 2 0 0 1 1.664.89l.812 1.22A2 2 0 0 0 16.07 6H17a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8Zm13.5 3a4.5 4.5 0 1 1-9 0 4.5 4.5 0 0 1 9 0ZM10 14a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTQuMjUgMkEyLjI1IDIuMjUgMCAwIDAgMiA0LjI1djExLjVBMi4yNSAyLjI1IDAgMCAwIDQuMjUgMThoMTEuNUEyLjI1IDIuMjUgMCAwIDAgMTggMTUuNzVWNC4yNUEyLjI1IDIuMjUgMCAwIDAgMTUuNzUgMkg0LjI1Wk0xNSA1Ljc1YS43NS43NSAwIDAgMC0xLjUgMHY4LjVhLjc1Ljc1IDAgMCAwIDEuNSAwdi04LjVabS04LjUgNmEuNzUuNzUgMCAwIDAtMS41IDB2Mi41YS43NS43NSAwIDAgMCAxLjUgMHYtMi41Wk04LjU4NCA5YS43NS43NSAwIDAgMSAuNzUuNzV2NC41YS43NS43NSAwIDAgMS0xLjUgMHYtNC41YS43NS43NSAwIDAgMSAuNzUtLjc1Wm0zLjU4LTEuMjVhLjc1Ljc1IDAgMCAwLTEuNSAwdjYuNWEuNzUuNzUgMCAwIDAgMS41IDB2LTYuNVoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| chartBarSquare
 -}
 chartBarSquare : List (Attribute msg) -> Html msg
 chartBarSquare attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M4.25 2A2.25 2.25 0 0 0 2 4.25v11.5A2.25 2.25 0 0 0 4.25 18h11.5A2.25 2.25 0 0 0 18 15.75V4.25A2.25 2.25 0 0 0 15.75 2H4.25ZM15 5.75a.75.75 0 0 0-1.5 0v8.5a.75.75 0 0 0 1.5 0v-8.5Zm-8.5 6a.75.75 0 0 0-1.5 0v2.5a.75.75 0 0 0 1.5 0v-2.5ZM8.584 9a.75.75 0 0 1 .75.75v4.5a.75.75 0 0 1-1.5 0v-4.5a.75.75 0 0 1 .75-.75Zm3.58-1.25a.75.75 0 0 0-1.5 0v6.5a.75.75 0 0 0 1.5 0v-6.5Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik0xNS41IDJBMS41IDEuNSAwIDAgMCAxNCAzLjV2MTNhMS41IDEuNSAwIDAgMCAxLjUgMS41aDFhMS41IDEuNSAwIDAgMCAxLjUtMS41di0xM0ExLjUgMS41IDAgMCAwIDE2LjUgMmgtMVpNOS41IDZBMS41IDEuNSAwIDAgMCA4IDcuNXY5QTEuNSAxLjUgMCAwIDAgOS41IDE4aDFhMS41IDEuNSAwIDAgMCAxLjUtMS41di05QTEuNSAxLjUgMCAwIDAgMTAuNSA2aC0xWk0zLjUgMTBBMS41IDEuNSAwIDAgMCAyIDExLjV2NUExLjUgMS41IDAgMCAwIDMuNSAxOGgxQTEuNSAxLjUgMCAwIDAgNiAxNi41di01QTEuNSAxLjUgMCAwIDAgNC41IDEwaC0xWiIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| chartBar
 -}
 chartBar : List (Attribute msg) -> Html msg
 chartBar attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M15.5 2A1.5 1.5 0 0 0 14 3.5v13a1.5 1.5 0 0 0 1.5 1.5h1a1.5 1.5 0 0 0 1.5-1.5v-13A1.5 1.5 0 0 0 16.5 2h-1ZM9.5 6A1.5 1.5 0 0 0 8 7.5v9A1.5 1.5 0 0 0 9.5 18h1a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 10.5 6h-1ZM3.5 10A1.5 1.5 0 0 0 2 11.5v5A1.5 1.5 0 0 0 3.5 18h1A1.5 1.5 0 0 0 6 16.5v-5A1.5 1.5 0 0 0 4.5 10h-1Z" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik0xMiA5YTEgMSAwIDAgMS0xLTFWM2MwLS41NTIuNDUtMS4wMDcuOTk3LS45M2E3LjAwNCA3LjAwNCAwIDAgMSA1LjkzMyA1LjkzM2MuMDc4LjU0Ny0uMzc4Ljk5Ny0uOTMuOTk3aC01WiIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PHBhdGggZD0iTTguMDAzIDQuMDdDOC41NSAzLjk5NCA5IDQuNDQ5IDkgNXY1YTEgMSAwIDAgMCAxIDFoNWMuNTUyIDAgMS4wMDguNDUuOTMuOTk3QTcuMDAxIDcuMDAxIDAgMCAxIDIgMTFhNy4wMDIgNy4wMDIgMCAwIDEgNi4wMDMtNi45M1oiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| chartPie
 -}
 chartPie : List (Attribute msg) -> Html msg
 chartPie attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M12 9a1 1 0 0 1-1-1V3c0-.552.45-1.007.997-.93a7.004 7.004 0 0 1 5.933 5.933c.078.547-.378.997-.93.997h-5Z" ] [], Svg.path [ d "M8.003 4.07C8.55 3.994 9 4.449 9 5v5a1 1 0 0 0 1 1h5c.552 0 1.008.45.93.997A7.001 7.001 0 0 1 2 11a7.002 7.002 0 0 1 6.003-6.93Z" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEwIDJjLTIuMjM2IDAtNC40My4xOC02LjU3LjUyNEMxLjk5MyAyLjc1NSAxIDQuMDE0IDEgNS40MjZ2NS4xNDhjMCAxLjQxMy45OTMgMi42NyAyLjQzIDIuOTAyIDEuMTY4LjE4OCAyLjM1Mi4zMjcgMy41NS40MTQuMjguMDIuNTIxLjE4LjY0Mi40MTNsMS43MTMgMy4yOTNhLjc1Ljc1IDAgMCAwIDEuMzMgMGwxLjcxMy0zLjI5M2EuNzgzLjc4MyAwIDAgMSAuNjQyLS40MTMgNDEuMTAyIDQxLjEwMiAwIDAgMCAzLjU1LS40MTRjMS40MzctLjIzMSAyLjQzLTEuNDkgMi40My0yLjkwMlY1LjQyNmMwLTEuNDEzLS45OTMtMi42Ny0yLjQzLTIuOTAyQTQxLjI4OSA0MS4yODkgMCAwIDAgMTAgMlpNNi43NSA2YS43NS43NSAwIDAgMCAwIDEuNWg2LjVhLjc1Ljc1IDAgMCAwIDAtMS41aC02LjVabTAgMi41YS43NS43NSAwIDAgMCAwIDEuNWgzLjVhLjc1Ljc1IDAgMCAwIDAtMS41aC0zLjVaIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| chatBubbleBottomCenterText
 -}
 chatBubbleBottomCenterText : List (Attribute msg) -> Html msg
 chatBubbleBottomCenterText attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M10 2c-2.236 0-4.43.18-6.57.524C1.993 2.755 1 4.014 1 5.426v5.148c0 1.413.993 2.67 2.43 2.902 1.168.188 2.352.327 3.55.414.28.02.521.18.642.413l1.713 3.293a.75.75 0 0 0 1.33 0l1.713-3.293a.783.783 0 0 1 .642-.413 41.102 41.102 0 0 0 3.55-.414c1.437-.231 2.43-1.49 2.43-2.902V5.426c0-1.413-.993-2.67-2.43-2.902A41.289 41.289 0 0 0 10 2ZM6.75 6a.75.75 0 0 0 0 1.5h6.5a.75.75 0 0 0 0-1.5h-6.5Zm0 2.5a.75.75 0 0 0 0 1.5h3.5a.75.75 0 0 0 0-1.5h-3.5Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTMuNDMgMi41MjRBNDEuMjkgNDEuMjkgMCAwIDEgMTAgMmMyLjIzNiAwIDQuNDMuMTggNi41Ny41MjQgMS40MzcuMjMxIDIuNDMgMS40OSAyLjQzIDIuOTAydjUuMTQ4YzAgMS40MTMtLjk5MyAyLjY3LTIuNDMgMi45MDJhNDEuMTAyIDQxLjEwMiAwIDAgMS0zLjU1LjQxNGMtLjI4LjAyLS41MjEuMTgtLjY0My40MTNsLTEuNzEyIDMuMjkzYS43NS43NSAwIDAgMS0xLjMzIDBsLTEuNzEzLTMuMjkzYS43ODMuNzgzIDAgMCAwLS42NDItLjQxMyA0MS4xMDggNDEuMTA4IDAgMCAxLTMuNTUtLjQxNEMxLjk5MyAxMy4yNDUgMSAxMS45ODYgMSAxMC41NzRWNS40MjZjMC0xLjQxMy45OTMtMi42NyAyLjQzLTIuOTAyWiIgY2xpcC1ydWxlPSJldmVub2RkIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| chatBubbleBottomCenter
 -}
 chatBubbleBottomCenter : List (Attribute msg) -> Html msg
 chatBubbleBottomCenter attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M3.43 2.524A41.29 41.29 0 0 1 10 2c2.236 0 4.43.18 6.57.524 1.437.231 2.43 1.49 2.43 2.902v5.148c0 1.413-.993 2.67-2.43 2.902a41.102 41.102 0 0 1-3.55.414c-.28.02-.521.18-.643.413l-1.712 3.293a.75.75 0 0 1-1.33 0l-1.713-3.293a.783.783 0 0 0-.642-.413 41.108 41.108 0 0 1-3.55-.414C1.993 13.245 1 11.986 1 10.574V5.426c0-1.413.993-2.67 2.43-2.902Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEwIDJjLTIuMjM2IDAtNC40My4xOC02LjU3LjUyNEMxLjk5MyAyLjc1NSAxIDQuMDE0IDEgNS40MjZ2NS4xNDhjMCAxLjQxMy45OTMgMi42NyAyLjQzIDIuOTAyLjg0OC4xMzcgMS43MDUuMjQ4IDIuNTcuMzMxdjMuNDQzYS43NS43NSAwIDAgMCAxLjI4LjUzbDMuNTgtMy41NzlhLjc4Ljc4IDAgMCAxIC41MjctLjIyNCA0MS4yMDIgNDEuMjAyIDAgMCAwIDUuMTgzLS41YzEuNDM3LS4yMzIgMi40My0xLjQ5IDIuNDMtMi45MDNWNS40MjZjMC0xLjQxMy0uOTkzLTIuNjctMi40My0yLjkwMkE0MS4yODkgNDEuMjg5IDAgMCAwIDEwIDJabTAgN2ExIDEgMCAxIDAgMC0yIDEgMSAwIDAgMCAwIDJaTTggOGExIDEgMCAxIDEtMiAwIDEgMSAwIDAgMSAyIDBabTUgMWExIDEgMCAxIDAgMC0yIDEgMSAwIDAgMCAwIDJaIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| chatBubbleLeftEllipsis
 -}
 chatBubbleLeftEllipsis : List (Attribute msg) -> Html msg
 chatBubbleLeftEllipsis attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M10 2c-2.236 0-4.43.18-6.57.524C1.993 2.755 1 4.014 1 5.426v5.148c0 1.413.993 2.67 2.43 2.902.848.137 1.705.248 2.57.331v3.443a.75.75 0 0 0 1.28.53l3.58-3.579a.78.78 0 0 1 .527-.224 41.202 41.202 0 0 0 5.183-.5c1.437-.232 2.43-1.49 2.43-2.903V5.426c0-1.413-.993-2.67-2.43-2.902A41.289 41.289 0 0 0 10 2Zm0 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2ZM8 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm5 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik0zLjUwNSAyLjM2NUE0MS4zNjkgNDEuMzY5IDAgMCAxIDkgMmMxLjg2MyAwIDMuNjk3LjEyNCA1LjQ5NS4zNjUgMS4yNDcuMTY3IDIuMTggMS4xMDggMi40MzUgMi4yNjhhNC40NSA0LjQ1IDAgMCAwLS41NzctLjA2OSA0My4xNDEgNDMuMTQxIDAgMCAwLTQuNzA2IDBDOS4yMjkgNC42OTYgNy41IDYuNzI3IDcuNSA4Ljk5OHYyLjI0YzAgMS40MTMuNjcgMi43MzUgMS43NiAzLjU2MmwtMi45OCAyLjk4QS43NS43NSAwIDAgMSA1IDE3LjI1di0zLjQ0M2MtLjUwMS0uMDQ4LTEtLjEwNi0xLjQ5NS0uMTcyQzIuMDMzIDEzLjQzOCAxIDEyLjE2MiAxIDEwLjcyVjUuMjhjMC0xLjQ0MSAxLjAzMy0yLjcxNyAyLjUwNS0yLjkxNFoiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjxwYXRoIGQ9Ik0xNCA2Yy0uNzYyIDAtMS41Mi4wMi0yLjI3MS4wNjJDMTAuMTU3IDYuMTQ4IDkgNy40NzIgOSA4Ljk5OHYyLjI0YzAgMS41MTkgMS4xNDcgMi44MzkgMi43MSAyLjkzNS4yMTQuMDEzLjQyOC4wMjQuNjQyLjAzNC4yLjAwOS4zODUuMDkuNTE4LjIyNGwyLjM1IDIuMzVhLjc1Ljc1IDAgMCAwIDEuMjgtLjUzMXYtMi4wN2MxLjQ1My0uMTk1IDIuNS0xLjQ2MyAyLjUtMi45MTVWOC45OThjMC0xLjUyNi0xLjE1Ny0yLjg1LTIuNzI5LTIuOTM2QTQxLjY0NSA0MS42NDUgMCAwIDAgMTQgNloiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| chatBubbleLeftRight
 -}
 chatBubbleLeftRight : List (Attribute msg) -> Html msg
 chatBubbleLeftRight attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M3.505 2.365A41.369 41.369 0 0 1 9 2c1.863 0 3.697.124 5.495.365 1.247.167 2.18 1.108 2.435 2.268a4.45 4.45 0 0 0-.577-.069 43.141 43.141 0 0 0-4.706 0C9.229 4.696 7.5 6.727 7.5 8.998v2.24c0 1.413.67 2.735 1.76 3.562l-2.98 2.98A.75.75 0 0 1 5 17.25v-3.443c-.501-.048-1-.106-1.495-.172C2.033 13.438 1 12.162 1 10.72V5.28c0-1.441 1.033-2.717 2.505-2.914Z" ] [], Svg.path [ d "M14 6c-.762 0-1.52.02-2.271.062C10.157 6.148 9 7.472 9 8.998v2.24c0 1.519 1.147 2.839 2.71 2.935.214.013.428.024.642.034.2.009.385.09.518.224l2.35 2.35a.75.75 0 0 0 1.28-.531v-2.07c1.453-.195 2.5-1.463 2.5-2.915V8.998c0-1.526-1.157-2.85-2.729-2.936A41.645 41.645 0 0 0 14 6Z" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTMuNDMgMi41MjRBNDEuMjkgNDEuMjkgMCAwIDEgMTAgMmMyLjIzNiAwIDQuNDMuMTggNi41Ny41MjQgMS40MzcuMjMxIDIuNDMgMS40OSAyLjQzIDIuOTAydjUuMTQ4YzAgMS40MTMtLjk5MyAyLjY3LTIuNDMgMi45MDJhNDEuMjAyIDQxLjIwMiAwIDAgMS01LjE4My41MDEuNzguNzggMCAwIDAtLjUyOC4yMjRsLTMuNTc5IDMuNThBLjc1Ljc1IDAgMCAxIDYgMTcuMjV2LTMuNDQzYTQxLjAzMyA0MS4wMzMgMCAwIDEtMi41Ny0uMzNDMS45OTMgMTMuMjQ0IDEgMTEuOTg2IDEgMTAuNTczVjUuNDI2YzAtMS40MTMuOTkzLTIuNjcgMi40My0yLjkwMloiIGNsaXAtcnVsZT0iZXZlbm9kZCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| chatBubbleLeft
 -}
 chatBubbleLeft : List (Attribute msg) -> Html msg
 chatBubbleLeft attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M3.43 2.524A41.29 41.29 0 0 1 10 2c2.236 0 4.43.18 6.57.524 1.437.231 2.43 1.49 2.43 2.902v5.148c0 1.413-.993 2.67-2.43 2.902a41.202 41.202 0 0 1-5.183.501.78.78 0 0 0-.528.224l-3.579 3.58A.75.75 0 0 1 6 17.25v-3.443a41.033 41.033 0 0 1-2.57-.33C1.993 13.244 1 11.986 1 10.573V5.426c0-1.413.993-2.67 2.43-2.902Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEwIDNjLTQuMzEgMC04IDMuMDMzLTggNyAwIDIuMDI0Ljk3OCAzLjgyNSAyLjQ5OSA1LjA4NWEzLjQ3OCAzLjQ3OCAwIDAgMS0uNTIyIDEuNzU2Ljc1Ljc1IDAgMCAwIC41ODQgMS4xNDMgNS45NzYgNS45NzYgMCAwIDAgMy45MzYtMS4xMDhjLjQ4Ny4wODIuOTkuMTI0IDEuNTAzLjEyNCA0LjMxIDAgOC0zLjAzMyA4LTdzLTMuNjktNy04LTdabTAgOGExIDEgMCAxIDAgMC0yIDEgMSAwIDAgMCAwIDJabS0yLTFhMSAxIDAgMSAxLTIgMCAxIDEgMCAwIDEgMiAwWm01IDFhMSAxIDAgMSAwIDAtMiAxIDEgMCAwIDAgMCAyWiIgY2xpcC1ydWxlPSJldmVub2RkIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| chatBubbleOvalLeftEllipsis
 -}
 chatBubbleOvalLeftEllipsis : List (Attribute msg) -> Html msg
 chatBubbleOvalLeftEllipsis attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M10 3c-4.31 0-8 3.033-8 7 0 2.024.978 3.825 2.499 5.085a3.478 3.478 0 0 1-.522 1.756.75.75 0 0 0 .584 1.143 5.976 5.976 0 0 0 3.936-1.108c.487.082.99.124 1.503.124 4.31 0 8-3.033 8-7s-3.69-7-8-7Zm0 8a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm-2-1a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm5 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTIgMTBjMC0zLjk2NyAzLjY5LTcgOC03IDQuMzEgMCA4IDMuMDMzIDggN3MtMy42OSA3LTggN2E5LjE2NSA5LjE2NSAwIDAgMS0xLjUwNC0uMTIzIDUuOTc2IDUuOTc2IDAgMCAxLTMuOTM1IDEuMTA3Ljc1Ljc1IDAgMCAxLS41ODQtMS4xNDMgMy40NzggMy40NzggMCAwIDAgLjUyMi0xLjc1NkMyLjk3OSAxMy44MjUgMiAxMi4wMjUgMiAxMFoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| chatBubbleOvalLeft
 -}
 chatBubbleOvalLeft : List (Attribute msg) -> Html msg
 chatBubbleOvalLeft attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M2 10c0-3.967 3.69-7 8-7 4.31 0 8 3.033 8 7s-3.69 7-8 7a9.165 9.165 0 0 1-1.504-.123 5.976 5.976 0 0 1-3.935 1.107.75.75 0 0 1-.584-1.143 3.478 3.478 0 0 0 .522-1.756C2.979 13.825 2 12.025 2 10Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTE2LjQwMyAxMi42NTJhMyAzIDAgMCAwIDAtNS4zMDQgMyAzIDAgMCAwLTMuNzUtMy43NTEgMyAzIDAgMCAwLTUuMzA1IDAgMyAzIDAgMCAwLTMuNzUxIDMuNzUgMyAzIDAgMCAwIDAgNS4zMDUgMyAzIDAgMCAwIDMuNzUgMy43NTEgMyAzIDAgMCAwIDUuMzA1IDAgMyAzIDAgMCAwIDMuNzUxLTMuNzVabS0yLjU0Ni00LjQ2YS43NS43NSAwIDAgMC0xLjIxNC0uODgzbC0zLjQ4MyA0Ljc5LTEuODgtMS44OGEuNzUuNzUgMCAxIDAtMS4wNiAxLjA2MWwyLjUgMi41YS43NS43NSAwIDAgMCAxLjEzNy0uMDg5bDQtNS41WiIgY2xpcC1ydWxlPSJldmVub2RkIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| checkBadge
 -}
 checkBadge : List (Attribute msg) -> Html msg
 checkBadge attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M16.403 12.652a3 3 0 0 0 0-5.304 3 3 0 0 0-3.75-3.751 3 3 0 0 0-5.305 0 3 3 0 0 0-3.751 3.75 3 3 0 0 0 0 5.305 3 3 0 0 0 3.75 3.751 3 3 0 0 0 5.305 0 3 3 0 0 0 3.751-3.75Zm-2.546-4.46a.75.75 0 0 0-1.214-.883l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEwIDE4YTggOCAwIDEgMCAwLTE2IDggOCAwIDAgMCAwIDE2Wm0zLjg1Ny05LjgwOWEuNzUuNzUgMCAwIDAtMS4yMTQtLjg4MmwtMy40ODMgNC43OS0xLjg4LTEuODhhLjc1Ljc1IDAgMSAwLTEuMDYgMS4wNjFsMi41IDIuNWEuNzUuNzUgMCAwIDAgMS4xMzctLjA4OWw0LTUuNVoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| checkCircle
 -}
 checkCircle : List (Attribute msg) -> Html msg
 checkCircle attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.857-9.809a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTE2LjcwNCA0LjE1M2EuNzUuNzUgMCAwIDEgLjE0MyAxLjA1MmwtOCAxMC41YS43NS43NSAwIDAgMS0xLjEyNy4wNzVsLTQuNS00LjVhLjc1Ljc1IDAgMCAxIDEuMDYtMS4wNmwzLjg5NCAzLjg5MyA3LjQ4LTkuODE3YS43NS43NSAwIDAgMSAxLjA1LS4xNDNaIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| check
 -}
 check : List (Attribute msg) -> Html msg
 check attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTkuNDcgMTUuMjhhLjc1Ljc1IDAgMCAwIDEuMDYgMGw0LjI1LTQuMjVhLjc1Ljc1IDAgMSAwLTEuMDYtMS4wNkwxMCAxMy42OSA2LjI4IDkuOTdhLjc1Ljc1IDAgMCAwLTEuMDYgMS4wNmw0LjI1IDQuMjVaTTUuMjIgNi4wM2w0LjI1IDQuMjVhLjc1Ljc1IDAgMCAwIDEuMDYgMGw0LjI1LTQuMjVhLjc1Ljc1IDAgMCAwLTEuMDYtMS4wNkwxMCA4LjY5IDYuMjggNC45N2EuNzUuNzUgMCAwIDAtMS4wNiAxLjA2WiIgY2xpcC1ydWxlPSJldmVub2RkIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| chevronDoubleDown
 -}
 chevronDoubleDown : List (Attribute msg) -> Html msg
 chevronDoubleDown attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M9.47 15.28a.75.75 0 0 0 1.06 0l4.25-4.25a.75.75 0 1 0-1.06-1.06L10 13.69 6.28 9.97a.75.75 0 0 0-1.06 1.06l4.25 4.25ZM5.22 6.03l4.25 4.25a.75.75 0 0 0 1.06 0l4.25-4.25a.75.75 0 0 0-1.06-1.06L10 8.69 6.28 4.97a.75.75 0 0 0-1.06 1.06Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTQuNzIgOS40N2EuNzUuNzUgMCAwIDAgMCAxLjA2bDQuMjUgNC4yNWEuNzUuNzUgMCAxIDAgMS4wNi0xLjA2TDYuMzEgMTBsMy43Mi0zLjcyYS43NS43NSAwIDEgMC0xLjA2LTEuMDZMNC43MiA5LjQ3Wm05LjI1LTQuMjVMOS43MiA5LjQ3YS43NS43NSAwIDAgMCAwIDEuMDZsNC4yNSA0LjI1YS43NS43NSAwIDEgMCAxLjA2LTEuMDZMMTEuMzEgMTBsMy43Mi0zLjcyYS43NS43NSAwIDAgMC0xLjA2LTEuMDZaIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| chevronDoubleLeft
 -}
 chevronDoubleLeft : List (Attribute msg) -> Html msg
 chevronDoubleLeft attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M4.72 9.47a.75.75 0 0 0 0 1.06l4.25 4.25a.75.75 0 1 0 1.06-1.06L6.31 10l3.72-3.72a.75.75 0 1 0-1.06-1.06L4.72 9.47Zm9.25-4.25L9.72 9.47a.75.75 0 0 0 0 1.06l4.25 4.25a.75.75 0 1 0 1.06-1.06L11.31 10l3.72-3.72a.75.75 0 0 0-1.06-1.06Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTE1LjI4IDkuNDdhLjc1Ljc1IDAgMCAxIDAgMS4wNmwtNC4yNSA0LjI1YS43NS43NSAwIDEgMS0xLjA2LTEuMDZMMTMuNjkgMTAgOS45NyA2LjI4YS43NS43NSAwIDAgMSAxLjA2LTEuMDZsNC4yNSA0LjI1Wk02LjAzIDUuMjJsNC4yNSA0LjI1YS43NS43NSAwIDAgMSAwIDEuMDZsLTQuMjUgNC4yNWEuNzUuNzUgMCAwIDEtMS4wNi0xLjA2TDguNjkgMTAgNC45NyA2LjI4YS43NS43NSAwIDAgMSAxLjA2LTEuMDZaIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| chevronDoubleRight
 -}
 chevronDoubleRight : List (Attribute msg) -> Html msg
 chevronDoubleRight attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M15.28 9.47a.75.75 0 0 1 0 1.06l-4.25 4.25a.75.75 0 1 1-1.06-1.06L13.69 10 9.97 6.28a.75.75 0 0 1 1.06-1.06l4.25 4.25ZM6.03 5.22l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.75.75 0 0 1-1.06-1.06L8.69 10 4.97 6.28a.75.75 0 0 1 1.06-1.06Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTkuNDcgNC43MmEuNzUuNzUgMCAwIDEgMS4wNiAwbDQuMjUgNC4yNWEuNzUuNzUgMCAxIDEtMS4wNiAxLjA2TDEwIDYuMzFsLTMuNzIgMy43MmEuNzUuNzUgMCAxIDEtMS4wNi0xLjA2bDQuMjUtNC4yNVptLTQuMjUgOS4yNSA0LjI1LTQuMjVhLjc1Ljc1IDAgMCAxIDEuMDYgMGw0LjI1IDQuMjVhLjc1Ljc1IDAgMSAxLTEuMDYgMS4wNkwxMCAxMS4zMWwtMy43MiAzLjcyYS43NS43NSAwIDAgMS0xLjA2LTEuMDZaIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| chevronDoubleUp
 -}
 chevronDoubleUp : List (Attribute msg) -> Html msg
 chevronDoubleUp attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M9.47 4.72a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 1 1-1.06 1.06L10 6.31l-3.72 3.72a.75.75 0 1 1-1.06-1.06l4.25-4.25Zm-4.25 9.25 4.25-4.25a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 1 1-1.06 1.06L10 11.31l-3.72 3.72a.75.75 0 0 1-1.06-1.06Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTUuMjIgOC4yMmEuNzUuNzUgMCAwIDEgMS4wNiAwTDEwIDExLjk0bDMuNzItMy43MmEuNzUuNzUgMCAxIDEgMS4wNiAxLjA2bC00LjI1IDQuMjVhLjc1Ljc1IDAgMCAxLTEuMDYgMEw1LjIyIDkuMjhhLjc1Ljc1IDAgMCAxIDAtMS4wNloiIGNsaXAtcnVsZT0iZXZlbm9kZCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| chevronDown
 -}
 chevronDown : List (Attribute msg) -> Html msg
 chevronDown attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTExLjc4IDUuMjJhLjc1Ljc1IDAgMCAxIDAgMS4wNkw4LjA2IDEwbDMuNzIgMy43MmEuNzUuNzUgMCAxIDEtMS4wNiAxLjA2bC00LjI1LTQuMjVhLjc1Ljc1IDAgMCAxIDAtMS4wNmw0LjI1LTQuMjVhLjc1Ljc1IDAgMCAxIDEuMDYgMFoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| chevronLeft
 -}
 chevronLeft : List (Attribute msg) -> Html msg
 chevronLeft attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M11.78 5.22a.75.75 0 0 1 0 1.06L8.06 10l3.72 3.72a.75.75 0 1 1-1.06 1.06l-4.25-4.25a.75.75 0 0 1 0-1.06l4.25-4.25a.75.75 0 0 1 1.06 0Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTguMjIgNS4yMmEuNzUuNzUgMCAwIDEgMS4wNiAwbDQuMjUgNC4yNWEuNzUuNzUgMCAwIDEgMCAxLjA2bC00LjI1IDQuMjVhLjc1Ljc1IDAgMCAxLTEuMDYtMS4wNkwxMS45NCAxMCA4LjIyIDYuMjhhLjc1Ljc1IDAgMCAxIDAtMS4wNloiIGNsaXAtcnVsZT0iZXZlbm9kZCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| chevronRight
 -}
 chevronRight : List (Attribute msg) -> Html msg
 chevronRight attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M8.22 5.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.75.75 0 0 1-1.06-1.06L11.94 10 8.22 6.28a.75.75 0 0 1 0-1.06Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEwLjUzIDMuNDdhLjc1Ljc1IDAgMCAwLTEuMDYgMEw2LjIyIDYuNzJhLjc1Ljc1IDAgMCAwIDEuMDYgMS4wNkwxMCA1LjA2bDIuNzIgMi43MmEuNzUuNzUgMCAxIDAgMS4wNi0xLjA2bC0zLjI1LTMuMjVabS00LjMxIDkuODEgMy4yNSAzLjI1YS43NS43NSAwIDAgMCAxLjA2IDBsMy4yNS0zLjI1YS43NS43NSAwIDEgMC0xLjA2LTEuMDZMMTAgMTQuOTRsLTIuNzItMi43MmEuNzUuNzUgMCAwIDAtMS4wNiAxLjA2WiIgY2xpcC1ydWxlPSJldmVub2RkIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| chevronUpDown
 -}
 chevronUpDown : List (Attribute msg) -> Html msg
 chevronUpDown attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M10.53 3.47a.75.75 0 0 0-1.06 0L6.22 6.72a.75.75 0 0 0 1.06 1.06L10 5.06l2.72 2.72a.75.75 0 1 0 1.06-1.06l-3.25-3.25Zm-4.31 9.81 3.25 3.25a.75.75 0 0 0 1.06 0l3.25-3.25a.75.75 0 1 0-1.06-1.06L10 14.94l-2.72-2.72a.75.75 0 0 0-1.06 1.06Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTkuNDcgNi40N2EuNzUuNzUgMCAwIDEgMS4wNiAwbDQuMjUgNC4yNWEuNzUuNzUgMCAxIDEtMS4wNiAxLjA2TDEwIDguMDZsLTMuNzIgMy43MmEuNzUuNzUgMCAwIDEtMS4wNi0xLjA2bDQuMjUtNC4yNVoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| chevronUp
 -}
 chevronUp : List (Attribute msg) -> Html msg
 chevronUp attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M9.47 6.47a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 1 1-1.06 1.06L10 8.06l-3.72 3.72a.75.75 0 0 1-1.06-1.06l4.25-4.25Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEwIDFjMy44NjYgMCA3IDEuNzkgNyA0cy0zLjEzNCA0LTcgNC03LTEuNzktNy00IDMuMTM0LTQgNy00Wm01LjY5NCA4LjEzYy40NjQtLjI2NC45MS0uNTgzIDEuMzA2LS45NTJWMTBjMCAyLjIxLTMuMTM0IDQtNyA0cy03LTEuNzktNy00VjguMTc4Yy4zOTYuMzcuODQyLjY4OCAxLjMwNi45NTNDNS44MzggMTAuMDA2IDcuODU0IDEwLjUgMTAgMTAuNXM0LjE2Mi0uNDk0IDUuNjk0LTEuMzdaTTMgMTMuMTc5VjE1YzAgMi4yMSAzLjEzNCA0IDcgNHM3LTEuNzkgNy00di0xLjgyMmMtLjM5Ni4zNy0uODQyLjY4OC0xLjMwNi45NTMtMS41MzIuODc1LTMuNTQ4IDEuMzY5LTUuNjk0IDEuMzY5cy00LjE2Mi0uNDk0LTUuNjk0LTEuMzdBNy4wMDkgNy4wMDkgMCAwIDEgMyAxMy4xNzlaIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| circleStack
 -}
 circleStack : List (Attribute msg) -> Html msg
 circleStack attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M10 1c3.866 0 7 1.79 7 4s-3.134 4-7 4-7-1.79-7-4 3.134-4 7-4Zm5.694 8.13c.464-.264.91-.583 1.306-.952V10c0 2.21-3.134 4-7 4s-7-1.79-7-4V8.178c.396.37.842.688 1.306.953C5.838 10.006 7.854 10.5 10 10.5s4.162-.494 5.694-1.37ZM3 13.179V15c0 2.21 3.134 4 7 4s7-1.79 7-4v-1.822c-.396.37-.842.688-1.306.953-1.532.875-3.548 1.369-5.694 1.369s-4.162-.494-5.694-1.37A7.009 7.009 0 0 1 3 13.179Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTE4IDUuMjVhMi4yNSAyLjI1IDAgMCAwLTIuMDEyLTIuMjM4QTIuMjUgMi4yNSAwIDAgMCAxMy43NSAxaC0xLjVhMi4yNSAyLjI1IDAgMCAwLTIuMjM4IDIuMDEyYy0uODc1LjA5Mi0xLjYuNjg2LTEuODg0IDEuNDg4SDExQTIuNSAyLjUgMCAwIDEgMTMuNSA3djdoMi4yNUEyLjI1IDIuMjUgMCAwIDAgMTggMTEuNzV2LTYuNVpNMTIuMjUgMi41YS43NS43NSAwIDAgMC0uNzUuNzV2LjI1aDN2LS4yNWEuNzUuNzUgMCAwIDAtLjc1LS43NWgtMS41WiIgY2xpcC1ydWxlPSJldmVub2RkIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0zIDZhMSAxIDAgMCAwLTEgMXYxMGExIDEgMCAwIDAgMSAxaDhhMSAxIDAgMCAwIDEtMVY3YTEgMSAwIDAgMC0xLTFIM1ptNi44NzQgNC4xNjZhLjc1Ljc1IDAgMSAwLTEuMjQ4LS44MzJsLTIuNDkzIDMuNzM5LS44NTMtLjg1M2EuNzUuNzUgMCAwIDAtMS4wNiAxLjA2bDEuNSAxLjVhLjc1Ljc1IDAgMCAwIDEuMTU0LS4xMTRsMy00LjVaIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| clipboardDocumentCheck
 -}
 clipboardDocumentCheck : List (Attribute msg) -> Html msg
 clipboardDocumentCheck attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M18 5.25a2.25 2.25 0 0 0-2.012-2.238A2.25 2.25 0 0 0 13.75 1h-1.5a2.25 2.25 0 0 0-2.238 2.012c-.875.092-1.6.686-1.884 1.488H11A2.5 2.5 0 0 1 13.5 7v7h2.25A2.25 2.25 0 0 0 18 11.75v-6.5ZM12.25 2.5a.75.75 0 0 0-.75.75v.25h3v-.25a.75.75 0 0 0-.75-.75h-1.5Z", clipRule "evenodd" ] [], Svg.path [ fillRule "evenodd", d "M3 6a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1H3Zm6.874 4.166a.75.75 0 1 0-1.248-.832l-2.493 3.739-.853-.853a.75.75 0 0 0-1.06 1.06l1.5 1.5a.75.75 0 0 0 1.154-.114l3-4.5Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTE1Ljk4OCAzLjAxMkEyLjI1IDIuMjUgMCAwIDEgMTggNS4yNXY2LjVBMi4yNSAyLjI1IDAgMCAxIDE1Ljc1IDE0SDEzLjVWN0EyLjUgMi41IDAgMCAwIDExIDQuNUg4LjEyOGEyLjI1MiAyLjI1MiAwIDAgMSAxLjg4NC0xLjQ4OEEyLjI1IDIuMjUgMCAwIDEgMTIuMjUgMWgxLjVhMi4yNSAyLjI1IDAgMCAxIDIuMjM4IDIuMDEyWk0xMS41IDMuMjVhLjc1Ljc1IDAgMCAxIC43NS0uNzVoMS41YS43NS43NSAwIDAgMSAuNzUuNzV2LjI1aC0zdi0uMjVaIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTIgN2ExIDEgMCAwIDEgMS0xaDhhMSAxIDAgMCAxIDEgMXYxMGExIDEgMCAwIDEtMSAxSDNhMSAxIDAgMCAxLTEtMVY3Wm0yIDMuMjVhLjc1Ljc1IDAgMCAxIC43NS0uNzVoNC41YS43NS43NSAwIDAgMSAwIDEuNWgtNC41YS43NS43NSAwIDAgMS0uNzUtLjc1Wm0wIDMuNWEuNzUuNzUgMCAwIDEgLjc1LS43NWg0LjVhLjc1Ljc1IDAgMCAxIDAgMS41aC00LjVhLjc1Ljc1IDAgMCAxLS43NS0uNzVaIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| clipboardDocumentList
 -}
 clipboardDocumentList : List (Attribute msg) -> Html msg
 clipboardDocumentList attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M15.988 3.012A2.25 2.25 0 0 1 18 5.25v6.5A2.25 2.25 0 0 1 15.75 14H13.5V7A2.5 2.5 0 0 0 11 4.5H8.128a2.252 2.252 0 0 1 1.884-1.488A2.25 2.25 0 0 1 12.25 1h1.5a2.25 2.25 0 0 1 2.238 2.012ZM11.5 3.25a.75.75 0 0 1 .75-.75h1.5a.75.75 0 0 1 .75.75v.25h-3v-.25Z", clipRule "evenodd" ] [], Svg.path [ fillRule "evenodd", d "M2 7a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V7Zm2 3.25a.75.75 0 0 1 .75-.75h4.5a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1-.75-.75Zm0 3.5a.75.75 0 0 1 .75-.75h4.5a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1-.75-.75Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTE1Ljk4OCAzLjAxMkEyLjI1IDIuMjUgMCAwIDEgMTggNS4yNXY2LjVBMi4yNSAyLjI1IDAgMCAxIDE1Ljc1IDE0SDEzLjV2LTMuMzc5YTMgMyAwIDAgMC0uODc5LTIuMTIxbC0zLjEyLTMuMTIxYTMgMyAwIDAgMC0xLjQwMi0uNzkxIDIuMjUyIDIuMjUyIDAgMCAxIDEuOTEzLTEuNTc2QTIuMjUgMi4yNSAwIDAgMSAxMi4yNSAxaDEuNWEyLjI1IDIuMjUgMCAwIDEgMi4yMzggMi4wMTJaTTExLjUgMy4yNWEuNzUuNzUgMCAwIDEgLjc1LS43NWgxLjVhLjc1Ljc1IDAgMCAxIC43NS43NXYuMjVoLTN2LS4yNVoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PHBhdGggZD0iTTMuNSA2QTEuNSAxLjUgMCAwIDAgMiA3LjV2OUExLjUgMS41IDAgMCAwIDMuNSAxOGg3YTEuNSAxLjUgMCAwIDAgMS41LTEuNXYtNS44NzlhMS41IDEuNSAwIDAgMC0uNDQtMS4wNkw4LjQ0IDYuNDM5QTEuNSAxLjUgMCAwIDAgNy4zNzggNkgzLjVaIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| clipboardDocument
 -}
 clipboardDocument : List (Attribute msg) -> Html msg
 clipboardDocument attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M15.988 3.012A2.25 2.25 0 0 1 18 5.25v6.5A2.25 2.25 0 0 1 15.75 14H13.5v-3.379a3 3 0 0 0-.879-2.121l-3.12-3.121a3 3 0 0 0-1.402-.791 2.252 2.252 0 0 1 1.913-1.576A2.25 2.25 0 0 1 12.25 1h1.5a2.25 2.25 0 0 1 2.238 2.012ZM11.5 3.25a.75.75 0 0 1 .75-.75h1.5a.75.75 0 0 1 .75.75v.25h-3v-.25Z", clipRule "evenodd" ] [], Svg.path [ d "M3.5 6A1.5 1.5 0 0 0 2 7.5v9A1.5 1.5 0 0 0 3.5 18h7a1.5 1.5 0 0 0 1.5-1.5v-5.879a1.5 1.5 0 0 0-.44-1.06L8.44 6.439A1.5 1.5 0 0 0 7.378 6H3.5Z" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEzLjg4NyAzLjE4MmMuMzk2LjAzNy43OS4wOCAxLjE4My4xMjhDMTYuMTk0IDMuNDUgMTcgNC40MTQgMTcgNS41MTdWMTYuNzVBMi4yNSAyLjI1IDAgMCAxIDE0Ljc1IDE5aC05LjVBMi4yNSAyLjI1IDAgMCAxIDMgMTYuNzVWNS41MTdjMC0xLjEwMy44MDYtMi4wNjggMS45My0yLjIwNy4zOTMtLjA0OC43ODctLjA5IDEuMTgzLS4xMjhBMy4wMDEgMy4wMDEgMCAwIDEgOSAxaDJjMS4zNzMgMCAyLjUzMS45MjMgMi44ODcgMi4xODJaTTcuNSA0QTEuNSAxLjUgMCAwIDEgOSAyLjVoMkExLjUgMS41IDAgMCAxIDEyLjUgNHYuNWgtNVY0WiIgY2xpcC1ydWxlPSJldmVub2RkIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| clipboard
 -}
 clipboard : List (Attribute msg) -> Html msg
 clipboard attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M13.887 3.182c.396.037.79.08 1.183.128C16.194 3.45 17 4.414 17 5.517V16.75A2.25 2.25 0 0 1 14.75 19h-9.5A2.25 2.25 0 0 1 3 16.75V5.517c0-1.103.806-2.068 1.93-2.207.393-.048.787-.09 1.183-.128A3.001 3.001 0 0 1 9 1h2c1.373 0 2.531.923 2.887 2.182ZM7.5 4A1.5 1.5 0 0 1 9 2.5h2A1.5 1.5 0 0 1 12.5 4v.5h-5V4Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEwIDE4YTggOCAwIDEgMCAwLTE2IDggOCAwIDAgMCAwIDE2Wm0uNzUtMTNhLjc1Ljc1IDAgMCAwLTEuNSAwdjVjMCAuNDE0LjMzNi43NS43NS43NWg0YS43NS43NSAwIDAgMCAwLTEuNWgtMy4yNVY1WiIgY2xpcC1ydWxlPSJldmVub2RkIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| clock
 -}
 clock : List (Attribute msg) -> Html msg
 clock attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm.75-13a.75.75 0 0 0-1.5 0v5c0 .414.336.75.75.75h4a.75.75 0 0 0 0-1.5h-3.25V5Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTUuNSAxN2E0LjUgNC41IDAgMCAxLTEuNDQtOC43NjUgNC41IDQuNSAwIDAgMSA4LjMwMi0zLjA0NiAzLjUgMy41IDAgMCAxIDQuNTA0IDQuMjcyQTQgNCAwIDAgMSAxNSAxN0g1LjVabTUuMjUtOS4yNWEuNzUuNzUgMCAwIDAtMS41IDB2NC41OWwtMS45NS0yLjFhLjc1Ljc1IDAgMSAwLTEuMSAxLjAybDMuMjUgMy41YS43NS43NSAwIDAgMCAxLjEgMGwzLjI1LTMuNWEuNzUuNzUgMCAxIDAtMS4xLTEuMDJsLTEuOTUgMi4xVjcuNzVaIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| cloudArrowDown
 -}
 cloudArrowDown : List (Attribute msg) -> Html msg
 cloudArrowDown attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M5.5 17a4.5 4.5 0 0 1-1.44-8.765 4.5 4.5 0 0 1 8.302-3.046 3.5 3.5 0 0 1 4.504 4.272A4 4 0 0 1 15 17H5.5Zm5.25-9.25a.75.75 0 0 0-1.5 0v4.59l-1.95-2.1a.75.75 0 1 0-1.1 1.02l3.25 3.5a.75.75 0 0 0 1.1 0l3.25-3.5a.75.75 0 1 0-1.1-1.02l-1.95 2.1V7.75Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTUuNSAxN2E0LjUgNC41IDAgMCAxLTEuNDQtOC43NjUgNC41IDQuNSAwIDAgMSA4LjMwMi0zLjA0NiAzLjUgMy41IDAgMCAxIDQuNTA0IDQuMjcyQTQgNCAwIDAgMSAxNSAxN0g1LjVabTMuNzUtMi43NWEuNzUuNzUgMCAwIDAgMS41IDBWOS42NmwxLjk1IDIuMWEuNzUuNzUgMCAxIDAgMS4xLTEuMDJsLTMuMjUtMy41YS43NS43NSAwIDAgMC0xLjEgMGwtMy4yNSAzLjVhLjc1Ljc1IDAgMSAwIDEuMSAxLjAybDEuOTUtMi4xdjQuNTlaIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| cloudArrowUp
 -}
 cloudArrowUp : List (Attribute msg) -> Html msg
 cloudArrowUp attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M5.5 17a4.5 4.5 0 0 1-1.44-8.765 4.5 4.5 0 0 1 8.302-3.046 3.5 3.5 0 0 1 4.504 4.272A4 4 0 0 1 15 17H5.5Zm3.75-2.75a.75.75 0 0 0 1.5 0V9.66l1.95 2.1a.75.75 0 1 0 1.1-1.02l-3.25-3.5a.75.75 0 0 0-1.1 0l-3.25 3.5a.75.75 0 1 0 1.1 1.02l1.95-2.1v4.59Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik0xIDEyLjVBNC41IDQuNSAwIDAgMCA1LjUgMTdIMTVhNCA0IDAgMCAwIDEuODY2LTcuNTM5IDMuNTA0IDMuNTA0IDAgMCAwLTQuNTA0LTQuMjcyQTQuNSA0LjUgMCAwIDAgNC4wNiA4LjIzNSA0LjUwMiA0LjUwMiAwIDAgMCAxIDEyLjVaIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| cloud
 -}
 cloud : List (Attribute msg) -> Html msg
 cloud attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M1 12.5A4.5 4.5 0 0 0 5.5 17H15a4 4 0 0 0 1.866-7.539 3.504 3.504 0 0 0-4.504-4.272A4.5 4.5 0 0 0 4.06 8.235 4.502 4.502 0 0 0 1 12.5Z" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTQuMjUgMkEyLjI1IDIuMjUgMCAwIDAgMiA0LjI1djExLjVBMi4yNSAyLjI1IDAgMCAwIDQuMjUgMThoMTEuNUEyLjI1IDIuMjUgMCAwIDAgMTggMTUuNzVWNC4yNUEyLjI1IDIuMjUgMCAwIDAgMTUuNzUgMkg0LjI1Wm00LjAzIDYuMjhhLjc1Ljc1IDAgMCAwLTEuMDYtMS4wNkw0Ljk3IDkuNDdhLjc1Ljc1IDAgMCAwIDAgMS4wNmwyLjI1IDIuMjVhLjc1Ljc1IDAgMCAwIDEuMDYtMS4wNkw2LjU2IDEwbDEuNzItMS43MlptNC41LTEuMDZhLjc1Ljc1IDAgMSAwLTEuMDYgMS4wNkwxMy40NCAxMGwtMS43MiAxLjcyYS43NS43NSAwIDEgMCAxLjA2IDEuMDZsMi4yNS0yLjI1YS43NS43NSAwIDAgMCAwLTEuMDZsLTIuMjUtMi4yNVoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| codeBracketSquare
 -}
 codeBracketSquare : List (Attribute msg) -> Html msg
 codeBracketSquare attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M4.25 2A2.25 2.25 0 0 0 2 4.25v11.5A2.25 2.25 0 0 0 4.25 18h11.5A2.25 2.25 0 0 0 18 15.75V4.25A2.25 2.25 0 0 0 15.75 2H4.25Zm4.03 6.28a.75.75 0 0 0-1.06-1.06L4.97 9.47a.75.75 0 0 0 0 1.06l2.25 2.25a.75.75 0 0 0 1.06-1.06L6.56 10l1.72-1.72Zm4.5-1.06a.75.75 0 1 0-1.06 1.06L13.44 10l-1.72 1.72a.75.75 0 1 0 1.06 1.06l2.25-2.25a.75.75 0 0 0 0-1.06l-2.25-2.25Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTYuMjggNS4yMmEuNzUuNzUgMCAwIDEgMCAxLjA2TDIuNTYgMTBsMy43MiAzLjcyYS43NS43NSAwIDAgMS0xLjA2IDEuMDZMLjk3IDEwLjUzYS43NS43NSAwIDAgMSAwLTEuMDZsNC4yNS00LjI1YS43NS43NSAwIDAgMSAxLjA2IDBabTcuNDQgMGEuNzUuNzUgMCAwIDEgMS4wNiAwbDQuMjUgNC4yNWEuNzUuNzUgMCAwIDEgMCAxLjA2bC00LjI1IDQuMjVhLjc1Ljc1IDAgMCAxLTEuMDYtMS4wNkwxNy40NCAxMGwtMy43Mi0zLjcyYS43NS43NSAwIDAgMSAwLTEuMDZaTTExLjM3NyAyLjAxMWEuNzUuNzUgMCAwIDEgLjYxMi44NjdsLTIuNSAxNC41YS43NS43NSAwIDAgMS0xLjQ3OC0uMjU1bDIuNS0xNC41YS43NS43NSAwIDAgMSAuODY2LS42MTJaIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| codeBracket
 -}
 codeBracket : List (Attribute msg) -> Html msg
 codeBracket attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M6.28 5.22a.75.75 0 0 1 0 1.06L2.56 10l3.72 3.72a.75.75 0 0 1-1.06 1.06L.97 10.53a.75.75 0 0 1 0-1.06l4.25-4.25a.75.75 0 0 1 1.06 0Zm7.44 0a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.75.75 0 0 1-1.06-1.06L17.44 10l-3.72-3.72a.75.75 0 0 1 0-1.06ZM11.377 2.011a.75.75 0 0 1 .612.867l-2.5 14.5a.75.75 0 0 1-1.478-.255l2.5-14.5a.75.75 0 0 1 .866-.612Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTcuODQgMS44MDRBMSAxIDAgMCAxIDguODIgMWgyLjM2YTEgMSAwIDAgMSAuOTguODA0bC4zMzEgMS42NTJhNi45OTMgNi45OTMgMCAwIDEgMS45MjkgMS4xMTVsMS41OTgtLjU0YTEgMSAwIDAgMSAxLjE4Ni40NDdsMS4xOCAyLjA0NGExIDEgMCAwIDEtLjIwNSAxLjI1MWwtMS4yNjcgMS4xMTNhNy4wNDcgNy4wNDcgMCAwIDEgMCAyLjIyOGwxLjI2NyAxLjExM2ExIDEgMCAwIDEgLjIwNiAxLjI1bC0xLjE4IDIuMDQ1YTEgMSAwIDAgMS0xLjE4Ny40NDdsLTEuNTk4LS41NGE2Ljk5MyA2Ljk5MyAwIDAgMS0xLjkyOSAxLjExNWwtLjMzIDEuNjUyYTEgMSAwIDAgMS0uOTguODA0SDguODJhMSAxIDAgMCAxLS45OC0uODA0bC0uMzMxLTEuNjUyYTYuOTkzIDYuOTkzIDAgMCAxLTEuOTI5LTEuMTE1bC0xLjU5OC41NGExIDEgMCAwIDEtMS4xODYtLjQ0N2wtMS4xOC0yLjA0NGExIDEgMCAwIDEgLjIwNS0xLjI1MWwxLjI2Ny0xLjExNGE3LjA1IDcuMDUgMCAwIDEgMC0yLjIyN0wxLjgyMSA3Ljc3M2ExIDEgMCAwIDEtLjIwNi0xLjI1bDEuMTgtMi4wNDVhMSAxIDAgMCAxIDEuMTg3LS40NDdsMS41OTguNTRBNi45OTIgNi45OTIgMCAwIDEgNy41MSAzLjQ1NmwuMzMtMS42NTJaTTEwIDEzYTMgMyAwIDEgMCAwLTYgMyAzIDAgMCAwIDAgNloiIGNsaXAtcnVsZT0iZXZlbm9kZCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| cog6Tooth
 -}
 cog6Tooth : List (Attribute msg) -> Html msg
 cog6Tooth attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M7.84 1.804A1 1 0 0 1 8.82 1h2.36a1 1 0 0 1 .98.804l.331 1.652a6.993 6.993 0 0 1 1.929 1.115l1.598-.54a1 1 0 0 1 1.186.447l1.18 2.044a1 1 0 0 1-.205 1.251l-1.267 1.113a7.047 7.047 0 0 1 0 2.228l1.267 1.113a1 1 0 0 1 .206 1.25l-1.18 2.045a1 1 0 0 1-1.187.447l-1.598-.54a6.993 6.993 0 0 1-1.929 1.115l-.33 1.652a1 1 0 0 1-.98.804H8.82a1 1 0 0 1-.98-.804l-.331-1.652a6.993 6.993 0 0 1-1.929-1.115l-1.598.54a1 1 0 0 1-1.186-.447l-1.18-2.044a1 1 0 0 1 .205-1.251l1.267-1.114a7.05 7.05 0 0 1 0-2.227L1.821 7.773a1 1 0 0 1-.206-1.25l1.18-2.045a1 1 0 0 1 1.187-.447l1.598.54A6.992 6.992 0 0 1 7.51 3.456l.33-1.652ZM10 13a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTguMzQgMS44MDRBMSAxIDAgMCAxIDkuMzIgMWgxLjM2YTEgMSAwIDAgMSAuOTguODA0bC4yOTUgMS40NzNjLjQ5Ny4xNDQuOTcxLjM0MiAxLjQxNi41ODdsMS4yNS0uODM0YTEgMSAwIDAgMSAxLjI2Mi4xMjVsLjk2Mi45NjJhMSAxIDAgMCAxIC4xMjUgMS4yNjJsLS44MzQgMS4yNWMuMjQ1LjQ0NS40NDMuOTE5LjU4NyAxLjQxNmwxLjQ3My4yOTRhMSAxIDAgMCAxIC44MDQuOTh2MS4zNjFhMSAxIDAgMCAxLS44MDQuOThsLTEuNDczLjI5NWE2Ljk1IDYuOTUgMCAwIDEtLjU4NyAxLjQxNmwuODM0IDEuMjVhMSAxIDAgMCAxLS4xMjUgMS4yNjJsLS45NjIuOTYyYTEgMSAwIDAgMS0xLjI2Mi4xMjVsLTEuMjUtLjgzNGE2Ljk1MyA2Ljk1MyAwIDAgMS0xLjQxNi41ODdsLS4yOTQgMS40NzNhMSAxIDAgMCAxLS45OC44MDRIOS4zMmExIDEgMCAwIDEtLjk4LS44MDRsLS4yOTUtMS40NzNhNi45NTcgNi45NTcgMCAwIDEtMS40MTYtLjU4N2wtMS4yNS44MzRhMSAxIDAgMCAxLTEuMjYyLS4xMjVsLS45NjItLjk2MmExIDEgMCAwIDEtLjEyNS0xLjI2MmwuODM0LTEuMjVhNi45NTcgNi45NTcgMCAwIDEtLjU4Ny0xLjQxNmwtMS40NzMtLjI5NEExIDEgMCAwIDEgMSAxMC42OFY5LjMyYTEgMSAwIDAgMSAuODA0LS45OGwxLjQ3My0uMjk1Yy4xNDQtLjQ5Ny4zNDItLjk3MS41ODctMS40MTZsLS44MzQtMS4yNWExIDEgMCAwIDEgLjEyNS0xLjI2MmwuOTYyLS45NjJBMSAxIDAgMCAxIDUuMzggMy4wM2wxLjI1LjgzNGE2Ljk1NyA2Ljk1NyAwIDAgMSAxLjQxNi0uNTg3bC4yOTQtMS40NzNaTTEzIDEwYTMgMyAwIDEgMS02IDAgMyAzIDAgMCAxIDYgMFoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| cog8Tooth
 -}
 cog8Tooth : List (Attribute msg) -> Html msg
 cog8Tooth attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M8.34 1.804A1 1 0 0 1 9.32 1h1.36a1 1 0 0 1 .98.804l.295 1.473c.497.144.971.342 1.416.587l1.25-.834a1 1 0 0 1 1.262.125l.962.962a1 1 0 0 1 .125 1.262l-.834 1.25c.245.445.443.919.587 1.416l1.473.294a1 1 0 0 1 .804.98v1.361a1 1 0 0 1-.804.98l-1.473.295a6.95 6.95 0 0 1-.587 1.416l.834 1.25a1 1 0 0 1-.125 1.262l-.962.962a1 1 0 0 1-1.262.125l-1.25-.834a6.953 6.953 0 0 1-1.416.587l-.294 1.473a1 1 0 0 1-.98.804H9.32a1 1 0 0 1-.98-.804l-.295-1.473a6.957 6.957 0 0 1-1.416-.587l-1.25.834a1 1 0 0 1-1.262-.125l-.962-.962a1 1 0 0 1-.125-1.262l.834-1.25a6.957 6.957 0 0 1-.587-1.416l-1.473-.294A1 1 0 0 1 1 10.68V9.32a1 1 0 0 1 .804-.98l1.473-.295c.144-.497.342-.971.587-1.416l-.834-1.25a1 1 0 0 1 .125-1.262l.962-.962A1 1 0 0 1 5.38 3.03l1.25.834a6.957 6.957 0 0 1 1.416-.587l.294-1.473ZM13 10a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik0xMy4wMjQgOS4yNWMuNDcgMCAuODI3LS40MzMuNjM3LS44NjNhNCA0IDAgMCAwLTQuMDk0LTIuMzY0Yy0uNDY4LjA1LS42NjUuNTc2LS40My45ODRsMS4wOCAxLjg2OGEuNzUuNzUgMCAwIDAgLjY0OS4zNzVoMi4xNThaTTcuODQgNy43NThjLS4yMzYtLjQwOC0uNzktLjUtMS4wNjgtLjEyQTMuOTgyIDMuOTgyIDAgMCAwIDYgMTBjMCAuODg0LjI4NyAxLjcuNzcyIDIuMzYzLjI3OC4zOC44MzIuMjg3IDEuMDY4LS4xMmwxLjA3OC0xLjg2OGEuNzUuNzUgMCAwIDAgMC0uNzVMNy44MzkgNy43NThaTTkuMTM4IDEyLjk5M2MtLjIzNS40MDgtLjAzOS45MzQuNDMuOTg0YTQgNCAwIDAgMCA0LjA5NC0yLjM2NGMuMTktLjQzLS4xNjgtLjg2My0uNjM4LS44NjNoLTIuMTU4YS43NS43NSAwIDAgMC0uNjUuMzc1bC0xLjA3OCAxLjg2OFoiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0ibTE0LjEzIDQuMzQ3LjY0NC0xLjExN2EuNzUuNzUgMCAwIDAtMS4yOTktLjc1bC0uNjQ0IDEuMTE2YTYuOTU0IDYuOTU0IDAgMCAwLTIuMDgxLS41NTZWMS43NWEuNzUuNzUgMCAwIDAtMS41IDB2MS4yOWE2Ljk1NCA2Ljk1NCAwIDAgMC0yLjA4MS41NTZMNi41MjUgMi40OGEuNzUuNzUgMCAxIDAtMS4zLjc1bC42NDUgMS4xMTdBNy4wNCA3LjA0IDAgMCAwIDQuMzQ3IDUuODdMMy4yMyA1LjIyNWEuNzUuNzUgMCAxIDAtLjc1IDEuM2wxLjExNi42NDRBNi45NTQgNi45NTQgMCAwIDAgMy4wNCA5LjI1SDEuNzVhLjc1Ljc1IDAgMCAwIDAgMS41aDEuMjljLjA3OC43MzMuMjcgMS40MzMuNTU2IDIuMDgxbC0xLjExNi42NDVhLjc1Ljc1IDAgMSAwIC43NSAxLjI5OGwxLjExNy0uNjQ0YTcuMDQgNy4wNCAwIDAgMCAxLjUyMyAxLjUyM2wtLjY0NSAxLjExN2EuNzUuNzUgMCAxIDAgMS4zLjc1bC42NDQtMS4xMTZhNi45NTQgNi45NTQgMCAwIDAgMi4wODEuNTU2djEuMjlhLjc1Ljc1IDAgMCAwIDEuNSAwdi0xLjI5YTYuOTU0IDYuOTU0IDAgMCAwIDIuMDgxLS41NTZsLjY0NSAxLjExNmEuNzUuNzUgMCAwIDAgMS4yOTktLjc1bC0uNjQ1LTEuMTE3YTcuMDQyIDcuMDQyIDAgMCAwIDEuNTIzLTEuNTIzbDEuMTE3LjY0NGEuNzUuNzUgMCAwIDAgLjc1LTEuMjk4bC0xLjExNi0uNjQ1YTYuOTU0IDYuOTU0IDAgMCAwIC41NTYtMi4wODFoMS4yOWEuNzUuNzUgMCAwIDAgMC0xLjVoLTEuMjlhNi45NTQgNi45NTQgMCAwIDAtLjU1Ni0yLjA4MWwxLjExNi0uNjQ0YS43NS43NSAwIDAgMC0uNzUtMS4zbC0xLjExNy42NDVhNy4wNCA3LjA0IDAgMCAwLTEuNTI0LTEuNTIzWk0xMCA0LjVhNS40NzUgNS40NzUgMCAwIDAtMi43ODEuNzU0QTUuNTI3IDUuNTI3IDAgMCAwIDUuMjIgNy4yNzcgNS40NzUgNS40NzUgMCAwIDAgNC41IDEwYTUuNDc1IDUuNDc1IDAgMCAwIC43NTIgMi43NzcgNS41MjcgNS41MjcgMCAwIDAgMi4wMjggMi4wMDRjLjgwMi40NTggMS43My43MTkgMi43Mi43MTlhNS40NzQgNS40NzQgMCAwIDAgMi43OC0uNzUzIDUuNTI3IDUuNTI3IDAgMCAwIDIuMDAxLTIuMDI3Yy40NTgtLjgwMi43MTktMS43My43MTktMi43MmE1LjQ3NSA1LjQ3NSAwIDAgMC0uNzUzLTIuNzggNS41MjggNS41MjggMCAwIDAtMi4wMjgtMi4wMDJBNS40NzUgNS40NzUgMCAwIDAgMTAgNC41WiIgY2xpcC1ydWxlPSJldmVub2RkIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| cog
 -}
 cog : List (Attribute msg) -> Html msg
 cog attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M13.024 9.25c.47 0 .827-.433.637-.863a4 4 0 0 0-4.094-2.364c-.468.05-.665.576-.43.984l1.08 1.868a.75.75 0 0 0 .649.375h2.158ZM7.84 7.758c-.236-.408-.79-.5-1.068-.12A3.982 3.982 0 0 0 6 10c0 .884.287 1.7.772 2.363.278.38.832.287 1.068-.12l1.078-1.868a.75.75 0 0 0 0-.75L7.839 7.758ZM9.138 12.993c-.235.408-.039.934.43.984a4 4 0 0 0 4.094-2.364c.19-.43-.168-.863-.638-.863h-2.158a.75.75 0 0 0-.65.375l-1.078 1.868Z" ] [], Svg.path [ fillRule "evenodd", d "m14.13 4.347.644-1.117a.75.75 0 0 0-1.299-.75l-.644 1.116a6.954 6.954 0 0 0-2.081-.556V1.75a.75.75 0 0 0-1.5 0v1.29a6.954 6.954 0 0 0-2.081.556L6.525 2.48a.75.75 0 1 0-1.3.75l.645 1.117A7.04 7.04 0 0 0 4.347 5.87L3.23 5.225a.75.75 0 1 0-.75 1.3l1.116.644A6.954 6.954 0 0 0 3.04 9.25H1.75a.75.75 0 0 0 0 1.5h1.29c.078.733.27 1.433.556 2.081l-1.116.645a.75.75 0 1 0 .75 1.298l1.117-.644a7.04 7.04 0 0 0 1.523 1.523l-.645 1.117a.75.75 0 1 0 1.3.75l.644-1.116a6.954 6.954 0 0 0 2.081.556v1.29a.75.75 0 0 0 1.5 0v-1.29a6.954 6.954 0 0 0 2.081-.556l.645 1.116a.75.75 0 0 0 1.299-.75l-.645-1.117a7.042 7.042 0 0 0 1.523-1.523l1.117.644a.75.75 0 0 0 .75-1.298l-1.116-.645a6.954 6.954 0 0 0 .556-2.081h1.29a.75.75 0 0 0 0-1.5h-1.29a6.954 6.954 0 0 0-.556-2.081l1.116-.644a.75.75 0 0 0-.75-1.3l-1.117.645a7.04 7.04 0 0 0-1.524-1.523ZM10 4.5a5.475 5.475 0 0 0-2.781.754A5.527 5.527 0 0 0 5.22 7.277 5.475 5.475 0 0 0 4.5 10a5.475 5.475 0 0 0 .752 2.777 5.527 5.527 0 0 0 2.028 2.004c.802.458 1.73.719 2.72.719a5.474 5.474 0 0 0 2.78-.753 5.527 5.527 0 0 0 2.001-2.027c.458-.802.719-1.73.719-2.72a5.475 5.475 0 0 0-.753-2.78 5.528 5.528 0 0 0-2.028-2.002A5.475 5.475 0 0 0 10 4.5Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTMuMjUgM0EyLjI1IDIuMjUgMCAwIDAgMSA1LjI1djkuNUEyLjI1IDIuMjUgMCAwIDAgMy4yNSAxN2gxMy41QTIuMjUgMi4yNSAwIDAgMCAxOSAxNC43NXYtOS41QTIuMjUgMi4yNSAwIDAgMCAxNi43NSAzSDMuMjVabS45NDMgOC43NTJhLjc1Ljc1IDAgMCAxIC4wNTUtMS4wNkw2LjEyOCA5bC0xLjg4LTEuNjkzYS43NS43NSAwIDEgMSAxLjAwNC0xLjExNGwyLjUgMi4yNWEuNzUuNzUgMCAwIDEgMCAxLjExNGwtMi41IDIuMjVhLjc1Ljc1IDAgMCAxLTEuMDYtLjA1NVpNOS43NSAxMC4yNWEuNzUuNzUgMCAwIDAgMCAxLjVoMi41YS43NS43NSAwIDAgMCAwLTEuNWgtMi41WiIgY2xpcC1ydWxlPSJldmVub2RkIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| commandLine
 -}
 commandLine : List (Attribute msg) -> Html msg
 commandLine attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M3.25 3A2.25 2.25 0 0 0 1 5.25v9.5A2.25 2.25 0 0 0 3.25 17h13.5A2.25 2.25 0 0 0 19 14.75v-9.5A2.25 2.25 0 0 0 16.75 3H3.25Zm.943 8.752a.75.75 0 0 1 .055-1.06L6.128 9l-1.88-1.693a.75.75 0 1 1 1.004-1.114l2.5 2.25a.75.75 0 0 1 0 1.114l-2.5 2.25a.75.75 0 0 1-1.06-.055ZM9.75 10.25a.75.75 0 0 0 0 1.5h2.5a.75.75 0 0 0 0-1.5h-2.5Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTIgNC4yNUEyLjI1IDIuMjUgMCAwIDEgNC4yNSAyaDExLjVBMi4yNSAyLjI1IDAgMCAxIDE4IDQuMjV2OC41QTIuMjUgMi4yNSAwIDAgMSAxNS43NSAxNWgtMy4xMDVhMy41MDEgMy41MDEgMCAwIDAgMS4xIDEuNjc3QS43NS43NSAwIDAgMSAxMy4yNiAxOEg2Ljc0YS43NS43NSAwIDAgMS0uNDg0LTEuMzIzQTMuNTAxIDMuNTAxIDAgMCAwIDcuMzU1IDE1SDQuMjVBMi4yNSAyLjI1IDAgMCAxIDIgMTIuNzV2LTguNVptMS41IDBhLjc1Ljc1IDAgMCAxIC43NS0uNzVoMTEuNWEuNzUuNzUgMCAwIDEgLjc1Ljc1djcuNWEuNzUuNzUgMCAwIDEtLjc1Ljc1SDQuMjVhLjc1Ljc1IDAgMCAxLS43NS0uNzV2LTcuNVoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| computerDesktop
 -}
 computerDesktop : List (Attribute msg) -> Html msg
 computerDesktop attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M2 4.25A2.25 2.25 0 0 1 4.25 2h11.5A2.25 2.25 0 0 1 18 4.25v8.5A2.25 2.25 0 0 1 15.75 15h-3.105a3.501 3.501 0 0 0 1.1 1.677A.75.75 0 0 1 13.26 18H6.74a.75.75 0 0 1-.484-1.323A3.501 3.501 0 0 0 7.355 15H4.25A2.25 2.25 0 0 1 2 12.75v-8.5Zm1.5 0a.75.75 0 0 1 .75-.75h11.5a.75.75 0 0 1 .75.75v7.5a.75.75 0 0 1-.75.75H4.25a.75.75 0 0 1-.75-.75v-7.5Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik0xNCA2SDZ2OGg4VjZaIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik05LjI1IDNWMS43NWEuNzUuNzUgMCAwIDEgMS41IDBWM2gxLjVWMS43NWEuNzUuNzUgMCAwIDEgMS41IDBWM2guNUEyLjc1IDIuNzUgMCAwIDEgMTcgNS43NXYuNWgxLjI1YS43NS43NSAwIDAgMSAwIDEuNUgxN3YxLjVoMS4yNWEuNzUuNzUgMCAwIDEgMCAxLjVIMTd2MS41aDEuMjVhLjc1Ljc1IDAgMCAxIDAgMS41SDE3di41QTIuNzUgMi43NSAwIDAgMSAxNC4yNSAxN2gtLjV2MS4yNWEuNzUuNzUgMCAwIDEtMS41IDBWMTdoLTEuNXYxLjI1YS43NS43NSAwIDAgMS0xLjUgMFYxN2gtMS41djEuMjVhLjc1Ljc1IDAgMCAxLTEuNSAwVjE3aC0uNUEyLjc1IDIuNzUgMCAwIDEgMyAxNC4yNXYtLjVIMS43NWEuNzUuNzUgMCAwIDEgMC0xLjVIM3YtMS41SDEuNzVhLjc1Ljc1IDAgMCAxIDAtMS41SDN2LTEuNUgxLjc1YS43NS43NSAwIDAgMSAwLTEuNUgzdi0uNUEyLjc1IDIuNzUgMCAwIDEgNS43NSAzaC41VjEuNzVhLjc1Ljc1IDAgMCAxIDEuNSAwVjNoMS41Wk00LjUgNS43NWMwLS42OS41Ni0xLjI1IDEuMjUtMS4yNWg4LjVjLjY5IDAgMS4yNS41NiAxLjI1IDEuMjV2OC41YzAgLjY5LS41NiAxLjI1LTEuMjUgMS4yNWgtOC41Yy0uNjkgMC0xLjI1LS41Ni0xLjI1LTEuMjV2LTguNVoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| cpuChip
 -}
 cpuChip : List (Attribute msg) -> Html msg
 cpuChip attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M14 6H6v8h8V6Z" ] [], Svg.path [ fillRule "evenodd", d "M9.25 3V1.75a.75.75 0 0 1 1.5 0V3h1.5V1.75a.75.75 0 0 1 1.5 0V3h.5A2.75 2.75 0 0 1 17 5.75v.5h1.25a.75.75 0 0 1 0 1.5H17v1.5h1.25a.75.75 0 0 1 0 1.5H17v1.5h1.25a.75.75 0 0 1 0 1.5H17v.5A2.75 2.75 0 0 1 14.25 17h-.5v1.25a.75.75 0 0 1-1.5 0V17h-1.5v1.25a.75.75 0 0 1-1.5 0V17h-1.5v1.25a.75.75 0 0 1-1.5 0V17h-.5A2.75 2.75 0 0 1 3 14.25v-.5H1.75a.75.75 0 0 1 0-1.5H3v-1.5H1.75a.75.75 0 0 1 0-1.5H3v-1.5H1.75a.75.75 0 0 1 0-1.5H3v-.5A2.75 2.75 0 0 1 5.75 3h.5V1.75a.75.75 0 0 1 1.5 0V3h1.5ZM4.5 5.75c0-.69.56-1.25 1.25-1.25h8.5c.69 0 1.25.56 1.25 1.25v8.5c0 .69-.56 1.25-1.25 1.25h-8.5c-.69 0-1.25-.56-1.25-1.25v-8.5Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTIuNSA0QTEuNSAxLjUgMCAwIDAgMSA1LjVWNmgxOHYtLjVBMS41IDEuNSAwIDAgMCAxNy41IDRoLTE1Wk0xOSA4LjVIMXY2QTEuNSAxLjUgMCAwIDAgMi41IDE2aDE1YTEuNSAxLjUgMCAwIDAgMS41LTEuNXYtNlpNMyAxMy4yNWEuNzUuNzUgMCAwIDEgLjc1LS43NWgxLjVhLjc1Ljc1IDAgMCAxIDAgMS41aC0xLjVhLjc1Ljc1IDAgMCAxLS43NS0uNzVabTQuNzUtLjc1YS43NS43NSAwIDAgMCAwIDEuNWgzLjVhLjc1Ljc1IDAgMCAwIDAtMS41aC0zLjVaIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| creditCard
 -}
 creditCard : List (Attribute msg) -> Html msg
 creditCard attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M2.5 4A1.5 1.5 0 0 0 1 5.5V6h18v-.5A1.5 1.5 0 0 0 17.5 4h-15ZM19 8.5H1v6A1.5 1.5 0 0 0 2.5 16h15a1.5 1.5 0 0 0 1.5-1.5v-6ZM3 13.25a.75.75 0 0 1 .75-.75h1.5a.75.75 0 0 1 0 1.5h-1.5a.75.75 0 0 1-.75-.75Zm4.75-.75a.75.75 0 0 0 0 1.5h3.5a.75.75 0 0 0 0-1.5h-3.5Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTkuNjM4IDEuMDkzYS43NS43NSAwIDAgMSAuNzI0IDBsMiAxLjEwNGEuNzUuNzUgMCAxIDEtLjcyNCAxLjMxM0wxMCAyLjYwN2wtMS42MzguOTAzYS43NS43NSAwIDEgMS0uNzI0LTEuMzEzbDItMS4xMDRaTTUuNDAzIDQuMjg3YS43NS43NSAwIDAgMS0uMjk1IDEuMDE5bC0uODA1LjQ0NC44MDUuNDQ0YS43NS43NSAwIDAgMS0uNzI0IDEuMzE0TDMuNSA3LjAydi43M2EuNzUuNzUgMCAwIDEtMS41IDB2LTJhLjc1Ljc1IDAgMCAxIC4zODgtLjY1N2wxLjk5Ni0xLjFhLjc1Ljc1IDAgMCAxIDEuMDE5LjI5NFptOS4xOTQgMGEuNzUuNzUgMCAwIDEgMS4wMi0uMjk1bDEuOTk1IDEuMTAxQS43NS43NSAwIDAgMSAxOCA1Ljc1djJhLjc1Ljc1IDAgMCAxLTEuNSAwdi0uNzNsLS44ODQuNDg4YS43NS43NSAwIDEgMS0uNzI0LTEuMzE0bC44MDYtLjQ0NC0uODA2LS40NDRhLjc1Ljc1IDAgMCAxLS4yOTUtMS4wMlpNNy4zNDMgOC4yODRhLjc1Ljc1IDAgMCAxIDEuMDItLjI5NEwxMCA4Ljg5M2wxLjYzOC0uOTAzYS43NS43NSAwIDEgMSAuNzI0IDEuMzEzbC0xLjYxMi44OXYxLjU1N2EuNzUuNzUgMCAwIDEtMS41IDB2LTEuNTU3bC0xLjYxMi0uODlhLjc1Ljc1IDAgMCAxLS4yOTUtMS4wMTlaTTIuNzUgMTEuNWEuNzUuNzUgMCAwIDEgLjc1Ljc1djEuNTU3bDEuNjA4Ljg4N2EuNzUuNzUgMCAwIDEtLjcyNCAxLjMxNGwtMS45OTYtMS4xMDFBLjc1Ljc1IDAgMCAxIDIgMTQuMjV2LTJhLjc1Ljc1IDAgMCAxIC43NS0uNzVabTE0LjUgMGEuNzUuNzUgMCAwIDEgLjc1Ljc1djJhLjc1Ljc1IDAgMCAxLS4zODguNjU3bC0xLjk5NiAxLjFhLjc1Ljc1IDAgMSAxLS43MjQtMS4zMTNsMS42MDgtLjg4N1YxMi4yNWEuNzUuNzUgMCAwIDEgLjc1LS43NVptLTcuMjUgNGEuNzUuNzUgMCAwIDEgLjc1Ljc1di43M2wuODg4LS40OWEuNzUuNzUgMCAwIDEgLjcyNCAxLjMxM2wtMiAxLjEwNGEuNzUuNzUgMCAwIDEtLjcyNCAwbC0yLTEuMTA0YS43NS43NSAwIDEgMSAuNzI0LTEuMzEzbC44ODguNDl2LS43M2EuNzUuNzUgMCAwIDEgLjc1LS43NVoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| cubeTransparent
 -}
 cubeTransparent : List (Attribute msg) -> Html msg
 cubeTransparent attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M9.638 1.093a.75.75 0 0 1 .724 0l2 1.104a.75.75 0 1 1-.724 1.313L10 2.607l-1.638.903a.75.75 0 1 1-.724-1.313l2-1.104ZM5.403 4.287a.75.75 0 0 1-.295 1.019l-.805.444.805.444a.75.75 0 0 1-.724 1.314L3.5 7.02v.73a.75.75 0 0 1-1.5 0v-2a.75.75 0 0 1 .388-.657l1.996-1.1a.75.75 0 0 1 1.019.294Zm9.194 0a.75.75 0 0 1 1.02-.295l1.995 1.101A.75.75 0 0 1 18 5.75v2a.75.75 0 0 1-1.5 0v-.73l-.884.488a.75.75 0 1 1-.724-1.314l.806-.444-.806-.444a.75.75 0 0 1-.295-1.02ZM7.343 8.284a.75.75 0 0 1 1.02-.294L10 8.893l1.638-.903a.75.75 0 1 1 .724 1.313l-1.612.89v1.557a.75.75 0 0 1-1.5 0v-1.557l-1.612-.89a.75.75 0 0 1-.295-1.019ZM2.75 11.5a.75.75 0 0 1 .75.75v1.557l1.608.887a.75.75 0 0 1-.724 1.314l-1.996-1.101A.75.75 0 0 1 2 14.25v-2a.75.75 0 0 1 .75-.75Zm14.5 0a.75.75 0 0 1 .75.75v2a.75.75 0 0 1-.388.657l-1.996 1.1a.75.75 0 1 1-.724-1.313l1.608-.887V12.25a.75.75 0 0 1 .75-.75Zm-7.25 4a.75.75 0 0 1 .75.75v.73l.888-.49a.75.75 0 0 1 .724 1.313l-2 1.104a.75.75 0 0 1-.724 0l-2-1.104a.75.75 0 1 1 .724-1.313l.888.49v-.73a.75.75 0 0 1 .75-.75Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik0xMC4zNjIgMS4wOTNhLjc1Ljc1IDAgMCAwLS43MjQgMEwyLjUyMyA1LjAxOCAxMCA5LjE0M2w3LjQ3Ny00LjEyNS03LjExNS0zLjkyNVpNMTggNi40NDNsLTcuMjUgNHY4LjI1bDYuODYyLTMuNzg2QS43NS43NSAwIDAgMCAxOCAxNC4yNVY2LjQ0M1pNOS4yNSAxOC42OTN2LTguMjVsLTcuMjUtNHY3LjgwN2EuNzUuNzUgMCAwIDAgLjM4OC42NTdsNi44NjIgMy43ODZaIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| cube
 -}
 cube : List (Attribute msg) -> Html msg
 cube attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M10.362 1.093a.75.75 0 0 0-.724 0L2.523 5.018 10 9.143l7.477-4.125-7.115-3.925ZM18 6.443l-7.25 4v8.25l6.862-3.786A.75.75 0 0 0 18 14.25V6.443ZM9.25 18.693v-8.25l-7.25-4v7.807a.75.75 0 0 0 .388.657l6.862 3.786Z" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEwIDJhOCA4IDAgMSAwIDAgMTYgOCA4IDAgMCAwIDAtMTZaTTUuOTQgNS41Yy45NDQtLjk0NSAyLjU2LS4yNzYgMi41NiAxLjA2VjhoNS43NWEuNzUuNzUgMCAwIDEgMCAxLjVIOC41djQuMjc1YzAgLjI5Ni4xNDQuNDU1LjI2LjQ5OWEzLjUgMy41IDAgMCAwIDQuNDAyLTEuNzdoLS40MTJhLjc1Ljc1IDAgMCAxIDAtMS41aC41MzdjLjQ2MiAwIC44ODcuMjEgMS4xNTYuNTU2LjI3OC4zNTUuMzgzLjg1Mi4xODQgMS4zMzdhNS4wMDEgNS4wMDEgMCAwIDEtNi40IDIuNzhDNy4zNzYgMTUuMzUzIDcgMTQuNTEyIDcgMTMuNzc0VjkuNUg1Ljc1YS43NS43NSAwIDAgMSAwLTEuNUg3VjYuNTZsLS4yMi4yMmEuNzUuNzUgMCAxIDEtMS4wNi0xLjA2bC4yMi0uMjJaIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| currencyBangladeshi
 -}
 currencyBangladeshi : List (Attribute msg) -> Html msg
 currencyBangladeshi attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M10 2a8 8 0 1 0 0 16 8 8 0 0 0 0-16ZM5.94 5.5c.944-.945 2.56-.276 2.56 1.06V8h5.75a.75.75 0 0 1 0 1.5H8.5v4.275c0 .296.144.455.26.499a3.5 3.5 0 0 0 4.402-1.77h-.412a.75.75 0 0 1 0-1.5h.537c.462 0 .887.21 1.156.556.278.355.383.852.184 1.337a5.001 5.001 0 0 1-6.4 2.78C7.376 15.353 7 14.512 7 13.774V9.5H5.75a.75.75 0 0 1 0-1.5H7V6.56l-.22.22a.75.75 0 1 1-1.06-1.06l.22-.22Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik0xMC43NSAxMC44MTh2Mi42MTRBMy4xMyAzLjEzIDAgMCAwIDExLjg4OCAxM2MuNDgyLS4zMTUuNjEyLS42NDguNjEyLS44NzUgMC0uMjI3LS4xMy0uNTYtLjYxMi0uODc1YTMuMTMgMy4xMyAwIDAgMC0xLjEzOC0uNDMyWk04LjMzIDguNjJjLjA1My4wNTUuMTE1LjExLjE4NC4xNjQuMjA4LjE2LjQ2LjI4NC43MzYuMzYzVjYuNjAzYTIuNDUgMi40NSAwIDAgMC0uMzUuMTNjLS4xNC4wNjUtLjI3LjE0My0uMzg2LjIzMy0uMzc3LjI5Mi0uNTE0LjYyNy0uNTE0LjkwOSAwIC4xODQuMDU4LjM5LjIwMi41OTIuMDM3LjA1MS4wOC4xMDIuMTI4LjE1MloiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTE4IDEwYTggOCAwIDEgMS0xNiAwIDggOCAwIDAgMSAxNiAwWm0tOC02YS43NS43NSAwIDAgMSAuNzUuNzV2LjMxNmEzLjc4IDMuNzggMCAwIDEgMS42NTMuNzEzYy40MjYuMzMuNzQ0Ljc0LjkyNSAxLjJhLjc1Ljc1IDAgMCAxLTEuMzk1LjU1IDEuMzUgMS4zNSAwIDAgMC0uNDQ3LS41NjMgMi4xODcgMi4xODcgMCAwIDAtLjczNi0uMzYzVjkuM2MuNjk4LjA5MyAxLjM4My4zMiAxLjk1OS42OTYuNzg3LjUxNCAxLjI5IDEuMjcgMS4yOSAyLjEzIDAgLjg2LS41MDQgMS42MTYtMS4yOSAyLjEzLS41NzYuMzc3LTEuMjYxLjYwMy0xLjk2LjY5NnYuMjk5YS43NS43NSAwIDEgMS0xLjUgMHYtLjNjLS42OTctLjA5Mi0xLjM4Mi0uMzE4LTEuOTU4LS42OTUtLjQ4Mi0uMzE1LS44NTctLjcxNy0xLjA3OC0xLjE4OGEuNzUuNzUgMCAxIDEgMS4zNTktLjYzNmMuMDguMTczLjI0NS4zNzYuNTQuNTY5LjMxMy4yMDUuNzA2LjM1MyAxLjEzOC40MzJ2LTIuNzQ4YTMuNzgyIDMuNzgyIDAgMCAxLTEuNjUzLS43MTNDNi45IDkuNDMzIDYuNSA4LjY4MSA2LjUgNy44NzVjMC0uODA1LjQtMS41NTggMS4wOTctMi4wOTZhMy43OCAzLjc4IDAgMCAxIDEuNjUzLS43MTNWNC43NUEuNzUuNzUgMCAwIDEgMTAgNFoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| currencyDollar
 -}
 currencyDollar : List (Attribute msg) -> Html msg
 currencyDollar attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M10.75 10.818v2.614A3.13 3.13 0 0 0 11.888 13c.482-.315.612-.648.612-.875 0-.227-.13-.56-.612-.875a3.13 3.13 0 0 0-1.138-.432ZM8.33 8.62c.053.055.115.11.184.164.208.16.46.284.736.363V6.603a2.45 2.45 0 0 0-.35.13c-.14.065-.27.143-.386.233-.377.292-.514.627-.514.909 0 .184.058.39.202.592.037.051.08.102.128.152Z" ] [], Svg.path [ fillRule "evenodd", d "M18 10a8 8 0 1 1-16 0 8 8 0 0 1 16 0Zm-8-6a.75.75 0 0 1 .75.75v.316a3.78 3.78 0 0 1 1.653.713c.426.33.744.74.925 1.2a.75.75 0 0 1-1.395.55 1.35 1.35 0 0 0-.447-.563 2.187 2.187 0 0 0-.736-.363V9.3c.698.093 1.383.32 1.959.696.787.514 1.29 1.27 1.29 2.13 0 .86-.504 1.616-1.29 2.13-.576.377-1.261.603-1.96.696v.299a.75.75 0 1 1-1.5 0v-.3c-.697-.092-1.382-.318-1.958-.695-.482-.315-.857-.717-1.078-1.188a.75.75 0 1 1 1.359-.636c.08.173.245.376.54.569.313.205.706.353 1.138.432v-2.748a3.782 3.782 0 0 1-1.653-.713C6.9 9.433 6.5 8.681 6.5 7.875c0-.805.4-1.558 1.097-2.096a3.78 3.78 0 0 1 1.653-.713V4.75A.75.75 0 0 1 10 4Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEwIDE4YTggOCAwIDEgMCAwLTE2IDggOCAwIDAgMCAwIDE2Wk04Ljc5OCA3LjQ1Yy41MTItLjY3IDEuMTM1LS45NSAxLjcwMi0uOTVzMS4xOS4yOCAxLjcwMi45NWEuNzUuNzUgMCAwIDAgMS4xOTItLjkxQzEyLjYzNyA1LjU1IDExLjU5NiA1IDEwLjUgNXMtMi4xMzcuNTUtMi44OTQgMS41NEE1LjIwNSA1LjIwNSAwIDAgMCA2LjgzIDhINS43NWEuNzUuNzUgMCAwIDAgMCAxLjVoLjc3YTYuMzMzIDYuMzMzIDAgMCAwIDAgMWgtLjc3YS43NS43NSAwIDAgMCAwIDEuNWgxLjA4Yy4xODMuNTI4LjQ0MiAxLjAyMy43NzYgMS40Ni43NTcuOTkgMS43OTggMS41NCAyLjg5NCAxLjU0czIuMTM3LS41NSAyLjg5NC0xLjU0YS43NS43NSAwIDAgMC0xLjE5Mi0uOTFjLS41MTIuNjctMS4xMzUuOTUtMS43MDIuOTVzLTEuMTktLjI4LTEuNzAyLS45NWEzLjUwNSAzLjUwNSAwIDAgMS0uMzQzLS41NWgxLjc5NWEuNzUuNzUgMCAwIDAgMC0xLjVIOC4wMjZhNC44MzUgNC44MzUgMCAwIDEgMC0xaDIuMjI0YS43NS43NSAwIDAgMCAwLTEuNUg4LjQ1NWMuMDk4LS4xOTUuMjEyLS4zOC4zNDMtLjU1WiIgY2xpcC1ydWxlPSJldmVub2RkIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| currencyEuro
 -}
 currencyEuro : List (Attribute msg) -> Html msg
 currencyEuro attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16ZM8.798 7.45c.512-.67 1.135-.95 1.702-.95s1.19.28 1.702.95a.75.75 0 0 0 1.192-.91C12.637 5.55 11.596 5 10.5 5s-2.137.55-2.894 1.54A5.205 5.205 0 0 0 6.83 8H5.75a.75.75 0 0 0 0 1.5h.77a6.333 6.333 0 0 0 0 1h-.77a.75.75 0 0 0 0 1.5h1.08c.183.528.442 1.023.776 1.46.757.99 1.798 1.54 2.894 1.54s2.137-.55 2.894-1.54a.75.75 0 0 0-1.192-.91c-.512.67-1.135.95-1.702.95s-1.19-.28-1.702-.95a3.505 3.505 0 0 1-.343-.55h1.795a.75.75 0 0 0 0-1.5H8.026a4.835 4.835 0 0 1 0-1h2.224a.75.75 0 0 0 0-1.5H8.455c.098-.195.212-.38.343-.55Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEwIDE4YTggOCAwIDEgMCAwLTE2IDggOCAwIDAgMCAwIDE2Wk04LjczMiA2LjIzMmEyLjUgMi41IDAgMCAxIDMuNTM2IDAgLjc1Ljc1IDAgMSAwIDEuMDYtMS4wNkE0IDQgMCAwIDAgNi41IDh2LjE2NWMwIC4zNjQuMDM0LjcyOC4xIDEuMDg1aC0uMzVhLjc1Ljc1IDAgMCAwIDAgMS41aC43MzdhNS4yNSA1LjI1IDAgMCAxLS4zNjcgMy4wNzJsLS4wNTUuMTIzYS43NS43NSAwIDAgMCAuODQ4IDEuMDM3bDEuMjcyLS4yODNhMy40OTMgMy40OTMgMCAwIDEgMS42MDQuMDIxIDQuOTkyIDQuOTkyIDAgMCAwIDIuNDIyIDBsLjk3LS4yNDJhLjc1Ljc1IDAgMCAwLS4zNjMtMS40NTZsLS45NzEuMjQzYTMuNDkxIDMuNDkxIDAgMCAxLTEuNjk0IDAgNC45OTIgNC45OTIgMCAwIDAtMi4yNTgtLjAzOGMuMTktLjgxMS4yMjctMS42NTEuMTExLTIuNDc3SDkuNzVhLjc1Ljc1IDAgMCAwIDAtMS41SDguMTM2QTQuMzk3IDQuMzk3IDAgMCAxIDggOC4xNjVWOGMwLS42NDEuMjQ0LTEuMjguNzMyLTEuNzY4WiIgY2xpcC1ydWxlPSJldmVub2RkIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| currencyPound
 -}
 currencyPound : List (Attribute msg) -> Html msg
 currencyPound attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16ZM8.732 6.232a2.5 2.5 0 0 1 3.536 0 .75.75 0 1 0 1.06-1.06A4 4 0 0 0 6.5 8v.165c0 .364.034.728.1 1.085h-.35a.75.75 0 0 0 0 1.5h.737a5.25 5.25 0 0 1-.367 3.072l-.055.123a.75.75 0 0 0 .848 1.037l1.272-.283a3.493 3.493 0 0 1 1.604.021 4.992 4.992 0 0 0 2.422 0l.97-.242a.75.75 0 0 0-.363-1.456l-.971.243a3.491 3.491 0 0 1-1.694 0 4.992 4.992 0 0 0-2.258-.038c.19-.811.227-1.651.111-2.477H9.75a.75.75 0 0 0 0-1.5H8.136A4.397 4.397 0 0 1 8 8.165V8c0-.641.244-1.28.732-1.768Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEwIDE4YTggOCAwIDEgMCAwLTE2IDggOCAwIDAgMCAwIDE2Wk02IDUuNzVBLjc1Ljc1IDAgMCAxIDYuNzUgNWg2LjVhLjc1Ljc1IDAgMCAxIDAgMS41aC0yLjEyN2MuNC41LjY4MyAxLjA5Ni44MDcgMS43NWgxLjMyYS43NS43NSAwIDAgMSAwIDEuNWgtMS4zMmE0LjAwMyA0LjAwMyAwIDAgMS0zLjQwNCAzLjIxNmwxLjc1NCAxLjc1NGEuNzUuNzUgMCAwIDEtMS4wNiAxLjA2bC0zLTNhLjc1Ljc1IDAgMCAxIC41My0xLjI4SDhjMS4xMiAwIDIuMDY3LS43MzYgMi4zODYtMS43NUg2Ljc1YS43NS43NSAwIDAgMSAwLTEuNWgzLjYzNkEyLjUwMSAyLjUwMSAwIDAgMCA4IDYuNUg2Ljc1QS43NS43NSAwIDAgMSA2IDUuNzVaIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| currencyRupee
 -}
 currencyRupee : List (Attribute msg) -> Html msg
 currencyRupee attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16ZM6 5.75A.75.75 0 0 1 6.75 5h6.5a.75.75 0 0 1 0 1.5h-2.127c.4.5.683 1.096.807 1.75h1.32a.75.75 0 0 1 0 1.5h-1.32a4.003 4.003 0 0 1-3.404 3.216l1.754 1.754a.75.75 0 0 1-1.06 1.06l-3-3a.75.75 0 0 1 .53-1.28H8c1.12 0 2.067-.736 2.386-1.75H6.75a.75.75 0 0 1 0-1.5h3.636A2.501 2.501 0 0 0 8 6.5H6.75A.75.75 0 0 1 6 5.75Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEwIDE4YTggOCAwIDEgMCAwLTE2IDggOCAwIDAgMCAwIDE2Wk03LjM0NiA1LjI5NGEuNzUuNzUgMCAwIDAtMS4xOTIuOTEyTDkuMDU2IDEwSDYuNzVhLjc1Ljc1IDAgMCAwIDAgMS41aDIuNXYxaC0yLjVhLjc1Ljc1IDAgMCAwIDAgMS41aDIuNXYxLjI1YS43NS43NSAwIDAgMCAxLjUgMFYxNGgyLjVhLjc1Ljc1IDAgMSAwIDAtMS41aC0yLjV2LTFoMi41YS43NS43NSAwIDEgMCAwLTEuNWgtMi4zMDZsMi45MDItMy43OTRhLjc1Ljc1IDAgMSAwLTEuMTkyLS45MTJMMTAgOC43NjVsLTIuNjU0LTMuNDdaIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| currencyYen
 -}
 currencyYen : List (Attribute msg) -> Html msg
 currencyYen attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16ZM7.346 5.294a.75.75 0 0 0-1.192.912L9.056 10H6.75a.75.75 0 0 0 0 1.5h2.5v1h-2.5a.75.75 0 0 0 0 1.5h2.5v1.25a.75.75 0 0 0 1.5 0V14h2.5a.75.75 0 1 0 0-1.5h-2.5v-1h2.5a.75.75 0 1 0 0-1.5h-2.306l2.902-3.794a.75.75 0 1 0-1.192-.912L10 8.765l-2.654-3.47Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik0xMCAxYS43NS43NSAwIDAgMSAuNzUuNzV2MS41YS43NS43NSAwIDAgMS0xLjUgMHYtMS41QS43NS43NSAwIDAgMSAxMCAxWk01LjA1IDMuMDVhLjc1Ljc1IDAgMCAxIDEuMDYgMGwxLjA2MiAxLjA2QS43NS43NSAwIDEgMSA2LjExIDUuMTczTDUuMDUgNC4xMWEuNzUuNzUgMCAwIDEgMC0xLjA2Wk0xNC45NSAzLjA1YS43NS43NSAwIDAgMSAwIDEuMDZsLTEuMDYgMS4wNjJhLjc1Ljc1IDAgMCAxLTEuMDYyLTEuMDYxbDEuMDYxLTEuMDZhLjc1Ljc1IDAgMCAxIDEuMDYgMFpNMyA4YS43NS43NSAwIDAgMSAuNzUtLjc1aDEuNWEuNzUuNzUgMCAwIDEgMCAxLjVoLTEuNUEuNzUuNzUgMCAwIDEgMyA4Wk0xNCA4YS43NS43NSAwIDAgMSAuNzUtLjc1aDEuNWEuNzUuNzUgMCAwIDEgMCAxLjVoLTEuNUEuNzUuNzUgMCAwIDEgMTQgOFpNNy4xNzIgMTAuODI4YS43NS43NSAwIDAgMSAwIDEuMDYxTDYuMTEgMTIuOTVhLjc1Ljc1IDAgMCAxLTEuMDYtMS4wNmwxLjA2LTEuMDZhLjc1Ljc1IDAgMCAxIDEuMDYgMFpNMTAuNzY2IDcuNTFhLjc1Ljc1IDAgMCAwLTEuMzcuMzY1bC0uNDkyIDYuODYxYS43NS43NSAwIDAgMCAxLjIwNC42NWwxLjA0My0uNzk5Ljk4NSAzLjY3OGEuNzUuNzUgMCAwIDAgMS40NS0uMzg4bC0uOTc4LTMuNjQ2IDEuMjkyLjIwNGEuNzUuNzUgMCAwIDAgLjc0LTEuMTZsLTMuODc0LTUuNzY0WiIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| cursorArrowRays
 -}
 cursorArrowRays : List (Attribute msg) -> Html msg
 cursorArrowRays attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M10 1a.75.75 0 0 1 .75.75v1.5a.75.75 0 0 1-1.5 0v-1.5A.75.75 0 0 1 10 1ZM5.05 3.05a.75.75 0 0 1 1.06 0l1.062 1.06A.75.75 0 1 1 6.11 5.173L5.05 4.11a.75.75 0 0 1 0-1.06ZM14.95 3.05a.75.75 0 0 1 0 1.06l-1.06 1.062a.75.75 0 0 1-1.062-1.061l1.061-1.06a.75.75 0 0 1 1.06 0ZM3 8a.75.75 0 0 1 .75-.75h1.5a.75.75 0 0 1 0 1.5h-1.5A.75.75 0 0 1 3 8ZM14 8a.75.75 0 0 1 .75-.75h1.5a.75.75 0 0 1 0 1.5h-1.5A.75.75 0 0 1 14 8ZM7.172 10.828a.75.75 0 0 1 0 1.061L6.11 12.95a.75.75 0 0 1-1.06-1.06l1.06-1.06a.75.75 0 0 1 1.06 0ZM10.766 7.51a.75.75 0 0 0-1.37.365l-.492 6.861a.75.75 0 0 0 1.204.65l1.043-.799.985 3.678a.75.75 0 0 0 1.45-.388l-.978-3.646 1.292.204a.75.75 0 0 0 .74-1.16l-3.874-5.764Z" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik02LjExMSAxMS44OUE1LjUgNS41IDAgMSAxIDE1LjUwMSA4IC43NS43NSAwIDAgMCAxNyA4YTcgNyAwIDEgMC0xMS45NSA0Ljk1Ljc1Ljc1IDAgMCAwIDEuMDYtMS4wNloiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjxwYXRoIGQ9Ik04LjIzMiA2LjIzMmEyLjUgMi41IDAgMCAwIDAgMy41MzYuNzUuNzUgMCAxIDEtMS4wNiAxLjA2QTQgNCAwIDEgMSAxNCA4YS43NS43NSAwIDAgMS0xLjUgMCAyLjUgMi41IDAgMCAwLTQuMjY4LTEuNzY4WiIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PHBhdGggZD0iTTEwLjc2NiA3LjUxYS43NS43NSAwIDAgMC0xLjM3LjM2NWwtLjQ5MiA2Ljg2MWEuNzUuNzUgMCAwIDAgMS4yMDQuNjVsMS4wNDMtLjc5OS45ODUgMy42NzhhLjc1Ljc1IDAgMCAwIDEuNDUtLjM4OGwtLjk3OC0zLjY0NiAxLjI5Mi4yMDRhLjc1Ljc1IDAgMCAwIC43NC0xLjE2bC0zLjg3NC01Ljc2NFoiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| cursorArrowRipple
 -}
 cursorArrowRipple : List (Attribute msg) -> Html msg
 cursorArrowRipple attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M6.111 11.89A5.5 5.5 0 1 1 15.501 8 .75.75 0 0 0 17 8a7 7 0 1 0-11.95 4.95.75.75 0 0 0 1.06-1.06Z" ] [], Svg.path [ d "M8.232 6.232a2.5 2.5 0 0 0 0 3.536.75.75 0 1 1-1.06 1.06A4 4 0 1 1 14 8a.75.75 0 0 1-1.5 0 2.5 2.5 0 0 0-4.268-1.768Z" ] [], Svg.path [ d "M10.766 7.51a.75.75 0 0 0-1.37.365l-.492 6.861a.75.75 0 0 0 1.204.65l1.043-.799.985 3.678a.75.75 0 0 0 1.45-.388l-.978-3.646 1.292.204a.75.75 0 0 0 .74-1.16l-3.874-5.764Z" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik04IDE2LjI1YS43NS43NSAwIDAgMSAuNzUtLjc1aDIuNWEuNzUuNzUgMCAwIDEgMCAxLjVoLTIuNWEuNzUuNzUgMCAwIDEtLjc1LS43NVoiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTQgNGEzIDMgMCAwIDEgMy0zaDZhMyAzIDAgMCAxIDMgM3YxMmEzIDMgMCAwIDEtMyAzSDdhMyAzIDAgMCAxLTMtM1Y0Wm00LTEuNXYuNzVjMCAuNDE0LjMzNi43NS43NS43NWgyLjVhLjc1Ljc1IDAgMCAwIC43NS0uNzVWMi41aDFBMS41IDEuNSAwIDAgMSAxNC41IDR2MTJhMS41IDEuNSAwIDAgMS0xLjUgMS41SDdBMS41IDEuNSAwIDAgMSA1LjUgMTZWNEExLjUgMS41IDAgMCAxIDcgMi41aDFaIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| devicePhoneMobile
 -}
 devicePhoneMobile : List (Attribute msg) -> Html msg
 devicePhoneMobile attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M8 16.25a.75.75 0 0 1 .75-.75h2.5a.75.75 0 0 1 0 1.5h-2.5a.75.75 0 0 1-.75-.75Z" ] [], Svg.path [ fillRule "evenodd", d "M4 4a3 3 0 0 1 3-3h6a3 3 0 0 1 3 3v12a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3V4Zm4-1.5v.75c0 .414.336.75.75.75h2.5a.75.75 0 0 0 .75-.75V2.5h1A1.5 1.5 0 0 1 14.5 4v12a1.5 1.5 0 0 1-1.5 1.5H7A1.5 1.5 0 0 1 5.5 16V4A1.5 1.5 0 0 1 7 2.5h1Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTUgMWEzIDMgMCAwIDAtMyAzdjEyYTMgMyAwIDAgMCAzIDNoMTBhMyAzIDAgMCAwIDMtM1Y0YTMgMyAwIDAgMC0zLTNINVpNMy41IDRBMS41IDEuNSAwIDAgMSA1IDIuNWgxMEExLjUgMS41IDAgMCAxIDE2LjUgNHYxMmExLjUgMS41IDAgMCAxLTEuNSAxLjVINUExLjUgMS41IDAgMCAxIDMuNSAxNlY0Wm01LjI1IDExLjVhLjc1Ljc1IDAgMCAwIDAgMS41aDIuNWEuNzUuNzUgMCAwIDAgMC0xLjVoLTIuNVoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| deviceTablet
 -}
 deviceTablet : List (Attribute msg) -> Html msg
 deviceTablet attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M5 1a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V4a3 3 0 0 0-3-3H5ZM3.5 4A1.5 1.5 0 0 1 5 2.5h10A1.5 1.5 0 0 1 16.5 4v12a1.5 1.5 0 0 1-1.5 1.5H5A1.5 1.5 0 0 1 3.5 16V4Zm5.25 11.5a.75.75 0 0 0 0 1.5h2.5a.75.75 0 0 0 0-1.5h-2.5Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTQuNSAyQTEuNSAxLjUgMCAwIDAgMyAzLjV2MTNBMS41IDEuNSAwIDAgMCA0LjUgMThoMTFhMS41IDEuNSAwIDAgMCAxLjUtMS41VjcuNjIxYTEuNSAxLjUgMCAwIDAtLjQ0LTEuMDZsLTQuMTItNC4xMjJBMS41IDEuNSAwIDAgMCAxMS4zNzggMkg0LjVabTQuNzUgNi43NWEuNzUuNzUgMCAwIDEgMS41IDB2Mi41NDZsLjk0My0xLjA0OGEuNzUuNzUgMCAwIDEgMS4xMTQgMS4wMDRsLTIuMjUgMi41YS43NS43NSAwIDAgMS0xLjExNCAwbC0yLjI1LTIuNWEuNzUuNzUgMCAxIDEgMS4xMTQtMS4wMDRsLjk0MyAxLjA0OFY4Ljc1WiIgY2xpcC1ydWxlPSJldmVub2RkIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| documentArrowDown
 -}
 documentArrowDown : List (Attribute msg) -> Html msg
 documentArrowDown attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M4.5 2A1.5 1.5 0 0 0 3 3.5v13A1.5 1.5 0 0 0 4.5 18h11a1.5 1.5 0 0 0 1.5-1.5V7.621a1.5 1.5 0 0 0-.44-1.06l-4.12-4.122A1.5 1.5 0 0 0 11.378 2H4.5Zm4.75 6.75a.75.75 0 0 1 1.5 0v2.546l.943-1.048a.75.75 0 0 1 1.114 1.004l-2.25 2.5a.75.75 0 0 1-1.114 0l-2.25-2.5a.75.75 0 1 1 1.114-1.004l.943 1.048V8.75Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTQuNSAyQTEuNSAxLjUgMCAwIDAgMyAzLjV2MTNBMS41IDEuNSAwIDAgMCA0LjUgMThoMTFhMS41IDEuNSAwIDAgMCAxLjUtMS41VjcuNjIxYTEuNSAxLjUgMCAwIDAtLjQ0LTEuMDZsLTQuMTItNC4xMjJBMS41IDEuNSAwIDAgMCAxMS4zNzggMkg0LjVabTQuNzUgMTEuMjVhLjc1Ljc1IDAgMCAwIDEuNSAwdi0yLjU0NmwuOTQzIDEuMDQ4YS43NS43NSAwIDEgMCAxLjExNC0xLjAwNGwtMi4yNS0yLjVhLjc1Ljc1IDAgMCAwLTEuMTE0IDBsLTIuMjUgMi41YS43NS43NSAwIDEgMCAxLjExNCAxLjAwNGwuOTQzLTEuMDQ4djIuNTQ2WiIgY2xpcC1ydWxlPSJldmVub2RkIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| documentArrowUp
 -}
 documentArrowUp : List (Attribute msg) -> Html msg
 documentArrowUp attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M4.5 2A1.5 1.5 0 0 0 3 3.5v13A1.5 1.5 0 0 0 4.5 18h11a1.5 1.5 0 0 0 1.5-1.5V7.621a1.5 1.5 0 0 0-.44-1.06l-4.12-4.122A1.5 1.5 0 0 0 11.378 2H4.5Zm4.75 11.25a.75.75 0 0 0 1.5 0v-2.546l.943 1.048a.75.75 0 1 0 1.114-1.004l-2.25-2.5a.75.75 0 0 0-1.114 0l-2.25 2.5a.75.75 0 1 0 1.114 1.004l.943-1.048v2.546Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTMgMy41QTEuNSAxLjUgMCAwIDEgNC41IDJoNi44NzlhMS41IDEuNSAwIDAgMSAxLjA2LjQ0bDQuMTIyIDQuMTJBMS41IDEuNSAwIDAgMSAxNyA3LjYyMlYxNi41YTEuNSAxLjUgMCAwIDEtMS41IDEuNWgtMTFBMS41IDEuNSAwIDAgMSAzIDE2LjV2LTEzWk0xMy4yNSA5YS43NS43NSAwIDAgMSAuNzUuNzV2NC41YS43NS43NSAwIDAgMS0xLjUgMHYtNC41YS43NS43NSAwIDAgMSAuNzUtLjc1Wm0tNi41IDRhLjc1Ljc1IDAgMCAxIC43NS43NXYuNWEuNzUuNzUgMCAwIDEtMS41IDB2LS41YS43NS43NSAwIDAgMSAuNzUtLjc1Wm00LTEuMjVhLjc1Ljc1IDAgMCAwLTEuNSAwdjIuNWEuNzUuNzUgMCAwIDAgMS41IDB2LTIuNVoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| documentChartBar
 -}
 documentChartBar : List (Attribute msg) -> Html msg
 documentChartBar attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M3 3.5A1.5 1.5 0 0 1 4.5 2h6.879a1.5 1.5 0 0 1 1.06.44l4.122 4.12A1.5 1.5 0 0 1 17 7.622V16.5a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 3 16.5v-13ZM13.25 9a.75.75 0 0 1 .75.75v4.5a.75.75 0 0 1-1.5 0v-4.5a.75.75 0 0 1 .75-.75Zm-6.5 4a.75.75 0 0 1 .75.75v.5a.75.75 0 0 1-1.5 0v-.5a.75.75 0 0 1 .75-.75Zm4-1.25a.75.75 0 0 0-1.5 0v2.5a.75.75 0 0 0 1.5 0v-2.5Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTMgMy41QTEuNSAxLjUgMCAwIDEgNC41IDJoNi44NzlhMS41IDEuNSAwIDAgMSAxLjA2LjQ0bDQuMTIyIDQuMTJBMS41IDEuNSAwIDAgMSAxNyA3LjYyMlYxNi41YTEuNSAxLjUgMCAwIDEtMS41IDEuNWgtMTFBMS41IDEuNSAwIDAgMSAzIDE2LjV2LTEzWm0xMC44NTcgNS42OTFhLjc1Ljc1IDAgMCAwLTEuMjE0LS44ODJsLTMuNDgzIDQuNzktMS44OC0xLjg4YS43NS43NSAwIDAgMC0xLjA2IDEuMDYxbDIuNSAyLjVhLjc1Ljc1IDAgMCAwIDEuMTM3LS4wODlsNC01LjVaIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| documentCheck
 -}
 documentCheck : List (Attribute msg) -> Html msg
 documentCheck attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M3 3.5A1.5 1.5 0 0 1 4.5 2h6.879a1.5 1.5 0 0 1 1.06.44l4.122 4.12A1.5 1.5 0 0 1 17 7.622V16.5a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 3 16.5v-13Zm10.857 5.691a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 0 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik03IDMuNUExLjUgMS41IDAgMCAxIDguNSAyaDMuODc5YTEuNSAxLjUgMCAwIDEgMS4wNi40NGwzLjEyMiAzLjEyQTEuNSAxLjUgMCAwIDEgMTcgNi42MjJWMTIuNWExLjUgMS41IDAgMCAxLTEuNSAxLjVoLTF2LTMuMzc5YTMgMyAwIDAgMC0uODc5LTIuMTIxTDEwLjUgNS4zNzlBMyAzIDAgMCAwIDguMzc5IDQuNUg3di0xWiIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PHBhdGggZD0iTTQuNSA2QTEuNSAxLjUgMCAwIDAgMyA3LjV2OUExLjUgMS41IDAgMCAwIDQuNSAxOGg3YTEuNSAxLjUgMCAwIDAgMS41LTEuNXYtNS44NzlhMS41IDEuNSAwIDAgMC0uNDQtMS4wNkw5LjQ0IDYuNDM5QTEuNSAxLjUgMCAwIDAgOC4zNzggNkg0LjVaIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| documentDuplicate
 -}
 documentDuplicate : List (Attribute msg) -> Html msg
 documentDuplicate attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M7 3.5A1.5 1.5 0 0 1 8.5 2h3.879a1.5 1.5 0 0 1 1.06.44l3.122 3.12A1.5 1.5 0 0 1 17 6.622V12.5a1.5 1.5 0 0 1-1.5 1.5h-1v-3.379a3 3 0 0 0-.879-2.121L10.5 5.379A3 3 0 0 0 8.379 4.5H7v-1Z" ] [], Svg.path [ d "M4.5 6A1.5 1.5 0 0 0 3 7.5v9A1.5 1.5 0 0 0 4.5 18h7a1.5 1.5 0 0 0 1.5-1.5v-5.879a1.5 1.5 0 0 0-.44-1.06L9.44 6.439A1.5 1.5 0 0 0 8.378 6H4.5Z" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik04IDEwYTEuNSAxLjUgMCAxIDEgMyAwIDEuNSAxLjUgMCAwIDEtMyAwWiIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNC41IDJBMS41IDEuNSAwIDAgMCAzIDMuNXYxM0ExLjUgMS41IDAgMCAwIDQuNSAxOGgxMWExLjUgMS41IDAgMCAwIDEuNS0xLjVWNy42MjFhMS41IDEuNSAwIDAgMC0uNDQtMS4wNmwtNC4xMi00LjEyMkExLjUgMS41IDAgMCAwIDExLjM3OCAySDQuNVptNSA1YTMgMyAwIDEgMCAxLjUyNCA1LjU4NWwxLjE5NiAxLjE5NWEuNzUuNzUgMCAxIDAgMS4wNi0xLjA2bC0xLjE5NS0xLjE5NkEzIDMgMCAwIDAgOS41IDdaIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| documentMagnifyingGlass
 -}
 documentMagnifyingGlass : List (Attribute msg) -> Html msg
 documentMagnifyingGlass attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M8 10a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0Z" ] [], Svg.path [ fillRule "evenodd", d "M4.5 2A1.5 1.5 0 0 0 3 3.5v13A1.5 1.5 0 0 0 4.5 18h11a1.5 1.5 0 0 0 1.5-1.5V7.621a1.5 1.5 0 0 0-.44-1.06l-4.12-4.122A1.5 1.5 0 0 0 11.378 2H4.5Zm5 5a3 3 0 1 0 1.524 5.585l1.196 1.195a.75.75 0 1 0 1.06-1.06l-1.195-1.196A3 3 0 0 0 9.5 7Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTQuNSAyQTEuNSAxLjUgMCAwIDAgMyAzLjV2MTNBMS41IDEuNSAwIDAgMCA0LjUgMThoMTFhMS41IDEuNSAwIDAgMCAxLjUtMS41VjcuNjIxYTEuNSAxLjUgMCAwIDAtLjQ0LTEuMDZsLTQuMTItNC4xMjJBMS41IDEuNSAwIDAgMCAxMS4zNzggMkg0LjVabTcuNzUgOS43NWEuNzUuNzUgMCAwIDAgMC0xLjVoLTQuNWEuNzUuNzUgMCAwIDAgMCAxLjVoNC41WiIgY2xpcC1ydWxlPSJldmVub2RkIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| documentMinus
 -}
 documentMinus : List (Attribute msg) -> Html msg
 documentMinus attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M4.5 2A1.5 1.5 0 0 0 3 3.5v13A1.5 1.5 0 0 0 4.5 18h11a1.5 1.5 0 0 0 1.5-1.5V7.621a1.5 1.5 0 0 0-.44-1.06l-4.12-4.122A1.5 1.5 0 0 0 11.378 2H4.5Zm7.75 9.75a.75.75 0 0 0 0-1.5h-4.5a.75.75 0 0 0 0 1.5h4.5Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTQuNSAyQTEuNSAxLjUgMCAwIDAgMyAzLjV2MTNBMS41IDEuNSAwIDAgMCA0LjUgMThoMTFhMS41IDEuNSAwIDAgMCAxLjUtMS41VjcuNjIxYTEuNSAxLjUgMCAwIDAtLjQ0LTEuMDZsLTQuMTItNC4xMjJBMS41IDEuNSAwIDAgMCAxMS4zNzggMkg0LjVaTTEwIDhhLjc1Ljc1IDAgMCAxIC43NS43NXYxLjVoMS41YS43NS43NSAwIDAgMSAwIDEuNWgtMS41djEuNWEuNzUuNzUgMCAwIDEtMS41IDB2LTEuNWgtMS41YS43NS43NSAwIDAgMSAwLTEuNWgxLjV2LTEuNUEuNzUuNzUgMCAwIDEgMTAgOFoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| documentPlus
 -}
 documentPlus : List (Attribute msg) -> Html msg
 documentPlus attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M4.5 2A1.5 1.5 0 0 0 3 3.5v13A1.5 1.5 0 0 0 4.5 18h11a1.5 1.5 0 0 0 1.5-1.5V7.621a1.5 1.5 0 0 0-.44-1.06l-4.12-4.122A1.5 1.5 0 0 0 11.378 2H4.5ZM10 8a.75.75 0 0 1 .75.75v1.5h1.5a.75.75 0 0 1 0 1.5h-1.5v1.5a.75.75 0 0 1-1.5 0v-1.5h-1.5a.75.75 0 0 1 0-1.5h1.5v-1.5A.75.75 0 0 1 10 8Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTQuNSAyQTEuNSAxLjUgMCAwIDAgMyAzLjV2MTNBMS41IDEuNSAwIDAgMCA0LjUgMThoMTFhMS41IDEuNSAwIDAgMCAxLjUtMS41VjcuNjIxYTEuNSAxLjUgMCAwIDAtLjQ0LTEuMDZsLTQuMTItNC4xMjJBMS41IDEuNSAwIDAgMCAxMS4zNzggMkg0LjVabTIuMjUgOC41YS43NS43NSAwIDAgMCAwIDEuNWg2LjVhLjc1Ljc1IDAgMCAwIDAtMS41aC02LjVabTAgM2EuNzUuNzUgMCAwIDAgMCAxLjVoNi41YS43NS43NSAwIDAgMCAwLTEuNWgtNi41WiIgY2xpcC1ydWxlPSJldmVub2RkIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| documentText
 -}
 documentText : List (Attribute msg) -> Html msg
 documentText attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M4.5 2A1.5 1.5 0 0 0 3 3.5v13A1.5 1.5 0 0 0 4.5 18h11a1.5 1.5 0 0 0 1.5-1.5V7.621a1.5 1.5 0 0 0-.44-1.06l-4.12-4.122A1.5 1.5 0 0 0 11.378 2H4.5Zm2.25 8.5a.75.75 0 0 0 0 1.5h6.5a.75.75 0 0 0 0-1.5h-6.5Zm0 3a.75.75 0 0 0 0 1.5h6.5a.75.75 0 0 0 0-1.5h-6.5Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik0zIDMuNUExLjUgMS41IDAgMCAxIDQuNSAyaDYuODc5YTEuNSAxLjUgMCAwIDEgMS4wNi40NGw0LjEyMiA0LjEyQTEuNSAxLjUgMCAwIDEgMTcgNy42MjJWMTYuNWExLjUgMS41IDAgMCAxLTEuNSAxLjVoLTExQTEuNSAxLjUgMCAwIDEgMyAxNi41di0xM1oiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| document
 -}
 document : List (Attribute msg) -> Html msg
 document attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M3 3.5A1.5 1.5 0 0 1 4.5 2h6.879a1.5 1.5 0 0 1 1.06.44l4.122 4.12A1.5 1.5 0 0 1 17 7.622V16.5a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 3 16.5v-13Z" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTIgMTBhOCA4IDAgMSAxIDE2IDAgOCA4IDAgMCAxLTE2IDBabTggMWExIDEgMCAxIDAgMC0yIDEgMSAwIDAgMCAwIDJabS0zLTFhMSAxIDAgMSAxLTIgMCAxIDEgMCAwIDEgMiAwWm03IDFhMSAxIDAgMSAwIDAtMiAxIDEgMCAwIDAgMCAyWiIgY2xpcC1ydWxlPSJldmVub2RkIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| ellipsisHorizontalCircle
 -}
 ellipsisHorizontalCircle : List (Attribute msg) -> Html msg
 ellipsisHorizontalCircle attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M2 10a8 8 0 1 1 16 0 8 8 0 0 1-16 0Zm8 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm-3-1a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm7 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik0zIDEwYTEuNSAxLjUgMCAxIDEgMyAwIDEuNSAxLjUgMCAwIDEtMyAwWk04LjUgMTBhMS41IDEuNSAwIDEgMSAzIDAgMS41IDEuNSAwIDAgMS0zIDBaTTE1LjUgOC41YTEuNSAxLjUgMCAxIDAgMCAzIDEuNSAxLjUgMCAwIDAgMC0zWiIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| ellipsisHorizontal
 -}
 ellipsisHorizontal : List (Attribute msg) -> Html msg
 ellipsisHorizontal attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M3 10a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0ZM8.5 10a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0ZM15.5 8.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3Z" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik0xMCAzYTEuNSAxLjUgMCAxIDEgMCAzIDEuNSAxLjUgMCAwIDEgMC0zWk0xMCA4LjVhMS41IDEuNSAwIDEgMSAwIDMgMS41IDEuNSAwIDAgMSAwLTNaTTExLjUgMTUuNWExLjUgMS41IDAgMSAwLTMgMCAxLjUgMS41IDAgMCAwIDMgMFoiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| ellipsisVertical
 -}
 ellipsisVertical : List (Attribute msg) -> Html msg
 ellipsisVertical attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M10 3a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3ZM10 8.5a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3ZM11.5 15.5a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0Z" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTIuMTA2IDYuNDQ3QTIgMiAwIDAgMCAxIDguMjM3VjE2YTIgMiAwIDAgMCAyIDJoMTRhMiAyIDAgMCAwIDItMlY4LjIzNmEyIDIgMCAwIDAtMS4xMDYtMS43ODlsLTctMy41YTIgMiAwIDAgMC0xLjc4OCAwbC03IDMuNVptMS40OCA0LjAwN2EuNzUuNzUgMCAwIDAtLjY3MSAxLjM0Mmw1Ljg1NSAyLjkyOGEyLjc1IDIuNzUgMCAwIDAgMi40NiAwbDUuODUyLTIuOTI3YS43NS43NSAwIDEgMC0uNjctMS4zNDFsLTUuODUzIDIuOTI2YTEuMjUgMS4yNSAwIDAgMS0xLjExOCAwbC01Ljg1Ni0yLjkyOFoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| envelopeOpen
 -}
 envelopeOpen : List (Attribute msg) -> Html msg
 envelopeOpen attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M2.106 6.447A2 2 0 0 0 1 8.237V16a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V8.236a2 2 0 0 0-1.106-1.789l-7-3.5a2 2 0 0 0-1.788 0l-7 3.5Zm1.48 4.007a.75.75 0 0 0-.671 1.342l5.855 2.928a2.75 2.75 0 0 0 2.46 0l5.852-2.927a.75.75 0 1 0-.67-1.341l-5.853 2.926a1.25 1.25 0 0 1-1.118 0l-5.856-2.928Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik0zIDRhMiAyIDAgMCAwLTIgMnYxLjE2MWw4LjQ0MSA0LjIyMWExLjI1IDEuMjUgMCAwIDAgMS4xMTggMEwxOSA3LjE2MlY2YTIgMiAwIDAgMC0yLTJIM1oiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjxwYXRoIGQ9Im0xOSA4LjgzOS03Ljc3IDMuODg1YTIuNzUgMi43NSAwIDAgMS0yLjQ2IDBMMSA4LjgzOVYxNGEyIDIgMCAwIDAgMiAyaDE0YTIgMiAwIDAgMCAyLTJWOC44MzlaIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| envelope
 -}
 envelope : List (Attribute msg) -> Html msg
 envelope attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M3 4a2 2 0 0 0-2 2v1.161l8.441 4.221a1.25 1.25 0 0 0 1.118 0L19 7.162V6a2 2 0 0 0-2-2H3Z" ] [], Svg.path [ d "m19 8.839-7.77 3.885a2.75 2.75 0 0 1-2.46 0L1 8.839V14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V8.839Z" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTE4IDEwYTggOCAwIDEgMS0xNiAwIDggOCAwIDAgMSAxNiAwWm0tOC01YS43NS43NSAwIDAgMSAuNzUuNzV2NC41YS43NS43NSAwIDAgMS0xLjUgMHYtNC41QS43NS43NSAwIDAgMSAxMCA1Wm0wIDEwYTEgMSAwIDEgMCAwLTIgMSAxIDAgMCAwIDAgMloiIGNsaXAtcnVsZT0iZXZlbm9kZCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| exclamationCircle
 -}
 exclamationCircle : List (Attribute msg) -> Html msg
 exclamationCircle attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M18 10a8 8 0 1 1-16 0 8 8 0 0 1 16 0Zm-8-5a.75.75 0 0 1 .75.75v4.5a.75.75 0 0 1-1.5 0v-4.5A.75.75 0 0 1 10 5Zm0 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTguNDg1IDIuNDk1Yy42NzMtMS4xNjcgMi4zNTctMS4xNjcgMy4wMyAwbDYuMjggMTAuODc1Yy42NzMgMS4xNjctLjE3IDIuNjI1LTEuNTE2IDIuNjI1SDMuNzJjLTEuMzQ3IDAtMi4xODktMS40NTgtMS41MTUtMi42MjVMOC40ODUgMi40OTVaTTEwIDVhLjc1Ljc1IDAgMCAxIC43NS43NXYzLjVhLjc1Ljc1IDAgMCAxLTEuNSAwdi0zLjVBLjc1Ljc1IDAgMCAxIDEwIDVabTAgOWExIDEgMCAxIDAgMC0yIDEgMSAwIDAgMCAwIDJaIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| exclamationTriangle
 -}
 exclamationTriangle : List (Attribute msg) -> Html msg
 exclamationTriangle attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M8.485 2.495c.673-1.167 2.357-1.167 3.03 0l6.28 10.875c.673 1.167-.17 2.625-1.516 2.625H3.72c-1.347 0-2.189-1.458-1.515-2.625L8.485 2.495ZM10 5a.75.75 0 0 1 .75.75v3.5a.75.75 0 0 1-1.5 0v-3.5A.75.75 0 0 1 10 5Zm0 9a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEyLjEgMy42NjdhMy41MDIgMy41MDIgMCAxIDEgNi43ODIgMS43MzggMy40ODcgMy40ODcgMCAwIDEtLjkwNyAxLjU3IDMuNDk1IDMuNDk1IDAgMCAxLTEuNjE3LjkxOUwxNiA3Ljk5VjEwYS43NS43NSAwIDAgMS0uMjIuNTNsLS4yNS4yNWEuNzUuNzUgMCAwIDEtMS4wNiAwbC0uODQ1LS44NDRMNy4yMiAxNi4zNEEyLjI1IDIuMjUgMCAwIDEgNS42MjkgMTdINS4xMmEuNzUuNzUgMCAwIDAtLjUzLjIybC0xLjU2IDEuNTZhLjc1Ljc1IDAgMCAxLTEuMDYxIDBsLS43NS0uNzVhLjc1Ljc1IDAgMCAxIDAtMS4wNmwxLjU2LTEuNTYxYS43NS43NSAwIDAgMCAuMjItLjUzdi0uNTA4YzAtLjU5Ni4yMzctMS4xNjkuNjU5LTEuNTlsNi40MDUtNi40MDYtLjg0NC0uODQ1YS43NS43NSAwIDAgMSAwLTEuMDZsLjI1LS4yNUEuNzUuNzUgMCAwIDEgMTAgNGgyLjAxbC4wOS0uMzMzWk00LjcyIDEzLjg0bDYuNDA1LTYuNDA1IDEuNDQgMS40MzktNi40MDYgNi40MDVhLjc1Ljc1IDAgMCAxLS41My4yMkg1LjEyYy0uMjU4IDAtLjUxMS4wNDQtLjc1LjEyOWEyLjI1IDIuMjUgMCAwIDAgLjEyOS0uNzV2LS41MDhhLjc1Ljc1IDAgMCAxIC4yMi0uNTNaIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| eyeDropper
 -}
 eyeDropper : List (Attribute msg) -> Html msg
 eyeDropper attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M12.1 3.667a3.502 3.502 0 1 1 6.782 1.738 3.487 3.487 0 0 1-.907 1.57 3.495 3.495 0 0 1-1.617.919L16 7.99V10a.75.75 0 0 1-.22.53l-.25.25a.75.75 0 0 1-1.06 0l-.845-.844L7.22 16.34A2.25 2.25 0 0 1 5.629 17H5.12a.75.75 0 0 0-.53.22l-1.56 1.56a.75.75 0 0 1-1.061 0l-.75-.75a.75.75 0 0 1 0-1.06l1.56-1.561a.75.75 0 0 0 .22-.53v-.508c0-.596.237-1.169.659-1.59l6.405-6.406-.844-.845a.75.75 0 0 1 0-1.06l.25-.25A.75.75 0 0 1 10 4h2.01l.09-.333ZM4.72 13.84l6.405-6.405 1.44 1.439-6.406 6.405a.75.75 0 0 1-.53.22H5.12c-.258 0-.511.044-.75.129a2.25 2.25 0 0 0 .129-.75v-.508a.75.75 0 0 1 .22-.53Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTMuMjggMi4yMmEuNzUuNzUgMCAwIDAtMS4wNiAxLjA2bDE0LjUgMTQuNWEuNzUuNzUgMCAxIDAgMS4wNi0xLjA2bC0xLjc0NS0xLjc0NWExMC4wMjkgMTAuMDI5IDAgMCAwIDMuMy00LjM4IDEuNjUxIDEuNjUxIDAgMCAwIDAtMS4xODVBMTAuMDA0IDEwLjAwNCAwIDAgMCA5Ljk5OSAzYTkuOTU2IDkuOTU2IDAgMCAwLTQuNzQ0IDEuMTk0TDMuMjggMi4yMlpNNy43NTIgNi42OWwxLjA5MiAxLjA5MmEyLjUgMi41IDAgMCAxIDMuMzc0IDMuMzczbDEuMDkxIDEuMDkyYTQgNCAwIDAgMC01LjU1Ny01LjU1N1oiIGNsaXAtcnVsZT0iZXZlbm9kZCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PHBhdGggZD0ibTEwLjc0OCAxMy45MyAyLjUyMyAyLjUyM2E5Ljk4NyA5Ljk4NyAwIDAgMS0zLjI3LjU0N2MtNC4yNTggMC03Ljg5NC0yLjY2LTkuMzM3LTYuNDFhMS42NTEgMS42NTEgMCAwIDEgMC0xLjE4NkExMC4wMDcgMTAuMDA3IDAgMCAxIDIuODM5IDYuMDJMNi4wNyA5LjI1MmE0IDQgMCAwIDAgNC42NzggNC42NzhaIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| eyeSlash
 -}
 eyeSlash : List (Attribute msg) -> Html msg
 eyeSlash attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M3.28 2.22a.75.75 0 0 0-1.06 1.06l14.5 14.5a.75.75 0 1 0 1.06-1.06l-1.745-1.745a10.029 10.029 0 0 0 3.3-4.38 1.651 1.651 0 0 0 0-1.185A10.004 10.004 0 0 0 9.999 3a9.956 9.956 0 0 0-4.744 1.194L3.28 2.22ZM7.752 6.69l1.092 1.092a2.5 2.5 0 0 1 3.374 3.373l1.091 1.092a4 4 0 0 0-5.557-5.557Z", clipRule "evenodd" ] [], Svg.path [ d "m10.748 13.93 2.523 2.523a9.987 9.987 0 0 1-3.27.547c-4.258 0-7.894-2.66-9.337-6.41a1.651 1.651 0 0 1 0-1.186A10.007 10.007 0 0 1 2.839 6.02L6.07 9.252a4 4 0 0 0 4.678 4.678Z" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik0xMCAxMi41YTIuNSAyLjUgMCAxIDAgMC01IDIuNSAyLjUgMCAwIDAgMCA1WiIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNLjY2NCAxMC41OWExLjY1MSAxLjY1MSAwIDAgMSAwLTEuMTg2QTEwLjAwNCAxMC4wMDQgMCAwIDEgMTAgM2M0LjI1NyAwIDcuODkzIDIuNjYgOS4zMzYgNi40MS4xNDcuMzgxLjE0Ni44MDQgMCAxLjE4NkExMC4wMDQgMTAuMDA0IDAgMCAxIDEwIDE3Yy00LjI1NyAwLTcuODkzLTIuNjYtOS4zMzYtNi40MVpNMTQgMTBhNCA0IDAgMSAxLTggMCA0IDQgMCAwIDEgOCAwWiIgY2xpcC1ydWxlPSJldmVub2RkIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| eye
 -}
 eye : List (Attribute msg) -> Html msg
 eye attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M10 12.5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z" ] [], Svg.path [ fillRule "evenodd", d "M.664 10.59a1.651 1.651 0 0 1 0-1.186A10.004 10.004 0 0 1 10 3c4.257 0 7.893 2.66 9.336 6.41.147.381.146.804 0 1.186A10.004 10.004 0 0 1 10 17c-4.257 0-7.893-2.66-9.336-6.41ZM14 10a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEwIDE4YTggOCAwIDEgMCAwLTE2IDggOCAwIDAgMCAwIDE2Wm0tMy41MzYtMy40NzVhLjc1Ljc1IDAgMCAwIDEuMDYxIDAgMy41IDMuNSAwIDAgMSA0Ljk1IDAgLjc1Ljc1IDAgMSAwIDEuMDYtMS4wNiA1IDUgMCAwIDAtNy4wNyAwIC43NS43NSAwIDAgMCAwIDEuMDZaTTkgOC41YzAgLjgyOC0uNDQ4IDEuNS0xIDEuNXMtMS0uNjcyLTEtMS41UzcuNDQ4IDcgOCA3czEgLjY3MiAxIDEuNVptMyAxLjVjLjU1MiAwIDEtLjY3MiAxLTEuNVMxMi41NTIgNyAxMiA3cy0xIC42NzItMSAxLjUuNDQ4IDEuNSAxIDEuNVoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| faceFrown
 -}
 faceFrown : List (Attribute msg) -> Html msg
 faceFrown attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm-3.536-3.475a.75.75 0 0 0 1.061 0 3.5 3.5 0 0 1 4.95 0 .75.75 0 1 0 1.06-1.06 5 5 0 0 0-7.07 0 .75.75 0 0 0 0 1.06ZM9 8.5c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S7.448 7 8 7s1 .672 1 1.5Zm3 1.5c.552 0 1-.672 1-1.5S12.552 7 12 7s-1 .672-1 1.5.448 1.5 1 1.5Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEwIDE4YTggOCAwIDEgMCAwLTE2IDggOCAwIDAgMCAwIDE2Wm0zLjUzNi00LjQ2NGEuNzUuNzUgMCAxIDAtMS4wNjEtMS4wNjEgMy41IDMuNSAwIDAgMS00Ljk1IDAgLjc1Ljc1IDAgMCAwLTEuMDYgMS4wNiA1IDUgMCAwIDAgNy4wNyAwWk05IDguNWMwIC44MjgtLjQ0OCAxLjUtMSAxLjVzLTEtLjY3Mi0xLTEuNVM3LjQ0OCA3IDggN3MxIC42NzIgMSAxLjVabTMgMS41Yy41NTIgMCAxLS42NzIgMS0xLjVTMTIuNTUyIDcgMTIgN3MtMSAuNjcyLTEgMS41LjQ0OCAxLjUgMSAxLjVaIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| faceSmile
 -}
 faceSmile : List (Attribute msg) -> Html msg
 faceSmile attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.536-4.464a.75.75 0 1 0-1.061-1.061 3.5 3.5 0 0 1-4.95 0 .75.75 0 0 0-1.06 1.06 5 5 0 0 0 7.07 0ZM9 8.5c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S7.448 7 8 7s1 .672 1 1.5Zm3 1.5c.552 0 1-.672 1-1.5S12.552 7 12 7s-1 .672-1 1.5.448 1.5 1 1.5Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEgNC43NUMxIDMuNzg0IDEuNzg0IDMgMi43NSAzaDE0LjVjLjk2NiAwIDEuNzUuNzg0IDEuNzUgMS43NXYxMC41MTVhMS43NSAxLjc1IDAgMCAxLTEuNzUgMS43NWgtMS41Yy0uMDc4IDAtLjE1NS0uMDA1LS4yMy0uMDE1SDQuNDhjLS4wNzUuMDEtLjE1Mi4wMTUtLjIzLjAxNWgtMS41QTEuNzUgMS43NSAwIDAgMSAxIDE1LjI2NVY0Ljc1Wm0xNi41IDcuMzg1VjExLjAxYS4yNS4yNSAwIDAgMC0uMjUtLjI1aC0xLjVhLjI1LjI1IDAgMCAwLS4yNS4yNXYxLjEyNWMwIC4xMzguMTEyLjI1LjI1LjI1aDEuNWEuMjUuMjUgMCAwIDAgLjI1LS4yNVptMCAyLjAwNWEuMjUuMjUgMCAwIDAtLjI1LS4yNWgtMS41YS4yNS4yNSAwIDAgMC0uMjUuMjV2MS4xMjVjMCAuMTA4LjA2OS4yLjE2NS4yMzVoMS41ODVhLjI1LjI1IDAgMCAwIC4yNS0uMjV2LTEuMTFabS0xNSAxLjExdi0xLjExYS4yNS4yNSAwIDAgMSAuMjUtLjI1aDEuNWEuMjUuMjUgMCAwIDEgLjI1LjI1djEuMTI1YS4yNS4yNSAwIDAgMS0uMTY0LjIzNUgyLjc1YS4yNS4yNSAwIDAgMS0uMjUtLjI1Wm0yLTQuMjR2MS4xMjVhLjI1LjI1IDAgMCAxLS4yNS4yNWgtMS41YS4yNS4yNSAwIDAgMS0uMjUtLjI1VjExLjAxYS4yNS4yNSAwIDAgMSAuMjUtLjI1aDEuNWEuMjUuMjUgMCAwIDEgLjI1LjI1Wm0xMy0yLjAwNVY3Ljg4YS4yNS4yNSAwIDAgMC0uMjUtLjI1aC0xLjVhLjI1LjI1IDAgMCAwLS4yNS4yNXYxLjEyNWMwIC4xMzguMTEyLjI1LjI1LjI1aDEuNWEuMjUuMjUgMCAwIDAgLjI1LS4yNVpNNC4yNSA3LjYzYS4yNS4yNSAwIDAgMSAuMjUuMjV2MS4xMjVhLjI1LjI1IDAgMCAxLS4yNS4yNWgtMS41YS4yNS4yNSAwIDAgMS0uMjUtLjI1VjcuODhhLjI1LjI1IDAgMCAxIC4yNS0uMjVoMS41Wm0wLTMuMTNhLjI1LjI1IDAgMCAxIC4yNS4yNXYxLjEyNWEuMjUuMjUgMCAwIDEtLjI1LjI1aC0xLjVhLjI1LjI1IDAgMCAxLS4yNS0uMjVWNC43NWEuMjUuMjUgMCAwIDEgLjI1LS4yNWgxLjVabTExLjUgMS42MjVhLjI1LjI1IDAgMCAxLS4yNS0uMjVWNC43NWEuMjUuMjUgMCAwIDEgLjI1LS4yNWgxLjVhLjI1LjI1IDAgMCAxIC4yNS4yNXYxLjEyNWEuMjUuMjUgMCAwIDEtLjI1LjI1aC0xLjVabS05IDMuMTI1YS43NS43NSAwIDAgMCAwIDEuNWg2LjVhLjc1Ljc1IDAgMCAwIDAtMS41aC02LjVaIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| film
 -}
 film : List (Attribute msg) -> Html msg
 film attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M1 4.75C1 3.784 1.784 3 2.75 3h14.5c.966 0 1.75.784 1.75 1.75v10.515a1.75 1.75 0 0 1-1.75 1.75h-1.5c-.078 0-.155-.005-.23-.015H4.48c-.075.01-.152.015-.23.015h-1.5A1.75 1.75 0 0 1 1 15.265V4.75Zm16.5 7.385V11.01a.25.25 0 0 0-.25-.25h-1.5a.25.25 0 0 0-.25.25v1.125c0 .138.112.25.25.25h1.5a.25.25 0 0 0 .25-.25Zm0 2.005a.25.25 0 0 0-.25-.25h-1.5a.25.25 0 0 0-.25.25v1.125c0 .108.069.2.165.235h1.585a.25.25 0 0 0 .25-.25v-1.11Zm-15 1.11v-1.11a.25.25 0 0 1 .25-.25h1.5a.25.25 0 0 1 .25.25v1.125a.25.25 0 0 1-.164.235H2.75a.25.25 0 0 1-.25-.25Zm2-4.24v1.125a.25.25 0 0 1-.25.25h-1.5a.25.25 0 0 1-.25-.25V11.01a.25.25 0 0 1 .25-.25h1.5a.25.25 0 0 1 .25.25Zm13-2.005V7.88a.25.25 0 0 0-.25-.25h-1.5a.25.25 0 0 0-.25.25v1.125c0 .138.112.25.25.25h1.5a.25.25 0 0 0 .25-.25ZM4.25 7.63a.25.25 0 0 1 .25.25v1.125a.25.25 0 0 1-.25.25h-1.5a.25.25 0 0 1-.25-.25V7.88a.25.25 0 0 1 .25-.25h1.5Zm0-3.13a.25.25 0 0 1 .25.25v1.125a.25.25 0 0 1-.25.25h-1.5a.25.25 0 0 1-.25-.25V4.75a.25.25 0 0 1 .25-.25h1.5Zm11.5 1.625a.25.25 0 0 1-.25-.25V4.75a.25.25 0 0 1 .25-.25h1.5a.25.25 0 0 1 .25.25v1.125a.25.25 0 0 1-.25.25h-1.5Zm-9 3.125a.75.75 0 0 0 0 1.5h6.5a.75.75 0 0 0 0-1.5h-6.5Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEwIDIuNWMtMS4zMSAwLTIuNTI2LjM4Ni0zLjU0NiAxLjA1MWEuNzUuNzUgMCAwIDEtLjgyLTEuMjU2QTggOCAwIDAgMSAxOCA5YTIyLjQ3IDIyLjQ3IDAgMCAxLTEuMjI4IDcuMzUxLjc1Ljc1IDAgMSAxLTEuNDE3LS40OUEyMC45NyAyMC45NyAwIDAgMCAxNi41IDkgNi41IDYuNSAwIDAgMCAxMCAyLjVaTTQuMzMzIDQuNDE2YS43NS43NSAwIDAgMSAuMjE4IDEuMDM4QTYuNDY2IDYuNDY2IDAgMCAwIDMuNSA5YTcuOTY2IDcuOTY2IDAgMCAxLTEuMjkzIDQuMzYyLjc1Ljc1IDAgMCAxLTEuMjU3LS44MTlBNi40NjYgNi40NjYgMCAwIDAgMiA5YzAtMS42MS40NzYtMy4xMSAxLjI5NS00LjM2NWEuNzUuNzUgMCAwIDEgMS4wMzgtLjIxOVpNMTAgNi4xMmEzIDMgMCAwIDAtMy4wMDEgMy4wNDEgMTEuNDU1IDExLjQ1NSAwIDAgMS0yLjY5NyA3LjI0Ljc1Ljc1IDAgMCAxLTEuMTQ4LS45NjVBOS45NTcgOS45NTcgMCAwIDAgNS41IDljMC0uMDI4LjAwMi0uMDU1LjAwNC0uMDgyYTQuNSA0LjUgMCAwIDEgOC45OTYuMDg0VjkuMTVsLS4wMDUuMjk3YS43NS43NSAwIDEgMS0xLjUtLjAzNGMuMDAzLS4xMS4wMDQtLjIxOS4wMDUtLjMyOGEzIDMgMCAwIDAtMy0yLjk2NVptMCAyLjEzYS43NS43NSAwIDAgMSAuNzUuNzVjMCAzLjUxLTEuMTg3IDYuNzQ1LTMuMTgxIDkuMzIzYS43NS43NSAwIDEgMS0xLjE4Ni0uOTE4QTEzLjY4NyAxMy42ODcgMCAwIDAgOS4yNSA5YS43NS43NSAwIDAgMSAuNzUtLjc1Wm0zLjUyOSAzLjY5OGEuNzUuNzUgMCAwIDEgLjU4NC44ODUgMTguODgzIDE4Ljg4MyAwIDAgMS0yLjI1NyA1Ljg0Ljc1Ljc1IDAgMSAxLTEuMjktLjc2NCAxNy4zODYgMTcuMzg2IDAgMCAwIDIuMDc4LTUuMzc3Ljc1Ljc1IDAgMCAxIC44ODUtLjU4NFoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| fingerPrint
 -}
 fingerPrint : List (Attribute msg) -> Html msg
 fingerPrint attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M10 2.5c-1.31 0-2.526.386-3.546 1.051a.75.75 0 0 1-.82-1.256A8 8 0 0 1 18 9a22.47 22.47 0 0 1-1.228 7.351.75.75 0 1 1-1.417-.49A20.97 20.97 0 0 0 16.5 9 6.5 6.5 0 0 0 10 2.5ZM4.333 4.416a.75.75 0 0 1 .218 1.038A6.466 6.466 0 0 0 3.5 9a7.966 7.966 0 0 1-1.293 4.362.75.75 0 0 1-1.257-.819A6.466 6.466 0 0 0 2 9c0-1.61.476-3.11 1.295-4.365a.75.75 0 0 1 1.038-.219ZM10 6.12a3 3 0 0 0-3.001 3.041 11.455 11.455 0 0 1-2.697 7.24.75.75 0 0 1-1.148-.965A9.957 9.957 0 0 0 5.5 9c0-.028.002-.055.004-.082a4.5 4.5 0 0 1 8.996.084V9.15l-.005.297a.75.75 0 1 1-1.5-.034c.003-.11.004-.219.005-.328a3 3 0 0 0-3-2.965Zm0 2.13a.75.75 0 0 1 .75.75c0 3.51-1.187 6.745-3.181 9.323a.75.75 0 1 1-1.186-.918A13.687 13.687 0 0 0 9.25 9a.75.75 0 0 1 .75-.75Zm3.529 3.698a.75.75 0 0 1 .584.885 18.883 18.883 0 0 1-2.257 5.84.75.75 0 1 1-1.29-.764 17.386 17.386 0 0 0 2.078-5.377.75.75 0 0 1 .885-.584Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEzLjUgNC45MzhhNyA3IDAgMSAxLTkuMDA2IDEuNzM3Yy4yMDItLjI1Ny41OS0uMjE4Ljc5My4wMzkuMjc4LjM1Mi41OTQuNjcyLjk0My45NTQuMzMyLjI2OS43ODYtLjA0OS43NzMtLjQ3NmE1Ljk3NyA1Ljk3NyAwIDAgMSAuNTcyLTIuNzU5IDYuMDI2IDYuMDI2IDAgMCAxIDIuNDg2LTIuNjY1Yy4yNDctLjE0LjU1LS4wMTYuNjc3LjIzOEE2Ljk2NyA2Ljk2NyAwIDAgMCAxMy41IDQuOTM4Wk0xNCAxMmE0IDQgMCAwIDEtNCA0Yy0xLjkxMyAwLTMuNTItMS4zOTgtMy45MS0zLjE4Mi0uMDkzLS40MjkuNDQtLjY0My44MTQtLjQxM2E0LjA0MyA0LjA0MyAwIDAgMCAxLjYwMS41NjRjLjMwMy4wMzguNTMxLS4yNC41MS0uNTQ0YTUuOTc1IDUuOTc1IDAgMCAxIDEuMzE1LTQuMTkyLjQ0Ny40NDcgMCAwIDEgLjQzMS0uMTZBNC4wMDEgNC4wMDEgMCAwIDEgMTQgMTJaIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| fire
 -}
 fire : List (Attribute msg) -> Html msg
 fire attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M13.5 4.938a7 7 0 1 1-9.006 1.737c.202-.257.59-.218.793.039.278.352.594.672.943.954.332.269.786-.049.773-.476a5.977 5.977 0 0 1 .572-2.759 6.026 6.026 0 0 1 2.486-2.665c.247-.14.55-.016.677.238A6.967 6.967 0 0 0 13.5 4.938ZM14 12a4 4 0 0 1-4 4c-1.913 0-3.52-1.398-3.91-3.182-.093-.429.44-.643.814-.413a4.043 4.043 0 0 0 1.601.564c.303.038.531-.24.51-.544a5.975 5.975 0 0 1 1.315-4.192.447.447 0 0 1 .431-.16A4.001 4.001 0 0 1 14 12Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik0zLjUgMi43NWEuNzUuNzUgMCAwIDAtMS41IDB2MTQuNWEuNzUuNzUgMCAwIDAgMS41IDB2LTQuMzkybDEuNjU3LS4zNDhhNi40NDkgNi40NDkgMCAwIDEgNC4yNzEuNTcyIDcuOTQ4IDcuOTQ4IDAgMCAwIDUuOTY1LjUyNGwyLjA3OC0uNjRBLjc1Ljc1IDAgMCAwIDE4IDEyLjI1di04LjVhLjc1Ljc1IDAgMCAwLS45MDQtLjczNGwtMi4zOC41MDFhNy4yNSA3LjI1IDAgMCAxLTQuMTg2LS4zNjNsLS41MDItLjJhOC43NSA4Ljc1IDAgMCAwLTUuMDUzLS40MzlsLTEuNDc1LjMxVjIuNzVaIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| flag
 -}
 flag : List (Attribute msg) -> Html msg
 flag attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M3.5 2.75a.75.75 0 0 0-1.5 0v14.5a.75.75 0 0 0 1.5 0v-4.392l1.657-.348a6.449 6.449 0 0 1 4.271.572 7.948 7.948 0 0 0 5.965.524l2.078-.64A.75.75 0 0 0 18 12.25v-8.5a.75.75 0 0 0-.904-.734l-2.38.501a7.25 7.25 0 0 1-4.186-.363l-.502-.2a8.75 8.75 0 0 0-5.053-.439l-1.475.31V2.75Z" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTIgNC43NUMyIDMuNzg0IDIuNzg0IDMgMy43NSAzaDQuODM2Yy40NjQgMCAuOTA5LjE4NCAxLjIzNy41MTNsMS40MTQgMS40MTRhLjI1LjI1IDAgMCAwIC4xNzcuMDczaDQuODM2Yy45NjYgMCAxLjc1Ljc4NCAxLjc1IDEuNzV2OC41QTEuNzUgMS43NSAwIDAgMSAxNi4yNSAxN0gzLjc1QTEuNzUgMS43NSAwIDAgMSAyIDE1LjI1VjQuNzVabTguNzUgNGEuNzUuNzUgMCAwIDAtMS41IDB2Mi41NDZsLS45NDMtMS4wNDhhLjc1Ljc1IDAgMSAwLTEuMTE0IDEuMDA0bDIuMjUgMi41YS43NS43NSAwIDAgMCAxLjExNCAwbDIuMjUtMi41YS43NS43NSAwIDEgMC0xLjExNC0xLjAwNGwtLjk0MyAxLjA0OFY4Ljc1WiIgY2xpcC1ydWxlPSJldmVub2RkIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| folderArrowDown
 -}
 folderArrowDown : List (Attribute msg) -> Html msg
 folderArrowDown attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M2 4.75C2 3.784 2.784 3 3.75 3h4.836c.464 0 .909.184 1.237.513l1.414 1.414a.25.25 0 0 0 .177.073h4.836c.966 0 1.75.784 1.75 1.75v8.5A1.75 1.75 0 0 1 16.25 17H3.75A1.75 1.75 0 0 1 2 15.25V4.75Zm8.75 4a.75.75 0 0 0-1.5 0v2.546l-.943-1.048a.75.75 0 1 0-1.114 1.004l2.25 2.5a.75.75 0 0 0 1.114 0l2.25-2.5a.75.75 0 1 0-1.114-1.004l-.943 1.048V8.75Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTIgNC43NUMyIDMuNzg0IDIuNzg0IDMgMy43NSAzaDQuODM2Yy40NjQgMCAuOTA5LjE4NCAxLjIzNy41MTNsMS40MTQgMS40MTRhLjI1LjI1IDAgMCAwIC4xNzcuMDczaDQuODM2Yy45NjYgMCAxLjc1Ljc4NCAxLjc1IDEuNzV2OC41QTEuNzUgMS43NSAwIDAgMSAxNi4yNSAxN0gzLjc1QTEuNzUgMS43NSAwIDAgMSAyIDE1LjI1VjQuNzVabTEwLjI1IDdhLjc1Ljc1IDAgMCAwIDAtMS41aC00LjVhLjc1Ljc1IDAgMCAwIDAgMS41aDQuNVoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| folderMinus
 -}
 folderMinus : List (Attribute msg) -> Html msg
 folderMinus attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M2 4.75C2 3.784 2.784 3 3.75 3h4.836c.464 0 .909.184 1.237.513l1.414 1.414a.25.25 0 0 0 .177.073h4.836c.966 0 1.75.784 1.75 1.75v8.5A1.75 1.75 0 0 1 16.25 17H3.75A1.75 1.75 0 0 1 2 15.25V4.75Zm10.25 7a.75.75 0 0 0 0-1.5h-4.5a.75.75 0 0 0 0 1.5h4.5Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik00Ljc1IDNBMS43NSAxLjc1IDAgMCAwIDMgNC43NXYyLjc1MmwuMTA0LS4wMDJoMTMuNzkyYy4wMzUgMCAuMDcgMCAuMTA0LjAwMlY2Ljc1QTEuNzUgMS43NSAwIDAgMCAxNS4yNSA1aC0zLjgzNmEuMjUuMjUgMCAwIDEtLjE3Ny0uMDczTDkuODIzIDMuNTEzQTEuNzUgMS43NSAwIDAgMCA4LjU4NiAzSDQuNzVaTTMuMTA0IDlhMS43NSAxLjc1IDAgMCAwLTEuNjczIDIuMjY1bDEuMzg1IDQuNUExLjc1IDEuNzUgMCAwIDAgNC40ODggMTdoMTEuMDIzYTEuNzUgMS43NSAwIDAgMCAxLjY3My0xLjIzNWwxLjM4NC00LjVBMS43NSAxLjc1IDAgMCAwIDE2Ljg5NiA5SDMuMTA0WiIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| folderOpen
 -}
 folderOpen : List (Attribute msg) -> Html msg
 folderOpen attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M4.75 3A1.75 1.75 0 0 0 3 4.75v2.752l.104-.002h13.792c.035 0 .07 0 .104.002V6.75A1.75 1.75 0 0 0 15.25 5h-3.836a.25.25 0 0 1-.177-.073L9.823 3.513A1.75 1.75 0 0 0 8.586 3H4.75ZM3.104 9a1.75 1.75 0 0 0-1.673 2.265l1.385 4.5A1.75 1.75 0 0 0 4.488 17h11.023a1.75 1.75 0 0 0 1.673-1.235l1.384-4.5A1.75 1.75 0 0 0 16.896 9H3.104Z" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTMuNzUgM0ExLjc1IDEuNzUgMCAwIDAgMiA0Ljc1djEwLjVjMCAuOTY2Ljc4NCAxLjc1IDEuNzUgMS43NWgxMi41QTEuNzUgMS43NSAwIDAgMCAxOCAxNS4yNXYtOC41QTEuNzUgMS43NSAwIDAgMCAxNi4yNSA1aC00LjgzNmEuMjUuMjUgMCAwIDEtLjE3Ny0uMDczTDkuODIzIDMuNTEzQTEuNzUgMS43NSAwIDAgMCA4LjU4NiAzSDMuNzVaTTEwIDhhLjc1Ljc1IDAgMCAxIC43NS43NXYxLjVoMS41YS43NS43NSAwIDAgMSAwIDEuNWgtMS41djEuNWEuNzUuNzUgMCAwIDEtMS41IDB2LTEuNWgtMS41YS43NS43NSAwIDAgMSAwLTEuNWgxLjV2LTEuNUEuNzUuNzUgMCAwIDEgMTAgOFoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| folderPlus
 -}
 folderPlus : List (Attribute msg) -> Html msg
 folderPlus attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M3.75 3A1.75 1.75 0 0 0 2 4.75v10.5c0 .966.784 1.75 1.75 1.75h12.5A1.75 1.75 0 0 0 18 15.25v-8.5A1.75 1.75 0 0 0 16.25 5h-4.836a.25.25 0 0 1-.177-.073L9.823 3.513A1.75 1.75 0 0 0 8.586 3H3.75ZM10 8a.75.75 0 0 1 .75.75v1.5h1.5a.75.75 0 0 1 0 1.5h-1.5v1.5a.75.75 0 0 1-1.5 0v-1.5h-1.5a.75.75 0 0 1 0-1.5h1.5v-1.5A.75.75 0 0 1 10 8Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik0zLjc1IDNBMS43NSAxLjc1IDAgMCAwIDIgNC43NXYzLjI2YTMuMjM1IDMuMjM1IDAgMCAxIDEuNzUtLjUxaDEyLjVjLjY0NCAwIDEuMjQ1LjE4OCAxLjc1LjUxVjYuNzVBMS43NSAxLjc1IDAgMCAwIDE2LjI1IDVoLTQuODM2YS4yNS4yNSAwIDAgMS0uMTc3LS4wNzNMOS44MjMgMy41MTNBMS43NSAxLjc1IDAgMCAwIDguNTg2IDNIMy43NVpNMy43NSA5QTEuNzUgMS43NSAwIDAgMCAyIDEwLjc1djQuNWMwIC45NjYuNzg0IDEuNzUgMS43NSAxLjc1aDEyLjVBMS43NSAxLjc1IDAgMCAwIDE4IDE1LjI1di00LjVBMS43NSAxLjc1IDAgMCAwIDE2LjI1IDlIMy43NVoiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| folder
 -}
 folder : List (Attribute msg) -> Html msg
 folder attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M3.75 3A1.75 1.75 0 0 0 2 4.75v3.26a3.235 3.235 0 0 1 1.75-.51h12.5c.644 0 1.245.188 1.75.51V6.75A1.75 1.75 0 0 0 16.25 5h-4.836a.25.25 0 0 1-.177-.073L9.823 3.513A1.75 1.75 0 0 0 8.586 3H3.75ZM3.75 9A1.75 1.75 0 0 0 2 10.75v4.5c0 .966.784 1.75 1.75 1.75h12.5A1.75 1.75 0 0 0 18 15.25v-4.5A1.75 1.75 0 0 0 16.25 9H3.75Z" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik0zLjI4OCA0LjgxOEExLjUgMS41IDAgMCAwIDEgNi4wOTV2Ny44MWExLjUgMS41IDAgMCAwIDIuMjg4IDEuMjc2bDYuMzIzLTMuOTA1Yy4xNTUtLjA5Ni4yODUtLjIxMy4zODktLjM0NHYyLjk3M2ExLjUgMS41IDAgMCAwIDIuMjg4IDEuMjc2bDYuMzIzLTMuOTA1YTEuNSAxLjUgMCAwIDAgMC0yLjU1MmwtNi4zMjMtMy45MDZBMS41IDEuNSAwIDAgMCAxMCA2LjA5NXYyLjk3MmExLjUwNiAxLjUwNiAwIDAgMC0uMzg5LS4zNDNMMy4yODggNC44MThaIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| forward
 -}
 forward : List (Attribute msg) -> Html msg
 forward attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M3.288 4.818A1.5 1.5 0 0 0 1 6.095v7.81a1.5 1.5 0 0 0 2.288 1.276l6.323-3.905c.155-.096.285-.213.389-.344v2.973a1.5 1.5 0 0 0 2.288 1.276l6.323-3.905a1.5 1.5 0 0 0 0-2.552l-6.323-3.906A1.5 1.5 0 0 0 10 6.095v2.972a1.506 1.506 0 0 0-.389-.343L3.288 4.818Z" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTIuNjI4IDEuNjAxQzUuMDI4IDEuMjA2IDcuNDkgMSAxMCAxczQuOTczLjIwNiA3LjM3Mi42MDFhLjc1Ljc1IDAgMCAxIC42MjguNzR2Mi4yODhhMi4yNSAyLjI1IDAgMCAxLS42NTkgMS41OWwtNC42ODIgNC42ODNhMi4yNSAyLjI1IDAgMCAwLS42NTkgMS41OXYzLjAzN2MwIC42ODQtLjMxIDEuMzMtLjg0NCAxLjc1N2wtMS45MzcgMS41NUEuNzUuNzUgMCAwIDEgOCAxOC4yNXYtNS43NTdhMi4yNSAyLjI1IDAgMCAwLS42NTktMS41OTFMMi42NTkgNi4yMkEyLjI1IDIuMjUgMCAwIDEgMiA0LjYyOVYyLjM0YS43NS43NSAwIDAgMSAuNjI4LS43NFoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| funnel
 -}
 funnel : List (Attribute msg) -> Html msg
 funnel attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M2.628 1.601C5.028 1.206 7.49 1 10 1s4.973.206 7.372.601a.75.75 0 0 1 .628.74v2.288a2.25 2.25 0 0 1-.659 1.59l-4.682 4.683a2.25 2.25 0 0 0-.659 1.59v3.037c0 .684-.31 1.33-.844 1.757l-1.937 1.55A.75.75 0 0 1 8 18.25v-5.757a2.25 2.25 0 0 0-.659-1.591L2.659 6.22A2.25 2.25 0 0 1 2 4.629V2.34a.75.75 0 0 1 .628-.74Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEgNS4yNUEyLjI1IDIuMjUgMCAwIDEgMy4yNSAzaDEzLjVBMi4yNSAyLjI1IDAgMCAxIDE5IDUuMjV2OS41QTIuMjUgMi4yNSAwIDAgMSAxNi43NSAxN0gzLjI1QTIuMjUgMi4yNSAwIDAgMSAxIDE0Ljc1di05LjVabTQuMDI2IDIuODc5QzUuMzU2IDcuNjUgNS43MiA3LjUgNiA3LjVzLjY0My4xNS45NzQuNjI5YS43NS43NSAwIDAgMCAxLjIzNC0uODU0QzcuNjYgNi40ODQgNi44NzMgNiA2IDZjLS44NzMgMC0xLjY2LjQ4NC0yLjIwOCAxLjI3NUMzLjI1IDguMDU5IDMgOS4wNDggMyAxMGMwIC45NTIuMjUgMS45NDEuNzkyIDIuNzI1QzQuMzQgMTMuNTE2IDUuMTI3IDE0IDYgMTRjLjg3MyAwIDEuNjYtLjQ4NCAyLjIwOC0xLjI3NWEuNzUuNzUgMCAwIDAgLjEzMy0uNDI3VjEwYS43NS43NSAwIDAgMC0uNzUtLjc1SDYuMjVhLjc1Ljc1IDAgMCAwIDAgMS41aC41OTF2MS4yOTVjLS4yOTMuMzQyLS42LjQ1NS0uODQxLjQ1NS0uMjc5IDAtLjY0My0uMTUtLjk3NC0uNjI5QzQuNjkgMTEuMzg2IDQuNSAxMC43MTEgNC41IDEwYzAtLjcxMS4xOS0xLjM4Ni41MjYtMS44NzFaTTEwLjc1IDZhLjc1Ljc1IDAgMCAxIC43NS43NXY2LjVhLjc1Ljc1IDAgMCAxLTEuNSAwdi02LjVhLjc1Ljc1IDAgMCAxIC43NS0uNzVabTMgMGgyLjVhLjc1Ljc1IDAgMCAxIDAgMS41SDE0LjV2MS43NWguNzVhLjc1Ljc1IDAgMCAxIDAgMS41aC0uNzV2Mi41YS43NS43NSAwIDAgMS0xLjUgMHYtNi41YS43NS43NSAwIDAgMSAuNzUtLjc1WiIgY2xpcC1ydWxlPSJldmVub2RkIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| gif
 -}
 gif : List (Attribute msg) -> Html msg
 gif attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M1 5.25A2.25 2.25 0 0 1 3.25 3h13.5A2.25 2.25 0 0 1 19 5.25v9.5A2.25 2.25 0 0 1 16.75 17H3.25A2.25 2.25 0 0 1 1 14.75v-9.5Zm4.026 2.879C5.356 7.65 5.72 7.5 6 7.5s.643.15.974.629a.75.75 0 0 0 1.234-.854C7.66 6.484 6.873 6 6 6c-.873 0-1.66.484-2.208 1.275C3.25 8.059 3 9.048 3 10c0 .952.25 1.941.792 2.725C4.34 13.516 5.127 14 6 14c.873 0 1.66-.484 2.208-1.275a.75.75 0 0 0 .133-.427V10a.75.75 0 0 0-.75-.75H6.25a.75.75 0 0 0 0 1.5h.591v1.295c-.293.342-.6.455-.841.455-.279 0-.643-.15-.974-.629C4.69 11.386 4.5 10.711 4.5 10c0-.711.19-1.386.526-1.871ZM10.75 6a.75.75 0 0 1 .75.75v6.5a.75.75 0 0 1-1.5 0v-6.5a.75.75 0 0 1 .75-.75Zm3 0h2.5a.75.75 0 0 1 0 1.5H14.5v1.75h.75a.75.75 0 0 1 0 1.5h-.75v2.5a.75.75 0 0 1-1.5 0v-6.5a.75.75 0 0 1 .75-.75Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTkuMjUgM0gzLjVBMS41IDEuNSAwIDAgMCAyIDQuNXY0Ljc1aDMuMzY1QTIuNzUgMi43NSAwIDAgMSA5LjI1IDUuMzYyVjNaTTIgMTAuNzV2NC43NUExLjUgMS41IDAgMCAwIDMuNSAxN2g1Ljc1di00Ljg3NkE0Ljc1IDQuNzUgMCAwIDEgNSAxNC43NWEuNzUuNzUgMCAwIDEgMC0xLjUgMy4yNTEgMy4yNTEgMCAwIDAgMy4xNjMtMi41SDJaTTEwLjc1IDE3aDUuNzVhMS41IDEuNSAwIDAgMCAxLjUtMS41di00Ljc1aC02LjE2M0EzLjI1MSAzLjI1MSAwIDAgMCAxNSAxMy4yNWEuNzUuNzUgMCAwIDEgMCAxLjUgNC43NSA0Ljc1IDAgMCAxLTQuMjUtMi42MjZWMTdaTTE4IDkuMjVWNC41QTEuNSAxLjUgMCAwIDAgMTYuNSAzaC01Ljc1djIuMzYyYTIuNzUgMi43NSAwIDAgMSAzLjg4NSAzLjg4OEgxOFptLTQuNDk2LTIuNzU1YTEuMjUgMS4yNSAwIDAgMC0xLjc2OCAwYy0uMzYuMzU5LS41MjYuOTk5LS41NTkgMS42OTctLjAxLjIyOC0uMDA2LjQ0My4wMDQuNjI2LjE4My4wMS4zOTguMDE0LjYyNi4wMDMuNjk4LS4wMzMgMS4zMzgtLjIgMS42OTctLjU1OWExLjI1IDEuMjUgMCAwIDAgMC0xLjc2N1ptLTUuMjQgMGExLjI1IDEuMjUgMCAwIDAtMS43NjggMS43NjdjLjM2LjM2IDEgLjUyNiAxLjY5Ny41Ni4yMjguMDEuNDQzLjAwNi42MjYtLjAwNC4wMS0uMTgzLjAxNS0uMzk4LjAwNC0uNjI2LS4wMzMtLjY5OC0uMi0xLjMzOC0uNTYtMS42OTdaIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| giftTop
 -}
 giftTop : List (Attribute msg) -> Html msg
 giftTop attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M9.25 3H3.5A1.5 1.5 0 0 0 2 4.5v4.75h3.365A2.75 2.75 0 0 1 9.25 5.362V3ZM2 10.75v4.75A1.5 1.5 0 0 0 3.5 17h5.75v-4.876A4.75 4.75 0 0 1 5 14.75a.75.75 0 0 1 0-1.5 3.251 3.251 0 0 0 3.163-2.5H2ZM10.75 17h5.75a1.5 1.5 0 0 0 1.5-1.5v-4.75h-6.163A3.251 3.251 0 0 0 15 13.25a.75.75 0 0 1 0 1.5 4.75 4.75 0 0 1-4.25-2.626V17ZM18 9.25V4.5A1.5 1.5 0 0 0 16.5 3h-5.75v2.362a2.75 2.75 0 0 1 3.885 3.888H18Zm-4.496-2.755a1.25 1.25 0 0 0-1.768 0c-.36.359-.526.999-.559 1.697-.01.228-.006.443.004.626.183.01.398.014.626.003.698-.033 1.338-.2 1.697-.559a1.25 1.25 0 0 0 0-1.767Zm-5.24 0a1.25 1.25 0 0 0-1.768 1.767c.36.36 1 .526 1.697.56.228.01.443.006.626-.004.01-.183.015-.398.004-.626-.033-.698-.2-1.338-.56-1.697Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTE0IDZhMi41IDIuNSAwIDAgMC00LTMgMi41IDIuNSAwIDAgMC00IDNIMy4yNUMyLjU2IDYgMiA2LjU2IDIgNy4yNXYuNUMyIDguNDQgMi41NiA5IDMuMjUgOWg2VjZoMS41djNoNkMxNy40NCA5IDE4IDguNDQgMTggNy43NXYtLjVDMTggNi41NiAxNy40NCA2IDE2Ljc1IDZIMTRabS0xLTEuNWExIDEgMCAwIDEtMSAxaC0xdi0xYTEgMSAwIDEgMSAyIDBabS02IDBhMSAxIDAgMCAwIDEgMWgxdi0xYTEgMSAwIDAgMC0yIDBaIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjxwYXRoIGQ9Ik05LjI1IDEwLjVIM3Y0Ljc1QTIuNzUgMi43NSAwIDAgMCA1Ljc1IDE4aDMuNXYtNy41Wk0xMC43NSAxOHYtNy41SDE3djQuNzVBMi43NSAyLjc1IDAgMCAxIDE0LjI1IDE4aC0zLjVaIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| gift
 -}
 gift : List (Attribute msg) -> Html msg
 gift attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M14 6a2.5 2.5 0 0 0-4-3 2.5 2.5 0 0 0-4 3H3.25C2.56 6 2 6.56 2 7.25v.5C2 8.44 2.56 9 3.25 9h6V6h1.5v3h6C17.44 9 18 8.44 18 7.75v-.5C18 6.56 17.44 6 16.75 6H14Zm-1-1.5a1 1 0 0 1-1 1h-1v-1a1 1 0 1 1 2 0Zm-6 0a1 1 0 0 0 1 1h1v-1a1 1 0 0 0-2 0Z", clipRule "evenodd" ] [], Svg.path [ d "M9.25 10.5H3v4.75A2.75 2.75 0 0 0 5.75 18h3.5v-7.5ZM10.75 18v-7.5H17v4.75A2.75 2.75 0 0 1 14.25 18h-3.5Z" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik0xNi41NTUgNS40MTJhOC4wMjggOC4wMjggMCAwIDAtMy41MDMtMi44MSAxNC44OTkgMTQuODk5IDAgMCAxIDEuNjYzIDQuNDcyIDguNTQ3IDguNTQ3IDAgMCAwIDEuODQtMS42NjJaTTEzLjMyNiA3LjgyNWExMy40MyAxMy40MyAwIDAgMC0yLjQxMy01Ljc3MyA4LjA4NyA4LjA4NyAwIDAgMC0xLjgyNiAwIDEzLjQzIDEzLjQzIDAgMCAwLTIuNDEzIDUuNzczQTguNDczIDguNDczIDAgMCAwIDEwIDguNWMxLjE4IDAgMi4zMDQtLjI0IDMuMzI2LS42NzVaTTYuNTE0IDkuMzc2QTkuOTggOS45OCAwIDAgMCAxMCAxMGMxLjIyNiAwIDIuNC0uMjIgMy40ODYtLjYyNGExMy41NCAxMy41NCAwIDAgMS0uMzUxIDMuNzU5QTEzLjU0IDEzLjU0IDAgMCAxIDEwIDEzLjVjLTEuMDc5IDAtMi4xMjgtLjEyNy0zLjEzNC0uMzY2YTEzLjUzOCAxMy41MzggMCAwIDEtLjM1Mi0zLjc1OFpNNS4yODUgNy4wNzRhMTQuOSAxNC45IDAgMCAxIDEuNjYzLTQuNDcxIDguMDI4IDguMDI4IDAgMCAwLTMuNTAzIDIuODFjLjUyOS42MzggMS4xNDkgMS4xOTkgMS44NCAxLjY2Wk0xNy4zMzQgNi43OThhNy45NzMgNy45NzMgMCAwIDEgLjYxNCA0LjExNSAxMy40NyAxMy40NyAwIDAgMS0zLjE3OCAxLjcyIDE1LjA5MyAxNS4wOTMgMCAwIDAgLjE3NC0zLjkzOSAxMC4wNDMgMTAuMDQzIDAgMCAwIDIuMzktMS44OTZaTTIuNjY2IDYuNzk4YTEwLjA0MiAxMC4wNDIgMCAwIDAgMi4zOSAxLjg5NiAxNS4xOTYgMTUuMTk2IDAgMCAwIC4xNzQgMy45NCAxMy40NzIgMTMuNDcyIDAgMCAxLTMuMTc4LTEuNzIgNy45NzMgNy45NzMgMCAwIDEgLjYxNS00LjExNVpNMTAgMTVjLjg5OCAwIDEuNzc4LS4wNzkgMi42MzMtLjIzYTEzLjQ3MyAxMy40NzMgMCAwIDEtMS43MiAzLjE3OCA4LjA5OSA4LjA5OSAwIDAgMS0xLjgyNiAwIDEzLjQ3IDEzLjQ3IDAgMCAxLTEuNzItMy4xNzhjLjg1NS4xNTEgMS43MzUuMjMgMi42MzMuMjNaTTE0LjM1NyAxNC4zNTdhMTQuOTEyIDE0LjkxMiAwIDAgMS0xLjMwNSAzLjA0IDguMDI3IDguMDI3IDAgMCAwIDQuMzQ1LTQuMzQ1Yy0uOTUzLjU0Mi0xLjk3MS45ODEtMy4wNCAxLjMwNVpNNi45NDggMTcuMzk3YTguMDI3IDguMDI3IDAgMCAxLTQuMzQ1LTQuMzQ1Yy45NTMuNTQyIDEuOTcxLjk4MSAzLjA0IDEuMzA1YTE0LjkxMiAxNC45MTIgMCAwIDAgMS4zMDUgMy4wNFoiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| globeAlt
 -}
 globeAlt : List (Attribute msg) -> Html msg
 globeAlt attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M16.555 5.412a8.028 8.028 0 0 0-3.503-2.81 14.899 14.899 0 0 1 1.663 4.472 8.547 8.547 0 0 0 1.84-1.662ZM13.326 7.825a13.43 13.43 0 0 0-2.413-5.773 8.087 8.087 0 0 0-1.826 0 13.43 13.43 0 0 0-2.413 5.773A8.473 8.473 0 0 0 10 8.5c1.18 0 2.304-.24 3.326-.675ZM6.514 9.376A9.98 9.98 0 0 0 10 10c1.226 0 2.4-.22 3.486-.624a13.54 13.54 0 0 1-.351 3.759A13.54 13.54 0 0 1 10 13.5c-1.079 0-2.128-.127-3.134-.366a13.538 13.538 0 0 1-.352-3.758ZM5.285 7.074a14.9 14.9 0 0 1 1.663-4.471 8.028 8.028 0 0 0-3.503 2.81c.529.638 1.149 1.199 1.84 1.66ZM17.334 6.798a7.973 7.973 0 0 1 .614 4.115 13.47 13.47 0 0 1-3.178 1.72 15.093 15.093 0 0 0 .174-3.939 10.043 10.043 0 0 0 2.39-1.896ZM2.666 6.798a10.042 10.042 0 0 0 2.39 1.896 15.196 15.196 0 0 0 .174 3.94 13.472 13.472 0 0 1-3.178-1.72 7.973 7.973 0 0 1 .615-4.115ZM10 15c.898 0 1.778-.079 2.633-.23a13.473 13.473 0 0 1-1.72 3.178 8.099 8.099 0 0 1-1.826 0 13.47 13.47 0 0 1-1.72-3.178c.855.151 1.735.23 2.633.23ZM14.357 14.357a14.912 14.912 0 0 1-1.305 3.04 8.027 8.027 0 0 0 4.345-4.345c-.953.542-1.971.981-3.04 1.305ZM6.948 17.397a8.027 8.027 0 0 1-4.345-4.345c.953.542 1.971.981 3.04 1.305a14.912 14.912 0 0 0 1.305 3.04Z" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTE4IDEwYTggOCAwIDEgMS0xNiAwIDggOCAwIDAgMSAxNiAwWm0tMS41IDBhNi41IDYuNSAwIDEgMS0xMS00LjY5di40NDdhMy41IDMuNSAwIDAgMCAxLjAyNSAyLjQ3NUw4LjI5MyAxMCA4IDEwLjI5M2ExIDEgMCAwIDAgMCAxLjQxNGwxLjA2IDEuMDZhMS41IDEuNSAwIDAgMSAuNDQgMS4wNjF2LjM2M2ExIDEgMCAwIDAgLjU1My44OTRsLjI3Ni4xMzlhMSAxIDAgMCAwIDEuMzQyLS40NDhsMS40NTQtMi45MDhhMS41IDEuNSAwIDAgMC0uMjgxLTEuNzMxbC0uNzcyLS43NzJhMSAxIDAgMCAwLTEuMDIzLS4yNDJsLS4zODQuMTI4YS41LjUgMCAwIDEtLjYwNi0uMjVsLS4yOTYtLjU5MmEuNDgxLjQ4MSAwIDAgMSAuNjQ2LS42NDZsLjI2Mi4xMzFhMSAxIDAgMCAwIC40NDcuMTA2aC4xODhhMSAxIDAgMCAwIC45NDktMS4zMTZsLS4wNjgtLjIwNGEuNS41IDAgMCAxIC4xNDktLjUzOGwxLjQ0LTEuMjM0QTYuNDkyIDYuNDkyIDAgMCAxIDE2LjUgMTBaIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| globeAmericas
 -}
 globeAmericas : List (Attribute msg) -> Html msg
 globeAmericas attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M18 10a8 8 0 1 1-16 0 8 8 0 0 1 16 0Zm-1.5 0a6.5 6.5 0 1 1-11-4.69v.447a3.5 3.5 0 0 0 1.025 2.475L8.293 10 8 10.293a1 1 0 0 0 0 1.414l1.06 1.06a1.5 1.5 0 0 1 .44 1.061v.363a1 1 0 0 0 .553.894l.276.139a1 1 0 0 0 1.342-.448l1.454-2.908a1.5 1.5 0 0 0-.281-1.731l-.772-.772a1 1 0 0 0-1.023-.242l-.384.128a.5.5 0 0 1-.606-.25l-.296-.592a.481.481 0 0 1 .646-.646l.262.131a1 1 0 0 0 .447.106h.188a1 1 0 0 0 .949-1.316l-.068-.204a.5.5 0 0 1 .149-.538l1.44-1.234A6.492 6.492 0 0 1 16.5 10Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTE4IDEwYTggOCAwIDEgMS0xNiAwIDggOCAwIDAgMSAxNiAwWm0tNi41IDYuMzI2YTYuNTIgNi41MiAwIDAgMS0xLjUuMTc0IDYuNDg3IDYuNDg3IDAgMCAxLTUuMDExLTIuMzZsLjQ5LS45OGEuNDIzLjQyMyAwIDAgMSAuNjE0LS4xNjRsLjI5NC4xOTZhLjk5Mi45OTIgMCAwIDAgMS40OTEtMS4xMzlsLS4xOTctLjU5M2EuMjUyLjI1MiAwIDAgMSAuMTI2LS4zMDRsMS45NzMtLjk4N2EuOTM4LjkzOCAwIDAgMCAuMzYxLTEuMzU5LjM3NS4zNzUgMCAwIDEgLjIzOS0uNTc2bC4xMjUtLjAyNUEyLjQyMSAyLjQyMSAwIDAgMCAxMi4zMjcgNi42bC4wNS0uMTQ5YTEgMSAwIDAgMC0uMjQyLTEuMDIzbC0xLjQ4OS0xLjQ4OWEuNS41IDAgMCAxLS4xNDYtLjM1M3YtLjA2N2E2LjUgNi41IDAgMCAxIDUuMzkyIDkuMjMgMS4zOTggMS4zOTggMCAwIDAtLjY4LS4yNDRsLS41NjYtLjU2NmExLjUgMS41IDAgMCAwLTEuMDYtLjQzOWgtLjE3MmExLjUgMS41IDAgMCAwLTEuMDYuNDRsLS41OTMuNTkyYS41MDEuNTAxIDAgMCAxLS4xMy4wOTNsLTEuNTc4Ljc5YTEgMSAwIDAgMC0uNTUzLjg5NHYuMTkxYTEgMSAwIDAgMCAxIDFoLjVhLjUuNSAwIDAgMSAuNS41di4zMjZaIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| globeAsiaAustralia
 -}
 globeAsiaAustralia : List (Attribute msg) -> Html msg
 globeAsiaAustralia attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M18 10a8 8 0 1 1-16 0 8 8 0 0 1 16 0Zm-6.5 6.326a6.52 6.52 0 0 1-1.5.174 6.487 6.487 0 0 1-5.011-2.36l.49-.98a.423.423 0 0 1 .614-.164l.294.196a.992.992 0 0 0 1.491-1.139l-.197-.593a.252.252 0 0 1 .126-.304l1.973-.987a.938.938 0 0 0 .361-1.359.375.375 0 0 1 .239-.576l.125-.025A2.421 2.421 0 0 0 12.327 6.6l.05-.149a1 1 0 0 0-.242-1.023l-1.489-1.489a.5.5 0 0 1-.146-.353v-.067a6.5 6.5 0 0 1 5.392 9.23 1.398 1.398 0 0 0-.68-.244l-.566-.566a1.5 1.5 0 0 0-1.06-.439h-.172a1.5 1.5 0 0 0-1.06.44l-.593.592a.501.501 0 0 1-.13.093l-1.578.79a1 1 0 0 0-.553.894v.191a1 1 0 0 0 1 1h.5a.5.5 0 0 1 .5.5v.326Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTE4IDEwYTggOCAwIDEgMS0xNiAwIDggOCAwIDAgMSAxNiAwWm0tMS41MDMuMjA0QTYuNSA2LjUgMCAxIDEgNy45NSAzLjgzTDYuOTI3IDUuNjJhMS40NTMgMS40NTMgMCAwIDAgMS45MSAyLjAybC4xNzUtLjA4N2EuNS41IDAgMCAxIC4yMjQtLjA1M2guMTQ2YS41LjUgMCAwIDEgLjQ0Ny43MjRsLS4wMjguMDU1YS40LjQgMCAwIDEtLjM1Ny4yMjFoLS41MDJhMi4yNiAyLjI2IDAgMCAwLTEuODggMS4wMDZsLS4wNDQuMDY2YTIuMDk5IDIuMDk5IDAgMCAwIDEuMDg1IDMuMTU2LjU4LjU4IDAgMCAxIC4zOTcuNTQ3djEuMDVhMS4xNzUgMS4xNzUgMCAwIDAgMi4wOTMuNzM0bDEuNjExLTIuMDE0Yy4xOTItLjI0LjI5Ni0uNTM2LjI5Ni0uODQyIDAtLjMxNi4xMjgtLjYyNC4zNTMtLjg1YTEuMzYzIDEuMzYzIDAgMCAwIC4xNzMtMS43MTZsLS40NjQtLjY5NmEuMzY5LjM2OSAwIDAgMSAuNTI3LS40OTlsLjM0My4yNTdjLjMxNi4yMzcuNzM4LjI3NSAxLjA5MS4wOThhLjU4Ni41ODYgMCAwIDEgLjY3Ny4xMWwxLjI5NyAxLjI5N1oiIGNsaXAtcnVsZT0iZXZlbm9kZCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| globeEuropeAfrica
 -}
 globeEuropeAfrica : List (Attribute msg) -> Html msg
 globeEuropeAfrica attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M18 10a8 8 0 1 1-16 0 8 8 0 0 1 16 0Zm-1.503.204A6.5 6.5 0 1 1 7.95 3.83L6.927 5.62a1.453 1.453 0 0 0 1.91 2.02l.175-.087a.5.5 0 0 1 .224-.053h.146a.5.5 0 0 1 .447.724l-.028.055a.4.4 0 0 1-.357.221h-.502a2.26 2.26 0 0 0-1.88 1.006l-.044.066a2.099 2.099 0 0 0 1.085 3.156.58.58 0 0 1 .397.547v1.05a1.175 1.175 0 0 0 2.093.734l1.611-2.014c.192-.24.296-.536.296-.842 0-.316.128-.624.353-.85a1.363 1.363 0 0 0 .173-1.716l-.464-.696a.369.369 0 0 1 .527-.499l.343.257c.316.237.738.275 1.091.098a.586.586 0 0 1 .677.11l1.297 1.297Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTExIDJhMSAxIDAgMSAwLTIgMHY2LjVhLjUuNSAwIDAgMS0xIDBWM2ExIDEgMCAxIDAtMiAwdjUuNWEuNS41IDAgMCAxLTEgMFY1YTEgMSAwIDEgMC0yIDB2N2E3IDcgMCAxIDAgMTQgMFY4YTEgMSAwIDEgMC0yIDB2My41YS41LjUgMCAwIDEtMSAwVjNhMSAxIDAgMSAwLTIgMHY1LjVhLjUuNSAwIDAgMS0xIDBWMloiIGNsaXAtcnVsZT0iZXZlbm9kZCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| handRaised
 -}
 handRaised : List (Attribute msg) -> Html msg
 handRaised attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M11 2a1 1 0 1 0-2 0v6.5a.5.5 0 0 1-1 0V3a1 1 0 1 0-2 0v5.5a.5.5 0 0 1-1 0V5a1 1 0 1 0-2 0v7a7 7 0 1 0 14 0V8a1 1 0 1 0-2 0v3.5a.5.5 0 0 1-1 0V3a1 1 0 1 0-2 0v5.5a.5.5 0 0 1-1 0V2Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik0xOC45MDUgMTIuNzVhMS4yNSAxLjI1IDAgMSAxLTIuNSAwdi03LjVhMS4yNSAxLjI1IDAgMCAxIDIuNSAwdjcuNVpNOC45MDUgMTd2MS4zYzAgLjI2OC0uMTQuNTI2LS4zOTUuNjA3QTIgMiAwIDAgMSA1LjkwNSAxN2MwLS45OTUuMTgyLTEuOTQ4LjUxNC0yLjgyNi4yMDQtLjU0LS4xNjYtMS4xNzQtLjc0NC0xLjE3NGgtMi41MmMtMS4yNDMgMC0yLjI2MS0xLjAxLTIuMTQ2LTIuMjQ3LjE5My0yLjA4LjY1MS00LjA4MiAxLjM0MS01Ljk3NEMyLjc1MiAzLjY3OCAzLjgzMyAzIDUuMDA1IDNoMy4xOTJhMyAzIDAgMCAxIDEuMzQxLjMxN2wyLjczNCAxLjM2NkEzIDMgMCAwIDAgMTMuNjEzIDVoMS4yOTJ2N2gtLjk2M2MtLjY4NSAwLTEuMjU4LjQ4Mi0xLjYxMiAxLjA2OGE0LjAxIDQuMDEgMCAwIDEtMi4xNjYgMS43M2MtLjQzMi4xNDMtLjg1My4zODYtMS4wMTEuODE0LS4xNi40MzItLjI0OC45LS4yNDggMS4zODhaIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| handThumbDown
 -}
 handThumbDown : List (Attribute msg) -> Html msg
 handThumbDown attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M18.905 12.75a1.25 1.25 0 1 1-2.5 0v-7.5a1.25 1.25 0 0 1 2.5 0v7.5ZM8.905 17v1.3c0 .268-.14.526-.395.607A2 2 0 0 1 5.905 17c0-.995.182-1.948.514-2.826.204-.54-.166-1.174-.744-1.174h-2.52c-1.243 0-2.261-1.01-2.146-2.247.193-2.08.651-4.082 1.341-5.974C2.752 3.678 3.833 3 5.005 3h3.192a3 3 0 0 1 1.341.317l2.734 1.366A3 3 0 0 0 13.613 5h1.292v7h-.963c-.685 0-1.258.482-1.612 1.068a4.01 4.01 0 0 1-2.166 1.73c-.432.143-.853.386-1.011.814-.16.432-.248.9-.248 1.388Z" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik0xIDguMjVhMS4yNSAxLjI1IDAgMSAxIDIuNSAwdjcuNWExLjI1IDEuMjUgMCAxIDEtMi41IDB2LTcuNVpNMTEgM1YxLjdjMC0uMjY4LjE0LS41MjYuMzk1LS42MDdBMiAyIDAgMCAxIDE0IDNjMCAuOTk1LS4xODIgMS45NDgtLjUxNCAyLjgyNi0uMjA0LjU0LjE2NiAxLjE3NC43NDQgMS4xNzRoMi41MmMxLjI0MyAwIDIuMjYxIDEuMDEgMi4xNDYgMi4yNDdhMjMuODY0IDIzLjg2NCAwIDAgMS0xLjM0MSA1Ljk3NEMxNy4xNTMgMTYuMzIzIDE2LjA3MiAxNyAxNC45IDE3aC0zLjE5MmEzIDMgMCAwIDEtMS4zNDEtLjMxN2wtMi43MzQtMS4zNjZBMyAzIDAgMCAwIDYuMjkyIDE1SDVWOGguOTYzYy42ODUgMCAxLjI1OC0uNDgzIDEuNjEyLTEuMDY4YTQuMDExIDQuMDExIDAgMCAxIDIuMTY2LTEuNzNjLjQzMi0uMTQzLjg1My0uMzg2IDEuMDExLS44MTQuMTYtLjQzMi4yNDgtLjkuMjQ4LTEuMzg4WiIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| handThumbUp
 -}
 handThumbUp : List (Attribute msg) -> Html msg
 handThumbUp attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M1 8.25a1.25 1.25 0 1 1 2.5 0v7.5a1.25 1.25 0 1 1-2.5 0v-7.5ZM11 3V1.7c0-.268.14-.526.395-.607A2 2 0 0 1 14 3c0 .995-.182 1.948-.514 2.826-.204.54.166 1.174.744 1.174h2.52c1.243 0 2.261 1.01 2.146 2.247a23.864 23.864 0 0 1-1.341 5.974C17.153 16.323 16.072 17 14.9 17h-3.192a3 3 0 0 1-1.341-.317l-2.734-1.366A3 3 0 0 0 6.292 15H5V8h.963c.685 0 1.258-.483 1.612-1.068a4.011 4.011 0 0 1 2.166-1.73c.432-.143.853-.386 1.011-.814.16-.432.248-.9.248-1.388Z" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTkuNDkzIDIuODUyYS43NS43NSAwIDAgMC0xLjQ4Ni0uMjA0TDcuNTQ1IDZINC4xOThhLjc1Ljc1IDAgMCAwIDAgMS41aDMuMTRsLS42OSA1SDMuMzAyYS43NS43NSAwIDAgMCAwIDEuNWgzLjE0bC0uNDM1IDMuMTQ4YS43NS43NSAwIDAgMCAxLjQ4Ni4yMDRMNy45NTUgMTRoMi45ODZsLS40MzQgMy4xNDhhLjc1Ljc1IDAgMCAwIDEuNDg2LjIwNEwxMi40NTYgMTRoMy4zNDZhLjc1Ljc1IDAgMCAwIDAtMS41aC0zLjE0bC42OS01aDMuMzQ2YS43NS43NSAwIDAgMCAwLTEuNWgtMy4xNGwuNDM1LTMuMTQ4YS43NS43NSAwIDAgMC0xLjQ4Ni0uMjA0TDEyLjA0NSA2SDkuMDU5bC40MzQtMy4xNDhaTTguODUyIDcuNWwtLjY5IDVoMi45ODZsLjY5LTVIOC44NTJaIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| hashtag
 -}
 hashtag : List (Attribute msg) -> Html msg
 hashtag attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M9.493 2.852a.75.75 0 0 0-1.486-.204L7.545 6H4.198a.75.75 0 0 0 0 1.5h3.14l-.69 5H3.302a.75.75 0 0 0 0 1.5h3.14l-.435 3.148a.75.75 0 0 0 1.486.204L7.955 14h2.986l-.434 3.148a.75.75 0 0 0 1.486.204L12.456 14h3.346a.75.75 0 0 0 0-1.5h-3.14l.69-5h3.346a.75.75 0 0 0 0-1.5h-3.14l.435-3.148a.75.75 0 0 0-1.486-.204L12.045 6H9.059l.434-3.148ZM8.852 7.5l-.69 5h2.986l.69-5H8.852Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Im05LjY1MyAxNi45MTUtLjAwNS0uMDAzLS4wMTktLjAxYTIwLjc1OSAyMC43NTkgMCAwIDEtMS4xNjItLjY4MiAyMi4wNDUgMjIuMDQ1IDAgMCAxLTIuNTgyLTEuOUM0LjA0NSAxMi43MzMgMiAxMC4zNTIgMiA3LjVhNC41IDQuNSAwIDAgMSA4LTIuODI4QTQuNSA0LjUgMCAwIDEgMTggNy41YzAgMi44NTItMi4wNDQgNS4yMzMtMy44ODUgNi44MmEyMi4wNDkgMjIuMDQ5IDAgMCAxLTMuNzQ0IDIuNTgybC0uMDE5LjAxLS4wMDUuMDAzaC0uMDAyYS43MzkuNzM5IDAgMCAxLS42OS4wMDFsLS4wMDItLjAwMVoiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| heart
 -}
 heart : List (Attribute msg) -> Html msg
 heart attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "m9.653 16.915-.005-.003-.019-.01a20.759 20.759 0 0 1-1.162-.682 22.045 22.045 0 0 1-2.582-1.9C4.045 12.733 2 10.352 2 7.5a4.5 4.5 0 0 1 8-2.828A4.5 4.5 0 0 1 18 7.5c0 2.852-2.044 5.233-3.885 6.82a22.049 22.049 0 0 1-3.744 2.582l-.019.01-.005.003h-.002a.739.739 0 0 1-.69.001l-.002-.001Z" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik0xNC45MTYgMi40MDRhLjc1Ljc1IDAgMCAxLS4zMiAxLjAxMWwtLjU5Ni4zMVYxN2ExIDEgMCAwIDEtMSAxaC0yLjI2YS43NS43NSAwIDAgMS0uNzUtLjc1di0zLjVhLjc1Ljc1IDAgMCAwLS43NS0uNzVINi43NWEuNzUuNzUgMCAwIDAtLjc1Ljc1djMuNWEuNzUuNzUgMCAwIDEtLjc1Ljc1aC0zLjVhLjc1Ljc1IDAgMCAxIDAtMS41SDJWOS45NTdhLjc1Ljc1IDAgMCAxLS41OTYtMS4zNzJMMiA4LjI3NVY1Ljc1YS43NS43NSAwIDAgMSAxLjUgMHYxLjc0NWwxMC40MDQtNS40MWEuNzUuNzUgMCAwIDEgMS4wMTIuMzE5Wk0xNS44NjEgOC41N2EuNzUuNzUgMCAwIDEgLjczNi0uMDI1bDEuOTk5IDEuMDRBLjc1Ljc1IDAgMCAxIDE4IDEwLjk1N1YxNi41aC4yNWEuNzUuNzUgMCAwIDEgMCAxLjVoLTJhLjc1Ljc1IDAgMCAxLS43NS0uNzVWOS4yMWEuNzUuNzUgMCAwIDEgLjM2MS0uNjRaIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| homeModern
 -}
 homeModern : List (Attribute msg) -> Html msg
 homeModern attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M14.916 2.404a.75.75 0 0 1-.32 1.011l-.596.31V17a1 1 0 0 1-1 1h-2.26a.75.75 0 0 1-.75-.75v-3.5a.75.75 0 0 0-.75-.75H6.75a.75.75 0 0 0-.75.75v3.5a.75.75 0 0 1-.75.75h-3.5a.75.75 0 0 1 0-1.5H2V9.957a.75.75 0 0 1-.596-1.372L2 8.275V5.75a.75.75 0 0 1 1.5 0v1.745l10.404-5.41a.75.75 0 0 1 1.012.319ZM15.861 8.57a.75.75 0 0 1 .736-.025l1.999 1.04A.75.75 0 0 1 18 10.957V16.5h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1-.75-.75V9.21a.75.75 0 0 1 .361-.64Z" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTkuMjkzIDIuMjkzYTEgMSAwIDAgMSAxLjQxNCAwbDcgN0ExIDEgMCAwIDEgMTcgMTFoLTF2NmExIDEgMCAwIDEtMSAxaC0yYTEgMSAwIDAgMS0xLTF2LTNhMSAxIDAgMCAwLTEtMUg5YTEgMSAwIDAgMC0xIDF2M2ExIDEgMCAwIDEtMSAxSDVhMSAxIDAgMCAxLTEtMXYtNkgzYTEgMSAwIDAgMS0uNzA3LTEuNzA3bDctN1oiIGNsaXAtcnVsZT0iZXZlbm9kZCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| home
 -}
 home : List (Attribute msg) -> Html msg
 home attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M9.293 2.293a1 1 0 0 1 1.414 0l7 7A1 1 0 0 1 17 11h-1v6a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-3a1 1 0 0 0-1-1H9a1 1 0 0 0-1 1v3a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-6H3a1 1 0 0 1-.707-1.707l7-7Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEgNmEzIDMgMCAwIDEgMy0zaDEyYTMgMyAwIDAgMSAzIDN2OGEzIDMgMCAwIDEtMyAzSDRhMyAzIDAgMCAxLTMtM1Y2Wm00IDEuNWEyIDIgMCAxIDEgNCAwIDIgMiAwIDAgMS00IDBabTIgM2E0IDQgMCAwIDAtMy42NjUgMi4zOTUuNzUuNzUgMCAwIDAgLjQxNiAxQTguOTggOC45OCAwIDAgMCA3IDE0LjVhOC45OCA4Ljk4IDAgMCAwIDMuMjQ5LS42MDQuNzUuNzUgMCAwIDAgLjQxNi0xLjAwMUE0LjAwMSA0LjAwMSAwIDAgMCA3IDEwLjVabTUtMy43NWEuNzUuNzUgMCAwIDEgLjc1LS43NWgyLjVhLjc1Ljc1IDAgMCAxIDAgMS41aC0yLjVhLjc1Ljc1IDAgMCAxLS43NS0uNzVabTAgNi41YS43NS43NSAwIDAgMSAuNzUtLjc1aDIuNWEuNzUuNzUgMCAwIDEgMCAxLjVoLTIuNWEuNzUuNzUgMCAwIDEtLjc1LS43NVptLjc1LTRhLjc1Ljc1IDAgMCAwIDAgMS41aDIuNWEuNzUuNzUgMCAwIDAgMC0xLjVoLTIuNVoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| identification
 -}
 identification : List (Attribute msg) -> Html msg
 identification attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M1 6a3 3 0 0 1 3-3h12a3 3 0 0 1 3 3v8a3 3 0 0 1-3 3H4a3 3 0 0 1-3-3V6Zm4 1.5a2 2 0 1 1 4 0 2 2 0 0 1-4 0Zm2 3a4 4 0 0 0-3.665 2.395.75.75 0 0 0 .416 1A8.98 8.98 0 0 0 7 14.5a8.98 8.98 0 0 0 3.249-.604.75.75 0 0 0 .416-1.001A4.001 4.001 0 0 0 7 10.5Zm5-3.75a.75.75 0 0 1 .75-.75h2.5a.75.75 0 0 1 0 1.5h-2.5a.75.75 0 0 1-.75-.75Zm0 6.5a.75.75 0 0 1 .75-.75h2.5a.75.75 0 0 1 0 1.5h-2.5a.75.75 0 0 1-.75-.75Zm.75-4a.75.75 0 0 0 0 1.5h2.5a.75.75 0 0 0 0-1.5h-2.5Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik0xMCAyYS43NS43NSAwIDAgMSAuNzUuNzV2NS41OWwxLjk1LTIuMWEuNzUuNzUgMCAxIDEgMS4xIDEuMDJsLTMuMjUgMy41YS43NS43NSAwIDAgMS0xLjEgMEw2LjIgNy4yNmEuNzUuNzUgMCAxIDEgMS4xLTEuMDJsMS45NSAyLjFWMi43NUEuNzUuNzUgMCAwIDEgMTAgMloiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjxwYXRoIGQ9Ik01LjI3MyA0LjVhMS4yNSAxLjI1IDAgMCAwLTEuMjA1LjkxOGwtMS41MjMgNS41MmMtLjAwNi4wMi0uMDEuMDQxLS4wMTUuMDYySDZhMSAxIDAgMCAxIC44OTQuNTUzbC40NDguODk0YTEgMSAwIDAgMCAuODk0LjU1M2gzLjQzOGExIDEgMCAwIDAgLjg2LS40OWwuNjA2LTEuMDJBMSAxIDAgMCAxIDE0IDExaDMuNDdhMS4zMTggMS4zMTggMCAwIDAtLjAxNS0uMDYybC0xLjUyMy01LjUyYTEuMjUgMS4yNSAwIDAgMC0xLjIwNS0uOTE4aC0uOTc3YS43NS43NSAwIDAgMSAwLTEuNWguOTc3YTIuNzUgMi43NSAwIDAgMSAyLjY1MSAyLjAxOWwxLjUyMyA1LjUyYy4wNjYuMjM5LjA5OS40ODUuMDk5LjczMlYxNWEyIDIgMCAwIDEtMiAySDNhMiAyIDAgMCAxLTItMnYtMy43M2MwLS4yNDYuMDMzLS40OTIuMDk5LS43M2wxLjUyMy01LjUyMUEyLjc1IDIuNzUgMCAwIDEgNS4yNzMgM2guOTc3YS43NS43NSAwIDAgMSAwIDEuNWgtLjk3N1oiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| inboxArrowDown
 -}
 inboxArrowDown : List (Attribute msg) -> Html msg
 inboxArrowDown attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M10 2a.75.75 0 0 1 .75.75v5.59l1.95-2.1a.75.75 0 1 1 1.1 1.02l-3.25 3.5a.75.75 0 0 1-1.1 0L6.2 7.26a.75.75 0 1 1 1.1-1.02l1.95 2.1V2.75A.75.75 0 0 1 10 2Z" ] [], Svg.path [ d "M5.273 4.5a1.25 1.25 0 0 0-1.205.918l-1.523 5.52c-.006.02-.01.041-.015.062H6a1 1 0 0 1 .894.553l.448.894a1 1 0 0 0 .894.553h3.438a1 1 0 0 0 .86-.49l.606-1.02A1 1 0 0 1 14 11h3.47a1.318 1.318 0 0 0-.015-.062l-1.523-5.52a1.25 1.25 0 0 0-1.205-.918h-.977a.75.75 0 0 1 0-1.5h.977a2.75 2.75 0 0 1 2.651 2.019l1.523 5.52c.066.239.099.485.099.732V15a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-3.73c0-.246.033-.492.099-.73l1.523-5.521A2.75 2.75 0 0 1 5.273 3h.977a.75.75 0 0 1 0 1.5h-.977Z" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEuMDQ1IDYuOTU0YTIuNzUgMi43NSAwIDAgMSAuMjE3LS42NzhMMi41MyAzLjU4QTIuNzUgMi43NSAwIDAgMSA1LjAxOSAyaDkuOTYyYTIuNzUgMi43NSAwIDAgMSAyLjQ4OCAxLjU4bDEuMjcgMi42OTZjLjEwMS4yMTYuMTc0LjQ0NC4yMTYuNjc4QTEgMSAwIDAgMSAxOSA3LjI1djEuNWEyLjc1IDIuNzUgMCAwIDEtMi43NSAyLjc1SDMuNzVBMi43NSAyLjc1IDAgMCAxIDEgOC43NXYtMS41YTEgMSAwIDAgMSAuMDQ1LS4yOTZabTIuODQzLTIuNzM2QTEuMjUgMS4yNSAwIDAgMSA1LjAyIDMuNWg5Ljk2MmMuNDg0IDAgLjkyNS4yOCAxLjEzLjcxOGwuOTU3IDIuMDMySDE0YTEgMSAwIDAgMC0uODYuNDlsLS42MDYgMS4wMmExIDEgMCAwIDEtLjg2LjQ5SDguMjM2YTEgMSAwIDAgMS0uODk0LS41NTNsLS40NDgtLjg5NEExIDEgMCAwIDAgNiA2LjI1SDIuOTMybC45NTYtMi4wMzJaIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjxwYXRoIGQ9Ik0xIDE0YTEgMSAwIDAgMSAxLTFoNGExIDEgMCAwIDEgLjg5NC41NTNsLjQ0OC44OTRhMSAxIDAgMCAwIC44OTQuNTUzaDMuNDM4YTEgMSAwIDAgMCAuODYtLjQ5bC42MDYtMS4wMkExIDEgMCAwIDEgMTQgMTNoNGExIDEgMCAwIDEgMSAxdjJhMiAyIDAgMCAxLTIgMkgzYTIgMiAwIDAgMS0yLTJ2LTJaIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| inboxStack
 -}
 inboxStack : List (Attribute msg) -> Html msg
 inboxStack attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M1.045 6.954a2.75 2.75 0 0 1 .217-.678L2.53 3.58A2.75 2.75 0 0 1 5.019 2h9.962a2.75 2.75 0 0 1 2.488 1.58l1.27 2.696c.101.216.174.444.216.678A1 1 0 0 1 19 7.25v1.5a2.75 2.75 0 0 1-2.75 2.75H3.75A2.75 2.75 0 0 1 1 8.75v-1.5a1 1 0 0 1 .045-.296Zm2.843-2.736A1.25 1.25 0 0 1 5.02 3.5h9.962c.484 0 .925.28 1.13.718l.957 2.032H14a1 1 0 0 0-.86.49l-.606 1.02a1 1 0 0 1-.86.49H8.236a1 1 0 0 1-.894-.553l-.448-.894A1 1 0 0 0 6 6.25H2.932l.956-2.032Z", clipRule "evenodd" ] [], Svg.path [ d "M1 14a1 1 0 0 1 1-1h4a1 1 0 0 1 .894.553l.448.894a1 1 0 0 0 .894.553h3.438a1 1 0 0 0 .86-.49l.606-1.02A1 1 0 0 1 14 13h4a1 1 0 0 1 1 1v2a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-2Z" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEgMTEuMjdjMC0uMjQ2LjAzMy0uNDkyLjA5OS0uNzNsMS41MjMtNS41MjFBMi43NSAyLjc1IDAgMCAxIDUuMjczIDNoOS40NTRhMi43NSAyLjc1IDAgMCAxIDIuNjUxIDIuMDE5bDEuNTIzIDUuNTJjLjA2Ni4yMzkuMDk5LjQ4NS4wOTkuNzMyVjE1YTIgMiAwIDAgMS0yIDJIM2EyIDIgMCAwIDEtMi0ydi0zLjczWm0zLjA2OC01Ljg1MkExLjI1IDEuMjUgMCAwIDEgNS4yNzMgNC41aDkuNDU0YTEuMjUgMS4yNSAwIDAgMSAxLjIwNS45MThsMS41MjMgNS41MmMuMDA2LjAyLjAxLjA0MS4wMTUuMDYySDE0YTEgMSAwIDAgMC0uODYuNDlsLS42MDYgMS4wMmExIDEgMCAwIDEtLjg2LjQ5SDguMjM2YTEgMSAwIDAgMS0uODk0LS41NTNsLS40NDgtLjg5NEExIDEgMCAwIDAgNiAxMUgyLjUzbC4wMTUtLjA2MiAxLjUyMy01LjUyWiIgY2xpcC1ydWxlPSJldmVub2RkIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| inbox
 -}
 inbox : List (Attribute msg) -> Html msg
 inbox attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M1 11.27c0-.246.033-.492.099-.73l1.523-5.521A2.75 2.75 0 0 1 5.273 3h9.454a2.75 2.75 0 0 1 2.651 2.019l1.523 5.52c.066.239.099.485.099.732V15a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-3.73Zm3.068-5.852A1.25 1.25 0 0 1 5.273 4.5h9.454a1.25 1.25 0 0 1 1.205.918l1.523 5.52c.006.02.01.041.015.062H14a1 1 0 0 0-.86.49l-.606 1.02a1 1 0 0 1-.86.49H8.236a1 1 0 0 1-.894-.553l-.448-.894A1 1 0 0 0 6 11H2.53l.015-.062 1.523-5.52Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTE4IDEwYTggOCAwIDEgMS0xNiAwIDggOCAwIDAgMSAxNiAwWm0tNy00YTEgMSAwIDEgMS0yIDAgMSAxIDAgMCAxIDIgMFpNOSA5YS43NS43NSAwIDAgMCAwIDEuNWguMjUzYS4yNS4yNSAwIDAgMSAuMjQ0LjMwNGwtLjQ1OSAyLjA2NkExLjc1IDEuNzUgMCAwIDAgMTAuNzQ3IDE1SDExYS43NS43NSAwIDAgMCAwLTEuNWgtLjI1M2EuMjUuMjUgMCAwIDEtLjI0NC0uMzA0bC40NTktMi4wNjZBMS43NSAxLjc1IDAgMCAwIDkuMjUzIDlIOVoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| informationCircle
 -}
 informationCircle : List (Attribute msg) -> Html msg
 informationCircle attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M18 10a8 8 0 1 1-16 0 8 8 0 0 1 16 0Zm-7-4a1 1 0 1 1-2 0 1 1 0 0 1 2 0ZM9 9a.75.75 0 0 0 0 1.5h.253a.25.25 0 0 1 .244.304l-.459 2.066A1.75 1.75 0 0 0 10.747 15H11a.75.75 0 0 0 0-1.5h-.253a.25.25 0 0 1-.244-.304l.459-2.066A1.75 1.75 0 0 0 9.253 9H9Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTggN2E1IDUgMCAxIDEgMy42MSA0LjgwNGwtMS45MDMgMS45MDNBMSAxIDAgMCAxIDkgMTRIOHYxYTEgMSAwIDAgMS0xIDFINnYxYTEgMSAwIDAgMS0xIDFIM2ExIDEgMCAwIDEtMS0xdi0yYTEgMSAwIDAgMSAuMjkzLS43MDdMOC4xOTYgOC4zOUE1LjAwMiA1LjAwMiAwIDAgMSA4IDdabTUtM2EuNzUuNzUgMCAwIDAgMCAxLjVBMS41IDEuNSAwIDAgMSAxNC41IDcgLjc1Ljc1IDAgMCAwIDE2IDdhMyAzIDAgMCAwLTMtM1oiIGNsaXAtcnVsZT0iZXZlbm9kZCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| key
 -}
 key : List (Attribute msg) -> Html msg
 key attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M8 7a5 5 0 1 1 3.61 4.804l-1.903 1.903A1 1 0 0 1 9 14H8v1a1 1 0 0 1-1 1H6v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-2a1 1 0 0 1 .293-.707L8.196 8.39A5.002 5.002 0 0 1 8 7Zm5-3a.75.75 0 0 0 0 1.5A1.5 1.5 0 0 1 14.5 7 .75.75 0 0 0 16 7a3 3 0 0 0-3-3Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik03Ljc1IDIuNzVhLjc1Ljc1IDAgMCAwLTEuNSAwdjEuMjU4YTMyLjk4NyAzMi45ODcgMCAwIDAtMy41OTkuMjc4Ljc1Ljc1IDAgMSAwIC4xOTggMS40ODdBMzEuNTQ1IDMxLjU0NSAwIDAgMSA4LjcgNS41NDUgMTkuMzgxIDE5LjM4MSAwIDAgMSA3IDkuNTZhMTkuNDE4IDE5LjQxOCAwIDAgMS0xLjAwMi0yLjA1Ljc1Ljc1IDAgMCAwLTEuMzg0LjU3NyAyMC45MzUgMjAuOTM1IDAgMCAwIDEuNDkyIDIuOTEgMTkuNjEzIDE5LjYxMyAwIDAgMS0zLjgyOCA0LjE1NC43NS43NSAwIDEgMCAuOTQ1IDEuMTY0QTIxLjExNiAyMS4xMTYgMCAwIDAgNyAxMi4zMzFjLjA5NS4xMzIuMTkyLjI2Mi4yOS4zOTFhLjc1Ljc1IDAgMCAwIDEuMTk0LS45MWMtLjIwNC0uMjY2LS40LS41MzgtLjU5LS44MTVhMjAuODg4IDIwLjg4OCAwIDAgMCAyLjMzMy01LjMzMmMuMzEuMDMxLjYxOC4wNjguOTI0LjEwOGEuNzUuNzUgMCAwIDAgLjE5OC0xLjQ4NyAzMi44MzIgMzIuODMyIDAgMCAwLTMuNTk5LS4yNzhWMi43NVoiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEzIDhhLjc1Ljc1IDAgMCAxIC42NzEuNDE1bDQuMjUgOC41YS43NS43NSAwIDEgMS0xLjM0Mi42N0wxNS43ODcgMTZoLTUuNTczbC0uNzkzIDEuNTg1YS43NS43NSAwIDEgMS0xLjM0Mi0uNjdsNC4yNS04LjVBLjc1Ljc1IDAgMCAxIDEzIDhabTIuMDM3IDYuNUwxMyAxMC40MjcgMTAuOTY0IDE0LjVoNC4wNzNaIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| language
 -}
 language : List (Attribute msg) -> Html msg
 language attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M7.75 2.75a.75.75 0 0 0-1.5 0v1.258a32.987 32.987 0 0 0-3.599.278.75.75 0 1 0 .198 1.487A31.545 31.545 0 0 1 8.7 5.545 19.381 19.381 0 0 1 7 9.56a19.418 19.418 0 0 1-1.002-2.05.75.75 0 0 0-1.384.577 20.935 20.935 0 0 0 1.492 2.91 19.613 19.613 0 0 1-3.828 4.154.75.75 0 1 0 .945 1.164A21.116 21.116 0 0 0 7 12.331c.095.132.192.262.29.391a.75.75 0 0 0 1.194-.91c-.204-.266-.4-.538-.59-.815a20.888 20.888 0 0 0 2.333-5.332c.31.031.618.068.924.108a.75.75 0 0 0 .198-1.487 32.832 32.832 0 0 0-3.599-.278V2.75Z" ] [], Svg.path [ fillRule "evenodd", d "M13 8a.75.75 0 0 1 .671.415l4.25 8.5a.75.75 0 1 1-1.342.67L15.787 16h-5.573l-.793 1.585a.75.75 0 1 1-1.342-.67l4.25-8.5A.75.75 0 0 1 13 8Zm2.037 6.5L13 10.427 10.964 14.5h4.073Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0ibTcuMTcxIDQuMTQ2IDEuOTQ3IDIuNDY2YTMuNTE0IDMuNTE0IDAgMCAxIDEuNzY0IDBsMS45NDctMi40NjZhNi41MiA2LjUyIDAgMCAwLTUuNjU4IDBabTguNjgzIDMuMDI1LTIuNDY2IDEuOTQ3Yy4xNS41NzguMTUgMS4xODYgMCAxLjc2NGwyLjQ2NiAxLjk0N2E2LjUyIDYuNTIgMCAwIDAgMC01LjY1OFptLTMuMDI1IDguNjgzLTEuOTQ3LTIuNDY2Yy0uNTc4LjE1LTEuMTg2LjE1LTEuNzY0IDBsLTEuOTQ3IDIuNDY2YTYuNTIgNi41MiAwIDAgMCA1LjY1OCAwWk00LjE0NiAxMi44M2wyLjQ2Ni0xLjk0N2EzLjUxNCAzLjUxNCAwIDAgMSAwLTEuNzY0TDQuMTQ2IDcuMTcxYTYuNTIgNi41MiAwIDAgMCAwIDUuNjU4Wk01LjYzIDMuMjk3YTguMDEgOC4wMSAwIDAgMSA4LjczOCAwIDguMDMxIDguMDMxIDAgMCAxIDIuMzM0IDIuMzM0IDguMDEgOC4wMSAwIDAgMSAwIDguNzM4IDguMDMzIDguMDMzIDAgMCAxLTIuMzM0IDIuMzM0IDguMDEgOC4wMSAwIDAgMS04LjczOCAwIDguMDMyIDguMDMyIDAgMCAxLTIuMzM0LTIuMzM0IDguMDEgOC4wMSAwIDAgMSAwLTguNzM4QTguMDMgOC4wMyAwIDAgMSA1LjYzIDMuMjk3Wm01LjE5OCA0Ljg4MmEyLjAwOCAyLjAwOCAwIDAgMC0yLjI0My40MDcgMS45OTQgMS45OTQgMCAwIDAtLjQwNyAyLjI0MyAxLjk5MyAxLjk5MyAwIDAgMCAuOTkyLjk5MiAyLjAwOCAyLjAwOCAwIDAgMCAyLjI0My0uNDA3Yy4xNzYtLjE3NS4zMS0uMzc0LjQwNy0uNTg1YTIuMDA4IDIuMDA4IDAgMCAwLS40MDctMi4yNDMgMS45OTMgMS45OTMgMCAwIDAtLjU4NS0uNDA3WiIgY2xpcC1ydWxlPSJldmVub2RkIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| lifebuoy
 -}
 lifebuoy : List (Attribute msg) -> Html msg
 lifebuoy attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "m7.171 4.146 1.947 2.466a3.514 3.514 0 0 1 1.764 0l1.947-2.466a6.52 6.52 0 0 0-5.658 0Zm8.683 3.025-2.466 1.947c.15.578.15 1.186 0 1.764l2.466 1.947a6.52 6.52 0 0 0 0-5.658Zm-3.025 8.683-1.947-2.466c-.578.15-1.186.15-1.764 0l-1.947 2.466a6.52 6.52 0 0 0 5.658 0ZM4.146 12.83l2.466-1.947a3.514 3.514 0 0 1 0-1.764L4.146 7.171a6.52 6.52 0 0 0 0 5.658ZM5.63 3.297a8.01 8.01 0 0 1 8.738 0 8.031 8.031 0 0 1 2.334 2.334 8.01 8.01 0 0 1 0 8.738 8.033 8.033 0 0 1-2.334 2.334 8.01 8.01 0 0 1-8.738 0 8.032 8.032 0 0 1-2.334-2.334 8.01 8.01 0 0 1 0-8.738A8.03 8.03 0 0 1 5.63 3.297Zm5.198 4.882a2.008 2.008 0 0 0-2.243.407 1.994 1.994 0 0 0-.407 2.243 1.993 1.993 0 0 0 .992.992 2.008 2.008 0 0 0 2.243-.407c.176-.175.31-.374.407-.585a2.008 2.008 0 0 0-.407-2.243 1.993 1.993 0 0 0-.585-.407Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik0xMCAxYTYgNiAwIDAgMC0zLjgxNSAxMC42MzFDNy4yMzcgMTIuNSA4IDEzLjQ0MyA4IDE0LjQ1NnYuNjQ0YS43NS43NSAwIDAgMCAuNTcyLjcyOSA2LjAxNiA2LjAxNiAwIDAgMCAyLjg1NiAwQS43NS43NSAwIDAgMCAxMiAxNS4xdi0uNjQ0YzAtMS4wMTMuNzYyLTEuOTU3IDEuODE1LTIuODI1QTYgNiAwIDAgMCAxMCAxWk04Ljg2MyAxNy40MTRhLjc1Ljc1IDAgMCAwLS4yMjYgMS40ODMgOS4wNjYgOS4wNjYgMCAwIDAgMi43MjYgMCAuNzUuNzUgMCAwIDAtLjIyNi0xLjQ4MyA3LjU1MyA3LjU1MyAwIDAgMS0yLjI3NCAwWiIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| lightBulb
 -}
 lightBulb : List (Attribute msg) -> Html msg
 lightBulb attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M10 1a6 6 0 0 0-3.815 10.631C7.237 12.5 8 13.443 8 14.456v.644a.75.75 0 0 0 .572.729 6.016 6.016 0 0 0 2.856 0A.75.75 0 0 0 12 15.1v-.644c0-1.013.762-1.957 1.815-2.825A6 6 0 0 0 10 1ZM8.863 17.414a.75.75 0 0 0-.226 1.483 9.066 9.066 0 0 0 2.726 0 .75.75 0 0 0-.226-1.483 7.553 7.553 0 0 1-2.274 0Z" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik0xMi4yMzIgNC4yMzJhMi41IDIuNSAwIDAgMSAzLjUzNiAzLjUzNmwtMS4yMjUgMS4yMjRhLjc1Ljc1IDAgMCAwIDEuMDYxIDEuMDZsMS4yMjQtMS4yMjRhNCA0IDAgMCAwLTUuNjU2LTUuNjU2bC0zIDNhNCA0IDAgMCAwIC4yMjUgNS44NjUuNzUuNzUgMCAwIDAgLjk3Ny0xLjEzOCAyLjUgMi41IDAgMCAxLS4xNDItMy42NjdsMy0zWiIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PHBhdGggZD0iTTExLjYwMyA3Ljk2M2EuNzUuNzUgMCAwIDAtLjk3NyAxLjEzOCAyLjUgMi41IDAgMCAxIC4xNDIgMy42NjdsLTMgM2EyLjUgMi41IDAgMCAxLTMuNTM2LTMuNTM2bDEuMjI1LTEuMjI0YS43NS43NSAwIDAgMC0xLjA2MS0xLjA2bC0xLjIyNCAxLjIyNGE0IDQgMCAxIDAgNS42NTYgNS42NTZsMy0zYTQgNCAwIDAgMC0uMjI1LTUuODY1WiIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| link
 -}
 link : List (Attribute msg) -> Html msg
 link attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M12.232 4.232a2.5 2.5 0 0 1 3.536 3.536l-1.225 1.224a.75.75 0 0 0 1.061 1.06l1.224-1.224a4 4 0 0 0-5.656-5.656l-3 3a4 4 0 0 0 .225 5.865.75.75 0 0 0 .977-1.138 2.5 2.5 0 0 1-.142-3.667l3-3Z" ] [], Svg.path [ d "M11.603 7.963a.75.75 0 0 0-.977 1.138 2.5 2.5 0 0 1 .142 3.667l-3 3a2.5 2.5 0 0 1-3.536-3.536l1.225-1.224a.75.75 0 0 0-1.061-1.06l-1.224 1.224a4 4 0 1 0 5.656 5.656l3-3a4 4 0 0 0-.225-5.865Z" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTYgNC43NUEuNzUuNzUgMCAwIDEgNi43NSA0aDEwLjVhLjc1Ljc1IDAgMCAxIDAgMS41SDYuNzVBLjc1Ljc1IDAgMCAxIDYgNC43NVpNNiAxMGEuNzUuNzUgMCAwIDEgLjc1LS43NWgxMC41YS43NS43NSAwIDAgMSAwIDEuNUg2Ljc1QS43NS43NSAwIDAgMSA2IDEwWm0wIDUuMjVhLjc1Ljc1IDAgMCAxIC43NS0uNzVoMTAuNWEuNzUuNzUgMCAwIDEgMCAxLjVINi43NWEuNzUuNzUgMCAwIDEtLjc1LS43NVpNMS45OSA0Ljc1YTEgMSAwIDAgMSAxLTFIM2ExIDEgMCAwIDEgMSAxdi4wMWExIDEgMCAwIDEtMSAxaC0uMDFhMSAxIDAgMCAxLTEtMXYtLjAxWk0xLjk5IDE1LjI1YTEgMSAwIDAgMSAxLTFIM2ExIDEgMCAwIDEgMSAxdi4wMWExIDEgMCAwIDEtMSAxaC0uMDFhMSAxIDAgMCAxLTEtMXYtLjAxWk0xLjk5IDEwYTEgMSAwIDAgMSAxLTFIM2ExIDEgMCAwIDEgMSAxdi4wMWExIDEgMCAwIDEtMSAxaC0uMDFhMSAxIDAgMCAxLTEtMVYxMFoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| listBullet
 -}
 listBullet : List (Attribute msg) -> Html msg
 listBullet attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M6 4.75A.75.75 0 0 1 6.75 4h10.5a.75.75 0 0 1 0 1.5H6.75A.75.75 0 0 1 6 4.75ZM6 10a.75.75 0 0 1 .75-.75h10.5a.75.75 0 0 1 0 1.5H6.75A.75.75 0 0 1 6 10Zm0 5.25a.75.75 0 0 1 .75-.75h10.5a.75.75 0 0 1 0 1.5H6.75a.75.75 0 0 1-.75-.75ZM1.99 4.75a1 1 0 0 1 1-1H3a1 1 0 0 1 1 1v.01a1 1 0 0 1-1 1h-.01a1 1 0 0 1-1-1v-.01ZM1.99 15.25a1 1 0 0 1 1-1H3a1 1 0 0 1 1 1v.01a1 1 0 0 1-1 1h-.01a1 1 0 0 1-1-1v-.01ZM1.99 10a1 1 0 0 1 1-1H3a1 1 0 0 1 1 1v.01a1 1 0 0 1-1 1h-.01a1 1 0 0 1-1-1V10Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEwIDFhNC41IDQuNSAwIDAgMC00LjUgNC41VjlINWEyIDIgMCAwIDAtMiAydjZhMiAyIDAgMCAwIDIgMmgxMGEyIDIgMCAwIDAgMi0ydi02YTIgMiAwIDAgMC0yLTJoLS41VjUuNUE0LjUgNC41IDAgMCAwIDEwIDFabTMgOFY1LjVhMyAzIDAgMSAwLTYgMFY5aDZaIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| lockClosed
 -}
 lockClosed : List (Attribute msg) -> Html msg
 lockClosed attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M10 1a4.5 4.5 0 0 0-4.5 4.5V9H5a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6a2 2 0 0 0-2-2h-.5V5.5A4.5 4.5 0 0 0 10 1Zm3 8V5.5a3 3 0 1 0-6 0V9h6Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTE0LjUgMUE0LjUgNC41IDAgMCAwIDEwIDUuNVY5SDNhMiAyIDAgMCAwLTIgMnY2YTIgMiAwIDAgMCAyIDJoMTBhMiAyIDAgMCAwIDItMnYtNmEyIDIgMCAwIDAtMi0yaC0xLjVWNS41YTMgMyAwIDEgMSA2IDB2Mi43NWEuNzUuNzUgMCAwIDAgMS41IDBWNS41QTQuNSA0LjUgMCAwIDAgMTQuNSAxWiIgY2xpcC1ydWxlPSJldmVub2RkIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| lockOpen
 -}
 lockOpen : List (Attribute msg) -> Html msg
 lockOpen attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M14.5 1A4.5 4.5 0 0 0 10 5.5V9H3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6a2 2 0 0 0-2-2h-1.5V5.5a3 3 0 1 1 6 0v2.75a.75.75 0 0 0 1.5 0V5.5A4.5 4.5 0 0 0 14.5 1Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik02LjUgOWEyLjUgMi41IDAgMSAxIDUgMCAyLjUgMi41IDAgMCAxLTUgMFoiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEwIDE4YTggOCAwIDEgMCAwLTE2IDggOCAwIDAgMCAwIDE2Wk05IDVhNCA0IDAgMSAwIDIuMjQ4IDcuMzA5bDEuNDcyIDEuNDcxYS43NS43NSAwIDEgMCAxLjA2LTEuMDZsLTEuNDcxLTEuNDcyQTQgNCAwIDAgMCA5IDVaIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| magnifyingGlassCircle
 -}
 magnifyingGlassCircle : List (Attribute msg) -> Html msg
 magnifyingGlassCircle attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M6.5 9a2.5 2.5 0 1 1 5 0 2.5 2.5 0 0 1-5 0Z" ] [], Svg.path [ fillRule "evenodd", d "M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16ZM9 5a4 4 0 1 0 2.248 7.309l1.472 1.471a.75.75 0 1 0 1.06-1.06l-1.471-1.472A4 4 0 0 0 9 5Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik02Ljc1IDguMjVhLjc1Ljc1IDAgMCAwIDAgMS41aDQuNWEuNzUuNzUgMCAwIDAgMC0xLjVoLTQuNVoiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTkgMmE3IDcgMCAxIDAgNC4zOTEgMTIuNDUybDMuMzI5IDMuMzI4YS43NS43NSAwIDEgMCAxLjA2LTEuMDZsLTMuMzI4LTMuMzI5QTcgNyAwIDAgMCA5IDJaTTMuNSA5YTUuNSA1LjUgMCAxIDEgMTEgMCA1LjUgNS41IDAgMCAxLTExIDBaIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| magnifyingGlassMinus
 -}
 magnifyingGlassMinus : List (Attribute msg) -> Html msg
 magnifyingGlassMinus attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M6.75 8.25a.75.75 0 0 0 0 1.5h4.5a.75.75 0 0 0 0-1.5h-4.5Z" ] [], Svg.path [ fillRule "evenodd", d "M9 2a7 7 0 1 0 4.391 12.452l3.329 3.328a.75.75 0 1 0 1.06-1.06l-3.328-3.329A7 7 0 0 0 9 2ZM3.5 9a5.5 5.5 0 1 1 11 0 5.5 5.5 0 0 1-11 0Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik05IDZhLjc1Ljc1IDAgMCAxIC43NS43NXYxLjVoMS41YS43NS43NSAwIDAgMSAwIDEuNWgtMS41djEuNWEuNzUuNzUgMCAwIDEtMS41IDB2LTEuNWgtMS41YS43NS43NSAwIDAgMSAwLTEuNWgxLjV2LTEuNUEuNzUuNzUgMCAwIDEgOSA2WiIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMiA5YTcgNyAwIDEgMSAxMi40NTIgNC4zOTFsMy4zMjggMy4zMjlhLjc1Ljc1IDAgMSAxLTEuMDYgMS4wNmwtMy4zMjktMy4zMjhBNyA3IDAgMCAxIDIgOVptNy01LjVhNS41IDUuNSAwIDEgMCAwIDExIDUuNSA1LjUgMCAwIDAgMC0xMVoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| magnifyingGlassPlus
 -}
 magnifyingGlassPlus : List (Attribute msg) -> Html msg
 magnifyingGlassPlus attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M9 6a.75.75 0 0 1 .75.75v1.5h1.5a.75.75 0 0 1 0 1.5h-1.5v1.5a.75.75 0 0 1-1.5 0v-1.5h-1.5a.75.75 0 0 1 0-1.5h1.5v-1.5A.75.75 0 0 1 9 6Z" ] [], Svg.path [ fillRule "evenodd", d "M2 9a7 7 0 1 1 12.452 4.391l3.328 3.329a.75.75 0 1 1-1.06 1.06l-3.329-3.328A7 7 0 0 1 2 9Zm7-5.5a5.5 5.5 0 1 0 0 11 5.5 5.5 0 0 0 0-11Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTkgMy41YTUuNSA1LjUgMCAxIDAgMCAxMSA1LjUgNS41IDAgMCAwIDAtMTFaTTIgOWE3IDcgMCAxIDEgMTIuNDUyIDQuMzkxbDMuMzI4IDMuMzI5YS43NS43NSAwIDEgMS0xLjA2IDEuMDZsLTMuMzI5LTMuMzI4QTcgNyAwIDAgMSAyIDlaIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| magnifyingGlass
 -}
 magnifyingGlass : List (Attribute msg) -> Html msg
 magnifyingGlass attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M9 3.5a5.5 5.5 0 1 0 0 11 5.5 5.5 0 0 0 0-11ZM2 9a7 7 0 1 1 12.452 4.391l3.328 3.329a.75.75 0 1 1-1.06 1.06l-3.329-3.328A7 7 0 0 1 2 9Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0ibTkuNjkgMTguOTMzLjAwMy4wMDFDOS44OSAxOS4wMiAxMCAxOSAxMCAxOXMuMTEuMDIuMzA4LS4wNjZsLjAwMi0uMDAxLjAwNi0uMDAzLjAxOC0uMDA4YTUuNzQxIDUuNzQxIDAgMCAwIC4yODEtLjE0Yy4xODYtLjA5Ni40NDYtLjI0Ljc1Ny0uNDMzLjYyLS4zODQgMS40NDUtLjk2NiAyLjI3NC0xLjc2NUMxNS4zMDIgMTQuOTg4IDE3IDEyLjQ5MyAxNyA5QTcgNyAwIDEgMCAzIDljMCAzLjQ5MiAxLjY5OCA1Ljk4OCAzLjM1NSA3LjU4NGExMy43MzEgMTMuNzMxIDAgMCAwIDIuMjczIDEuNzY1IDExLjg0MiAxMS44NDIgMCAwIDAgLjk3Ni41NDRsLjA2Mi4wMjkuMDE4LjAwOC4wMDYuMDAzWk0xMCAxMS4yNWEyLjI1IDIuMjUgMCAxIDAgMC00LjUgMi4yNSAyLjI1IDAgMCAwIDAgNC41WiIgY2xpcC1ydWxlPSJldmVub2RkIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| mapPin
 -}
 mapPin : List (Attribute msg) -> Html msg
 mapPin attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "m9.69 18.933.003.001C9.89 19.02 10 19 10 19s.11.02.308-.066l.002-.001.006-.003.018-.008a5.741 5.741 0 0 0 .281-.14c.186-.096.446-.24.757-.433.62-.384 1.445-.966 2.274-1.765C15.302 14.988 17 12.493 17 9A7 7 0 1 0 3 9c0 3.492 1.698 5.988 3.355 7.584a13.731 13.731 0 0 0 2.273 1.765 11.842 11.842 0 0 0 .976.544l.062.029.018.008.006.003ZM10 11.25a2.25 2.25 0 1 0 0-4.5 2.25 2.25 0 0 0 0 4.5Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTguMTU3IDIuMTc2YTEuNSAxLjUgMCAwIDAtMS4xNDcgMGwtNC4wODQgMS42OUExLjUgMS41IDAgMCAwIDIgNS4yNXYxMC44NzdhMS41IDEuNSAwIDAgMCAyLjA3NCAxLjM4NmwzLjUxLTEuNDUyIDQuMjYgMS43NjJhMS41IDEuNSAwIDAgMCAxLjE0NiAwbDQuMDgzLTEuNjlBMS41IDEuNSAwIDAgMCAxOCAxNC43NVYzLjg3MmExLjUgMS41IDAgMCAwLTIuMDczLTEuMzg2bC0zLjUxIDEuNDUyLTQuMjYtMS43NjJaTTcuNTggNWEuNzUuNzUgMCAwIDEgLjc1Ljc1djYuNWEuNzUuNzUgMCAwIDEtMS41IDB2LTYuNUEuNzUuNzUgMCAwIDEgNy41OCA1Wm01LjU5IDIuNzVhLjc1Ljc1IDAgMCAwLTEuNSAwdjYuNWEuNzUuNzUgMCAwIDAgMS41IDB2LTYuNVoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| map
 -}
 map : List (Attribute msg) -> Html msg
 map attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M8.157 2.176a1.5 1.5 0 0 0-1.147 0l-4.084 1.69A1.5 1.5 0 0 0 2 5.25v10.877a1.5 1.5 0 0 0 2.074 1.386l3.51-1.452 4.26 1.762a1.5 1.5 0 0 0 1.146 0l4.083-1.69A1.5 1.5 0 0 0 18 14.75V3.872a1.5 1.5 0 0 0-2.073-1.386l-3.51 1.452-4.26-1.762ZM7.58 5a.75.75 0 0 1 .75.75v6.5a.75.75 0 0 1-1.5 0v-6.5A.75.75 0 0 1 7.58 5Zm5.59 2.75a.75.75 0 0 0-1.5 0v6.5a.75.75 0 0 0 1.5 0v-6.5Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik0xMy45MiAzLjg0NWExOS4zNjIgMTkuMzYyIDAgMCAxLTYuMyAxLjk4QzYuNzY1IDUuOTQyIDUuODkgNiA1IDZhNCA0IDAgMCAwLS41MDQgNy45NjkgMTUuOTcgMTUuOTcgMCAwIDAgMS4yNzEgMy4zNGMuMzk3Ljc3MSAxLjM0MiAxIDIuMDUuNTlsLjg2Ny0uNWMuNzI2LS40MTkuOTQtMS4zMi41ODgtMi4wMi0uMTY2LS4zMzEtLjMxNS0uNjY2LS40NDgtMS4wMDQgMS44LjM1NyAzLjUxMS45NjMgNS4wOTYgMS43OEExNy45NjQgMTcuOTY0IDAgMCAwIDE1IDEwYzAtMi4xNjItLjM4MS00LjIzNS0xLjA4LTYuMTU1Wk0xNS4yNDMgMy4wOTdBMTkuNDU2IDE5LjQ1NiAwIDAgMSAxNi41IDEwYzAgMi40My0uNDQ1IDQuNzU4LTEuMjU3IDYuOTA0bC0uMDMuMDc3YS43NS43NSAwIDAgMCAxLjQwMS41MzcgMjAuOTAzIDIwLjkwMyAwIDAgMCAxLjMxMi01Ljc0NSAyIDIgMCAwIDAgMC0zLjU0NiAyMC45MDIgMjAuOTAyIDAgMCAwLTEuMzEyLTUuNzQ1Ljc1Ljc1IDAgMCAwLTEuNC41MzdsLjAyOS4wNzhaIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| megaphone
 -}
 megaphone : List (Attribute msg) -> Html msg
 megaphone attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M13.92 3.845a19.362 19.362 0 0 1-6.3 1.98C6.765 5.942 5.89 6 5 6a4 4 0 0 0-.504 7.969 15.97 15.97 0 0 0 1.271 3.34c.397.771 1.342 1 2.05.59l.867-.5c.726-.419.94-1.32.588-2.02-.166-.331-.315-.666-.448-1.004 1.8.357 3.511.963 5.096 1.78A17.964 17.964 0 0 0 15 10c0-2.162-.381-4.235-1.08-6.155ZM15.243 3.097A19.456 19.456 0 0 1 16.5 10c0 2.43-.445 4.758-1.257 6.904l-.03.077a.75.75 0 0 0 1.401.537 20.903 20.903 0 0 0 1.312-5.745 2 2 0 0 0 0-3.546 20.902 20.902 0 0 0-1.312-5.745.75.75 0 0 0-1.4.537l.029.078Z" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik03IDRhMyAzIDAgMCAxIDYgMHY2YTMgMyAwIDEgMS02IDBWNFoiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjxwYXRoIGQ9Ik01LjUgOS42NDNhLjc1Ljc1IDAgMCAwLTEuNSAwVjEwYzAgMy4wNiAyLjI5IDUuNTg1IDUuMjUgNS45NTRWMTcuNWgtMS41YS43NS43NSAwIDAgMCAwIDEuNWg0LjVhLjc1Ljc1IDAgMCAwIDAtMS41aC0xLjV2LTEuNTQ2QTYuMDAxIDYuMDAxIDAgMCAwIDE2IDEwdi0uMzU3YS43NS43NSAwIDAgMC0xLjUgMFYxMGE0LjUgNC41IDAgMCAxLTkgMHYtLjM1N1oiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| microphone
 -}
 microphone : List (Attribute msg) -> Html msg
 microphone attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M7 4a3 3 0 0 1 6 0v6a3 3 0 1 1-6 0V4Z" ] [], Svg.path [ d "M5.5 9.643a.75.75 0 0 0-1.5 0V10c0 3.06 2.29 5.585 5.25 5.954V17.5h-1.5a.75.75 0 0 0 0 1.5h4.5a.75.75 0 0 0 0-1.5h-1.5v-1.546A6.001 6.001 0 0 0 16 10v-.357a.75.75 0 0 0-1.5 0V10a4.5 4.5 0 0 1-9 0v-.357Z" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEwIDE4YTggOCAwIDEgMCAwLTE2IDggOCAwIDAgMCAwIDE2Wk02Ljc1IDkuMjVhLjc1Ljc1IDAgMCAwIDAgMS41aDYuNWEuNzUuNzUgMCAwIDAgMC0xLjVoLTYuNVoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| minusCircle
 -}
 minusCircle : List (Attribute msg) -> Html msg
 minusCircle attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16ZM6.75 9.25a.75.75 0 0 0 0 1.5h6.5a.75.75 0 0 0 0-1.5h-6.5Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik02Ljc1IDkuMjVhLjc1Ljc1IDAgMCAwIDAgMS41aDYuNWEuNzUuNzUgMCAwIDAgMC0xLjVoLTYuNVoiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| minusSmall
 -}
 minusSmall : List (Attribute msg) -> Html msg
 minusSmall attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M6.75 9.25a.75.75 0 0 0 0 1.5h6.5a.75.75 0 0 0 0-1.5h-6.5Z" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTQgMTBhLjc1Ljc1IDAgMCAxIC43NS0uNzVoMTAuNWEuNzUuNzUgMCAwIDEgMCAxLjVINC43NUEuNzUuNzUgMCAwIDEgNCAxMFoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| minus
 -}
 minus : List (Attribute msg) -> Html msg
 minus attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M4 10a.75.75 0 0 1 .75-.75h10.5a.75.75 0 0 1 0 1.5H4.75A.75.75 0 0 1 4 10Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTcuNDU1IDIuMDA0YS43NS43NSAwIDAgMSAuMjYuNzcgNyA3IDAgMCAwIDkuOTU4IDcuOTY3Ljc1Ljc1IDAgMCAxIDEuMDY3Ljg1M0E4LjUgOC41IDAgMSAxIDYuNjQ3IDEuOTIxYS43NS43NSAwIDAgMSAuODA4LjA4M1oiIGNsaXAtcnVsZT0iZXZlbm9kZCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| moon
 -}
 moon : List (Attribute msg) -> Html msg
 moon attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M7.455 2.004a.75.75 0 0 1 .26.77 7 7 0 0 0 9.958 7.967.75.75 0 0 1 1.067.853A8.5 8.5 0 1 1 6.647 1.921a.75.75 0 0 1 .808.083Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTE3LjcyMSAxLjU5OWEuNzUuNzUgMCAwIDEgLjI3OS41ODN2MTEuMjlhMi4yNSAyLjI1IDAgMCAxLTEuNzc0IDIuMmwtMi4wNDEuNDRhMi4yMTYgMi4yMTYgMCAwIDEtLjkzOC00LjMzMmwyLjY2Mi0uNTc3YS43NS43NSAwIDAgMCAuNTkxLS43MzNWNi4xMTJsLTggMS43M3Y3LjY4NGEyLjI1IDIuMjUgMCAwIDEtMS43NzQgMi4ybC0yLjA0Mi40NGEyLjIxNiAyLjIxNiAwIDEgMS0uOTM1LTQuMzMxbDIuNjU5LS41NzNBLjc1Ljc1IDAgMCAwIDcgMTIuNTI5VjQuMjM2YS43NS43NSAwIDAgMSAuNTkxLS43MzNsOS41LTIuMDU0YS43NS43NSAwIDAgMSAuNjMuMTVaIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| musicalNote
 -}
 musicalNote : List (Attribute msg) -> Html msg
 musicalNote attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M17.721 1.599a.75.75 0 0 1 .279.583v11.29a2.25 2.25 0 0 1-1.774 2.2l-2.041.44a2.216 2.216 0 0 1-.938-4.332l2.662-.577a.75.75 0 0 0 .591-.733V6.112l-8 1.73v7.684a2.25 2.25 0 0 1-1.774 2.2l-2.042.44a2.216 2.216 0 1 1-.935-4.331l2.659-.573A.75.75 0 0 0 7 12.529V4.236a.75.75 0 0 1 .591-.733l9.5-2.054a.75.75 0 0 1 .63.15Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTIgMy41QTEuNSAxLjUgMCAwIDEgMy41IDJoOUExLjUgMS41IDAgMCAxIDE0IDMuNXYxMS43NUEyLjc1IDIuNzUgMCAwIDAgMTYuNzUgMThoLTEyQTIuNzUgMi43NSAwIDAgMSAyIDE1LjI1VjMuNVptMy43NSA3YS43NS43NSAwIDAgMCAwIDEuNWg0LjVhLjc1Ljc1IDAgMCAwIDAtMS41aC00LjVabTAgM2EuNzUuNzUgMCAwIDAgMCAxLjVoNC41YS43NS43NSAwIDAgMCAwLTEuNWgtNC41Wk01IDUuNzVBLjc1Ljc1IDAgMCAxIDUuNzUgNWg0LjVhLjc1Ljc1IDAgMCAxIC43NS43NXYyLjVhLjc1Ljc1IDAgMCAxLS43NS43NWgtNC41QS43NS43NSAwIDAgMSA1IDguMjV2LTIuNVoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PHBhdGggZD0iTTE2LjUgNi41aC0xdjguNzVhMS4yNSAxLjI1IDAgMSAwIDIuNSAwVjhhMS41IDEuNSAwIDAgMC0xLjUtMS41WiIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| newspaper
 -}
 newspaper : List (Attribute msg) -> Html msg
 newspaper attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M2 3.5A1.5 1.5 0 0 1 3.5 2h9A1.5 1.5 0 0 1 14 3.5v11.75A2.75 2.75 0 0 0 16.75 18h-12A2.75 2.75 0 0 1 2 15.25V3.5Zm3.75 7a.75.75 0 0 0 0 1.5h4.5a.75.75 0 0 0 0-1.5h-4.5Zm0 3a.75.75 0 0 0 0 1.5h4.5a.75.75 0 0 0 0-1.5h-4.5ZM5 5.75A.75.75 0 0 1 5.75 5h4.5a.75.75 0 0 1 .75.75v2.5a.75.75 0 0 1-.75.75h-4.5A.75.75 0 0 1 5 8.25v-2.5Z", clipRule "evenodd" ] [], Svg.path [ d "M16.5 6.5h-1v8.75a1.25 1.25 0 1 0 2.5 0V8a1.5 1.5 0 0 0-1.5-1.5Z" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0ibTUuOTY1IDQuOTA0IDkuMTMxIDkuMTMxYTYuNSA2LjUgMCAwIDAtOS4xMzEtOS4xMzFabTguMDcgMTAuMTkyTDQuOTA0IDUuOTY1YTYuNSA2LjUgMCAwIDAgOS4xMzEgOS4xMzFaTTQuMzQzIDQuMzQzYTggOCAwIDEgMSAxMS4zMTQgMTEuMzE0QTggOCAwIDAgMSA0LjM0MyA0LjM0M1oiIGNsaXAtcnVsZT0iZXZlbm9kZCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| noSymbol
 -}
 noSymbol : List (Attribute msg) -> Html msg
 noSymbol attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "m5.965 4.904 9.131 9.131a6.5 6.5 0 0 0-9.131-9.131Zm8.07 10.192L4.904 5.965a6.5 6.5 0 0 0 9.131 9.131ZM4.343 4.343a8 8 0 1 1 11.314 11.314A8 8 0 0 1 4.343 4.343Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik0xNS45OTMgMS4zODVhMS44NyAxLjg3IDAgMCAxIDIuNjIzIDIuNjIybC00LjAzIDUuMjdhMTIuNzQ5IDEyLjc0OSAwIDAgMS00LjIzNyAzLjU2MiA0LjUwOCA0LjUwOCAwIDAgMC0zLjE4OC0zLjE4OCAxMi43NSAxMi43NSAwIDAgMSAzLjU2Mi00LjIzNmw1LjI3LTQuMDNaTTYgMTFhMyAzIDAgMCAwLTMgMyAuNS41IDAgMCAxLS43Mi40NS43NS43NSAwIDAgMC0xLjAzNS45MzFBNC4wMDEgNC4wMDEgMCAwIDAgOSAxNC4wMDRWMTRhMy4wMSAzLjAxIDAgMCAwLTEuNjYtMi42ODVBMi45OSAyLjk5IDAgMCAwIDYgMTFaIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| paintBrush
 -}
 paintBrush : List (Attribute msg) -> Html msg
 paintBrush attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M15.993 1.385a1.87 1.87 0 0 1 2.623 2.622l-4.03 5.27a12.749 12.749 0 0 1-4.237 3.562 4.508 4.508 0 0 0-3.188-3.188 12.75 12.75 0 0 1 3.562-4.236l5.27-4.03ZM6 11a3 3 0 0 0-3 3 .5.5 0 0 1-.72.45.75.75 0 0 0-1.035.931A4.001 4.001 0 0 0 9 14.004V14a3.01 3.01 0 0 0-1.66-2.685A2.99 2.99 0 0 0 6 11Z" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik0zLjEwNSAyLjI4OGEuNzUuNzUgMCAwIDAtLjgyNi45NWwxLjQxNCA0LjkyNkExLjUgMS41IDAgMCAwIDUuMTM1IDkuMjVoNi4xMTVhLjc1Ljc1IDAgMCAxIDAgMS41SDUuMTM1YTEuNSAxLjUgMCAwIDAtMS40NDIgMS4wODZsLTEuNDE0IDQuOTI2YS43NS43NSAwIDAgMCAuODI2Ljk1IDI4Ljg5NyAyOC44OTcgMCAwIDAgMTUuMjkzLTcuMTU1Ljc1Ljc1IDAgMCAwIDAtMS4xMTRBMjguODk3IDI4Ljg5NyAwIDAgMCAzLjEwNSAyLjI4OFoiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| paperAirplane
 -}
 paperAirplane : List (Attribute msg) -> Html msg
 paperAirplane attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M3.105 2.288a.75.75 0 0 0-.826.95l1.414 4.926A1.5 1.5 0 0 0 5.135 9.25h6.115a.75.75 0 0 1 0 1.5H5.135a1.5 1.5 0 0 0-1.442 1.086l-1.414 4.926a.75.75 0 0 0 .826.95 28.897 28.897 0 0 0 15.293-7.155.75.75 0 0 0 0-1.114A28.897 28.897 0 0 0 3.105 2.288Z" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTE1LjYyMSA0LjM3OWEzIDMgMCAwIDAtNC4yNDIgMGwtNyA3YTMgMyAwIDAgMCA0LjI0MSA0LjI0M2guMDAxbC40OTctLjVhLjc1Ljc1IDAgMCAxIDEuMDY0IDEuMDU3bC0uNDk4LjUwMS0uMDAyLjAwMmE0LjUgNC41IDAgMCAxLTYuMzY0LTYuMzY0bDctN2E0LjUgNC41IDAgMCAxIDYuMzY4IDYuMzZsLTMuNDU1IDMuNTUzQTIuNjI1IDIuNjI1IDAgMSAxIDkuNTIgOS41MmwzLjQ1LTMuNDUxYS43NS43NSAwIDEgMSAxLjA2MSAxLjA2bC0zLjQ1IDMuNDUxYTEuMTI1IDEuMTI1IDAgMCAwIDEuNTg3IDEuNTk1bDMuNDU0LTMuNTUzYTMgMyAwIDAgMCAwLTQuMjQyWiIgY2xpcC1ydWxlPSJldmVub2RkIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| paperClip
 -}
 paperClip : List (Attribute msg) -> Html msg
 paperClip attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M15.621 4.379a3 3 0 0 0-4.242 0l-7 7a3 3 0 0 0 4.241 4.243h.001l.497-.5a.75.75 0 0 1 1.064 1.057l-.498.501-.002.002a4.5 4.5 0 0 1-6.364-6.364l7-7a4.5 4.5 0 0 1 6.368 6.36l-3.455 3.553A2.625 2.625 0 1 1 9.52 9.52l3.45-3.451a.75.75 0 1 1 1.061 1.06l-3.45 3.451a1.125 1.125 0 0 0 1.587 1.595l3.454-3.553a3 3 0 0 0 0-4.242Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTIgMTBhOCA4IDAgMSAxIDE2IDAgOCA4IDAgMCAxLTE2IDBabTUtMi4yNUEuNzUuNzUgMCAwIDEgNy43NSA3aC41YS43NS43NSAwIDAgMSAuNzUuNzV2NC41YS43NS43NSAwIDAgMS0uNzUuNzVoLS41YS43NS43NSAwIDAgMS0uNzUtLjc1di00LjVabTQgMGEuNzUuNzUgMCAwIDEgLjc1LS43NWguNWEuNzUuNzUgMCAwIDEgLjc1Ljc1djQuNWEuNzUuNzUgMCAwIDEtLjc1Ljc1aC0uNWEuNzUuNzUgMCAwIDEtLjc1LS43NXYtNC41WiIgY2xpcC1ydWxlPSJldmVub2RkIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| pauseCircle
 -}
 pauseCircle : List (Attribute msg) -> Html msg
 pauseCircle attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M2 10a8 8 0 1 1 16 0 8 8 0 0 1-16 0Zm5-2.25A.75.75 0 0 1 7.75 7h.5a.75.75 0 0 1 .75.75v4.5a.75.75 0 0 1-.75.75h-.5a.75.75 0 0 1-.75-.75v-4.5Zm4 0a.75.75 0 0 1 .75-.75h.5a.75.75 0 0 1 .75.75v4.5a.75.75 0 0 1-.75.75h-.5a.75.75 0 0 1-.75-.75v-4.5Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik01Ljc1IDNhLjc1Ljc1IDAgMCAwLS43NS43NXYxMi41YzAgLjQxNC4zMzYuNzUuNzUuNzVoMS41YS43NS43NSAwIDAgMCAuNzUtLjc1VjMuNzVBLjc1Ljc1IDAgMCAwIDcuMjUgM2gtMS41Wk0xMi43NSAzYS43NS43NSAwIDAgMC0uNzUuNzV2MTIuNWMwIC40MTQuMzM2Ljc1Ljc1Ljc1aDEuNWEuNzUuNzUgMCAwIDAgLjc1LS43NVYzLjc1YS43NS43NSAwIDAgMC0uNzUtLjc1aC0xLjVaIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| pause
 -}
 pause : List (Attribute msg) -> Html msg
 pause attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M5.75 3a.75.75 0 0 0-.75.75v12.5c0 .414.336.75.75.75h1.5a.75.75 0 0 0 .75-.75V3.75A.75.75 0 0 0 7.25 3h-1.5ZM12.75 3a.75.75 0 0 0-.75.75v12.5c0 .414.336.75.75.75h1.5a.75.75 0 0 0 .75-.75V3.75a.75.75 0 0 0-.75-.75h-1.5Z" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Im01LjQzMyAxMy45MTcgMS4yNjItMy4xNTVBNCA0IDAgMCAxIDcuNTggOS40Mmw2LjkyLTYuOTE4YTIuMTIxIDIuMTIxIDAgMCAxIDMgM2wtNi45MiA2LjkxOGMtLjM4My4zODMtLjg0LjY4NS0xLjM0My44ODZsLTMuMTU0IDEuMjYyYS41LjUgMCAwIDEtLjY1LS42NVoiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjxwYXRoIGQ9Ik0zLjUgNS43NWMwLS42OS41Ni0xLjI1IDEuMjUtMS4yNUgxMEEuNzUuNzUgMCAwIDAgMTAgM0g0Ljc1QTIuNzUgMi43NSAwIDAgMCAyIDUuNzV2OS41QTIuNzUgMi43NSAwIDAgMCA0Ljc1IDE4aDkuNUEyLjc1IDIuNzUgMCAwIDAgMTcgMTUuMjVWMTBhLjc1Ljc1IDAgMCAwLTEuNSAwdjUuMjVjMCAuNjktLjU2IDEuMjUtMS4yNSAxLjI1aC05LjVjLS42OSAwLTEuMjUtLjU2LTEuMjUtMS4yNXYtOS41WiIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| pencilSquare
 -}
 pencilSquare : List (Attribute msg) -> Html msg
 pencilSquare attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "m5.433 13.917 1.262-3.155A4 4 0 0 1 7.58 9.42l6.92-6.918a2.121 2.121 0 0 1 3 3l-6.92 6.918c-.383.383-.84.685-1.343.886l-3.154 1.262a.5.5 0 0 1-.65-.65Z" ] [], Svg.path [ d "M3.5 5.75c0-.69.56-1.25 1.25-1.25H10A.75.75 0 0 0 10 3H4.75A2.75 2.75 0 0 0 2 5.75v9.5A2.75 2.75 0 0 0 4.75 18h9.5A2.75 2.75 0 0 0 17 15.25V10a.75.75 0 0 0-1.5 0v5.25c0 .69-.56 1.25-1.25 1.25h-9.5c-.69 0-1.25-.56-1.25-1.25v-9.5Z" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Im0yLjY5NSAxNC43NjItMS4yNjIgMy4xNTVhLjUuNSAwIDAgMCAuNjUuNjVsMy4xNTUtMS4yNjJhNCA0IDAgMCAwIDEuMzQzLS44ODZMMTcuNSA1LjUwMWEyLjEyMSAyLjEyMSAwIDAgMC0zLTNMMy41OCAxMy40MTlhNCA0IDAgMCAwLS44ODUgMS4zNDNaIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| pencil
 -}
 pencil : List (Attribute msg) -> Html msg
 pencil attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "m2.695 14.762-1.262 3.155a.5.5 0 0 0 .65.65l3.155-1.262a4 4 0 0 0 1.343-.886L17.5 5.501a2.121 2.121 0 0 0-3-3L3.58 13.419a4 4 0 0 0-.885 1.343Z" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik0zLjUgMkExLjUgMS41IDAgMCAwIDIgMy41VjVjMCAxLjE0OS4xNSAyLjI2My40MyAzLjMyNmExMy4wMjIgMTMuMDIyIDAgMCAwIDkuMjQ0IDkuMjQ0YzEuMDYzLjI4IDIuMTc3LjQzIDMuMzI2LjQzaDEuNWExLjUgMS41IDAgMCAwIDEuNS0xLjV2LTEuMTQ4YTEuNSAxLjUgMCAwIDAtMS4xNzUtMS40NjVsLTMuMjIzLS43MTZhMS41IDEuNSAwIDAgMC0xLjc2NyAxLjA1MmwtLjI2Ny45MzNjLS4xMTcuNDEtLjU1NS42NDMtLjk1LjQ4YTExLjU0MiAxMS41NDIgMCAwIDEtNi4yNTQtNi4yNTRjLS4xNjMtLjM5NS4wNy0uODMzLjQ4LS45NWwuOTMzLS4yNjdhMS41IDEuNSAwIDAgMCAxLjA1Mi0xLjc2N2wtLjcxNi0zLjIyM0ExLjUgMS41IDAgMCAwIDQuNjQ4IDJIMy41Wk0xNi43MiAyLjIyYS43NS43NSAwIDEgMSAxLjA2IDEuMDZMMTQuNTYgNi41aDIuNjlhLjc1Ljc1IDAgMCAxIDAgMS41aC00LjVhLjc1Ljc1IDAgMCAxLS43NS0uNzV2LTQuNWEuNzUuNzUgMCAwIDEgMS41IDB2Mi42OWwzLjIyLTMuMjJaIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| phoneArrowDownLeft
 -}
 phoneArrowDownLeft : List (Attribute msg) -> Html msg
 phoneArrowDownLeft attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M3.5 2A1.5 1.5 0 0 0 2 3.5V5c0 1.149.15 2.263.43 3.326a13.022 13.022 0 0 0 9.244 9.244c1.063.28 2.177.43 3.326.43h1.5a1.5 1.5 0 0 0 1.5-1.5v-1.148a1.5 1.5 0 0 0-1.175-1.465l-3.223-.716a1.5 1.5 0 0 0-1.767 1.052l-.267.933c-.117.41-.555.643-.95.48a11.542 11.542 0 0 1-6.254-6.254c-.163-.395.07-.833.48-.95l.933-.267a1.5 1.5 0 0 0 1.052-1.767l-.716-3.223A1.5 1.5 0 0 0 4.648 2H3.5ZM16.72 2.22a.75.75 0 1 1 1.06 1.06L14.56 6.5h2.69a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1-.75-.75v-4.5a.75.75 0 0 1 1.5 0v2.69l3.22-3.22Z" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik0zLjUgMkExLjUgMS41IDAgMCAwIDIgMy41VjVjMCAxLjE0OS4xNSAyLjI2My40MyAzLjMyNmExMy4wMjIgMTMuMDIyIDAgMCAwIDkuMjQ0IDkuMjQ0YzEuMDYzLjI4IDIuMTc3LjQzIDMuMzI2LjQzaDEuNWExLjUgMS41IDAgMCAwIDEuNS0xLjV2LTEuMTQ4YTEuNSAxLjUgMCAwIDAtMS4xNzUtMS40NjVsLTMuMjIzLS43MTZhMS41IDEuNSAwIDAgMC0xLjc2NyAxLjA1MmwtLjI2Ny45MzNjLS4xMTcuNDEtLjU1NS42NDMtLjk1LjQ4YTExLjU0MiAxMS41NDIgMCAwIDEtNi4yNTQtNi4yNTRjLS4xNjMtLjM5NS4wNy0uODMzLjQ4LS45NWwuOTMzLS4yNjdhMS41IDEuNSAwIDAgMCAxLjA1Mi0xLjc2N2wtLjcxNi0zLjIyM0ExLjUgMS41IDAgMCAwIDQuNjQ4IDJIMy41Wk0xNi41IDQuNTZsLTMuMjIgMy4yMmEuNzUuNzUgMCAxIDEtMS4wNi0xLjA2bDMuMjItMy4yMmgtMi42OWEuNzUuNzUgMCAwIDEgMC0xLjVoNC41YS43NS43NSAwIDAgMSAuNzUuNzV2NC41YS43NS43NSAwIDAgMS0xLjUgMFY0LjU2WiIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| phoneArrowUpRight
 -}
 phoneArrowUpRight : List (Attribute msg) -> Html msg
 phoneArrowUpRight attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M3.5 2A1.5 1.5 0 0 0 2 3.5V5c0 1.149.15 2.263.43 3.326a13.022 13.022 0 0 0 9.244 9.244c1.063.28 2.177.43 3.326.43h1.5a1.5 1.5 0 0 0 1.5-1.5v-1.148a1.5 1.5 0 0 0-1.175-1.465l-3.223-.716a1.5 1.5 0 0 0-1.767 1.052l-.267.933c-.117.41-.555.643-.95.48a11.542 11.542 0 0 1-6.254-6.254c-.163-.395.07-.833.48-.95l.933-.267a1.5 1.5 0 0 0 1.052-1.767l-.716-3.223A1.5 1.5 0 0 0 4.648 2H3.5ZM16.5 4.56l-3.22 3.22a.75.75 0 1 1-1.06-1.06l3.22-3.22h-2.69a.75.75 0 0 1 0-1.5h4.5a.75.75 0 0 1 .75.75v4.5a.75.75 0 0 1-1.5 0V4.56Z" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTMuNSAyQTEuNSAxLjUgMCAwIDAgMiAzLjVWNWMwIDEuMTQ5LjE1IDIuMjYzLjQzIDMuMzI2YTEzLjAyMiAxMy4wMjIgMCAwIDAgOS4yNDQgOS4yNDRjMS4wNjMuMjggMi4xNzcuNDMgMy4zMjYuNDNoMS41YTEuNSAxLjUgMCAwIDAgMS41LTEuNXYtMS4xNDhhMS41IDEuNSAwIDAgMC0xLjE3NS0xLjQ2NWwtMy4yMjMtLjcxNmExLjUgMS41IDAgMCAwLTEuNzY3IDEuMDUybC0uMjY3LjkzM2MtLjExNy40MS0uNTU1LjY0My0uOTUuNDhhMTEuNTQyIDExLjU0MiAwIDAgMS02LjI1NC02LjI1NGMtLjE2My0uMzk1LjA3LS44MzMuNDgtLjk1bC45MzMtLjI2N2ExLjUgMS41IDAgMCAwIDEuMDUyLTEuNzY3bC0uNzE2LTMuMjIzQTEuNSAxLjUgMCAwIDAgNC42NDggMkgzLjVabTkuNzguMjJhLjc1Ljc1IDAgMSAwLTEuMDYgMS4wNkwxMy45NCA1bC0xLjcyIDEuNzJhLjc1Ljc1IDAgMCAwIDEuMDYgMS4wNkwxNSA2LjA2bDEuNzIgMS43MmEuNzUuNzUgMCAxIDAgMS4wNi0xLjA2TDE2LjA2IDVsMS43Mi0xLjcyYS43NS43NSAwIDAgMC0xLjA2LTEuMDZMMTUgMy45NGwtMS43Mi0xLjcyWiIgY2xpcC1ydWxlPSJldmVub2RkIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| phoneXMark
 -}
 phoneXMark : List (Attribute msg) -> Html msg
 phoneXMark attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M3.5 2A1.5 1.5 0 0 0 2 3.5V5c0 1.149.15 2.263.43 3.326a13.022 13.022 0 0 0 9.244 9.244c1.063.28 2.177.43 3.326.43h1.5a1.5 1.5 0 0 0 1.5-1.5v-1.148a1.5 1.5 0 0 0-1.175-1.465l-3.223-.716a1.5 1.5 0 0 0-1.767 1.052l-.267.933c-.117.41-.555.643-.95.48a11.542 11.542 0 0 1-6.254-6.254c-.163-.395.07-.833.48-.95l.933-.267a1.5 1.5 0 0 0 1.052-1.767l-.716-3.223A1.5 1.5 0 0 0 4.648 2H3.5Zm9.78.22a.75.75 0 1 0-1.06 1.06L13.94 5l-1.72 1.72a.75.75 0 0 0 1.06 1.06L15 6.06l1.72 1.72a.75.75 0 1 0 1.06-1.06L16.06 5l1.72-1.72a.75.75 0 0 0-1.06-1.06L15 3.94l-1.72-1.72Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTIgMy41QTEuNSAxLjUgMCAwIDEgMy41IDJoMS4xNDhhMS41IDEuNSAwIDAgMSAxLjQ2NSAxLjE3NWwuNzE2IDMuMjIzYTEuNSAxLjUgMCAwIDEtMS4wNTIgMS43NjdsLS45MzMuMjY3Yy0uNDEuMTE3LS42NDMuNTU1LS40OC45NWExMS41NDIgMTEuNTQyIDAgMCAwIDYuMjU0IDYuMjU0Yy4zOTUuMTYzLjgzMy0uMDcuOTUtLjQ4bC4yNjctLjkzM2ExLjUgMS41IDAgMCAxIDEuNzY3LTEuMDUybDMuMjIzLjcxNkExLjUgMS41IDAgMCAxIDE4IDE1LjM1MlYxNi41YTEuNSAxLjUgMCAwIDEtMS41IDEuNUgxNWMtMS4xNDkgMC0yLjI2My0uMTUtMy4zMjYtLjQzQTEzLjAyMiAxMy4wMjIgMCAwIDEgMi40MyA4LjMyNiAxMy4wMTkgMTMuMDE5IDAgMCAxIDIgNVYzLjVaIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| phone
 -}
 phone : List (Attribute msg) -> Html msg
 phone attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M2 3.5A1.5 1.5 0 0 1 3.5 2h1.148a1.5 1.5 0 0 1 1.465 1.175l.716 3.223a1.5 1.5 0 0 1-1.052 1.767l-.933.267c-.41.117-.643.555-.48.95a11.542 11.542 0 0 0 6.254 6.254c.395.163.833-.07.95-.48l.267-.933a1.5 1.5 0 0 1 1.767-1.052l3.223.716A1.5 1.5 0 0 1 18 15.352V16.5a1.5 1.5 0 0 1-1.5 1.5H15c-1.149 0-2.263-.15-3.326-.43A13.022 13.022 0 0 1 2.43 8.326 13.019 13.019 0 0 1 2 5V3.5Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEgNS4yNUEyLjI1IDIuMjUgMCAwIDEgMy4yNSAzaDEzLjVBMi4yNSAyLjI1IDAgMCAxIDE5IDUuMjV2OS41QTIuMjUgMi4yNSAwIDAgMSAxNi43NSAxN0gzLjI1QTIuMjUgMi4yNSAwIDAgMSAxIDE0Ljc1di05LjVabTEuNSA1LjgxdjMuNjljMCAuNDE0LjMzNi43NS43NS43NWgxMy41YS43NS43NSAwIDAgMCAuNzUtLjc1di0yLjY5bC0yLjIyLTIuMjE5YS43NS43NSAwIDAgMC0xLjA2IDBsLTEuOTEgMS45MDkuNDcuNDdhLjc1Ljc1IDAgMSAxLTEuMDYgMS4wNkw2LjUzIDguMDkxYS43NS43NSAwIDAgMC0xLjA2IDBsLTIuOTcgMi45N1pNMTIgN2ExIDEgMCAxIDEtMiAwIDEgMSAwIDAgMSAyIDBaIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| photo
 -}
 photo : List (Attribute msg) -> Html msg
 photo attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M1 5.25A2.25 2.25 0 0 1 3.25 3h13.5A2.25 2.25 0 0 1 19 5.25v9.5A2.25 2.25 0 0 1 16.75 17H3.25A2.25 2.25 0 0 1 1 14.75v-9.5Zm1.5 5.81v3.69c0 .414.336.75.75.75h13.5a.75.75 0 0 0 .75-.75v-2.69l-2.22-2.219a.75.75 0 0 0-1.06 0l-1.91 1.909.47.47a.75.75 0 1 1-1.06 1.06L6.53 8.091a.75.75 0 0 0-1.06 0l-2.97 2.97ZM12 7a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTIgMTBhOCA4IDAgMSAxIDE2IDAgOCA4IDAgMCAxLTE2IDBabTYuMzktMi45MDhhLjc1Ljc1IDAgMCAxIC43NjYuMDI3bDMuNSAyLjI1YS43NS43NSAwIDAgMSAwIDEuMjYybC0zLjUgMi4yNUEuNzUuNzUgMCAwIDEgOCAxMi4yNXYtNC41YS43NS43NSAwIDAgMSAuMzktLjY1OFoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| playCircle
 -}
 playCircle : List (Attribute msg) -> Html msg
 playCircle attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M2 10a8 8 0 1 1 16 0 8 8 0 0 1-16 0Zm6.39-2.908a.75.75 0 0 1 .766.027l3.5 2.25a.75.75 0 0 1 0 1.262l-3.5 2.25A.75.75 0 0 1 8 12.25v-4.5a.75.75 0 0 1 .39-.658Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik0xMi43NSA0YS43NS43NSAwIDAgMC0uNzUuNzV2MTAuNWMwIC40MTQuMzM2Ljc1Ljc1Ljc1aC41YS43NS43NSAwIDAgMCAuNzUtLjc1VjQuNzVhLjc1Ljc1IDAgMCAwLS43NS0uNzVoLS41Wk0xNy43NSA0YS43NS43NSAwIDAgMC0uNzUuNzV2MTAuNWMwIC40MTQuMzM2Ljc1Ljc1Ljc1aC41YS43NS43NSAwIDAgMCAuNzUtLjc1VjQuNzVhLjc1Ljc1IDAgMCAwLS43NS0uNzVoLS41Wk0zLjI4OCA0LjgxOUExLjUgMS41IDAgMCAwIDEgNi4wOTV2Ny44MWExLjUgMS41IDAgMCAwIDIuMjg4IDEuMjc3bDYuMzIzLTMuOTA2YTEuNSAxLjUgMCAwIDAgMC0yLjU1MkwzLjI4OCA0LjgxOVoiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| playPause
 -}
 playPause : List (Attribute msg) -> Html msg
 playPause attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M12.75 4a.75.75 0 0 0-.75.75v10.5c0 .414.336.75.75.75h.5a.75.75 0 0 0 .75-.75V4.75a.75.75 0 0 0-.75-.75h-.5ZM17.75 4a.75.75 0 0 0-.75.75v10.5c0 .414.336.75.75.75h.5a.75.75 0 0 0 .75-.75V4.75a.75.75 0 0 0-.75-.75h-.5ZM3.288 4.819A1.5 1.5 0 0 0 1 6.095v7.81a1.5 1.5 0 0 0 2.288 1.277l6.323-3.906a1.5 1.5 0 0 0 0-2.552L3.288 4.819Z" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik02LjMgMi44NEExLjUgMS41IDAgMCAwIDQgNC4xMXYxMS43OGExLjUgMS41IDAgMCAwIDIuMyAxLjI3bDkuMzQ0LTUuODkxYTEuNSAxLjUgMCAwIDAgMC0yLjUzOEw2LjMgMi44NDFaIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| play
 -}
 play : List (Attribute msg) -> Html msg
 play attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M6.3 2.84A1.5 1.5 0 0 0 4 4.11v11.78a1.5 1.5 0 0 0 2.3 1.27l9.344-5.891a1.5 1.5 0 0 0 0-2.538L6.3 2.841Z" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEwIDE4YTggOCAwIDEgMCAwLTE2IDggOCAwIDAgMCAwIDE2Wm0uNzUtMTEuMjVhLjc1Ljc1IDAgMCAwLTEuNSAwdjIuNWgtMi41YS43NS43NSAwIDAgMCAwIDEuNWgyLjV2Mi41YS43NS43NSAwIDAgMCAxLjUgMHYtMi41aDIuNWEuNzUuNzUgMCAwIDAgMC0xLjVoLTIuNXYtMi41WiIgY2xpcC1ydWxlPSJldmVub2RkIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| plusCircle
 -}
 plusCircle : List (Attribute msg) -> Html msg
 plusCircle attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm.75-11.25a.75.75 0 0 0-1.5 0v2.5h-2.5a.75.75 0 0 0 0 1.5h2.5v2.5a.75.75 0 0 0 1.5 0v-2.5h2.5a.75.75 0 0 0 0-1.5h-2.5v-2.5Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik0xMC43NSA2Ljc1YS43NS43NSAwIDAgMC0xLjUgMHYyLjVoLTIuNWEuNzUuNzUgMCAwIDAgMCAxLjVoMi41djIuNWEuNzUuNzUgMCAwIDAgMS41IDB2LTIuNWgyLjVhLjc1Ljc1IDAgMCAwIDAtMS41aC0yLjV2LTIuNVoiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| plusSmall
 -}
 plusSmall : List (Attribute msg) -> Html msg
 plusSmall attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M10.75 6.75a.75.75 0 0 0-1.5 0v2.5h-2.5a.75.75 0 0 0 0 1.5h2.5v2.5a.75.75 0 0 0 1.5 0v-2.5h2.5a.75.75 0 0 0 0-1.5h-2.5v-2.5Z" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik0xMC43NSA0Ljc1YS43NS43NSAwIDAgMC0xLjUgMHY0LjVoLTQuNWEuNzUuNzUgMCAwIDAgMCAxLjVoNC41djQuNWEuNzUuNzUgMCAwIDAgMS41IDB2LTQuNWg0LjVhLjc1Ljc1IDAgMCAwIDAtMS41aC00LjV2LTQuNVoiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| plus
 -}
 plus : List (Attribute msg) -> Html msg
 plus attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M10.75 4.75a.75.75 0 0 0-1.5 0v4.5h-4.5a.75.75 0 0 0 0 1.5h4.5v4.5a.75.75 0 0 0 1.5 0v-4.5h4.5a.75.75 0 0 0 0-1.5h-4.5v-4.5Z" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEwIDJhLjc1Ljc1IDAgMCAxIC43NS43NXY3LjVhLjc1Ljc1IDAgMCAxLTEuNSAwdi03LjVBLjc1Ljc1IDAgMCAxIDEwIDJaTTUuNDA0IDQuMzQzYS43NS43NSAwIDAgMSAwIDEuMDYgNi41IDYuNSAwIDEgMCA5LjE5MiAwIC43NS43NSAwIDEgMSAxLjA2LTEuMDYgOCA4IDAgMSAxLTExLjMxMyAwIC43NS43NSAwIDAgMSAxLjA2IDBaIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| power
 -}
 power : List (Attribute msg) -> Html msg
 power attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M10 2a.75.75 0 0 1 .75.75v7.5a.75.75 0 0 1-1.5 0v-7.5A.75.75 0 0 1 10 2ZM5.404 4.343a.75.75 0 0 1 0 1.06 6.5 6.5 0 1 0 9.192 0 .75.75 0 1 1 1.06-1.06 8 8 0 1 1-11.313 0 .75.75 0 0 1 1.06 0Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEgMi43NUEuNzUuNzUgMCAwIDEgMS43NSAyaDE2LjVhLjc1Ljc1IDAgMCAxIDAgMS41SDE4djguNzVBMi43NSAyLjc1IDAgMCAxIDE1LjI1IDE1aC0xLjA3MmwuNzk4IDMuMDZhLjc1Ljc1IDAgMCAxLTEuNDUyLjM4TDEzLjQxIDE4SDYuNTlsLS4xMTQuNDRhLjc1Ljc1IDAgMCAxLTEuNDUyLS4zOEw1LjgyMyAxNUg0Ljc1QTIuNzUgMi43NSAwIDAgMSAyIDEyLjI1VjMuNWgtLjI1QS43NS43NSAwIDAgMSAxIDIuNzVaTTcuMzczIDE1bC0uMzkxIDEuNWg2LjAzN2wtLjM5Mi0xLjVINy4zNzNaTTEzLjI1IDVhLjc1Ljc1IDAgMCAxIC43NS43NXY1LjVhLjc1Ljc1IDAgMCAxLTEuNSAwdi01LjVhLjc1Ljc1IDAgMCAxIC43NS0uNzVabS02LjUgNGEuNzUuNzUgMCAwIDEgLjc1Ljc1djEuNWEuNzUuNzUgMCAwIDEtMS41IDB2LTEuNUEuNzUuNzUgMCAwIDEgNi43NSA5Wm00LTEuMjVhLjc1Ljc1IDAgMCAwLTEuNSAwdjMuNWEuNzUuNzUgMCAwIDAgMS41IDB2LTMuNVoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| presentationChartBar
 -}
 presentationChartBar : List (Attribute msg) -> Html msg
 presentationChartBar attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M1 2.75A.75.75 0 0 1 1.75 2h16.5a.75.75 0 0 1 0 1.5H18v8.75A2.75 2.75 0 0 1 15.25 15h-1.072l.798 3.06a.75.75 0 0 1-1.452.38L13.41 18H6.59l-.114.44a.75.75 0 0 1-1.452-.38L5.823 15H4.75A2.75 2.75 0 0 1 2 12.25V3.5h-.25A.75.75 0 0 1 1 2.75ZM7.373 15l-.391 1.5h6.037l-.392-1.5H7.373ZM13.25 5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0v-5.5a.75.75 0 0 1 .75-.75Zm-6.5 4a.75.75 0 0 1 .75.75v1.5a.75.75 0 0 1-1.5 0v-1.5A.75.75 0 0 1 6.75 9Zm4-1.25a.75.75 0 0 0-1.5 0v3.5a.75.75 0 0 0 1.5 0v-3.5Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEgMi43NUEuNzUuNzUgMCAwIDEgMS43NSAyaDE2LjVhLjc1Ljc1IDAgMCAxIDAgMS41SDE4djguNzVBMi43NSAyLjc1IDAgMCAxIDE1LjI1IDE1aC0xLjA3MmwuNzk4IDMuMDZhLjc1Ljc1IDAgMCAxLTEuNDUyLjM4TDEzLjQxIDE4SDYuNTlsLS4xMTQuNDRhLjc1Ljc1IDAgMCAxLTEuNDUyLS4zOEw1LjgyMyAxNUg0Ljc1QTIuNzUgMi43NSAwIDAgMSAyIDEyLjI1VjMuNWgtLjI1QS43NS43NSAwIDAgMSAxIDIuNzVaTTcuMzczIDE1bC0uMzkxIDEuNWg2LjAzN2wtLjM5Mi0xLjVINy4zNzNabTcuNDktOC45MzFhLjc1Ljc1IDAgMCAxLS4xNzUgMS4wNDYgMTkuMzI2IDE5LjMyNiAwIDAgMC0zLjM5OCAzLjA5OC43NS43NSAwIDAgMS0xLjA5Ny4wNEw4LjUgOC41NjFsLTIuMjIgMi4yMkEuNzUuNzUgMCAxIDEgNS4yMiA5LjcybDIuNzUtMi43NWEuNzUuNzUgMCAwIDEgMS4wNiAwbDEuNjY0IDEuNjYzYTIwLjc4NiAyMC43ODYgMCAwIDEgMy4xMjItMi43NC43NS43NSAwIDAgMSAxLjA0Ni4xNzZaIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| presentationChartLine
 -}
 presentationChartLine : List (Attribute msg) -> Html msg
 presentationChartLine attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M1 2.75A.75.75 0 0 1 1.75 2h16.5a.75.75 0 0 1 0 1.5H18v8.75A2.75 2.75 0 0 1 15.25 15h-1.072l.798 3.06a.75.75 0 0 1-1.452.38L13.41 18H6.59l-.114.44a.75.75 0 0 1-1.452-.38L5.823 15H4.75A2.75 2.75 0 0 1 2 12.25V3.5h-.25A.75.75 0 0 1 1 2.75ZM7.373 15l-.391 1.5h6.037l-.392-1.5H7.373Zm7.49-8.931a.75.75 0 0 1-.175 1.046 19.326 19.326 0 0 0-3.398 3.098.75.75 0 0 1-1.097.04L8.5 8.561l-2.22 2.22A.75.75 0 1 1 5.22 9.72l2.75-2.75a.75.75 0 0 1 1.06 0l1.664 1.663a20.786 20.786 0 0 1 3.122-2.74.75.75 0 0 1 1.046.176Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTUgMi43NUM1IDEuNzg0IDUuNzg0IDEgNi43NSAxaDYuNWMuOTY2IDAgMS43NS43ODQgMS43NSAxLjc1djMuNTUyYy4zNzcuMDQ2Ljc1Mi4wOTcgMS4xMjYuMTUzQTIuMjEyIDIuMjEyIDAgMCAxIDE4IDguNjUzdjQuMDk3QTIuMjUgMi4yNSAwIDAgMSAxNS43NSAxNWgtLjI0MWwuMzA1IDEuOTg0QTEuNzUgMS43NSAwIDAgMSAxNC4wODQgMTlINS45MTVhMS43NSAxLjc1IDAgMCAxLTEuNzMtMi4wMTZMNC40OTIgMTVINC4yNUEyLjI1IDIuMjUgMCAwIDEgMiAxMi43NVY4LjY1M2MwLTEuMDgyLjc3NS0yLjAzNCAxLjg3NC0yLjE5OC4zNzQtLjA1Ni43NS0uMTA3IDEuMTI3LS4xNTNMNSA2LjI1di0zLjVabTguNSAzLjM5N2E0MS41MzMgNDEuNTMzIDAgMCAwLTcgMFYyLjc1YS4yNS4yNSAwIDAgMSAuMjUtLjI1aDYuNWEuMjUuMjUgMCAwIDEgLjI1LjI1djMuMzk3Wk02LjYwOCAxMi41YS4yNS4yNSAwIDAgMC0uMjQ3LjIxMmwtLjY5MyA0LjVhLjI1LjI1IDAgMCAwIC4yNDcuMjg4aDguMTdhLjI1LjI1IDAgMCAwIC4yNDYtLjI4OGwtLjY5Mi00LjVhLjI1LjI1IDAgMCAwLS4yNDctLjIxMkg2LjYwOFoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| printer
 -}
 printer : List (Attribute msg) -> Html msg
 printer attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M5 2.75C5 1.784 5.784 1 6.75 1h6.5c.966 0 1.75.784 1.75 1.75v3.552c.377.046.752.097 1.126.153A2.212 2.212 0 0 1 18 8.653v4.097A2.25 2.25 0 0 1 15.75 15h-.241l.305 1.984A1.75 1.75 0 0 1 14.084 19H5.915a1.75 1.75 0 0 1-1.73-2.016L4.492 15H4.25A2.25 2.25 0 0 1 2 12.75V8.653c0-1.082.775-2.034 1.874-2.198.374-.056.75-.107 1.127-.153L5 6.25v-3.5Zm8.5 3.397a41.533 41.533 0 0 0-7 0V2.75a.25.25 0 0 1 .25-.25h6.5a.25.25 0 0 1 .25.25v3.397ZM6.608 12.5a.25.25 0 0 0-.247.212l-.693 4.5a.25.25 0 0 0 .247.288h8.17a.25.25 0 0 0 .246-.288l-.692-4.5a.25.25 0 0 0-.247-.212H6.608Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik0xMiA0LjQ2N2MwLS40MDUuMjYyLS43NS41NTktMS4wMjcuMjc2LS4yNTcuNDQxLS41ODQuNDQxLS45NCAwLS44MjgtLjg5NS0xLjUtMi0xLjVzLTIgLjY3Mi0yIDEuNWMwIC4zNjIuMTcxLjY5NC40NTYuOTUzLjI5LjI2NS41NDQuNi41NDQuOTk0YS45NjguOTY4IDAgMCAxLTEuMDI0Ljk3NCAzOS42NTUgMzkuNjU1IDAgMCAxLTMuMDE0LS4zMDYuNzUuNzUgMCAwIDAtLjg0Ny44NDdjLjE0Ljk5My4yNDIgMS45OTkuMzA2IDMuMDE0QS45NjguOTY4IDAgMCAxIDQuNDQ3IDEwYy0uMzkzIDAtLjcyOS0uMjUzLS45OTQtLjU0NEMzLjE5NCA5LjE3IDIuODYyIDkgMi41IDkgMS42NzIgOSAxIDkuODk1IDEgMTFzLjY3MiAyIDEuNSAyYy4zNTYgMCAuNjgzLS4xNjUuOTQtLjQ0MS4yNzYtLjI5Ny42MjItLjU1OSAxLjAyNy0uNTU5YS45OTcuOTk3IDAgMCAxIDEuMDA0IDEuMDMgMzkuNzQ3IDM5Ljc0NyAwIDAgMS0uMzE5IDMuNzM0Ljc1Ljc1IDAgMCAwIC42NC44NDJjMS4wNS4xNDYgMi4xMTEuMjUyIDMuMTg0LjMxOEEuOTcuOTcgMCAwIDAgMTAgMTYuOTQ4YzAtLjM5NC0uMjU0LS43My0uNTQ1LS45OTVDOS4xNzEgMTUuNjkzIDkgMTUuMzYyIDkgMTVjMC0uODI4Ljg5NS0xLjUgMi0xLjVzMiAuNjcyIDIgMS41YzAgLjM1Ni0uMTY1LjY4My0uNDQxLjk0LS4yOTcuMjc2LS41NTkuNjIyLS41NTkgMS4wMjdhLjk5OC45OTggMCAwIDAgMS4wMyAxLjAwNWMxLjMzNy0uMDUgMi42NTktLjE2MiAzLjk2MS0uMzM3YS43NS43NSAwIDAgMCAuNjQ0LS42NDRjLjE3NS0xLjMwMi4yODgtMi42MjQuMzM3LTMuOTYxQS45OTguOTk4IDAgMCAwIDE2Ljk2NyAxMmMtLjQwNSAwLS43NS4yNjItMS4wMjcuNTU5LS4yNTcuMjc2LS41ODQuNDQxLS45NC40NDEtLjgyOCAwLTEuNS0uODk1LTEuNS0ycy42NzItMiAxLjUtMmMuMzYyIDAgLjY5NC4xNy45NTMuNDU1LjI2NS4yOTEuNjAxLjU0NS45OTUuNTQ1YS45Ny45NyAwIDAgMCAuOTc2LTEuMDI0IDQxLjE1OSA0MS4xNTkgMCAwIDAtLjMxOC0zLjE4NC43NS43NSAwIDAgMC0uODQyLS42NGMtMS4yMjguMTY0LTIuNDczLjI3MS0zLjczNC4zMTlBLjk5Ny45OTcgMCAwIDEgMTIgNC40NjdaIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| puzzlePiece
 -}
 puzzlePiece : List (Attribute msg) -> Html msg
 puzzlePiece attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M12 4.467c0-.405.262-.75.559-1.027.276-.257.441-.584.441-.94 0-.828-.895-1.5-2-1.5s-2 .672-2 1.5c0 .362.171.694.456.953.29.265.544.6.544.994a.968.968 0 0 1-1.024.974 39.655 39.655 0 0 1-3.014-.306.75.75 0 0 0-.847.847c.14.993.242 1.999.306 3.014A.968.968 0 0 1 4.447 10c-.393 0-.729-.253-.994-.544C3.194 9.17 2.862 9 2.5 9 1.672 9 1 9.895 1 11s.672 2 1.5 2c.356 0 .683-.165.94-.441.276-.297.622-.559 1.027-.559a.997.997 0 0 1 1.004 1.03 39.747 39.747 0 0 1-.319 3.734.75.75 0 0 0 .64.842c1.05.146 2.111.252 3.184.318A.97.97 0 0 0 10 16.948c0-.394-.254-.73-.545-.995C9.171 15.693 9 15.362 9 15c0-.828.895-1.5 2-1.5s2 .672 2 1.5c0 .356-.165.683-.441.94-.297.276-.559.622-.559 1.027a.998.998 0 0 0 1.03 1.005c1.337-.05 2.659-.162 3.961-.337a.75.75 0 0 0 .644-.644c.175-1.302.288-2.624.337-3.961A.998.998 0 0 0 16.967 12c-.405 0-.75.262-1.027.559-.257.276-.584.441-.94.441-.828 0-1.5-.895-1.5-2s.672-2 1.5-2c.362 0 .694.17.953.455.265.291.601.545.995.545a.97.97 0 0 0 .976-1.024 41.159 41.159 0 0 0-.318-3.184.75.75 0 0 0-.842-.64c-1.228.164-2.473.271-3.734.319A.997.997 0 0 1 12 4.467Z" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTMuNzUgMkExLjc1IDEuNzUgMCAwIDAgMiAzLjc1djMuNUMyIDguMjE2IDIuNzg0IDkgMy43NSA5aDMuNUExLjc1IDEuNzUgMCAwIDAgOSA3LjI1di0zLjVBMS43NSAxLjc1IDAgMCAwIDcuMjUgMmgtMy41Wk0zLjUgMy43NWEuMjUuMjUgMCAwIDEgLjI1LS4yNWgzLjVhLjI1LjI1IDAgMCAxIC4yNS4yNXYzLjVhLjI1LjI1IDAgMCAxLS4yNS4yNWgtMy41YS4yNS4yNSAwIDAgMS0uMjUtLjI1di0zLjVaTTMuNzUgMTFBMS43NSAxLjc1IDAgMCAwIDIgMTIuNzV2My41YzAgLjk2Ni43ODQgMS43NSAxLjc1IDEuNzVoMy41QTEuNzUgMS43NSAwIDAgMCA5IDE2LjI1di0zLjVBMS43NSAxLjc1IDAgMCAwIDcuMjUgMTFoLTMuNVptLS4yNSAxLjc1YS4yNS4yNSAwIDAgMSAuMjUtLjI1aDMuNWEuMjUuMjUgMCAwIDEgLjI1LjI1djMuNWEuMjUuMjUgMCAwIDEtLjI1LjI1aC0zLjVhLjI1LjI1IDAgMCAxLS4yNS0uMjV2LTMuNVptNy41LTljMC0uOTY2Ljc4NC0xLjc1IDEuNzUtMS43NWgzLjVjLjk2NiAwIDEuNzUuNzg0IDEuNzUgMS43NXYzLjVBMS43NSAxLjc1IDAgMCAxIDE2LjI1IDloLTMuNUExLjc1IDEuNzUgMCAwIDEgMTEgNy4yNXYtMy41Wm0xLjc1LS4yNWEuMjUuMjUgMCAwIDAtLjI1LjI1djMuNWMwIC4xMzguMTEyLjI1LjI1LjI1aDMuNWEuMjUuMjUgMCAwIDAgLjI1LS4yNXYtMy41YS4yNS4yNSAwIDAgMC0uMjUtLjI1aC0zLjVabS03LjI2IDFhMSAxIDAgMCAwLTEgMXYuMDFhMSAxIDAgMCAwIDEgMWguMDFhMSAxIDAgMCAwIDEtMVY1LjVhMSAxIDAgMCAwLTEtMWgtLjAxWm05IDBhMSAxIDAgMCAwLTEgMXYuMDFhMSAxIDAgMCAwIDEgMWguMDFhMSAxIDAgMCAwIDEtMVY1LjVhMSAxIDAgMCAwLTEtMWgtLjAxWm0tOSA5YTEgMSAwIDAgMC0xIDF2LjAxYTEgMSAwIDAgMCAxIDFoLjAxYTEgMSAwIDAgMCAxLTF2LS4wMWExIDEgMCAwIDAtMS0xaC0uMDFabTkgMGExIDEgMCAwIDAtMSAxdi4wMWExIDEgMCAwIDAgMSAxaC4wMWExIDEgMCAwIDAgMS0xdi0uMDFhMSAxIDAgMCAwLTEtMWgtLjAxWm0tMy41LTEuNWExIDEgMCAwIDEgMS0xSDEyYTEgMSAwIDAgMSAxIDF2LjAxYTEgMSAwIDAgMS0xIDFoLS4wMWExIDEgMCAwIDEtMS0xVjEyWm02LTFhMSAxIDAgMCAwLTEgMXYuMDFhMSAxIDAgMCAwIDEgMUgxN2ExIDEgMCAwIDAgMS0xVjEyYTEgMSAwIDAgMC0xLTFoLS4wMVptLTEgNmExIDEgMCAwIDEgMS0xSDE3YTEgMSAwIDAgMSAxIDF2LjAxYTEgMSAwIDAgMS0xIDFoLS4wMWExIDEgMCAwIDEtMS0xVjE3Wm0tNC0xYTEgMSAwIDAgMC0xIDF2LjAxYTEgMSAwIDAgMCAxIDFIMTJhMSAxIDAgMCAwIDEtMVYxN2ExIDEgMCAwIDAtMS0xaC0uMDFaIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| qrCode
 -}
 qrCode : List (Attribute msg) -> Html msg
 qrCode attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M3.75 2A1.75 1.75 0 0 0 2 3.75v3.5C2 8.216 2.784 9 3.75 9h3.5A1.75 1.75 0 0 0 9 7.25v-3.5A1.75 1.75 0 0 0 7.25 2h-3.5ZM3.5 3.75a.25.25 0 0 1 .25-.25h3.5a.25.25 0 0 1 .25.25v3.5a.25.25 0 0 1-.25.25h-3.5a.25.25 0 0 1-.25-.25v-3.5ZM3.75 11A1.75 1.75 0 0 0 2 12.75v3.5c0 .966.784 1.75 1.75 1.75h3.5A1.75 1.75 0 0 0 9 16.25v-3.5A1.75 1.75 0 0 0 7.25 11h-3.5Zm-.25 1.75a.25.25 0 0 1 .25-.25h3.5a.25.25 0 0 1 .25.25v3.5a.25.25 0 0 1-.25.25h-3.5a.25.25 0 0 1-.25-.25v-3.5Zm7.5-9c0-.966.784-1.75 1.75-1.75h3.5c.966 0 1.75.784 1.75 1.75v3.5A1.75 1.75 0 0 1 16.25 9h-3.5A1.75 1.75 0 0 1 11 7.25v-3.5Zm1.75-.25a.25.25 0 0 0-.25.25v3.5c0 .138.112.25.25.25h3.5a.25.25 0 0 0 .25-.25v-3.5a.25.25 0 0 0-.25-.25h-3.5Zm-7.26 1a1 1 0 0 0-1 1v.01a1 1 0 0 0 1 1h.01a1 1 0 0 0 1-1V5.5a1 1 0 0 0-1-1h-.01Zm9 0a1 1 0 0 0-1 1v.01a1 1 0 0 0 1 1h.01a1 1 0 0 0 1-1V5.5a1 1 0 0 0-1-1h-.01Zm-9 9a1 1 0 0 0-1 1v.01a1 1 0 0 0 1 1h.01a1 1 0 0 0 1-1v-.01a1 1 0 0 0-1-1h-.01Zm9 0a1 1 0 0 0-1 1v.01a1 1 0 0 0 1 1h.01a1 1 0 0 0 1-1v-.01a1 1 0 0 0-1-1h-.01Zm-3.5-1.5a1 1 0 0 1 1-1H12a1 1 0 0 1 1 1v.01a1 1 0 0 1-1 1h-.01a1 1 0 0 1-1-1V12Zm6-1a1 1 0 0 0-1 1v.01a1 1 0 0 0 1 1H17a1 1 0 0 0 1-1V12a1 1 0 0 0-1-1h-.01Zm-1 6a1 1 0 0 1 1-1H17a1 1 0 0 1 1 1v.01a1 1 0 0 1-1 1h-.01a1 1 0 0 1-1-1V17Zm-4-1a1 1 0 0 0-1 1v.01a1 1 0 0 0 1 1H12a1 1 0 0 0 1-1V17a1 1 0 0 0-1-1h-.01Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTE4IDEwYTggOCAwIDEgMS0xNiAwIDggOCAwIDAgMSAxNiAwWk04Ljk0IDYuOTRhLjc1Ljc1IDAgMSAxLTEuMDYxLTEuMDYxIDMgMyAwIDEgMSAyLjg3MSA1LjAyNnYuMzQ1YS43NS43NSAwIDAgMS0xLjUgMHYtLjVjMC0uNzIuNTctMS4xNzIgMS4wODEtMS4yODdBMS41IDEuNSAwIDEgMCA4Ljk0IDYuOTRaTTEwIDE1YTEgMSAwIDEgMCAwLTIgMSAxIDAgMCAwIDAgMloiIGNsaXAtcnVsZT0iZXZlbm9kZCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| questionMarkCircle
 -}
 questionMarkCircle : List (Attribute msg) -> Html msg
 questionMarkCircle attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M18 10a8 8 0 1 1-16 0 8 8 0 0 1 16 0ZM8.94 6.94a.75.75 0 1 1-1.061-1.061 3 3 0 1 1 2.871 5.026v.345a.75.75 0 0 1-1.5 0v-.5c0-.72.57-1.172 1.081-1.287A1.5 1.5 0 1 0 8.94 6.94ZM10 15a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik0yIDQuNUEyLjUgMi41IDAgMCAxIDQuNSAyaDExYTIuNSAyLjUgMCAwIDEgMCA1aC0xMUEyLjUgMi41IDAgMCAxIDIgNC41Wk0yLjc1IDkuMDgzYS43NS43NSAwIDAgMCAwIDEuNWgxNC41YS43NS43NSAwIDAgMCAwLTEuNUgyLjc1Wk0yLjc1IDEyLjY2M2EuNzUuNzUgMCAwIDAgMCAxLjVoMTQuNWEuNzUuNzUgMCAwIDAgMC0xLjVIMi43NVpNMi43NSAxNi4yNWEuNzUuNzUgMCAwIDAgMCAxLjVoMTQuNWEuNzUuNzUgMCAxIDAgMC0xLjVIMi43NVoiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| queueList
 -}
 queueList : List (Attribute msg) -> Html msg
 queueList attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M2 4.5A2.5 2.5 0 0 1 4.5 2h11a2.5 2.5 0 0 1 0 5h-11A2.5 2.5 0 0 1 2 4.5ZM2.75 9.083a.75.75 0 0 0 0 1.5h14.5a.75.75 0 0 0 0-1.5H2.75ZM2.75 12.663a.75.75 0 0 0 0 1.5h14.5a.75.75 0 0 0 0-1.5H2.75ZM2.75 16.25a.75.75 0 0 0 0 1.5h14.5a.75.75 0 1 0 0-1.5H2.75Z" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTE3LjQ1IDMuNDczYS43NS43NSAwIDEgMC0uNC0xLjQ0Nkw1LjMxMyA1LjI2NWMtLjg0LjA5Ni0xLjY3MS4yMTctMi40OTUuMzYyQTIuMjEyIDIuMjEyIDAgMCAwIDEgNy44MTZ2Ny45MzRBMi4yNSAyLjI1IDAgMCAwIDMuMjUgMThoMTMuNUEyLjI1IDIuMjUgMCAwIDAgMTkgMTUuNzVWNy44MTZjMC0xLjA2LS43NDUtMi0xLjgxNy0yLjE4OWE0MS4xMiA0MS4xMiAwIDAgMC01LjQwNi0uNTlsNS42NzMtMS41NjRaTTE2IDkuNWExLjUgMS41IDAgMSAxLTMgMCAxLjUgMS41IDAgMCAxIDMgMFpNMTQuNSAxNmExLjUgMS41IDAgMSAwIDAtMyAxLjUgMS41IDAgMCAwIDAgM1ptLTkuMjYtNWEuNzUuNzUgMCAwIDEgLjc1LS43NUg2YS43NS43NSAwIDAgMSAuNzUuNzV2LjAxYS43NS43NSAwIDAgMS0uNzUuNzVoLS4wMWEuNzUuNzUgMCAwIDEtLjc1LS43NVYxMVptMi43NS0uNzVhLjc1Ljc1IDAgMCAwLS43NS43NXYuMDFjMCAuNDE0LjMzNi43NS43NS43NUg4YS43NS43NSAwIDAgMCAuNzUtLjc1VjExYS43NS43NSAwIDAgMC0uNzUtLjc1aC0uMDFabS0xLjc1LTEuNUEuNzUuNzUgMCAwIDEgNi45OSA4SDdhLjc1Ljc1IDAgMCAxIC43NS43NXYuMDFhLjc1Ljc1IDAgMCAxLS43NS43NWgtLjAxYS43NS43NSAwIDAgMS0uNzUtLjc1di0uMDFabTMuNTgzLjQyYS43NS43NSAwIDAgMC0xLjA2IDBsLS4wMDcuMDA3YS43NS43NSAwIDAgMCAwIDEuMDZsLjAwNy4wMDdhLjc1Ljc1IDAgMCAwIDEuMDYgMGwuMDA3LS4wMDdhLjc1Ljc1IDAgMCAwIDAtMS4wNmwtLjAwNy0uMDA4Wm0uNDI3IDIuMDhBLjc1Ljc1IDAgMCAxIDExIDEydi4wMWEuNzUuNzUgMCAwIDEtLjc1Ljc1aC0uMDFhLjc1Ljc1IDAgMCAxLS43NS0uNzVWMTJhLjc1Ljc1IDAgMCAxIC43NS0uNzVoLjAxWm0tLjQyIDMuNTgzYS43NS43NSAwIDAgMCAwLTEuMDZsLS4wMDctLjAwN2EuNzUuNzUgMCAwIDAtMS4wNiAwbC0uMDA3LjAwN2EuNzUuNzUgMCAwIDAgMCAxLjA2bC4wMDcuMDA4YS43NS43NSAwIDAgMCAxLjA2IDBsLjAwOC0uMDA4Wm0tMy41OS40MTdhLjc1Ljc1IDAgMCAxIC43NS0uNzVIN2EuNzUuNzUgMCAwIDEgLjc1Ljc1di4wMWEuNzUuNzUgMCAwIDEtLjc1Ljc1aC0uMDFhLjc1Ljc1IDAgMCAxLS43NS0uNzV2LS4wMVptLTEuMDEzLTEuNDg0YS43NS43NSAwIDAgMC0xLjA2IDBsLS4wMDguMDA3YS43NS43NSAwIDAgMCAwIDEuMDZsLjAwNy4wMDhhLjc1Ljc1IDAgMCAwIDEuMDYxIDBsLjAwNy0uMDA4YS43NS43NSAwIDAgMCAwLTEuMDZsLS4wMDctLjAwN1pNMy43NSAxMS4yNWEuNzUuNzUgMCAwIDEgLjc1Ljc1di4wMWEuNzUuNzUgMCAwIDEtLjc1Ljc1aC0uMDFhLjc1Ljc1IDAgMCAxLS43NS0uNzVWMTJhLjc1Ljc1IDAgMCAxIC43NS0uNzVoLjAxWm0xLjQ4NC0xLjAxM2EuNzUuNzUgMCAwIDAgMC0xLjA2bC0uMDA3LS4wMDdhLjc1Ljc1IDAgMCAwLTEuMDYgMGwtLjAwNy4wMDdhLjc1Ljc1IDAgMCAwIDAgMS4wNmwuMDA3LjAwN2EuNzUuNzUgMCAwIDAgMS4wNiAwbC4wMDctLjAwN1pNNy4yNCAxM2EuNzUuNzUgMCAwIDEgLjc1LS43NUg4YS43NS43NSAwIDAgMSAuNzUuNzV2LjAxYS43NS43NSAwIDAgMS0uNzUuNzVoLS4wMWEuNzUuNzUgMCAwIDEtLjc1LS43NVYxM1ptLTEuMjUtLjc1YS43NS43NSAwIDAgMC0uNzUuNzV2LjAxYzAgLjQxNC4zMzYuNzUuNzUuNzVINmEuNzUuNzUgMCAwIDAgLjc1LS43NVYxM2EuNzUuNzUgMCAwIDAtLjc1LS43NWgtLjAxWiIgY2xpcC1ydWxlPSJldmVub2RkIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| radio
 -}
 radio : List (Attribute msg) -> Html msg
 radio attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M17.45 3.473a.75.75 0 1 0-.4-1.446L5.313 5.265c-.84.096-1.671.217-2.495.362A2.212 2.212 0 0 0 1 7.816v7.934A2.25 2.25 0 0 0 3.25 18h13.5A2.25 2.25 0 0 0 19 15.75V7.816c0-1.06-.745-2-1.817-2.189a41.12 41.12 0 0 0-5.406-.59l5.673-1.564ZM16 9.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0ZM14.5 16a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Zm-9.26-5a.75.75 0 0 1 .75-.75H6a.75.75 0 0 1 .75.75v.01a.75.75 0 0 1-.75.75h-.01a.75.75 0 0 1-.75-.75V11Zm2.75-.75a.75.75 0 0 0-.75.75v.01c0 .414.336.75.75.75H8a.75.75 0 0 0 .75-.75V11a.75.75 0 0 0-.75-.75h-.01Zm-1.75-1.5A.75.75 0 0 1 6.99 8H7a.75.75 0 0 1 .75.75v.01a.75.75 0 0 1-.75.75h-.01a.75.75 0 0 1-.75-.75v-.01Zm3.583.42a.75.75 0 0 0-1.06 0l-.007.007a.75.75 0 0 0 0 1.06l.007.007a.75.75 0 0 0 1.06 0l.007-.007a.75.75 0 0 0 0-1.06l-.007-.008Zm.427 2.08A.75.75 0 0 1 11 12v.01a.75.75 0 0 1-.75.75h-.01a.75.75 0 0 1-.75-.75V12a.75.75 0 0 1 .75-.75h.01Zm-.42 3.583a.75.75 0 0 0 0-1.06l-.007-.007a.75.75 0 0 0-1.06 0l-.007.007a.75.75 0 0 0 0 1.06l.007.008a.75.75 0 0 0 1.06 0l.008-.008Zm-3.59.417a.75.75 0 0 1 .75-.75H7a.75.75 0 0 1 .75.75v.01a.75.75 0 0 1-.75.75h-.01a.75.75 0 0 1-.75-.75v-.01Zm-1.013-1.484a.75.75 0 0 0-1.06 0l-.008.007a.75.75 0 0 0 0 1.06l.007.008a.75.75 0 0 0 1.061 0l.007-.008a.75.75 0 0 0 0-1.06l-.007-.007ZM3.75 11.25a.75.75 0 0 1 .75.75v.01a.75.75 0 0 1-.75.75h-.01a.75.75 0 0 1-.75-.75V12a.75.75 0 0 1 .75-.75h.01Zm1.484-1.013a.75.75 0 0 0 0-1.06l-.007-.007a.75.75 0 0 0-1.06 0l-.007.007a.75.75 0 0 0 0 1.06l.007.007a.75.75 0 0 0 1.06 0l.007-.007ZM7.24 13a.75.75 0 0 1 .75-.75H8a.75.75 0 0 1 .75.75v.01a.75.75 0 0 1-.75.75h-.01a.75.75 0 0 1-.75-.75V13Zm-1.25-.75a.75.75 0 0 0-.75.75v.01c0 .414.336.75.75.75H6a.75.75 0 0 0 .75-.75V13a.75.75 0 0 0-.75-.75h-.01Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTQuOTMgMi4zMWE0MS40MDEgNDEuNDAxIDAgMCAxIDEwLjE0IDBDMTYuMTk0IDIuNDUgMTcgMy40MTQgMTcgNC41MTdWMTcuMjVhLjc1Ljc1IDAgMCAxLTEuMDc1LjY3NmwtMi44LTEuMzQ0LTIuOCAxLjM0NGEuNzUuNzUgMCAwIDEtLjY1IDBsLTIuOC0xLjM0NC0yLjggMS4zNDRBLjc1Ljc1IDAgMCAxIDMgMTcuMjVWNC41MTdjMC0xLjEwMy44MDYtMi4wNjggMS45My0yLjIwN1ptOC44NSA0Ljk3YS43NS43NSAwIDAgMC0xLjA2LTEuMDZsLTYuNSA2LjVhLjc1Ljc1IDAgMSAwIDEuMDYgMS4wNmw2LjUtNi41Wk05IDhhMSAxIDAgMSAxLTIgMCAxIDEgMCAwIDEgMiAwWm0zIDVhMSAxIDAgMSAwIDAtMiAxIDEgMCAwIDAgMCAyWiIgY2xpcC1ydWxlPSJldmVub2RkIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| receiptPercent
 -}
 receiptPercent : List (Attribute msg) -> Html msg
 receiptPercent attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M4.93 2.31a41.401 41.401 0 0 1 10.14 0C16.194 2.45 17 3.414 17 4.517V17.25a.75.75 0 0 1-1.075.676l-2.8-1.344-2.8 1.344a.75.75 0 0 1-.65 0l-2.8-1.344-2.8 1.344A.75.75 0 0 1 3 17.25V4.517c0-1.103.806-2.068 1.93-2.207Zm8.85 4.97a.75.75 0 0 0-1.06-1.06l-6.5 6.5a.75.75 0 1 0 1.06 1.06l6.5-6.5ZM9 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm3 5a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTQuOTMgMi4zMWE0MS40MDEgNDEuNDAxIDAgMCAxIDEwLjE0IDBDMTYuMTk0IDIuNDUgMTcgMy40MTQgMTcgNC41MTdWMTcuMjVhLjc1Ljc1IDAgMCAxLTEuMDc1LjY3NmwtMi44LTEuMzQ0LTIuOCAxLjM0NGEuNzUuNzUgMCAwIDEtLjY1IDBsLTIuOC0xLjM0NC0yLjggMS4zNDRBLjc1Ljc1IDAgMCAxIDMgMTcuMjVWNC41MTdjMC0xLjEwMy44MDYtMi4wNjggMS45My0yLjIwN1ptNC44MjIgMy45OTdhLjc1Ljc1IDAgMSAwLTEuMDA0LTEuMTE0bC0yLjUgMi4yNWEuNzUuNzUgMCAwIDAgMCAxLjExNGwyLjUgMi4yNWEuNzUuNzUgMCAwIDAgMS4wMDQtMS4xMTRMOC43MDQgOC43NWgxLjkyMWExLjg3NSAxLjg3NSAwIDAgMSAwIDMuNzUuNzUuNzUgMCAwIDAgMCAxLjUgMy4zNzUgMy4zNzUgMCAxIDAgMC02Ljc1aC0xLjkybDEuMDQ3LS45NDNaIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| receiptRefund
 -}
 receiptRefund : List (Attribute msg) -> Html msg
 receiptRefund attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M4.93 2.31a41.401 41.401 0 0 1 10.14 0C16.194 2.45 17 3.414 17 4.517V17.25a.75.75 0 0 1-1.075.676l-2.8-1.344-2.8 1.344a.75.75 0 0 1-.65 0l-2.8-1.344-2.8 1.344A.75.75 0 0 1 3 17.25V4.517c0-1.103.806-2.068 1.93-2.207Zm4.822 3.997a.75.75 0 1 0-1.004-1.114l-2.5 2.25a.75.75 0 0 0 0 1.114l2.5 2.25a.75.75 0 0 0 1.004-1.114L8.704 8.75h1.921a1.875 1.875 0 0 1 0 3.75.75.75 0 0 0 0 1.5 3.375 3.375 0 1 0 0-6.75h-1.92l1.047-.943Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTIuNSAzQTEuNSAxLjUgMCAwIDAgMSA0LjV2NEExLjUgMS41IDAgMCAwIDIuNSAxMGg2QTEuNSAxLjUgMCAwIDAgMTAgOC41di00QTEuNSAxLjUgMCAwIDAgOC41IDNoLTZabTExIDJBMS41IDEuNSAwIDAgMCAxMiA2LjV2N2ExLjUgMS41IDAgMCAwIDEuNSAxLjVoNGExLjUgMS41IDAgMCAwIDEuNS0xLjV2LTdBMS41IDEuNSAwIDAgMCAxNy41IDVoLTRabS0xMCA3QTEuNSAxLjUgMCAwIDAgMiAxMy41djJBMS41IDEuNSAwIDAgMCAzLjUgMTdoNmExLjUgMS41IDAgMCAwIDEuNS0xLjV2LTJBMS41IDEuNSAwIDAgMCA5LjUgMTJoLTZaIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| rectangleGroup
 -}
 rectangleGroup : List (Attribute msg) -> Html msg
 rectangleGroup attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M2.5 3A1.5 1.5 0 0 0 1 4.5v4A1.5 1.5 0 0 0 2.5 10h6A1.5 1.5 0 0 0 10 8.5v-4A1.5 1.5 0 0 0 8.5 3h-6Zm11 2A1.5 1.5 0 0 0 12 6.5v7a1.5 1.5 0 0 0 1.5 1.5h4a1.5 1.5 0 0 0 1.5-1.5v-7A1.5 1.5 0 0 0 17.5 5h-4Zm-10 7A1.5 1.5 0 0 0 2 13.5v2A1.5 1.5 0 0 0 3.5 17h6a1.5 1.5 0 0 0 1.5-1.5v-2A1.5 1.5 0 0 0 9.5 12h-6Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik01LjEyNyAzLjUwMiA1LjI1IDMuNWg5LjVjLjA0MSAwIC4wODIgMCAuMTIzLjAwMkEyLjI1MSAyLjI1MSAwIDAgMCAxMi43NSAyaC01LjVhMi4yNSAyLjI1IDAgMCAwLTIuMTIzIDEuNTAyWk0xIDEwLjI1QTIuMjUgMi4yNSAwIDAgMSAzLjI1IDhoMTMuNUEyLjI1IDIuMjUgMCAwIDEgMTkgMTAuMjV2NS41QTIuMjUgMi4yNSAwIDAgMSAxNi43NSAxOEgzLjI1QTIuMjUgMi4yNSAwIDAgMSAxIDE1Ljc1di01LjVaTTMuMjUgNi41Yy0uMDQgMC0uMDgyIDAtLjEyMy4wMDJBMi4yNSAyLjI1IDAgMCAxIDUuMjUgNWg5LjVjLjk4IDAgMS44MTQuNjI3IDIuMTIzIDEuNTAyYTMuODE5IDMuODE5IDAgMCAwLS4xMjMtLjAwMkgzLjI1WiIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| rectangleStack
 -}
 rectangleStack : List (Attribute msg) -> Html msg
 rectangleStack attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M5.127 3.502 5.25 3.5h9.5c.041 0 .082 0 .123.002A2.251 2.251 0 0 0 12.75 2h-5.5a2.25 2.25 0 0 0-2.123 1.502ZM1 10.25A2.25 2.25 0 0 1 3.25 8h13.5A2.25 2.25 0 0 1 19 10.25v5.5A2.25 2.25 0 0 1 16.75 18H3.25A2.25 2.25 0 0 1 1 15.75v-5.5ZM3.25 6.5c-.04 0-.082 0-.123.002A2.25 2.25 0 0 1 5.25 5h9.5c.98 0 1.814.627 2.123 1.502a3.819 3.819 0 0 0-.123-.002H3.25Z" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTQuNjA2IDEyLjk3YS43NS43NSAwIDAgMS0uMTM0IDEuMDUxIDIuNDk0IDIuNDk0IDAgMCAwLS45MyAyLjQzNyAyLjQ5NCAyLjQ5NCAwIDAgMCAyLjQzNy0uOTMuNzUuNzUgMCAxIDEgMS4xODYuOTE4IDMuOTk1IDMuOTk1IDAgMCAxLTQuNDgyIDEuMzMyLjc1Ljc1IDAgMCAxLS40NjEtLjQ2MSAzLjk5NCAzLjk5NCAwIDAgMSAxLjMzMi00LjQ4Mi43NS43NSAwIDAgMSAxLjA1Mi4xMzRaIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTUuNzUyIDEyQTEzLjA3IDEzLjA3IDAgMCAwIDggMTQuMjQ4djQuMDAyYzAgLjQxNC4zMzYuNzUuNzUuNzVhNSA1IDAgMCAwIDQuNzk3LTYuNDE0IDEyLjk4NCAxMi45ODQgMCAwIDAgNS40NS0xMC44NDguNzUuNzUgMCAwIDAtLjczNS0uNzM1IDEyLjk4NCAxMi45ODQgMCAwIDAtMTAuODQ5IDUuNDVBNSA1IDAgMCAwIDEgMTEuMjVjLjAwMS40MTQuMzM3Ljc1Ljc1MS43NWg0LjAwMlpNMTMgOWEyIDIgMCAxIDAgMC00IDIgMiAwIDAgMCAwIDRaIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| rocketLaunch
 -}
 rocketLaunch : List (Attribute msg) -> Html msg
 rocketLaunch attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M4.606 12.97a.75.75 0 0 1-.134 1.051 2.494 2.494 0 0 0-.93 2.437 2.494 2.494 0 0 0 2.437-.93.75.75 0 1 1 1.186.918 3.995 3.995 0 0 1-4.482 1.332.75.75 0 0 1-.461-.461 3.994 3.994 0 0 1 1.332-4.482.75.75 0 0 1 1.052.134Z", clipRule "evenodd" ] [], Svg.path [ fillRule "evenodd", d "M5.752 12A13.07 13.07 0 0 0 8 14.248v4.002c0 .414.336.75.75.75a5 5 0 0 0 4.797-6.414 12.984 12.984 0 0 0 5.45-10.848.75.75 0 0 0-.735-.735 12.984 12.984 0 0 0-10.849 5.45A5 5 0 0 0 1 11.25c.001.414.337.75.751.75h4.002ZM13 9a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik0zLjc1IDNhLjc1Ljc1IDAgMCAwLS43NS43NXYuNWMwIC40MTQuMzM2Ljc1Ljc1Ljc1SDRjNi4wNzUgMCAxMSA0LjkyNSAxMSAxMXYuMjVjMCAuNDE0LjMzNi43NS43NS43NWguNWEuNzUuNzUgMCAwIDAgLjc1LS43NVYxNkMxNyA4LjgyIDExLjE4IDMgNCAzaC0uMjVaIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48cGF0aCBkPSJNMyA4Ljc1QS43NS43NSAwIDAgMSAzLjc1IDhINGE4IDggMCAwIDEgOCA4di4yNWEuNzUuNzUgMCAwIDEtLjc1Ljc1aC0uNWEuNzUuNzUgMCAwIDEtLjc1LS43NVYxNmE2IDYgMCAwIDAtNi02aC0uMjVBLjc1Ljc1IDAgMCAxIDMgOS4yNXYtLjVaTTcgMTVhMiAyIDAgMSAxLTQgMCAyIDIgMCAwIDEgNCAwWiIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| rss
 -}
 rss : List (Attribute msg) -> Html msg
 rss attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M3.75 3a.75.75 0 0 0-.75.75v.5c0 .414.336.75.75.75H4c6.075 0 11 4.925 11 11v.25c0 .414.336.75.75.75h.5a.75.75 0 0 0 .75-.75V16C17 8.82 11.18 3 4 3h-.25Z" ] [], Svg.path [ d "M3 8.75A.75.75 0 0 1 3.75 8H4a8 8 0 0 1 8 8v.25a.75.75 0 0 1-.75.75h-.5a.75.75 0 0 1-.75-.75V16a6 6 0 0 0-6-6h-.25A.75.75 0 0 1 3 9.25v-.5ZM7 15a2 2 0 1 1-4 0 2 2 0 0 1 4 0Z" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEwIDJhLjc1Ljc1IDAgMCAxIC43NS43NXYuMjU4YTMzLjE4NiAzMy4xODYgMCAwIDEgNi42NjguODMuNzUuNzUgMCAwIDEtLjMzNiAxLjQ2MSAzMS4yOCAzMS4yOCAwIDAgMC0xLjEwMy0uMjMybDEuNzAyIDcuNTQ1YS43NS43NSAwIDAgMS0uMzg3LjgzMkE0Ljk4MSA0Ljk4MSAwIDAgMSAxNSAxNGMtLjgyNSAwLTEuNjA2LS4yLTIuMjk0LS41NTZhLjc1Ljc1IDAgMCAxLS4zODctLjgzMmwxLjc3LTcuODQ5YTMxLjc0MyAzMS43NDMgMCAwIDAtMy4zMzktLjI1NHYxMS41MDVhMjAuMDEgMjAuMDEgMCAwIDEgMy43OC41MDEuNzUuNzUgMCAxIDEtLjMzOSAxLjQ2MkExOC41NTggMTguNTU4IDAgMCAwIDEwIDE3LjVjLTEuNDQyIDAtMi44NDUuMTY1LTQuMTkxLjQ3N2EuNzUuNzUgMCAwIDEtLjMzOC0xLjQ2MiAyMC4wMSAyMC4wMSAwIDAgMSAzLjc3OS0uNTAxVjQuNTA5Yy0xLjEyOS4wMjYtMi4yNDMuMTEyLTMuMzQuMjU0bDEuNzcxIDcuODVhLjc1Ljc1IDAgMCAxLS4zODcuODNBNC45OCA0Ljk4IDAgMCAxIDUgMTRhNC45OCA0Ljk4IDAgMCAxLTIuMjk0LS41NTYuNzUuNzUgMCAwIDEtLjM4Ny0uODMyTDQuMDIgNS4wNjdjLS4zNy4wNy0uNzM4LjE0OC0xLjEwMy4yMzJhLjc1Ljc1IDAgMCAxLS4zMzYtMS40NjIgMzIuODQ1IDMyLjg0NSAwIDAgMSA2LjY2OC0uODI5VjIuNzVBLjc1Ljc1IDAgMCAxIDEwIDJaTTUgNy41NDMgMy45MiAxMi4zM2EzLjQ5OSAzLjQ5OSAwIDAgMCAyLjE2IDBMNSA3LjU0M1ptMTAgMC0xLjA4IDQuNzg3YTMuNDk4IDMuNDk4IDAgMCAwIDIuMTYgMEwxNSA3LjU0M1oiIGNsaXAtcnVsZT0iZXZlbm9kZCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| scale
 -}
 scale : List (Attribute msg) -> Html msg
 scale attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M10 2a.75.75 0 0 1 .75.75v.258a33.186 33.186 0 0 1 6.668.83.75.75 0 0 1-.336 1.461 31.28 31.28 0 0 0-1.103-.232l1.702 7.545a.75.75 0 0 1-.387.832A4.981 4.981 0 0 1 15 14c-.825 0-1.606-.2-2.294-.556a.75.75 0 0 1-.387-.832l1.77-7.849a31.743 31.743 0 0 0-3.339-.254v11.505a20.01 20.01 0 0 1 3.78.501.75.75 0 1 1-.339 1.462A18.558 18.558 0 0 0 10 17.5c-1.442 0-2.845.165-4.191.477a.75.75 0 0 1-.338-1.462 20.01 20.01 0 0 1 3.779-.501V4.509c-1.129.026-2.243.112-3.34.254l1.771 7.85a.75.75 0 0 1-.387.83A4.98 4.98 0 0 1 5 14a4.98 4.98 0 0 1-2.294-.556.75.75 0 0 1-.387-.832L4.02 5.067c-.37.07-.738.148-1.103.232a.75.75 0 0 1-.336-1.462 32.845 32.845 0 0 1 6.668-.829V2.75A.75.75 0 0 1 10 2ZM5 7.543 3.92 12.33a3.499 3.499 0 0 0 2.16 0L5 7.543Zm10 0-1.08 4.787a3.498 3.498 0 0 0 2.16 0L15 7.543Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEuNDY5IDMuNzVhMy41IDMuNSAwIDAgMCA1LjYxNyA0LjExbC44ODMuNTFjLjAyNS4wOTIuMTQ3LjExNi4yMS4wNDMuMTUtLjE3Ni4zMTgtLjMzOC41LS40ODQuMjg2LS4yMy4zLS43MDktLjAxOC0uODkybC0uODI1LS40NzdBMy41MDEgMy41MDEgMCAwIDAgMS40NyAzLjc1Wm0yLjAzIDMuNDgyYTIgMiAwIDEgMSAyLTMuNDY0IDIgMiAwIDAgMS0yIDMuNDY0Wk05Ljk1NiA4LjMyMmEyLjc1IDIuNzUgMCAwIDAtMS41ODggMS44MjJMNy45NyAxMS42M2wtLjg4NC41MUEzLjUwMSAzLjUwMSAwIDAgMCAxLjQ3IDE2LjI1YTMuNSAzLjUgMCAwIDAgNi4zNjctMi44MWwxMC42OC02LjE2NmEuNzUuNzUgMCAwIDAtLjE4Mi0xLjM3M2wtLjcwMy0uMTg5YTIuNzUgMi43NSAwIDAgMC0xLjc4LjEyM0w5Ljk1NSA4LjMyMlpNMi43NjggMTUuNWEyIDIgMCAxIDEgMy40NjQtMiAyIDIgMCAwIDEtMy40NjQgMloiIGNsaXAtcnVsZT0iZXZlbm9kZCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PHBhdGggZD0iTTEyLjUyIDExLjg5YS41LjUgMCAwIDAgLjA1Ni44OTRsMy4yNzQgMS4zODFhMi43NSAyLjc1IDAgMCAwIDEuNzguMTIzbC43MDQtLjE4OWEuNzUuNzUgMCAwIDAgLjE4LTEuMzczbC0zLjQ3LTIuMDA0YS41LjUgMCAwIDAtLjUgMEwxMi41MiAxMS44OVoiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| scissors
 -}
 scissors : List (Attribute msg) -> Html msg
 scissors attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M1.469 3.75a3.5 3.5 0 0 0 5.617 4.11l.883.51c.025.092.147.116.21.043.15-.176.318-.338.5-.484.286-.23.3-.709-.018-.892l-.825-.477A3.501 3.501 0 0 0 1.47 3.75Zm2.03 3.482a2 2 0 1 1 2-3.464 2 2 0 0 1-2 3.464ZM9.956 8.322a2.75 2.75 0 0 0-1.588 1.822L7.97 11.63l-.884.51A3.501 3.501 0 0 0 1.47 16.25a3.5 3.5 0 0 0 6.367-2.81l10.68-6.166a.75.75 0 0 0-.182-1.373l-.703-.189a2.75 2.75 0 0 0-1.78.123L9.955 8.322ZM2.768 15.5a2 2 0 1 1 3.464-2 2 2 0 0 1-3.464 2Z", clipRule "evenodd" ] [], Svg.path [ d "M12.52 11.89a.5.5 0 0 0 .056.894l3.274 1.381a2.75 2.75 0 0 0 1.78.123l.704-.189a.75.75 0 0 0 .18-1.373l-3.47-2.004a.5.5 0 0 0-.5 0L12.52 11.89Z" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik00LjQ2NCAzLjE2MkEyIDIgMCAwIDEgNi4yOCAyaDcuNDRhMiAyIDAgMCAxIDEuODE2IDEuMTYybDEuMTU0IDIuNWMuMDY3LjE0NS4xMTUuMjkxLjE0NS40MzhBMy41MDggMy41MDggMCAwIDAgMTYgNkg0Yy0uMjg4IDAtLjU2OC4wMzUtLjgzNS4xLjAzLS4xNDcuMDc4LS4yOTMuMTQ1LS40MzhsMS4xNTQtMi41WiIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMiA5LjVhMiAyIDAgMCAxIDItMmgxMmEyIDIgMCAxIDEgMCA0SDRhMiAyIDAgMCAxLTItMlptMTMuMjQgMGEuNzUuNzUgMCAwIDEgLjc1LS43NUgxNmEuNzUuNzUgMCAwIDEgLjc1Ljc1di4wMWEuNzUuNzUgMCAwIDEtLjc1Ljc1aC0uMDFhLjc1Ljc1IDAgMCAxLS43NS0uNzVWOS41Wm0tMi4yNS0uNzVhLjc1Ljc1IDAgMCAwLS43NS43NXYuMDFjMCAuNDE0LjMzNi43NS43NS43NUgxM2EuNzUuNzUgMCAwIDAgLjc1LS43NVY5LjVhLjc1Ljc1IDAgMCAwLS43NS0uNzVoLS4wMVpNMiAxNWEyIDIgMCAwIDEgMi0yaDEyYTIgMiAwIDEgMSAwIDRINGEyIDIgMCAwIDEtMi0yWm0xMy4yNCAwYS43NS43NSAwIDAgMSAuNzUtLjc1SDE2YS43NS43NSAwIDAgMSAuNzUuNzV2LjAxYS43NS43NSAwIDAgMS0uNzUuNzVoLS4wMWEuNzUuNzUgMCAwIDEtLjc1LS43NVYxNVptLTIuMjUtLjc1YS43NS43NSAwIDAgMC0uNzUuNzV2LjAxYzAgLjQxNC4zMzYuNzUuNzUuNzVIMTNhLjc1Ljc1IDAgMCAwIC43NS0uNzVWMTVhLjc1Ljc1IDAgMCAwLS43NS0uNzVoLS4wMVoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| serverStack
 -}
 serverStack : List (Attribute msg) -> Html msg
 serverStack attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M4.464 3.162A2 2 0 0 1 6.28 2h7.44a2 2 0 0 1 1.816 1.162l1.154 2.5c.067.145.115.291.145.438A3.508 3.508 0 0 0 16 6H4c-.288 0-.568.035-.835.1.03-.147.078-.293.145-.438l1.154-2.5Z" ] [], Svg.path [ fillRule "evenodd", d "M2 9.5a2 2 0 0 1 2-2h12a2 2 0 1 1 0 4H4a2 2 0 0 1-2-2Zm13.24 0a.75.75 0 0 1 .75-.75H16a.75.75 0 0 1 .75.75v.01a.75.75 0 0 1-.75.75h-.01a.75.75 0 0 1-.75-.75V9.5Zm-2.25-.75a.75.75 0 0 0-.75.75v.01c0 .414.336.75.75.75H13a.75.75 0 0 0 .75-.75V9.5a.75.75 0 0 0-.75-.75h-.01ZM2 15a2 2 0 0 1 2-2h12a2 2 0 1 1 0 4H4a2 2 0 0 1-2-2Zm13.24 0a.75.75 0 0 1 .75-.75H16a.75.75 0 0 1 .75.75v.01a.75.75 0 0 1-.75.75h-.01a.75.75 0 0 1-.75-.75V15Zm-2.25-.75a.75.75 0 0 0-.75.75v.01c0 .414.336.75.75.75H13a.75.75 0 0 0 .75-.75V15a.75.75 0 0 0-.75-.75h-.01Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik00LjYzMiAzLjUzM0EyIDIgMCAwIDEgNi41NzcgMmg2Ljg0NmEyIDIgMCAwIDEgMS45NDUgMS41MzNsMS45NzYgOC4yMzRBMy40ODkgMy40ODkgMCAwIDAgMTYgMTEuNUg0Yy0uNDc2IDAtLjkzLjA5NS0xLjM0NC4yNjdsMS45NzYtOC4yMzRaIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik00IDEzYTIgMiAwIDEgMCAwIDRoMTJhMiAyIDAgMSAwIDAtNEg0Wm0xMS4yNCAyYS43NS43NSAwIDAgMSAuNzUtLjc1SDE2YS43NS43NSAwIDAgMSAuNzUuNzV2LjAxYS43NS43NSAwIDAgMS0uNzUuNzVoLS4wMWEuNzUuNzUgMCAwIDEtLjc1LS43NVYxNVptLTIuMjUtLjc1YS43NS43NSAwIDAgMC0uNzUuNzV2LjAxYzAgLjQxNC4zMzYuNzUuNzUuNzVIMTNhLjc1Ljc1IDAgMCAwIC43NS0uNzVWMTVhLjc1Ljc1IDAgMCAwLS43NS0uNzVoLS4wMVoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| server
 -}
 server : List (Attribute msg) -> Html msg
 server attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M4.632 3.533A2 2 0 0 1 6.577 2h6.846a2 2 0 0 1 1.945 1.533l1.976 8.234A3.489 3.489 0 0 0 16 11.5H4c-.476 0-.93.095-1.344.267l1.976-8.234Z" ] [], Svg.path [ fillRule "evenodd", d "M4 13a2 2 0 1 0 0 4h12a2 2 0 1 0 0-4H4Zm11.24 2a.75.75 0 0 1 .75-.75H16a.75.75 0 0 1 .75.75v.01a.75.75 0 0 1-.75.75h-.01a.75.75 0 0 1-.75-.75V15Zm-2.25-.75a.75.75 0 0 0-.75.75v.01c0 .414.336.75.75.75H13a.75.75 0 0 0 .75-.75V15a.75.75 0 0 0-.75-.75h-.01Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik0xMyA0LjVhMi41IDIuNSAwIDEgMSAuNzAyIDEuNzM3TDYuOTcgOS42MDRhMi41MTggMi41MTggMCAwIDEgMCAuNzkybDYuNzMzIDMuMzY3YTIuNSAyLjUgMCAxIDEtLjY3MSAxLjM0MWwtNi43MzMtMy4zNjdhMi41IDIuNSAwIDEgMSAwLTMuNDc1bDYuNzMzLTMuMzY2QTIuNTIgMi41MiAwIDAgMSAxMyA0LjVaIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| share
 -}
 share : List (Attribute msg) -> Html msg
 share attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M13 4.5a2.5 2.5 0 1 1 .702 1.737L6.97 9.604a2.518 2.518 0 0 1 0 .792l6.733 3.367a2.5 2.5 0 1 1-.671 1.341l-6.733-3.367a2.5 2.5 0 1 1 0-3.475l6.733-3.366A2.52 2.52 0 0 1 13 4.5Z" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTkuNjYxIDIuMjM3YS41MzEuNTMxIDAgMCAxIC42NzggMCAxMS45NDcgMTEuOTQ3IDAgMCAwIDcuMDc4IDIuNzQ5LjUuNSAwIDAgMSAuNDc5LjQyNWMuMDY5LjUyLjEwNCAxLjA1LjEwNCAxLjU5IDAgNS4xNjItMy4yNiA5LjU2My03LjgzNCAxMS4yNTZhLjQ4LjQ4IDAgMCAxLS4zMzIgMEM1LjI2IDE2LjU2NCAyIDEyLjE2MyAyIDdjMC0uNTM4LjAzNS0xLjA2OS4xMDQtMS41ODlhLjUuNSAwIDAgMSAuNDgtLjQyNSAxMS45NDcgMTEuOTQ3IDAgMCAwIDcuMDc3LTIuNzVabTQuMTk2IDUuOTU0YS43NS43NSAwIDAgMC0xLjIxNC0uODgybC0zLjQ4MyA0Ljc5LTEuODgtMS44OGEuNzUuNzUgMCAxIDAtMS4wNiAxLjA2MWwyLjUgMi41YS43NS43NSAwIDAgMCAxLjEzNy0uMDg5bDQtNS41WiIgY2xpcC1ydWxlPSJldmVub2RkIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| shieldCheck
 -}
 shieldCheck : List (Attribute msg) -> Html msg
 shieldCheck attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M9.661 2.237a.531.531 0 0 1 .678 0 11.947 11.947 0 0 0 7.078 2.749.5.5 0 0 1 .479.425c.069.52.104 1.05.104 1.59 0 5.162-3.26 9.563-7.834 11.256a.48.48 0 0 1-.332 0C5.26 16.564 2 12.163 2 7c0-.538.035-1.069.104-1.589a.5.5 0 0 1 .48-.425 11.947 11.947 0 0 0 7.077-2.75Zm4.196 5.954a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEwLjMzOSAyLjIzN2EuNTMxLjUzMSAwIDAgMC0uNjc4IDAgMTEuOTQ3IDExLjk0NyAwIDAgMS03LjA3OCAyLjc1LjUuNSAwIDAgMC0uNDc5LjQyNUExMi4xMSAxMi4xMSAwIDAgMCAyIDdjMCA1LjE2MyAzLjI2IDkuNTY0IDcuODM0IDExLjI1N2EuNDguNDggMCAwIDAgLjMzMiAwQzE0Ljc0IDE2LjU2NCAxOCAxMi4xNjMgMTggN2MwLS41MzgtLjAzNS0xLjA2OS0uMTA0LTEuNTg5YS41LjUgMCAwIDAtLjQ4LS40MjUgMTEuOTQ3IDExLjk0NyAwIDAgMS03LjA3Ny0yLjc1Wk0xMCA2YS43NS43NSAwIDAgMSAuNzUuNzV2My41YS43NS43NSAwIDAgMS0xLjUgMHYtMy41QS43NS43NSAwIDAgMSAxMCA2Wm0wIDlhMSAxIDAgMSAwIDAtMiAxIDEgMCAwIDAgMCAyWiIgY2xpcC1ydWxlPSJldmVub2RkIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| shieldExclamation
 -}
 shieldExclamation : List (Attribute msg) -> Html msg
 shieldExclamation attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M10.339 2.237a.531.531 0 0 0-.678 0 11.947 11.947 0 0 1-7.078 2.75.5.5 0 0 0-.479.425A12.11 12.11 0 0 0 2 7c0 5.163 3.26 9.564 7.834 11.257a.48.48 0 0 0 .332 0C14.74 16.564 18 12.163 18 7c0-.538-.035-1.069-.104-1.589a.5.5 0 0 0-.48-.425 11.947 11.947 0 0 1-7.077-2.75ZM10 6a.75.75 0 0 1 .75.75v3.5a.75.75 0 0 1-1.5 0v-3.5A.75.75 0 0 1 10 6Zm0 9a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTYgNXYxSDQuNjY3YTEuNzUgMS43NSAwIDAgMC0xLjc0MyAxLjU5OGwtLjgyNiA5LjVBMS43NSAxLjc1IDAgMCAwIDMuODQgMTlIMTYuMTZhMS43NSAxLjc1IDAgMCAwIDEuNzQzLTEuOTAybC0uODI2LTkuNUExLjc1IDEuNzUgMCAwIDAgMTUuMzMzIDZIMTRWNWE0IDQgMCAwIDAtOCAwWm00LTIuNUEyLjUgMi41IDAgMCAwIDcuNSA1djFoNVY1QTIuNSAyLjUgMCAwIDAgMTAgMi41Wk03LjUgMTBhMi41IDIuNSAwIDAgMCA1IDBWOC43NWEuNzUuNzUgMCAwIDEgMS41IDBWMTBhNCA0IDAgMCAxLTggMFY4Ljc1YS43NS43NSAwIDAgMSAxLjUgMFYxMFoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| shoppingBag
 -}
 shoppingBag : List (Attribute msg) -> Html msg
 shoppingBag attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M6 5v1H4.667a1.75 1.75 0 0 0-1.743 1.598l-.826 9.5A1.75 1.75 0 0 0 3.84 19H16.16a1.75 1.75 0 0 0 1.743-1.902l-.826-9.5A1.75 1.75 0 0 0 15.333 6H14V5a4 4 0 0 0-8 0Zm4-2.5A2.5 2.5 0 0 0 7.5 5v1h5V5A2.5 2.5 0 0 0 10 2.5ZM7.5 10a2.5 2.5 0 0 0 5 0V8.75a.75.75 0 0 1 1.5 0V10a4 4 0 0 1-8 0V8.75a.75.75 0 0 1 1.5 0V10Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik0xIDEuNzVBLjc1Ljc1IDAgMCAxIDEuNzUgMWgxLjYyOGExLjc1IDEuNzUgMCAwIDEgMS43MzQgMS41MUw1LjE4IDNhNjUuMjUgNjUuMjUgMCAwIDEgMTMuMzYgMS40MTIuNzUuNzUgMCAwIDEgLjU4Ljg3NSA0OC42NDUgNDguNjQ1IDAgMCAxLTEuNjE4IDYuMi43NS43NSAwIDAgMS0uNzEyLjUxM0g2YTIuNTAzIDIuNTAzIDAgMCAwLTIuMjkyIDEuNUgxNy4yNWEuNzUuNzUgMCAwIDEgMCAxLjVIMi43NmEuNzUuNzUgMCAwIDEtLjc0OC0uODA3IDQuMDAyIDQuMDAyIDAgMCAxIDIuNzE2LTMuNDg2TDMuNjI2IDIuNzE2YS4yNS4yNSAwIDAgMC0uMjQ4LS4yMTZIMS43NUEuNzUuNzUgMCAwIDEgMSAxLjc1Wk02IDE3LjVhMS41IDEuNSAwIDEgMS0zIDAgMS41IDEuNSAwIDAgMSAzIDBaTTE1LjUgMTlhMS41IDEuNSAwIDEgMCAwLTMgMS41IDEuNSAwIDAgMCAwIDNaIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| shoppingCart
 -}
 shoppingCart : List (Attribute msg) -> Html msg
 shoppingCart attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M1 1.75A.75.75 0 0 1 1.75 1h1.628a1.75 1.75 0 0 1 1.734 1.51L5.18 3a65.25 65.25 0 0 1 13.36 1.412.75.75 0 0 1 .58.875 48.645 48.645 0 0 1-1.618 6.2.75.75 0 0 1-.712.513H6a2.503 2.503 0 0 0-2.292 1.5H17.25a.75.75 0 0 1 0 1.5H2.76a.75.75 0 0 1-.748-.807 4.002 4.002 0 0 1 2.716-3.486L3.626 2.716a.25.25 0 0 0-.248-.216H1.75A.75.75 0 0 1 1 1.75ZM6 17.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0ZM15.5 19a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik0yLjIyIDIuMjJhLjc1Ljc1IDAgMCAxIDEuMDYgMGw2Ljc4MyA2Ljc4MmExIDEgMCAwIDEgLjkzNS45MzVsNi43ODIgNi43ODNhLjc1Ljc1IDAgMSAxLTEuMDYgMS4wNmwtNi43ODMtNi43ODJhMSAxIDAgMCAxLS45MzUtLjkzNUwyLjIyIDMuMjhhLjc1Ljc1IDAgMCAxIDAtMS4wNlpNMy42MzYgMTYuMzY0YTkuMDA0IDkuMDA0IDAgMCAxLTEuMzktMTAuOTM2TDMuMzQ5IDYuNTNhNy41MDMgNy41MDMgMCAwIDAgMS4zNDggOC43NzMuNzUuNzUgMCAwIDEtMS4wNjEgMS4wNjFaTTYuNDY0IDEzLjUzNmE1IDUgMCAwIDEtMS4yMTMtNS4xMDNsMS4yNjIgMS4yNjJhMy40OTMgMy40OTMgMCAwIDAgMS4wMTIgMi43OC43NS43NSAwIDAgMS0xLjA2IDEuMDZaTTE2LjM2NCAzLjYzNmE5LjAwNCA5LjAwNCAwIDAgMSAxLjM5IDEwLjkzN2wtMS4xMDMtMS4xMDRhNy41MDMgNy41MDMgMCAwIDAtMS4zNDgtOC43NzIuNzUuNzUgMCAxIDEgMS4wNjEtMS4wNjFaTTEzLjUzNiA2LjQ2NGE1IDUgMCAwIDEgMS4yMTMgNS4xMDNsLTEuMjYyLTEuMjYyYTMuNDkzIDMuNDkzIDAgMCAwLTEuMDEyLTIuNzguNzUuNzUgMCAwIDEgMS4wNi0xLjA2WiIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| signalSlash
 -}
 signalSlash : List (Attribute msg) -> Html msg
 signalSlash attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M2.22 2.22a.75.75 0 0 1 1.06 0l6.783 6.782a1 1 0 0 1 .935.935l6.782 6.783a.75.75 0 1 1-1.06 1.06l-6.783-6.782a1 1 0 0 1-.935-.935L2.22 3.28a.75.75 0 0 1 0-1.06ZM3.636 16.364a9.004 9.004 0 0 1-1.39-10.936L3.349 6.53a7.503 7.503 0 0 0 1.348 8.773.75.75 0 0 1-1.061 1.061ZM6.464 13.536a5 5 0 0 1-1.213-5.103l1.262 1.262a3.493 3.493 0 0 0 1.012 2.78.75.75 0 0 1-1.06 1.06ZM16.364 3.636a9.004 9.004 0 0 1 1.39 10.937l-1.103-1.104a7.503 7.503 0 0 0-1.348-8.772.75.75 0 1 1 1.061-1.061ZM13.536 6.464a5 5 0 0 1 1.213 5.103l-1.262-1.262a3.493 3.493 0 0 0-1.012-2.78.75.75 0 0 1 1.06-1.06Z" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik0xNi4zNjQgMy42MzZhLjc1Ljc1IDAgMCAwLTEuMDYgMS4wNiA3LjUgNy41IDAgMCAxIDAgMTAuNjA3Ljc1Ljc1IDAgMCAwIDEuMDYgMS4wNjEgOSA5IDAgMCAwIDAtMTIuNzI4Wk00LjY5NyA0LjY5N2EuNzUuNzUgMCAwIDAtMS4wNjEtMS4wNjEgOSA5IDAgMCAwIDAgMTIuNzI4Ljc1Ljc1IDAgMSAwIDEuMDYtMS4wNiA3LjUgNy41IDAgMCAxIDAtMTAuNjA3WiIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PHBhdGggZD0iTTEyLjQ3NSA2LjQ2NGEuNzUuNzUgMCAwIDEgMS4wNiAwIDUgNSAwIDAgMSAwIDcuMDcyLjc1Ljc1IDAgMCAxLTEuMDYtMS4wNjEgMy41IDMuNSAwIDAgMCAwLTQuOTUuNzUuNzUgMCAwIDEgMC0xLjA2Wk03LjUyNSA2LjQ2NGEuNzUuNzUgMCAwIDEgMCAxLjA2MSAzLjUgMy41IDAgMCAwIDAgNC45NS43NS43NSAwIDAgMS0xLjA2IDEuMDYgNSA1IDAgMCAxIDAtNy4wNy43NS43NSAwIDAgMSAxLjA2IDBaTTExIDEwYTEgMSAwIDEgMS0yIDAgMSAxIDAgMCAxIDIgMFoiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| signal
 -}
 signal : List (Attribute msg) -> Html msg
 signal attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M16.364 3.636a.75.75 0 0 0-1.06 1.06 7.5 7.5 0 0 1 0 10.607.75.75 0 0 0 1.06 1.061 9 9 0 0 0 0-12.728ZM4.697 4.697a.75.75 0 0 0-1.061-1.061 9 9 0 0 0 0 12.728.75.75 0 1 0 1.06-1.06 7.5 7.5 0 0 1 0-10.607Z" ] [], Svg.path [ d "M12.475 6.464a.75.75 0 0 1 1.06 0 5 5 0 0 1 0 7.072.75.75 0 0 1-1.06-1.061 3.5 3.5 0 0 0 0-4.95.75.75 0 0 1 0-1.06ZM7.525 6.464a.75.75 0 0 1 0 1.061 3.5 3.5 0 0 0 0 4.95.75.75 0 0 1-1.06 1.06 5 5 0 0 1 0-7.07.75.75 0 0 1 1.06 0ZM11 10a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik0xNS45OCAxLjgwNGExIDEgMCAwIDAtMS45NiAwbC0uMjQgMS4xOTJhMSAxIDAgMCAxLS43ODQuNzg1bC0xLjE5Mi4yMzhhMSAxIDAgMCAwIDAgMS45NjJsMS4xOTIuMjM4YTEgMSAwIDAgMSAuNzg1Ljc4NWwuMjM4IDEuMTkyYTEgMSAwIDAgMCAxLjk2MiAwbC4yMzgtMS4xOTJhMSAxIDAgMCAxIC43ODUtLjc4NWwxLjE5Mi0uMjM4YTEgMSAwIDAgMCAwLTEuOTYybC0xLjE5Mi0uMjM4YTEgMSAwIDAgMS0uNzg1LS43ODVsLS4yMzgtMS4xOTJaTTYuOTQ5IDUuNjg0YTEgMSAwIDAgMC0xLjg5OCAwbC0uNjgzIDIuMDUxYTEgMSAwIDAgMS0uNjMzLjYzM2wtMi4wNTEuNjgzYTEgMSAwIDAgMCAwIDEuODk4bDIuMDUxLjY4NGExIDEgMCAwIDEgLjYzMy42MzJsLjY4MyAyLjA1MWExIDEgMCAwIDAgMS44OTggMGwuNjgzLTIuMDUxYTEgMSAwIDAgMSAuNjMzLS42MzNsMi4wNTEtLjY4M2ExIDEgMCAwIDAgMC0xLjg5OGwtMi4wNTEtLjY4M2ExIDEgMCAwIDEtLjYzMy0uNjMzTDYuOTUgNS42ODRaTTEzLjk0OSAxMy42ODRhMSAxIDAgMCAwLTEuODk4IDBsLS4xODQuNTUxYTEgMSAwIDAgMS0uNjMyLjYzM2wtLjU1MS4xODNhMSAxIDAgMCAwIDAgMS44OThsLjU1MS4xODNhMSAxIDAgMCAxIC42MzMuNjMzbC4xODMuNTUxYTEgMSAwIDAgMCAxLjg5OCAwbC4xODQtLjU1MWExIDEgMCAwIDEgLjYzMi0uNjMzbC41NTEtLjE4M2ExIDEgMCAwIDAgMC0xLjg5OGwtLjU1MS0uMTg0YTEgMSAwIDAgMS0uNjMzLS42MzJsLS4xODMtLjU1MVoiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| sparkles
 -}
 sparkles : List (Attribute msg) -> Html msg
 sparkles attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M15.98 1.804a1 1 0 0 0-1.96 0l-.24 1.192a1 1 0 0 1-.784.785l-1.192.238a1 1 0 0 0 0 1.962l1.192.238a1 1 0 0 1 .785.785l.238 1.192a1 1 0 0 0 1.962 0l.238-1.192a1 1 0 0 1 .785-.785l1.192-.238a1 1 0 0 0 0-1.962l-1.192-.238a1 1 0 0 1-.785-.785l-.238-1.192ZM6.949 5.684a1 1 0 0 0-1.898 0l-.683 2.051a1 1 0 0 1-.633.633l-2.051.683a1 1 0 0 0 0 1.898l2.051.684a1 1 0 0 1 .633.632l.683 2.051a1 1 0 0 0 1.898 0l.683-2.051a1 1 0 0 1 .633-.633l2.051-.683a1 1 0 0 0 0-1.898l-2.051-.683a1 1 0 0 1-.633-.633L6.95 5.684ZM13.949 13.684a1 1 0 0 0-1.898 0l-.184.551a1 1 0 0 1-.632.633l-.551.183a1 1 0 0 0 0 1.898l.551.183a1 1 0 0 1 .633.633l.183.551a1 1 0 0 0 1.898 0l.184-.551a1 1 0 0 1 .632-.633l.551-.183a1 1 0 0 0 0-1.898l-.551-.184a1 1 0 0 1-.633-.632l-.183-.551Z" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik0xMC41IDMuNzVhLjc1Ljc1IDAgMCAwLTEuMjY0LS41NDZMNS4yMDMgN0gyLjY2N2EuNzUuNzUgMCAwIDAtLjcuNDhBNi45ODUgNi45ODUgMCAwIDAgMS41IDEwYzAgLjg4Ny4xNjUgMS43MzcuNDY4IDIuNTIuMTExLjI5LjM5LjQ4LjcuNDhoMi41MzVsNC4wMzMgMy43OTZhLjc1Ljc1IDAgMCAwIDEuMjY0LS41NDZWMy43NVpNMTYuNDUgNS4wNWEuNzUuNzUgMCAwIDAtMS4wNiAxLjA2MSA1LjUgNS41IDAgMCAxIDAgNy43NzguNzUuNzUgMCAwIDAgMS4wNiAxLjA2IDcgNyAwIDAgMCAwLTkuODk5WiIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PHBhdGggZD0iTTE0LjMyOSA3LjE3MmEuNzUuNzUgMCAwIDAtMS4wNjEgMS4wNiAyLjUgMi41IDAgMCAxIDAgMy41MzYuNzUuNzUgMCAwIDAgMS4wNiAxLjA2IDQgNCAwIDAgMCAwLTUuNjU2WiIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| speakerWave
 -}
 speakerWave : List (Attribute msg) -> Html msg
 speakerWave attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M10.5 3.75a.75.75 0 0 0-1.264-.546L5.203 7H2.667a.75.75 0 0 0-.7.48A6.985 6.985 0 0 0 1.5 10c0 .887.165 1.737.468 2.52.111.29.39.48.7.48h2.535l4.033 3.796a.75.75 0 0 0 1.264-.546V3.75ZM16.45 5.05a.75.75 0 0 0-1.06 1.061 5.5 5.5 0 0 1 0 7.778.75.75 0 0 0 1.06 1.06 7 7 0 0 0 0-9.899Z" ] [], Svg.path [ d "M14.329 7.172a.75.75 0 0 0-1.061 1.06 2.5 2.5 0 0 1 0 3.536.75.75 0 0 0 1.06 1.06 4 4 0 0 0 0-5.656Z" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik0xMC4wNDcgMy4wNjJhLjc1Ljc1IDAgMCAxIC40NTMuNjg4djEyLjVhLjc1Ljc1IDAgMCAxLTEuMjY0LjU0Nkw1LjIwMyAxM0gyLjY2N2EuNzUuNzUgMCAwIDEtLjctLjQ4QTYuOTg1IDYuOTg1IDAgMCAxIDEuNSAxMGMwLS44ODcuMTY1LTEuNzM3LjQ2OC0yLjUyYS43NS43NSAwIDAgMSAuNy0uNDhoMi41MzVsNC4wMzMtMy43OTZhLjc1Ljc1IDAgMCAxIC44MTEtLjE0MlpNMTMuNzggNy4yMmEuNzUuNzUgMCAxIDAtMS4wNiAxLjA2TDE0LjQ0IDEwbC0xLjcyIDEuNzJhLjc1Ljc1IDAgMCAwIDEuMDYgMS4wNmwxLjcyLTEuNzIgMS43MiAxLjcyYS43NS43NSAwIDEgMCAxLjA2LTEuMDZMMTYuNTYgMTBsMS43Mi0xLjcyYS43NS43NSAwIDAgMC0xLjA2LTEuMDZMMTUuNSA4Ljk0bC0xLjcyLTEuNzJaIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| speakerXMark
 -}
 speakerXMark : List (Attribute msg) -> Html msg
 speakerXMark attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M10.047 3.062a.75.75 0 0 1 .453.688v12.5a.75.75 0 0 1-1.264.546L5.203 13H2.667a.75.75 0 0 1-.7-.48A6.985 6.985 0 0 1 1.5 10c0-.887.165-1.737.468-2.52a.75.75 0 0 1 .7-.48h2.535l4.033-3.796a.75.75 0 0 1 .811-.142ZM13.78 7.22a.75.75 0 1 0-1.06 1.06L14.44 10l-1.72 1.72a.75.75 0 0 0 1.06 1.06l1.72-1.72 1.72 1.72a.75.75 0 1 0 1.06-1.06L16.56 10l1.72-1.72a.75.75 0 0 0-1.06-1.06L15.5 8.94l-1.72-1.72Z" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik0yIDQuMjVBMi4yNSAyLjI1IDAgMCAxIDQuMjUgMmg2LjVBMi4yNSAyLjI1IDAgMCAxIDEzIDQuMjVWNS41SDkuMjVBMy43NSAzLjc1IDAgMCAwIDUuNSA5LjI1VjEzSDQuMjVBMi4yNSAyLjI1IDAgMCAxIDIgMTAuNzV2LTYuNVoiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjxwYXRoIGQ9Ik05LjI1IDdBMi4yNSAyLjI1IDAgMCAwIDcgOS4yNXY2LjVBMi4yNSAyLjI1IDAgMCAwIDkuMjUgMThoNi41QTIuMjUgMi4yNSAwIDAgMCAxOCAxNS43NXYtNi41QTIuMjUgMi4yNSAwIDAgMCAxNS43NSA3aC02LjVaIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| square2Stack
 -}
 square2Stack : List (Attribute msg) -> Html msg
 square2Stack attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M2 4.25A2.25 2.25 0 0 1 4.25 2h6.5A2.25 2.25 0 0 1 13 4.25V5.5H9.25A3.75 3.75 0 0 0 5.5 9.25V13H4.25A2.25 2.25 0 0 1 2 10.75v-6.5Z" ] [], Svg.path [ d "M9.25 7A2.25 2.25 0 0 0 7 9.25v6.5A2.25 2.25 0 0 0 9.25 18h6.5A2.25 2.25 0 0 0 18 15.75v-6.5A2.25 2.25 0 0 0 15.75 7h-6.5Z" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Im0zLjE5NiAxMi44Ny0uODI1LjQ4M2EuNzUuNzUgMCAwIDAgMCAxLjI5NGw3LjI1IDQuMjVhLjc1Ljc1IDAgMCAwIC43NTggMGw3LjI1LTQuMjVhLjc1Ljc1IDAgMCAwIDAtMS4yOTRsLS44MjUtLjQ4NC01LjY2NiAzLjMyMmEyLjI1IDIuMjUgMCAwIDEtMi4yNzYgMEwzLjE5NiAxMi44N1oiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjxwYXRoIGQ9Im0zLjE5NiA4Ljg3LS44MjUuNDgzYS43NS43NSAwIDAgMCAwIDEuMjk0bDcuMjUgNC4yNWEuNzUuNzUgMCAwIDAgLjc1OCAwbDcuMjUtNC4yNWEuNzUuNzUgMCAwIDAgMC0xLjI5NGwtLjgyNS0uNDg0LTUuNjY2IDMuMzIyYTIuMjUgMi4yNSAwIDAgMS0yLjI3NiAwTDMuMTk2IDguODdaIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48cGF0aCBkPSJNMTAuMzggMS4xMDNhLjc1Ljc1IDAgMCAwLS43NiAwbC03LjI1IDQuMjVhLjc1Ljc1IDAgMCAwIDAgMS4yOTRsNy4yNSA0LjI1YS43NS43NSAwIDAgMCAuNzYgMGw3LjI1LTQuMjVhLjc1Ljc1IDAgMCAwIDAtMS4yOTRsLTcuMjUtNC4yNVoiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| square3Stack3d
 -}
 square3Stack3d : List (Attribute msg) -> Html msg
 square3Stack3d attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "m3.196 12.87-.825.483a.75.75 0 0 0 0 1.294l7.25 4.25a.75.75 0 0 0 .758 0l7.25-4.25a.75.75 0 0 0 0-1.294l-.825-.484-5.666 3.322a2.25 2.25 0 0 1-2.276 0L3.196 12.87Z" ] [], Svg.path [ d "m3.196 8.87-.825.483a.75.75 0 0 0 0 1.294l7.25 4.25a.75.75 0 0 0 .758 0l7.25-4.25a.75.75 0 0 0 0-1.294l-.825-.484-5.666 3.322a2.25 2.25 0 0 1-2.276 0L3.196 8.87Z" ] [], Svg.path [ d "M10.38 1.103a.75.75 0 0 0-.76 0l-7.25 4.25a.75.75 0 0 0 0 1.294l7.25 4.25a.75.75 0 0 0 .76 0l7.25-4.25a.75.75 0 0 0 0-1.294l-7.25-4.25Z" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTQuMjUgMkEyLjI1IDIuMjUgMCAwIDAgMiA0LjI1djIuNUEyLjI1IDIuMjUgMCAwIDAgNC4yNSA5aDIuNUEyLjI1IDIuMjUgMCAwIDAgOSA2Ljc1di0yLjVBMi4yNSAyLjI1IDAgMCAwIDYuNzUgMmgtMi41Wm0wIDlBMi4yNSAyLjI1IDAgMCAwIDIgMTMuMjV2Mi41QTIuMjUgMi4yNSAwIDAgMCA0LjI1IDE4aDIuNUEyLjI1IDIuMjUgMCAwIDAgOSAxNS43NXYtMi41QTIuMjUgMi4yNSAwIDAgMCA2Ljc1IDExaC0yLjVabTktOUEyLjI1IDIuMjUgMCAwIDAgMTEgNC4yNXYyLjVBMi4yNSAyLjI1IDAgMCAwIDEzLjI1IDloMi41QTIuMjUgMi4yNSAwIDAgMCAxOCA2Ljc1di0yLjVBMi4yNSAyLjI1IDAgMCAwIDE1Ljc1IDJoLTIuNVptMCA5QTIuMjUgMi4yNSAwIDAgMCAxMSAxMy4yNXYyLjVBMi4yNSAyLjI1IDAgMCAwIDEzLjI1IDE4aDIuNUEyLjI1IDIuMjUgMCAwIDAgMTggMTUuNzV2LTIuNUEyLjI1IDIuMjUgMCAwIDAgMTUuNzUgMTFoLTIuNVoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| squares2x2
 -}
 squares2x2 : List (Attribute msg) -> Html msg
 squares2x2 attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M4.25 2A2.25 2.25 0 0 0 2 4.25v2.5A2.25 2.25 0 0 0 4.25 9h2.5A2.25 2.25 0 0 0 9 6.75v-2.5A2.25 2.25 0 0 0 6.75 2h-2.5Zm0 9A2.25 2.25 0 0 0 2 13.25v2.5A2.25 2.25 0 0 0 4.25 18h2.5A2.25 2.25 0 0 0 9 15.75v-2.5A2.25 2.25 0 0 0 6.75 11h-2.5Zm9-9A2.25 2.25 0 0 0 11 4.25v2.5A2.25 2.25 0 0 0 13.25 9h2.5A2.25 2.25 0 0 0 18 6.75v-2.5A2.25 2.25 0 0 0 15.75 2h-2.5Zm0 9A2.25 2.25 0 0 0 11 13.25v2.5A2.25 2.25 0 0 0 13.25 18h2.5A2.25 2.25 0 0 0 18 15.75v-2.5A2.25 2.25 0 0 0 15.75 11h-2.5Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik0yIDQuMjVBMi4yNSAyLjI1IDAgMCAxIDQuMjUgMmgyLjVBMi4yNSAyLjI1IDAgMCAxIDkgNC4yNXYyLjVBMi4yNSAyLjI1IDAgMCAxIDYuNzUgOWgtMi41QTIuMjUgMi4yNSAwIDAgMSAyIDYuNzV2LTIuNVpNMiAxMy4yNUEyLjI1IDIuMjUgMCAwIDEgNC4yNSAxMWgyLjVBMi4yNSAyLjI1IDAgMCAxIDkgMTMuMjV2Mi41QTIuMjUgMi4yNSAwIDAgMSA2Ljc1IDE4aC0yLjVBMi4yNSAyLjI1IDAgMCAxIDIgMTUuNzV2LTIuNVpNMTEgNC4yNUEyLjI1IDIuMjUgMCAwIDEgMTMuMjUgMmgyLjVBMi4yNSAyLjI1IDAgMCAxIDE4IDQuMjV2Mi41QTIuMjUgMi4yNSAwIDAgMSAxNS43NSA5aC0yLjVBMi4yNSAyLjI1IDAgMCAxIDExIDYuNzV2LTIuNVpNMTUuMjUgMTEuNzVhLjc1Ljc1IDAgMCAwLTEuNSAwdjJoLTJhLjc1Ljc1IDAgMCAwIDAgMS41aDJ2MmEuNzUuNzUgMCAwIDAgMS41IDB2LTJoMmEuNzUuNzUgMCAwIDAgMC0xLjVoLTJ2LTJaIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| squaresPlus
 -}
 squaresPlus : List (Attribute msg) -> Html msg
 squaresPlus attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M2 4.25A2.25 2.25 0 0 1 4.25 2h2.5A2.25 2.25 0 0 1 9 4.25v2.5A2.25 2.25 0 0 1 6.75 9h-2.5A2.25 2.25 0 0 1 2 6.75v-2.5ZM2 13.25A2.25 2.25 0 0 1 4.25 11h2.5A2.25 2.25 0 0 1 9 13.25v2.5A2.25 2.25 0 0 1 6.75 18h-2.5A2.25 2.25 0 0 1 2 15.75v-2.5ZM11 4.25A2.25 2.25 0 0 1 13.25 2h2.5A2.25 2.25 0 0 1 18 4.25v2.5A2.25 2.25 0 0 1 15.75 9h-2.5A2.25 2.25 0 0 1 11 6.75v-2.5ZM15.25 11.75a.75.75 0 0 0-1.5 0v2h-2a.75.75 0 0 0 0 1.5h2v2a.75.75 0 0 0 1.5 0v-2h2a.75.75 0 0 0 0-1.5h-2v-2Z" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEwLjg2OCAyLjg4NGMtLjMyMS0uNzcyLTEuNDE1LS43NzItMS43MzYgMGwtMS44MyA0LjQwMS00Ljc1My4zODFjLS44MzMuMDY3LTEuMTcxIDEuMTA3LS41MzYgMS42NTFsMy42MiAzLjEwMi0xLjEwNiA0LjYzN2MtLjE5NC44MTMuNjkxIDEuNDU2IDEuNDA1IDEuMDJMMTAgMTUuNTkxbDQuMDY5IDIuNDg1Yy43MTMuNDM2IDEuNTk4LS4yMDcgMS40MDQtMS4wMmwtMS4xMDYtNC42MzcgMy42Mi0zLjEwMmMuNjM1LS41NDQuMjk3LTEuNTg0LS41MzYtMS42NWwtNC43NTItLjM4Mi0xLjgzMS00LjQwMVoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| star
 -}
 star : List (Attribute msg) -> Html msg
 star attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTIgMTBhOCA4IDAgMSAxIDE2IDAgOCA4IDAgMCAxLTE2IDBabTUtMi4yNUEuNzUuNzUgMCAwIDEgNy43NSA3aDQuNWEuNzUuNzUgMCAwIDEgLjc1Ljc1djQuNWEuNzUuNzUgMCAwIDEtLjc1Ljc1aC00LjVhLjc1Ljc1IDAgMCAxLS43NS0uNzV2LTQuNVoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| stopCircle
 -}
 stopCircle : List (Attribute msg) -> Html msg
 stopCircle attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M2 10a8 8 0 1 1 16 0 8 8 0 0 1-16 0Zm5-2.25A.75.75 0 0 1 7.75 7h4.5a.75.75 0 0 1 .75.75v4.5a.75.75 0 0 1-.75.75h-4.5a.75.75 0 0 1-.75-.75v-4.5Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik01LjI1IDNBMi4yNSAyLjI1IDAgMCAwIDMgNS4yNXY5LjVBMi4yNSAyLjI1IDAgMCAwIDUuMjUgMTdoOS41QTIuMjUgMi4yNSAwIDAgMCAxNyAxNC43NXYtOS41QTIuMjUgMi4yNSAwIDAgMCAxNC43NSAzaC05LjVaIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| stop
 -}
 stop : List (Attribute msg) -> Html msg
 stop attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M5.25 3A2.25 2.25 0 0 0 3 5.25v9.5A2.25 2.25 0 0 0 5.25 17h9.5A2.25 2.25 0 0 0 17 14.75v-9.5A2.25 2.25 0 0 0 14.75 3h-9.5Z" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik0xMCAyYS43NS43NSAwIDAgMSAuNzUuNzV2MS41YS43NS43NSAwIDAgMS0xLjUgMHYtMS41QS43NS43NSAwIDAgMSAxMCAyWk0xMCAxNWEuNzUuNzUgMCAwIDEgLjc1Ljc1djEuNWEuNzUuNzUgMCAwIDEtMS41IDB2LTEuNUEuNzUuNzUgMCAwIDEgMTAgMTVaTTEwIDdhMyAzIDAgMSAwIDAgNiAzIDMgMCAwIDAgMC02Wk0xNS42NTcgNS40MDRhLjc1Ljc1IDAgMSAwLTEuMDYtMS4wNmwtMS4wNjEgMS4wNmEuNzUuNzUgMCAwIDAgMS4wNiAxLjA2bDEuMDYtMS4wNlpNNi40NjQgMTQuNTk2YS43NS43NSAwIDEgMC0xLjA2LTEuMDZsLTEuMDYgMS4wNmEuNzUuNzUgMCAwIDAgMS4wNiAxLjA2bDEuMDYtMS4wNlpNMTggMTBhLjc1Ljc1IDAgMCAxLS43NS43NWgtMS41YS43NS43NSAwIDAgMSAwLTEuNWgxLjVBLjc1Ljc1IDAgMCAxIDE4IDEwWk01IDEwYS43NS43NSAwIDAgMS0uNzUuNzVoLTEuNWEuNzUuNzUgMCAwIDEgMC0xLjVoMS41QS43NS43NSAwIDAgMSA1IDEwWk0xNC41OTYgMTUuNjU3YS43NS43NSAwIDAgMCAxLjA2LTEuMDZsLTEuMDYtMS4wNjFhLjc1Ljc1IDAgMSAwLTEuMDYgMS4wNmwxLjA2IDEuMDZaTTUuNDA0IDYuNDY0YS43NS43NSAwIDAgMCAxLjA2LTEuMDZsLTEuMDYtMS4wNmEuNzUuNzUgMCAxIDAtMS4wNjEgMS4wNmwxLjA2IDEuMDZaIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| sun
 -}
 sun : List (Attribute msg) -> Html msg
 sun attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M10 2a.75.75 0 0 1 .75.75v1.5a.75.75 0 0 1-1.5 0v-1.5A.75.75 0 0 1 10 2ZM10 15a.75.75 0 0 1 .75.75v1.5a.75.75 0 0 1-1.5 0v-1.5A.75.75 0 0 1 10 15ZM10 7a3 3 0 1 0 0 6 3 3 0 0 0 0-6ZM15.657 5.404a.75.75 0 1 0-1.06-1.06l-1.061 1.06a.75.75 0 0 0 1.06 1.06l1.06-1.06ZM6.464 14.596a.75.75 0 1 0-1.06-1.06l-1.06 1.06a.75.75 0 0 0 1.06 1.06l1.06-1.06ZM18 10a.75.75 0 0 1-.75.75h-1.5a.75.75 0 0 1 0-1.5h1.5A.75.75 0 0 1 18 10ZM5 10a.75.75 0 0 1-.75.75h-1.5a.75.75 0 0 1 0-1.5h1.5A.75.75 0 0 1 5 10ZM14.596 15.657a.75.75 0 0 0 1.06-1.06l-1.06-1.061a.75.75 0 1 0-1.06 1.06l1.06 1.06ZM5.404 6.464a.75.75 0 0 0 1.06-1.06l-1.06-1.06a.75.75 0 1 0-1.061 1.06l1.06 1.06Z" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTMuNSAyQTEuNSAxLjUgMCAwIDAgMiAzLjVWMTVhMyAzIDAgMSAwIDYgMFYzLjVBMS41IDEuNSAwIDAgMCA2LjUgMmgtM1ptMTEuNzUzIDYuOTlMOS41IDE0Ljc0M1Y2LjI1N2wxLjUxLTEuNTFhMS41IDEuNSAwIDAgMSAyLjEyMiAwbDIuMTIxIDIuMTIxYTEuNSAxLjUgMCAwIDEgMCAyLjEyMlpNOC4zNjQgMThIMTYuNWExLjUgMS41IDAgMCAwIDEuNS0xLjV2LTNhMS41IDEuNSAwIDAgMC0xLjUtMS41aC0yLjEzNmwtNiA2Wk01IDE2YTEgMSAwIDEgMCAwLTIgMSAxIDAgMCAwIDAgMloiIGNsaXAtcnVsZT0iZXZlbm9kZCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| swatch
 -}
 swatch : List (Attribute msg) -> Html msg
 swatch attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M3.5 2A1.5 1.5 0 0 0 2 3.5V15a3 3 0 1 0 6 0V3.5A1.5 1.5 0 0 0 6.5 2h-3Zm11.753 6.99L9.5 14.743V6.257l1.51-1.51a1.5 1.5 0 0 1 2.122 0l2.121 2.121a1.5 1.5 0 0 1 0 2.122ZM8.364 18H16.5a1.5 1.5 0 0 0 1.5-1.5v-3a1.5 1.5 0 0 0-1.5-1.5h-2.136l-6 6ZM5 16a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTS45OSA1LjI0QTIuMjUgMi4yNSAwIDAgMSAzLjI1IDNoMTMuNUEyLjI1IDIuMjUgMCAwIDEgMTkgNS4yNWwuMDEgOS41QTIuMjUgMi4yNSAwIDAgMSAxNi43NiAxN0gzLjI2QTIuMjY3IDIuMjY3IDAgMCAxIDEgMTQuNzRsLS4wMS05LjVabTguMjYgOS41MnYtLjYyNWEuNzUuNzUgMCAwIDAtLjc1LS43NUgzLjI1YS43NS43NSAwIDAgMC0uNzUuNzV2LjYxNWMwIC40MTQuMzM2Ljc1Ljc1Ljc1aDUuMzczYS43NS43NSAwIDAgMCAuNjI3LS43NFptMS41IDBhLjc1Ljc1IDAgMCAwIC42MjcuNzRoNS4zNzNhLjc1Ljc1IDAgMCAwIC43NS0uNzV2LS42MTVhLjc1Ljc1IDAgMCAwLS43NS0uNzVIMTEuNWEuNzUuNzUgMCAwIDAtLjc1Ljc1di42MjVabTYuNzUtMy42M3YtLjYyNWEuNzUuNzUgMCAwIDAtLjc1LS43NUgxMS41YS43NS43NSAwIDAgMC0uNzUuNzV2LjYyNWMwIC40MTQuMzM2Ljc1Ljc1Ljc1aDUuMjVhLjc1Ljc1IDAgMCAwIC43NS0uNzVabS04LjI1IDB2LS42MjVhLjc1Ljc1IDAgMCAwLS43NS0uNzVIMy4yNWEuNzUuNzUgMCAwIDAtLjc1Ljc1di42MjVjMCAuNDE0LjMzNi43NS43NS43NUg4LjVhLjc1Ljc1IDAgMCAwIC43NS0uNzVaTTE3LjUgNy41di0uNjI1YS43NS43NSAwIDAgMC0uNzUtLjc1SDExLjVhLjc1Ljc1IDAgMCAwLS43NS43NVY3LjVjMCAuNDE0LjMzNi43NS43NS43NWg1LjI1YS43NS43NSAwIDAgMCAuNzUtLjc1Wm0tOC4yNSAwdi0uNjI1YS43NS43NSAwIDAgMC0uNzUtLjc1SDMuMjVhLjc1Ljc1IDAgMCAwLS43NS43NVY3LjVjMCAuNDE0LjMzNi43NS43NS43NUg4LjVhLjc1Ljc1IDAgMCAwIC43NS0uNzVaIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| tableCells
 -}
 tableCells : List (Attribute msg) -> Html msg
 tableCells attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M.99 5.24A2.25 2.25 0 0 1 3.25 3h13.5A2.25 2.25 0 0 1 19 5.25l.01 9.5A2.25 2.25 0 0 1 16.76 17H3.26A2.267 2.267 0 0 1 1 14.74l-.01-9.5Zm8.26 9.52v-.625a.75.75 0 0 0-.75-.75H3.25a.75.75 0 0 0-.75.75v.615c0 .414.336.75.75.75h5.373a.75.75 0 0 0 .627-.74Zm1.5 0a.75.75 0 0 0 .627.74h5.373a.75.75 0 0 0 .75-.75v-.615a.75.75 0 0 0-.75-.75H11.5a.75.75 0 0 0-.75.75v.625Zm6.75-3.63v-.625a.75.75 0 0 0-.75-.75H11.5a.75.75 0 0 0-.75.75v.625c0 .414.336.75.75.75h5.25a.75.75 0 0 0 .75-.75Zm-8.25 0v-.625a.75.75 0 0 0-.75-.75H3.25a.75.75 0 0 0-.75.75v.625c0 .414.336.75.75.75H8.5a.75.75 0 0 0 .75-.75ZM17.5 7.5v-.625a.75.75 0 0 0-.75-.75H11.5a.75.75 0 0 0-.75.75V7.5c0 .414.336.75.75.75h5.25a.75.75 0 0 0 .75-.75Zm-8.25 0v-.625a.75.75 0 0 0-.75-.75H3.25a.75.75 0 0 0-.75.75V7.5c0 .414.336.75.75.75H8.5a.75.75 0 0 0 .75-.75Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTQuNSAyQTIuNSAyLjUgMCAwIDAgMiA0LjV2My44NzlhMi41IDIuNSAwIDAgMCAuNzMyIDEuNzY3bDcuNSA3LjVhMi41IDIuNSAwIDAgMCAzLjUzNiAwbDMuODc4LTMuODc4YTIuNSAyLjUgMCAwIDAgMC0zLjUzNmwtNy41LTcuNUEyLjUgMi41IDAgMCAwIDguMzggMkg0LjVaTTUgNmExIDEgMCAxIDAgMC0yIDEgMSAwIDAgMCAwIDJaIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| tag
 -}
 tag : List (Attribute msg) -> Html msg
 tag attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M4.5 2A2.5 2.5 0 0 0 2 4.5v3.879a2.5 2.5 0 0 0 .732 1.767l7.5 7.5a2.5 2.5 0 0 0 3.536 0l3.878-3.878a2.5 2.5 0 0 0 0-3.536l-7.5-7.5A2.5 2.5 0 0 0 8.38 2H4.5ZM5 6a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTE1Ljc1IDNBMi4yNSAyLjI1IDAgMCAxIDE4IDUuMjV2MS4yMTRjMCAuNDIzLS4yNzcuNzg4LS42MzMgMS4wMTlBMi45OTcgMi45OTcgMCAwIDAgMTYgMTBjMCAxLjA1NS41NDQgMS45ODIgMS4zNjcgMi41MTcuMzU2LjIzMS42MzMuNTk2LjYzMyAxLjAydjEuMjEzQTIuMjUgMi4yNSAwIDAgMSAxNS43NSAxN0g0LjI1QTIuMjUgMi4yNSAwIDAgMSAyIDE0Ljc1di0xLjIxM2MwLS40MjQuMjc3LS43ODkuNjMzLTEuMDJBMi45OTggMi45OTggMCAwIDAgNCAxMGEyLjk5NyAyLjk5NyAwIDAgMC0xLjM2Ny0yLjUxN0MyLjI3NyA3LjI1MiAyIDYuODg3IDIgNi40NjNWNS4yNUEyLjI1IDIuMjUgMCAwIDEgNC4yNSAzaDExLjVaTTEzLjUgNy4zOTZhLjc1Ljc1IDAgMCAwLTEuNSAwdjEuMDQyYS43NS43NSAwIDAgMCAxLjUgMFY3LjM5NlptMCA0LjE2N2EuNzUuNzUgMCAwIDAtMS41IDB2MS4wNDFhLjc1Ljc1IDAgMCAwIDEuNSAwdi0xLjA0MVoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| ticket
 -}
 ticket : List (Attribute msg) -> Html msg
 ticket attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M15.75 3A2.25 2.25 0 0 1 18 5.25v1.214c0 .423-.277.788-.633 1.019A2.997 2.997 0 0 0 16 10c0 1.055.544 1.982 1.367 2.517.356.231.633.596.633 1.02v1.213A2.25 2.25 0 0 1 15.75 17H4.25A2.25 2.25 0 0 1 2 14.75v-1.213c0-.424.277-.789.633-1.02A2.998 2.998 0 0 0 4 10a2.997 2.997 0 0 0-1.367-2.517C2.277 7.252 2 6.887 2 6.463V5.25A2.25 2.25 0 0 1 4.25 3h11.5ZM13.5 7.396a.75.75 0 0 0-1.5 0v1.042a.75.75 0 0 0 1.5 0V7.396Zm0 4.167a.75.75 0 0 0-1.5 0v1.041a.75.75 0 0 0 1.5 0v-1.041Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTguNzUgMUEyLjc1IDIuNzUgMCAwIDAgNiAzLjc1di40NDNjLS43OTUuMDc3LTEuNTg0LjE3Ni0yLjM2NS4yOThhLjc1Ljc1IDAgMSAwIC4yMyAxLjQ4MmwuMTQ5LS4wMjIuODQxIDEwLjUxOEEyLjc1IDIuNzUgMCAwIDAgNy41OTYgMTloNC44MDdhMi43NSAyLjc1IDAgMCAwIDIuNzQyLTIuNTNsLjg0MS0xMC41Mi4xNDkuMDIzYS43NS43NSAwIDAgMCAuMjMtMS40ODJBNDEuMDMgNDEuMDMgMCAwIDAgMTQgNC4xOTNWMy43NUEyLjc1IDIuNzUgMCAwIDAgMTEuMjUgMWgtMi41Wk0xMCA0Yy44NCAwIDEuNjczLjAyNSAyLjUuMDc1VjMuNzVjMC0uNjktLjU2LTEuMjUtMS4yNS0xLjI1aC0yLjVjLS42OSAwLTEuMjUuNTYtMS4yNSAxLjI1di4zMjVDOC4zMjcgNC4wMjUgOS4xNiA0IDEwIDRaTTguNTggNy43MmEuNzUuNzUgMCAwIDAtMS41LjA2bC4zIDcuNWEuNzUuNzUgMCAxIDAgMS41LS4wNmwtLjMtNy41Wm00LjM0LjA2YS43NS43NSAwIDEgMC0xLjUtLjA2bC0uMyA3LjVhLjc1Ljc1IDAgMSAwIDEuNS4wNmwuMy03LjVaIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| trash
 -}
 trash : List (Attribute msg) -> Html msg
 trash attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M8.75 1A2.75 2.75 0 0 0 6 3.75v.443c-.795.077-1.584.176-2.365.298a.75.75 0 1 0 .23 1.482l.149-.022.841 10.518A2.75 2.75 0 0 0 7.596 19h4.807a2.75 2.75 0 0 0 2.742-2.53l.841-10.52.149.023a.75.75 0 0 0 .23-1.482A41.03 41.03 0 0 0 14 4.193V3.75A2.75 2.75 0 0 0 11.25 1h-2.5ZM10 4c.84 0 1.673.025 2.5.075V3.75c0-.69-.56-1.25-1.25-1.25h-2.5c-.69 0-1.25.56-1.25 1.25v.325C8.327 4.025 9.16 4 10 4ZM8.58 7.72a.75.75 0 0 0-1.5.06l.3 7.5a.75.75 0 1 0 1.5-.06l-.3-7.5Zm4.34.06a.75.75 0 1 0-1.5-.06l-.3 7.5a.75.75 0 1 0 1.5.06l.3-7.5Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEwIDFjLTEuODI4IDAtMy42MjMuMTQ5LTUuMzcxLjQzNWEuNzUuNzUgMCAwIDAtLjYyOS43NHYuMzg3Yy0uODI3LjE1Ny0xLjY0Mi4zNDUtMi40NDUuNTY0YS43NS43NSAwIDAgMC0uNTUyLjY5OCA1IDUgMCAwIDAgNC41MDMgNS4xNTIgNiA2IDAgMCAwIDIuOTQ2IDEuODIyQTYuNDUxIDYuNDUxIDAgMCAxIDcuNzY4IDEzSDcuNUExLjUgMS41IDAgMCAwIDYgMTQuNVYxN2gtLjc1QzQuNTYgMTcgNCAxNy41NiA0IDE4LjI1YzAgLjQxNC4zMzYuNzUuNzUuNzVoMTAuNWEuNzUuNzUgMCAwIDAgLjc1LS43NWMwLS42OS0uNTYtMS4yNS0xLjI1LTEuMjVIMTR2LTIuNWExLjUgMS41IDAgMCAwLTEuNS0xLjVoLS4yNjhhNi40NTMgNi40NTMgMCAwIDEtLjY4NC0yLjIwMiA2IDYgMCAwIDAgMi45NDYtMS44MjIgNSA1IDAgMCAwIDQuNTAzLTUuMTUyLjc1Ljc1IDAgMCAwLS41NTItLjY5OEEzMS44MDQgMzEuODA0IDAgMCAwIDE2IDIuNTYydi0uMzg3YS43NS43NSAwIDAgMC0uNjI5LS43NEEzMy4yMjcgMzMuMjI3IDAgMCAwIDEwIDFaTTIuNTI1IDQuNDIyQzMuMDEyIDQuMyAzLjUwNCA0LjE5IDQgNC4wOVY1YzAgLjc0LjEzNCAxLjQ0OC4zOCAyLjEwM2EzLjUwMyAzLjUwMyAwIDAgMS0xLjg1NS0yLjY4Wm0xNC45NSAwYTMuNTAzIDMuNTAzIDAgMCAxLTEuODU0IDIuNjhDMTUuODY2IDYuNDQ5IDE2IDUuNzQgMTYgNXYtLjkxYy40OTYuMDk5Ljk4OC4yMSAxLjQ3NS4zMzJaIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| trophy
 -}
 trophy : List (Attribute msg) -> Html msg
 trophy attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M10 1c-1.828 0-3.623.149-5.371.435a.75.75 0 0 0-.629.74v.387c-.827.157-1.642.345-2.445.564a.75.75 0 0 0-.552.698 5 5 0 0 0 4.503 5.152 6 6 0 0 0 2.946 1.822A6.451 6.451 0 0 1 7.768 13H7.5A1.5 1.5 0 0 0 6 14.5V17h-.75C4.56 17 4 17.56 4 18.25c0 .414.336.75.75.75h10.5a.75.75 0 0 0 .75-.75c0-.69-.56-1.25-1.25-1.25H14v-2.5a1.5 1.5 0 0 0-1.5-1.5h-.268a6.453 6.453 0 0 1-.684-2.202 6 6 0 0 0 2.946-1.822 5 5 0 0 0 4.503-5.152.75.75 0 0 0-.552-.698A31.804 31.804 0 0 0 16 2.562v-.387a.75.75 0 0 0-.629-.74A33.227 33.227 0 0 0 10 1ZM2.525 4.422C3.012 4.3 3.504 4.19 4 4.09V5c0 .74.134 1.448.38 2.103a3.503 3.503 0 0 1-1.855-2.68Zm14.95 0a3.503 3.503 0 0 1-1.854 2.68C15.866 6.449 16 5.74 16 5v-.91c.496.099.988.21 1.475.332Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik02LjUgM2MtMS4wNTEgMC0yLjA5My4wNC0zLjEyNS4xMTdBMS40OSAxLjQ5IDAgMCAwIDIgNC42MDdWMTAuNWg5VjQuNjA2YzAtLjc3MS0uNTktMS40My0xLjM3NS0xLjQ4OUE0MS41NjggNDEuNTY4IDAgMCAwIDYuNSAzWk0yIDEydjIuNUExLjUgMS41IDAgMCAwIDMuNSAxNmguMDQxYTMgMyAwIDAgMSA1LjkxOCAwaC43OTFhLjc1Ljc1IDAgMCAwIC43NS0uNzVWMTJIMloiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjxwYXRoIGQ9Ik02LjUgMThhMS41IDEuNSAwIDEgMCAwLTMgMS41IDEuNSAwIDAgMCAwIDNaTTEzLjI1IDVhLjc1Ljc1IDAgMCAwLS43NS43NXY4LjUxNGEzLjAwMSAzLjAwMSAwIDAgMSA0Ljg5MyAxLjQ0Yy4zNy0uMjc1LjYxLS43MTkuNTk1LTEuMjI3YTI0LjkwNSAyNC45MDUgMCAwIDAtMS43ODQtOC41NDlBMS40ODYgMS40ODYgMCAwIDAgMTQuODIzIDVIMTMuMjVaTTE0LjUgMThhMS41IDEuNSAwIDEgMCAwLTMgMS41IDEuNSAwIDAgMCAwIDNaIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| truck
 -}
 truck : List (Attribute msg) -> Html msg
 truck attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M6.5 3c-1.051 0-2.093.04-3.125.117A1.49 1.49 0 0 0 2 4.607V10.5h9V4.606c0-.771-.59-1.43-1.375-1.489A41.568 41.568 0 0 0 6.5 3ZM2 12v2.5A1.5 1.5 0 0 0 3.5 16h.041a3 3 0 0 1 5.918 0h.791a.75.75 0 0 0 .75-.75V12H2Z" ] [], Svg.path [ d "M6.5 18a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3ZM13.25 5a.75.75 0 0 0-.75.75v8.514a3.001 3.001 0 0 1 4.893 1.44c.37-.275.61-.719.595-1.227a24.905 24.905 0 0 0-1.784-8.549A1.486 1.486 0 0 0 14.823 5H13.25ZM14.5 18a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik00IDVoMTJ2N0g0VjVaIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xIDMuNUExLjUgMS41IDAgMCAxIDIuNSAyaDE1QTEuNSAxLjUgMCAwIDEgMTkgMy41djEwYTEuNSAxLjUgMCAwIDEtMS41IDEuNUgxMnYxLjVoMy4yNWEuNzUuNzUgMCAwIDEgMCAxLjVINC43NWEuNzUuNzUgMCAwIDEgMC0xLjVIOFYxNUgyLjVBMS41IDEuNSAwIDAgMSAxIDEzLjV2LTEwWm0xNi41IDBoLTE1djEwaDE1di0xMFoiIGNsaXAtcnVsZT0iZXZlbm9kZCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| tv
 -}
 tv : List (Attribute msg) -> Html msg
 tv attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M4 5h12v7H4V5Z" ] [], Svg.path [ fillRule "evenodd", d "M1 3.5A1.5 1.5 0 0 1 2.5 2h15A1.5 1.5 0 0 1 19 3.5v10a1.5 1.5 0 0 1-1.5 1.5H12v1.5h3.25a.75.75 0 0 1 0 1.5H4.75a.75.75 0 0 1 0-1.5H8V15H2.5A1.5 1.5 0 0 1 1 13.5v-10Zm16.5 0h-15v10h15v-10Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTE4IDEwYTggOCAwIDEgMS0xNiAwIDggOCAwIDAgMSAxNiAwWm0tNS41LTIuNWEyLjUgMi41IDAgMSAxLTUgMCAyLjUgMi41IDAgMCAxIDUgMFpNMTAgMTJhNS45OSA1Ljk5IDAgMCAwLTQuNzkzIDIuMzlBNi40ODMgNi40ODMgMCAwIDAgMTAgMTYuNWE2LjQ4MyA2LjQ4MyAwIDAgMCA0Ljc5My0yLjExQTUuOTkgNS45OSAwIDAgMCAxMCAxMloiIGNsaXAtcnVsZT0iZXZlbm9kZCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| userCircle
 -}
 userCircle : List (Attribute msg) -> Html msg
 userCircle attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M18 10a8 8 0 1 1-16 0 8 8 0 0 1 16 0Zm-5.5-2.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0ZM10 12a5.99 5.99 0 0 0-4.793 2.39A6.483 6.483 0 0 0 10 16.5a6.483 6.483 0 0 0 4.793-2.11A5.99 5.99 0 0 0 10 12Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik0xMCA5YTMgMyAwIDEgMCAwLTYgMyAzIDAgMCAwIDAgNlpNNiA4YTIgMiAwIDEgMS00IDAgMiAyIDAgMCAxIDQgMFpNMS40OSAxNS4zMjZhLjc4Ljc4IDAgMCAxLS4zNTgtLjQ0MiAzIDMgMCAwIDEgNC4zMDgtMy41MTYgNi40ODQgNi40ODQgMCAwIDAtMS45MDUgMy45NTljLS4wMjMuMjIyLS4wMTQuNDQyLjAyNS42NTRhNC45NyA0Ljk3IDAgMCAxLTIuMDctLjY1NVpNMTYuNDQgMTUuOThhNC45NyA0Ljk3IDAgMCAwIDIuMDctLjY1NC43OC43OCAwIDAgMCAuMzU3LS40NDIgMyAzIDAgMCAwLTQuMzA4LTMuNTE3IDYuNDg0IDYuNDg0IDAgMCAxIDEuOTA3IDMuOTYgMi4zMiAyLjMyIDAgMCAxLS4wMjYuNjU0Wk0xOCA4YTIgMiAwIDEgMS00IDAgMiAyIDAgMCAxIDQgMFpNNS4zMDQgMTYuMTlhLjg0NC44NDQgMCAwIDEtLjI3Ny0uNzEgNSA1IDAgMCAxIDkuOTQ3IDAgLjg0My44NDMgMCAwIDEtLjI3Ny43MUE2Ljk3NSA2Ljk3NSAwIDAgMSAxMCAxOGE2Ljk3NCA2Ljk3NCAwIDAgMS00LjY5Ni0xLjgxWiIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| userGroup
 -}
 userGroup : List (Attribute msg) -> Html msg
 userGroup attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M10 9a3 3 0 1 0 0-6 3 3 0 0 0 0 6ZM6 8a2 2 0 1 1-4 0 2 2 0 0 1 4 0ZM1.49 15.326a.78.78 0 0 1-.358-.442 3 3 0 0 1 4.308-3.516 6.484 6.484 0 0 0-1.905 3.959c-.023.222-.014.442.025.654a4.97 4.97 0 0 1-2.07-.655ZM16.44 15.98a4.97 4.97 0 0 0 2.07-.654.78.78 0 0 0 .357-.442 3 3 0 0 0-4.308-3.517 6.484 6.484 0 0 1 1.907 3.96 2.32 2.32 0 0 1-.026.654ZM18 8a2 2 0 1 1-4 0 2 2 0 0 1 4 0ZM5.304 16.19a.844.844 0 0 1-.277-.71 5 5 0 0 1 9.947 0 .843.843 0 0 1-.277.71A6.975 6.975 0 0 1 10 18a6.974 6.974 0 0 1-4.696-1.81Z" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik0xMSA1YTMgMyAwIDEgMS02IDAgMyAzIDAgMCAxIDYgMFpNMi4wNDYgMTUuMjUzYy0uMDU4LjQ2OC4xNzIuOTIuNTcgMS4xNzVBOS45NTMgOS45NTMgMCAwIDAgOCAxOGMxLjk4MiAwIDMuODMtLjU3OCA1LjM4NC0xLjU3My4zOTgtLjI1NC42MjgtLjcwNy41Ny0xLjE3NWE2LjAwMSA2LjAwMSAwIDAgMC0xMS45MDggMFpNMTIuNzUgNy43NWEuNzUuNzUgMCAwIDAgMCAxLjVoNS41YS43NS43NSAwIDAgMCAwLTEuNWgtNS41WiIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| userMinus
 -}
 userMinus : List (Attribute msg) -> Html msg
 userMinus attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M11 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0ZM2.046 15.253c-.058.468.172.92.57 1.175A9.953 9.953 0 0 0 8 18c1.982 0 3.83-.578 5.384-1.573.398-.254.628-.707.57-1.175a6.001 6.001 0 0 0-11.908 0ZM12.75 7.75a.75.75 0 0 0 0 1.5h5.5a.75.75 0 0 0 0-1.5h-5.5Z" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik0xMCA1YTMgMyAwIDEgMS02IDAgMyAzIDAgMCAxIDYgMFpNMS42MTUgMTYuNDI4YTEuMjI0IDEuMjI0IDAgMCAxLS41NjktMS4xNzUgNi4wMDIgNi4wMDIgMCAwIDEgMTEuOTA4IDBjLjA1OC40NjctLjE3Mi45Mi0uNTcgMS4xNzRBOS45NTMgOS45NTMgMCAwIDEgNyAxOGE5Ljk1MyA5Ljk1MyAwIDAgMS01LjM4NS0xLjU3MlpNMTYuMjUgNS43NWEuNzUuNzUgMCAwIDAtMS41IDB2MmgtMmEuNzUuNzUgMCAwIDAgMCAxLjVoMnYyYS43NS43NSAwIDAgMCAxLjUgMHYtMmgyYS43NS43NSAwIDAgMCAwLTEuNWgtMnYtMloiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| userPlus
 -}
 userPlus : List (Attribute msg) -> Html msg
 userPlus attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M10 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0ZM1.615 16.428a1.224 1.224 0 0 1-.569-1.175 6.002 6.002 0 0 1 11.908 0c.058.467-.172.92-.57 1.174A9.953 9.953 0 0 1 7 18a9.953 9.953 0 0 1-5.385-1.572ZM16.25 5.75a.75.75 0 0 0-1.5 0v2h-2a.75.75 0 0 0 0 1.5h2v2a.75.75 0 0 0 1.5 0v-2h2a.75.75 0 0 0 0-1.5h-2v-2Z" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik0xMCA4YTMgMyAwIDEgMCAwLTYgMyAzIDAgMCAwIDAgNlpNMy40NjUgMTQuNDkzYTEuMjMgMS4yMyAwIDAgMCAuNDEgMS40MTJBOS45NTcgOS45NTcgMCAwIDAgMTAgMThjMi4zMSAwIDQuNDM4LS43ODQgNi4xMzEtMi4xLjQzLS4zMzMuNjA0LS45MDMuNDA4LTEuNDFhNy4wMDIgNy4wMDIgMCAwIDAtMTMuMDc0LjAwM1oiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| user
 -}
 user : List (Attribute msg) -> Html msg
 user attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M10 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6ZM3.465 14.493a1.23 1.23 0 0 0 .41 1.412A9.957 9.957 0 0 0 10 18c2.31 0 4.438-.784 6.131-2.1.43-.333.604-.903.408-1.41a7.002 7.002 0 0 0-13.074.003Z" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik03IDhhMyAzIDAgMSAwIDAtNiAzIDMgMCAwIDAgMCA2Wk0xNC41IDlhMi41IDIuNSAwIDEgMCAwLTUgMi41IDIuNSAwIDAgMCAwIDVaTTEuNjE1IDE2LjQyOGExLjIyNCAxLjIyNCAwIDAgMS0uNTY5LTEuMTc1IDYuMDAyIDYuMDAyIDAgMCAxIDExLjkwOCAwYy4wNTguNDY3LS4xNzIuOTItLjU3IDEuMTc0QTkuOTUzIDkuOTUzIDAgMCAxIDcgMThhOS45NTMgOS45NTMgMCAwIDEtNS4zODUtMS41NzJaTTE0LjUgMTZoLS4xMDZjLjA3LS4yOTcuMDg4LS42MTEuMDQ4LS45MzNhNy40NyA3LjQ3IDAgMCAwLTEuNTg4LTMuNzU1IDQuNTAyIDQuNTAyIDAgMCAxIDUuODc0IDIuNjM2LjgxOC44MTggMCAwIDEtLjM2Ljk4QTcuNDY1IDcuNDY1IDAgMCAxIDE0LjUgMTZaIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| users
 -}
 users : List (Attribute msg) -> Html msg
 users attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M7 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6ZM14.5 9a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5ZM1.615 16.428a1.224 1.224 0 0 1-.569-1.175 6.002 6.002 0 0 1 11.908 0c.058.467-.172.92-.57 1.174A9.953 9.953 0 0 1 7 18a9.953 9.953 0 0 1-5.385-1.572ZM14.5 16h-.106c.07-.297.088-.611.048-.933a7.47 7.47 0 0 0-1.588-3.755 4.502 4.502 0 0 1 5.874 2.636.818.818 0 0 1-.36.98A7.465 7.465 0 0 1 14.5 16Z" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTE1LjIxMiAyLjA3OWEuNzUuNzUgMCAwIDEgMS4wMDYuMzM2QTE2LjkzMiAxNi45MzIgMCAwIDEgMTggMTBjMCAyLjcyNC0uNjQxIDUuMy0xLjc4MiA3LjU4NWEuNzUuNzUgMCAxIDEtMS4zNDItLjY3QTE1LjQzMiAxNS40MzIgMCAwIDAgMTYuNSAxMGMwLTIuNDg2LS41ODUtNC44MzQtMS42MjQtNi45MTVhLjc1Ljc1IDAgMCAxIC4zMzYtMS4wMDZabS0xMC40MjQgMGEuNzUuNzUgMCAwIDEgLjMzNiAxLjAwNkExNS40MzMgMTUuNDMzIDAgMCAwIDMuNSAxMGMwIDIuNDg2LjU4NSA0LjgzNCAxLjYyNCA2LjkxNWEuNzUuNzUgMCAxIDEtMS4zNDIuNjdBMTYuOTMzIDE2LjkzMyAwIDAgMSAyIDEwYzAtMi43MjQuNjQxLTUuMyAxLjc4Mi03LjU4NWEuNzUuNzUgMCAwIDEgMS4wMDYtLjMzNlptMi4yODUgMy41NTRhMS41IDEuNSAwIDAgMSAyLjIxOS42NzdsLjg1NiAyLjA4IDEuMTQ2LTEuNzdhMi4yNSAyLjI1IDAgMCAxIDMuMTM3LS42NWwuMjM1LjE1NmEuNzUuNzUgMCAxIDEtLjgzMiAxLjI0OGwtLjIzNS0uMTU2YS43NS43NSAwIDAgMC0xLjA0NS4yMTZsLTEuNzEgMi42NDQgMS4yNTEgMy4wNC43MzktLjQ5MmEuNzUuNzUgMCAxIDEgLjgzMiAxLjI0OGwtLjczOS40OTNhMS41IDEuNSAwIDAgMS0yLjIxOS0uNjc3bC0uODU2LTIuMDgtMS4xNDYgMS43N2EyLjI1IDIuMjUgMCAwIDEtMy4xMzcuNjVsLS4yMzUtLjE1NmEuNzUuNzUgMCAwIDEgLjgzMi0xLjI0OGwuMjM1LjE1N2EuNzUuNzUgMCAwIDAgMS4wNDUtLjIxN2wxLjcxLTIuNjQ0LTEuMjUxLTMuMDQtLjczOS40OTJhLjc1Ljc1IDAgMCAxLS44MzItMS4yNDhsLjczOS0uNDkzWiIgY2xpcC1ydWxlPSJldmVub2RkIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| variable
 -}
 variable : List (Attribute msg) -> Html msg
 variable attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M15.212 2.079a.75.75 0 0 1 1.006.336A16.932 16.932 0 0 1 18 10c0 2.724-.641 5.3-1.782 7.585a.75.75 0 1 1-1.342-.67A15.432 15.432 0 0 0 16.5 10c0-2.486-.585-4.834-1.624-6.915a.75.75 0 0 1 .336-1.006Zm-10.424 0a.75.75 0 0 1 .336 1.006A15.433 15.433 0 0 0 3.5 10c0 2.486.585 4.834 1.624 6.915a.75.75 0 1 1-1.342.67A16.933 16.933 0 0 1 2 10c0-2.724.641-5.3 1.782-7.585a.75.75 0 0 1 1.006-.336Zm2.285 3.554a1.5 1.5 0 0 1 2.219.677l.856 2.08 1.146-1.77a2.25 2.25 0 0 1 3.137-.65l.235.156a.75.75 0 1 1-.832 1.248l-.235-.156a.75.75 0 0 0-1.045.216l-1.71 2.644 1.251 3.04.739-.492a.75.75 0 1 1 .832 1.248l-.739.493a1.5 1.5 0 0 1-2.219-.677l-.856-2.08-1.146 1.77a2.25 2.25 0 0 1-3.137.65l-.235-.156a.75.75 0 0 1 .832-1.248l.235.157a.75.75 0 0 0 1.045-.217l1.71-2.644-1.251-3.04-.739.492a.75.75 0 0 1-.832-1.248l.739-.493Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik0xIDEzLjc1VjcuMTgyTDkuODE4IDE2SDMuMjVBMi4yNSAyLjI1IDAgMCAxIDEgMTMuNzVaTTEzIDYuMjV2Ni41NjhMNC4xODIgNGg2LjU2OEEyLjI1IDIuMjUgMCAwIDEgMTMgNi4yNVpNMTkgNC43NWEuNzUuNzUgMCAwIDAtMS4yOC0uNTNsLTMgM2EuNzUuNzUgMCAwIDAtLjIyLjUzdjQuNWMwIC4xOTkuMDc5LjM5LjIyLjUzbDMgM2EuNzUuNzUgMCAwIDAgMS4yOC0uNTNWNC43NVpNMi4yOCA0LjIyYS43NS43NSAwIDAgMC0xLjA2IDEuMDZsMTAuNSAxMC41YS43NS43NSAwIDEgMCAxLjA2LTEuMDZMMi4yOCA0LjIyWiIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| videoCameraSlash
 -}
 videoCameraSlash : List (Attribute msg) -> Html msg
 videoCameraSlash attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M1 13.75V7.182L9.818 16H3.25A2.25 2.25 0 0 1 1 13.75ZM13 6.25v6.568L4.182 4h6.568A2.25 2.25 0 0 1 13 6.25ZM19 4.75a.75.75 0 0 0-1.28-.53l-3 3a.75.75 0 0 0-.22.53v4.5c0 .199.079.39.22.53l3 3a.75.75 0 0 0 1.28-.53V4.75ZM2.28 4.22a.75.75 0 0 0-1.06 1.06l10.5 10.5a.75.75 0 1 0 1.06-1.06L2.28 4.22Z" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik0zLjI1IDRBMi4yNSAyLjI1IDAgMCAwIDEgNi4yNXY3LjVBMi4yNSAyLjI1IDAgMCAwIDMuMjUgMTZoNy41QTIuMjUgMi4yNSAwIDAgMCAxMyAxMy43NXYtNy41QTIuMjUgMi4yNSAwIDAgMCAxMC43NSA0aC03LjVaTTE5IDQuNzVhLjc1Ljc1IDAgMCAwLTEuMjgtLjUzbC0zIDNhLjc1Ljc1IDAgMCAwLS4yMi41M3Y0LjVjMCAuMTk5LjA3OS4zOS4yMi41M2wzIDNhLjc1Ljc1IDAgMCAwIDEuMjgtLjUzVjQuNzVaIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiLz48L3N2Zz4=)
+{-| videoCamera
 -}
 videoCamera : List (Attribute msg) -> Html msg
 videoCamera attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M3.25 4A2.25 2.25 0 0 0 1 6.25v7.5A2.25 2.25 0 0 0 3.25 16h7.5A2.25 2.25 0 0 0 13 13.75v-7.5A2.25 2.25 0 0 0 10.75 4h-7.5ZM19 4.75a.75.75 0 0 0-1.28-.53l-3 3a.75.75 0 0 0-.22.53v4.5c0 .199.079.39.22.53l3 3a.75.75 0 0 0 1.28-.53V4.75Z" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik0xNCAxN2gyLjc1QTIuMjUgMi4yNSAwIDAgMCAxOSAxNC43NXYtOS41QTIuMjUgMi4yNSAwIDAgMCAxNi43NSAzSDE0djE0Wk0xMi41IDNoLTV2MTRoNVYzWk0zLjI1IDNINnYxNEgzLjI1QTIuMjUgMi4yNSAwIDAgMSAxIDE0Ljc1di05LjVBMi4yNSAyLjI1IDAgMCAxIDMuMjUgM1oiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| viewColumns
 -}
 viewColumns : List (Attribute msg) -> Html msg
 viewColumns attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M14 17h2.75A2.25 2.25 0 0 0 19 14.75v-9.5A2.25 2.25 0 0 0 16.75 3H14v14ZM12.5 3h-5v14h5V3ZM3.25 3H6v14H3.25A2.25 2.25 0 0 1 1 14.75v-9.5A2.25 2.25 0 0 1 3.25 3Z" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik00LjI1IDJBMi4yNSAyLjI1IDAgMCAwIDIgNC4yNXYyYS43NS43NSAwIDAgMCAxLjUgMHYtMmEuNzUuNzUgMCAwIDEgLjc1LS43NWgyYS43NS43NSAwIDAgMCAwLTEuNWgtMlpNMTMuNzUgMmEuNzUuNzUgMCAwIDAgMCAxLjVoMmEuNzUuNzUgMCAwIDEgLjc1Ljc1djJhLjc1Ljc1IDAgMCAwIDEuNSAwdi0yQTIuMjUgMi4yNSAwIDAgMCAxNS43NSAyaC0yWk0zLjUgMTMuNzVhLjc1Ljc1IDAgMCAwLTEuNSAwdjJBMi4yNSAyLjI1IDAgMCAwIDQuMjUgMThoMmEuNzUuNzUgMCAwIDAgMC0xLjVoLTJhLjc1Ljc1IDAgMCAxLS43NS0uNzV2LTJaTTE4IDEzLjc1YS43NS43NSAwIDAgMC0xLjUgMHYyYS43NS43NSAwIDAgMS0uNzUuNzVoLTJhLjc1Ljc1IDAgMCAwIDAgMS41aDJBMi4yNSAyLjI1IDAgMCAwIDE4IDE1Ljc1di0yWk03IDEwYTMgMyAwIDEgMSA2IDAgMyAzIDAgMCAxLTYgMFoiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| viewfinderCircle
 -}
 viewfinderCircle : List (Attribute msg) -> Html msg
 viewfinderCircle attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M4.25 2A2.25 2.25 0 0 0 2 4.25v2a.75.75 0 0 0 1.5 0v-2a.75.75 0 0 1 .75-.75h2a.75.75 0 0 0 0-1.5h-2ZM13.75 2a.75.75 0 0 0 0 1.5h2a.75.75 0 0 1 .75.75v2a.75.75 0 0 0 1.5 0v-2A2.25 2.25 0 0 0 15.75 2h-2ZM3.5 13.75a.75.75 0 0 0-1.5 0v2A2.25 2.25 0 0 0 4.25 18h2a.75.75 0 0 0 0-1.5h-2a.75.75 0 0 1-.75-.75v-2ZM18 13.75a.75.75 0 0 0-1.5 0v2a.75.75 0 0 1-.75.75h-2a.75.75 0 0 0 0 1.5h2A2.25 2.25 0 0 0 18 15.75v-2ZM7 10a3 3 0 1 1 6 0 3 3 0 0 1-6 0Z" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik0xIDQuMjVhMy43MzMgMy43MzMgMCAwIDEgMi4yNS0uNzVoMTMuNWMuODQ0IDAgMS42MjMuMjc5IDIuMjUuNzVBMi4yNSAyLjI1IDAgMCAwIDE2Ljc1IDJIMy4yNUEyLjI1IDIuMjUgMCAwIDAgMSA0LjI1Wk0xIDcuMjVhMy43MzMgMy43MzMgMCAwIDEgMi4yNS0uNzVoMTMuNWMuODQ0IDAgMS42MjMuMjc5IDIuMjUuNzVBMi4yNSAyLjI1IDAgMCAwIDE2Ljc1IDVIMy4yNUEyLjI1IDIuMjUgMCAwIDAgMSA3LjI1Wk03IDhhMSAxIDAgMCAxIDEgMSAyIDIgMCAxIDAgNCAwIDEgMSAwIDAgMSAxLTFoMy43NUEyLjI1IDIuMjUgMCAwIDEgMTkgMTAuMjV2NS41QTIuMjUgMi4yNSAwIDAgMSAxNi43NSAxOEgzLjI1QTIuMjUgMi4yNSAwIDAgMSAxIDE1Ljc1di01LjVBMi4yNSAyLjI1IDAgMCAxIDMuMjUgOEg3WiIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| wallet
 -}
 wallet : List (Attribute msg) -> Html msg
 wallet attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M1 4.25a3.733 3.733 0 0 1 2.25-.75h13.5c.844 0 1.623.279 2.25.75A2.25 2.25 0 0 0 16.75 2H3.25A2.25 2.25 0 0 0 1 4.25ZM1 7.25a3.733 3.733 0 0 1 2.25-.75h13.5c.844 0 1.623.279 2.25.75A2.25 2.25 0 0 0 16.75 5H3.25A2.25 2.25 0 0 0 1 7.25ZM7 8a1 1 0 0 1 1 1 2 2 0 1 0 4 0 1 1 0 0 1 1-1h3.75A2.25 2.25 0 0 1 19 10.25v5.5A2.25 2.25 0 0 1 16.75 18H3.25A2.25 2.25 0 0 1 1 15.75v-5.5A2.25 2.25 0 0 1 3.25 8H7Z" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTS42NzYgNi45NDFBMTIuOTY0IDEyLjk2NCAwIDAgMSAxMCAzYzMuNjU3IDAgNi45NjMgMS41MTEgOS4zMjQgMy45NDFhLjc1Ljc1IDAgMCAxLS4wMDggMS4wNTNsLS4zNTMuMzU0YS43NS43NSAwIDAgMS0xLjA2OS0uMDA4QzE1Ljg5NCA2LjI4IDEzLjA5NyA1IDEwIDUgNi45MDMgNSA0LjEwNiA2LjI4IDIuMTA2IDguMzRhLjc1Ljc1IDAgMCAxLTEuMDY5LjAwOGwtLjM1My0uMzU0YS43NS43NSAwIDAgMS0uMDA4LTEuMDUzWm0yLjgyNSAyLjgzM0E4Ljk3NiA4Ljk3NiAwIDAgMSAxMCA3YTguOTc2IDguOTc2IDAgMCAxIDYuNDk5IDIuNzc0Ljc1Ljc1IDAgMCAxLS4wMTEgMS4wNDlsLS4zNTQuMzU0YS43NS43NSAwIDAgMS0xLjA3Mi0uMDEyQTYuOTc4IDYuOTc4IDAgMCAwIDEwIDljLTEuOTkgMC0zLjc4Ni44My01LjA2MSAyLjE2NWEuNzUuNzUgMCAwIDEtMS4wNzMuMDEybC0uMzU0LS4zNTRhLjc1Ljc1IDAgMCAxLS4wMS0xLjA1Wm0yLjgyIDIuODRBNC45ODkgNC45ODkgMCAwIDEgMTAgMTFjMS40NTYgMCAyLjc2Ny42MjMgMy42OCAxLjYxNGEuNzUuNzUgMCAwIDEtLjAyMiAxLjAzOWwtLjM1NC4zNTRhLjc1Ljc1IDAgMCAxLTEuMDg1LS4wMjZBMi45OSAyLjk5IDAgMCAwIDEwIDEzYy0uODggMC0xLjY3LjM3Ny0yLjIyLjk4MWEuNzUuNzUgMCAwIDEtMS4wODQuMDI2bC0uMzU0LS4zNTRhLjc1Ljc1IDAgMCAxLS4wMjEtMS4wMzlabTIuNzk1IDIuNzUyYTEuMjQ4IDEuMjQ4IDAgMCAxIDEuNzY4IDAgLjc1Ljc1IDAgMCAxIDAgMS4wNmwtLjM1NC4zNTRhLjc1Ljc1IDAgMCAxLTEuMDYgMGwtLjM1NC0uMzUzYS43NS43NSAwIDAgMSAwLTEuMDZaIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| wifi
 -}
 wifi : List (Attribute msg) -> Html msg
 wifi attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M.676 6.941A12.964 12.964 0 0 1 10 3c3.657 0 6.963 1.511 9.324 3.941a.75.75 0 0 1-.008 1.053l-.353.354a.75.75 0 0 1-1.069-.008C15.894 6.28 13.097 5 10 5 6.903 5 4.106 6.28 2.106 8.34a.75.75 0 0 1-1.069.008l-.353-.354a.75.75 0 0 1-.008-1.053Zm2.825 2.833A8.976 8.976 0 0 1 10 7a8.976 8.976 0 0 1 6.499 2.774.75.75 0 0 1-.011 1.049l-.354.354a.75.75 0 0 1-1.072-.012A6.978 6.978 0 0 0 10 9c-1.99 0-3.786.83-5.061 2.165a.75.75 0 0 1-1.073.012l-.354-.354a.75.75 0 0 1-.01-1.05Zm2.82 2.84A4.989 4.989 0 0 1 10 11c1.456 0 2.767.623 3.68 1.614a.75.75 0 0 1-.022 1.039l-.354.354a.75.75 0 0 1-1.085-.026A2.99 2.99 0 0 0 10 13c-.88 0-1.67.377-2.22.981a.75.75 0 0 1-1.084.026l-.354-.354a.75.75 0 0 1-.021-1.039Zm2.795 2.752a1.248 1.248 0 0 1 1.768 0 .75.75 0 0 1 0 1.06l-.354.354a.75.75 0 0 1-1.06 0l-.354-.353a.75.75 0 0 1 0-1.06Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTQuMjUgMkEyLjI1IDIuMjUgMCAwIDAgMiA0LjI1djExLjVBMi4yNSAyLjI1IDAgMCAwIDQuMjUgMThoMTEuNUEyLjI1IDIuMjUgMCAwIDAgMTggMTUuNzVWNC4yNUEyLjI1IDIuMjUgMCAwIDAgMTUuNzUgMkg0LjI1Wk0zLjUgOHY3Ljc1YzAgLjQxNC4zMzYuNzUuNzUuNzVoMTEuNWEuNzUuNzUgMCAwIDAgLjc1LS43NVY4aC0xM1pNNSA0LjI1YS43NS43NSAwIDAgMC0uNzUuNzV2LjAxYzAgLjQxNC4zMzYuNzUuNzUuNzVoLjAxYS43NS43NSAwIDAgMCAuNzUtLjc1VjVhLjc1Ljc1IDAgMCAwLS43NS0uNzVINVpNNy4yNSA1QS43NS43NSAwIDAgMSA4IDQuMjVoLjAxYS43NS43NSAwIDAgMSAuNzUuNzV2LjAxYS43NS43NSAwIDAgMS0uNzUuNzVIOGEuNzUuNzUgMCAwIDEtLjc1LS43NVY1Wk0xMSA0LjI1YS43NS43NSAwIDAgMC0uNzUuNzV2LjAxYzAgLjQxNC4zMzYuNzUuNzUuNzVoLjAxYS43NS43NSAwIDAgMCAuNzUtLjc1VjVhLjc1Ljc1IDAgMCAwLS43NS0uNzVIMTFaIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| window
 -}
 window : List (Attribute msg) -> Html msg
 window attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M4.25 2A2.25 2.25 0 0 0 2 4.25v11.5A2.25 2.25 0 0 0 4.25 18h11.5A2.25 2.25 0 0 0 18 15.75V4.25A2.25 2.25 0 0 0 15.75 2H4.25ZM3.5 8v7.75c0 .414.336.75.75.75h11.5a.75.75 0 0 0 .75-.75V8h-13ZM5 4.25a.75.75 0 0 0-.75.75v.01c0 .414.336.75.75.75h.01a.75.75 0 0 0 .75-.75V5a.75.75 0 0 0-.75-.75H5ZM7.25 5A.75.75 0 0 1 8 4.25h.01a.75.75 0 0 1 .75.75v.01a.75.75 0 0 1-.75.75H8a.75.75 0 0 1-.75-.75V5ZM11 4.25a.75.75 0 0 0-.75.75v.01c0 .414.336.75.75.75h.01a.75.75 0 0 0 .75-.75V5a.75.75 0 0 0-.75-.75H11Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTE0LjUgMTBhNC41IDQuNSAwIDAgMCA0LjI4NC01Ljg4MmMtLjEwNS0uMzI0LS41MS0uMzkxLS43NTItLjE1TDE1LjM0IDYuNjZhLjQ1NC40NTQgMCAwIDEtLjQ5My4xMSAzLjAxIDMuMDEgMCAwIDEtMS42MTgtMS42MTYuNDU1LjQ1NSAwIDAgMSAuMTEtLjQ5NGwyLjY5NC0yLjY5MmMuMjQtLjI0MS4xNzQtLjY0Ny0uMTUtLjc1MmE0LjUgNC41IDAgMCAwLTUuODczIDQuNTc1Yy4wNTUuODczLS4xMjggMS44MDgtLjggMi4zNjhsLTcuMjMgNi4wMjRhMi43MjQgMi43MjQgMCAxIDAgMy44MzcgMy44MzdsNi4wMjQtNy4yM2MuNTYtLjY3MiAxLjQ5NS0uODU1IDIuMzY4LS44LjA5Ni4wMDcuMTkzLjAxLjI5MS4wMVpNNSAxNmExIDEgMCAxIDEtMiAwIDEgMSAwIDAgMSAyIDBaIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjxwYXRoIGQ9Ik0xNC41IDExLjVjLjE3MyAwIC4zNDUtLjAwNy41MTQtLjAyMmwzLjc1NCAzLjc1NGEyLjUgMi41IDAgMCAxLTMuNTM2IDMuNTM2bC00LjQxLTQuNDEgMi4xNzItMi42MDdjLjA1Mi0uMDYzLjE0Ny0uMTM4LjM0Mi0uMTk2LjIwMi0uMDYuNDY5LS4wODcuNzc3LS4wNjcuMTI4LjAwOC4yNTcuMDEyLjM4Ny4wMTJaTTYgNC41ODZsMi4zMyAyLjMzYS40NTIuNDUyIDAgMCAxLS4wOC4wOUw2LjggOC4yMTQgNC41ODYgNkgzLjMwOWEuNS41IDAgMCAxLS40NDctLjI3NmwtMS43LTMuNDAyYS41LjUgMCAwIDEgLjA5My0uNTc3bC40OS0uNDlhLjUuNSAwIDAgMSAuNTc3LS4wOTRsMy40MDIgMS43QS41LjUgMCAwIDEgNiAzLjMxdjEuMjc3WiIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| wrenchScrewdriver
 -}
 wrenchScrewdriver : List (Attribute msg) -> Html msg
 wrenchScrewdriver attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M14.5 10a4.5 4.5 0 0 0 4.284-5.882c-.105-.324-.51-.391-.752-.15L15.34 6.66a.454.454 0 0 1-.493.11 3.01 3.01 0 0 1-1.618-1.616.455.455 0 0 1 .11-.494l2.694-2.692c.24-.241.174-.647-.15-.752a4.5 4.5 0 0 0-5.873 4.575c.055.873-.128 1.808-.8 2.368l-7.23 6.024a2.724 2.724 0 1 0 3.837 3.837l6.024-7.23c.56-.672 1.495-.855 2.368-.8.096.007.193.01.291.01ZM5 16a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z", clipRule "evenodd" ] [], Svg.path [ d "M14.5 11.5c.173 0 .345-.007.514-.022l3.754 3.754a2.5 2.5 0 0 1-3.536 3.536l-4.41-4.41 2.172-2.607c.052-.063.147-.138.342-.196.202-.06.469-.087.777-.067.128.008.257.012.387.012ZM6 4.586l2.33 2.33a.452.452 0 0 1-.08.09L6.8 8.214 4.586 6H3.309a.5.5 0 0 1-.447-.276l-1.7-3.402a.5.5 0 0 1 .093-.577l.49-.49a.5.5 0 0 1 .577-.094l3.402 1.7A.5.5 0 0 1 6 3.31v1.277Z" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTE5IDUuNWE0LjUgNC41IDAgMCAxLTQuNzkxIDQuNDljLS44NzMtLjA1NS0xLjgwOC4xMjgtMi4zNjguOGwtNi4wMjQgNy4yM2EyLjcyNCAyLjcyNCAwIDEgMS0zLjgzNy0zLjgzN0w5LjIxIDguMTZjLjY3Mi0uNTYuODU1LTEuNDk1LjgtMi4zNjhhNC41IDQuNSAwIDAgMSA1Ljg3My00LjU3NWMuMzI0LjEwNS4zOS41MS4xNS43NTJMMTMuMzQgNC42NmEuNDU1LjQ1NSAwIDAgMC0uMTEuNDk0IDMuMDEgMy4wMSAwIDAgMCAxLjYxNyAxLjYxN2MuMTcuMDcuMzYzLjAyLjQ5My0uMTExbDIuNjkyLTIuNjkyYy4yNDEtLjI0MS42NDctLjE3NC43NTIuMTUuMTQuNDM1LjIxNi45LjIxNiAxLjM4MlpNNCAxN2ExIDEgMCAxIDAgMC0yIDEgMSAwIDAgMCAwIDJaIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| wrench
 -}
 wrench : List (Attribute msg) -> Html msg
 wrench attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M19 5.5a4.5 4.5 0 0 1-4.791 4.49c-.873-.055-1.808.128-2.368.8l-6.024 7.23a2.724 2.724 0 1 1-3.837-3.837L9.21 8.16c.672-.56.855-1.495.8-2.368a4.5 4.5 0 0 1 5.873-4.575c.324.105.39.51.15.752L13.34 4.66a.455.455 0 0 0-.11.494 3.01 3.01 0 0 0 1.617 1.617c.17.07.363.02.493-.111l2.692-2.692c.241-.241.647-.174.752.15.14.435.216.9.216 1.382ZM4 17a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTEwIDE4YTggOCAwIDEgMCAwLTE2IDggOCAwIDAgMCAwIDE2Wk04LjI4IDcuMjJhLjc1Ljc1IDAgMCAwLTEuMDYgMS4wNkw4Ljk0IDEwbC0xLjcyIDEuNzJhLjc1Ljc1IDAgMSAwIDEuMDYgMS4wNkwxMCAxMS4wNmwxLjcyIDEuNzJhLjc1Ljc1IDAgMSAwIDEuMDYtMS4wNkwxMS4wNiAxMGwxLjcyLTEuNzJhLjc1Ljc1IDAgMCAwLTEuMDYtMS4wNkwxMCA4Ljk0IDguMjggNy4yMloiIGNsaXAtcnVsZT0iZXZlbm9kZCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PC9zdmc+)
+{-| xCircle
 -}
 xCircle : List (Attribute msg) -> Html msg
 xCircle attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 20 20" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16ZM8.28 7.22a.75.75 0 0 0-1.06 1.06L8.94 10l-1.72 1.72a.75.75 0 1 0 1.06 1.06L10 11.06l1.72 1.72a.75.75 0 1 0 1.06-1.06L11.06 10l1.72-1.72a.75.75 0 0 0-1.06-1.06L10 8.94 8.28 7.22Z", clipRule "evenodd" ] [] ]
 
 
-{-| ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1zbG90PSJpY29uIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiPjxwYXRoIGQ9Ik02LjI4IDUuMjJhLjc1Ljc1IDAgMCAwLTEuMDYgMS4wNkw4Ljk0IDEwbC0zLjcyIDMuNzJhLjc1Ljc1IDAgMSAwIDEuMDYgMS4wNkwxMCAxMS4wNmwzLjcyIDMuNzJhLjc1Ljc1IDAgMSAwIDEuMDYtMS4wNkwxMS4wNiAxMGwzLjcyLTMuNzJhLjc1Ljc1IDAgMCAwLTEuMDYtMS4wNkwxMCA4Ljk0IDYuMjggNS4yMloiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIvPjwvc3ZnPg==)
+{-| xMark
 -}
 xMark : List (Attribute msg) -> Html msg
 xMark attrs =

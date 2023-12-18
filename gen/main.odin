@@ -139,15 +139,19 @@ xmlns =
 
 		write_xml(&tmp, doc, 0, size)
 
-		as_b64 := base64.encode(tmp.buf[:])
-
-		strings.write_string(builder, `
+		if false {
+			strings.write_string(builder, `
 
 {-| ![image](data:image/svg+xml;base64,`)
 
-		strings.write_string(builder, as_b64)
+			as_b64 := base64.encode(tmp.buf[:])
+			strings.write_string(builder, as_b64)
+			fmt.sbprintf(builder, `) -}}`)
+		} else {
+			fmt.sbprintf(builder, "\n\n{{-| %v -}}", fn_list[i])
+		}
 
-		fmt.sbprintf(builder, `) -}}
+		fmt.sbprintf(builder, `
 %[1]v : List (Attribute msg) -> Html msg
 %[1]v attrs = `, fn_list[i])
 
