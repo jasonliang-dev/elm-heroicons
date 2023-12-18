@@ -27,6 +27,8 @@ to_elm :: proc(builder: ^strings.Builder, doc: ^xml.Document, id: xml.Element_ID
 			key = "xmlns"
 		} else if attr.key == "aria-hidden" {
 			key = `VirtualDom.attribute "aria-hidden"`
+		} else if attr.key == "data-slot" {
+			key = `VirtualDom.attribute "data-slot"`
 		} else {
 			key = attrs[attr.key]
 		}
