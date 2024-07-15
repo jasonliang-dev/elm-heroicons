@@ -1,11 +1,11 @@
-module Heroicons.Micro exposing (academicCap, adjustmentsHorizontal, adjustmentsVertical, archiveBoxArrowDown, archiveBoxXMark, archiveBox, arrowDownCircle, arrowDownLeft, arrowDownOnSquareStack, arrowDownOnSquare, arrowDownRight, arrowDownTray, arrowDown, arrowLeftCircle, arrowLeftEndOnRectangle, arrowLeftStartOnRectangle, arrowLeft, arrowLongDown, arrowLongLeft, arrowLongRight, arrowLongUp, arrowPathRoundedSquare, arrowPath, arrowRightCircle, arrowRightEndOnRectangle, arrowRightStartOnRectangle, arrowRight, arrowTopRightOnSquare, arrowTrendingDown, arrowTrendingUp, arrowUpCircle, arrowUpLeft, arrowUpOnSquareStack, arrowUpOnSquare, arrowUpRight, arrowUpTray, arrowUp, arrowUturnDown, arrowUturnLeft, arrowUturnRight, arrowUturnUp, arrowsPointingIn, arrowsPointingOut, arrowsRightLeft, arrowsUpDown, atSymbol, backspace, backward, banknotes, bars2, bars3BottomLeft, bars3BottomRight, bars3CenterLeft, bars3, bars4, barsArrowDown, barsArrowUp, battery0, battery100, battery50, beaker, bellAlert, bellSlash, bellSnooze, bell, boltSlash, bolt, bookOpen, bookmarkSlash, bookmarkSquare, bookmark, briefcase, bugAnt, buildingLibrary, buildingOffice2, buildingOffice, buildingStorefront, cake, calculator, calendarDays, calendar, camera, chartBarSquare, chartBar, chartPie, chatBubbleBottomCenterText, chatBubbleBottomCenter, chatBubbleLeftEllipsis, chatBubbleLeftRight, chatBubbleLeft, chatBubbleOvalLeftEllipsis, chatBubbleOvalLeft, checkBadge, checkCircle, check, chevronDoubleDown, chevronDoubleLeft, chevronDoubleRight, chevronDoubleUp, chevronDown, chevronLeft, chevronRight, chevronUpDown, chevronUp, circleStack, clipboardDocumentCheck, clipboardDocumentList, clipboardDocument, clipboard, clock, cloudArrowDown, cloudArrowUp, cloud, codeBracketSquare, codeBracket, cog6Tooth, cog8Tooth, cog, commandLine, computerDesktop, cpuChip, creditCard, cubeTransparent, cube, currencyBangladeshi, currencyDollar, currencyEuro, currencyPound, currencyRupee, currencyYen, cursorArrowRays, cursorArrowRipple, devicePhoneMobile, deviceTablet, documentArrowDown, documentArrowUp, documentChartBar, documentCheck, documentDuplicate, documentMagnifyingGlass, documentMinus, documentPlus, documentText, document, ellipsisHorizontalCircle, ellipsisHorizontal, ellipsisVertical, envelopeOpen, envelope, exclamationCircle, exclamationTriangle, eyeDropper, eyeSlash, eye, faceFrown, faceSmile, film, fingerPrint, fire, flag, folderArrowDown, folderMinus, folderOpen, folderPlus, folder, forward, funnel, gif, giftTop, gift, globeAlt, globeAmericas, globeAsiaAustralia, globeEuropeAfrica, handRaised, handThumbDown, handThumbUp, hashtag, heart, homeModern, home, identification, inboxArrowDown, inboxStack, inbox, informationCircle, key, language, lifebuoy, lightBulb, link, listBullet, lockClosed, lockOpen, magnifyingGlassCircle, magnifyingGlassMinus, magnifyingGlassPlus, magnifyingGlass, mapPin, map, megaphone, microphone, minusCircle, minus, moon, musicalNote, newspaper, noSymbol, paintBrush, paperAirplane, paperClip, pauseCircle, pause, pencilSquare, pencil, phoneArrowDownLeft, phoneArrowUpRight, phoneXMark, phone, photo, playCircle, playPause, play, plusCircle, plus, power, presentationChartBar, presentationChartLine, printer, puzzlePiece, qrCode, questionMarkCircle, queueList, radio, receiptPercent, receiptRefund, rectangleGroup, rectangleStack, rocketLaunch, rss, scale, scissors, serverStack, server, share, shieldCheck, shieldExclamation, shoppingBag, shoppingCart, signalSlash, signal, sparkles, speakerWave, speakerXMark, square2Stack, square3Stack3d, squares2x2, squaresPlus, star, stopCircle, stop, sun, swatch, tableCells, tag, ticket, trash, trophy, truck, tv, userCircle, userGroup, userMinus, userPlus, user, users, variable, videoCameraSlash, videoCamera, viewColumns, viewfinderCircle, wallet, wifi, window, wrenchScrewdriver, wrench, xCircle, xMark)
+module Heroicons.Micro exposing (academicCap, adjustmentsHorizontal, adjustmentsVertical, archiveBoxArrowDown, archiveBoxXMark, archiveBox, arrowDownCircle, arrowDownLeft, arrowDownOnSquareStack, arrowDownOnSquare, arrowDownRight, arrowDownTray, arrowDown, arrowLeftCircle, arrowLeftEndOnRectangle, arrowLeftStartOnRectangle, arrowLeft, arrowLongDown, arrowLongLeft, arrowLongRight, arrowLongUp, arrowPathRoundedSquare, arrowPath, arrowRightCircle, arrowRightEndOnRectangle, arrowRightStartOnRectangle, arrowRight, arrowTopRightOnSquare, arrowTrendingDown, arrowTrendingUp, arrowTurnDownLeft, arrowTurnDownRight, arrowTurnLeftDown, arrowTurnLeftUp, arrowTurnRightDown, arrowTurnRightUp, arrowTurnUpLeft, arrowTurnUpRight, arrowUpCircle, arrowUpLeft, arrowUpOnSquareStack, arrowUpOnSquare, arrowUpRight, arrowUpTray, arrowUp, arrowUturnDown, arrowUturnLeft, arrowUturnRight, arrowUturnUp, arrowsPointingIn, arrowsPointingOut, arrowsRightLeft, arrowsUpDown, atSymbol, backspace, backward, banknotes, bars2, bars3BottomLeft, bars3BottomRight, bars3CenterLeft, bars3, bars4, barsArrowDown, barsArrowUp, battery0, battery100, battery50, beaker, bellAlert, bellSlash, bellSnooze, bell, bold, boltSlash, bolt, bookOpen, bookmarkSlash, bookmarkSquare, bookmark, briefcase, bugAnt, buildingLibrary, buildingOffice2, buildingOffice, buildingStorefront, cake, calculator, calendarDateRange, calendarDays, calendar, camera, chartBarSquare, chartBar, chartPie, chatBubbleBottomCenterText, chatBubbleBottomCenter, chatBubbleLeftEllipsis, chatBubbleLeftRight, chatBubbleLeft, chatBubbleOvalLeftEllipsis, chatBubbleOvalLeft, checkBadge, checkCircle, check, chevronDoubleDown, chevronDoubleLeft, chevronDoubleRight, chevronDoubleUp, chevronDown, chevronLeft, chevronRight, chevronUpDown, chevronUp, circleStack, clipboardDocumentCheck, clipboardDocumentList, clipboardDocument, clipboard, clock, cloudArrowDown, cloudArrowUp, cloud, codeBracketSquare, codeBracket, cog6Tooth, cog8Tooth, cog, commandLine, computerDesktop, cpuChip, creditCard, cubeTransparent, cube, currencyBangladeshi, currencyDollar, currencyEuro, currencyPound, currencyRupee, currencyYen, cursorArrowRays, cursorArrowRipple, devicePhoneMobile, deviceTablet, divide, documentArrowDown, documentArrowUp, documentChartBar, documentCheck, documentCurrencyBangladeshi, documentCurrencyDollar, documentCurrencyEuro, documentCurrencyPound, documentCurrencyRupee, documentCurrencyYen, documentDuplicate, documentMagnifyingGlass, documentMinus, documentPlus, documentText, document, ellipsisHorizontalCircle, ellipsisHorizontal, ellipsisVertical, envelopeOpen, envelope, equals, exclamationCircle, exclamationTriangle, eyeDropper, eyeSlash, eye, faceFrown, faceSmile, film, fingerPrint, fire, flag, folderArrowDown, folderMinus, folderOpen, folderPlus, folder, forward, funnel, gif, giftTop, gift, globeAlt, globeAmericas, globeAsiaAustralia, globeEuropeAfrica, h1, h2, h3, handRaised, handThumbDown, handThumbUp, hashtag, heart, homeModern, home, identification, inboxArrowDown, inboxStack, inbox, informationCircle, italic, key, language, lifebuoy, lightBulb, linkSlash, link, listBullet, lockClosed, lockOpen, magnifyingGlassCircle, magnifyingGlassMinus, magnifyingGlassPlus, magnifyingGlass, mapPin, map, megaphone, microphone, minusCircle, minus, moon, musicalNote, newspaper, noSymbol, numberedList, paintBrush, paperAirplane, paperClip, pauseCircle, pause, pencilSquare, pencil, percentBadge, phoneArrowDownLeft, phoneArrowUpRight, phoneXMark, phone, photo, playCircle, playPause, play, plusCircle, plus, power, presentationChartBar, presentationChartLine, printer, puzzlePiece, qrCode, questionMarkCircle, queueList, radio, receiptPercent, receiptRefund, rectangleGroup, rectangleStack, rocketLaunch, rss, scale, scissors, serverStack, server, share, shieldCheck, shieldExclamation, shoppingBag, shoppingCart, signalSlash, signal, slash, sparkles, speakerWave, speakerXMark, square2Stack, square3Stack3d, squares2x2, squaresPlus, star, stopCircle, stop, strikethrough, sun, swatch, tableCells, tag, ticket, trash, trophy, truck, tv, underline, userCircle, userGroup, userMinus, userPlus, user, users, variable, videoCameraSlash, videoCamera, viewColumns, viewfinderCircle, wallet, wifi, window, wrenchScrewdriver, wrench, xCircle, xMark)
 
 {-|
 
 
 # Heroicons
 
-@docs academicCap, adjustmentsHorizontal, adjustmentsVertical, archiveBoxArrowDown, archiveBoxXMark, archiveBox, arrowDownCircle, arrowDownLeft, arrowDownOnSquareStack, arrowDownOnSquare, arrowDownRight, arrowDownTray, arrowDown, arrowLeftCircle, arrowLeftEndOnRectangle, arrowLeftStartOnRectangle, arrowLeft, arrowLongDown, arrowLongLeft, arrowLongRight, arrowLongUp, arrowPathRoundedSquare, arrowPath, arrowRightCircle, arrowRightEndOnRectangle, arrowRightStartOnRectangle, arrowRight, arrowTopRightOnSquare, arrowTrendingDown, arrowTrendingUp, arrowUpCircle, arrowUpLeft, arrowUpOnSquareStack, arrowUpOnSquare, arrowUpRight, arrowUpTray, arrowUp, arrowUturnDown, arrowUturnLeft, arrowUturnRight, arrowUturnUp, arrowsPointingIn, arrowsPointingOut, arrowsRightLeft, arrowsUpDown, atSymbol, backspace, backward, banknotes, bars2, bars3BottomLeft, bars3BottomRight, bars3CenterLeft, bars3, bars4, barsArrowDown, barsArrowUp, battery0, battery100, battery50, beaker, bellAlert, bellSlash, bellSnooze, bell, boltSlash, bolt, bookOpen, bookmarkSlash, bookmarkSquare, bookmark, briefcase, bugAnt, buildingLibrary, buildingOffice2, buildingOffice, buildingStorefront, cake, calculator, calendarDays, calendar, camera, chartBarSquare, chartBar, chartPie, chatBubbleBottomCenterText, chatBubbleBottomCenter, chatBubbleLeftEllipsis, chatBubbleLeftRight, chatBubbleLeft, chatBubbleOvalLeftEllipsis, chatBubbleOvalLeft, checkBadge, checkCircle, check, chevronDoubleDown, chevronDoubleLeft, chevronDoubleRight, chevronDoubleUp, chevronDown, chevronLeft, chevronRight, chevronUpDown, chevronUp, circleStack, clipboardDocumentCheck, clipboardDocumentList, clipboardDocument, clipboard, clock, cloudArrowDown, cloudArrowUp, cloud, codeBracketSquare, codeBracket, cog6Tooth, cog8Tooth, cog, commandLine, computerDesktop, cpuChip, creditCard, cubeTransparent, cube, currencyBangladeshi, currencyDollar, currencyEuro, currencyPound, currencyRupee, currencyYen, cursorArrowRays, cursorArrowRipple, devicePhoneMobile, deviceTablet, documentArrowDown, documentArrowUp, documentChartBar, documentCheck, documentDuplicate, documentMagnifyingGlass, documentMinus, documentPlus, documentText, document, ellipsisHorizontalCircle, ellipsisHorizontal, ellipsisVertical, envelopeOpen, envelope, exclamationCircle, exclamationTriangle, eyeDropper, eyeSlash, eye, faceFrown, faceSmile, film, fingerPrint, fire, flag, folderArrowDown, folderMinus, folderOpen, folderPlus, folder, forward, funnel, gif, giftTop, gift, globeAlt, globeAmericas, globeAsiaAustralia, globeEuropeAfrica, handRaised, handThumbDown, handThumbUp, hashtag, heart, homeModern, home, identification, inboxArrowDown, inboxStack, inbox, informationCircle, key, language, lifebuoy, lightBulb, link, listBullet, lockClosed, lockOpen, magnifyingGlassCircle, magnifyingGlassMinus, magnifyingGlassPlus, magnifyingGlass, mapPin, map, megaphone, microphone, minusCircle, minus, moon, musicalNote, newspaper, noSymbol, paintBrush, paperAirplane, paperClip, pauseCircle, pause, pencilSquare, pencil, phoneArrowDownLeft, phoneArrowUpRight, phoneXMark, phone, photo, playCircle, playPause, play, plusCircle, plus, power, presentationChartBar, presentationChartLine, printer, puzzlePiece, qrCode, questionMarkCircle, queueList, radio, receiptPercent, receiptRefund, rectangleGroup, rectangleStack, rocketLaunch, rss, scale, scissors, serverStack, server, share, shieldCheck, shieldExclamation, shoppingBag, shoppingCart, signalSlash, signal, sparkles, speakerWave, speakerXMark, square2Stack, square3Stack3d, squares2x2, squaresPlus, star, stopCircle, stop, sun, swatch, tableCells, tag, ticket, trash, trophy, truck, tv, userCircle, userGroup, userMinus, userPlus, user, users, variable, videoCameraSlash, videoCamera, viewColumns, viewfinderCircle, wallet, wifi, window, wrenchScrewdriver, wrench, xCircle, xMark
+@docs academicCap, adjustmentsHorizontal, adjustmentsVertical, archiveBoxArrowDown, archiveBoxXMark, archiveBox, arrowDownCircle, arrowDownLeft, arrowDownOnSquareStack, arrowDownOnSquare, arrowDownRight, arrowDownTray, arrowDown, arrowLeftCircle, arrowLeftEndOnRectangle, arrowLeftStartOnRectangle, arrowLeft, arrowLongDown, arrowLongLeft, arrowLongRight, arrowLongUp, arrowPathRoundedSquare, arrowPath, arrowRightCircle, arrowRightEndOnRectangle, arrowRightStartOnRectangle, arrowRight, arrowTopRightOnSquare, arrowTrendingDown, arrowTrendingUp, arrowTurnDownLeft, arrowTurnDownRight, arrowTurnLeftDown, arrowTurnLeftUp, arrowTurnRightDown, arrowTurnRightUp, arrowTurnUpLeft, arrowTurnUpRight, arrowUpCircle, arrowUpLeft, arrowUpOnSquareStack, arrowUpOnSquare, arrowUpRight, arrowUpTray, arrowUp, arrowUturnDown, arrowUturnLeft, arrowUturnRight, arrowUturnUp, arrowsPointingIn, arrowsPointingOut, arrowsRightLeft, arrowsUpDown, atSymbol, backspace, backward, banknotes, bars2, bars3BottomLeft, bars3BottomRight, bars3CenterLeft, bars3, bars4, barsArrowDown, barsArrowUp, battery0, battery100, battery50, beaker, bellAlert, bellSlash, bellSnooze, bell, bold, boltSlash, bolt, bookOpen, bookmarkSlash, bookmarkSquare, bookmark, briefcase, bugAnt, buildingLibrary, buildingOffice2, buildingOffice, buildingStorefront, cake, calculator, calendarDateRange, calendarDays, calendar, camera, chartBarSquare, chartBar, chartPie, chatBubbleBottomCenterText, chatBubbleBottomCenter, chatBubbleLeftEllipsis, chatBubbleLeftRight, chatBubbleLeft, chatBubbleOvalLeftEllipsis, chatBubbleOvalLeft, checkBadge, checkCircle, check, chevronDoubleDown, chevronDoubleLeft, chevronDoubleRight, chevronDoubleUp, chevronDown, chevronLeft, chevronRight, chevronUpDown, chevronUp, circleStack, clipboardDocumentCheck, clipboardDocumentList, clipboardDocument, clipboard, clock, cloudArrowDown, cloudArrowUp, cloud, codeBracketSquare, codeBracket, cog6Tooth, cog8Tooth, cog, commandLine, computerDesktop, cpuChip, creditCard, cubeTransparent, cube, currencyBangladeshi, currencyDollar, currencyEuro, currencyPound, currencyRupee, currencyYen, cursorArrowRays, cursorArrowRipple, devicePhoneMobile, deviceTablet, divide, documentArrowDown, documentArrowUp, documentChartBar, documentCheck, documentCurrencyBangladeshi, documentCurrencyDollar, documentCurrencyEuro, documentCurrencyPound, documentCurrencyRupee, documentCurrencyYen, documentDuplicate, documentMagnifyingGlass, documentMinus, documentPlus, documentText, document, ellipsisHorizontalCircle, ellipsisHorizontal, ellipsisVertical, envelopeOpen, envelope, equals, exclamationCircle, exclamationTriangle, eyeDropper, eyeSlash, eye, faceFrown, faceSmile, film, fingerPrint, fire, flag, folderArrowDown, folderMinus, folderOpen, folderPlus, folder, forward, funnel, gif, giftTop, gift, globeAlt, globeAmericas, globeAsiaAustralia, globeEuropeAfrica, h1, h2, h3, handRaised, handThumbDown, handThumbUp, hashtag, heart, homeModern, home, identification, inboxArrowDown, inboxStack, inbox, informationCircle, italic, key, language, lifebuoy, lightBulb, linkSlash, link, listBullet, lockClosed, lockOpen, magnifyingGlassCircle, magnifyingGlassMinus, magnifyingGlassPlus, magnifyingGlass, mapPin, map, megaphone, microphone, minusCircle, minus, moon, musicalNote, newspaper, noSymbol, numberedList, paintBrush, paperAirplane, paperClip, pauseCircle, pause, pencilSquare, pencil, percentBadge, phoneArrowDownLeft, phoneArrowUpRight, phoneXMark, phone, photo, playCircle, playPause, play, plusCircle, plus, power, presentationChartBar, presentationChartLine, printer, puzzlePiece, qrCode, questionMarkCircle, queueList, radio, receiptPercent, receiptRefund, rectangleGroup, rectangleStack, rocketLaunch, rss, scale, scissors, serverStack, server, share, shieldCheck, shieldExclamation, shoppingBag, shoppingCart, signalSlash, signal, slash, sparkles, speakerWave, speakerXMark, square2Stack, square3Stack3d, squares2x2, squaresPlus, star, stopCircle, stop, strikethrough, sun, swatch, tableCells, tag, ticket, trash, trophy, truck, tv, underline, userCircle, userGroup, userMinus, userPlus, user, users, variable, videoCameraSlash, videoCamera, viewColumns, viewfinderCircle, wallet, wifi, window, wrenchScrewdriver, wrench, xCircle, xMark
 
 -}
 
@@ -229,6 +229,62 @@ arrowTrendingDown attrs =
 arrowTrendingUp : List (Attribute msg) -> Html msg
 arrowTrendingUp attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 16 16" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M9.808 4.057a.75.75 0 0 1 .92-.527l3.116.849a.75.75 0 0 1 .528.915l-.823 3.121a.75.75 0 0 1-1.45-.382l.337-1.281a23.484 23.484 0 0 0-3.609 3.056.75.75 0 0 1-1.07.01L6 8.06l-3.72 3.72a.75.75 0 1 1-1.06-1.061l4.25-4.25a.75.75 0 0 1 1.06 0l1.756 1.755a25.015 25.015 0 0 1 3.508-2.85l-1.46-.398a.75.75 0 0 1-.526-.92Z", clipRule "evenodd" ] [] ]
+
+
+{-| arrowTurnDownLeft
+-}
+arrowTurnDownLeft : List (Attribute msg) -> Html msg
+arrowTurnDownLeft attrs =
+    Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 16 16" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M13.25 2a.75.75 0 0 0-.75.75v6.5H4.56l.97-.97a.75.75 0 0 0-1.06-1.06L2.22 9.47a.75.75 0 0 0 0 1.06l2.25 2.25a.75.75 0 0 0 1.06-1.06l-.97-.97h8.69A.75.75 0 0 0 14 10V2.75a.75.75 0 0 0-.75-.75Z", clipRule "evenodd" ] [] ]
+
+
+{-| arrowTurnDownRight
+-}
+arrowTurnDownRight : List (Attribute msg) -> Html msg
+arrowTurnDownRight attrs =
+    Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 16 16" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M2.75 2a.75.75 0 0 1 .75.75v6.5h7.94l-.97-.97a.75.75 0 0 1 1.06-1.06l2.25 2.25a.75.75 0 0 1 0 1.06l-2.25 2.25a.75.75 0 1 1-1.06-1.06l.97-.97H2.75A.75.75 0 0 1 2 10V2.75A.75.75 0 0 1 2.75 2Z", clipRule "evenodd" ] [] ]
+
+
+{-| arrowTurnLeftDown
+-}
+arrowTurnLeftDown : List (Attribute msg) -> Html msg
+arrowTurnLeftDown attrs =
+    Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 16 16" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M5.47 2.22A.75.75 0 0 1 6 2h7.25a.75.75 0 0 1 0 1.5h-6.5v7.94l.97-.97a.75.75 0 0 1 1.06 1.06l-2.25 2.25a.75.75 0 0 1-1.06 0l-2.25-2.25a.75.75 0 1 1 1.06-1.06l.97.97V2.75a.75.75 0 0 1 .22-.53Z", clipRule "evenodd" ] [] ]
+
+
+{-| arrowTurnLeftUp
+-}
+arrowTurnLeftUp : List (Attribute msg) -> Html msg
+arrowTurnLeftUp attrs =
+    Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 16 16" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M14 13.25a.75.75 0 0 0-.75-.75h-6.5V4.56l.97.97a.75.75 0 0 0 1.06-1.06L6.53 2.22a.75.75 0 0 0-1.06 0L3.22 4.47a.75.75 0 0 0 1.06 1.06l.97-.97v8.69c0 .414.336.75.75.75h7.25a.75.75 0 0 0 .75-.75Z", clipRule "evenodd" ] [] ]
+
+
+{-| arrowTurnRightDown
+-}
+arrowTurnRightDown : List (Attribute msg) -> Html msg
+arrowTurnRightDown attrs =
+    Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 16 16" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M2 2.75c0 .414.336.75.75.75h6.5v7.94l-.97-.97a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.06 0l2.25-2.25a.75.75 0 1 0-1.06-1.06l-.97.97V2.75A.75.75 0 0 0 10 2H2.75a.75.75 0 0 0-.75.75Z", clipRule "evenodd" ] [] ]
+
+
+{-| arrowTurnRightUp
+-}
+arrowTurnRightUp : List (Attribute msg) -> Html msg
+arrowTurnRightUp attrs =
+    Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 16 16" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M2 13.25a.75.75 0 0 1 .75-.75h6.5V4.56l-.97.97a.75.75 0 0 1-1.06-1.06l2.25-2.25a.75.75 0 0 1 1.06 0l2.25 2.25a.75.75 0 0 1-1.06 1.06l-.97-.97v8.69A.75.75 0 0 1 10 14H2.75a.75.75 0 0 1-.75-.75Z", clipRule "evenodd" ] [] ]
+
+
+{-| arrowTurnUpLeft
+-}
+arrowTurnUpLeft : List (Attribute msg) -> Html msg
+arrowTurnUpLeft attrs =
+    Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 16 16" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M13.25 14a.75.75 0 0 1-.75-.75v-6.5H4.56l.97.97a.75.75 0 0 1-1.06 1.06L2.22 6.53a.75.75 0 0 1 0-1.06l2.25-2.25a.75.75 0 0 1 1.06 1.06l-.97.97h8.69A.75.75 0 0 1 14 6v7.25a.75.75 0 0 1-.75.75Z", clipRule "evenodd" ] [] ]
+
+
+{-| arrowTurnUpRight
+-}
+arrowTurnUpRight : List (Attribute msg) -> Html msg
+arrowTurnUpRight attrs =
+    Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 16 16" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M2.75 14a.75.75 0 0 0 .75-.75v-6.5h7.94l-.97.97a.75.75 0 0 0 1.06 1.06l2.25-2.25a.75.75 0 0 0 0-1.06l-2.25-2.25a.75.75 0 1 0-1.06 1.06l.97.97H2.75A.75.75 0 0 0 2 6v7.25c0 .414.336.75.75.75Z", clipRule "evenodd" ] [] ]
 
 
 {-| arrowUpCircle
@@ -476,6 +532,13 @@ bell attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 16 16" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M12 5a4 4 0 0 0-8 0v2.379a1.5 1.5 0 0 1-.44 1.06L2.294 9.707a1 1 0 0 0-.293.707V11a1 1 0 0 0 1 1h2a3 3 0 1 0 6 0h2a1 1 0 0 0 1-1v-.586a1 1 0 0 0-.293-.707L12.44 8.44A1.5 1.5 0 0 1 12 7.38V5Zm-5.5 7a1.5 1.5 0 0 0 3 0h-3Z", clipRule "evenodd" ] [] ]
 
 
+{-| bold
+-}
+bold : List (Attribute msg) -> Html msg
+bold attrs =
+    Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 16 16" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M3 3a1 1 0 0 1 1-1h5a3.5 3.5 0 0 1 2.843 5.541A3.75 3.75 0 0 1 9.25 14H4a1 1 0 0 1-1-1V3Zm2.5 3.5v-2H9a1 1 0 0 1 0 2H5.5Zm0 2.5v2.5h3.75a1.25 1.25 0 1 0 0-2.5H5.5Z", clipRule "evenodd" ] [] ]
+
+
 {-| boltSlash
 -}
 boltSlash : List (Attribute msg) -> Html msg
@@ -572,6 +635,13 @@ cake attrs =
 calculator : List (Attribute msg) -> Html msg
 calculator attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 16 16" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M5 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H5Zm.75 6a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5ZM5 3.75A.75.75 0 0 1 5.75 3h4.5a.75.75 0 0 1 0 1.5h-4.5A.75.75 0 0 1 5 3.75Zm.75 7.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5ZM5 10a.75.75 0 1 1 1.5 0A.75.75 0 0 1 5 10Zm5.25-3a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm-.75 3a.75.75 0 0 1 1.5 0v2.25a.75.75 0 0 1-1.5 0V10ZM8 7a.75.75 0 1 0 0 1.5A.75.75 0 0 0 8 7Zm-.75 5.25a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0Zm.75-3a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Z", clipRule "evenodd" ] [] ]
+
+
+{-| calendarDateRange
+-}
+calendarDateRange : List (Attribute msg) -> Html msg
+calendarDateRange attrs =
+    Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 16 16" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M5.75 7.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5ZM7.25 8.25A.75.75 0 0 1 8 7.5h2.25a.75.75 0 0 1 0 1.5H8a.75.75 0 0 1-.75-.75ZM5.75 9.5a.75.75 0 0 0 0 1.5H8a.75.75 0 0 0 0-1.5H5.75Z" ] [], Svg.path [ fillRule "evenodd", d "M4.75 1a.75.75 0 0 0-.75.75V3a2 2 0 0 0-2 2v7a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2V1.75a.75.75 0 0 0-1.5 0V3h-5V1.75A.75.75 0 0 0 4.75 1ZM3.5 7a1 1 0 0 1 1-1h7a1 1 0 0 1 1 1v4.5a1 1 0 0 1-1 1h-7a1 1 0 0 1-1-1V7Z", clipRule "evenodd" ] [] ]
 
 
 {-| calendarDays
@@ -959,6 +1029,13 @@ deviceTablet attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 16 16" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M7.25 11.5a.75.75 0 0 0 0 1.5h1.5a.75.75 0 0 0 0-1.5h-1.5Z" ] [], Svg.path [ fillRule "evenodd", d "M2 3.5A2.5 2.5 0 0 1 4.5 1h7A2.5 2.5 0 0 1 14 3.5v9a2.5 2.5 0 0 1-2.5 2.5h-7A2.5 2.5 0 0 1 2 12.5v-9Zm2.5-1h7a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1h-7a1 1 0 0 1-1-1v-9a1 1 0 0 1 1-1Z", clipRule "evenodd" ] [] ]
 
 
+{-| divide
+-}
+divide : List (Attribute msg) -> Html msg
+divide attrs =
+    Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 16 16" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M2 8a.75.75 0 0 1 .75-.75h10.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 8Z", clipRule "evenodd" ] [], Svg.path [ d "M9 3a1 1 0 1 1-2 0 1 1 0 0 1 2 0ZM9 13a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z" ] [] ]
+
+
 {-| documentArrowDown
 -}
 documentArrowDown : List (Attribute msg) -> Html msg
@@ -985,6 +1062,48 @@ documentChartBar attrs =
 documentCheck : List (Attribute msg) -> Html msg
 documentCheck attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 16 16" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M4 2a1.5 1.5 0 0 0-1.5 1.5v9A1.5 1.5 0 0 0 4 14h8a1.5 1.5 0 0 0 1.5-1.5V6.621a1.5 1.5 0 0 0-.44-1.06L9.94 2.439A1.5 1.5 0 0 0 8.878 2H4Zm6.713 4.16a.75.75 0 0 1 .127 1.053l-2.75 3.5a.75.75 0 0 1-1.078.106l-1.75-1.5a.75.75 0 1 1 .976-1.138l1.156.99L9.66 6.287a.75.75 0 0 1 1.053-.127Z", clipRule "evenodd" ] [] ]
+
+
+{-| documentCurrencyBangladeshi
+-}
+documentCurrencyBangladeshi : List (Attribute msg) -> Html msg
+documentCurrencyBangladeshi attrs =
+    Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 16 16" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M2.5 3.5A1.5 1.5 0 0 1 4 2h4.879a1.5 1.5 0 0 1 1.06.44l3.122 3.12a1.5 1.5 0 0 1 .439 1.061V12.5A1.5 1.5 0 0 1 12 14H4a1.5 1.5 0 0 1-1.5-1.5v-9ZM6 5.207a.75.75 0 0 1-.585-1.378A1.441 1.441 0 0 1 7.5 5.118V6h3.75a.75.75 0 0 1 0 1.5H7.5v3.25c0 .212.089.39.2.49.098.092.206.12.33.085.6-.167 1.151-.449 1.63-.821H9.5a.75.75 0 1 1 0-1.5h1.858a.75.75 0 0 1 .628 1.16 6.26 6.26 0 0 1-3.552 2.606 1.825 1.825 0 0 1-1.75-.425A2.17 2.17 0 0 1 6 10.75V7.5H4.75a.75.75 0 0 1 0-1.5H6v-.793Z", clipRule "evenodd" ] [] ]
+
+
+{-| documentCurrencyDollar
+-}
+documentCurrencyDollar : List (Attribute msg) -> Html msg
+documentCurrencyDollar attrs =
+    Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 16 16" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M6.621 6.584c.208-.026.418-.046.629-.06v1.034l-.598-.138a.227.227 0 0 1-.116-.065.094.094 0 0 1-.028-.06 5.345 5.345 0 0 1 .002-.616.082.082 0 0 1 .025-.055.144.144 0 0 1 .086-.04ZM8.75 10.475V9.443l.594.137a.227.227 0 0 1 .116.065.094.094 0 0 1 .028.06 5.355 5.355 0 0 1-.002.616.082.082 0 0 1-.025.055.144.144 0 0 1-.086.04c-.207.026-.415.045-.625.06Z" ] [], Svg.path [ fillRule "evenodd", d "M2.5 3.5A1.5 1.5 0 0 1 4 2h4.879a1.5 1.5 0 0 1 1.06.44l3.122 3.12a1.5 1.5 0 0 1 .439 1.061V12.5A1.5 1.5 0 0 1 12 14H4a1.5 1.5 0 0 1-1.5-1.5v-9Zm6.25 1.25a.75.75 0 0 0-1.5 0v.272c-.273.016-.543.04-.81.073-.748.09-1.38.689-1.428 1.494a6.836 6.836 0 0 0-.002.789c.044.785.635 1.348 1.305 1.503l.935.216v1.379a11.27 11.27 0 0 1-1.36-.173.75.75 0 1 0-.28 1.474c.536.102 1.084.17 1.64.202v.271a.75.75 0 0 0 1.5 0v-.272c.271-.016.54-.04.807-.073.747-.09 1.378-.689 1.427-1.494a6.843 6.843 0 0 0 .002-.789c-.044-.785-.635-1.348-1.305-1.503l-.931-.215v-1.38c.46.03.913.089 1.356.173a.75.75 0 0 0 .28-1.474 12.767 12.767 0 0 0-1.636-.201V4.75Z", clipRule "evenodd" ] [] ]
+
+
+{-| documentCurrencyEuro
+-}
+documentCurrencyEuro : List (Attribute msg) -> Html msg
+documentCurrencyEuro attrs =
+    Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 16 16" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M2.5 3.5A1.5 1.5 0 0 1 4 2h4.879a1.5 1.5 0 0 1 1.06.44l3.122 3.12a1.5 1.5 0 0 1 .439 1.061V12.5A1.5 1.5 0 0 1 12 14H4a1.5 1.5 0 0 1-1.5-1.5v-9Zm4.552 2.734c.354-.59.72-.734.948-.734.228 0 .594.145.948.734a.75.75 0 1 0 1.286-.772C9.71 4.588 8.924 4 8 4c-.924 0-1.71.588-2.234 1.462-.192.32-.346.67-.464 1.038H4.75a.75.75 0 0 0 0 1.5h.268a7.003 7.003 0 0 0 0 1H4.75a.75.75 0 0 0 0 1.5h.552c.118.367.272.717.464 1.037C6.29 12.412 7.076 13 8 13c.924 0 1.71-.588 2.234-1.463a.75.75 0 0 0-1.286-.771c-.354.59-.72.734-.948.734-.228 0-.594-.145-.948-.734a3.078 3.078 0 0 1-.142-.266h.34a.75.75 0 0 0 0-1.5h-.727a5.496 5.496 0 0 1 0-1h.727a.75.75 0 0 0 0-1.5h-.34a3.08 3.08 0 0 1 .142-.266Z", clipRule "evenodd" ] [] ]
+
+
+{-| documentCurrencyPound
+-}
+documentCurrencyPound : List (Attribute msg) -> Html msg
+documentCurrencyPound attrs =
+    Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 16 16" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M2.5 3.5A1.5 1.5 0 0 1 4 2h4.879a1.5 1.5 0 0 1 1.06.44l3.122 3.12a1.5 1.5 0 0 1 .439 1.061V12.5A1.5 1.5 0 0 1 12 14H4a1.5 1.5 0 0 1-1.5-1.5v-9Zm5.44 3.44a1.5 1.5 0 0 1 2.12 0 .75.75 0 1 0 1.061-1.061A3 3 0 0 0 6 7.999H4.75a.75.75 0 0 0 0 1.5h1.225c-.116.571-.62 1-1.225 1a.75.75 0 1 0 0 1.5h5.5a.75.75 0 0 0 0-1.5H7.2c.156-.304.257-.642.289-1H9.25a.75.75 0 0 0 0-1.5H7.5c0-.384.146-.767.44-1.06Z", clipRule "evenodd" ] [] ]
+
+
+{-| documentCurrencyRupee
+-}
+documentCurrencyRupee : List (Attribute msg) -> Html msg
+documentCurrencyRupee attrs =
+    Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 16 16" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M2.5 3.5A1.5 1.5 0 0 1 4 2h4.879a1.5 1.5 0 0 1 1.06.44l3.122 3.12a1.5 1.5 0 0 1 .439 1.061V12.5A1.5 1.5 0 0 1 12 14H4a1.5 1.5 0 0 1-1.5-1.5v-9ZM5.75 5a.75.75 0 0 0 0 1.5c.698 0 1.3.409 1.582 1H5.75a.75.75 0 0 0 0 1.5h1.582c-.281.591-.884 1-1.582 1a.75.75 0 0 0-.53 1.28l1.5 1.5a.75.75 0 0 0 1.06-1.06l-.567-.567A3.256 3.256 0 0 0 8.913 9h1.337a.75.75 0 0 0 0-1.5H8.913a3.232 3.232 0 0 0-.424-1h1.761a.75.75 0 0 0 0-1.5h-4.5Z", clipRule "evenodd" ] [] ]
+
+
+{-| documentCurrencyYen
+-}
+documentCurrencyYen : List (Attribute msg) -> Html msg
+documentCurrencyYen attrs =
+    Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 16 16" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M2.5 3.5A1.5 1.5 0 0 1 4 2h4.879a1.5 1.5 0 0 1 1.06.44l3.122 3.12a1.5 1.5 0 0 1 .439 1.061V12.5A1.5 1.5 0 0 1 12 14H4a1.5 1.5 0 0 1-1.5-1.5v-9Zm3.663 1.801a.75.75 0 1 0-1.2.9L6.313 8H5a.75.75 0 0 0 0 1.5h2.25v1H5A.75.75 0 0 0 5 12h2.25v.25a.75.75 0 0 0 1.5 0V12H11a.75.75 0 0 0 0-1.5H8.75v-1H11A.75.75 0 0 0 11 8H9.687l1.35-1.799a.75.75 0 0 0-1.2-.9L8 7.75 6.163 5.3Z", clipRule "evenodd" ] [] ]
 
 
 {-| documentDuplicate
@@ -1062,6 +1181,13 @@ envelopeOpen attrs =
 envelope : List (Attribute msg) -> Html msg
 envelope attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 16 16" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M2.5 3A1.5 1.5 0 0 0 1 4.5v.793c.026.009.051.02.076.032L7.674 8.51c.206.1.446.1.652 0l6.598-3.185A.755.755 0 0 1 15 5.293V4.5A1.5 1.5 0 0 0 13.5 3h-11Z" ] [], Svg.path [ d "M15 6.954 8.978 9.86a2.25 2.25 0 0 1-1.956 0L1 6.954V11.5A1.5 1.5 0 0 0 2.5 13h11a1.5 1.5 0 0 0 1.5-1.5V6.954Z" ] [] ]
+
+
+{-| equals
+-}
+equals : List (Attribute msg) -> Html msg
+equals attrs =
+    Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 16 16" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M2 4.75A.75.75 0 0 1 2.75 4h10.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 4.75ZM2 11.25a.75.75 0 0 1 .75-.75h10.5a.75.75 0 0 1 0 1.5H2.75a.75.75 0 0 1-.75-.75Z", clipRule "evenodd" ] [] ]
 
 
 {-| exclamationCircle
@@ -1239,6 +1365,27 @@ globeEuropeAfrica attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 16 16" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M8 1a7 7 0 1 0 0 14A7 7 0 0 0 8 1ZM5.657 3.023a5.5 5.5 0 1 0 7.584 3.304l-.947-.63a.431.431 0 0 0-.544.053.431.431 0 0 1-.544.054l-.467-.312a.475.475 0 0 0-.689.608l.226.453a2.119 2.119 0 0 1 0 1.894L10.1 8.8a.947.947 0 0 0-.1.424v.11a2 2 0 0 1-.4 1.2L8.8 11.6A1 1 0 0 1 7 11v-.382a1 1 0 0 0-.553-.894l-.422-.212A1.854 1.854 0 0 1 6.855 6h.707a.438.438 0 1 0-.107-.864l-.835.209a1.129 1.129 0 0 1-1.305-1.553l.342-.77Z", clipRule "evenodd" ] [] ]
 
 
+{-| h1
+-}
+h1 : List (Attribute msg) -> Html msg
+h1 attrs =
+    Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 16 16" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M1.75 3a.75.75 0 0 1 .75.75v3.5h4v-3.5a.75.75 0 0 1 1.5 0v8.5a.75.75 0 0 1-1.5 0v-3.5h-4v3.5a.75.75 0 0 1-1.5 0v-8.5A.75.75 0 0 1 1.75 3ZM10 6.75a.75.75 0 0 1 .75-.75h1.75a.75.75 0 0 1 .75.75v4.75h1a.75.75 0 0 1 0 1.5h-3.5a.75.75 0 0 1 0-1.5h1v-4h-1a.75.75 0 0 1-.75-.75Z", clipRule "evenodd" ] [] ]
+
+
+{-| h2
+-}
+h2 : List (Attribute msg) -> Html msg
+h2 attrs =
+    Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 16 16" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M1.75 3a.75.75 0 0 1 .75.75v3.5h4v-3.5a.75.75 0 0 1 1.5 0v8.5a.75.75 0 0 1-1.5 0v-3.5h-4v3.5a.75.75 0 0 1-1.5 0v-8.5A.75.75 0 0 1 1.75 3ZM12.5 7.5c-.558 0-1.106.04-1.642.119a.75.75 0 0 1-.216-1.484 12.848 12.848 0 0 1 2.836-.098A1.629 1.629 0 0 1 14.99 7.58a8.884 8.884 0 0 1-.021 1.166c-.06.702-.553 1.24-1.159 1.441l-2.14.713a.25.25 0 0 0-.17.237v.363h2.75a.75.75 0 0 1 0 1.5h-3.5a.75.75 0 0 1-.75-.75v-1.113a1.75 1.75 0 0 1 1.197-1.66l2.139-.713c.1-.033.134-.103.138-.144a7.344 7.344 0 0 0 .018-.97c-.003-.052-.046-.111-.128-.117A11.417 11.417 0 0 0 12.5 7.5Z", clipRule "evenodd" ] [] ]
+
+
+{-| h3
+-}
+h3 : List (Attribute msg) -> Html msg
+h3 attrs =
+    Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 16 16" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M1.75 3a.75.75 0 0 1 .75.75v3.5h4v-3.5a.75.75 0 0 1 1.5 0v8.5a.75.75 0 0 1-1.5 0v-3.5h-4v3.5a.75.75 0 0 1-1.5 0v-8.5A.75.75 0 0 1 1.75 3ZM12.5 7.5c-.558 0-1.107.04-1.642.119a.75.75 0 0 1-.217-1.484 12.851 12.851 0 0 1 2.856-.097c.696.054 1.363.561 1.464 1.353a4.805 4.805 0 0 1-.203 2.109 4.745 4.745 0 0 1 .203 2.109c-.101.792-.768 1.299-1.464 1.353a12.955 12.955 0 0 1-2.856-.097.75.75 0 0 1 .217-1.484 11.351 11.351 0 0 0 2.523.085.14.14 0 0 0 .08-.03c.007-.006.01-.012.01-.012l.002-.003v-.003a3.29 3.29 0 0 0-.06-1.168H11.75a.75.75 0 0 1 0-1.5h1.663a3.262 3.262 0 0 0 .06-1.168l-.001-.006-.01-.012a.14.14 0 0 0-.08-.03c-.291-.023-.585-.034-.882-.034Z", clipRule "evenodd" ] [] ]
+
+
 {-| handRaised
 -}
 handRaised : List (Attribute msg) -> Html msg
@@ -1323,6 +1470,13 @@ informationCircle attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 16 16" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M15 8A7 7 0 1 1 1 8a7 7 0 0 1 14 0ZM9 5a1 1 0 1 1-2 0 1 1 0 0 1 2 0ZM6.75 8a.75.75 0 0 0 0 1.5h.75v1.75a.75.75 0 0 0 1.5 0v-2.5A.75.75 0 0 0 8.25 8h-1.5Z", clipRule "evenodd" ] [] ]
 
 
+{-| italic
+-}
+italic : List (Attribute msg) -> Html msg
+italic attrs =
+    Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 16 16" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M6.25 2.75A.75.75 0 0 1 7 2h6a.75.75 0 0 1 0 1.5h-2.483l-3.429 9H9A.75.75 0 0 1 9 14H3a.75.75 0 0 1 0-1.5h2.483l3.429-9H7a.75.75 0 0 1-.75-.75Z", clipRule "evenodd" ] [] ]
+
+
 {-| key
 -}
 key : List (Attribute msg) -> Html msg
@@ -1349,6 +1503,13 @@ lifebuoy attrs =
 lightBulb : List (Attribute msg) -> Html msg
 lightBulb attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 16 16" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M10.618 10.26c-.361.223-.618.598-.618 1.022 0 .226-.142.43-.36.49A6.006 6.006 0 0 1 8 12c-.569 0-1.12-.08-1.64-.227a.504.504 0 0 1-.36-.491c0-.424-.257-.799-.618-1.021a5 5 0 1 1 5.235 0ZM6.867 13.415a.75.75 0 1 0-.225 1.483 9.065 9.065 0 0 0 2.716 0 .75.75 0 1 0-.225-1.483 7.563 7.563 0 0 1-2.266 0Z" ] [] ]
+
+
+{-| linkSlash
+-}
+linkSlash : List (Attribute msg) -> Html msg
+linkSlash attrs =
+    Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 16 16" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M3.28 2.22a.75.75 0 0 0-1.06 1.06l10.5 10.5a.75.75 0 1 0 1.06-1.06l-2.999-3a3.5 3.5 0 0 0-.806-3.695.75.75 0 0 0-1.06 1.061c.374.374.569.861.584 1.352L7.116 6.055l1.97-1.97a2 2 0 0 1 3.208 2.3.75.75 0 0 0 1.346.662 3.501 3.501 0 0 0-5.615-4.022l-1.97 1.97L3.28 2.22ZM3.705 9.616a.75.75 0 0 0-1.345-.663 3.501 3.501 0 0 0 5.615 4.022l.379-.379a.75.75 0 0 0-1.061-1.06l-.379.378a2 2 0 0 1-3.209-2.298Z" ] [] ]
 
 
 {-| link
@@ -1477,6 +1638,13 @@ noSymbol attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 16 16" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M3.05 3.05a7 7 0 1 1 9.9 9.9 7 7 0 0 1-9.9-9.9Zm1.627.566 7.707 7.707a5.501 5.501 0 0 0-7.707-7.707Zm6.646 8.768L3.616 4.677a5.501 5.501 0 0 0 7.707 7.707Z", clipRule "evenodd" ] [] ]
 
 
+{-| numberedList
+-}
+numberedList : List (Attribute msg) -> Html msg
+numberedList attrs =
+    Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 16 16" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M2.995 1a.625.625 0 1 0 0 1.25h.38v2.125a.625.625 0 1 0 1.25 0v-2.75A.625.625 0 0 0 4 1H2.995ZM3.208 7.385a2.37 2.37 0 0 1 1.027-.124L2.573 8.923a.625.625 0 0 0 .439 1.067l1.987.011a.625.625 0 0 0 .006-1.25l-.49-.003.777-.776c.215-.215.335-.506.335-.809 0-.465-.297-.957-.842-1.078a3.636 3.636 0 0 0-1.993.121.625.625 0 1 0 .416 1.179ZM2.625 11a.625.625 0 1 0 0 1.25H4.25a.125.125 0 0 1 0 .25H3.5a.625.625 0 1 0 0 1.25h.75a.125.125 0 0 1 0 .25H2.625a.625.625 0 1 0 0 1.25H4.25a1.375 1.375 0 0 0 1.153-2.125A1.375 1.375 0 0 0 4.25 11H2.625ZM7.25 2a.75.75 0 0 0 0 1.5h6a.75.75 0 0 0 0-1.5h-6ZM7.25 7.25a.75.75 0 0 0 0 1.5h6a.75.75 0 0 0 0-1.5h-6ZM6.5 13.25a.75.75 0 0 1 .75-.75h6a.75.75 0 0 1 0 1.5h-6a.75.75 0 0 1-.75-.75Z" ] [] ]
+
+
 {-| paintBrush
 -}
 paintBrush : List (Attribute msg) -> Html msg
@@ -1524,6 +1692,13 @@ pencilSquare attrs =
 pencil : List (Attribute msg) -> Html msg
 pencil attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 16 16" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M11.013 2.513a1.75 1.75 0 0 1 2.475 2.474L6.226 12.25a2.751 2.751 0 0 1-.892.596l-2.047.848a.75.75 0 0 1-.98-.98l.848-2.047a2.75 2.75 0 0 1 .596-.892l7.262-7.261Z", clipRule "evenodd" ] [] ]
+
+
+{-| percentBadge
+-}
+percentBadge : List (Attribute msg) -> Html msg
+percentBadge attrs =
+    Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 16 16" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M3.396 6.093a2 2 0 0 0 0 3.814 2 2 0 0 0 2.697 2.697 2 2 0 0 0 3.814 0 2.001 2.001 0 0 0 2.698-2.697 2 2 0 0 0-.001-3.814 2.001 2.001 0 0 0-2.697-2.698 2 2 0 0 0-3.814.001 2 2 0 0 0-2.697 2.697ZM6 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm3.47-1.53a.75.75 0 1 1 1.06 1.06l-4 4a.75.75 0 1 1-1.06-1.06l4-4ZM11 10a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z", clipRule "evenodd" ] [] ]
 
 
 {-| phoneArrowDownLeft
@@ -1778,6 +1953,13 @@ signal attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 16 16" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M9 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z" ] [], Svg.path [ fillRule "evenodd", d "M9.68 5.26a.75.75 0 0 1 1.06 0 3.875 3.875 0 0 1 0 5.48.75.75 0 1 1-1.06-1.06 2.375 2.375 0 0 0 0-3.36.75.75 0 0 1 0-1.06Zm-3.36 0a.75.75 0 0 1 0 1.06 2.375 2.375 0 0 0 0 3.36.75.75 0 1 1-1.06 1.06 3.875 3.875 0 0 1 0-5.48.75.75 0 0 1 1.06 0Z", clipRule "evenodd" ] [], Svg.path [ fillRule "evenodd", d "M11.89 3.05a.75.75 0 0 1 1.06 0 7 7 0 0 1 0 9.9.75.75 0 1 1-1.06-1.06 5.5 5.5 0 0 0 0-7.78.75.75 0 0 1 0-1.06Zm-7.78 0a.75.75 0 0 1 0 1.06 5.5 5.5 0 0 0 0 7.78.75.75 0 1 1-1.06 1.06 7 7 0 0 1 0-9.9.75.75 0 0 1 1.06 0Z", clipRule "evenodd" ] [] ]
 
 
+{-| slash
+-}
+slash : List (Attribute msg) -> Html msg
+slash attrs =
+    Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 16 16" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M10.074 2.047a.75.75 0 0 1 .449.961L6.705 13.507a.75.75 0 0 1-1.41-.513L9.113 2.496a.75.75 0 0 1 .961-.449Z", clipRule "evenodd" ] [] ]
+
+
 {-| sparkles
 -}
 sparkles : List (Attribute msg) -> Html msg
@@ -1848,6 +2030,13 @@ stop attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 16 16" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.rect [ width "10", height "10", x "3", y "3", rx "1.5" ] [] ]
 
 
+{-| strikethrough
+-}
+strikethrough : List (Attribute msg) -> Html msg
+strikethrough attrs =
+    Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 16 16" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M9.165 3.654c-.95-.255-1.921-.273-2.693-.042-.769.231-1.087.624-1.173.947-.087.323-.008.822.543 1.407.389.412.927.77 1.55 1.034H13a.75.75 0 0 1 0 1.5H3A.75.75 0 0 1 3 7h1.756l-.006-.006c-.787-.835-1.161-1.849-.9-2.823.26-.975 1.092-1.666 2.191-1.995 1.097-.33 2.36-.28 3.512.029.75.2 1.478.518 2.11.939a.75.75 0 0 1-.833 1.248 5.682 5.682 0 0 0-1.665-.738Zm2.074 6.365a.75.75 0 0 1 .91.543 2.44 2.44 0 0 1-.35 2.024c-.405.585-1.052 1.003-1.84 1.24-1.098.329-2.36.279-3.512-.03-1.152-.308-2.27-.897-3.056-1.73a.75.75 0 0 1 1.092-1.029c.552.586 1.403 1.056 2.352 1.31.95.255 1.92.273 2.692.042.55-.165.873-.417 1.038-.656a.942.942 0 0 0 .13-.803.75.75 0 0 1 .544-.91Z", clipRule "evenodd" ] [] ]
+
+
 {-| sun
 -}
 sun : List (Attribute msg) -> Html msg
@@ -1909,6 +2098,13 @@ truck attrs =
 tv : List (Attribute msg) -> Html msg
 tv attrs =
     Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 16 16" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ d "M12 5H4v4h8V5Z" ] [], Svg.path [ fillRule "evenodd", d "M1 3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1h-4v1.5h2.25a.75.75 0 0 1 0 1.5h-8.5a.75.75 0 0 1 0-1.5H6V12H2a1 1 0 0 1-1-1V3Zm1.5 7.5v-7h11v7h-11Z", clipRule "evenodd" ] [] ]
+
+
+{-| underline
+-}
+underline : List (Attribute msg) -> Html msg
+underline attrs =
+    Svg.svg (xmlns "http://www.w3.org/2000/svg" :: viewBox "0 0 16 16" :: fill "currentColor" :: VirtualDom.attribute "aria-hidden" "true" :: VirtualDom.attribute "data-slot" "icon" :: attrs) [ Svg.path [ fillRule "evenodd", d "M4.75 2a.75.75 0 0 1 .75.75V7a2.5 2.5 0 0 0 5 0V2.75a.75.75 0 0 1 1.5 0V7a4 4 0 0 1-8 0V2.75A.75.75 0 0 1 4.75 2ZM2 13.25a.75.75 0 0 1 .75-.75h10.5a.75.75 0 0 1 0 1.5H2.75a.75.75 0 0 1-.75-.75Z", clipRule "evenodd" ] [] ]
 
 
 {-| userCircle

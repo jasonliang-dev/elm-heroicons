@@ -1,11 +1,13 @@
 package main
 
+import "base:runtime"
 import "core:c/libc"
 import "core:encoding/base64"
 import "core:encoding/xml"
 import "core:fmt"
 import "core:io"
 import "core:os"
+import "core:slice"
 import "core:strings"
 
 to_elm :: proc(builder: ^strings.Builder, doc: ^xml.Document, id: xml.Element_ID) {
@@ -22,7 +24,7 @@ to_elm :: proc(builder: ^strings.Builder, doc: ^xml.Document, id: xml.Element_ID
 			strings.write_string(builder, id == 0 ? " :: " : ", ")
 		}
 
-		key : string
+		key: string
 		if attr.key == "xmlns" {
 			key = "xmlns"
 		} else if attr.key == "aria-hidden" {
@@ -63,7 +65,7 @@ write_xml :: proc(builder: ^strings.Builder, doc: ^xml.Document, id: xml.Element
 		fmt.sbprintf(builder, ` %v="%v"`, attr.key, attr.val)
 	}
 
-	fmt.sbprintf(builder, ` width="%[1]v" height="%[1]v"`, size)
+	fmt.sbprintf(builder, ` width="%[0]v" height="%[0]v"`, size)
 
 	if len(el.value) > 0 {
 		strings.write_rune(builder, '>')
@@ -82,11 +84,11 @@ generate :: proc(builder: ^strings.Builder, size: int, path: string, module: str
 	fmt.printf("generating %v...", outfile)
 
 	dir, err := os.open(path)
-	defer os.close(dir)
 	if err != 0 {
 		fmt.eprintf("cannot open directory %v, (errno %v)\n", path, err)
 		os.exit(1)
 	}
+	defer os.close(dir)
 
 	infos: []os.File_Info
 	infos, err = os.read_dir(dir, 0)
@@ -95,22 +97,26 @@ generate :: proc(builder: ^strings.Builder, size: int, path: string, module: str
 		os.exit(1)
 	}
 
-	fn_list: [dynamic]string
+	slice.sort_by(infos, proc(lhs: os.File_Info, rhs: os.File_Info) -> bool {
+		return runtime.string_lt(lhs.name, rhs.name)
+	})
 
-	for info in infos {
+	fn_list := make([]string, len(infos))
+
+	for info, i in infos {
 		file_name := strings.trim_suffix(info.name, ".svg")
-		append(&fn_list, strings.to_camel_case(file_name))
+		fn_list[i] = strings.to_camel_case(file_name)
 	}
 	fn_list_str := strings.join(fn_list[:], ", ")
 
-	fmt.sbprintf(builder, `module Heroicons.%[1]v exposing (%[2]v)
+	fmt.sbprintf(builder, `module Heroicons.%[0]v exposing (%[1]v)
 
 {{-|
 
 
 # Heroicons
 
-@docs %[2]v
+@docs %[1]v
 
 -}}
 
@@ -152,8 +158,8 @@ xmlns =
 		}
 
 		fmt.sbprintf(builder, `
-%[1]v : List (Attribute msg) -> Html msg
-%[1]v attrs = `, fn_list[i])
+%[0]v : List (Attribute msg) -> Html msg
+%[0]v attrs = `, fn_list[i])
 
 		to_elm(builder, doc, 0)
 	}
